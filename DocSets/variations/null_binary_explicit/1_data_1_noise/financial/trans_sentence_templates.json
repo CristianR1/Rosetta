@@ -1,0 +1,1349 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "61ddf0485e09451f": "account_id",
+    "f24aaf6159674202": "date",
+    "93b4dbdb43e641a8": "type",
+    "78f1a757b8fc4a5c": "operation",
+    "865f1dd222bf49b8": "amount",
+    "fa1c70e71b7a4cf6": "balance",
+    "649bdda0fbaf4850": "k_symbol",
+    "56165c7577c1427d": "bank",
+    "72d54672bc5c48cc": "account",
+    "ebead42db8764982": "trans_id"
+  },
+  "templates": [
+    {
+      "original": "The financial transaction recorded with the identifier 1 plays a crucial role in tracking and managing payment history.",
+      "template_pattern": "The financial transaction recorded with the identifier [TRANS_ID] plays a crucial role in tracking and managing payment history.",
+      "primary_data_fields": [
+        "trans_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The financial transaction bearing trans id [TRANS_ID] is essential for monitoring and handling payment history.",
+        "With trans id [TRANS_ID], the recorded financial transaction serves a vital function in tracking and managing payment history.",
+        "Tracking and managing payment history relies heavily on the financial transaction identified as trans id [TRANS_ID].",
+        "A crucial role in overseeing payment history is played by the financial transaction that carries trans id [TRANS_ID].",
+        "The payment history’s tracking and management depend on the financial transaction marked with trans id [TRANS_ID].",
+        "Financial transaction trans id [TRANS_ID], once recorded, becomes a key element for tracing and administrating payment history.",
+        "By virtue of its trans id [TRANS_ID], the financial transaction is pivotal in the oversight of payment history.",
+        "The oversight of payment history is anchored by the financial transaction logged under trans id [TRANS_ID].",
+        "Payment history can be effectively tracked and managed thanks to the financial transaction designated trans id [TRANS_ID].",
+        "Recorded as trans id [TRANS_ID], the financial transaction plays an indispensable part in supervising payment history.",
+        "In the realm of payment history, the financial transaction with trans id [TRANS_ID] fulfills a critical tracking and management role.",
+        "The presence of trans id [TRANS_ID] in a financial transaction underpins the systematic tracking and handling of payment history.",
+        "For monitoring and administrating payment history, the financial transaction identified by trans id [TRANS_ID] is indispensable.",
+        "The financial transaction, noted as trans id [TRANS_ID], acts as a cornerstone in the tracking and management of payment history.",
+        "Payment history tracking and management hinge on the financial transaction that carries trans id [TRANS_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "role": [
+          "role",
+          "function",
+          "office"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trail",
+          "trailing",
+          "tag"
+        ],
+        "managing": [
+          "managing",
+          "manage",
+          "supervise",
+          "oversee",
+          "superintend",
+          "handle"
+        ],
+        "payment": [
+          "payment"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "history": [
+          "history",
+          "chronicle",
+          "account"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "plays": [
+          "plays",
+          "act",
+          "represent",
+          "work",
+          "run"
+        ]
+      },
+      "field_data_types": {
+        "trans_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As financial records are carefully maintained, each entry plays a crucial role in the broader financial ecosystem.",
+      "template_pattern": "As financial records are carefully maintained, each entry plays a crucial role in the broader financial ecosystem.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Since the financial records are meticulously kept, every entry plays an essential role in the wider financial ecosystem.",
+        "Every entry contributes critically to the broader financial ecosystem, given that the financial records are carefully maintained.",
+        "With financial records being scrupulously maintained, each record entry becomes a key element of the larger financial ecosystem.",
+        "The careful maintenance of financial records ensures that each entry serves a pivotal function within the expansive financial ecosystem.",
+        "Because financial records are diligently preserved, each individual entry holds a crucial place in the overall financial ecosystem.",
+        "Each entry, amidst rigorously maintained financial records, performs a vital role in the extensive financial ecosystem.",
+        "In a system where financial records are attentively kept, every entry is indispensable to the broader financial ecosystem.",
+        "Financial records are maintained with great care, making each entry indispensable to the wider financial ecosystem.",
+        "Given the careful upkeep of financial records, each entry plays a fundamental part in the comprehensive financial ecosystem.",
+        "The meticulous upkeep of financial records means that each entry is crucial to the larger financial ecosystem.",
+        "As financial records receive careful maintenance, every entry assumes a critical role in the expansive financial ecosystem.",
+        "Each entry, under the careful stewardship of financial records, is essential to the broader financial ecosystem.",
+        "When financial records are stringently maintained, each entry becomes a cornerstone of the wider financial ecosystem.",
+        "Because the financial records are maintained with precision, each entry contributes significantly to the overall financial ecosystem.",
+        "Each entry's importance to the broader financial ecosystem stems from the careful maintenance of the financial records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "role": [
+          "role",
+          "office",
+          "function",
+          "part"
+        ],
+        "entry": [
+          "entry",
+          "introduction",
+          "submission",
+          "ingress",
+          "entrance"
+        ],
+        "carefully": [
+          "carefully",
+          "cautiously"
+        ],
+        "records": [
+          "records"
+        ],
+        "ecosystem": [
+          "ecosystem"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "plays": [
+          "plays",
+          "play",
+          "act",
+          "represent",
+          "work",
+          "run"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The financial account with the unique identifier 1 is essential for tracking and managing transactions.",
+      "template_pattern": "The financial account with the unique identifier [ACCOUNT_ID] is essential for tracking and managing transactions.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The financial account bearing account id [ACCOUNT_ID] is vital for monitoring and handling transactions.",
+        "For tracking and managing transactions, the financial account with account id [ACCOUNT_ID] is indispensable.",
+        "Transactions can be tracked and managed effectively thanks to the financial account identified by account id [ACCOUNT_ID].",
+        "Essential for transaction oversight, the financial account that carries account id [ACCOUNT_ID] must be used.",
+        "The account id [ACCOUNT_ID] financial account serves as a key tool for tracking and managing transactions.",
+        "Tracking and managing transactions relies on the financial account marked with account id [ACCOUNT_ID].",
+        "Because it enables transaction tracking and management, the financial account holding account id [ACCOUNT_ID] is crucial.",
+        "The financial account, account id [ACCOUNT_ID], is a cornerstone for overseeing and controlling transactions.",
+        "With account id [ACCOUNT_ID], the financial account becomes essential for both tracking and managing transactions.",
+        "Managing and tracking transactions hinges upon the financial account that has account id [ACCOUNT_ID].",
+        "The financial account possessing account id [ACCOUNT_ID] is indispensable for transaction tracking and management.",
+        "To monitor and administer transactions, one must rely on the financial account labeled account id [ACCOUNT_ID].",
+        "Account id [ACCOUNT_ID] designates the financial account that is fundamental for transaction tracking and management.",
+        "The financial account whose account id is [ACCOUNT_ID] plays a critical role in tracking and managing transactions.",
+        "For effective transaction tracking and management, the financial account associated with account id [ACCOUNT_ID] is essential."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "tracking": [
+          "tracking",
+          "track",
+          "trailing"
+        ],
+        "managing": [
+          "managing",
+          "manage",
+          "supervise",
+          "oversee",
+          "handle",
+          "superintend"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "proceedings"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "essential": [
+          "essential",
+          "necessary",
+          "crucial",
+          "requisite",
+          "indispensable"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Behind every identifier, there lies a detailed story of exchanges and other factors that shape financial narratives.",
+      "template_pattern": "Behind every identifier, there lies a detailed story of exchanges and other factors that shape financial narratives.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every identifier conceals a detailed tale of transactions and additional elements that mold financial narratives.",
+        "A detailed story of trades and other influences that sculpt financial narratives lies behind each identifier.",
+        "Behind each identifier sits a comprehensive account of exchanges and other factors shaping the financial story.",
+        "Each identifier is backed by an intricate narrative of transactions and various factors that shape financial narratives.",
+        "Hidden within every identifier is a thorough chronicle of exchanges and ancillary factors that define financial narratives.",
+        "Financial narratives are shaped by the detailed exchange histories and other factors that sit behind every identifier.",
+        "The story of exchanges and other contributing factors that form financial narratives is embedded behind each identifier.",
+        "Behind all identifiers, a nuanced saga of trades and supplementary factors resides, influencing financial narratives.",
+        "Each identifier carries a detailed record of exchanges and additional elements that shape the narrative of finance.",
+        "A rich narrative of transactions and other determinants that shape financial stories lies beneath every identifier.",
+        "Behind every identifier, one finds a comprehensive tale of exchanges plus other factors that craft financial narratives.",
+        "Every identifier is accompanied by an elaborate account of trades and other influences that shape financial narratives.",
+        "The detailed story of exchanges and other shaping factors is situated behind each identifier, guiding financial narratives.",
+        "Behind each identifier rests a thorough chronicle of transactions and ancillary factors that sculpt financial narratives.",
+        "In every identifier, a detailed exchange story and other shaping elements are present, forming the backbone of financial narratives."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "story": [
+          "story",
+          "narrative",
+          "report",
+          "account",
+          "chronicle",
+          "history"
+        ],
+        "every": [
+          "every"
+        ],
+        "behind": [
+          "behind",
+          "rear",
+          "posterior"
+        ],
+        "exchanges": [
+          "exchanges"
+        ],
+        "other": [
+          "other"
+        ],
+        "factors": [
+          "factors"
+        ],
+        "narratives": [
+          "narratives"
+        ],
+        "detailed": [
+          "detailed",
+          "elaborate",
+          "elaborated"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "On 1995-03-24, a significant financial transaction took place, adding to the chronological tapestry of payment histories.",
+      "template_pattern": "On [DATE], a significant financial transaction took place, adding to the chronological tapestry of payment histories.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The date [DATE] records a notable financial transaction that contributed to the chronological tapestry of payment histories.",
+        "On the date [DATE], a major monetary exchange occurred, weaving another thread into the timeline of payment records.",
+        "A significant fiscal operation was logged on [DATE], enhancing the sequential fabric of payment histories.",
+        "Date [DATE] saw a substantial financial deal take place, adding a new stitch to the historic payment chronology.",
+        "The financial ledger notes that on [DATE] a prominent transaction happened, further enriching the chronological tapestry of payments.",
+        "On [DATE], a noteworthy monetary transaction was executed, expanding the woven narrative of payment histories.",
+        "Date [DATE] marks the occurrence of a significant financial transaction, which augments the chronological tapestry of payment records.",
+        "A pivotal financial exchange took place on [DATE], threading another layer into the chronological tapestry of payment histories.",
+        "The date [DATE] captured a key financial transaction, contributing an additional strand to the timeline of payment histories.",
+        "On the date [DATE], a meaningful financial transaction unfolded, bolstering the chronological tapestry of payment records.",
+        "A considerable monetary transaction was recorded on [DATE], adding depth to the sequential tapestry of payment histories.",
+        "Date [DATE] reflects a significant financial transaction, which further stitches the chronological tapestry of payment histories.",
+        "The financial event on [DATE] was substantial, weaving a new element into the chronological tapestry of payment histories.",
+        "On [DATE], a noteworthy transaction in finance transpired, expanding the woven chronology of payment records.",
+        "Date [DATE] saw a major financial transaction occur, enhancing the chronological tapestry of payment histories."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "chronological": [
+          "chronological"
+        ],
+        "place": [
+          "place",
+          "position",
+          "berth",
+          "point",
+          "site",
+          "office",
+          "billet"
+        ],
+        "payment": [
+          "payment",
+          "defrayment",
+          "defrayal"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "adding": [
+          "adding",
+          "summate",
+          "total",
+          "bring",
+          "tally",
+          "contribute"
+        ],
+        "tapestry": [
+          "tapestry",
+          "arras"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This event, among others, marks the tempo of activity in the world of finance.",
+      "template_pattern": "This event, among others, marks the tempo of activity in the world of finance.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The event, together with several others, signals the pace of activity across finance.",
+        "Among various happenings, this particular event sets the rhythm of financial activity.",
+        "In the financial realm, this occurrence—alongside others—marks how fast things are moving.",
+        "The tempo of activity in the world of finance is indicated by this event, among many.",
+        "This event, as one of several, defines the cadence of activity within the finance sector.",
+        "Across the finance industry, the pace of action is highlighted by this event and its peers.",
+        "Marking the beat of financial activity, this event stands alongside others.",
+        "The world of finance feels the tempo of activity through this event and other similar milestones.",
+        "This particular occurrence, among a series, flags the speed of financial market movements.",
+        "Financial activity’s rhythm is underscored by this event, together with other notable events.",
+        "The pace of activity in finance is gauged by this event, among other significant happenings.",
+        "In the domain of finance, this event—among others—serves as a barometer of activity tempo.",
+        "This event, alongside several others, acts as a benchmark for the tempo of financial activity.",
+        "The tempo of financial sector activity is marked by this event, in concert with other events.",
+        "Within the finance world, this event, among many, signals the current tempo of activity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activity": [
+          "activity",
+          "activeness"
+        ],
+        "finance": [
+          "finance"
+        ],
+        "among": [
+          "among"
+        ],
+        "marks": [
+          "marks"
+        ],
+        "tempo": [
+          "tempo",
+          "pace",
+          "pacing"
+        ],
+        "others": [
+          "others"
+        ],
+        "world": [
+          "world",
+          "earth",
+          "globe",
+          "cosmos",
+          "universe",
+          "domain"
+        ],
+        "event": [
+          "event",
+          "effect",
+          "result",
+          "outcome",
+          "consequence",
+          "case"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The recent financial summary included a PRIJEM, highlighting the importance of tracking each transaction type for accurate reporting.",
+      "template_pattern": "The recent financial summary included a [TYPE], highlighting the importance of tracking each transaction type for accurate reporting.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the latest financial summary, a [TYPE] was listed, underscoring the need to monitor every transaction type to ensure precise reporting.",
+        "A [TYPE] appeared in the recent financial summary, emphasizing how vital it is to track each transaction type for exact reporting.",
+        "The recent financial summary featured a [TYPE], drawing attention to the necessity of recording each transaction type for reliable reporting.",
+        "By including a [TYPE], the recent financial summary points out the importance of following every transaction type for accurate reporting.",
+        "Each transaction type must be tracked for accurate reporting, a point highlighted by the [TYPE] in the recent financial summary.",
+        "The recent financial summary's inclusion of a [TYPE] serves to stress the significance of tracking each transaction type for correct reporting.",
+        "Accurate reporting depends on tracking each transaction type, a fact the recent financial summary made clear by adding a [TYPE].",
+        "A [TYPE] was incorporated into the recent financial summary, which underscores the critical role of monitoring every transaction type for precise reporting.",
+        "Highlighting the need for meticulous tracking of each transaction type, the recent financial summary contained a [TYPE].",
+        "The recent financial summary, by featuring a [TYPE], underlines how essential it is to track each transaction type for accurate reporting.",
+        "Including a [TYPE], the recent financial summary emphasizes the importance of documenting each transaction type to achieve accurate reporting.",
+        "To ensure accurate reporting, the recent financial summary presents a [TYPE], stressing the tracking of each transaction type.",
+        "The presence of a [TYPE] in the recent financial summary draws focus to the necessity of tracking each transaction type for reliable reporting.",
+        "Through the addition of a [TYPE], the recent financial summary highlights why every transaction type must be tracked for accurate reporting.",
+        "A [TYPE] appears in the recent financial summary, pointing out the crucial need to track each transaction type for precise reporting."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "tracking": [
+          "tracking",
+          "trailing",
+          "track"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "summary": [
+          "summary"
+        ],
+        "reporting": [
+          "reporting"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "accurate": [
+          "accurate",
+          "exact",
+          "precise"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such summaries provide clarity and insight into the movement of funds over time.",
+      "template_pattern": "Such summaries provide clarity and insight into the movement of funds over time.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "These summaries shed light on how funds move over time, offering clear insight.",
+        "Clarity and insight into fund flows across periods are delivered by such summaries.",
+        "By summarizing, one gains a clear picture of the temporal movement of money.",
+        "The movement of funds over time becomes transparent and understandable through these summaries.",
+        "Such summaries grant both clarity and insight regarding the chronological flow of capital.",
+        "Insight and clarity regarding the evolution of fund transfers are provided by these summaries.",
+        "Over time, the shifting of funds is made clear and comprehensible thanks to these summaries.",
+        "With these summaries, the trajectory of money across time is illuminated and clarified.",
+        "A clear understanding of fund movements over time is achieved via such summaries.",
+        "These briefs illuminate the temporal flow of funds, furnishing both clarity and insight.",
+        "The temporal movement of funds is rendered clear and insightful by such summaries.",
+        "Through these summaries, one obtains a lucid insight into how funds progress over time.",
+        "Such summaries offer a transparent view and deeper insight into the fund flow over time.",
+        "Clarity and insight into the progression of funds across time are supplied by these summaries.",
+        "By providing concise overviews, these summaries clarify and illuminate fund movements over time."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "over": [
+          "over",
+          "ended",
+          "concluded",
+          "terminated"
+        ],
+        "summaries": [
+          "summaries"
+        ],
+        "provide": [
+          "provide",
+          "supply",
+          "offer",
+          "furnish",
+          "render"
+        ],
+        "into": [
+          "into"
+        ],
+        "such": [
+          "such"
+        ],
+        "clarity": [
+          "clarity",
+          "lucidity",
+          "clearness"
+        ],
+        "funds": [
+          "funds",
+          "finances"
+        ],
+        "insight": [
+          "insight",
+          "perceptiveness",
+          "perceptivity",
+          "penetration"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The operation recorded was VKLAD, indicating a financial transaction categorized as VKLAD within the records.",
+      "template_pattern": "The operation recorded was [OPERATION], indicating a financial transaction categorized as [OPERATION] within the records.",
+      "primary_data_fields": [
+        "operation"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the records, the operation recorded was [OPERATION], which denotes a financial transaction classified as [OPERATION].",
+        "[OPERATION] was the operation recorded, signifying a financial transaction that falls under the [OPERATION] category in the records.",
+        "The recorded operation, [OPERATION], points to a financial transaction labeled as [OPERATION] within the documentation.",
+        "In the records, the operation listed as [OPERATION] indicates a financial transaction of the [OPERATION] type.",
+        "A financial transaction categorized as [OPERATION] is reflected by the operation recorded as [OPERATION] in the files.",
+        "The operation noted in the ledger is [OPERATION], thereby indicating a [OPERATION] financial transaction.",
+        "Recorded as [OPERATION], the operation shows a financial transaction that is classified under [OPERATION] in the records.",
+        "The financial transaction labeled [OPERATION] is identified by the operation recorded as [OPERATION].",
+        "Within the records, the operation [OPERATION] was recorded, indicating a transaction of the [OPERATION] financial category.",
+        "The operation entry [OPERATION], as captured in the records, denotes a financial transaction categorized as [OPERATION].",
+        "As per the documentation, the operation recorded—VKLAD—signifies a [OPERATION] financial transaction.",
+        "The records show the operation [OPERATION], which implies a financial transaction under the [OPERATION] classification.",
+        "[OPERATION] appears as the recorded operation, pointing to a financial transaction of the [OPERATION] category.",
+        "A [OPERATION] operation was logged, indicating that the transaction belongs to the [OPERATION] financial category.",
+        "The recorded operation, [OPERATION], conveys that the transaction is a [OPERATION] financial entry in the records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "records": [
+          "records"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "categorized": [
+          "categorized",
+          "categorised"
+        ]
+      },
+      "field_data_types": {
+        "operation": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Deposits are foundational actions in the lifecycle of financial holdings.",
+      "template_pattern": "Deposits are foundational actions in the lifecycle of financial holdings.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Deposits serve as the foundational steps in a financial holding’s lifecycle.",
+        "In the lifecycle of financial holdings, deposits constitute the primary actions.",
+        "The lifecycle of financial holdings begins with deposits, which are fundamental actions.",
+        "Foundational actions within a financial holding’s lifecycle are represented by deposits.",
+        "Financial holdings rely on deposits as the basic actions throughout their lifecycle.",
+        "Deposits are the essential actions that underpin the lifecycle of financial holdings.",
+        "Within the lifecycle of financial holdings, the act of depositing forms a core element.",
+        "The core of a financial holding’s lifecycle is built upon deposit actions.",
+        "Deposits, as fundamental operations, shape the lifecycle of financial holdings.",
+        "In the sequence of a financial holding’s life, deposits function as foundational moves.",
+        "Foundational to the lifecycle of financial holdings are deposits, which act as key actions.",
+        "The lifecycle of financial holdings is anchored by deposits, the primary actions.",
+        "Deposits act as the basic building blocks in the life cycle of financial holdings.",
+        "Throughout a financial holding’s lifecycle, deposits stand as essential actions.",
+        "As the lifecycle of financial holdings unfolds, deposits constitute the underlying actions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "holdings": [
+          "holdings"
+        ],
+        "deposits": [
+          "deposits"
+        ],
+        "actions": [
+          "actions"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "foundational": [
+          "foundational"
+        ],
+        "lifecycle": [
+          "lifecycle"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Each transaction recorded in the history reflects a total monetary amount of 1000, highlighting the financial activity of customer accounts.",
+      "template_pattern": "Each transaction recorded in the history reflects a total monetary amount of [AMOUNT], highlighting the financial activity of customer accounts.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every transaction logged in the history displays a total monetary amount of [AMOUNT], emphasizing the financial activity of customer accounts.",
+        "A total monetary amount of [AMOUNT] is reflected in each recorded transaction, highlighting the financial activity of customer accounts.",
+        "The history records each transaction as having a total monetary amount of [AMOUNT], which underscores the financial activity of customer accounts.",
+        "Each entry in the transaction history shows a total monetary amount of [AMOUNT], drawing attention to the financial activity of customer accounts.",
+        "In the historical record, every transaction carries a total monetary amount of [AMOUNT], pointing out the financial activity of customer accounts.",
+        "A total monetary amount of [AMOUNT] appears for each transaction in the history, illustrating the financial activity of customer accounts.",
+        "Each transaction recorded in the history amounts to a total monetary amount of [AMOUNT], thereby highlighting the financial activity of customer accounts.",
+        "The financial activity of customer accounts is highlighted by the total monetary amount of [AMOUNT] recorded for each transaction in the history.",
+        "For every transaction logged, the history notes a total monetary amount of [AMOUNT], shedding light on the financial activity of customer accounts.",
+        "Each transaction, as documented in the history, reflects a total monetary amount of [AMOUNT], signaling the financial activity of customer accounts.",
+        "A total monetary amount of [AMOUNT] is noted in each historical transaction, marking the financial activity of customer accounts.",
+        "The history’s record of each transaction reveals a total monetary amount of [AMOUNT], which brings attention to the financial activity of customer accounts.",
+        "Each transaction in the history bears a total monetary amount of [AMOUNT], thereby underscoring the financial activity of customer accounts.",
+        "Highlighting the financial activity of customer accounts, each transaction logged in the history shows a total monetary amount of [AMOUNT].",
+        "Recorded in the history, each transaction carries a total monetary amount of [AMOUNT], emphasizing the financial activity of customer accounts."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activity": [
+          "activity",
+          "activeness"
+        ],
+        "history": [
+          "history",
+          "chronicle",
+          "account"
+        ],
+        "transaction": [
+          "transaction",
+          "dealings",
+          "dealing"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "highlighting": [
+          "highlighting",
+          "highlight",
+          "spotlight"
+        ],
+        "accounts": [
+          "accounts"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "reflects": [
+          "reflects"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The consistency of these figures underscores the stability within the financial framework.",
+      "template_pattern": "The consistency of these figures underscores the stability within the financial framework.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "These figures' consistency highlights the stability of the financial framework.",
+        "The stable financial framework is underscored by the consistent nature of these numbers.",
+        "A steady pattern in these data points emphasizes the robustness of the financial system.",
+        "Consistency among the figures serves to underline the steadiness within the financial structure.",
+        "The uniformity of these statistics points to a solid financial framework.",
+        "Within the financial framework, the unvarying figures reinforce its stability.",
+        "The regularity of these numbers underscores how stable the financial architecture remains.",
+        "Stability in the financial framework is reflected by the consistent performance of these figures.",
+        "These consistent figures act as evidence of the financial framework's stability.",
+        "By maintaining consistency, these figures draw attention to the underlying stability of the financial framework.",
+        "The financial framework's stability is highlighted through the uniformity of these figures.",
+        "Observing the steady figures underscores the enduring stability of the financial framework.",
+        "The coherence of these data points accentuates the stable nature of the financial framework.",
+        "Through their consistent values, these figures underscore the steadiness embedded in the financial framework.",
+        "A consistent set of figures signals the stability that pervades the financial framework."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "framework": [
+          "framework",
+          "model"
+        ],
+        "consistency": [
+          "consistency",
+          "consistence"
+        ],
+        "these": [
+          "these"
+        ],
+        "stability": [
+          "stability",
+          "constancy"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "underscores": [
+          "underscores"
+        ],
+        "figures": [
+          "figures"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "After settling all recent transactions, the account holder's balance stands at 1000.",
+      "template_pattern": "After settling all recent transactions, the account holder's balance stands at [BALANCE].",
+      "primary_data_fields": [
+        "balance"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Once all recent transactions have been settled, the account holder’s balance is [BALANCE].",
+        "Following the settlement of every recent transaction, the account holder’s balance totals [BALANCE].",
+        "After the recent transactions were cleared, the balance of the account holder amounts to [BALANCE].",
+        "Having settled all recent transactions, the account holder’s balance now stands at [BALANCE].",
+        "All recent transactions settled, the account holder’s balance registers [BALANCE].",
+        "With every recent transaction cleared, the account holder’s balance shows [BALANCE].",
+        "After clearing all recent transactions, the account holder’s balance sits at [BALANCE].",
+        "Upon settlement of the recent transactions, the account holder’s balance equals [BALANCE].",
+        "The balance belonging to the account holder stands at [BALANCE] once all recent transactions are settled.",
+        "After the recent transactions are settled, the account holder’s balance is recorded at [BALANCE].",
+        "Following clearance of each recent transaction, the account holder’s balance reaches [BALANCE].",
+        "All recent transactions having been settled, the account holder’s balance remains [BALANCE].",
+        "Once the recent transactions are settled, the balance of the account holder stands at [BALANCE].",
+        "After settling all recent transactions, the account holder’s balance totals [BALANCE].",
+        "Having cleared every recent transaction, the account holder’s balance is [BALANCE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "settling": [
+          "settling",
+          "subsiding"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "stands": [
+          "stands",
+          "abides",
+          "endures",
+          "bears",
+          "resists",
+          "tolerates"
+        ],
+        "holder": [
+          "holder",
+          "bearer"
+        ],
+        "after": [
+          "after",
+          "later",
+          "afterwards",
+          "afterward",
+          "subsequently"
+        ]
+      },
+      "field_data_types": {
+        "balance": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "A balanced result is a testament to careful financial planning and execution.",
+      "template_pattern": "A balanced result is a testament to careful financial planning and execution.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The equilibrium of the outcome showcases meticulous financial planning and implementation.",
+        "A well‑balanced result reflects the prudence of the financial strategy and its execution.",
+        "Careful budgeting and execution are evident in the balanced result, which serves as proof.",
+        "The balanced outcome stands as evidence of thoughtful financial planning and its execution.",
+        "Demonstrating careful financial planning and execution, the result is notably balanced.",
+        "A balanced result testifies to the careful planning and diligent execution of finances.",
+        "Through careful financial planning and execution, a balanced result has been achieved.",
+        "The result’s balance is a clear indicator of prudent financial planning and effective execution.",
+        "Evidently, the balanced outcome originates from careful financial planning and execution.",
+        "The equilibrium observed in the result underscores the careful planning and execution of finances.",
+        "With meticulous financial planning and execution, the result emerges balanced.",
+        "The balanced result confirms that the financial plan was carefully devised and executed.",
+        "A result that is balanced serves as a testament to the careful planning and execution of finances.",
+        "Because of careful financial planning and execution, the result appears balanced.",
+        "The balance of the outcome bears witness to the careful financial planning and its execution."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "testament": [
+          "testament",
+          "will"
+        ],
+        "result": [
+          "result",
+          "effect",
+          "outcome",
+          "consequence",
+          "issue",
+          "resolution"
+        ],
+        "careful": [
+          "careful",
+          "heedful",
+          "measured"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "balanced": [
+          "balanced"
+        ],
+        "execution": [
+          "execution",
+          "performance",
+          "implementation"
+        ],
+        "planning": [
+          "planning",
+          "preparation",
+          "design",
+          "plan"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "For this financial transaction, the key symbol is NULL, which affects tracking and categorization.",
+      "template_pattern": "For this financial transaction, the key symbol is [K_SYMBOL], which affects tracking and categorization.",
+      "primary_data_fields": [
+        "k_symbol"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This financial data report identifies the k symbol as [K_SYMBOL], shaping both the classification and the later analytical processing of the transaction.",
+        "Within the financial data report, [K_SYMBOL] serves as the k symbol, affecting how the transaction is classified and subsequently analyzed.",
+        "The k symbol, [K_SYMBOL], in this financial data report, determines the classification and the ensuing analytical processing of the transaction.",
+        "In the context of the financial data report, the transaction’s classification and its follow‑up analytical processing are driven by the k symbol [K_SYMBOL].",
+        "The classification and subsequent analytical processing of the transaction are influenced by the k symbol [K_SYMBOL], as noted in this financial data report.",
+        "According to the financial data report, the k symbol is [K_SYMBOL], which guides the transaction’s classification and the ensuing analytical processing.",
+        "For this financial data report, the k symbol [K_SYMBOL] dictates the way the transaction is classified and later analytically processed.",
+        "The financial data report states that the k symbol is [K_SYMBOL]; this element shapes the classification and the later analytical processing of the transaction.",
+        "As detailed in the financial data report, [K_SYMBOL]—acting as the k symbol—impacts the transaction’s classification and the subsequent analytical processing.",
+        "In the financial data report, the k symbol is [K_SYMBOL], thereby affecting both classification and the subsequent analytical processing of the transaction.",
+        "The transaction’s classification and its subsequent analytical processing are controlled by the k symbol [K_SYMBOL], according to the financial data report.",
+        "Within this financial data report, the k symbol is [K_SYMBOL], which steers the classification and later analytical processing of the transaction.",
+        "The report on financial data notes that the k symbol [K_SYMBOL] influences how the transaction is classified and subsequently processed analytically.",
+        "By means of the k symbol [K_SYMBOL], this financial data report influences the transaction’s classification and its ensuing analytical processing.",
+        "In this report of financial data, the k symbol is [K_SYMBOL], leading to specific classification and subsequent analytical processing of the transaction."
+      ],
+      "counter_variations": [
+        "In this financial transaction, the k symbol is null, which influences both tracking and categorization.",
+        "The k symbol, set to null for this financial transaction, impacts the processes of tracking and categorization.",
+        "Because the k symbol equals null in this financial transaction, the resulting tracking and categorization are affected.",
+        "For the financial transaction under review, a null k symbol alters how tracking and categorization are performed.",
+        "When the k symbol is null within this financial transaction, it modifies the mechanisms of tracking and categorization.",
+        "This financial transaction features a k symbol of null, thereby affecting subsequent tracking and categorization.",
+        "Given that the k symbol assumes a null value in this financial transaction, tracking and categorization become impacted.",
+        "The presence of a null k symbol in this financial transaction shapes the way tracking and categorization operate.",
+        "Within the scope of this financial transaction, a null k symbol exerts influence over tracking and categorization.",
+        "A null k symbol characterizes this financial transaction, leading to adjustments in tracking and categorization.",
+        "In the context of this financial transaction, the k symbol being null contributes to altered tracking and categorization.",
+        "The financial transaction records a null k symbol, which in turn affects the tracking and categorization procedures.",
+        "Since the k symbol is null for this financial transaction, the associated tracking and categorization are impacted.",
+        "This financial transaction's k symbol is null, thereby influencing the efficacy of tracking and categorization.",
+        "With the k symbol assigned as null in this financial transaction, the downstream tracking and categorization are affected."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "affects": [
+          "affects"
+        ],
+        "which": [
+          "which"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "symbol": [
+          "symbol"
+        ],
+        "categorization": [
+          "categorization",
+          "categorisation",
+          "classification",
+          "sorting",
+          "compartmentalization",
+          "compartmentalisation"
+        ]
+      },
+      "field_data_types": {
+        "k_symbol": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Symbols and identifiers often bear significant weight in the documentation process.",
+      "template_pattern": "Symbols and identifiers often bear significant weight in the documentation process.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In documentation, symbols and identifiers frequently carry considerable importance.",
+        "The documentation process often places great emphasis on symbols and identifiers.",
+        "Symbols and identifiers are commonly given substantial weight during documentation.",
+        "Documentation frequently assigns notable significance to symbols and identifiers.",
+        "Often, the weight of symbols and identifiers is significant in the documentation process.",
+        "Within the documentation process, symbols and identifiers often hold considerable weight.",
+        "Significant weight is often attached to symbols and identifiers in documentation.",
+        "The role of symbols and identifiers in documenting is often highly weighted.",
+        "Documentation processes typically regard symbols and identifiers as highly significant.",
+        "Symbols and identifiers typically bear considerable importance in the documentation workflow.",
+        "In the process of documentation, symbols and identifiers commonly bear notable weight.",
+        "The importance of symbols and identifiers is often emphasized in documentation.",
+        "Documentation commonly accords substantial weight to symbols and identifiers.",
+        "Often, symbols and identifiers carry a heavy significance in the documentation procedure.",
+        "Considerable weight is regularly given to symbols and identifiers during documentation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "weight": [
+          "weight",
+          "burden",
+          "weighting",
+          "weightiness"
+        ],
+        "symbols": [
+          "symbols"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "documentation": [
+          "documentation"
+        ],
+        "process": [
+          "process",
+          "procedure",
+          "operation",
+          "action",
+          "work"
+        ],
+        "identifiers": [
+          "identifiers"
+        ],
+        "bear": [
+          "bear",
+          "carry",
+          "endure",
+          "support",
+          "assume",
+          "hold"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The transaction record shows that the financial institution involved is NULL.",
+      "template_pattern": "The transaction record shows that the financial institution involved is [BANK].",
+      "primary_data_fields": [
+        "bank"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The report states that the bank selected for this operation is [BANK], which indicates the designated financial institution for the transaction.",
+        "As per the report, [BANK] is the bank identified for this operation, indicating the designated financial institution for the transaction.",
+        "According to the report, the operation’s bank is [BANK], indicating the designated financial institution for the transaction.",
+        "The report notes that [BANK] serves as the bank for this operation, indicating the designated financial institution for the transaction.",
+        "In the report, it is shown that the bank chosen for this operation is [BANK], indicating the designated financial institution for the transaction.",
+        "The bank identified for this operation, [BANK], is mentioned in the report, indicating the designated financial institution for the transaction.",
+        "As outlined in the report, the bank for this operation has been identified as [BANK], indicating the designated financial institution for the transaction.",
+        "The report confirms that [BANK] is the bank earmarked for this operation, indicating the designated financial institution for the transaction.",
+        "According to the report, [BANK] represents the bank for this operation, indicating the designated financial institution for the transaction.",
+        "The report reveals that the bank designated for this operation is [BANK], indicating the designated financial institution for the transaction.",
+        "In the report, [BANK] is listed as the bank for this operation, indicating the designated financial institution for the transaction.",
+        "The bank for this operation, as indicated in the report, is [BANK], indicating the designated financial institution for the transaction.",
+        "As the report outlines, the bank assigned to this operation is [BANK], indicating the designated financial institution for the transaction.",
+        "The report identifies [BANK] as the bank for this operation, indicating the designated financial institution for the transaction.",
+        "According to the report, the operation’s bank is [BANK], indicating the designated financial institution for the transaction."
+      ],
+      "counter_variations": [
+        "The transaction record indicates that the bank linked to this entry is null.",
+        "According to the ledger entry, the bank referenced in the transaction is null.",
+        "The audit log documents the bank involved in the operation as null.",
+        "In this financial report, the bank designated for the transaction appears as null.",
+        "Review of the transaction file reveals the bank field to be null.",
+        "Our data extraction shows the bank associated with the transaction being null.",
+        "The compiled transaction summary points out that the bank entry is null.",
+        "Within the transaction details, the bank attribute is recorded as null.",
+        "The system’s transaction snapshot confirms the bank entry stands at null.",
+        "Analysis of the transaction dataset registers the bank status as null.",
+        "The transaction’s metadata lists the bank as null.",
+        "From the transaction perspective, the bank component is identified as null.",
+        "The transaction record’s bank column is populated with null.",
+        "Examination of the transaction data demonstrates that the bank is null.",
+        "The transaction documentation states that the bank value is null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "shows": [
+          "shows",
+          "demonstrates",
+          "exhibits",
+          "indicates",
+          "displays",
+          "presents"
+        ],
+        "involved": [
+          "involved",
+          "tortuous",
+          "Byzantine",
+          "convoluted",
+          "tangled",
+          "knotty"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "record": [
+          "record",
+          "register",
+          "book"
+        ],
+        "institution": [
+          "institution",
+          "establishment",
+          "foundation",
+          "origination",
+          "creation",
+          "founding"
+        ]
+      },
+      "field_data_types": {
+        "bank": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The absence of specific details can sometimes lead to a need for further investigation.",
+      "template_pattern": "The absence of specific details can sometimes lead to a need for further investigation.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "When particular details are missing, it may occasionally require additional investigation.",
+        "A lack of precise information can, at times, prompt the necessity for further inquiry.",
+        "Sometimes, the omission of specific data leads to a requirement for deeper investigation.",
+        "Further investigation may become necessary if specific details are absent.",
+        "The missing specifics can sometimes trigger the need for more thorough investigation.",
+        "Absence of detailed information occasionally results in a call for further investigation.",
+        "If specific details are not provided, a further investigation might be needed.",
+        "The need for additional investigation can arise from the lack of particular details.",
+        "Lack of exact details sometimes compels us to conduct further investigation.",
+        "When details are omitted, it can lead, on occasion, to the necessity of further inquiry.",
+        "The non‑presence of specific data may sometimes cause a requirement for further investigation.",
+        "An investigation may be required when specific details are absent.",
+        "The omission of precise details can sometimes necessitate further investigation.",
+        "Should specific details be missing, a further investigation may be warranted.",
+        "The scarcity of specific details can occasionally result in the need for additional investigation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "further": [
+          "further",
+          "advance",
+          "promote",
+          "boost",
+          "encourage",
+          "foster"
+        ],
+        "need": [
+          "need",
+          "require",
+          "necessitate",
+          "want",
+          "demand"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "sometimes": [
+          "sometimes"
+        ],
+        "absence": [
+          "absence"
+        ],
+        "details": [
+          "details"
+        ],
+        "investigation": [
+          "investigation",
+          "probe"
+        ],
+        "lead": [
+          "lead",
+          "head",
+          "guide",
+          "chair",
+          "direct",
+          "steer"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The financial account associated with the customer has a unique identifier of NULL.",
+      "template_pattern": "The financial account associated with the customer has a unique identifier of [ACCOUNT].",
+      "primary_data_fields": [
+        "account"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the financial summary, the account is marked by the unique numeric code [ACCOUNT], guaranteeing precise tracking across all transactions.",
+        "The financial summary cites the account, which bears the distinctive numeric code [ACCOUNT], enabling exact tracking of every transaction.",
+        "A distinct numeric code [ACCOUNT] identifies the account mentioned in the financial summary, ensuring that all transactions are tracked precisely.",
+        "Ensuring precise tracking of all transactions, the account listed in the financial summary carries the specific numeric code [ACCOUNT].",
+        "The account, referenced within the financial summary, is designated by the numeric code [ACCOUNT], thereby allowing accurate tracking across every transaction.",
+        "Across all transactions, precise tracking is achieved because the account in the financial summary is assigned the distinct numeric code [ACCOUNT].",
+        "With the numeric code [ACCOUNT], the account highlighted in the financial summary can be precisely tracked through every transaction.",
+        "The financial summary points to an account identified by the unique numeric code [ACCOUNT], which secures exact tracking for all transactions.",
+        "By assigning the numeric code [ACCOUNT], the financial summary ensures the account is traceable with precision throughout all transactions.",
+        "All transactions can be precisely monitored thanks to the account in the financial summary being labeled with the distinct numeric code [ACCOUNT].",
+        "The distinct numeric code [ACCOUNT] serves to identify the account referenced in the financial summary, facilitating precise transaction tracking.",
+        "Precise tracking across all transactions is provided by the account in the financial summary, identified through the numeric code [ACCOUNT].",
+        "In the financial summary, the account bears the numeric code [ACCOUNT], which assures accurate tracking of every transaction.",
+        "The account, as noted in the financial summary, carries the unique numeric code [ACCOUNT], thereby guaranteeing precise tracking of all transactions.",
+        "Through the numeric code [ACCOUNT], the account cited in the financial summary is unmistakably identified, allowing for precise tracking across all transactions."
+      ],
+      "counter_variations": [
+        "A unique identifier of null is assigned to the financial account linked to the customer.",
+        "The customer’s financial account possesses a unique identifier of null.",
+        "For the financial account pertaining to the customer, the unique identifier is null.",
+        "In the customer record, the financial account’s unique identifier appears as null.",
+        "Null is the value recorded as the unique identifier for the financial account associated with the customer.",
+        "The unique identifier of the financial account, which belongs to the customer, is null.",
+        "Within the customer's portfolio, the financial account carries a unique identifier of null.",
+        "A null unique identifier characterizes the financial account tied to the customer.",
+        "The financial account that the customer holds has its unique identifier set to null.",
+        "Regarding the customer, the financial account’s unique identifier is null.",
+        "The unique identifier assigned to the customer's financial account reads null.",
+        "Null serves as the unique identifier for the financial account attached to the customer.",
+        "The customer's financial account is marked with a unique identifier of null.",
+        "In the data report, the financial account of the customer indicates a unique identifier of null.",
+        "The customer's financial account, featuring a unique identifier, registers null as that identifier."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unequaled",
+          "singular",
+          "unparalleled",
+          "unequalled"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ]
+      },
+      "field_data_types": {
+        "account": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such identifiers, or lack thereof, can impact the overall clarity of financial documentation.",
+      "template_pattern": "Such identifiers, or lack thereof, can impact the overall clarity of financial documentation.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The presence—or absence—of such identifiers may affect how clear financial documents appear.",
+        "Financial documentation's overall clarity can be influenced by whether these identifiers are included or omitted.",
+        "Whether these identifiers exist or not can shape the clarity of the financial reports.",
+        "Clarity in financial paperwork can be compromised by missing or present identifiers.",
+        "The overall intelligibility of financial statements hinges on the inclusion or omission of such identifiers.",
+        "Such identifiers, or their lack, can alter the clarity of financial documentation.",
+        "If these identifiers are absent or present, the clarity of the financial documentation may change.",
+        "The clarity of financial documents is impacted by the existence—or non‑existence—of these identifiers.",
+        "Absence or presence of these identifiers can sway the overall clearness of financial reports.",
+        "The overall clarity of financial documentation can be affected by either having or lacking such identifiers.",
+        "Having or not having these identifiers may influence how clear the financial documentation reads.",
+        "The overall transparency of financial paperwork can be modified by the presence or absence of such identifiers.",
+        "Whether or not these identifiers are used can impact the clarity of the financial documentation.",
+        "The clarity of financial documentation may suffer if such identifiers are missing, or improve if they are included.",
+        "Such identifiers—or their omission—play a role in determining the overall clarity of financial documents."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "impact": [
+          "impact",
+          "shock"
+        ],
+        "documentation": [
+          "documentation"
+        ],
+        "such": [
+          "such"
+        ],
+        "clarity": [
+          "clarity",
+          "lucidity",
+          "clearness"
+        ],
+        "thereof": [
+          "thereof"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "identifiers": [
+          "identifiers"
+        ],
+        "overall": [
+          "overall"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

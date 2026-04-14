@@ -1,0 +1,902 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "2d0fe7865987457d": "loan_id",
+    "2cee4fa77f124d4c": "account_id",
+    "baea17e91c6a4972": "date",
+    "f7bc1363e8394afc": "amount",
+    "6a5d863067e444d4": "duration",
+    "d5557a12880e4e7f": "payments",
+    "abc66dad8d754113": "status"
+  },
+  "templates": [
+    {
+      "original": "The loan agreement identified by loan_id 4959 was signed and processed, ensuring smooth management of the transaction.",
+      "template_pattern": "The loan agreement identified by loan_id [LOAN_ID] was signed and processed, ensuring smooth management of the transaction.",
+      "primary_data_fields": [
+        "loan_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The agreement for loan id [LOAN_ID] was both signed and processed, guaranteeing the transaction’s smooth management.",
+        "After being signed and processed, the loan agreement bearing loan id [LOAN_ID] facilitates seamless transaction management.",
+        "Signing and processing the loan agreement linked to loan id [LOAN_ID] ensures the transaction runs smoothly.",
+        "With loan id [LOAN_ID], the loan agreement was signed and processed, thereby maintaining smooth transaction handling.",
+        "The loan agreement, identified by loan id [LOAN_ID], has been signed and processed, which secures smooth management of the transaction.",
+        "By signing and processing the loan agreement for loan id [LOAN_ID], the transaction is managed without any hitches.",
+        "The loan agreement associated with loan id [LOAN_ID] underwent signing and processing, ensuring the transaction proceeds smoothly.",
+        "Because the loan agreement with loan id [LOAN_ID] was signed and processed, the transaction enjoys smooth management.",
+        "Once signed and processed, the loan agreement for loan id [LOAN_ID] guarantees smooth handling of the transaction.",
+        "The loan agreement marked by loan id [LOAN_ID] has been both signed and processed, supporting seamless transaction management.",
+        "After the loan agreement bearing loan id [LOAN_ID] was signed and processed, the transaction was managed smoothly.",
+        "Processing and signing the loan agreement identified by loan id [LOAN_ID] leads to smooth transaction management.",
+        "The transaction is smoothly managed thanks to the signing and processing of the loan agreement for loan id [LOAN_ID].",
+        "Having signed and processed the loan agreement linked to loan id [LOAN_ID], the parties ensure smooth management of the transaction.",
+        "The loan agreement—loan id [LOAN_ID]—was signed and processed, which ensures the transaction runs smoothly."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensuring": [
+          "ensuring",
+          "ensure",
+          "assure",
+          "guarantee",
+          "secure"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "agreement": [
+          "agreement",
+          "accord",
+          "understanding",
+          "arrangement",
+          "concord"
+        ],
+        "smooth": [
+          "smooth",
+          "fluid",
+          "unruffled",
+          "tranquil",
+          "placid",
+          "still"
+        ],
+        "processed": [
+          "processed",
+          "refined"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ]
+      },
+      "field_data_types": {
+        "loan_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Meanwhile, the administrative team worked diligently to maintain the accuracy of financial records.",
+      "template_pattern": "Meanwhile, the administrative team worked diligently to maintain the accuracy of financial records.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "At the same time, the admin staff toiled hard to keep the financial records accurate.",
+        "The administrative team, meanwhile, diligently ensured the precision of the financial statements.",
+        "While this occurred, the finance‑administration crew worked assiduously to preserve the correctness of the accounts.",
+        "Accuracy of the financial records was carefully upheld by the administrative personnel during that period.",
+        "In parallel, the admin group applied meticulous effort to safeguard the exactness of the financial data.",
+        "During that interval, the administrative team was painstakingly maintaining the fidelity of the financial records.",
+        "The records’ financial accuracy was maintained through the diligent work of the administrative team.",
+        "Concurrently, the administration worked with diligence to retain precise financial documentation.",
+        "The administrative staff, meanwhile, exerted steady effort to keep the financial records flawless.",
+        "The precision of the financial records was vigilantly protected by the administrative team as they labored.",
+        "While other departments acted, the admin team devoted themselves to ensuring the financial data remained accurate.",
+        "Diligent work by the administrative crew kept the financial records accurate during that time.",
+        "The administrative team, in the meantime, painstakingly upheld the accuracy of the financial ledgers.",
+        "Accuracy in the financial records was sustained by the diligent efforts of the admin team.",
+        "Meanwhile, the administration committed itself to maintaining precise financial records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "accuracy": [
+          "accuracy",
+          "truth"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "diligently": [
+          "diligently"
+        ],
+        "meanwhile": [
+          "meanwhile",
+          "interim",
+          "meantime"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "administrative": [
+          "administrative"
+        ],
+        "maintain": [
+          "maintain",
+          "uphold",
+          "keep",
+          "sustain",
+          "preserve",
+          "hold"
+        ],
+        "worked": [
+          "worked",
+          "acted",
+          "operated",
+          "functioned",
+          "processed",
+          "cultivated"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The loan agreement was smoothly processed under account_id 2, ensuring the transactions were tracked with precision.",
+      "template_pattern": "The loan agreement was smoothly processed under account_id [ACCOUNT_ID], ensuring the transactions were tracked with precision.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Under account id [ACCOUNT_ID], the loan agreement was processed smoothly, guaranteeing precise transaction tracking.",
+        "The loan agreement underwent a smooth processing under account id [ACCOUNT_ID], which ensured that the transactions were tracked precisely.",
+        "Processing the loan agreement under account id [ACCOUNT_ID] proceeded without a hitch, and the transactions were monitored with exactness.",
+        "With account id [ACCOUNT_ID] overseeing it, the loan agreement was handled efficiently, allowing for meticulous tracking of each transaction.",
+        "A smooth processing of the loan agreement under account id [ACCOUNT_ID] ensured that transaction tracking was highly accurate.",
+        "The loan agreement, processed seamlessly under account id [ACCOUNT_ID], resulted in transactions being tracked with great precision.",
+        "By processing the loan agreement under account id [ACCOUNT_ID], we achieved precise tracking of all related transactions.",
+        "Under the guidance of account id [ACCOUNT_ID], the loan agreement was swiftly processed, securing exact transaction monitoring.",
+        "The loan agreement's smooth processing under account id [ACCOUNT_ID] facilitated precise tracking of the transactions.",
+        "Thanks to account id [ACCOUNT_ID], the loan agreement was processed in a smooth manner, and the transactions were recorded with pinpoint accuracy.",
+        "When the loan agreement was processed smoothly under account id [ACCOUNT_ID], the transactions were consequently tracked with precision.",
+        "Account id [ACCOUNT_ID] enabled a fluid processing of the loan agreement, guaranteeing that each transaction was tracked accurately.",
+        "The loan agreement was handled with ease under account id [ACCOUNT_ID], ensuring that transaction tracking remained precise.",
+        "Through a seamless processing of the loan agreement under account id [ACCOUNT_ID], the transactions were monitored with exact precision.",
+        "Processing the loan agreement under account id [ACCOUNT_ID] went smoothly, which allowed for meticulous transaction tracking."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensuring": [
+          "ensuring"
+        ],
+        "precision": [
+          "precision",
+          "preciseness"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "agreement": [
+          "agreement",
+          "accord",
+          "concord",
+          "understanding",
+          "arrangement"
+        ],
+        "under": [
+          "under",
+          "below"
+        ],
+        "tracked": [
+          "tracked"
+        ],
+        "transactions": [
+          "transactions",
+          "proceedings",
+          "dealings"
+        ],
+        "processed": [
+          "processed",
+          "refined"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As the days progressed, the client remained attentive to their financial commitments.",
+      "template_pattern": "As the days progressed, the client remained attentive to their financial commitments.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "With each passing day, the client stayed vigilant about their financial commitments.",
+        "As days went on, the client continued to be mindful of their fiscal responsibilities.",
+        "The client remained watchful of their monetary obligations as the days progressed.",
+        "Over the course of the days, the client kept their attention on financial duties.",
+        "As time advanced, the client maintained a keen focus on their financial commitments.",
+        "In the days that followed, the client was still attentive to their fiscal obligations.",
+        "The client’s awareness of their monetary responsibilities persisted throughout the advancing days.",
+        "While the days unfolded, the client stayed alert to their financial liabilities.",
+        "Financial commitments continued to receive the client’s careful attention as the days moved forward.",
+        "The client’s attentiveness to financial duties was maintained as each day passed.",
+        "As the period progressed, the client kept a watchful eye on their financial obligations.",
+        "Throughout the succeeding days, the client remained conscious of their monetary commitments.",
+        "The client’s vigilance toward their financial responsibilities endured as days went by.",
+        "With the passage of days, the client consistently monitored their fiscal obligations.",
+        "Days elapsed, yet the client stayed attentive to their financial commitments."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "progressed": [
+          "progressed"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "attentive": [
+          "attentive",
+          "heedful",
+          "thoughtful"
+        ],
+        "days": [
+          "days"
+        ],
+        "commitments": [
+          "commitments"
+        ],
+        "their": [
+          "their"
+        ],
+        "remained": [
+          "remained"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The loan agreement received official approval on 1994-01-05, marking a key date in the lending process.",
+      "template_pattern": "The loan agreement received official approval on [DATE], marking a key date in the lending process.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE], the loan agreement was officially approved, constituting a pivotal date in the lending process.",
+        "The loan agreement gained official approval on [DATE], which represents a critical date for the lending process.",
+        "Official approval was granted to the loan agreement on [DATE], marking an important date in the lending process.",
+        "A key date in the lending process arrived when the loan agreement received official approval on [DATE].",
+        "The lending process recorded a significant date—[DATE]—when the loan agreement secured official approval.",
+        "When the loan agreement obtained official approval on [DATE], it signaled a major date in the lending process.",
+        "The loan agreement’s official approval on [DATE] marks a crucial date within the lending process.",
+        "Officially approved on [DATE], the loan agreement marks a key date in the lending process.",
+        "The lending process notes [DATE] as a pivotal date, the day the loan agreement received official approval.",
+        "Approval of the loan agreement was officially recorded on [DATE], a landmark date for the lending process.",
+        "On the date [DATE], the loan agreement achieved official approval, highlighting a significant point in the lending process.",
+        "The loan agreement was officially sanctioned on [DATE], establishing a noteworthy date in the lending process.",
+        "Marking a vital date in the lending process, the loan agreement received its official approval on [DATE].",
+        "The day [DATE] stands out as a key date in the lending process because the loan agreement obtained official approval.",
+        "Official approval of the loan agreement came on [DATE], designating a major date in the lending process."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "lending": [
+          "lending",
+          "loan",
+          "lend",
+          "loaning"
+        ],
+        "approval": [
+          "approval",
+          "approving"
+        ],
+        "official": [
+          "official",
+          "functionary"
+        ],
+        "loan": [
+          "loan",
+          "lend"
+        ],
+        "agreement": [
+          "agreement",
+          "accord",
+          "understanding",
+          "arrangement"
+        ],
+        "received": [
+          "received",
+          "obtained"
+        ],
+        "process": [
+          "process",
+          "procedure",
+          "operation",
+          "treat",
+          "action"
+        ],
+        "marking": [
+          "marking",
+          "grading",
+          "grade",
+          "scoring",
+          "score",
+          "mark"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This approval marked the beginning of an important phase for the borrower.",
+      "template_pattern": "This approval marked the beginning of an important phase for the borrower.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The borrower entered a crucial stage when this approval was granted.",
+        "With this approval, the borrower embarked on a significant new phase.",
+        "This approval signaled the start of an essential period for the borrower.",
+        "An important phase for the borrower began as a result of this approval.",
+        "The granting of this approval marked the onset of a key phase for the borrower.",
+        "As soon as the approval came through, the borrower moved into an important phase.",
+        "The borrower’s pivotal phase was initiated by this approval.",
+        "This approval ushered in a vital stage for the borrower.",
+        "By receiving this approval, the borrower commenced an important phase.",
+        "The beginning of a significant phase for the borrower was marked by this approval.",
+        "This approval triggered the commencement of a crucial period for the borrower.",
+        "With the approval in place, an important phase for the borrower started.",
+        "The borrower’s important phase started when this approval was issued.",
+        "This approval set off the initial stage of a vital period for the borrower.",
+        "Upon this approval, the borrower entered an important new phase."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "approval": [
+          "approval",
+          "blessing"
+        ],
+        "borrower": [
+          "borrower"
+        ],
+        "important": [
+          "important",
+          "crucial",
+          "significant"
+        ],
+        "beginning": [
+          "beginning",
+          "commencement",
+          "start",
+          "origin",
+          "outset"
+        ],
+        "phase": [
+          "phase",
+          "stage"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The bank approved an amount of 80952 for the loan, providing the borrower with the necessary funds for their project.",
+      "template_pattern": "The bank approved an amount of [AMOUNT] for the loan, providing the borrower with the necessary funds for their project.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The bank approved an amount of [AMOUNT] for the loan, providing the borrower with the necessary funds for their project.",
+        "An amount of [AMOUNT] was approved by the bank for the loan, giving the borrower the necessary funds needed for their project.",
+        "By approving an amount of [AMOUNT] for the loan, the bank supplied the borrower with the necessary funds to carry out their project.",
+        "The loan received an approved amount of [AMOUNT] from the bank, which furnished the borrower with the necessary funds for their project.",
+        "Having approved an amount of [AMOUNT] for the loan, the bank equipped the borrower with the necessary funds for their project.",
+        "The bank’s approval of an amount of [AMOUNT] for the loan resulted in the borrower obtaining the necessary funds for their project.",
+        "With an amount of [AMOUNT] approved by the bank for the loan, the borrower was granted the necessary funds for their project.",
+        "Through the bank’s approval of an amount of [AMOUNT] for the loan, the borrower secured the necessary funds for their project.",
+        "The borrower received the necessary funds for their project after the bank approved an amount of [AMOUNT] for the loan.",
+        "An amount of [AMOUNT] was sanctioned by the bank for the loan, thereby providing the borrower with the necessary funds for their project.",
+        "The bank’s sanction of an amount of [AMOUNT] for the loan supplied the borrower with the necessary funds needed for their project.",
+        "After the bank approved an amount of [AMOUNT] for the loan, the borrower obtained the necessary funds to finance their project.",
+        "The loan’s amount of [AMOUNT] received the bank’s approval, delivering the necessary funds to the borrower for their project.",
+        "By granting approval of an amount of [AMOUNT] for the loan, the bank ensured the borrower had the necessary funds for their project.",
+        "The necessary funds for the borrower’s project were made available when the bank approved an amount of [AMOUNT] for the loan."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "borrower": [
+          "borrower"
+        ],
+        "approved": [
+          "approved",
+          "sanctioned"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "providing": [
+          "providing"
+        ],
+        "funds": [
+          "funds",
+          "finances"
+        ],
+        "their": [
+          "their"
+        ],
+        "project": [
+          "project",
+          "undertaking",
+          "plan",
+          "design"
+        ],
+        "bank": [
+          "bank"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With the funds secured, the project was set to embark on its next milestone.",
+      "template_pattern": "With the funds secured, the project was set to embark on its next milestone.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Having secured the funding, the project was poised to begin its next milestone.",
+        "The funding now secured, the project prepared to launch its upcoming milestone.",
+        "With financing in place, the project was ready to tackle the next phase.",
+        "After the funds were locked in, the project could proceed to its subsequent milestone.",
+        "Funds secured, the team set the project on course toward its next milestone.",
+        "The project, now backed by secured funds, was set to commence its next milestone.",
+        "Securing the money allowed the project to move forward to the next milestone.",
+        "Once the capital was guaranteed, the project was positioned to start the following milestone.",
+        "The next milestone was within reach as the project had its funds secured.",
+        "With the capital confirmed, the project prepared to embark on its upcoming milestone.",
+        "The project's next milestone became attainable after the funds were secured.",
+        "After confirming the funds, the project was primed to initiate its next milestone.",
+        "Funds now assured, the project could embark upon the forthcoming milestone.",
+        "Having locked down the financing, the project set out for its next milestone.",
+        "The secured funding enabled the project to set sail toward its next milestone."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "next": [
+          "next",
+          "future",
+          "following",
+          "succeeding"
+        ],
+        "funds": [
+          "funds",
+          "finances"
+        ],
+        "embark": [
+          "embark",
+          "enter",
+          "venture"
+        ],
+        "project": [
+          "project",
+          "undertaking",
+          "plan",
+          "task",
+          "projection",
+          "propose"
+        ],
+        "milestone": [
+          "milestone",
+          "milepost"
+        ],
+        "secured": [
+          "secured"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The loan agreement specifies a duration of 24 months, providing ample time for the borrower to manage repayments effectively.",
+      "template_pattern": "The loan agreement specifies a duration of [DURATION] months, providing ample time for the borrower to manage repayments effectively.",
+      "primary_data_fields": [
+        "duration"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The loan agreement sets a duration of [DURATION] months, giving the borrower ample time to handle repayments effectively.",
+        "A duration of [DURATION] months is specified in the loan agreement, allowing the borrower sufficient period to manage repayments.",
+        "In the loan agreement, the duration of [DURATION] months provides the borrower with plenty of time to service the loan responsibly.",
+        "The loan contract outlines a [DURATION]-month duration, which affords the borrower enough time to make repayments efficiently.",
+        "With a duration of [DURATION] months, the loan agreement ensures the borrower has ample opportunity to manage repayment obligations.",
+        "The loan agreement, which includes a duration of [DURATION] months, grants the borrower sufficient time to repay the loan properly.",
+        "Providing a [DURATION]-month duration, the loan agreement gives the borrower considerable leeway for effective repayment management.",
+        "By specifying a duration of [DURATION] months, the loan agreement furnishes the borrower with ample time to handle repayments.",
+        "The loan agreement's duration of [DURATION] months supplies the borrower with enough time to manage repayments in an effective manner.",
+        "A [DURATION]‑month duration is laid out in the loan agreement, affording the borrower plenty of time for effective repayment.",
+        "The loan agreement incorporates a duration of [DURATION] months, thereby granting the borrower sufficient time to manage repayments.",
+        "Under the loan agreement, a duration of [DURATION] months is established, giving the borrower ample time to execute repayments efficiently.",
+        "The loan agreement stipulates a duration of [DURATION] months, which permits the borrower ample time to manage repayment schedules.",
+        "By including a duration of [DURATION] months, the loan agreement offers the borrower generous time to handle repayments.",
+        "The loan agreement defines a duration of [DURATION] months, providing the borrower with enough time to manage repayments effectively."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "borrower": [
+          "borrower"
+        ],
+        "ample": [
+          "ample",
+          "copious",
+          "rich",
+          "sizable",
+          "sizeable",
+          "plentiful"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "providing": [
+          "providing"
+        ],
+        "agreement": [
+          "agreement",
+          "accord",
+          "understanding",
+          "arrangement",
+          "concord"
+        ],
+        "months": [
+          "months"
+        ],
+        "specifies": [
+          "specifies"
+        ],
+        "repayments": [
+          "repayments"
+        ]
+      },
+      "field_data_types": {
+        "duration": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Throughout this period, financial advisors were on hand to assist with any concerns.",
+      "template_pattern": "Throughout this period, financial advisors were on hand to assist with any concerns.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the entire timeframe, financial advisors remained available to address any concerns.",
+        "Financial advisors were readily accessible throughout this interval to help with any issues.",
+        "Any concerns were met with assistance from financial advisors during the period.",
+        "Throughout this span, you could rely on financial advisors for help with any concerns.",
+        "The period saw financial advisors on standby to support any concerns that arose.",
+        "For the duration of the period, financial advisors stood ready to aid with any concerns.",
+        "Throughout the timeframe, assistance with any concerns was provided by financial advisors.",
+        "Financial advisors stayed on hand throughout the period, ready to address any concerns.",
+        "In this period, any concerns could be handled by financial advisors on call.",
+        "This period featured financial advisors available to assist with any concerns.",
+        "While the period progressed, financial advisors were present to help with any concerns.",
+        "Any concerns received assistance from financial advisors during the entire period.",
+        "The interval was covered by financial advisors ready to aid with any concerns.",
+        "Throughout the duration, financial advisors offered help for any concerns.",
+        "During this time frame, financial advisors were on standby to support any concerns."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "concerns": [
+          "concerns",
+          "business"
+        ],
+        "hand": [
+          "hand"
+        ],
+        "advisors": [
+          "advisors"
+        ],
+        "period": [
+          "period"
+        ],
+        "throughout": [
+          "throughout"
+        ],
+        "assist": [
+          "assist",
+          "help",
+          "aid"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The borrowers collectively made payments totaling 3373.0, marking a significant step in fulfilling their loan obligations.",
+      "template_pattern": "The borrowers collectively made payments totaling [PAYMENTS], marking a significant step in fulfilling their loan obligations.",
+      "primary_data_fields": [
+        "payments"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectively, the borrowers made payments totaling [PAYMENTS], representing a major milestone in meeting their loan obligations.",
+        "A total of [PAYMENTS] in payments was made by the borrowers together, signifying a noteworthy advance toward satisfying their loan commitments.",
+        "The borrowers, acting as a group, contributed payments that sum to [PAYMENTS], a significant move toward fulfilling their loan duties.",
+        "With a combined effort, the borrowers issued payments amounting to [PAYMENTS], marking a key step in the fulfillment of their loan obligations.",
+        "Payments of [PAYMENTS] were collectively submitted by the borrowers, indicating a substantial progression in honoring their loan responsibilities.",
+        "By pooling their resources, the borrowers achieved payments totaling [PAYMENTS], an important stride toward completing their loan obligations.",
+        "The total payments made by the borrowers together reached [PAYMENTS], which constitutes a significant step in the execution of their loan duties.",
+        "In unison, the borrowers recorded payments that add up to [PAYMENTS], highlighting a crucial phase in meeting their loan obligations.",
+        "A combined payment of [PAYMENTS] was recorded from the borrowers, underscoring a major advance in satisfying their loan commitments.",
+        "The borrowers’ joint payments amount to [PAYMENTS], marking a pivotal moment in the fulfillment of their loan obligations.",
+        "Through collective effort, the borrowers have dispatched payments totaling [PAYMENTS], representing an essential step toward their loan obligations.",
+        "Payments totaling [PAYMENTS] were made by the borrowers as a group, signaling a significant progression in honoring their loan responsibilities.",
+        "The borrowers together rendered payments of [PAYMENTS], a notable milestone in the pursuit of their loan obligations.",
+        "A sum of [PAYMENTS] in payments has been collectively contributed by the borrowers, indicating a key advance in fulfilling their loan duties.",
+        "Collective payments by the borrowers reached [PAYMENTS], denoting an important step toward the completion of their loan obligations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "step": [
+          "step",
+          "stride",
+          "pace",
+          "gradation",
+          "tread"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "fulfilling": [
+          "fulfilling"
+        ],
+        "totaling": [
+          "totaling"
+        ],
+        "collectively": [
+          "collectively",
+          "jointly",
+          "conjointly"
+        ],
+        "made": [
+          "made",
+          "built",
+          "constructed",
+          "formed",
+          "produced"
+        ],
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "payments": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Their dedication to meeting deadlines was commendable.",
+      "template_pattern": "Their dedication to meeting deadlines was commendable.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Their commitment to hitting every deadline earned praise.",
+        "It was commendable how they consistently met all deadlines.",
+        "Meeting deadlines was a point of pride for them, and they deserved commendation.",
+        "The team's punctuality in adhering to deadlines was highly praised.",
+        "Their steadfast effort to satisfy deadline requirements was admirable.",
+        "Commendation is due for their unwavering dedication to deadline compliance.",
+        "Deadlines were met with commendable dedication by them.",
+        "Their diligent focus on deadline fulfillment garnered commendation.",
+        "In the report, their ability to honor every deadline stood out as praiseworthy.",
+        "The manner in which they honored deadlines was truly commendable.",
+        "Their reliable adherence to all deadlines earned them high regard.",
+        "A notable strength was their commendable devotion to meeting each deadline.",
+        "They were praised for their persistent commitment to deadline observance.",
+        "Their exemplary pursuit of on‑time delivery was worthy of commendation.",
+        "The consistent meeting of deadlines by the team was nothing short of commendable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "commendable": [
+          "commendable",
+          "praiseworthy",
+          "applaudable",
+          "laudable"
+        ],
+        "meeting": [
+          "meeting",
+          "confluence"
+        ],
+        "deadlines": [
+          "deadlines"
+        ],
+        "their": [
+          "their"
+        ],
+        "dedication": [
+          "dedication",
+          "commitment"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The current loan repayment status for the client is categorized as A, indicating the condition of their agreement.",
+      "template_pattern": "The current loan repayment status for the client is categorized as [STATUS], indicating the condition of their agreement.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The client’s loan repayment status is currently classified as [STATUS], reflecting the state of their agreement.",
+        "At present, the loan repayment status for the client falls under category [STATUS], which denotes the condition of the agreement.",
+        "Category [STATUS] describes the client’s loan repayment status, indicating how their agreement stands.",
+        "The loan repayment status assigned to the client is [STATUS], signifying the present condition of their contract.",
+        "For the client, the loan repayment status has been marked as [STATUS], showing the status of their agreement.",
+        "[STATUS] is the designation given to the client’s loan repayment status, pointing to the condition of the agreement.",
+        "The client’s agreement condition is indicated by [STATUS] loan repayment status of [STATUS].",
+        "Currently, the loan repayment status for the client is labeled [STATUS], which conveys the condition of their agreement.",
+        "The loan repayment status, categorized as [STATUS] for this client, reveals the state of their agreement.",
+        "[STATUS] denotes the client’s loan repayment status, implying the current condition of their agreement.",
+        "The client’s loan repayment status has been assigned the code [STATUS], meaning their agreement is in that condition.",
+        "In the report, the loan repayment status for the client appears as [STATUS], indicating the agreement’s condition.",
+        "The status of the client’s loan repayment is [STATUS], [STATUS] classification that reflects the condition of their agreement.",
+        "Marked as [STATUS], the client’s loan repayment status signals the present condition of their agreement.",
+        "The loan repayment status for the client is recorded as [STATUS], which shows the condition of the agreement."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "client": [
+          "client",
+          "customer"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "agreement": [
+          "agreement",
+          "accord",
+          "arrangement",
+          "understanding"
+        ],
+        "repayment": [
+          "repayment"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "their": [
+          "their"
+        ],
+        "current": [
+          "current"
+        ],
+        "condition": [
+          "condition",
+          "status",
+          "circumstance",
+          "term",
+          "stipulation",
+          "precondition"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Looking ahead, the client remained optimistic about sustaining their strong performance.",
+      "template_pattern": "Looking ahead, the client remained optimistic about sustaining their strong performance.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Going forward, the client stayed confident that its strong performance would be maintained.",
+        "In the outlook, the client kept an optimistic view about sustaining its robust results.",
+        "With an eye to the future, optimism regarding the continuation of the firm’s solid performance remained with the client.",
+        "Looking ahead, the client was upbeat about preserving its strong performance.",
+        "As we look ahead, the client maintained a hopeful stance on keeping its high performance.",
+        "The client’s optimism about continuing its strong results persisted as the outlook progressed.",
+        "Looking to the future, the client remained positive about sustaining its robust performance.",
+        "Future‑focused, the client kept confidence that its solid performance would endure.",
+        "Optimism about maintaining its strong performance was retained by the client when looking ahead.",
+        "Ahead of the curve, the client stayed assured that its strong performance would continue.",
+        "The client, looking ahead, stayed confident in the durability of its robust results.",
+        "With future prospects in mind, the client maintained optimism about preserving its high performance.",
+        "Looking forward, the client kept a positive outlook on the continuation of its strong performance.",
+        "The client’s hopeful outlook on sustaining its solid performance endured as it looked ahead.",
+        "In a forward‑looking view, the client remained confident that its strong performance would persist."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "optimistic": [
+          "optimistic"
+        ],
+        "performance": [
+          "performance",
+          "functioning",
+          "operation",
+          "execution"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "their": [
+          "their"
+        ],
+        "strong": [
+          "strong",
+          "potent",
+          "solid",
+          "firm",
+          "substantial"
+        ],
+        "about": [
+          "about",
+          "around",
+          "near",
+          "roughly",
+          "approximately",
+          "almost"
+        ],
+        "remained": [
+          "remained"
+        ],
+        "sustaining": [
+          "sustaining"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

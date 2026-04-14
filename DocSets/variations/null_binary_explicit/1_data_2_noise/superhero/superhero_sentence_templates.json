@@ -1,0 +1,2469 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "50de3a4561c84515": "superhero_name",
+    "a0c906b8166f4b14": "full_name",
+    "0db56542a8c74c79": "gender_id",
+    "387779642f3a4bbf": "eye_colour_id",
+    "c699bab7037947a2": "hair_colour_id",
+    "4372368f5ee149f1": "race_id",
+    "2669a85350664e6a": "publisher_id",
+    "5234a12c884c4b1c": "alignment_id",
+    "03e2a613bad941b6": "height_cm",
+    "852608d681fa472d": "weight_kg",
+    "1967a5e76d1c47b3": "id",
+    "0d8aca818e9242e1": "skin_colour_id"
+  },
+  "templates": [
+    {
+      "original": "The superhero assigned the number 1 possesses the power of invisibility.",
+      "template_pattern": "The superhero assigned the number [ID] possesses the power of invisibility.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero bearing number [ID] wields the power of invisibility.",
+        "Assigned number [ID], the superhero holds the power of invisibility.",
+        "The power of invisibility is possessed by the superhero designated number [ID].",
+        "Number [ID] is the identifier for the superhero who has the power of invisibility.",
+        "With the power of invisibility, the superhero marked as number [ID] operates.",
+        "The superhero, identified by number [ID], is equipped with the power of invisibility.",
+        "Possessing the power of invisibility, the superhero assigned number [ID] stands out.",
+        "The power of invisibility belongs to the superhero carrying number [ID].",
+        "Number [ID] labels the superhero who commands the power of invisibility.",
+        "The superhero who carries number [ID] is endowed with the power of invisibility.",
+        "The power of invisibility is a trait of the superhero assigned the number [ID].",
+        "As the holder of number [ID], the superhero enjoys the power of invisibility.",
+        "The superhero, with number [ID], possesses the power of invisibility.",
+        "The power of invisibility is granted to the superhero listed as number [ID].",
+        "Assigned the number [ID], the superhero is granted the power of invisibility."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "possesses": [
+          "possesses"
+        ],
+        "invisibility": [
+          "invisibility"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "power": [
+          "power",
+          "ability",
+          "force",
+          "might"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Among the many heroes, each has a distinct role to play in the grand tapestry of justice.",
+      "template_pattern": "Among the many heroes, each has a distinct role to play in the grand tapestry of justice.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the roster of heroes, every individual contributes a unique function to the overarching tapestry of justice.",
+        "Each hero, among the many, occupies a distinct position in the vast fabric of justice.",
+        "The multitude of heroes each fulfills a specific role in the grand design of justice.",
+        "A distinct role is assigned to each of the numerous heroes within the expansive justice tapestry.",
+        "In the extensive weave of justice, every hero among the many plays a particular part.",
+        "Among the numerous champions, a separate function is performed by each in the large‑scale tapestry of justice.",
+        "The grand tapestry of justice is composed of many heroes, each bearing a unique role.",
+        "Distinct responsibilities are shouldered by each hero in the collective tapestry that represents justice.",
+        "Within the extensive justice fabric, each of the many heroes holds a specific role.",
+        "A specific part is played by every hero in the broad tapestry that embodies justice.",
+        "The many heroes each assume a particular function in the comprehensive tapestry of justice.",
+        "Every hero, out of the many, contributes a singular role to the overall pattern of justice.",
+        "In the wide‑ranging tapestry of justice, each hero is assigned a distinct duty.",
+        "Distinct tasks are performed by each of the numerous heroes that make up the grand justice tapestry.",
+        "The collective tapestry of justice comprises many heroes, each with its own dedicated role."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "many": [
+          "many"
+        ],
+        "grand": [
+          "grand",
+          "elevated",
+          "imposing",
+          "lofty",
+          "august",
+          "marvelous"
+        ],
+        "justice": [
+          "justice",
+          "justness"
+        ],
+        "play": [
+          "play",
+          "act",
+          "roleplay",
+          "playact",
+          "drama",
+          "sport"
+        ],
+        "role": [
+          "role",
+          "function",
+          "purpose",
+          "part",
+          "character",
+          "office"
+        ],
+        "tapestry": [
+          "tapestry",
+          "arras"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, 3-D Man is known for his extraordinary abilities that allow him to perceive the world in a unique, multidimensional way.",
+      "template_pattern": "Furthermore, [SUPERHERO_NAME] is known for his extraordinary abilities that allow him to perceive the world in a unique, multidimensional way.",
+      "primary_data_fields": [
+        "superhero_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, [SUPERHERO_NAME] possesses extraordinary abilities that let him view the world in a unique, multidimensional way.",
+        "In addition, the extraordinary abilities of [SUPERHERO_NAME] enable his perception of the world in a unique, multidimensional way.",
+        "It is well documented that [SUPERHERO_NAME]’s extraordinary abilities allow him to experience the world in a unique, multidimensional way.",
+        "Consequently, [SUPERHERO_NAME] is recognized for his extraordinary abilities, which grant him a unique, multidimensional way of perceiving the world.",
+        "Notably, the extraordinary abilities of [SUPERHERO_NAME] afford him the capacity to see the world in a unique, multidimensional way.",
+        "As a result, [SUPERHERO_NAME]’s extraordinary abilities make it possible for him to observe the world in a unique, multidimensional way.",
+        "Furthermore, [SUPERHERO_NAME]’s extraordinary abilities are credited with giving him a unique, multidimensional way of perceiving the world.",
+        "The extraordinary abilities that [SUPERHERO_NAME] possesses allow him to discern the world in a unique, multidimensional way, additionally.",
+        "Because of his extraordinary abilities, [SUPERHERO_NAME] can interpret the world in a unique, multidimensional way.",
+        "Thanks to his extraordinary abilities, [SUPERHERO_NAME] perceives the world in a unique, multidimensional way.",
+        "Owing to his extraordinary abilities, [SUPERHERO_NAME] experiences the world in a unique, multidimensional way.",
+        "Given his extraordinary abilities, [SUPERHERO_NAME] is able to view the world in a unique, multidimensional way.",
+        "With his extraordinary abilities, [SUPERHERO_NAME] gains a unique, multidimensional way of seeing the world.",
+        "Due to his extraordinary abilities, [SUPERHERO_NAME] enjoys a unique, multidimensional way of perceiving the world.",
+        "Through his extraordinary abilities, [SUPERHERO_NAME] attains a unique, multidimensional way of observing the world."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "extraordinary": [
+          "extraordinary"
+        ],
+        "allow": [
+          "allow",
+          "admit",
+          "let",
+          "permit",
+          "grant"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "perceive": [
+          "perceive",
+          "comprehend"
+        ],
+        "known": [
+          "known"
+        ],
+        "multidimensional": [
+          "multidimensional"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "Earth",
+          "earth",
+          "cosmos"
+        ]
+      },
+      "field_data_types": {
+        "superhero_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The cityscape often serves as both a battleground and a canvas for these legendary figures.",
+      "template_pattern": "The cityscape often serves as both a battleground and a canvas for these legendary figures.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Often, the cityscape functions simultaneously as a battleground and a canvas for these legendary figures.",
+        "These legendary figures frequently treat the urban skyline as both a battlefield and an artistic backdrop.",
+        "The urban landscape commonly acts as a war zone and a painting surface for the legendary characters.",
+        "Both a combat arena and a creative stage, the cityscape is often utilized by these iconic figures.",
+        "For these legendary figures, the cityscape regularly becomes a battleground while also serving as a canvas.",
+        "A battleground and a canvas alike, the cityscape is often employed by these legendary personalities.",
+        "The cityscape is frequently used by these legendary figures as both a battlefield and a canvas.",
+        "In many cases, the urban environment doubles as a warfield and a canvas for these celebrated figures.",
+        "These legendary figures often view the cityscape as a dual‑purpose arena: a battlefield and a canvas.",
+        "Serving as both a combat field and an artistic medium, the cityscape often hosts these legendary figures.",
+        "The cityscape, often, is cast as both battleground and canvas for the renowned figures.",
+        "Legendary figures repeatedly turn the cityscape into a battlefield and an artistic surface.",
+        "As a battlefield and a canvas, the cityscape frequently accommodates these legendary figures.",
+        "The urban setting regularly functions as both a war zone and a canvas for these legendary characters.",
+        "Frequently, the cityscape operates as a dual‑stage—both battleground and canvas—for those legendary figures."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "battleground": [
+          "battleground",
+          "battlefield",
+          "field"
+        ],
+        "canvas": [
+          "canvas",
+          "canvass",
+          "poll",
+          "sheet"
+        ],
+        "cityscape": [
+          "cityscape"
+        ],
+        "legendary": [
+          "legendary",
+          "fabled"
+        ],
+        "both": [
+          "both"
+        ],
+        "often": [
+          "often",
+          "oftentimes",
+          "frequently"
+        ],
+        "serves": [
+          "serves",
+          "functions"
+        ],
+        "figures": [
+          "figures"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the midst of chaos, alliances are formed, and rivalries are born.",
+      "template_pattern": "In the midst of chaos, alliances are formed, and rivalries are born.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Amid the chaos, alliances emerge while rivalries take root.",
+        "When disorder prevails, new alliances are forged and fresh rivalries are sparked.",
+        "Chaos acts as a catalyst, prompting the creation of alliances and the birth of rivalries.",
+        "In the heart of turmoil, partnerships are established and antagonisms develop.",
+        "As chaos swirls, alliances are built and rivalries are generated.",
+        "While chaos dominates, alliances come into being and rivalries arise.",
+        "The presence of chaos leads to both the formation of alliances and the inception of rivalries.",
+        "During chaotic conditions, alliances are made and rivalries are initiated.",
+        "Chaos gives rise to alliances and simultaneously births rivalries.",
+        "In the midst of disorder, alliances are formed and rivalries are spawned.",
+        "With chaos as the backdrop, collaborations are created and conflicts are birthed.",
+        "Amidst the upheaval, alliances arise and rivalries emerge.",
+        "When chaos reigns, alliances are forged and rivalries are cultivated.",
+        "The chaos fuels the establishment of alliances and the emergence of rivalries.",
+        "In chaotic times, alliances are constructed and rivalries are ignited."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formed": [
+          "formed",
+          "shaped",
+          "forged"
+        ],
+        "alliances": [
+          "alliances"
+        ],
+        "midst": [
+          "midst"
+        ],
+        "born": [
+          "born",
+          "innate"
+        ],
+        "chaos": [
+          "chaos",
+          "bedlam",
+          "pandemonium"
+        ],
+        "rivalries": [
+          "rivalries"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, the superhero known as Charles Chandler is recognized for his unique abilities and compelling story within the universe of legendary heroes.",
+      "template_pattern": "Additionally, the superhero known as [FULL_NAME] is recognized for his unique abilities and compelling story within the universe of legendary heroes.",
+      "primary_data_fields": [
+        "full_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, [FULL_NAME], the superhero, is acclaimed for his distinctive powers and gripping narrative in the realm of legendary heroes.",
+        "The superhero [FULL_NAME] is also noted for his singular abilities and captivating tale within the legendary heroes' universe.",
+        "In addition, the legendary hero known as [FULL_NAME] enjoys recognition for his one‑of‑a‑kind skills and enthralling backstory across the universe of heroes.",
+        "Recognized for his unique talents and compelling storyline, the superhero [FULL_NAME] stands out in the world of legendary heroes.",
+        "Within the pantheon of legendary heroes, [FULL_NAME] the superhero is praised for his exceptional abilities and fascinating story.",
+        "[FULL_NAME], a superhero, is further distinguished by his distinctive powers and an engaging narrative throughout the legendary heroes' universe.",
+        "Also, the superhero identified as [FULL_NAME] receives acknowledgment for his unparalleled abilities and riveting saga in the realm of legendary heroes.",
+        "The universe of legendary heroes honors [FULL_NAME], the superhero, for his unique skill set and compelling chronicle.",
+        "Not only is the superhero [FULL_NAME] known for his unique abilities, but his compelling story also shines within the legendary heroes' universe.",
+        "[FULL_NAME], the celebrated superhero, is lauded for his singular powers and an enthralling story inside the legendary heroes' domain.",
+        "In the world of legendary heroes, the superhero [FULL_NAME] is celebrated for his distinctive abilities and captivating tale.",
+        "The superhero known as [FULL_NAME] is further recognized for his unique capabilities and compelling narrative across the legendary heroes' universe.",
+        "Within the legendary heroes' cosmos, [FULL_NAME] the superhero gains recognition for his exceptional abilities and gripping story.",
+        "Additionally, [FULL_NAME], a superhero, is famed for his unique powers and an engaging storyline in the universe of legendary heroes.",
+        "The extraordinary abilities and compelling saga of the superhero [FULL_NAME] earn him recognition throughout the legendary heroes' universe."
+      ],
+      "counter_variations": [
+        "The profile reveals that the full name is null, thereby implying an omission that calls for additional verification within the comprehensive professional report.",
+        "Analysis of the record shows the full name as null, which points to a gap that should be examined further in the comprehensive professional report.",
+        "According to the dossier, the full name registers null, suggesting a lapse that merits deeper scrutiny inside the comprehensive professional report.",
+        "The data sheet indicates the full name is null, hinting at a missing entry that requires further validation within the comprehensive professional report.",
+        "In the current assessment, the full name appears as null, signifying an oversight that ought to be investigated further in the comprehensive professional report.",
+        "Review of the profile notes that the full name is null, thereby flagging an omission that deserves additional confirmation within the comprehensive professional report.",
+        "The compiled information lists the full name as null, which raises a concern that must be cross‑checked in the comprehensive professional report.",
+        "Our examination finds the full name recorded as null, implying a deficiency that should be re‑verified within the comprehensive professional report.",
+        "The system output states the full name is null, indicating a potential gap that warrants further corroboration in the comprehensive professional report.",
+        "Evaluation of the credentials shows the full name marked as null, suggesting an error that needs supplementary verification inside the comprehensive professional report.",
+        "The audit trail marks the full name as null, thereby alluding to an omission that calls for a more thorough review within the comprehensive professional report.",
+        "Findings from the profile denote the full name as null, which points toward an incomplete entry that must be double‑checked in the comprehensive professional report.",
+        "The summary specifies that the full name is null, hinting at a data lapse that requires additional confirmation inside the comprehensive professional report.",
+        "Documentation reflects the full name as null, implying a shortfall that should be examined more closely within the comprehensive professional report.",
+        "The record asserts that the full name is null, thereby indicating a missing element that warrants further validation in the comprehensive professional report."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "additionally": [
+          "additionally"
+        ],
+        "recognized": [
+          "recognized",
+          "accepted",
+          "recognised"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "compelling": [
+          "compelling"
+        ],
+        "story": [
+          "story",
+          "tale",
+          "chronicle",
+          "narrative",
+          "narration",
+          "history"
+        ],
+        "legendary": [
+          "legendary",
+          "fabled"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "full_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "His journey is a testament to resilience and the power of unwavering determination.",
+      "template_pattern": "His journey is a testament to resilience and the power of unwavering determination.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "His journey stands as proof of resilience and the strength of steadfast determination.",
+        "The path he has taken testifies to both his resilience and the force of unwavering resolve.",
+        "Resilience and unyielding determination are embodied in his journey, serving as a clear testament.",
+        "A testament to resilience and the might of unrelenting determination is found in his journey.",
+        "Through his journey, the power of unwavering determination and resilience is vividly demonstrated.",
+        "His odyssey exemplifies the combination of resilience and the potency of steadfast resolve.",
+        "The story of his journey showcases resilience alongside the formidable power of unshakable determination.",
+        "Resilience and the force of unwavering determination are reflected in the course of his journey.",
+        "His journey, a clear indicator of resilience, also highlights the power of relentless determination.",
+        "The resilience displayed and the power of unwavering determination are both evident in his journey.",
+        "In his journey, one can see a testament to resilience as well as the might of steadfast determination.",
+        "A clear demonstration of resilience and the power of unyielding determination is his journey.",
+        "His journey has become a marker of both resilience and the strength inherent in unwavering determination.",
+        "The power of resolute determination and his resilient journey together form a compelling testament.",
+        "Resilience and unwavering determination’s power are encapsulated within the narrative of his journey."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unwavering": [
+          "unwavering",
+          "firm",
+          "unfaltering",
+          "steadfast",
+          "unshakable",
+          "steady"
+        ],
+        "testament": [
+          "testament",
+          "will"
+        ],
+        "resilience": [
+          "resilience",
+          "resiliency"
+        ],
+        "journey": [
+          "journey",
+          "travel"
+        ],
+        "determination": [
+          "determination",
+          "purpose"
+        ],
+        "power": [
+          "power",
+          "ability",
+          "force",
+          "might",
+          "office"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the world of superheroes, a gender identification number of 1 has been assigned to one of the characters, offering insight into gender diversity among these iconic figures.",
+      "template_pattern": "In the world of superheroes, a gender identification number of [GENDER_ID] has been assigned to one of the characters, offering insight into gender diversity among these iconic figures.",
+      "primary_data_fields": [
+        "gender_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the superhero realm, a gender id of [GENDER_ID] has been allocated to a particular character, shedding light on gender diversity within these legendary icons.",
+        "Among iconic heroes, the assignment of a gender id of [GENDER_ID] to one figure provides valuable insight into the spectrum of gender representation.",
+        "A gender id of [GENDER_ID] was designated to a single superhero, revealing aspects of gender diversity among these celebrated characters.",
+        "Within the universe of superheroes, one character carries a gender id of [GENDER_ID], which helps illustrate the range of gender diversity present.",
+        "The designation of gender id [GENDER_ID] to a specific superhero offers a glimpse into the gender diversity of these iconic figures.",
+        "One hero in the world of superheroes bears a gender id of [GENDER_ID], furnishing data that highlights gender diversity among the cast.",
+        "By assigning a gender id of [GENDER_ID] to a particular superhero, analysts gain perspective on gender diversity across these famed personas.",
+        "A superhero has been marked with gender id [GENDER_ID], an annotation that contributes to understanding gender diversity among iconic figures.",
+        "The presence of a gender id of [GENDER_ID] on a single superhero character serves to illuminate the broader gender diversity in this arena.",
+        "In superhero literature, a gender id of [GENDER_ID] attached to one character offers insight into the diversity of gender among the icons.",
+        "Through the allocation of gender id [GENDER_ID] to a specific hero, the report uncovers aspects of gender diversity among these legendary figures.",
+        "A single superhero carries a gender id of [GENDER_ID], providing a window into the gender diversity evident among the iconic roster.",
+        "Assigning gender id [GENDER_ID] to one character in the superhero domain helps reveal the extent of gender diversity among these icons.",
+        "The superhero dataset records a gender id of [GENDER_ID] for one figure, thereby highlighting gender diversity across the iconic lineup.",
+        "One character within the superhero universe has been given a gender id of [GENDER_ID], which aids in assessing gender diversity among these celebrated icons."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "offering": [
+          "offering",
+          "offer",
+          "tender",
+          "bid"
+        ],
+        "into": [
+          "into"
+        ],
+        "characters": [
+          "characters"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "iconic": [
+          "iconic"
+        ],
+        "superheroes": [
+          "superheroes"
+        ],
+        "these": [
+          "these"
+        ]
+      },
+      "field_data_types": {
+        "gender_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The echoes of their adventures inspire countless others to pursue their own dreams.",
+      "template_pattern": "The echoes of their adventures inspire countless others to pursue their own dreams.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The reverberations of their exploits motivate innumerable individuals to chase their personal aspirations.",
+        "Countless people are urged by the lingering resonance of their adventures to follow their own dreams.",
+        "Inspired by the ripple effect of their journeys, countless others set out to achieve their own ambitions.",
+        "Their adventurous legacy fuels an endless stream of people pursuing their individual dreams.",
+        "The lasting echo of their feats spurs countless individuals toward realizing their personal goals.",
+        "As the echoes of their adventures circulate, many are encouraged to pursue their own aspirations.",
+        "Many are driven to chase their dreams by the resonant impact of the group's adventures.",
+        "The reverberating stories of their exploits inspire a multitude to embark on their own dream quests.",
+        "Countless others, moved by the echoing tales of adventure, strive to fulfill their personal dreams.",
+        "Their adventure’s echo acts as a catalyst, prompting countless individuals to pursue their own visions.",
+        "Through the echoing resonance of their ventures, innumerable people are motivated to chase their dreams.",
+        "The persistent echo from their adventures galvanizes countless others to follow their own aspirations.",
+        "By echoing their adventurous deeds, they inspire a countless audience to pursue personal dreams.",
+        "The resonant aftermath of their exploits encourages countless individuals to pursue their own goals.",
+        "Echoes of their journeys inspire an innumerable crowd to chase the dreams they hold themselves."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "echoes": [
+          "echoes"
+        ],
+        "countless": [
+          "countless",
+          "innumerable",
+          "myriad",
+          "infinite",
+          "unnumbered",
+          "multitudinous"
+        ],
+        "inspire": [
+          "inspire",
+          "prompt",
+          "urge",
+          "invigorate",
+          "exhort",
+          "animate"
+        ],
+        "others": [
+          "others"
+        ],
+        "dreams": [
+          "dreams"
+        ],
+        "pursue": [
+          "pursue",
+          "follow"
+        ],
+        "adventures": [
+          "adventures"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Each hero's path is marked by trials and triumphs, shaping their legacy.",
+      "template_pattern": "Each hero's path is marked by trials and triumphs, shaping their legacy.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Trials and triumphs define the course each hero walks, forging their legacy.",
+        "Each hero’s journey, punctuated by challenges and victories, molds their enduring reputation.",
+        "The path of every champion is characterized by hardships and successes, which shape their lasting impact.",
+        "Marked by ordeals and wins, a hero’s route ultimately crafts their legacy.",
+        "In every hero’s trajectory, trials intertwine with triumphs, thereby shaping their heritage.",
+        "Challenges and achievements delineate each hero’s way, influencing the legacy they leave behind.",
+        "Each hero’s route, scarred by tests and celebrated by victories, forms the basis of their legacy.",
+        "By enduring both hardships and triumphs, the path of each hero is forged into a lasting legacy.",
+        "The legacy of a hero is molded as their path, filled with trials and triumphs, unfolds.",
+        "Trials and victories mark every hero’s passage, consequently shaping their historical imprint.",
+        "A hero’s journey, beset with challenges and crowned with successes, determines their lasting legacy.",
+        "Through a series of tests and wins, each hero’s course is etched, creating their enduring legacy.",
+        "Each champion’s way, defined by both adversity and achievement, constructs the legacy they bequeath.",
+        "The sequence of hardships and accomplishments along a hero’s path crafts the legacy they are remembered for.",
+        "As trials and triumphs thread through each hero’s itinerary, they collectively forge the hero’s legacy."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "path": [
+          "path",
+          "track",
+          "route",
+          "course",
+          "way"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "marked": [
+          "marked",
+          "distinguish",
+          "label",
+          "punctuate",
+          "notice",
+          "mark"
+        ],
+        "legacy": [
+          "legacy",
+          "bequest"
+        ],
+        "trials": [
+          "trials",
+          "tests"
+        ],
+        "hero": [
+          "hero",
+          "champion"
+        ],
+        "triumphs": [
+          "triumphs"
+        ],
+        "shaping": [
+          "shaping",
+          "defining"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Moreover, the superhero's striking visual identity is enhanced by an eye_colour_id of 9, adding a unique touch to their characterization.",
+      "template_pattern": "Moreover, the superhero's striking visual identity is enhanced by an eye_colour_id of [EYE_COLOUR_ID], adding a unique touch to their characterization.",
+      "primary_data_fields": [
+        "eye_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Additionally, the superhero’s bold visual identity is amplified by an eye colour id of [EYE_COLOUR_ID], which contributes a distinctive flair to their characterization.",
+        "The superhero’s striking visual identity gains extra distinction through an eye colour id of [EYE_COLOUR_ID], thereby adding a unique touch to the character’s profile.",
+        "An eye colour id of [EYE_COLOUR_ID] enhances the superhero’s eye‑catching visual identity, introducing a singular element to their characterization.",
+        "Moreover, by assigning an eye colour id of [EYE_COLOUR_ID], the superhero’s vivid visual identity receives a unique boost to its characterization.",
+        "The superhero’s visual identity, already striking, is further enriched by an eye colour id of [EYE_COLOUR_ID], lending a one‑of‑a‑kind nuance to their character.",
+        "With an eye colour id of [EYE_COLOUR_ID], the superhero’s striking visual identity is given an extra layer of uniqueness in its characterization.",
+        "The presence of an eye colour id of [EYE_COLOUR_ID] serves to heighten the superhero’s bold visual identity, adding a distinctive aspect to their portrayal.",
+        "An eye colour id of [EYE_COLOUR_ID] is employed to accentuate the superhero’s striking visual identity, providing a unique touch to the character’s description.",
+        "By incorporating an eye colour id of [EYE_COLOUR_ID], the superhero’s eye‑catching visual identity is further distinguished, enhancing their overall characterization.",
+        "The superhero’s vivid visual identity is augmented by an eye colour id of [EYE_COLOUR_ID], which imparts a singular quality to their characterization.",
+        "Adding an eye colour id of [EYE_COLOUR_ID] to the superhero’s striking visual identity injects a unique element into their character profile.",
+        "The superhero’s eye‑catching visual identity is bolstered by an eye colour id of [EYE_COLOUR_ID], thereby giving the characterization a distinctive edge.",
+        "Through the use of an eye colour id of [EYE_COLOUR_ID], the superhero’s striking visual identity receives a special touch that enriches their characterization.",
+        "An eye colour id of [EYE_COLOUR_ID] enhances the superhero’s bold visual identity, contributing a unique nuance to how the character is portrayed.",
+        "The striking visual identity of the superhero is improved by an eye colour id of [EYE_COLOUR_ID], adding a unique facet to their overall characterization."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "striking": [
+          "striking",
+          "outstanding",
+          "spectacular",
+          "salient",
+          "dramatic",
+          "prominent"
+        ],
+        "visual": [
+          "visual",
+          "ocular",
+          "optic",
+          "optical"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "characterization": [
+          "characterization",
+          "characterisation",
+          "delineation",
+          "depiction",
+          "portrayal"
+        ],
+        "touch": [
+          "touch",
+          "contact",
+          "reach"
+        ],
+        "moreover": [
+          "moreover",
+          "furthermore"
+        ],
+        "adding": [
+          "adding"
+        ],
+        "enhanced": [
+          "enhanced"
+        ]
+      },
+      "field_data_types": {
+        "eye_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These visual elements contribute to the rich tapestry of their stories.",
+      "template_pattern": "These visual elements contribute to the rich tapestry of their stories.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The visual components enrich the intricate tapestry of their narratives.",
+        "Their stories are woven with a rich tapestry thanks to these visual elements.",
+        "By integrating these visual cues, the complexity of their narratives is heightened.",
+        "These graphic assets add depth to the vivid fabric of their stories.",
+        "A vibrant mosaic of their accounts emerges from the inclusion of these visual elements.",
+        "The richness of their storytelling tapestry is amplified by the presence of visual elements.",
+        "With these visual elements, the elaborate tapestry of their stories gains added layers.",
+        "Their narratives gain a richer texture as a result of these visual components.",
+        "These visual cues help shape the elaborate tapestry that defines their stories.",
+        "The elaborate fabric of their stories is enhanced by the contribution of visual elements.",
+        "Thanks to these visual assets, the complex tapestry of their narratives becomes more vivid.",
+        "The stories' rich tapestry is bolstered by the integration of visual elements.",
+        "Incorporating these visual elements strengthens the intricate weave of their stories.",
+        "The visual elements serve to deepen the colorful tapestry within their narratives.",
+        "As a result of these visual cues, their stories display a more sumptuous tapestry."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "visual": [
+          "visual",
+          "ocular",
+          "optic",
+          "optical"
+        ],
+        "their": [
+          "their"
+        ],
+        "stories": [
+          "stories"
+        ],
+        "contribute": [
+          "contribute",
+          "add",
+          "bring"
+        ],
+        "these": [
+          "these"
+        ],
+        "rich": [
+          "rich",
+          "copious",
+          "ample",
+          "plentiful",
+          "robust"
+        ],
+        "elements": [
+          "elements"
+        ],
+        "tapestry": [
+          "tapestry",
+          "arras"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the superhero's unique visual identity is marked by the hair_colour_id 13, setting them apart in the comic book universe.",
+      "template_pattern": "Furthermore, the superhero's unique visual identity is marked by the hair_colour_id [HAIR_COLOUR_ID], setting them apart in the comic book universe.",
+      "primary_data_fields": [
+        "hair_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the superhero’s distinct visual signature includes hair colour id [HAIR_COLOUR_ID], distinguishing them within the comic book realm.",
+        "In addition, hair colour id [HAIR_COLOUR_ID] characterizes the hero’s one‑of‑a‑kind visual identity, setting the figure apart across the comic universe.",
+        "The hero’s unique appearance is further defined by hair colour id [HAIR_COLOUR_ID], which separates them from other characters in the comic book world.",
+        "Additionally, the superhero’s visual identity is identified by hair colour id [HAIR_COLOUR_ID], marking a clear distinction in the comic book domain.",
+        "Hair colour id [HAIR_COLOUR_ID] serves as a hallmark of the superhero’s exclusive visual style, differentiating the character in the broader comic universe.",
+        "The comic book universe recognises the superhero’s singular visual profile, highlighted by hair colour id [HAIR_COLOUR_ID], as a differentiating factor.",
+        "Featuring hair colour id [HAIR_COLOUR_ID], the superhero’s visual identity stands out, setting the character apart in the comic book sphere.",
+        "The presence of hair colour id [HAIR_COLOUR_ID] in the hero’s visual design underlines their uniqueness within the comic book landscape.",
+        "With hair colour id [HAIR_COLOUR_ID], the superhero’s distinct visual identity is emphasized, creating a notable separation from peers in the comic arena.",
+        "The superhero’s visual distinctiveness is marked by hair colour id [HAIR_COLOUR_ID], which positions them uniquely in the comic book environment.",
+        "Hair colour id [HAIR_COLOUR_ID] is a defining element of the hero’s visual identity, contributing to their distinct standing in the comic book sector.",
+        "By incorporating hair colour id [HAIR_COLOUR_ID], the superhero’s visual signature is uniquely identified, differentiating them throughout the comic universe.",
+        "The unique visual identity of the superhero, underscored by hair colour id [HAIR_COLOUR_ID], sets them apart across the comic book continuum.",
+        "In the comic book context, the superhero is set apart thanks to a visual identity that features hair colour id [HAIR_COLOUR_ID].",
+        "The inclusion of hair colour id [HAIR_COLOUR_ID] in the hero’s visual profile marks a distinct differentiation within the comic book world."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "them": [
+          "them"
+        ],
+        "marked": [
+          "marked",
+          "brand",
+          "label",
+          "notice",
+          "check",
+          "mark"
+        ],
+        "visual": [
+          "visual",
+          "ocular",
+          "optic",
+          "optical"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "apart": [
+          "apart",
+          "aside",
+          "isolated"
+        ],
+        "comic": [
+          "comic",
+          "comical",
+          "funny",
+          "amusing",
+          "laughable"
+        ],
+        "universe": [
+          "universe",
+          "cosmos",
+          "macrocosm",
+          "world"
+        ],
+        "setting": [
+          "setting",
+          "background",
+          "context",
+          "scene",
+          "circumstance",
+          "place"
+        ]
+      },
+      "field_data_types": {
+        "hair_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Their appearance often reflects the inner strength and complexity of their character.",
+      "template_pattern": "Their appearance often reflects the inner strength and complexity of their character.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Frequently, their outward appearance mirrors the inner strength and complexity of their character.",
+        "The way they look often serves as a reflection of the inner fortitude and nuanced nature of their personality.",
+        "Their external look commonly reveals the underlying strength and intricate layers of their character.",
+        "Often, the appearance they present reflects both the inner resilience and the complexity inherent in their character.",
+        "The inner strength and complexity of their character are often evident in their outward appearance.",
+        "An outward appearance can frequently manifest the inner vigor and sophisticated complexity of their character.",
+        "Their visual presentation often mirrors the deep‑seated strength and layered complexity of their personality.",
+        "The complexity and inner strength of their character are regularly echoed in how they appear.",
+        "Their outward demeanor often betrays the inner power and intricate nature of their character.",
+        "In many cases, the appearance they project reflects the inner robustness and multifaceted character they possess.",
+        "The inner durability and complexity of their personality are commonly reflected in their external appearance.",
+        "Often, the way they look outward showcases the inner strength and elaborate complexity of their character.",
+        "Their external appearance typically conveys the intrinsic strength and complex makeup of their character.",
+        "The strength and complexity residing within their character are often manifested through their outward look.",
+        "Their outward look frequently serves as a testament to the inner fortitude and nuanced complexity of their personality."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "appearance": [
+          "appearance"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "complexity": [
+          "complexity"
+        ],
+        "character": [
+          "character",
+          "type",
+          "role",
+          "quality",
+          "persona"
+        ],
+        "strength": [
+          "strength",
+          "potency",
+          "effectiveness",
+          "durability",
+          "intensity",
+          "force"
+        ],
+        "inner": [
+          "inner",
+          "interior",
+          "internal",
+          "inside"
+        ],
+        "their": [
+          "their"
+        ],
+        "reflects": [
+          "reflects"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The narrative of each hero is woven with personal growth and discovery.",
+      "template_pattern": "The narrative of each hero is woven with personal growth and discovery.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each hero's story intertwines personal growth and discovery.",
+        "Personal growth and discovery are woven into the narrative of every hero.",
+        "The tale of each hero incorporates both personal development and discovery.",
+        "In every hero's narrative, personal growth and discovery are tightly interlaced.",
+        "Interlacing personal growth with discovery, the narrative of each hero unfolds.",
+        "The narrative for each hero blends personal growth and discovery.",
+        "Personal growth and discovery permeate the storyline of each hero.",
+        "Each hero’s account is threaded with personal growth and discovery.",
+        "Woven throughout each hero’s narrative are elements of personal growth and discovery.",
+        "The storylines of all heroes encompass personal growth and discovery.",
+        "Personal growth and discovery feature prominently within each hero’s narrative.",
+        "Within the narrative of each hero, personal growth and discovery are intricately woven.",
+        "The narratives of the heroes are built upon personal growth and discovery.",
+        "Each hero’s narrative, marked by personal growth, also includes discovery.",
+        "By integrating personal growth and discovery, each hero’s story is constructed."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "hero": [
+          "hero",
+          "champion"
+        ],
+        "narrative": [
+          "narrative",
+          "story",
+          "narration"
+        ],
+        "woven": [
+          "woven"
+        ],
+        "discovery": [
+          "discovery",
+          "breakthrough",
+          "uncovering"
+        ],
+        "personal": [
+          "personal"
+        ],
+        "growth": [
+          "growth",
+          "increase",
+          "development",
+          "emergence"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The superhero with the skin color identifier 1 has a unique and striking appearance that adds to the diversity of the team.",
+      "template_pattern": "The superhero with the skin color identifier [SKIN_COLOUR_ID] has a unique and striking appearance that adds to the diversity of the team.",
+      "primary_data_fields": [
+        "skin_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero bearing skin colour id [SKIN_COLOUR_ID] possesses a distinctive and eye‑catching look that enhances the team’s diversity.",
+        "With skin colour id [SKIN_COLOUR_ID], the superhero displays a one‑of‑a‑kind, striking appearance, contributing to the diversity of the group.",
+        "A unique and bold appearance characterises the superhero whose skin colour id is [SKIN_COLOUR_ID], thereby enriching the team’s variety.",
+        "The team’s diversity is boosted by the superhero’s unique, striking look, identified by skin colour id [SKIN_COLOUR_ID].",
+        "Possessing skin colour id [SKIN_COLOUR_ID], the superhero’s appearance is both singular and striking, adding to the group’s diversity.",
+        "The superhero, identified by skin colour id [SKIN_COLOUR_ID], showcases a remarkable and vivid appearance that augments the team’s diversity.",
+        "Because the superhero has skin colour id [SKIN_COLOUR_ID], his/her appearance stands out as unique and striking, increasing the team’s diversity.",
+        "A distinctive, eye‑catching look is afforded to the superhero with skin colour id [SKIN_COLOUR_ID], which in turn broadens the team’s diversity.",
+        "The superhero’s unique and striking visual style, marked by skin colour id [SKIN_COLOUR_ID], serves to diversify the team.",
+        "Marked with skin colour id [SKIN_COLOUR_ID], the superhero’s appearance is uniquely striking and contributes to the diversity of the squad.",
+        "The diversity of the team is enhanced by the superhero’s one‑of‑a‑kind, bold appearance linked to skin colour id [SKIN_COLOUR_ID].",
+        "With a singular and striking look, the superhero (skin colour id [SKIN_COLOUR_ID]) adds to the team’s overall diversity.",
+        "The superhero’s appearance, unique and striking thanks to skin colour id [SKIN_COLOUR_ID], helps to diversify the team.",
+        "Thanks to skin colour id [SKIN_COLOUR_ID], the superhero exhibits a distinctive, striking appearance that enriches team diversity.",
+        "A unique, striking aesthetic, associated with skin colour id [SKIN_COLOUR_ID], is possessed by the superhero and expands the team’s diversity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "skin": [
+          "skin",
+          "peel",
+          "hide",
+          "pelt",
+          "tegument",
+          "cutis"
+        ],
+        "striking": [
+          "striking",
+          "outstanding",
+          "spectacular",
+          "salient",
+          "dramatic",
+          "prominent"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unparalleled",
+          "unequalled"
+        ],
+        "appearance": [
+          "appearance",
+          "show"
+        ],
+        "adds": [
+          "adds",
+          "append",
+          "sum",
+          "total",
+          "add",
+          "contribute"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "color": [
+          "color",
+          "colour",
+          "tinge",
+          "coloration",
+          "colouration"
+        ]
+      },
+      "field_data_types": {
+        "skin_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such diversity adds depth and richness to the universe they inhabit.",
+      "template_pattern": "Such diversity adds depth and richness to the universe they inhabit.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This diversity enriches the universe they occupy by adding both depth and richness.",
+        "By introducing variety, the universe they inhabit gains increased depth and richness.",
+        "The universe they live in is deepened and made richer through such diversity.",
+        "Through this heterogeneity, depth and richness are imparted to their inhabited universe.",
+        "Such multiplicity contributes depth and richness to the cosmos they call home.",
+        "Depth and richness are enhanced in the universe they inhabit thanks to this diversity.",
+        "Because of the diverse elements, the universe they reside in acquires greater depth and richness.",
+        "The presence of diversity adds layers of depth and richness to the world they occupy.",
+        "In the universe they inhabit, diversity serves to augment both its depth and its richness.",
+        "Their universe becomes more profound and abundant as a result of such diversity.",
+        "With this variety, the universe they occupy experiences added depth and richness.",
+        "Such diversity infuses the universe they inhabit with enhanced depth and richness.",
+        "The universe they live within gains depth and richness owing to this diversity.",
+        "Through a range of diverse factors, the depth and richness of their universe are amplified.",
+        "The depth and richness of the universe they inhabit are bolstered by this diversity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "richness": [
+          "richness",
+          "fullness",
+          "affluence",
+          "profusion"
+        ],
+        "adds": [
+          "adds"
+        ],
+        "inhabit": [
+          "inhabit",
+          "populate",
+          "live",
+          "dwell"
+        ],
+        "such": [
+          "such"
+        ],
+        "depth": [
+          "depth",
+          "profundity",
+          "deepness"
+        ],
+        "universe": [
+          "universe",
+          "cosmos",
+          "macrocosm"
+        ],
+        "diversity": [
+          "diversity",
+          "variety"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, the stories of these heroes are celebrated and cherished by fans worldwide.",
+      "template_pattern": "Additionally, the stories of these heroes are celebrated and cherished by fans worldwide.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, fans across the globe celebrate and cherish these heroes' stories.",
+        "In addition, the tales of these heroes are both celebrated and treasured by worldwide fans.",
+        "Worldwide admirers celebrate and hold dear the narratives of these heroes, too.",
+        "The stories of these heroes enjoy celebration and affection from fans all over the world, additionally.",
+        "Furthermore, global fans cherish and commemorate the accounts of these heroes.",
+        "Fans worldwide both celebrate and value the legends of these heroes, as well.",
+        "The narratives of these heroes are honored and loved by international fans, in addition.",
+        "Additionally, the heroic stories receive celebration and admiration from fans around the world.",
+        "Across the globe, fans celebrate and cherish the stories of these heroes.",
+        "The tales of these heroes are celebrated and treasured by fans worldwide, moreover.",
+        "As a further point, fans worldwide celebrate and esteem the accounts of these heroes.",
+        "The heroic narratives are both celebrated and cherished by fans worldwide, additionally.",
+        "Fans everywhere celebrate and hold the stories of these heroes in high regard, too.",
+        "Moreover, the stories of these heroes garner celebration and affection from fans worldwide.",
+        "In addition to other points, worldwide fans celebrate and cherish these heroes' stories."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "additionally": [
+          "additionally"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "stories": [
+          "stories"
+        ],
+        "celebrated": [
+          "celebrated",
+          "famous",
+          "renowned",
+          "illustrious",
+          "notable",
+          "famed"
+        ],
+        "these": [
+          "these"
+        ],
+        "cherished": [
+          "cherished",
+          "precious",
+          "treasured",
+          "wanted"
+        ],
+        "worldwide": [
+          "worldwide",
+          "universal",
+          "global",
+          "planetary",
+          "cosmopolitan"
+        ],
+        "heroes": [
+          "heroes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the world of superheroes, Race Identifier 1 is assigned to those whose unique abilities are celebrated across the universe.",
+      "template_pattern": "In the world of superheroes, Race Identifier [RACE_ID] is assigned to those whose unique abilities are celebrated across the universe.",
+      "primary_data_fields": [
+        "race_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the superhero realm, race id [RACE_ID] designates individuals whose unique abilities are celebrated across the universe.",
+        "The label race id [RACE_ID] is applied to any hero whose unique abilities are celebrated across the universe in the world of superheroes.",
+        "In the world of superheroes, those possessing unique abilities that are celebrated across the universe receive race id [RACE_ID].",
+        "Race id [RACE_ID] is assigned to characters whose unique abilities enjoy celebration across the universe throughout the superhero universe.",
+        "Across the universe, the unique abilities of those in the superhero world are celebrated, earning them race id [RACE_ID].",
+        "For superheroes whose unique abilities are celebrated across the universe, the identifier race id [RACE_ID] is granted.",
+        "Those whose unique abilities are celebrated across the universe in the superhero domain are given race id [RACE_ID].",
+        "The superhero world bestows race id [RACE_ID] upon anyone whose unique abilities are celebrated across the universe.",
+        "In the context of superheroes, race id [RACE_ID] marks individuals whose unique abilities are celebrated across the universe.",
+        "Among superheroes, the assignment of race id [RACE_ID] goes to those whose unique abilities are celebrated across the universe.",
+        "Race id [RACE_ID] serves as the tag for any superhero whose unique abilities receive celebration across the universe.",
+        "When unique abilities are celebrated across the universe, the superhero community assigns race id [RACE_ID].",
+        "The superhero universe awards race id [RACE_ID] to those whose unique abilities are celebrated across the universe.",
+        "Heroes with unique abilities celebrated across the universe are identified by race id [RACE_ID] within the superhero world.",
+        "In the realm of superheroes, race id [RACE_ID] identifies those whose unique abilities are celebrated across the universe."
+      ],
+      "counter_variations": [
+        "The comprehensive demographic overview records the race id as null, thereby denoting an unspecified classification for this participant.",
+        "In the detailed demographic summary, the race id appears as null, signifying that this participant's classification has not been specified.",
+        "Within the extensive demographic profile, the race id is listed as null, which reflects an unspecified categorization for the individual concerned.",
+        "The race id, as noted in the full demographic report, is null, indicating that the participant’s classification remains unspecified.",
+        "Recorded in the thorough demographic analysis, the race id takes the value null, suggesting an unspecified classification for this participant.",
+        "When reviewing the comprehensive demographic data, one finds the race id set to null, implying that the participant’s classification is unspecified.",
+        "The demographic overview, exhaustive in scope, documents the race id as null, thereby conveying an unspecified status for this participant’s classification.",
+        "In the overarching demographic assessment, the race id is captured as null, which points to an unspecified classification for the subject.",
+        "The race id field, within the all‑encompassing demographic report, is assigned the value null, denoting an unspecified classification for the participant.",
+        "Amid the detailed demographic inventory, the race id registers as null, reflecting an unspecified categorization for this individual.",
+        "The demographic summary, comprehensive in nature, marks the race id as null, indicating that this participant’s classification is unspecified.",
+        "Within the full demographic tableau, the race id is recorded as null, signifying an unspecified classification for the participant in question.",
+        "The exhaustive demographic profile lists the race id as null, which conveys that the participant’s classification is unspecified.",
+        "In the context of a complete demographic review, the race id appears as null, denoting an unspecified classification for the individual involved.",
+        "The race id, as presented in the comprehensive demographic overview, is null, thereby indicating that the participant’s classification remains unspecified."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unparalleled",
+          "unequalled"
+        ],
+        "race": [
+          "race"
+        ],
+        "those": [
+          "those"
+        ],
+        "whose": [
+          "whose"
+        ],
+        "assigned": [
+          "assigned",
+          "designated",
+          "deputed",
+          "delegated",
+          "allotted",
+          "ascribed"
+        ],
+        "celebrated": [
+          "celebrated",
+          "famous",
+          "renowned",
+          "illustrious",
+          "notable",
+          "famed"
+        ],
+        "superheroes": [
+          "superheroes"
+        ]
+      },
+      "field_data_types": {
+        "race_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Their contributions make an indelible impact on the world around them.",
+      "template_pattern": "Their contributions make an indelible impact on the world around them.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The world around them is permanently shaped by their contributions.",
+        "Their contributions leave a lasting imprint on the surrounding world.",
+        "By contributing, they create an enduring influence on their environment.",
+        "An indelible impact on the world surrounding them results from their contributions.",
+        "Their contributions have a lasting effect on the world in which they operate.",
+        "The world they inhabit bears an unmistakable mark thanks to their contributions.",
+        "Through their contributions, an enduring impact on the adjacent world is achieved.",
+        "Their input permanently alters the environment around them.",
+        "Consequently, their contributions imprint an irreversible effect on the nearby world.",
+        "The surrounding world experiences a lasting transformation due to their contributions.",
+        "Their contributions, in turn, forge an indelible influence on the world nearby.",
+        "Owing to their contributions, the world around them is indelibly impacted.",
+        "Their efforts produce a permanent mark on the environment they affect.",
+        "A lasting impact on the world surrounding them stems from their contributions.",
+        "Their contributions cause an enduring imprint upon the world in their vicinity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "them": [
+          "them"
+        ],
+        "contributions": [
+          "contributions"
+        ],
+        "indelible": [
+          "indelible",
+          "unerasable"
+        ],
+        "make": [
+          "make",
+          "create",
+          "construct",
+          "produce",
+          "build",
+          "constitute"
+        ],
+        "around": [
+          "around",
+          "about",
+          "approximately",
+          "roughly",
+          "round"
+        ],
+        "impact": [
+          "impact",
+          "affect",
+          "shock",
+          "impingement"
+        ],
+        "their": [
+          "their"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "Earth",
+          "earth",
+          "cosmos"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The bonds formed in the heat of battle often endure beyond the pages of their stories.",
+      "template_pattern": "The bonds formed in the heat of battle often endure beyond the pages of their stories.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the heat of battle, bonds are forged that often outlast the pages of their stories.",
+        "The bonds that arise during the blaze of combat typically survive beyond the narrative's pages.",
+        "Often, the connections made amid wartime persist past the written chapters of their account.",
+        "Beyond the printed chronicles, the relationships forged in fierce fighting endure.",
+        "Bonds created in the fury of conflict frequently transcend the limits of their storybooks.",
+        "The camaraderie born in the midst of battle commonly lasts longer than the recorded tale.",
+        "It is usual for alliances formed under combat conditions to outlive the pages that describe them.",
+        "The ties established during intense combat are habitually seen to survive past the story's text.",
+        "Frequently, the friendships that develop in battle's heat survive beyond the documented narrative.",
+        "In the midst of war’s blaze, connections are built that endure beyond the pages of the saga.",
+        "The relationships that emerge from the heat of conflict often continue after the story ends.",
+        "Beyond the pages of their chronicles, the bonds forged during battle remain intact.",
+        "The forged bonds in combat’s heat are often persistent beyond the pages of their story.",
+        "It is typical that the bonds made amid battle outlast the written accounts that follow.",
+        "Even after the narrative concludes, the alliances formed in the heat of combat often endure."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "endure": [
+          "endure",
+          "survive",
+          "persist",
+          "prevail",
+          "stand",
+          "tolerate"
+        ],
+        "battle": [
+          "battle",
+          "combat",
+          "conflict",
+          "engagement",
+          "struggle",
+          "fight"
+        ],
+        "stories": [
+          "stories"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes",
+          "oft"
+        ],
+        "heat": [
+          "heat",
+          "warmth",
+          "hotness",
+          "heating"
+        ],
+        "beyond": [
+          "beyond"
+        ],
+        "bonds": [
+          "bonds"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the superhero character is uniquely associated with their comic book publisher through the publisher_id 13, ensuring precise identification.",
+      "template_pattern": "Furthermore, the superhero character is uniquely associated with their comic book publisher through the publisher_id [PUBLISHER_ID], ensuring precise identification.",
+      "primary_data_fields": [
+        "publisher_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the superhero character is linked exclusively to its comic book publisher via publisher id [PUBLISHER_ID], guaranteeing exact identification.",
+        "In addition, publisher id [PUBLISHER_ID] connects the superhero character uniquely to its comic book publisher, providing precise identification.",
+        "The superhero character, through publisher id [PUBLISHER_ID], is distinctly tied to its comic book publisher, ensuring accurate identification.",
+        "Through publisher id [PUBLISHER_ID], a unique association is established between the superhero character and its comic book publisher, securing precise identification.",
+        "A unique link via publisher id [PUBLISHER_ID] binds the superhero character to its comic book publisher, thereby ensuring exact identification.",
+        "Publisher id [PUBLISHER_ID] uniquely associates the superhero character with its comic book publisher, which in turn ensures precise identification.",
+        "By means of publisher id [PUBLISHER_ID], the superhero character is specifically connected to its comic book publisher, guaranteeing accurate identification.",
+        "The comic book publisher is uniquely identified with the superhero character through publisher id [PUBLISHER_ID], ensuring precise recognition.",
+        "Through the use of publisher id [PUBLISHER_ID], the superhero character is uniquely related to its comic book publisher, enabling exact identification.",
+        "Thanks to publisher id [PUBLISHER_ID], a distinct relationship exists between the superhero character and its comic book publisher, ensuring precise identification.",
+        "The superhero character’s unique connection to its comic book publisher is established via publisher id [PUBLISHER_ID], providing accurate identification.",
+        "With publisher id [PUBLISHER_ID], the superhero character is singularly associated with its comic book publisher, assuring precise identification.",
+        "Publisher id [PUBLISHER_ID] serves to uniquely tie the superhero character to its comic book publisher, thereby guaranteeing exact identification.",
+        "A singular association through publisher id [PUBLISHER_ID] links the superhero character with its comic book publisher, ensuring precise identification.",
+        "Via publisher id [PUBLISHER_ID], the superhero character maintains a unique affiliation with its comic book publisher, securing accurate identification."
+      ],
+      "counter_variations": [
+        "In addition, the project's metadata reveals that the publisher id is null, which consequently blocks any definitive source attribution at this point.",
+        "Furthermore, because the publisher id appears as null in the project's metadata, a conclusive attribution of the source cannot be made at this stage.",
+        "The project's metadata, indicating a null publisher id, precludes the assignment of a definitive source attribution at the current juncture.",
+        "Given that the publisher id is recorded as null within the project's metadata, it is impossible to ascribe a definitive source at this phase.",
+        "A null value for the publisher id, as documented in the project's metadata, effectively prevents any firm source attribution at this time.",
+        "Since the project's metadata lists the publisher id as null, we are unable to provide a definitive source attribution at present.",
+        "The metadata of the project specifies a null publisher id, thereby obstructing any definitive source attribution at this stage.",
+        "With the publisher id marked as null in the project's metadata, definitive source attribution remains unattainable at this point.",
+        "Because the project's metadata reports a null publisher id, establishing a definitive source attribution is presently precluded.",
+        "The project's metadata indicates a null publisher id, which in turn bars any definitive source attribution at this juncture.",
+        "Owing to a null entry for the publisher id in the project's metadata, definitive source attribution cannot be asserted at this stage.",
+        "The presence of a null publisher id within the project's metadata effectively eliminates the possibility of definitive source attribution at this time.",
+        "In the project's metadata, the publisher id is null, thus precluding any definitive source attribution at the current stage.",
+        "A null designation for the publisher id in the project's metadata serves to inhibit any definitive source attribution at this point.",
+        "The project's metadata shows that the publisher id is null, consequently preventing any definitive source attribution at this phase."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "precise": [
+          "precise",
+          "accurate",
+          "exact"
+        ],
+        "comic": [
+          "comic",
+          "comical",
+          "funny",
+          "amusing"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "publisher": [
+          "publisher"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "uniquely": [
+          "uniquely",
+          "unambiguously"
+        ],
+        "character": [
+          "character",
+          "type",
+          "role",
+          "part",
+          "quality"
+        ]
+      },
+      "field_data_types": {
+        "publisher_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This association strengthens the legacy and recognition of these iconic figures.",
+      "template_pattern": "This association strengthens the legacy and recognition of these iconic figures.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This partnership bolsters both the heritage and the public acknowledgment of these iconic figures.",
+        "By linking together, the collaboration amplifies the legacy and raises the recognition of these celebrated personalities.",
+        "The association reinforces the enduring impact and visibility of these iconic figures.",
+        "Through this affiliation, the legacy and recognition of these iconic individuals are strengthened.",
+        "Strengthening both the heritage and fame of these iconic figures is a direct result of this connection.",
+        "The tie enhances the lasting reputation and acknowledgment of these iconic figures.",
+        "As a result of this association, the legacy and public profile of these iconic individuals are fortified.",
+        "This collaborative link augments the enduring legacy and boosts the recognition of these iconic figures.",
+        "The relationship serves to reinforce the heritage and increase the visibility of these celebrated individuals.",
+        "With this association, the legacy and recognition of these iconic figures are markedly enhanced.",
+        "By virtue of this partnership, the enduring impact and acknowledgment of these iconic figures are amplified.",
+        "This affiliation strengthens the lasting reputation and heightens the recognition of these iconic individuals.",
+        "The connection intensifies both the heritage and the public awareness of these iconic figures.",
+        "Through this collaborative effort, the legacy and fame of these iconic personalities are reinforced.",
+        "The association acts to bolster the enduring legacy and improve the recognition of these iconic figures."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strengthens": [
+          "strengthens"
+        ],
+        "recognition": [
+          "recognition",
+          "acknowledgment",
+          "acknowledgement"
+        ],
+        "legacy": [
+          "legacy",
+          "bequest"
+        ],
+        "figures": [
+          "figures",
+          "numbers"
+        ],
+        "iconic": [
+          "iconic"
+        ],
+        "these": [
+          "these"
+        ],
+        "association": [
+          "association",
+          "affiliation",
+          "connection"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Consequently, the tales they tell continue to captivate new generations of readers.",
+      "template_pattern": "Consequently, the tales they tell continue to captivate new generations of readers.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Thus, the narratives they convey keep enthralling successive generations of readers.",
+        "Accordingly, their stories persist in captivating emerging cohorts of readers.",
+        "As a result, the accounts they relate remain compelling to new reader generations.",
+        "Hence, the tales they share continue to engage fresh audiences of readers.",
+        "For this reason, the legends they recount still attract the attention of successive reading generations.",
+        "In turn, the myths they narrate are consistently captivating the next wave of readers.",
+        "Consequently, the fables they present maintain their grip on upcoming generations of readers.",
+        "The stories they tell are still captivating new generations of readers, consequently.",
+        "New cohorts of readers continue to be captivated by the tales they impart.",
+        "Their narratives, by design, keep drawing in fresh generations of readers.",
+        "The chronicles they disseminate remain enthralling to subsequent readers.",
+        "Because of this, the sagas they communicate persist in captivating emerging reader groups.",
+        "The tales they publish continue to mesmerize the next generation of readers.",
+        "With ongoing effect, the stories they produce captivate new readers across generations.",
+        "The narratives they offer are still successful in captivating fresh readership generations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "tell": [
+          "tell",
+          "say",
+          "recount",
+          "state",
+          "narrate",
+          "recite"
+        ],
+        "consequently": [
+          "consequently",
+          "therefore",
+          "accordingly"
+        ],
+        "generations": [
+          "generations"
+        ],
+        "continue": [
+          "continue",
+          "keep",
+          "remain",
+          "stay",
+          "proceed",
+          "retain"
+        ],
+        "captivate": [
+          "captivate",
+          "charm",
+          "enchant",
+          "fascinate",
+          "entrance",
+          "beguile"
+        ],
+        "readers": [
+          "readers",
+          "subscribers",
+          "reviewers"
+        ],
+        "tales": [
+          "tales",
+          "stories",
+          "narratives"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the superhero universe, the alignment identifier 1 signifies a character who embodies the traits of a hero.",
+      "template_pattern": "In the superhero universe, the alignment identifier [ALIGNMENT_ID] signifies a character who embodies the traits of a hero.",
+      "primary_data_fields": [
+        "alignment_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the superhero universe, alignment id [ALIGNMENT_ID] denotes a character who exemplifies heroic traits.",
+        "In the realm of superheroes, alignment id [ALIGNMENT_ID] marks a figure that displays the qualities of a hero.",
+        "The superhero universe assigns alignment id [ALIGNMENT_ID] to any character embodying hero‑like attributes.",
+        "Alignment id [ALIGNMENT_ID], in the context of the superhero universe, signals a persona that reflects heroic characteristics.",
+        "A character possessing hero traits is identified by alignment id [ALIGNMENT_ID] throughout the superhero universe.",
+        "In the superhero setting, alignment id [ALIGNMENT_ID] is used to indicate a figure who mirrors the essence of a hero.",
+        "The designation alignment id [ALIGNMENT_ID] within the superhero universe points to a character that carries the hallmarks of heroism.",
+        "Within the world of superheroes, a character with alignment id [ALIGNMENT_ID] is recognized as one who personifies hero qualities.",
+        "Alignment id [ALIGNMENT_ID] serves in the superhero universe to flag a character that embodies the traits of a hero.",
+        "In the superhero universe, the label alignment id [ALIGNMENT_ID] highlights a character who manifests heroic attributes.",
+        "A hero‑like character is signified by alignment id [ALIGNMENT_ID] in the superhero universe.",
+        "The superhero universe employs alignment id [ALIGNMENT_ID] to identify a character that showcases the traits of a hero.",
+        "Alignment id [ALIGNMENT_ID] is applied in the superhero universe to denote any character that epitomizes heroism.",
+        "Within superhero lore, alignment id [ALIGNMENT_ID] indicates a figure that carries the defining traits of a hero.",
+        "In the context of the superhero universe, alignment id [ALIGNMENT_ID] marks a character who embodies heroic characteristics."
+      ],
+      "counter_variations": [
+        "In the exhaustive review, the alignment id is recorded as null, which conforms to the report’s predefined formatting standards.",
+        "The report’s established formatting conventions are upheld by the alignment id being listed as null within the comprehensive analysis.",
+        "Within the detailed examination, the alignment id shows up as null, thereby adhering to the prescribed formatting guidelines of the document.",
+        "As part of the thorough analysis, the alignment id appears as null, consistent with the report’s conventional formatting rules.",
+        "The comprehensive analysis notes that the alignment id takes the value null, in keeping with the report’s established formatting conventions.",
+        "Aligning with the report’s standard formatting, the alignment id is presented as null in the extensive analysis.",
+        "In the context of the full analysis, the alignment id is designated null, which mirrors the report’s accepted formatting protocol.",
+        "The extensive analytical section records the alignment id as null, reflecting compliance with the report’s formatting conventions.",
+        "Within the scope of the comprehensive assessment, the alignment id is set to null, thereby matching the report’s established formatting criteria.",
+        "The alignment id, noted as null in the comprehensive analysis, complies with the report’s conventional formatting specifications.",
+        "In accordance with the report’s formatting conventions, the alignment id appears as null throughout the exhaustive analysis.",
+        "The exhaustive analysis lists the alignment id as null, a representation that aligns with the report’s prescribed formatting norms.",
+        "By design, the comprehensive analysis assigns the alignment id the value null, consistent with the report’s formatting standards.",
+        "The report’s formatting conventions are respected as the alignment id is indicated as null in the thorough analysis.",
+        "Within the all‑encompassing analysis, the alignment id is indicated by the term null, which is in harmony with the report’s established formatting conventions."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "signifies": [
+          "signifies",
+          "means"
+        ],
+        "alignment": [
+          "alignment"
+        ],
+        "traits": [
+          "traits"
+        ],
+        "hero": [
+          "hero",
+          "champion"
+        ],
+        "character": [
+          "character",
+          "type",
+          "persona",
+          "quality"
+        ],
+        "embodies": [
+          "embodies"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "universe": [
+          "universe",
+          "cosmos",
+          "macrocosm",
+          "world"
+        ]
+      },
+      "field_data_types": {
+        "alignment_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such heroes often serve as beacons of hope in tumultuous times.",
+      "template_pattern": "Such heroes often serve as beacons of hope in tumultuous times.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In turbulent periods, these heroes frequently act as lighthouses of optimism.",
+        "Such heroes are commonly regarded as symbols of hope amid chaotic times.",
+        "Frequently, these heroes become beacons of hope when times are tumultuous.",
+        "During upheaval, heroes of this sort often shine as guiding lights of hope.",
+        "The hope‑sparking role of such heroes is often evident in volatile eras.",
+        "Amidst unrest, these heroes regularly serve as bright signs of hope.",
+        "Often, hope is signaled by these heroes acting as beacons during turbulent times.",
+        "In times of turbulence, such heroes are often seen as pillars of hope.",
+        "These heroes, in tumultuous periods, commonly function as beacons of hope.",
+        "Beacons of hope are frequently embodied by such heroes in chaotic eras.",
+        "When the world is unsettled, these heroes often stand as hopeful lights.",
+        "The presence of such heroes typically provides a hopeful beacon in turbulent times.",
+        "In chaotic moments, the role of these heroes as hope‑bringing beacons is frequent.",
+        "Often, turbulent times are illuminated by these heroes serving as hope’s beacons.",
+        "Such heroes, during periods of upheaval, are often viewed as shining symbols of hope."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "serve": [
+          "serve",
+          "help",
+          "assist",
+          "function"
+        ],
+        "beacons": [
+          "beacons"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "such": [
+          "such"
+        ],
+        "hope": [
+          "hope",
+          "desire"
+        ],
+        "tumultuous": [
+          "tumultuous",
+          "turbulent",
+          "disruptive",
+          "troubled"
+        ],
+        "times": [
+          "times"
+        ],
+        "heroes": [
+          "heroes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Their actions inspire others to strive for greatness and justice.",
+      "template_pattern": "Their actions inspire others to strive for greatness and justice.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Their conduct motivates others to pursue excellence and fairness.",
+        "Others are inspired by their deeds to aim for greatness and justice.",
+        "By their actions, others are encouraged to seek greatness and uphold justice.",
+        "The way they act spurs fellow individuals toward achieving greatness and justice.",
+        "Their behavior serves as a catalyst, prompting others to chase greatness and justice.",
+        "As a result of their actions, others strive for both greatness and justice.",
+        "Others, moved by what they do, pursue greatness and justice.",
+        "Greatness and justice are pursued by others, inspired by their actions.",
+        "Their initiatives inspire others to reach for greatness while upholding justice.",
+        "Through their actions, others are driven to attain greatness and justice.",
+        "The influence of their actions leads others to aim for greatness and justice.",
+        "Others, galvanized by their conduct, endeavor toward greatness and justice.",
+        "By acting as they do, they inspire others to seek both greatness and justice.",
+        "Their deeds encourage others to aspire to greatness and to champion justice.",
+        "Inspired by their actions, others strive toward greatness and justice."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "greatness": [
+          "greatness",
+          "vastness",
+          "immensity",
+          "grandness",
+          "enormousness"
+        ],
+        "justice": [
+          "justice",
+          "justness"
+        ],
+        "actions": [
+          "actions"
+        ],
+        "others": [
+          "others"
+        ],
+        "inspire": [
+          "inspire",
+          "prompt",
+          "urge",
+          "invigorate",
+          "exhort",
+          "animate"
+        ],
+        "strive": [
+          "strive",
+          "endeavour",
+          "endeavor"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, the superhero's height_cm of 188 places him well above average, enhancing his imposing presence in the comic book universe.",
+      "template_pattern": "Additionally, the superhero's height_cm of [HEIGHT_CM] places him well above average, enhancing his imposing presence in the comic book universe.",
+      "primary_data_fields": [
+        "height_cm"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the superhero’s height cm of [HEIGHT_CM] positions him markedly above the average, reinforcing his formidable presence in the comic book universe.",
+        "The superhero’s height cm, measured at [HEIGHT_CM], is significantly higher than typical, which amplifies his imposing presence within the comic book universe.",
+        "With a height cm of [HEIGHT_CM], the superhero stands well above average, thereby enhancing his daunting presence across the comic book universe.",
+        "In the comic book universe, the superhero’s imposing presence is boosted by his height cm of [HEIGHT_CM], a figure that exceeds the average markedly.",
+        "A height cm of [HEIGHT_CM] places the superhero well above the norm, consequently strengthening his imposing presence in the comic book universe.",
+        "The data shows that the superhero’s height cm of [HEIGHT_CM] situates him far above average, augmenting his commanding presence throughout the comic book universe.",
+        "Because his height cm measures [HEIGHT_CM], the superhero is comfortably taller than average, which heightens his imposing presence in the comic book universe.",
+        "Elevated to [HEIGHT_CM], the superhero’s height cm puts him substantially above average and intensifies his formidable presence within the comic book universe.",
+        "The superhero’s height cm of [HEIGHT_CM], being considerably above average, serves to magnify his imposing presence in the comic book universe.",
+        "By virtue of a height cm of [HEIGHT_CM], the superhero exceeds average stature, thereby reinforcing his imposing presence across the comic book universe.",
+        "The superhero’s stature, recorded as a height cm of [HEIGHT_CM], surpasses average levels and consequently boosts his imposing presence in the comic book universe.",
+        "Given a height cm of [HEIGHT_CM], the superhero stands well beyond the average, which further enhances his imposing presence throughout the comic book universe.",
+        "In professional terms, the superhero’s height cm of [HEIGHT_CM] situates him high above the norm, amplifying his imposing presence within the comic book universe.",
+        "His height cm, at [HEIGHT_CM], places the superhero above average and consequently elevates his imposing presence in the comic book universe.",
+        "The figure of [HEIGHT_CM] for the superhero’s height cm positions him markedly above average, strengthening his imposing presence in the comic book universe."
+      ],
+      "counter_variations": [
+        "Moreover, the record shows the individual's height cm as null, which precludes any comparative evaluation within the report.",
+        "In the dataset, the height cm field for the individual is noted as null, thereby preventing further analytical comparison.",
+        "The individual's height cm value has been entered as null, a condition that bars inclusion in comparative analysis.",
+        "Because the height cm entry for this person is null, the report cannot perform a cross‑subject comparison.",
+        "A null entry appears for the individual's height cm, rendering comparative assessment impossible in this document.",
+        "The height cm measurement for the subject is recorded as null, consequently disallowing any comparative metrics.",
+        "Due to the height cm being null for the individual, the report omits comparative analysis of that parameter.",
+        "Within the professional report, the individual's height cm is designated as null, which excludes it from comparative study.",
+        "The dataset marks the individual's height cm as null, a designation that eliminates the possibility of comparative evaluation.",
+        "Given that the individual's height cm is null, the report must forego any comparative analysis involving this metric.",
+        "The height cm attribute for the individual is logged as null, thereby obstructing its use in comparative assessments.",
+        "Since the individual's height cm appears as null, the analytical framework cannot incorporate it into comparative calculations.",
+        "The report specifies the individual's height cm as null, an indication that comparative analysis cannot be conducted.",
+        "Null is the value assigned to the individual's height cm, which inherently prevents any comparative examination in the report.",
+        "The individual's height cm has been captured as null, a status that disallows its inclusion in comparative analysis across the dataset."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "additionally": [
+          "additionally"
+        ],
+        "above": [
+          "above",
+          "supra"
+        ],
+        "comic": [
+          "comic",
+          "comical",
+          "funny",
+          "amusing",
+          "comedian",
+          "mirthful"
+        ],
+        "universe": [
+          "universe",
+          "cosmos",
+          "macrocosm",
+          "creation",
+          "world"
+        ],
+        "presence": [
+          "presence",
+          "bearing",
+          "mien",
+          "comportment"
+        ],
+        "imposing": [
+          "imposing",
+          "grand",
+          "stately",
+          "distinguished",
+          "magisterial",
+          "baronial"
+        ],
+        "well": [
+          "well",
+          "comfortably",
+          "easily",
+          "good"
+        ],
+        "book": [
+          "book",
+          "volume",
+          "record",
+          "ledger"
+        ]
+      },
+      "field_data_types": {
+        "height_cm": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "His stature commands respect and admiration from allies and foes alike.",
+      "template_pattern": "His stature commands respect and admiration from allies and foes alike.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Both friends and adversaries respect and admire him because of his imposing stature.",
+        "Respect and admiration are evoked by his stature among allies as well as foes.",
+        "His imposing presence draws reverence and praise from both allies and opponents.",
+        "Allies and enemies alike hold him in esteem, a result of his commanding stature.",
+        "The respect and admiration he commands stem from his stature, affecting friends and rivals alike.",
+        "His stature, respected by allies and feared by foes, nevertheless garners admiration across the board.",
+        "From comrades to competitors, his stature elicits both respect and admiration.",
+        "Respect and admiration flow toward him from allies and foes alike, prompted by his stature.",
+        "His towering stature secures admiration and respect from both supporters and detractors.",
+        "Whether ally or foe, everyone admires and respects him due to his stature.",
+        "The stature he possesses commands admiration and respect from all, be they allies or opponents.",
+        "His stature commands the admiration and respect of allies as well as adversaries.",
+        "Both allies and foes extend respect and admiration to him, inspired by his stature.",
+        "In the eyes of friends and enemies, his stature commands a shared respect and admiration.",
+        "Respect and admiration are universally commanded by his stature, reaching both allies and rivals."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "admiration": [
+          "admiration",
+          "appreciation",
+          "esteem"
+        ],
+        "stature": [
+          "stature",
+          "height"
+        ],
+        "allies": [
+          "allies"
+        ],
+        "foes": [
+          "foes"
+        ],
+        "alike": [
+          "alike",
+          "similar",
+          "likewise"
+        ],
+        "commands": [
+          "commands"
+        ],
+        "respect": [
+          "respect",
+          "regard",
+          "value",
+          "esteem",
+          "deference",
+          "honor"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "With each encounter, the legend of these heroes grows.",
+      "template_pattern": "With each encounter, the legend of these heroes grows.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each time they are encountered, the heroes' legend expands.",
+        "The legend of these heroes increases with every encounter.",
+        "Every encounter contributes to the growing reputation of these heroes.",
+        "As encounters accumulate, the myth surrounding these heroes swells.",
+        "The heroes' legend is amplified with each successive encounter.",
+        "With each meeting, the stature of these heroes' legend rises.",
+        "Each encounter adds to the burgeoning legend of these heroes.",
+        "The more often they are met, the more the legend of these heroes grows.",
+        "Encounter after encounter, the legend of these heroes continues to grow.",
+        "The legend associated with these heroes expands whenever an encounter occurs.",
+        "Whenever they encounter them, the heroes' legend becomes more pronounced.",
+        "Each successive encounter fuels the expansion of these heroes' legend.",
+        "The legend of these heroes grows proportionally to each encounter.",
+        "With every interaction, the reputation of these heroes' legend strengthens.",
+        "As each encounter unfolds, the legend of these heroes is further elevated."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "encounter": [
+          "encounter",
+          "meeting",
+          "meet",
+          "find",
+          "see"
+        ],
+        "legend": [
+          "legend",
+          "caption"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "grows": [
+          "grows"
+        ],
+        "these": [
+          "these"
+        ],
+        "heroes": [
+          "heroes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the superhero's impressive physical prowess is partly attributed to their weight_kg of 90, enhancing their dynamic abilities.",
+      "template_pattern": "Furthermore, the superhero's impressive physical prowess is partly attributed to their weight_kg of [WEIGHT_KG], enhancing their dynamic abilities.",
+      "primary_data_fields": [
+        "weight_kg"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the superhero’s notable physical strength can be partially traced to a weight kg of [WEIGHT_KG], which boosts their dynamic capabilities.",
+        "In addition, a weight kg of [WEIGHT_KG] contributes partly to the hero’s impressive bodily power, thereby augmenting their dynamic performance.",
+        "The impressive physical prowess of the superhero is, in part, a result of their weight kg being [WEIGHT_KG], which enhances dynamic abilities.",
+        "Partially owing to a weight kg of [WEIGHT_KG], the superhero exhibits formidable physical strength, consequently improving dynamic abilities.",
+        "It is observed that the hero’s strong physical condition is partly linked to a weight kg of [WEIGHT_KG], resulting in heightened dynamic capabilities.",
+        "A weight kg of [WEIGHT_KG] is one of the factors that partially underpins the superhero’s impressive physical competence, further strengthening dynamic abilities.",
+        "The superhero’s dynamic abilities are amplified because their weight kg of [WEIGHT_KG] partially accounts for their remarkable physical prowess.",
+        "Because the hero’s weight kg registers at [WEIGHT_KG], their impressive physical power is partially explained, leading to enhanced dynamic performance.",
+        "The data indicate that a weight kg of [WEIGHT_KG] partially explains the superhero’s notable physical vigor, which in turn augments dynamic abilities.",
+        "With a weight kg of [WEIGHT_KG], the superhero’s formidable physical prowess is partly attributable, thereby boosting their dynamic capabilities.",
+        "The hero’s impressive bodily strength is partially derived from a weight kg of [WEIGHT_KG], which serves to enhance dynamic abilities.",
+        "Weight kg of [WEIGHT_KG] plays a partial role in the superhero’s remarkable physical prowess, consequently elevating dynamic performance.",
+        "Owing to a weight kg of [WEIGHT_KG], the superhero’s physical might is partially credited, resulting in improved dynamic abilities.",
+        "The superhero’s dynamic abilities are strengthened as their impressive physical prowess is partly due to a weight kg of [WEIGHT_KG].",
+        "A weight kg of [WEIGHT_KG] partially contributes to the hero’s outstanding physical strength, thereby enhancing dynamic capabilities."
+      ],
+      "counter_variations": [
+        "In addition, the subject's weight kg is logged as null, thereby eliminating the possibility of any quantitative analysis of mass‑related performance metrics.",
+        "Furthermore, because the subject's weight kg is designated null, a quantitative assessment of performance metrics tied to mass cannot be performed.",
+        "The dataset indicates that the subject's weight kg has a value of null, which in turn precludes any numerical evaluation of mass‑based performance indicators.",
+        "Given that the subject's weight kg is entered as null, the resulting lack of data bars any quantitative appraisal of performance measures linked to mass.",
+        "As recorded, the subject's weight kg equals null, consequently rendering impossible any quantitative scrutiny of mass‑related performance metrics.",
+        "Since the subject's weight kg appears as null, the analysis is unable to produce quantitative estimates for performance metrics that depend on mass.",
+        "The report notes a null entry for the subject's weight kg, a condition that effectively blocks any quantitative evaluation of mass‑associated performance parameters.",
+        "With the subject's weight kg marked null, the subsequent inability to compute quantitative performance metrics concerning mass becomes evident.",
+        "Because the weight kg of the subject is set to null, the dataset lacks the necessary figure to conduct a quantitative assessment of mass‑related performance outcomes.",
+        "The subject's weight kg being null means that any attempt at a quantitative appraisal of performance metrics grounded in mass is inherently precluded.",
+        "Owing to the null value assigned to the subject's weight kg, the analysis cannot furnish quantitative insights into mass‑centric performance metrics.",
+        "The presence of null for the subject's weight kg effectively prevents the derivation of quantitative performance measurements that rely on mass.",
+        "When the subject's weight kg is recorded as null, it consequently obstructs any quantitative determination of performance metrics associated with mass.",
+        "A null entry for the subject's weight kg results in the impossibility of conducting quantitative evaluations of mass‑related performance indicators.",
+        "Due to the subject's weight kg being logged as null, the report is unable to generate quantitative assessments of performance metrics that are dependent on mass."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "physical": [
+          "physical"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "enhancing": [
+          "enhancing"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "abilities": [
+          "abilities"
+        ],
+        "prowess": [
+          "prowess",
+          "artistry"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "dynamic": [
+          "dynamic",
+          "active"
+        ]
+      },
+      "field_data_types": {
+        "weight_kg": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This strength is matched only by their unwavering resolve.",
+      "template_pattern": "This strength is matched only by their unwavering resolve.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Their steadfast resolve is the sole counterpart to this strength.",
+        "Only their unyielding determination equals this strength.",
+        "This strength finds its only equal in their unwavering resolve.",
+        "No other quality matches this strength besides their steadfast resolve.",
+        "Their unwavering resolve is the only thing that matches this strength.",
+        "This strength is rivaled solely by their resolute determination.",
+        "Apart from their unflinching resolve, nothing matches this strength.",
+        "The only match for this strength is their unwavering resolve.",
+        "Their steadfast resolve alone parallels this strength.",
+        "This strength is equaled exclusively by their unshakeable resolve.",
+        "Only by their unwavering resolve does this strength find an equal.",
+        "Their unyielding resolve stands as the lone equivalent to this strength.",
+        "This strength is matched none other than by their steadfast resolve.",
+        "With their unwavering resolve, this strength reaches its sole counterpart.",
+        "The sole counterpart to this strength is their resolute determination."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unwavering": [
+          "unwavering",
+          "firm",
+          "unfaltering",
+          "steadfast",
+          "unshakable",
+          "steady"
+        ],
+        "only": [
+          "only",
+          "solely",
+          "exclusively",
+          "sole",
+          "alone",
+          "just"
+        ],
+        "matched": [
+          "matched"
+        ],
+        "resolve": [
+          "resolve",
+          "solve",
+          "decide",
+          "conclude",
+          "answer",
+          "settle"
+        ],
+        "strength": [
+          "strength",
+          "force",
+          "potency",
+          "effectiveness",
+          "durability",
+          "intensity"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Together, these heroes forge a legacy that endures through the ages.",
+      "template_pattern": "Together, these heroes forge a legacy that endures through the ages.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectively, these heroes are shaping a legacy that will endure through the ages.",
+        "A timeless legacy is being forged by these heroes together, standing the test of time.",
+        "Through their joint efforts, these heroes craft a lasting legacy that spans generations.",
+        "Together, a lasting legacy is created by these heroes, persisting across the centuries.",
+        "These heroes, united in purpose, construct a heritage that survives through the ages.",
+        "By working as one, these heroes forge an enduring legacy that reaches far into the future.",
+        "The legacy that endures through the ages is the result of these heroes’ combined actions.",
+        "In concert, these heroes mold a heritage that remains resilient over time.",
+        "A legacy that withstands the passage of time is forged by these heroes in unison.",
+        "Through collaboration, these heroes build a timeless legacy that lasts for ages.",
+        "These heroes jointly create a legacy that continues to stand the test of time.",
+        "With their combined efforts, a lasting legacy is shaped by these heroes for the ages.",
+        "Together, these heroes produce a heritage that persists across centuries.",
+        "The enduring legacy that spans the ages is crafted by these heroes working together.",
+        "By uniting their strengths, these heroes forge a perpetual legacy that survives through time."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "legacy": [
+          "legacy",
+          "bequest"
+        ],
+        "through": [
+          "through"
+        ],
+        "endures": [
+          "endures",
+          "survive",
+          "persist",
+          "endure",
+          "last",
+          "weather"
+        ],
+        "together": [
+          "together",
+          "unitedly"
+        ],
+        "these": [
+          "these"
+        ],
+        "ages": [
+          "ages",
+          "years"
+        ],
+        "forge": [
+          "forge",
+          "mould",
+          "mold",
+          "contrive",
+          "work",
+          "invent"
+        ],
+        "heroes": [
+          "heroes",
+          "champion",
+          "paladin",
+          "hero"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The stories of the superhero universe remind us of the power of courage and hope.",
+      "template_pattern": "The stories of the superhero universe remind us of the power of courage and hope.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero universe's narratives underscore the strength of courage and hope for us.",
+        "We are reminded by the tales from the superhero realm of how powerful courage and hope can be.",
+        "In the superhero universe, stories highlight the potent influence of courage and hope.",
+        "The power of courage and hope is illustrated through the superhero universe's stories, reminding us.",
+        "Through its stories, the superhero universe demonstrates the impactful role of courage and hope.",
+        "The tales within the superhero cosmos serve to remind us of courage's and hope's powerful effect.",
+        "Courage and hope's power is emphasized by the superhero universe's narratives, reminding us.",
+        "As shown by the superhero universe's stories, courage and hope wield considerable power.",
+        "The superhero universe, via its stories, calls attention to the formidable power of courage and hope.",
+        "Our awareness of the power of courage and hope is reinforced by stories from the superhero universe.",
+        "By presenting its stories, the superhero universe reminds us of how potent courage and hope are.",
+        "The narratives of the superhero realm act as a reminder of the strong influence of courage and hope.",
+        "Courage and hope's mighty impact is reflected in the superhero universe's storylines, reminding us.",
+        "The power inherent in courage and hope is brought to the fore by the superhero universe's tales.",
+        "Within the superhero universe, the stories function to remind us of the power that courage and hope possess."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "stories": [
+          "stories"
+        ],
+        "remind": [
+          "remind",
+          "cue",
+          "prompt"
+        ],
+        "hope": [
+          "hope",
+          "desire",
+          "trust"
+        ],
+        "power": [
+          "power",
+          "ability",
+          "force",
+          "might"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "universe": [
+          "universe",
+          "cosmos",
+          "existence",
+          "macrocosm",
+          "creation",
+          "world"
+        ],
+        "courage": [
+          "courage",
+          "bravery"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Every hero, with their unique traits, contributes to the vibrant mosaic of their world.",
+      "template_pattern": "Every hero, with their unique traits, contributes to the vibrant mosaic of their world.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every hero, bearing distinct qualities, adds to the vivid mosaic of their world.",
+        "The vibrant mosaic of their world is built upon the unique traits each hero contributes.",
+        "Each hero, with his or her own singular characteristics, helps shape the colorful tapestry of the world they inhabit.",
+        "Unique traits of every hero collectively enrich the lively mosaic that defines their world.",
+        "In their world’s bright mosaic, every hero contributes through the individuality of their traits.",
+        "The world’s vibrant mosaic owes its richness to the distinct attributes each hero brings.",
+        "By offering their singular traits, every hero enhances the dazzling mosaic of their realm.",
+        "The diverse qualities of each hero feed into the animated collage that composes their world.",
+        "Contributions from every hero, characterized by their unique traits, form the vivid mosaic of the world.",
+        "A vivid mosaic of the world emerges as each hero, with distinct traits, makes a contribution.",
+        "The world’s colorful tapestry is assembled from the unique traits that every hero provides.",
+        "Through their individual characteristics, all heroes add depth to the vibrant mosaic of their world.",
+        "Every hero’s unique features are woven into the bright mosaic that represents their world.",
+        "The vibrant mosaic of their world is populated by the varied traits each hero contributes.",
+        "With their singular qualities, each hero plays a part in constructing the lively mosaic of the world."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "every": [
+          "every"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unparalleled",
+          "unequalled"
+        ],
+        "traits": [
+          "traits"
+        ],
+        "hero": [
+          "hero",
+          "champion"
+        ],
+        "contributes": [
+          "contributes"
+        ],
+        "mosaic": [
+          "mosaic",
+          "Mosaic"
+        ],
+        "vibrant": [
+          "vibrant"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Their journeys, filled with trials and triumphs, inspire generations to come.",
+      "template_pattern": "Their journeys, filled with trials and triumphs, inspire generations to come.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trials and triumphs of their journeys inspire future generations.",
+        "Future generations are inspired by the trial‑laden and victorious paths they have taken.",
+        "Their odysseys, marked by challenges and successes, motivate the generations that follow.",
+        "Generations to come find inspiration in the arduous yet triumphant voyages they undertook.",
+        "Inspired by their journey's hardships and victories, upcoming generations look ahead.",
+        "The hardships and victories embedded in their travels serve to inspire coming generations.",
+        "Coming generations draw inspiration from the trials and triumphs within their expeditions.",
+        "Their expedition, rife with obstacles and achievements, fuels inspiration for future generations.",
+        "Inspired generations of the future look back at their trial‑filled, triumphant journeys.",
+        "The path they walked, full of tests and wins, inspires the generations that follow.",
+        "Future cohorts are motivated by the arduous and victorious nature of their travels.",
+        "Their passage, saturated with challenges and triumphs, sparks inspiration for those yet to come.",
+        "Generations ahead are encouraged by the trial‑laden and victorious course of their journeys.",
+        "By enduring trials and attaining triumphs, their journeys inspire the generations that lie ahead.",
+        "The legacy of their challenging yet successful voyages inspires forthcoming generations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "trials": [
+          "trials"
+        ],
+        "inspire": [
+          "inspire",
+          "prompt",
+          "urge",
+          "exhort",
+          "animate",
+          "enliven"
+        ],
+        "generations": [
+          "generations"
+        ],
+        "triumphs": [
+          "triumphs"
+        ],
+        "come": [
+          "come",
+          "arrive",
+          "occur"
+        ],
+        "journeys": [
+          "journeys"
+        ],
+        "filled": [
+          "filled",
+          "replete"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

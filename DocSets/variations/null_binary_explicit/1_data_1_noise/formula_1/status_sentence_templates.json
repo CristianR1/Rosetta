@@ -1,0 +1,289 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4a6606d23086459d": "statusId",
+    "25072fc467164c7c": "status"
+  },
+  "templates": [
+    {
+      "original": "The completion status of the recent Formula 1 race was marked with a 1, indicating it was a significant event for analysis.",
+      "template_pattern": "The completion status of the recent Formula [STATUSID] race was marked with a [STATUSID], indicating it was a significant event for analysis.",
+      "primary_data_fields": [
+        "statusId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the report, the status Id of the recent Formula [STATUSID] race received a [STATUSID], marking it as a significant event for analysis.",
+        "The recent Formula [STATUSID] race’s status Id was assigned the value [STATUSID], denoting a significant event for analysis.",
+        "A [STATUSID] was recorded for the status Id of the recent Formula [STATUSID] race, indicating its significance for analysis.",
+        "In the latest data, the status Id tied to the recent Formula [STATUSID] race carries a [STATUSID], highlighting a noteworthy event for analysis.",
+        "The recent Formula [STATUSID] race earned a [STATUSID] under its status Id, signaling a significant event for analysis.",
+        "A [STATUSID] marks the status Id of the recent Formula [STATUSID] race, underscoring its importance for analysis.",
+        "For the recent Formula [STATUSID] race, the status Id was set to [STATUSID], reflecting a significant event for analysis.",
+        "The status Id assigned to the recent Formula [STATUSID] race reads [STATUSID], which points to a significant event for analysis.",
+        "Having a [STATUSID] in its status Id, the recent Formula [STATUSID] race is identified as a significant event for analysis.",
+        "The recent Formula [STATUSID] race’s status Id shows a [STATUSID], indicating a noteworthy event for analysis.",
+        "A value of [STATUSID] in the status Id of the recent Formula [STATUSID] race signals a significant event for analysis.",
+        "The recent Formula [STATUSID] race was flagged with a [STATUSID] in its status Id, denoting a significant event for analysis.",
+        "With a [STATUSID] recorded in its status Id, the recent Formula [STATUSID] race qualifies as a significant event for analysis.",
+        "The status Id for the recent Formula [STATUSID] race carries a [STATUSID], marking it as a significant event for analysis.",
+        "In the dataset, the recent Formula [STATUSID] race’s status Id is marked [STATUSID], pointing to a significant event for analysis."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "event": [
+          "event"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "completion": [
+          "completion",
+          "closing",
+          "culmination"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "convention",
+          "pattern",
+          "recipe"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "indicating": [
+          "indicating"
+        ]
+      },
+      "field_data_types": {
+        "statusId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Crowds gathered, anticipation building as the engines roared to life, marking the start of the race.",
+      "template_pattern": "Crowds gathered, anticipation building as the engines roared to life, marking the start of the race.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Crowds assembled, their excitement swelling as the engines ignited, heralding the race’s kickoff.",
+        "The start of the race was signaled by roaring engines while anticipation grew and crowds gathered.",
+        "As the engines roared to life, anticipation built and crowds converged, marking the race’s opening.",
+        "With engines firing up, anticipation rose and crowds gathered, indicating the race’s commencement.",
+        "The race began when engines thundered, crowds assembled, and a sense of anticipation intensified.",
+        "Engines revved to life, prompting crowds to gather and anticipation to mount, thus commencing the race.",
+        "While the engines came alive, crowds gathered and anticipation heightened, denoting the race’s start.",
+        "A surge of anticipation accompanied the gathering crowds as engines roared, announcing the race’s onset.",
+        "The roar of engines, the crowd’s congregation, and rising anticipation together marked the race’s start.",
+        "Engines roared, crowds gathered, and anticipation escalated, signaling the beginning of the race.",
+        "Marking the start of the race, the engines roared to life as crowds assembled and anticipation grew.",
+        "Crowds gathered amidst mounting anticipation while the engines sprang to life, ushering in the race.",
+        "The race’s opening was marked by engines revving, crowds gathering, and anticipation building.",
+        "As anticipation built, crowds gathered and engines roared, indicating the race’s launch.",
+        "When engines came alive, crowds converged and anticipation heightened, denoting the race’s start."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "start": [
+          "start",
+          "commencement",
+          "begin",
+          "commence",
+          "outset",
+          "initiate"
+        ],
+        "marking": [
+          "marking",
+          "mark",
+          "label",
+          "grade",
+          "score",
+          "tag"
+        ],
+        "engines": [
+          "engines"
+        ],
+        "crowds": [
+          "crowds"
+        ],
+        "gathered": [
+          "gathered",
+          "collected"
+        ],
+        "roared": [
+          "roared"
+        ],
+        "building": [
+          "building",
+          "construction",
+          "edifice"
+        ],
+        "anticipation": [
+          "anticipation",
+          "expectation",
+          "expectancy",
+          "prediction",
+          "prevision"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Formula 1 race status is currently Finished, indicating that the event has reached its conclusion successfully.",
+      "template_pattern": "The Formula 1 race status is currently [STATUS], indicating that the event has reached its conclusion successfully.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Formula 1 race status is presently [STATUS], which shows the event has successfully come to an end.",
+        "At present, the status of the Formula 1 race reads [STATUS], indicating the competition concluded without issue.",
+        "The Formula 1 race status, currently marked as [STATUS], signals that the event has reached its successful conclusion.",
+        "[STATUS] is the current status of the Formula 1 race, denoting that the event has ended successfully.",
+        "According to the latest update, the Formula 1 race status is [STATUS], meaning the event has wrapped up successfully.",
+        "The status of the Formula 1 race is now [STATUS], reflecting that the event has been completed successfully.",
+        "With the Formula 1 race status set to [STATUS], it is clear the event has successfully concluded.",
+        "The Formula 1 race’s status has been recorded as [STATUS], indicating a successful end to the event.",
+        "[STATUS] appears as the current status for the Formula 1 race, confirming the event concluded successfully.",
+        "The event’s successful closure is indicated by the Formula 1 race status being [STATUS] at this moment.",
+        "As of now, the Formula 1 race status stands at [STATUS], showing the event has fully concluded.",
+        "The Formula 1 race status shows [STATUS], which implies the event has been brought to a successful close.",
+        "Having a status of [STATUS], the Formula 1 race demonstrates that the event has ended successfully.",
+        "The current status of the Formula 1 race is [STATUS], signifying the event’s successful completion.",
+        "[STATUS] is listed as the Formula 1 race status, confirming that the event has reached a successful conclusion."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "successfully": [
+          "successfully"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "event": [
+          "event"
+        ],
+        "conclusion": [
+          "conclusion",
+          "decision",
+          "determination",
+          "termination",
+          "finish",
+          "end"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern"
+        ],
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "designate",
+          "indicate",
+          "show"
+        ],
+        "reached": [
+          "reached",
+          "achieve",
+          "attain",
+          "accomplish",
+          "gain",
+          "reach"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush",
+          "speed"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As the dust settled, fans began to reflect on the thrilling moments that defined the competition.",
+      "template_pattern": "As the dust settled, fans began to reflect on the thrilling moments that defined the competition.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Once the dust had settled, fans started reflecting on the exhilarating highlights that shaped the contest.",
+        "With the dust finally clearing, the audience turned their thoughts to the exciting episodes that characterized the competition.",
+        "When the dust subsided, spectators commenced contemplating the gripping instances that defined the tournament.",
+        "The dust settled, and fans then reflected upon the thrilling moments that defined the competition.",
+        "As the dust cleared, fans began to consider the electrifying moments that defined the contest.",
+        "After the dust settled, the fan base reflected on the thrilling highlights that defined the competition.",
+        "Dust settled, prompting fans to reflect on the thrilling moments that defined the competition.",
+        "Fans, once the dust settled, started to reflect on the competition’s defining thrilling moments.",
+        "With the dust settling, the crowd began reflecting on the competition’s defining exhilarating moments.",
+        "The settling of dust led fans to reminisce about the thrilling moments that defined the competition.",
+        "As the dust finally subsided, fans were reflecting on the thrilling moments that defined the competition.",
+        "Once the dust cleared, the fans reflected on the competition’s defining thrilling episodes.",
+        "As the dust calmed, fans turned their attention to the thrilling moments that defined the contest.",
+        "When the dust finally settled, the audience began to reflect upon the thrilling moments that defined the competition.",
+        "After the dust settled, the fans reflected on the competition’s defining, thrilling moments."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "began": [
+          "began"
+        ],
+        "reflect": [
+          "reflect",
+          "contemplate",
+          "ponder",
+          "speculate"
+        ],
+        "competition": [
+          "competition",
+          "contest",
+          "rivalry"
+        ],
+        "moments": [
+          "moments"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ],
+        "dust": [
+          "dust",
+          "debris",
+          "detritus"
+        ],
+        "settled": [
+          "settled"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

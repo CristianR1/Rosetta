@@ -1,0 +1,202 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "abbb0e3386054baa": "bond_id",
+    "fe13d10895064b73": "molecule_id",
+    "a89b1de2106d4725": "bond_type"
+  },
+  "templates": [
+    {
+      "original": "In the recent toxicology study, bond_id TR000_1_2 was crucial for understanding the interactions between specific molecules.",
+      "template_pattern": "In the recent toxicology study, bond_id [BOND_ID] was crucial for understanding the interactions between specific molecules.",
+      "primary_data_fields": [
+        "bond_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The recent toxicology study highlighted bond id [BOND_ID] as essential for deciphering the interactions of specific molecules.",
+        "In the latest toxicology investigation, researchers found that bond id [BOND_ID] played a pivotal role in grasping how specific molecules interact.",
+        "Bond id [BOND_ID] proved indispensable in the recent toxicology study for interpreting the interplay among specific molecules.",
+        "During the recent toxicology analysis, the significance of bond id [BOND_ID] emerged for understanding specific molecule interactions.",
+        "Understanding the interactions between specific molecules hinged on bond id [BOND_ID] in the recent toxicology study.",
+        "The recent toxicology study underscored that bond id [BOND_ID] was key to comprehending the relationships among specific molecules.",
+        "In a recent toxicology assessment, bond id [BOND_ID] was identified as crucial for elucidating specific molecule interactions.",
+        "Specific molecule interactions were clarified thanks to bond id [BOND_ID] in the recent toxicology study.",
+        "Researchers deemed bond id [BOND_ID] vital in the recent toxicology study for mapping the interactions of specific molecules.",
+        "The role of bond id [BOND_ID] in the recent toxicology study was central to interpreting how specific molecules interact.",
+        "In the recent toxicology survey, bond id [BOND_ID] emerged as a cornerstone for understanding the interplay of specific molecules.",
+        "By focusing on bond id [BOND_ID], the recent toxicology study shed light on the interactions between specific molecules.",
+        "The recent toxicology study revealed that without bond id [BOND_ID], grasping the interactions of specific molecules would be difficult.",
+        "Through the recent toxicology study, bond id [BOND_ID] became the linchpin for analyzing specific molecule interactions.",
+        "Bond id [BOND_ID], highlighted in the recent toxicology study, was instrumental in decoding the interactions among specific molecules."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "study": [
+          "study",
+          "field",
+          "discipline",
+          "survey",
+          "subject"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "understanding": [
+          "understanding",
+          "apprehension",
+          "discernment"
+        ],
+        "molecules": [
+          "molecules"
+        ],
+        "between": [
+          "between"
+        ],
+        "recent": [
+          "recent",
+          "late"
+        ],
+        "interactions": [
+          "interactions"
+        ]
+      },
+      "field_data_types": {
+        "bond_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In recent toxicology studies, molecule_id TR000 has been identified as a key component in the investigation of chemical bonds.",
+      "template_pattern": "In recent toxicology studies, molecule_id [MOLECULE_ID] has been identified as a key component in the investigation of chemical bonds.",
+      "primary_data_fields": [
+        "molecule_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Recent toxicology research has pinpointed molecule id [MOLECULE_ID] as a pivotal element in probing chemical bonds.",
+        "In the latest toxicology investigations, molecule id [MOLECULE_ID] emerged as a crucial factor for studying chemical bonds.",
+        "The molecule id [MOLECULE_ID] has been recognized in recent toxicology studies as a central component of chemical‑bond analysis.",
+        "Recent toxicology studies identify molecule id [MOLECULE_ID] as a key player in the examination of chemical bonds.",
+        "Within current toxicology work, researchers have highlighted molecule id [MOLECULE_ID] as essential for chemical bond investigation.",
+        "Molecule id [MOLECULE_ID] was identified in recent toxicology experiments as a principal component in the analysis of chemical bonds.",
+        "As part of recent toxicology assessments, molecule id [MOLECULE_ID] is regarded as a vital element for investigating chemical bonds.",
+        "In recent toxicology studies, the molecule id [MOLECULE_ID] is noted as a core component in chemical bond research.",
+        "Recent toxicology findings have revealed molecule id [MOLECULE_ID] to be a significant contributor to the study of chemical bonds.",
+        "The recent toxicology data point to molecule id [MOLECULE_ID] as an indispensable piece in the study of chemical bonds.",
+        "In the context of recent toxicology work, molecule id [MOLECULE_ID] serves as a major component for examining chemical bonds.",
+        "Recent toxicology analyses have singled out molecule id [MOLECULE_ID] as an essential factor in chemical bond investigations.",
+        "Molecule id [MOLECULE_ID], according to recent toxicology studies, functions as a key constituent in chemical bond research.",
+        "From recent toxicology investigations, molecule id [MOLECULE_ID] appears as a fundamental element in the exploration of chemical bonds.",
+        "Recent toxicology reports identify molecule id [MOLECULE_ID] as a primary component in the inquiry into chemical bonds."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "investigation": [
+          "investigation",
+          "probe"
+        ],
+        "chemical": [
+          "chemical"
+        ],
+        "bonds": [
+          "bonds"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "component": [
+          "component",
+          "element",
+          "constituent",
+          "part",
+          "ingredient",
+          "portion"
+        ],
+        "studies": [
+          "studies"
+        ],
+        "recent": [
+          "recent"
+        ]
+      },
+      "field_data_types": {
+        "molecule_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The bond_type in this molecular structure is indicated by the symbol -, representing a single bond.",
+      "template_pattern": "The bond_type in this molecular structure is indicated by the symbol [BOND_TYPE], representing a single bond.",
+      "primary_data_fields": [
+        "bond_type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In this molecular structure, the bond type is shown by the symbol [BOND_TYPE], which denotes a single bond.",
+        "The symbol [BOND_TYPE] indicates the bond type within this molecular structure, representing a single bond.",
+        "A single bond is represented by the symbol [BOND_TYPE] for the bond type in this molecular structure.",
+        "Within this molecular structure, the bond type is represented by the symbol [BOND_TYPE], signifying a single bond.",
+        "This molecular structure’s bond type is denoted by the symbol [BOND_TYPE], indicating a single bond.",
+        "Indicated by the symbol [BOND_TYPE], the bond type in this molecular structure corresponds to a single bond.",
+        "The bond type, as marked by the symbol [BOND_TYPE], refers to a single bond in this molecular structure.",
+        "For this molecular structure, the symbol [BOND_TYPE] designates the bond type as a single bond.",
+        "Represented by the symbol [BOND_TYPE], the bond type of this molecular structure is a single bond.",
+        "In the present molecular structure, the bond type is identified by the symbol [BOND_TYPE], which stands for a single bond.",
+        "The symbol [BOND_TYPE] serves to identify the bond type in this molecular structure as a single bond.",
+        "This molecular structure employs the symbol [BOND_TYPE] to indicate the bond type, meaning a single bond.",
+        "A single bond is signified by the symbol [BOND_TYPE] for the bond type found in this molecular structure.",
+        "The bond type in this molecular structure, indicated by the symbol [BOND_TYPE], denotes a single bond.",
+        "By means of the symbol [BOND_TYPE], the bond type of this molecular structure is expressed as a single bond."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "symbol": [
+          "symbol"
+        ],
+        "molecular": [
+          "molecular"
+        ],
+        "single": [
+          "single",
+          "one",
+          "individual"
+        ],
+        "structure": [
+          "structure",
+          "construction"
+        ],
+        "bond": [
+          "bond",
+          "attachment",
+          "adherence",
+          "adhesion",
+          "tie",
+          "alliance"
+        ],
+        "indicated": [
+          "indicated"
+        ],
+        "representing": [
+          "representing"
+        ]
+      },
+      "field_data_types": {
+        "bond_type": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

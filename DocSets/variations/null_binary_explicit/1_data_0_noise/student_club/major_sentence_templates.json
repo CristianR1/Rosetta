@@ -1,0 +1,284 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "52607231c64b40f1": "major_id",
+    "575f7638acc14705": "major_name",
+    "84581ba5a8c64c0f": "department",
+    "db159fd96a7f4be3": "college"
+  },
+  "templates": [
+    {
+      "original": "Each student club member's academic journey is uniquely identified by their major_id, like rec06DF6vZ1CyPKpc, connecting them to their study field.",
+      "template_pattern": "Each student club member's academic journey is uniquely identified by their major_id, like [MAJOR_ID], connecting them to their study field.",
+      "primary_data_fields": [
+        "major_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The academic path of every student club member is distinctively marked by their major id, like [MAJOR_ID], which links them to their field of study.",
+        "Each member of a student club has an academic journey that is uniquely tied to a major id—[MAJOR_ID]—connecting them with their study area.",
+        "A student club participant’s scholarly route is individually identified through their major id, such as [MAJOR_ID], thereby associating them with their discipline.",
+        "Unique identification of each student club member’s education trajectory comes via their major id, for example [MAJOR_ID], linking them to the corresponding study field.",
+        "The major id [MAJOR_ID] serves as the unique marker of a student club member’s academic journey, tying them to their chosen field of study.",
+        "By means of their major id, like [MAJOR_ID], the academic progression of each student club member is uniquely recognized and connected to their study domain.",
+        "Each academic journey of a student club member is singularly flagged by their major id—[MAJOR_ID]—which connects the student to their field of study.",
+        "For every student club member, the major id [MAJOR_ID] uniquely identifies their academic path and links them to their area of study.",
+        "The distinct academic track of each student club member is pinpointed by their major id, exemplified by [MAJOR_ID], establishing a link to their study field.",
+        "Each student club attendee’s educational route is uniquely labeled with a major id, such as [MAJOR_ID], thereby associating them with their specific field of study.",
+        "Through the major id [MAJOR_ID], the academic journey of each student club member is uniquely cataloged and tied to their discipline.",
+        "A student club member’s academic progression is uniquely indexed by their major id—[MAJOR_ID]—connecting them directly to their field of study.",
+        "The major id, for instance [MAJOR_ID], uniquely marks each student club member’s scholastic path, linking them to the relevant study area.",
+        "Each member of the student club has their academic journey uniquely defined by a major id like [MAJOR_ID], which binds them to their field of study.",
+        "Uniquely identified by their major id, [MAJOR_ID], every student club member’s academic journey is tied to their specific study field."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "member": [
+          "member"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "journey": [
+          "journey"
+        ],
+        "them": [
+          "them"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild",
+          "order"
+        ],
+        "field": [
+          "field",
+          "domain",
+          "area",
+          "study",
+          "sphere",
+          "subject"
+        ]
+      },
+      "field_data_types": {
+        "major_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Among the student club members, several are pursuing a major in Outdoor Product Design and Development, showcasing their diverse academic interests.",
+      "template_pattern": "Among the student club members, several are pursuing a major in [MAJOR_NAME], showcasing their diverse academic interests.",
+      "primary_data_fields": [
+        "major_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Several student club members are currently studying the major in [MAJOR_NAME], highlighting their varied academic pursuits.",
+        "Within the student club, a number of members pursue a major in [MAJOR_NAME], reflecting a range of scholarly interests.",
+        "A handful of members of the student club are enrolled in the major called [MAJOR_NAME], demonstrating diverse academic focus.",
+        "The student club includes several individuals who are working toward a major in [MAJOR_NAME], showcasing a breadth of academic interests.",
+        "Among those in the student club, several are undertaking the major in [MAJOR_NAME], evidencing their varied academic inclinations.",
+        "Several participants in the student club have elected to major in [MAJOR_NAME], illustrating their eclectic academic preferences.",
+        "In the student club, a few members are pursuing the major [MAJOR_NAME], underscoring their diverse scholarly ambitions.",
+        "The major [MAJOR_NAME] is being pursued by several members of the student club, which points to a wide span of academic interests.",
+        "Several individuals belonging to the student club are focusing on a major in [MAJOR_NAME], thereby revealing their varied academic pursuits.",
+        "Within the student club, several members choose the major [MAJOR_NAME], a sign of their broad academic interests.",
+        "A number of student club members are engaged in the major [MAJOR_NAME], reflecting a spectrum of academic passions.",
+        "Several members of the student club are working toward a major in [MAJOR_NAME], indicating diverse academic interests.",
+        "The student club's roster includes several who are aiming for the major [MAJOR_NAME], highlighting their varied scholarly focus.",
+        "Among the members of the student club, several have opted for the major [MAJOR_NAME], showcasing a wide array of academic interests.",
+        "Several student club participants are on the path to a major in [MAJOR_NAME], demonstrating their diverse academic interests."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "pursuing": [
+          "pursuing"
+        ],
+        "interests": [
+          "interests"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "major": [
+          "major"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "guild",
+          "clubhouse",
+          "order"
+        ],
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "showcasing": [
+          "showcasing"
+        ]
+      },
+      "field_data_types": {
+        "major_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many student organization members are pursuing majors through the School of Applied Sciences, Technology and Education, reflecting diverse academic interests.",
+      "template_pattern": "Many student organization members are pursuing majors through the [DEPARTMENT], reflecting diverse academic interests.",
+      "primary_data_fields": [
+        "department"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Many members of student organizations are pursuing majors through the [DEPARTMENT], which reflects a range of academic interests.",
+        "A large number of student organization participants pursue their majors via the [DEPARTMENT], showcasing varied academic interests.",
+        "Through the [DEPARTMENT], many student organization members are studying for their majors, reflecting a diversity of academic interests.",
+        "Diverse academic interests are reflected as many student organization members pursue majors in the [DEPARTMENT].",
+        "The [DEPARTMENT] is where numerous student organization members are undertaking their majors, indicating varied academic interests.",
+        "Pursuing majors through the [DEPARTMENT], many members of student organizations display a wide spectrum of academic interests.",
+        "Many student organization members, while pursuing majors at the [DEPARTMENT], demonstrate diverse academic interests.",
+        "A considerable portion of student organization participants are engaged in major studies via the [DEPARTMENT], mirroring diverse academic interests.",
+        "Reflecting varied academic interests, many members of student organizations are enrolled in majors through the [DEPARTMENT].",
+        "The pursuit of majors by many student organization members at the [DEPARTMENT] underscores their diverse academic interests.",
+        "Many student organization members are enrolled in majors through the [DEPARTMENT], thereby reflecting a breadth of academic interests.",
+        "With many student organization members pursuing majors through the [DEPARTMENT], a spectrum of academic interests becomes evident.",
+        "The [DEPARTMENT] sees many student organization members pursuing majors, a sign of diverse academic interests.",
+        "Academic interests are diverse, as evidenced by many student organization members pursuing majors via the [DEPARTMENT].",
+        "By pursuing majors through the [DEPARTMENT], many members of student organizations highlight their varied academic interests."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "establishment",
+          "organisation",
+          "administration"
+        ],
+        "pursuing": [
+          "pursuing",
+          "pursue",
+          "follow"
+        ],
+        "interests": [
+          "interests"
+        ],
+        "many": [
+          "many"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "through": [
+          "through"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "diverse": [
+          "diverse",
+          "various"
+        ]
+      },
+      "field_data_types": {
+        "department": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization is closely tied to the College of Agriculture and Applied Sciences, which offers their academic major.",
+      "template_pattern": "The student organization is closely tied to the [COLLEGE], which offers their academic major.",
+      "primary_data_fields": [
+        "college"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization maintains a close affiliation with the [COLLEGE], which provides its academic major.",
+        "Closely linked to the [COLLEGE], the student organization receives its academic major from that college.",
+        "The [COLLEGE], offering the academic major, is tightly connected to the student organization.",
+        "Because the [COLLEGE] offers the academic major, the student organization is strongly associated with it.",
+        "With the academic major offered by the [COLLEGE], the student organization is intimately tied.",
+        "The student organization, whose academic major is offered by the [COLLEGE], enjoys a close relationship with that college.",
+        "A strong bond exists between the student organization and the [COLLEGE], the latter supplying the academic major.",
+        "The academic major is provided by the [COLLEGE], linking it closely to the student organization.",
+        "Tightly coupled to the [COLLEGE], the student organization benefits from the college’s academic major.",
+        "The [COLLEGE], which furnishes the academic major, is closely associated with the student organization.",
+        "Since the [COLLEGE] offers the academic major, the student organization is firmly attached to it.",
+        "The student organization’s close tie to the [COLLEGE] stems from the college’s provision of its academic major.",
+        "Linked closely with the [COLLEGE], the student organization obtains its academic major there.",
+        "The academic major, offered by the [COLLEGE], binds the student organization closely to that college.",
+        "Because the [COLLEGE] supplies the academic major, the student organization is closely connected to it."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "organisation",
+          "system",
+          "establishment",
+          "administration",
+          "formation"
+        ],
+        "student": [
+          "student",
+          "pupil"
+        ],
+        "offers": [
+          "offers",
+          "proffer",
+          "tender",
+          "provide",
+          "bid"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "major": [
+          "major"
+        ],
+        "which": [
+          "which"
+        ],
+        "tied": [
+          "tied",
+          "fastened",
+          "attached",
+          "connected",
+          "bound"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "college": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

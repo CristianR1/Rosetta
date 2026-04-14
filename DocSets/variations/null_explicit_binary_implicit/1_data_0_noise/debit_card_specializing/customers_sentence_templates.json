@@ -1,0 +1,214 @@
+{
+  "document_context": "business data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "2912d6ace26e4a3d": "CustomerID",
+    "e9a3934aa09b4b62": "Segment",
+    "360aacad49d54362": "Currency"
+  },
+  "templates": [
+    {
+      "original": "CustomerID 3 recently made a significant purchase with their debit card at a local electronics store.",
+      "template_pattern": "CustomerID [CUSTOMERID] recently made a significant purchase with their debit card at a local electronics store.",
+      "primary_data_fields": [
+        "CustomerID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "At a local electronics store, CustomerID [CUSTOMERID] recently used their debit card to make a significant purchase.",
+        "CustomerID [CUSTOMERID]’s recent significant purchase was completed with a debit card at a local electronics store.",
+        "A significant purchase was made by CustomerID [CUSTOMERID] with their debit card at a local electronics store just now.",
+        "Using their debit card, CustomerID [CUSTOMERID] recently executed a sizeable purchase at a local electronics store.",
+        "Recently, at a local electronics store, CustomerID [CUSTOMERID] carried out a notable purchase with their debit card.",
+        "The debit card of CustomerID [CUSTOMERID] was employed in a recent major purchase at a local electronics store.",
+        "CustomerID [CUSTOMERID], at a local electronics store, recently secured a substantial purchase using their debit card.",
+        "A substantial purchase was recently recorded for CustomerID [CUSTOMERID], executed with a debit card at a local electronics store.",
+        "In a recent transaction at a local electronics store, CustomerID [CUSTOMERID] utilized their debit card for a significant purchase.",
+        "CustomerID [CUSTOMERID]’s debit card facilitated a recent, significant purchase at a local electronics store.",
+        "At a local electronics store, a recent significant purchase was made by CustomerID [CUSTOMERID] with their debit card.",
+        "The recent purchase of significance by CustomerID [CUSTOMERID] was carried out with a debit card at a local electronics store.",
+        "CustomerID [CUSTOMERID] recently employed their debit card to conduct a notable purchase at a local electronics store.",
+        "A notable purchase was recently completed by CustomerID [CUSTOMERID], using a debit card, at a local electronics store.",
+        "With a debit card, CustomerID [CUSTOMERID] recently performed a significant purchase at a local electronics store."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "electronics": [
+          "electronics"
+        ],
+        "recently": [
+          "recently",
+          "lately",
+          "latterly"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "store": [
+          "store",
+          "storehouse",
+          "depot",
+          "storage",
+          "stock"
+        ],
+        "made": [
+          "made",
+          "formed",
+          "established",
+          "prepared",
+          "constituted",
+          "realized"
+        ],
+        "card": [
+          "card",
+          "scorecard",
+          "notice",
+          "poster",
+          "posting",
+          "placard"
+        ],
+        "local": [
+          "local"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "CustomerID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the Segment of SMEs, understanding customer behavior is crucial for developing effective marketing strategies.",
+      "template_pattern": "In the Segment of SMEs, understanding customer behavior is crucial for developing effective marketing strategies.",
+      "primary_data_fields": [
+        "Segment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the Segment of [SEGMENT], grasping customer behavior proves essential for crafting effective marketing strategies.",
+        "For the Segment of [SEGMENT], a solid comprehension of customer behavior is vital to devise effective marketing strategies.",
+        "Effective marketing strategies for the Segment of [SEGMENT] hinge on a clear understanding of customer behavior.",
+        "Understanding customer behavior is a key factor in developing effective marketing strategies for the Segment of [SEGMENT].",
+        "In the Segment of [SEGMENT], effective marketing strategies depend on the crucial insight into customer behavior.",
+        "The Segment of [SEGMENT] requires a thorough understanding of customer behavior to develop effective marketing strategies.",
+        "A deep grasp of customer behavior is indispensable for the Segment of [SEGMENT] when formulating effective marketing strategies.",
+        "When addressing the Segment of [SEGMENT], recognizing customer behavior becomes critical for the creation of effective marketing strategies.",
+        "Effective marketing strategies can only be built for the Segment of [SEGMENT] if customer behavior is well understood.",
+        "In the Segment of [SEGMENT], it is essential to understand customer behavior to craft effective marketing strategies.",
+        "Developing effective marketing strategies for the Segment of [SEGMENT] demands an accurate understanding of customer behavior.",
+        "Customer behavior must be understood in the Segment of [SEGMENT] to ensure the development of effective marketing strategies.",
+        "For the Segment of [SEGMENT], understanding customer behavior stands as a cornerstone in forming effective marketing strategies.",
+        "The success of effective marketing strategies in the Segment of [SEGMENT] rests on comprehending customer behavior.",
+        "In the Segment of [SEGMENT], the development of effective marketing strategies relies heavily on understanding customer behavior."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "understanding": [
+          "understanding",
+          "discernment",
+          "apprehension"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ],
+        "marketing": [
+          "marketing"
+        ],
+        "developing": [
+          "developing"
+        ],
+        "strategies": [
+          "strategies"
+        ],
+        "effective": [
+          "effective",
+          "efficacious",
+          "effectual",
+          "efficient"
+        ],
+        "smes": [
+          "smes"
+        ]
+      },
+      "field_data_types": {
+        "Segment": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Most of the debit card transactions for this quarter were conducted using EUR as the primary Currency.",
+      "template_pattern": "Most of the debit card transactions for this quarter were conducted using [CURRENCY] as the primary Currency.",
+      "primary_data_fields": [
+        "Currency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During this quarter, the majority of debit card transactions were carried out with [CURRENCY] as the primary Currency.",
+        "[CURRENCY] served as the primary Currency for most debit card transactions recorded in this quarter.",
+        "In this quarter, most debit card transactions utilized [CURRENCY] as the primary Currency.",
+        "The primary Currency for the bulk of this quarter’s debit card transactions was [CURRENCY].",
+        "Most debit card transactions this quarter were performed using [CURRENCY] as the primary Currency.",
+        "Using [CURRENCY] as the primary Currency, most debit card transactions were processed in this quarter.",
+        "For this quarter, the primary Currency in the majority of debit card transactions was [CURRENCY].",
+        "The majority of this quarter’s debit card transactions employed [CURRENCY] as the primary Currency.",
+        "[CURRENCY] was the primary Currency in most debit card transactions during this quarter.",
+        "Most of the debit card transactions for this quarter employed [CURRENCY] as the primary Currency.",
+        "In the current quarter, [CURRENCY] functioned as the primary Currency for most debit card transactions.",
+        "Most of the debit card transactions this quarter used [CURRENCY] as the primary Currency.",
+        "This quarter saw most debit card transactions conducted with [CURRENCY] as the primary Currency.",
+        "The primary Currency, [CURRENCY], was used in the majority of debit card transactions for this quarter.",
+        "Most debit card transactions for this quarter were executed using [CURRENCY] as the primary Currency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "most": [
+          "most"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "conducted": [
+          "conducted"
+        ],
+        "quarter": [
+          "quarter",
+          "fourth"
+        ],
+        "card": [
+          "card",
+          "scorecard",
+          "notice"
+        ],
+        "primary": [
+          "primary",
+          "main",
+          "chief",
+          "principal"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "using": [
+          "using"
+        ]
+      },
+      "field_data_types": {
+        "Currency": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

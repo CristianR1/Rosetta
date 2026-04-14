@@ -1,0 +1,99 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "79f0fbb0336c4613": "id",
+    "a6338eb1871f4f3e": "publisher_name"
+  },
+  "templates": [
+    {
+      "original": "The id is 1.",
+      "template_pattern": "The id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The id is [ID].",
+        "The id equals [ID].",
+        "The id has a value of [ID].",
+        "The id stands at [ID].",
+        "The id registers as [ID].",
+        "The id was recorded as [ID].",
+        "The id appears as [ID].",
+        "In this report, the id is [ID].",
+        "According to the data, the id is [ID].",
+        "The id, as noted, is [ID].",
+        "[ID] is the designated id.",
+        "[ID] has been assigned to the id.",
+        "The identifier labeled id is [ID].",
+        "The id, set to [ID], reflects the entry.",
+        "The id, currently, is [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The publisher_name is NULL.",
+      "template_pattern": "The publisher_name is [PUBLISHER_NAME].",
+      "primary_data_fields": [
+        "publisher_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Publisher name is [PUBLISHER_NAME].",
+        "The publisher name currently contains [PUBLISHER_NAME].",
+        "In this report, publisher name equals [PUBLISHER_NAME].",
+        "[PUBLISHER_NAME] is the value assigned to publisher name.",
+        "Publisher name shows a [PUBLISHER_NAME] entry.",
+        "The field publisher name has been set to [PUBLISHER_NAME].",
+        "A [PUBLISHER_NAME] value appears for publisher name.",
+        "Publisher name registers as [PUBLISHER_NAME].",
+        "According to the data, publisher name is [PUBLISHER_NAME].",
+        "[PUBLISHER_NAME] appears as the publisher name.",
+        "The dataset indicates publisher name = [PUBLISHER_NAME].",
+        "Publisher name returns [PUBLISHER_NAME].",
+        "It is recorded that publisher name equals [PUBLISHER_NAME].",
+        "Publisher name reports a [PUBLISHER_NAME] status.",
+        "The value of publisher name is [PUBLISHER_NAME]."
+      ],
+      "counter_variations": [
+        "The report documents that the publisher name appears as NULL, which signifies that no identifying information has been supplied.",
+        "In the data set, the field publisher name is set to NULL, thereby indicating that no identifying details have been entered.",
+        "According to the compiled findings, the publisher name is listed as NULL, denoting that no identifying data were furnished.",
+        "The compiled report reveals that the publisher name holds a NULL value, reflecting that the requisite identification has not been entered.",
+        "Within the report, the entry for publisher name is recorded as NULL, implying that the necessary identifying information remains unprovided.",
+        "Analyzing the documentation, one observes that the publisher name is assigned the value NULL, which conveys that no identification details have been offered.",
+        "The data summary indicates that the publisher name field contains NULL, a marker that no identifying information has been submitted.",
+        "From the perspective of the report, the publisher name is captured as NULL, pointing to the fact that identifying information was not supplied.",
+        "The official record shows the publisher name as NULL, thereby signaling that no identifying information was made available.",
+        "In the presented report, the publisher name is designated NULL, illustrating that the required identification has not been provided.",
+        "The audit notes that the publisher name is entered as NULL, which illustrates the lack of any identifying information.",
+        "According to the findings, the publisher name is marked NULL, indicating that the dataset contains no identifying details for this field.",
+        "The documentation states that the publisher name bears the value NULL, signifying that no identifying information has been entered.",
+        "Review of the report reveals that the publisher name is set to NULL, denoting the non‑provision of identifying data.",
+        "In this data extract, the publisher name is represented by NULL, which denotes that no identifying information has been supplied."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "null": [
+          "null",
+          "nothing",
+          "nil",
+          "void",
+          "zero"
+        ]
+      },
+      "field_data_types": {
+        "publisher_name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

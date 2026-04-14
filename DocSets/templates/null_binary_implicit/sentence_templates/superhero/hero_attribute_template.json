@@ -1,0 +1,25 @@
+{
+  "database": "superhero",
+  "table": "hero_attribute",
+  "entry_index": 0,
+  "original_data": {
+    "hero_id": "1",
+    "attribute_id": "1",
+    "attribute_value": "80"
+  },
+  "generated_sentences": [
+    "Each superhero has been assigned a unique identifier to ensure accurate tracking and association with their distinct abilities and traits. (Hash: 3b4913e83f4e4e6e)",
+    "The superhero has a unique numerical identifier for each attribute that distinguishes their powers and characteristics. (Hash: 06c3b48c6e8f4d77)",
+    "The superhero impressed everyone with an attribute_value of 80, showcasing his extraordinary abilities and unique strengths. (Hash: 9e435d2f6b344856)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "3b4913e83f4e4e6e": "hero_id",
+    "06c3b48c6e8f4d77": "attribute_id",
+    "9e435d2f6b344856": "attribute_value"
+  },
+  "timestamp": "2026-03-31 19:59:09"
+}

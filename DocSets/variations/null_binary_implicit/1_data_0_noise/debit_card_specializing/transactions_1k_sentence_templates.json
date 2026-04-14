@@ -1,0 +1,595 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "81acc86245464886": "TransactionID",
+    "78ac3a424eb34219": "Date",
+    "3e13011a77904e13": "Time",
+    "f69cbe4d955148a5": "CustomerID",
+    "f93add73183647c3": "CardID",
+    "40af1f04917f4e0d": "GasStationID",
+    "69d590fa337e4a27": "ProductID",
+    "693217c074c54edc": "Amount",
+    "b19a718edc6d4318": "Price"
+  },
+  "templates": [
+    {
+      "original": "The report confirms that the transaction identified by TransactionID [TRANSACTIONID] was successfully processed on the recorded date.",
+      "template_pattern": "The report confirms that the transaction identified by TransactionID [TRANSACTIONID] was successfully processed on the recorded date.",
+      "primary_data_fields": [
+        "TransactionID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the report, the transaction bearing TransactionID [TRANSACTIONID] was processed successfully on the recorded date.",
+        "The report verifies that on the recorded date, the transaction with TransactionID [TRANSACTIONID] completed processing without issues.",
+        "It is confirmed in the report that the transaction identified by TransactionID [TRANSACTIONID] underwent successful processing on the recorded date.",
+        "On the recorded date, the report shows that the transaction marked by TransactionID [TRANSACTIONID] was successfully processed.",
+        "The documented report states the transaction referenced as TransactionID [TRANSACTIONID] was processed successfully on the recorded date.",
+        "The report indicates that the transaction, TransactionID [TRANSACTIONID], was processed successfully on the recorded date.",
+        "Successful processing of the transaction with TransactionID [TRANSACTIONID] on the recorded date is confirmed by the report.",
+        "The report confirms successful processing of the transaction identified by TransactionID [TRANSACTIONID] on the recorded date.",
+        "As per the report, the transaction bearing TransactionID [TRANSACTIONID] successfully processed on the recorded date.",
+        "The report affirms that on the recorded date the transaction designated by TransactionID [TRANSACTIONID] was processed successfully.",
+        "According to the report, on the recorded date the transaction with TransactionID [TRANSACTIONID] was processed successfully.",
+        "The report substantiates that the transaction tagged with TransactionID [TRANSACTIONID] underwent successful processing on the recorded date.",
+        "In the report, it is noted that the transaction labeled TransactionID [TRANSACTIONID] was successfully processed on the recorded date.",
+        "The report confirms that the transaction bearing TransactionID [TRANSACTIONID] was processed successfully on the recorded date.",
+        "The report confirms that on the recorded date, the transaction identified by TransactionID [TRANSACTIONID] was successfully processed."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "processed": [
+          "processed",
+          "refined"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "successfully": [
+          "successfully"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "transactionid": [
+          "transactionid"
+        ],
+        "confirms": [
+          "confirms"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The Date of 2012-08-24 marks a notable point in the sequence of debit card purchases.",
+      "template_pattern": "The Date of [DATE] marks a notable point in the sequence of debit card purchases.",
+      "primary_data_fields": [
+        "Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Date, [DATE], signifies a notable point in the sequence of debit card purchases.",
+        "A notable point in the sequence of debit card purchases is marked by the Date of [DATE].",
+        "On [DATE], the Date highlights a key moment within the debit card purchase timeline.",
+        "The sequence of debit card purchases reaches a significant juncture on the Date [DATE].",
+        "Marking a noteworthy spot in the debit card purchase series is the Date of [DATE].",
+        "[DATE], the Date, serves as a prominent reference point in the chronological list of debit card purchases.",
+        "A pivotal point in the debit card purchase chronology is identified by the Date [DATE].",
+        "The Date [DATE] denotes an important milestone within the flow of debit card purchases.",
+        "In the progression of debit card purchases, the Date of [DATE] stands out as a notable marker.",
+        "The Date of [DATE] is highlighted as a significant checkpoint in the series of debit card purchases.",
+        "Within the debit card purchase timeline, the Date [DATE] marks a distinguished point.",
+        "A distinguished point in the debit card purchase sequence is marked by the Date [DATE].",
+        "The Date [DATE] functions as a salient point in the continuum of debit card purchases.",
+        "In the record of debit card purchases, the Date of [DATE] represents a notable juncture.",
+        "The Date, [DATE], acts as a key reference in the chain of debit card purchases."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "notable": [
+          "notable",
+          "noteworthy",
+          "famous",
+          "illustrious",
+          "renowned",
+          "famed"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "sequence": [
+          "sequence",
+          "successiveness",
+          "succession"
+        ],
+        "marks": [
+          "marks"
+        ],
+        "point": [
+          "point",
+          "degree",
+          "aim",
+          "spot",
+          "place",
+          "tip"
+        ],
+        "purchases": [
+          "purchases"
+        ]
+      },
+      "field_data_types": {
+        "Date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The debit card transaction occurred at 09:41:00, providing a precise snapshot for understanding customer purchasing behavior.",
+      "template_pattern": "The debit card transaction occurred at [TIME], providing a precise snapshot for understanding customer purchasing behavior.",
+      "primary_data_fields": [
+        "Time"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The debit card purchase took place at [TIME], delivering an exact snapshot to analyze customer buying habits.",
+        "At [TIME], a debit card transaction was recorded, offering a precise view for assessing customer purchasing behavior.",
+        "A debit card transaction happened at [TIME], giving analysts a clear picture of how customers shop.",
+        "Recorded at [TIME], the debit card purchase provides a detailed glimpse into customer buying patterns.",
+        "The occurrence of a debit card transaction at [TIME] supplies a pinpointed snapshot for understanding shopper behavior.",
+        "For customer purchasing behavior analysis, the debit card transaction captured at [TIME] serves as an exact snapshot.",
+        "An exact snapshot of customer buying conduct is provided by the debit card transaction that occurred at [TIME].",
+        "The debit card purchase, logged at [TIME], furnishes a precise illustration of customer purchasing trends.",
+        "At the moment [TIME], a debit card transaction was logged, presenting a clear snapshot for studying consumer buying habits.",
+        "The timestamp [TIME] marks a debit card transaction that offers a precise view of customer purchase behavior.",
+        "By noting the debit card transaction at [TIME], we obtain an accurate snapshot of how customers make purchases.",
+        "A precise snapshot of consumer purchasing behavior is yielded by the debit card transaction recorded at [TIME].",
+        "The debit card transaction, occurring at [TIME], gives a focused snapshot for interpreting customer buying actions.",
+        "Captured at [TIME], the debit card purchase provides an exact snapshot that aids in understanding shopper behavior.",
+        "With the debit card transaction logged at [TIME], analysts gain a precise snapshot of customer purchasing patterns."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "behavior": [
+          "behavior",
+          "conduct",
+          "deportment",
+          "demeanour",
+          "demeanor",
+          "behaviour"
+        ],
+        "precise": [
+          "precise",
+          "exact",
+          "accurate"
+        ],
+        "understanding": [
+          "understanding",
+          "discernment",
+          "apprehension"
+        ],
+        "occurred": [
+          "occurred"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "card": [
+          "card"
+        ],
+        "debit": [
+          "debit"
+        ]
+      },
+      "field_data_types": {
+        "Time": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "CustomerID 31543 allows for detailed tracking and analysis of individual debit card transactions within the larger scope of transaction records.",
+      "template_pattern": "CustomerID [CUSTOMERID] allows for detailed tracking and analysis of individual debit card transactions within the larger scope of transaction records.",
+      "primary_data_fields": [
+        "CustomerID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "CustomerID [CUSTOMERID] enables comprehensive tracking and analysis of each debit card transaction across the broader set of transaction records.",
+        "With CustomerID [CUSTOMERID], detailed monitoring and examination of individual debit card transactions are possible throughout the extensive transaction records.",
+        "The identifier CustomerID [CUSTOMERID] permits in‑depth tracking and assessment of singular debit card transactions within the wider transaction records.",
+        "Through CustomerID [CUSTOMERID], one can perform detailed tracking and analysis of every debit card transaction inside the larger collection of transaction records.",
+        "Detailed tracking and analysis of individual debit card transactions are facilitated by CustomerID [CUSTOMERID] in the context of the overall transaction records.",
+        "CustomerID [CUSTOMERID] provides the ability to closely monitor and analyze each debit card transaction as part of the expansive transaction records.",
+        "By using CustomerID [CUSTOMERID], analysts can meticulously track and evaluate individual debit card transactions amid the broader transaction records.",
+        "The presence of CustomerID [CUSTOMERID] allows for precise tracking and scrutiny of single debit card transactions within the comprehensive transaction records.",
+        "CustomerID [CUSTOMERID] makes it possible to conduct detailed tracking and analysis of individual debit card transactions throughout the full set of transaction records.",
+        "Through the use of CustomerID [CUSTOMERID], detailed monitoring and analysis of each debit card transaction are carried out within the larger framework of transaction records.",
+        "With the aid of CustomerID [CUSTOMERID], individual debit card transactions can be tracked and analyzed in detail across the extensive transaction records.",
+        "CustomerID [CUSTOMERID] grants the capability to track and analyze individual debit card transactions in a detailed manner inside the broader transaction records.",
+        "Employing CustomerID [CUSTOMERID] enables detailed tracking and analysis of every debit card transaction inside the larger pool of transaction records.",
+        "The system, via CustomerID [CUSTOMERID], supports detailed monitoring and analysis of individual debit card transactions within the extensive transaction records.",
+        "Using CustomerID [CUSTOMERID], detailed tracking and analysis of each debit card transaction can be performed throughout the wider transaction records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "detailed": [
+          "detailed",
+          "elaborated",
+          "elaborate"
+        ],
+        "records": [
+          "records"
+        ],
+        "larger": [
+          "larger",
+          "bigger"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "card": [
+          "card"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "analysis": [
+          "analysis"
+        ]
+      },
+      "field_data_types": {
+        "CustomerID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The CardID 486621 was crucial in understanding the customer’s purchasing behavior during a recent analysis of debit card transactions.",
+      "template_pattern": "The CardID [CARDID] was crucial in understanding the customer’s purchasing behavior during a recent analysis of debit card transactions.",
+      "primary_data_fields": [
+        "CardID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the latest review of debit card transactions, the CardID [CARDID] proved essential for grasping the customer's purchasing habits.",
+        "The recent analysis of debit card transactions highlighted that CardID [CARDID] was key to interpreting the customer's buying behavior.",
+        "In examining debit card transactions recently, analysts found CardID [CARDID] indispensable for understanding how the customer shops.",
+        "Understanding the customer's purchasing behavior relied heavily on CardID [CARDID] during the recent debit‑card transaction analysis.",
+        "CardID [CARDID] emerged as a pivotal element in the recent study of debit card transactions, shedding light on the customer's buying patterns.",
+        "A recent debit‑card transaction analysis showed that the customer’s purchasing behavior could be decoded thanks to CardID [CARDID].",
+        "The customer’s buying habits were elucidated in the latest debit‑card transaction review, with CardID [CARDID] playing a crucial role.",
+        "During a recent assessment of debit card transactions, CardID [CARDID] was identified as vital for interpreting the customer's purchase trends.",
+        "The analysis of recent debit‑card transactions underscored CardID [CARDID] as essential for grasping the customer's purchasing conduct.",
+        "CardID [CARDID] was a critical factor in the recent debit‑card transaction analysis that aimed to understand the customer's buying behavior.",
+        "In the latest debit‑card transaction study, the customer's purchasing behavior was clarified by the crucial presence of CardID [CARDID].",
+        "The recent audit of debit card transactions revealed that CardID [CARDID] was indispensable for comprehending the customer’s purchasing actions.",
+        "For the recent analysis of debit‑card transactions, CardID [CARDID] served as a key data point in understanding the customer's buying behavior.",
+        "The customer's purchasing behavior could be interpreted during the recent debit‑card transaction analysis thanks to the crucial CardID [CARDID].",
+        "Analyzing recent debit‑card transactions highlighted CardID [CARDID] as essential for decoding the customer's purchasing patterns."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "behavior": [
+          "behavior",
+          "conduct",
+          "deportment",
+          "demeanour",
+          "demeanor",
+          "behaviour"
+        ],
+        "during": [
+          "during"
+        ],
+        "understanding": [
+          "understanding",
+          "discernment",
+          "apprehension"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "card": [
+          "card",
+          "bill",
+          "scorecard"
+        ],
+        "recent": [
+          "recent",
+          "late"
+        ],
+        "debit": [
+          "debit"
+        ]
+      },
+      "field_data_types": {
+        "CardID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The GasStationID 3704 is linked to numerous debit card transactions in the customer's purchase history.",
+      "template_pattern": "The GasStationID [GASSTATIONID] is linked to numerous debit card transactions in the customer's purchase history.",
+      "primary_data_fields": [
+        "GasStationID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Numerous debit card transactions in the customer's purchase history are associated with GasStationID [GASSTATIONID].",
+        "The customer's purchase history shows that GasStationID [GASSTATIONID] is tied to many debit card transactions.",
+        "Many debit card purchases recorded for the customer link back to GasStationID [GASSTATIONID].",
+        "In the buyer's transaction log, GasStationID [GASSTATIONID] appears alongside numerous debit card purchases.",
+        "GasStationID [GASSTATIONID] has been connected to a large number of debit card transactions in the customer's buying record.",
+        "A multitude of the customer's debit card transactions are linked to GasStationID [GASSTATIONID].",
+        "The purchase history of the customer reveals a strong connection between GasStationID [GASSTATIONID] and multiple debit card transactions.",
+        "Debit card activity in the customer's record frequently references GasStationID [GASSTATIONID].",
+        "Within the customer's purchase archive, GasStationID [GASSTATIONID] is repeatedly associated with debit card transactions.",
+        "The data shows that GasStationID [GASSTATIONID] corresponds to numerous debit card purchases made by the customer.",
+        "Multiple debit card transactions in the customer's history point to GasStationID [GASSTATIONID].",
+        "GasStationID [GASSTATIONID] is referenced by many of the customer's debit card transactions in their purchase history.",
+        "The customer's transaction history includes many debit card purchases linked to GasStationID [GASSTATIONID].",
+        "A significant number of debit card transactions in the customer's record are tied to GasStationID [GASSTATIONID].",
+        "Evidence from the customer's purchase history indicates that GasStationID [GASSTATIONID] is related to numerous debit card transactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "linked": [
+          "linked",
+          "joined",
+          "coupled"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "numerous": [
+          "numerous"
+        ],
+        "purchase": [
+          "purchase"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ]
+      },
+      "field_data_types": {
+        "GasStationID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The debit card transaction highlighted a product with ProductID 2, ensuring precise tracking for further analysis.",
+      "template_pattern": "The debit card transaction highlighted a product with ProductID [PRODUCTID], ensuring precise tracking for further analysis.",
+      "primary_data_fields": [
+        "ProductID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The debit card transaction flagged a product with ProductID [PRODUCTID], allowing precise tracking for later analysis.",
+        "A product bearing ProductID [PRODUCTID] was highlighted by the debit card transaction, ensuring accurate monitoring for subsequent analysis.",
+        "Highlighted in the debit card transaction, the item with ProductID [PRODUCTID] will be tracked precisely for future analysis.",
+        "Precise tracking for further analysis is guaranteed by the debit card transaction that highlighted ProductID [PRODUCTID].",
+        "By way of the debit card transaction, the system marked ProductID [PRODUCTID], facilitating exact tracking for upcoming analysis.",
+        "The debit card transaction identified a product identified as ProductID [PRODUCTID], supporting meticulous tracking for later analysis.",
+        "ProductID [PRODUCTID] was brought to attention in the debit card transaction, enabling precise monitoring ahead of further analysis.",
+        "Through the debit card transaction, a product with ProductID [PRODUCTID] was spotlighted, ensuring detailed tracking for subsequent analysis.",
+        "The debit card transaction’s highlight of ProductID [PRODUCTID] provides precise tracking for additional analysis.",
+        "In the debit card transaction, the product labeled ProductID [PRODUCTID] was emphasized, guaranteeing accurate tracking for further analysis.",
+        "The debit card transaction underscored a product, ProductID [PRODUCTID], which will be tracked with precision for later analysis.",
+        "A debit card transaction drew attention to ProductID [PRODUCTID], allowing exact tracking for upcoming analysis.",
+        "The debit card transaction pointed out ProductID [PRODUCTID], assuring precise monitoring for subsequent analytical work.",
+        "By highlighting ProductID [PRODUCTID], the debit card transaction ensures meticulous tracking for further analysis.",
+        "The debit card transaction’s detection of ProductID [PRODUCTID] secures precise tracking and facilitates further analysis."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "precise": [
+          "precise",
+          "exact",
+          "accurate"
+        ],
+        "product": [
+          "product",
+          "ware",
+          "merchandise"
+        ],
+        "transaction": [
+          "transaction",
+          "dealings",
+          "dealing"
+        ],
+        "card": [
+          "card"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "further": [
+          "further"
+        ]
+      },
+      "field_data_types": {
+        "ProductID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each debit card transaction showed varying amounts, with one notable transaction amounting to 28, highlighting a specific spending choice.",
+      "template_pattern": "Each debit card transaction showed varying amounts, with one notable transaction amounting to [AMOUNT], highlighting a specific spending choice.",
+      "primary_data_fields": [
+        "Amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each debit card transaction displayed different amounts, with one entry reporting an Amount of [AMOUNT], emphasizing a particular spending choice.",
+        "The series of debit card purchases varied in amount, and a single transaction noted an Amount [AMOUNT], highlighting a specific buying decision.",
+        "Among the debit card activities, amounts differed, yet one notable record showed an Amount of [AMOUNT], drawing focus to a distinct expense selection.",
+        "A range of debit card transaction amounts was observed, and one standout transaction listed an Amount [AMOUNT], pointing out a specific spending preference.",
+        "In the debit card ledger, amounts fluctuated, while one highlighted entry recorded an Amount of [AMOUNT], underscoring a particular purchase choice.",
+        "Varying amounts appeared across debit card transactions, with a prominent transaction bearing an Amount [AMOUNT], signaling a specific spending pattern.",
+        "The debit card usage featured assorted amounts, and one remarkable transaction reflected an Amount of [AMOUNT], indicating a distinct expenditure decision.",
+        "Across debit card transactions, amounts were inconsistent, yet one key entry showed an Amount [AMOUNT], spotlighting a particular spending option.",
+        "Debit card transaction amounts differed, and a singular notable transaction carried an Amount of [AMOUNT], illustrating a specific purchase choice.",
+        "Amounts varied throughout the debit card transactions, with one highlighted transaction marked by an Amount [AMOUNT], revealing a specific spending selection.",
+        "The debit card activity exhibited a spectrum of amounts, and a noteworthy transaction recorded an Amount of [AMOUNT], pointing to a particular expense choice.",
+        "Among the debit card entries, amounts changed, and one prominent transaction listed an Amount [AMOUNT], emphasizing a specific spending decision.",
+        "Debit card transactions showed a range of amounts; one significant transaction noted an Amount of [AMOUNT], highlighting a distinct purchase preference.",
+        "Different amounts were seen in the debit card transactions, and a single notable entry displayed an Amount [AMOUNT], drawing attention to a particular spending choice.",
+        "The pattern of debit card transaction amounts varied, yet one highlighted transaction featured an Amount of [AMOUNT], underscoring a specific expense choice."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "varying": [
+          "varying",
+          "variable"
+        ],
+        "notable": [
+          "notable",
+          "noteworthy",
+          "famous",
+          "illustrious",
+          "renowned",
+          "celebrated"
+        ],
+        "amounts": [
+          "amounts"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "showed": [
+          "showed",
+          "indicated",
+          "expressed",
+          "established",
+          "recorded",
+          "depicted"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "amounting": [
+          "amounting"
+        ],
+        "card": [
+          "card"
+        ]
+      },
+      "field_data_types": {
+        "Amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Price of 672.64 reflects the total cost of a transaction made with a debit card.",
+      "template_pattern": "The Price of [PRICE] reflects the total cost of a transaction made with a debit card.",
+      "primary_data_fields": [
+        "Price"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Price of [PRICE] represents the total amount billed for a debit‑card transaction.",
+        "A transaction made with a debit card incurred a total cost, reflected by the Price of [PRICE].",
+        "The total cost of a debit‑card purchase is shown by the Price of [PRICE].",
+        "With a debit card, the transaction’s overall expense is captured in the Price of [PRICE].",
+        "The Price of [PRICE] denotes the complete charge for a debit‑card transaction.",
+        "For a debit‑card purchase, the Price of [PRICE] indicates the full cost incurred.",
+        "The overall amount charged for a debit‑card transaction is the Price of [PRICE].",
+        "The Price of [PRICE] serves as the indicator of the total expense of a debit‑card transaction.",
+        "A debit‑card transaction’s total cost is reflected in the Price of [PRICE].",
+        "The Price of [PRICE] corresponds to the entire cost of a transaction performed with a debit card.",
+        "The total expense of a debit‑card transaction is expressed by the Price of [PRICE].",
+        "In a debit‑card transaction, the Price of [PRICE] reflects the full amount due.",
+        "The Price of [PRICE] captures the complete cost associated with a debit‑card transaction.",
+        "For a transaction using a debit card, the Price of [PRICE] mirrors the total cost.",
+        "The full charge for a debit‑card transaction is represented by the Price of [PRICE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "card": [
+          "card"
+        ],
+        "reflects": [
+          "reflects"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "made": [
+          "made"
+        ],
+        "cost": [
+          "cost",
+          "toll"
+        ]
+      },
+      "field_data_types": {
+        "Price": "float"
+      },
+      "is_static": false
+    }
+  ]
+}

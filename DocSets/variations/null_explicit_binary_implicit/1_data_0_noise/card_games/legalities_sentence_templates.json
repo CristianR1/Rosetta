@@ -1,0 +1,259 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "ae89c4cd9b244472": "id",
+    "62910c3bbb2f4656": "format",
+    "400522eb9ee844ef": "status",
+    "3ae20f8cbed04fee": "uuid"
+  },
+  "templates": [
+    {
+      "original": "In the trading card game, the format known as commander allows players to build decks around a legendary creature.",
+      "template_pattern": "In the trading card game, the format known as [FORMAT] allows players to build decks around a legendary creature.",
+      "primary_data_fields": [
+        "format"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the trading card game, the format called [FORMAT] permits players to construct decks centered on a legendary creature.",
+        "The trading card game's [FORMAT] format enables players to assemble decks that revolve around a legendary creature.",
+        "Players may build decks around a legendary creature thanks to the [FORMAT] format in the trading card game.",
+        "In the trading card game, decks are built around a legendary creature by players using the [FORMAT] format.",
+        "By employing the [FORMAT] format, players of the trading card game can create decks focused on a legendary creature.",
+        "The [FORMAT] format, part of the trading card game, allows players to design decks built around a legendary creature.",
+        "For the trading card game, the format known as [FORMAT] gives players the ability to craft decks centered on a legendary creature.",
+        "Utilizing the [FORMAT] format, players in the trading card game are able to construct decks that feature a legendary creature at the core.",
+        "In the trading card game, the [FORMAT] format grants players permission to assemble decks surrounding a legendary creature.",
+        "Players in the trading card game may use the [FORMAT] format to develop decks that hinge on a legendary creature.",
+        "Through the [FORMAT] format in the trading card game, players are enabled to build decks that revolve around a legendary creature.",
+        "The [FORMAT] format of the trading card game facilitates players in building decks focused on a legendary creature.",
+        "In the trading card game, decks built around a legendary creature are permitted by the [FORMAT] format for players.",
+        "The trading card game’s [FORMAT] format supplies players with the means to construct decks centered on a legendary creature.",
+        "By means of the [FORMAT] format, the trading card game allows players to create decks that revolve around a legendary creature."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "legendary": [
+          "legendary",
+          "fabled"
+        ],
+        "game": [
+          "game"
+        ],
+        "players": [
+          "players",
+          "participants"
+        ],
+        "decks": [
+          "decks"
+        ],
+        "creature": [
+          "creature",
+          "animal",
+          "beast"
+        ],
+        "around": [
+          "around",
+          "about",
+          "approximately",
+          "roughly"
+        ],
+        "trading": [
+          "trading",
+          "trade",
+          "deal"
+        ],
+        "allows": [
+          "allows"
+        ]
+      },
+      "field_data_types": {
+        "format": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The new expansion set has several powerful cards, all of which are designated as Legal for tournament play.",
+      "template_pattern": "The new expansion set has several powerful cards, all of which are designated as [STATUS] for tournament play.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The latest expansion pack includes a handful of potent cards, each marked as [STATUS] for tournament play.",
+        "Several powerful cards appear in the new expansion set, and all of them are classified as [STATUS] for tournament competition.",
+        "In the new expansion set, all of the powerful cards are designated [STATUS] for tournament play.",
+        "The new expansion set features several strong cards, all of which carry a [STATUS] status for tournament play.",
+        "All of the powerful cards in the new expansion set have been assigned a [STATUS] designation for tournament play.",
+        "Several high‑impact cards are part of the new expansion set, each one labeled [STATUS] for tournament play.",
+        "The new expansion set, which contains several powerful cards, has each card listed as [STATUS] for tournament play.",
+        "As for the new expansion set, every powerful card within it is marked [STATUS] for tournament competition.",
+        "The new expansion set offers a range of powerful cards; every one of them is recognized as [STATUS] for tournament play.",
+        "Every powerful card in the new expansion set is officially designated [STATUS] for tournament play.",
+        "Included in the new expansion set are several powerful cards, all officially classified as [STATUS] for tournament play.",
+        "The new expansion set’s powerful cards—several in number—are all assigned the [STATUS] status for tournament play.",
+        "All powerful cards from the new expansion set have the [STATUS] tag for tournament play.",
+        "In the latest expansion, several powerful cards have been labeled [STATUS] for tournament competition.",
+        "The new expansion set contains several powerful cards, each of which is officially marked [STATUS] for tournament play."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "powerful": [
+          "powerful",
+          "mighty",
+          "potent"
+        ],
+        "expansion": [
+          "expansion",
+          "enlargement"
+        ],
+        "tournament": [
+          "tournament"
+        ],
+        "designated": [
+          "designated"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "which": [
+          "which"
+        ],
+        "play": [
+          "play",
+          "act"
+        ],
+        "several": [
+          "several",
+          "various"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card's tournament and format legality status is uniquely identified by the UUID 5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c.",
+      "template_pattern": "The card's tournament and format legality status is uniquely identified by the UUID [UUID].",
+      "primary_data_fields": [
+        "uuid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The tournament and format legality status of the card is uniquely marked by the UUID [UUID].",
+        "Uniquely identified by UUID [UUID], the card's tournament and format legality status stands out.",
+        "For the card, the tournament and format legality status is distinguished solely through UUID [UUID].",
+        "The card’s status regarding tournament and format legality can be traced uniquely to UUID [UUID].",
+        "By means of UUID [UUID], the tournament and format legality status of the card is uniquely identified.",
+        "UUID [UUID] serves as the unique identifier for the card's tournament and format legality status.",
+        "The unique identifier for the card's tournament and format legality status is the UUID [UUID].",
+        "Through UUID [UUID], the card’s tournament and format legality status is singularly recognized.",
+        "A single UUID—[UUID]—uniquely tags the card’s tournament and format legality status.",
+        "The card’s tournament and format legality status receives a unique tag via UUID [UUID].",
+        "Identified only by UUID [UUID], the tournament and format legality status pertains to this card.",
+        "With UUID [UUID], the card’s tournament and format legality status is uniquely defined.",
+        "The tournament and format legality status for the card is uniquely associated with UUID [UUID].",
+        "Uniquely, the card’s tournament and format legality status is linked to UUID [UUID].",
+        "A UUID of [UUID] uniquely identifies the card’s tournament and format legality status."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identified": [
+          "identified"
+        ],
+        "tournament": [
+          "tournament"
+        ],
+        "legality": [
+          "legality"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "uniquely": [
+          "uniquely"
+        ]
+      },
+      "field_data_types": {
+        "uuid": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Id number, recorded as 1, serves as the primary reference that uniquely distinguishes this entity within the professional dataset.",
+      "template_pattern": "The report assigns each record a unique identifier, and the entry with ID [ID] demonstrates the expected format and consistency.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The report gives every record a distinct identifier, and the record bearing ID [ID] shows the proper format and consistency.",
+        "Each entry receives a unique ID from the report, with the entry identified as ID [ID] illustrating the anticipated format and consistency.",
+        "A unique identifier is assigned to each record by the report, and the record that carries ID [ID] exemplifies the expected format and consistency.",
+        "In the report, every record is tagged with a unique identifier; the line that has ID [ID] confirms the intended format and consistency.",
+        "The document allocates a distinct identifier to each record, and the item marked with ID [ID] demonstrates the prescribed format and consistency.",
+        "Each record is assigned a unique identifier in the report, and the entry with ID [ID] validates the expected format and consistency.",
+        "The report assigns a unique identifier to each record; the record containing ID [ID] confirms the proper format and consistency.",
+        "Unique identifiers are given to all records by the report, and the entry that includes ID [ID] showcases the expected format and consistency.",
+        "Within the report, each record receives its own unique identifier, and the entry bearing ID [ID] reflects the intended format and consistency.",
+        "The report provides each record with a unique identifier, and the entry featuring ID [ID] illustrates the expected format and consistency.",
+        "Every record in the report is labeled with a unique identifier, and the record that holds ID [ID] evidences the proper format and consistency.",
+        "A unique identifier is allotted to each record in the report, and the entry marked as ID [ID] displays the expected format and consistency.",
+        "The report's system assigns a distinct identifier to each record, and the entry possessing ID [ID] confirms the expected format and consistency.",
+        "Each record receives its unique identifier from the report, and the entry with ID [ID] demonstrates the anticipated format and consistency.",
+        "In the report, a unique identifier is attached to every record, and the entry that carries ID [ID] verifies the expected format and consistency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "expected": [
+          "expected"
+        ],
+        "report": [
+          "report",
+          "account",
+          "study",
+          "paper",
+          "composition"
+        ],
+        "assigns": [
+          "assigns",
+          "put"
+        ],
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "consistency": [
+          "consistency",
+          "consistence"
+        ],
+        "format": [
+          "format",
+          "arrange"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequaled",
+          "unequalled",
+          "singular"
+        ],
+        "demonstrates": [
+          "demonstrates"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

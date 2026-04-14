@@ -1,0 +1,671 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "819355a93a924a8d": "member_id",
+    "242e679221f747f4": "first_name",
+    "7e99d08728124519": "last_name",
+    "2f6ed9f77725458b": "email",
+    "3170a9a38980471e": "position",
+    "b524efb7ffad4709": "t_shirt_size",
+    "c03ceec0538f434b": "phone",
+    "f8eb861c242e49c2": "zip",
+    "8b45f36138e24ba9": "link_to_major"
+  },
+  "templates": [
+    {
+      "original": "The member_id rec1x5zBFIqoOuPW8 is assigned to a student in the club for tracking their membership records.",
+      "template_pattern": "The member_id [MEMBER_ID] is assigned to a student in the club for tracking their membership records.",
+      "primary_data_fields": [
+        "member_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The member id [MEMBER_ID] has been linked to a club student to monitor their membership records.",
+        "A student in the club is assigned the member id [MEMBER_ID] for the purpose of tracking membership records.",
+        "For tracking membership records, the club assigns the member id [MEMBER_ID] to a student.",
+        "Assigned to a club student for record‑keeping, the member id [MEMBER_ID] serves to track membership.",
+        "The club’s student receives the member id [MEMBER_ID], which is used to follow their membership records.",
+        "To keep tabs on membership records, the member id [MEMBER_ID] is allocated to a student within the club.",
+        "A student in the club holds the member id [MEMBER_ID], enabling the tracking of their membership records.",
+        "The member id [MEMBER_ID] is designated for a club student to facilitate membership record tracking.",
+        "In order to track membership records, the club assigns the member id [MEMBER_ID] to a student.",
+        "For the purpose of monitoring membership records, a club student is given the member id [MEMBER_ID].",
+        "The member id [MEMBER_ID], assigned to a student of the club, assists in tracking their membership records.",
+        "A club student is provided with the member id [MEMBER_ID] to aid in the tracking of membership records.",
+        "To monitor a student's membership records, the club attaches the member id [MEMBER_ID] to them.",
+        "The member id [MEMBER_ID] has been granted to a club student for the tracking of their membership records.",
+        "By assigning the member id [MEMBER_ID] to a student, the club can keep track of that student's membership records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "club": [
+          "club",
+          "nightclub",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild"
+        ],
+        "membership": [
+          "membership"
+        ],
+        "their": [
+          "their"
+        ],
+        "records": [
+          "records"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trailing",
+          "trail"
+        ],
+        "assigned": [
+          "assigned",
+          "depute",
+          "delegate",
+          "attribute",
+          "assign",
+          "ascribe"
+        ]
+      },
+      "field_data_types": {
+        "member_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Angela, whose first_name is prominently listed, actively participates in all the student club meetings and events.",
+      "template_pattern": "[FIRST_NAME], whose first_name is prominently listed, actively participates in all the student club meetings and events.",
+      "primary_data_fields": [
+        "first_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "[FIRST_NAME], whose first name appears prominently, takes part in every student club meeting and event.",
+        "The first name of [FIRST_NAME] is prominently displayed, and she actively joins all student club meetings and events.",
+        "All student club meetings and events see active participation from [FIRST_NAME], whose first name is shown prominently.",
+        "With her first name prominently listed, [FIRST_NAME] consistently attends each student club meeting and event.",
+        "[FIRST_NAME]’s first name is highlighted, and she is actively involved in every student club meeting and event.",
+        "Every student club meeting and event includes [FIRST_NAME], whose first name is clearly indicated, as an active participant.",
+        "Because [FIRST_NAME]’s first name is prominently listed, she engages actively in all student club meetings and events.",
+        "The student club meetings and events are regularly attended by [FIRST_NAME], whose first name is prominently shown.",
+        "[FIRST_NAME], whose first name is set out prominently, participates enthusiastically in all student club meetings and events.",
+        "All student club meetings and events feature [FIRST_NAME], whose first name is displayed prominently, as an active participant.",
+        "Highlighting her first name, [FIRST_NAME] takes an active role in each student club meeting and event.",
+        "[FIRST_NAME]’s first name is prominently listed, and she regularly contributes to every student club meeting and event.",
+        "In every student club meeting and event, [FIRST_NAME]—whose first name is prominently shown—plays an active part.",
+        "The first name of [FIRST_NAME] is prominently listed, which is why she actively partakes in all student club meetings and events.",
+        "[FIRST_NAME], with her first name prominently displayed, is an active participant in all student club meetings and events."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "prominently": [
+          "prominently",
+          "conspicuously"
+        ],
+        "events": [
+          "events"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "meetings": [
+          "meetings"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "guild",
+          "clubhouse"
+        ],
+        "whose": [
+          "whose"
+        ],
+        "participates": [
+          "participates"
+        ],
+        "listed": [
+          "listed",
+          "list"
+        ]
+      },
+      "field_data_types": {
+        "first_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club welcomed a new member, whose last_name is Sanders, to their growing list of enthusiastic participants.",
+      "template_pattern": "The student club welcomed a new member, whose last_name is [LAST_NAME], to their growing list of enthusiastic participants.",
+      "primary_data_fields": [
+        "last_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club added a new participant, whose last name is [LAST_NAME], to its expanding roster of eager members.",
+        "A newcomer whose last name is [LAST_NAME] was welcomed by the student club onto its growing list of enthusiastic participants.",
+        "Welcoming a fresh member whose last name is [LAST_NAME], the student club broadened its enthusiastic participant list.",
+        "The student club’s roster of enthusiastic participants grew as it accepted a new member, whose last name is [LAST_NAME].",
+        "With the addition of a new member whose last name is [LAST_NAME], the student club’s list of eager participants continues to expand.",
+        "A new member, whose last name is [LAST_NAME], has been embraced by the student club, further enlarging its enthusiastic cohort.",
+        "By inviting a newcomer whose last name is [LAST_NAME], the student club increased its thriving lineup of enthusiastic participants.",
+        "The student club’s growing list of enthusiastic participants now includes a fresh recruit whose last name is [LAST_NAME].",
+        "A fresh recruit whose last name is [LAST_NAME] was admitted to the student club’s expanding participant base.",
+        "Through welcoming a new member whose last name is [LAST_NAME], the student club added to its vibrant community of enthusiastic participants.",
+        "The student club has incorporated a newcomer whose last name is [LAST_NAME] into its ever‑growing roster of eager participants.",
+        "Adding to its enthusiastic participant pool, the student club welcomed a new member whose last name is [LAST_NAME].",
+        "A new entrant whose last name is [LAST_NAME] joined the student club, expanding its list of enthusiastic participants.",
+        "The student club’s enthusiastic participant list swelled when it took in a new member whose last name is [LAST_NAME].",
+        "By accepting a new member whose last name is [LAST_NAME], the student club bolstered its growing collection of eager participants."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "enthusiastic": [
+          "enthusiastic"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "list": [
+          "list",
+          "listing"
+        ],
+        "participants": [
+          "participants"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild",
+          "nightclub"
+        ],
+        "whose": [
+          "whose"
+        ],
+        "welcomed": [
+          "welcomed"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "last_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "For any questions or updates regarding club activities, feel free to reach out to Angela at angela.sanders@lpu.edu.",
+      "template_pattern": "For any questions or updates regarding club activities, feel free to reach out to Angela at [EMAIL].",
+      "primary_data_fields": [
+        "email"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "If you have any questions or updates about club activities, you may contact Angela at [EMAIL].",
+        "Should there be any inquiries or revisions concerning club activities, feel free to reach Angela via [EMAIL].",
+        "Any queries or new information regarding club activities can be directed to Angela at [EMAIL].",
+        "For updates or questions related to club activities, please get in touch with Angela at [EMAIL].",
+        "When you need clarification or updates on club activities, you’re welcome to email Angela at [EMAIL].",
+        "Questions or updates about club activities should be sent to Angela at [EMAIL].",
+        "If anything concerning club activities requires attention, Angela is reachable at [EMAIL].",
+        "Reach out to Angela at [EMAIL] for any questions or updates concerning club activities.",
+        "For any club‑activity inquiries or updates, you can connect with Angela at [EMAIL].",
+        "Should you require information or wish to provide updates on club activities, contact Angela at [EMAIL].",
+        "Any concerns or updates regarding club activities may be forwarded to Angela at [EMAIL].",
+        "Feel free to send your questions or updates about club activities to Angela at [EMAIL].",
+        "If you need to discuss club activities or share updates, Angela can be reached at [EMAIL].",
+        "For all club activity questions or updates, please email Angela at [EMAIL].",
+        "When there are questions or updates on club activities, you are invited to contact Angela via [EMAIL]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activities": [
+          "activities"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "guild",
+          "order"
+        ],
+        "regarding": [
+          "regarding"
+        ],
+        "feel": [
+          "feel",
+          "feeling",
+          "sense"
+        ],
+        "reach": [
+          "reach",
+          "achieve",
+          "attain",
+          "stretch",
+          "grasp",
+          "touch"
+        ],
+        "updates": [
+          "updates"
+        ],
+        "questions": [
+          "questions"
+        ],
+        "free": [
+          "free",
+          "costless",
+          "gratis",
+          "complimentary",
+          "exempt"
+        ]
+      },
+      "field_data_types": {
+        "email": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the student organization, each Member plays a crucial role in shaping its direction and success.",
+      "template_pattern": "In the student organization, each [POSITION] plays a crucial role in shaping its direction and success.",
+      "primary_data_fields": [
+        "position"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the student organization, each [POSITION] plays a crucial role in shaping its direction and success.",
+        "Each [POSITION] plays a crucial role in shaping its direction and success within the student organization.",
+        "In the student organization, its direction and success are shaped by each [POSITION], who plays a crucial role.",
+        "A crucial role in shaping its direction and success is played by each [POSITION] of the student organization.",
+        "Within the student organization, each [POSITION]’s crucial role shapes its direction and success.",
+        "Each [POSITION], in the student organization, plays a crucial role that shapes its direction and success.",
+        "In the student organization, its direction and success are guided by the crucial role each [POSITION] plays.",
+        "By playing a crucial role, each [POSITION] influences its direction and success in the student organization.",
+        "The crucial role that each [POSITION] plays helps shape its direction and success in the student organization.",
+        "In shaping its direction and success, each [POSITION] plays a crucial role for the student organization.",
+        "Each [POSITION]’s crucial role in the student organization shapes its direction and success.",
+        "Its direction and success in the student organization are shaped through the crucial role played by each [POSITION].",
+        "Through their crucial role, each [POSITION] helps shape its direction and success in the student organization.",
+        "In the student organization, the crucial role played by each [POSITION] determines its direction and success.",
+        "Each [POSITION] contributes a crucial role that shapes its direction and success within the student organization."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "establishment",
+          "organisation",
+          "administration"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "direction": [
+          "direction",
+          "way",
+          "steering",
+          "guidance",
+          "instruction"
+        ],
+        "success": [
+          "success"
+        ],
+        "plays": [
+          "plays"
+        ],
+        "role": [
+          "role",
+          "part",
+          "office",
+          "function"
+        ]
+      },
+      "field_data_types": {
+        "position": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "When ordering the club's t-shirts, Alex requested a t_shirt_size of Medium to ensure the perfect fit.",
+      "template_pattern": "When ordering the club's t-shirts, Alex requested a t_shirt_size of [T_SHIRT_SIZE] to ensure the perfect fit.",
+      "primary_data_fields": [
+        "t_shirt_size"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Alex chose a [T_SHIRT_SIZE] t shirt size while ordering the club’s t‑shirts to guarantee a perfect fit.",
+        "In ordering the club’s t‑shirts, Alex specified a [T_SHIRT_SIZE] t shirt size to achieve the ideal fit.",
+        "A [T_SHIRT_SIZE] t shirt size was requested by Alex as he placed the club’s t‑shirt order for a flawless fit.",
+        "When placing the order for the club’s t‑shirts, Alex selected a [T_SHIRT_SIZE] t shirt size to ensure the perfect fit.",
+        "Alex’s order for the club’s t‑shirts included a [T_SHIRT_SIZE] t shirt size, aiming for an optimal fit.",
+        "For the club’s t‑shirts, Alex asked for a [T_SHIRT_SIZE] t shirt size so that the fit would be just right.",
+        "The club’s t‑shirt order was made by Alex, who requested a [T_SHIRT_SIZE] t shirt size to secure a perfect fit.",
+        "To obtain the perfect fit, Alex ordered the club’s t‑shirts and requested a [T_SHIRT_SIZE] t shirt size.",
+        "While ordering the club’s t‑shirts, Alex requested a [T_SHIRT_SIZE] t shirt size, ensuring an ideal fit.",
+        "A [T_SHIRT_SIZE] t shirt size was the choice Alex made when ordering the club’s t‑shirts to guarantee proper fit.",
+        "Alex ordered the club’s t‑shirts and asked for a [T_SHIRT_SIZE] t shirt size to make sure the fit was perfect.",
+        "In the club’s t‑shirt order, Alex specified a [T_SHIRT_SIZE] t shirt size to achieve the perfect fit.",
+        "The request from Alex for a [T_SHIRT_SIZE] t shirt size accompanied his order of the club’s t‑shirts to ensure a perfect fit.",
+        "When the club’s t‑shirts were ordered, Alex selected a [T_SHIRT_SIZE] t shirt size to obtain the perfect fit.",
+        "Alex’s specification of a [T_SHIRT_SIZE] t shirt size in the club’s t‑shirt order was intended to ensure the perfect fit."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ordering": [
+          "ordering",
+          "order",
+          "arrange",
+          "rank"
+        ],
+        "shirts": [
+          "shirts"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild"
+        ],
+        "when": [
+          "when"
+        ],
+        "requested": [
+          "requested"
+        ],
+        "perfect": [
+          "perfect",
+          "complete",
+          "pure",
+          "consummate"
+        ],
+        "alex": [
+          "alex"
+        ],
+        "ensure": [
+          "ensure",
+          "secure",
+          "guarantee",
+          "assure"
+        ]
+      },
+      "field_data_types": {
+        "t_shirt_size": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "For updates on club activities and events, you can reach the student organization member at (651) 928-4507.",
+      "template_pattern": "For updates on club activities and events, you can reach the student organization member at [PHONE].",
+      "primary_data_fields": [
+        "phone"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To get the latest club activity and event information, contact the student organization member via phone at [PHONE].",
+        "If you need updates on club activities and events, the student organization member can be reached at [PHONE].",
+        "The student organization member is available for club activity and event updates by calling [PHONE].",
+        "For any news about club activities and events, you may call the student organization member at [PHONE].",
+        "Updates on club activities and events are obtainable by dialing [PHONE] to speak with the student organization member.",
+        "Should you require information on club activities and events, the student organization member can be contacted at [PHONE].",
+        "Club activity and event updates can be received by phoning the student organization member at [PHONE].",
+        "By calling [PHONE], you will reach the student organization member for club activity and event updates.",
+        "The student organization member, who handles club activities and events, is reachable at [PHONE].",
+        "For club activity and event news, simply phone the student organization member at [PHONE].",
+        "To stay informed about club activities and events, get in touch with the student organization member at [PHONE].",
+        "The student organization member may be contacted at [PHONE] for any club activity or event updates.",
+        "Should you wish to receive updates on club activities and events, call the student organization member at [PHONE].",
+        "Club activities and events information can be obtained by reaching the student organization member on [PHONE].",
+        "If you want the latest on club activities and events, the student organization member is reachable by phone at [PHONE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "system",
+          "establishment",
+          "administration",
+          "organisation"
+        ],
+        "events": [
+          "events"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild",
+          "order"
+        ],
+        "reach": [
+          "reach",
+          "achieve",
+          "attain",
+          "accomplish",
+          "stretch",
+          "grasp"
+        ],
+        "updates": [
+          "updates",
+          "revisions",
+          "modifications",
+          "changes",
+          "amendments",
+          "enhancements"
+        ]
+      },
+      "field_data_types": {
+        "phone": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many students from the 55108 zip area have joined the club, enriching its demographic diversity.",
+      "template_pattern": "Many students from the [ZIP] zip area have joined the club, enriching its demographic diversity.",
+      "primary_data_fields": [
+        "zip"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A large number of students from the [ZIP] zip area have become members of the club, adding to its demographic diversity.",
+        "The club’s demographic diversity has been enhanced by many students from the [ZIP] zip area joining its ranks.",
+        "From the [ZIP] zip area, many students have enrolled in the club, thereby enriching its demographic diversity.",
+        "Enrolling in the club, many students hailing from the [ZIP] zip area have contributed to greater demographic diversity.",
+        "Demographic diversity within the club has grown thanks to the influx of many students from the [ZIP] zip area.",
+        "Many students originating in the [ZIP] zip area now belong to the club, which has boosted its demographic diversity.",
+        "The club has welcomed numerous students from the [ZIP] zip area, which has broadened its demographic diversity.",
+        "By joining the club, many students from the [ZIP] zip area have helped to diversify its demographics.",
+        "The influx of many students from the [ZIP] zip area into the club has resulted in a richer demographic diversity.",
+        "With many students from the [ZIP] zip area joining, the club’s demographic diversity has become more varied.",
+        "Many students from the [ZIP] zip area have been added to the club’s roster, enhancing its demographic diversity.",
+        "The club’s roster now includes many students from the [ZIP] zip area, thereby increasing its demographic diversity.",
+        "As a result of many students from the [ZIP] zip area joining, the club enjoys heightened demographic diversity.",
+        "The demographic diversity of the club has been enriched by the addition of many students from the [ZIP] zip area.",
+        "Many students from the [ZIP] zip area have signed up for the club, contributing to a more diverse demographic makeup."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "joined": [
+          "joined",
+          "linked",
+          "united",
+          "coupled"
+        ],
+        "many": [
+          "many"
+        ],
+        "diversity": [
+          "diversity",
+          "variety"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild"
+        ],
+        "area": [
+          "area",
+          "expanse",
+          "domain",
+          "field",
+          "sphere",
+          "region"
+        ],
+        "enriching": [
+          "enriching",
+          "enhancing",
+          "improving",
+          "strengthening",
+          "bolstering",
+          "uplifting"
+        ],
+        "demographic": [
+          "demographic"
+        ],
+        "students": [
+          "students"
+        ]
+      },
+      "field_data_types": {
+        "zip": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Sarah's involvement in the student club provided a valuable link_to_major with recxK3MHQFbR9J5uO, enriching her academic experience.",
+      "template_pattern": "Sarah's involvement in the student club provided a valuable link_to_major with [LINK_TO_MAJOR], enriching her academic experience.",
+      "primary_data_fields": [
+        "link_to_major"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Sarah's participation in the student club created a valuable link to major with [LINK_TO_MAJOR], thereby enhancing her academic experience.",
+        "By engaging with the student club, Sarah established a valuable link to major with [LINK_TO_MAJOR], which enriched her academic journey.",
+        "A valuable link to major with [LINK_TO_MAJOR] was provided by Sarah's involvement in the student club, adding depth to her academic experience.",
+        "Thanks to Sarah's role in the student club, a valuable link to major with [LINK_TO_MAJOR] was forged, improving her academic experience.",
+        "The student club, through Sarah's involvement, supplied a valuable link to major with [LINK_TO_MAJOR], boosting her academic experience.",
+        "With [LINK_TO_MAJOR], Sarah's activity in the student club yielded a valuable link to major, which furthered her academic experience.",
+        "Sarah, while active in the student club, produced a valuable link to major with [LINK_TO_MAJOR], consequently enriching her academic experience.",
+        "Because of her participation in the student club, Sarah secured a valuable link to major with [LINK_TO_MAJOR], augmenting her academic experience.",
+        "A valuable link to major with [LINK_TO_MAJOR] resulted from Sarah's engagement in the student club, enhancing her academic experience.",
+        "The academic experience of Sarah was enriched by a valuable link to major with [LINK_TO_MAJOR], which stemmed from her involvement in the student club.",
+        "Through her work in the student club, Sarah obtained a valuable link to major with [LINK_TO_MAJOR], thereby improving her academic experience.",
+        "Sarah's involvement in the student club led to a valuable link to major with [LINK_TO_MAJOR], which contributed to a richer academic experience.",
+        "A valuable link to major with [LINK_TO_MAJOR] was generated by Sarah's student club involvement, consequently enhancing her academic experience.",
+        "Owing to Sarah's participation in the student club, a valuable link to major with [LINK_TO_MAJOR] emerged, enriching her academic experience.",
+        "The student club, via Sarah's involvement, gave rise to a valuable link to major with [LINK_TO_MAJOR], thus advancing her academic experience."
+      ],
+      "counter_variations": [
+        "Even though the student's profile records a link to major as null, this does not lessen the overall academic engagement.",
+        "While the student's profile indicates a link to major as null, the overall academic engagement remains undiminished.",
+        "The student's profile may show a link to major as null, yet the overall academic engagement is unaffected.",
+        "Despite the student's profile listing a link to major as null, the overall academic engagement is not reduced.",
+        "A link to major appears as null in the student's profile, but that fact does not compromise the overall academic engagement.",
+        "In the student's profile, the link to major is marked as null, although this does not curtail the overall academic engagement.",
+        "Although the student's profile designates a link to major as null, the overall academic engagement stays intact.",
+        "The presence of a null value for the link to major in the student's profile does not diminish the overall academic engagement.",
+        "Null is recorded for the link to major in the student's profile, yet the overall academic engagement persists unchanged.",
+        "When the student's profile lists a link to major as null, it nevertheless leaves the overall academic engagement untouched.",
+        "Although a null entry appears for the link to major within the student's profile, the overall academic engagement suffers no loss.",
+        "The student's profile shows a link to major as null; however, this circumstance does not erode the overall academic engagement.",
+        "Even if the student's profile marks the link to major as null, the overall academic engagement remains fully intact.",
+        "In cases where the student's profile registers a link to major as null, the overall academic engagement is still maintained.",
+        "The fact that the student's profile assigns a null to the link to major does not impair the overall academic engagement."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "sarah": [
+          "sarah",
+          "Sarah"
+        ],
+        "involvement": [
+          "involvement",
+          "liaison",
+          "interest",
+          "engagement",
+          "participation"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "provided": [
+          "provided",
+          "furnish",
+          "supply",
+          "render",
+          "offer",
+          "provide"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "nightclub",
+          "guild"
+        ],
+        "valuable": [
+          "valuable"
+        ],
+        "enriching": [
+          "enriching"
+        ]
+      },
+      "field_data_types": {
+        "link_to_major": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

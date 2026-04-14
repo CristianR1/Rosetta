@@ -1,0 +1,585 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4c0322dbe95940b1": "ID",
+    "98e8f3027bc244e8": "SEX",
+    "1444d3068b824924": "Birthday",
+    "e2c4bfdc64e443d2": "Description",
+    "dc9c981c0b8d4951": "First Date",
+    "dea68d051bcb4664": "Admission",
+    "7246deffd6c84181": "Diagnosis"
+  },
+  "templates": [
+    {
+      "original": "Patient ID 2110 has been crucial in maintaining a comprehensive record of their demographic and medical history for thrombosis prediction.",
+      "template_pattern": "Patient ID [ID] has been crucial in maintaining a comprehensive record of their demographic and medical history for thrombosis prediction.",
+      "primary_data_fields": [
+        "ID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Patient ID [ID] plays a vital role in keeping a comprehensive record of their demographic and medical history for thrombosis prediction.",
+        "For thrombosis prediction, a comprehensive record of the demographic and medical history of Patient ID [ID] has been maintained crucially.",
+        "Maintaining a comprehensive record of their demographic and medical history for thrombosis prediction has been essential, thanks to Patient ID [ID].",
+        "The comprehensive demographic and medical history record used for thrombosis prediction is critically upheld by Patient ID [ID].",
+        "Patient ID [ID] is indispensable in preserving a comprehensive record of their demographic and medical history for thrombosis prediction.",
+        "In the effort to predict thrombosis, Patient ID [ID] has been key to sustaining a comprehensive record of their demographic and medical history.",
+        "A comprehensive record of the patient’s demographic and medical history for thrombosis prediction is secured by Patient ID [ID].",
+        "For the purpose of thrombosis prediction, Patient ID [ID] ensures the comprehensive recording of their demographic and medical history.",
+        "The role of Patient ID [ID] in maintaining a comprehensive record of their demographic and medical history is critical for thrombosis prediction.",
+        "Critical to thrombosis prediction, Patient ID [ID] maintains a comprehensive record of their demographic and medical history.",
+        "Patient ID [ID] has served as the cornerstone for a comprehensive record of their demographic and medical history in thrombosis prediction.",
+        "Through Patient ID [ID], a comprehensive record of their demographic and medical history is kept for thrombosis prediction.",
+        "The comprehensive demographic and medical history needed for thrombosis prediction is kept up by Patient ID [ID].",
+        "Patient ID [ID]’s contribution lies in the comprehensive maintenance of their demographic and medical history for thrombosis prediction.",
+        "By maintaining a comprehensive record of their demographic and medical history for thrombosis prediction, Patient ID [ID] proves crucial."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "demographic": [
+          "demographic"
+        ],
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "maintaining": [
+          "maintaining",
+          "preserve",
+          "sustain",
+          "uphold",
+          "keep",
+          "maintain",
+          "conserve"
+        ],
+        "comprehensive": [
+          "comprehensive"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "ID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient, identified as SEX F, requires specific considerations for assessing her risk of thrombosis.",
+      "template_pattern": "The patient, identified as SEX [SEX], requires specific considerations for assessing her risk of thrombosis.",
+      "primary_data_fields": [
+        "SEX"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient, identified as SEX [SEX], needs particular considerations when evaluating her thrombosis risk.",
+        "For the individual labeled SEX [SEX], specific considerations are required to assess her risk of thrombosis.",
+        "SEX [SEX] is the patient’s recorded sex, and she must receive tailored considerations for her thrombosis risk assessment.",
+        "In the case of SEX [SEX], the clinician should apply specific considerations to gauge her thrombosis risk.",
+        "Given that the patient’s sex is SEX [SEX], special attention is necessary for assessing her risk of thrombosis.",
+        "With SEX [SEX] documented, the patient warrants dedicated considerations for evaluating her thrombosis risk.",
+        "The individual, SEX [SEX], must be given specific considerations for the appraisal of her thrombosis risk.",
+        "Because the patient’s sex is SEX [SEX], her thrombosis risk assessment calls for targeted considerations.",
+        "SEX [SEX] identifies the patient, who requires particular considerations in assessing her thrombosis risk.",
+        "For the patient recorded as SEX [SEX], it is essential to incorporate specific considerations into her thrombosis risk evaluation.",
+        "Since the patient’s sex is SEX [SEX], her risk of thrombosis should be examined with dedicated considerations.",
+        "The patient (SEX [SEX]) should receive tailored considerations when her thrombosis risk is being assessed.",
+        "Identified as SEX [SEX], the patient needs specific considerations to determine her thrombosis risk.",
+        "When the patient’s sex is listed as SEX [SEX], special considerations must be applied to assess her thrombosis risk.",
+        "Given SEX [SEX] as the patient’s sex, her thrombosis risk assessment requires particular considerations."
+      ],
+      "counter_variations": [
+        "Because the patient’s SEX is not specified, clinicians must exercise heightened diligence when formulating treatment plans and assessing risk stratification.",
+        "The absence of a defined SEX for the patient, being unspecified, calls for meticulous deliberation during both treatment planning and risk stratification.",
+        "Given that the patient’s SEX remains unknown, careful consideration is required in the construction of therapeutic strategies and the execution of risk stratification.",
+        "In this record, the patient’s SEX is not available, thereby obligating the care team to apply thorough scrutiny in treatment planning and risk stratification.",
+        "Since the patient’s SEX is unspecified, the multidisciplinary team must integrate careful analysis into both the design of treatment regimens and the process of risk stratification.",
+        "The patient’s SEX, not specified in the dataset, mandates that treatment planning and risk stratification be approached with particular caution.",
+        "With the patient’s SEX not specified, clinicians are compelled to incorporate exhaustive evaluation into treatment planning and subsequent risk stratification.",
+        "Because the patient’s SEX is unknown, a heightened level of scrutiny is essential during the phases of treatment planning and risk stratification.",
+        "The patient’s SEX is unspecified, thereby requiring that treatment planning and risk stratification be conducted with careful consideration.",
+        "In this clinical summary, the patient’s SEX is not available, which obliges the care providers to apply rigorous deliberation in both treatment planning and risk stratification.",
+        "The record indicates that the patient’s SEX remains unspecified, prompting the need for careful deliberation throughout treatment planning and risk stratification.",
+        "As the patient’s SEX is not specified, it becomes imperative to embed careful consideration into the development of treatment plans and the execution of risk stratification.",
+        "The patient’s SEX, being unknown, compels the healthcare team to exercise meticulous judgment when devising treatment strategies and conducting risk stratification.",
+        "Given that the patient’s SEX is not available, the process of treatment planning and risk stratification must be approached with heightened caution.",
+        "When the patient’s SEX is unspecified, clinicians must integrate comprehensive assessment into treatment planning and the subsequent risk stratification."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "thrombosis": [
+          "thrombosis"
+        ],
+        "risk": [
+          "risk",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy",
+          "chance"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "assessing": [
+          "assessing"
+        ],
+        "considerations": [
+          "considerations"
+        ],
+        "requires": [
+          "requires"
+        ]
+      },
+      "field_data_types": {
+        "SEX": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's Birthday, 1934-02-13, helps doctors consider age-related health factors when assessing thrombosis risk.",
+      "template_pattern": "The patient's Birthday, [BIRTHDAY], helps doctors consider age-related health factors when assessing thrombosis risk.",
+      "primary_data_fields": [
+        "Birthday"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Doctors use the patient’s Birthday, [BIRTHDAY], to factor in age‑related health considerations during thrombosis risk assessment.",
+        "The patient’s Birthday, [BIRTHDAY], is taken into account by clinicians when evaluating the risk of thrombosis based on age‑related factors.",
+        "When assessing thrombosis risk, physicians consider the patient’s Birthday, [BIRTHDAY], as an indicator of age‑related health issues.",
+        "Age‑related health factors are reviewed by doctors in light of the patient’s Birthday, [BIRTHDAY], during thrombosis risk evaluation.",
+        "In thrombosis risk assessment, the patient’s Birthday, [BIRTHDAY], guides clinicians to consider age‑related health aspects.",
+        "The Birthday of the patient, [BIRTHDAY], informs medical staff about age‑related concerns when they assess thrombosis risk.",
+        "Clinicians factor the patient’s Birthday, [BIRTHDAY], into their appraisal of thrombosis risk, accounting for age‑related health elements.",
+        "Considering the patient’s Birthday, [BIRTHDAY], doctors incorporate age‑related health factors into thrombosis risk analysis.",
+        "For thrombosis risk evaluation, the patient’s Birthday, [BIRTHDAY], serves as a cue for doctors to weigh age‑related health considerations.",
+        "The date of the patient’s Birthday, [BIRTHDAY], is used by physicians to include age‑related health factors in thrombosis risk assessment.",
+        "Doctors, when evaluating thrombosis risk, reference the patient’s Birthday, [BIRTHDAY], to account for age‑related health issues.",
+        "The patient’s Birthday, [BIRTHDAY], provides doctors with age‑related health context during thrombosis risk appraisal.",
+        "Age‑related health factors are incorporated by clinicians into thrombosis risk assessments, based on the patient’s Birthday, [BIRTHDAY].",
+        "When doctors assess the risk of thrombosis, they consider the patient’s Birthday, [BIRTHDAY], as a marker of age‑related health status.",
+        "The patient’s Birthday, [BIRTHDAY], helps physicians factor age‑related health considerations into their thrombosis risk evaluation."
+      ],
+      "counter_variations": [
+        "Because the patient’s Birthday is not specified, clinicians experience a diminished capability to fully evaluate age‑related risk factors during cardiovascular health assessments.",
+        "The patient’s Birthday, unspecified, constrains clinicians’ capacity to comprehensively appraise age‑related risk determinants when reviewing cardiovascular health.",
+        "When the patient’s Birthday is not available, clinicians’ ability to thoroughly assess age‑related risk factors in cardiovascular evaluations is significantly limited.",
+        "Given that the patient’s Birthday remains unknown, clinicians find it challenging to completely gauge age‑related risk components in the context of cardiovascular health analysis.",
+        "Having an unspecified Birthday, the patient hampers clinicians’ thorough appraisal of age‑related risk variables in cardiovascular health evaluations.",
+        "If the patient’s Birthday is not available, the clinicians’ proficiency in exhaustively assessing age‑related cardiovascular risk factors is markedly reduced.",
+        "Since the patient’s Birthday is unknown, clinicians’ capacity to fully interpret age‑related risk elements during cardiovascular health examinations is compromised.",
+        "With the patient’s Birthday not specified, clinicians’ ability to entirely assess age‑related risk factors in cardiovascular health reviews is curtailed.",
+        "An unspecified Birthday for the patient limits clinicians’ comprehensive evaluation of age‑related risk factors when analyzing cardiovascular health.",
+        "When the patient’s Birthday is not available, it hampers clinicians’ full assessment of age‑related risk considerations in cardiovascular health appraisals.",
+        "Because the patient’s Birthday remains unknown, clinicians are impeded in their thorough evaluation of age‑related risk factors during cardiovascular health investigations.",
+        "The patient’s Birthday, not specified, curtails clinicians’ capacity to completely assess age‑related risk determinants in cardiovascular health assessments.",
+        "An unspecified Birthday for the patient constrains clinicians from fully appraising age‑related risk factors while evaluating cardiovascular health.",
+        "If the patient’s Birthday is not available, clinicians’ ability to exhaustively assess age‑related risk components in cardiovascular health evaluations is substantially limited.",
+        "Because the patient’s Birthday is not specified, clinicians are unable to fully assess age‑related risk factors during cardiovascular health evaluations."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "doctors": [
+          "doctors"
+        ],
+        "risk": [
+          "risk",
+          "chance",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy"
+        ],
+        "factors": [
+          "factors"
+        ],
+        "consider": [
+          "consider",
+          "regard",
+          "weigh",
+          "deliberate",
+          "reckon",
+          "think"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "assessing": [
+          "assessing"
+        ],
+        "health": [
+          "health",
+          "wellness"
+        ],
+        "related": [
+          "related"
+        ]
+      },
+      "field_data_types": {
+        "Birthday": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's demographic and medical history information was first documented on 1994-02-14, marking the initial entry date.",
+      "template_pattern": "The patient's demographic and medical history information was first documented on [DESCRIPTION], marking the initial entry date.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DESCRIPTION], the patient's demographic and medical history information was initially recorded, marking the first entry date.",
+        "The initial entry date, [DESCRIPTION], notes when the patient's demographic and medical history information was first documented.",
+        "First documented on [DESCRIPTION], the patient's demographic and medical history information marks the initial entry date.",
+        "The patient's demographic and medical history information entered the record on [DESCRIPTION], establishing the initial entry date.",
+        "It was on [DESCRIPTION] that the patient's demographic and medical history information was first logged, signifying the initial entry date.",
+        "Recording the patient's demographic and medical history information began on [DESCRIPTION], which serves as the initial entry date.",
+        "The initial entry date is [DESCRIPTION], the day the patient's demographic and medical history information was first documented.",
+        "On the date [DESCRIPTION], the first documentation of the patient's demographic and medical history information occurred, marking the entry date.",
+        "The patient's demographic and medical history information was first entered on [DESCRIPTION], indicating the initial entry date.",
+        "The initial entry date, marked by the first documentation of the patient's demographic and medical history information, is [DESCRIPTION].",
+        "First entry of the patient's demographic and medical history information happened on [DESCRIPTION], establishing the initial date.",
+        "The patient's demographic and medical history information was initially captured on [DESCRIPTION], denoting the first entry date.",
+        "Documented for the first time on [DESCRIPTION], the patient's demographic and medical history information defines the initial entry date.",
+        "The date [DESCRIPTION] marks the first time the patient's demographic and medical history information was recorded, the initial entry date.",
+        "On [DESCRIPTION] the patient's demographic and medical history information was logged for the first time, marking the entry date."
+      ],
+      "counter_variations": [
+        "As indicated in the comprehensive healthcare data report prepared for clinical review, the Description field is not specified.",
+        "The comprehensive healthcare data report, assembled for clinical review, records that the Description field remains unspecified.",
+        "In the clinical review’s comprehensive healthcare data report, the Description field is noted as not available.",
+        "According to the comprehensive healthcare data report compiled for clinical review, the Description field is unknown.",
+        "Within the comprehensive healthcare data report created for clinical review, the Description field is listed as not specified.",
+        "The Description field, as documented in the comprehensive healthcare data report for clinical review, is unspecified.",
+        "Documented in the comprehensive healthcare data report prepared for clinical review, the Description field is unspecified.",
+        "The comprehensive healthcare data report compiled for clinical review explicitly states that the Description field is not specified.",
+        "In the context of the comprehensive healthcare data report for clinical review, the Description field appears as unspecified.",
+        "The Description field is recorded as not available in the comprehensive healthcare data report that was compiled for clinical review.",
+        "As per the comprehensive healthcare data report assembled for clinical review, the Description field is unknown.",
+        "The comprehensive healthcare data report, compiled for clinical review, marks the Description field as not specified.",
+        "Within the comprehensive healthcare data report prepared for clinical review, the Description field is identified as unspecified.",
+        "The Description field is described as not specified in the comprehensive healthcare data report compiled for clinical review.",
+        "In the comprehensive healthcare data report, which was compiled for clinical review, the Description field is noted as not available."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "demographic": [
+          "demographic"
+        ],
+        "marking": [
+          "marking",
+          "mark",
+          "grade",
+          "grading",
+          "label",
+          "tag"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "history": [
+          "history",
+          "story",
+          "account",
+          "chronicle"
+        ],
+        "documented": [
+          "documented",
+          "attested",
+          "authenticated"
+        ],
+        "entry": [
+          "entry",
+          "submission"
+        ],
+        "initial": [
+          "initial"
+        ],
+        "medical": [
+          "medical"
+        ]
+      },
+      "field_data_types": {
+        "Description": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's medical journey with the hospital began on their First Date of 1993-02-10, marking a pivotal moment in their care.",
+      "template_pattern": "The patient's medical journey with the hospital began on their First Date of [FIRST DATE], marking a pivotal moment in their care.",
+      "primary_data_fields": [
+        "First Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On the patient's First Date of [FIRST DATE], their medical journey with the hospital commenced, representing a pivotal moment in their care.",
+        "The hospital's care for the patient officially started on their First Date of [FIRST DATE], a defining point in the medical journey.",
+        "Commencing on the First Date of [FIRST DATE], the patient's medical journey with the hospital marked a critical milestone in their care.",
+        "A pivotal moment in the patient's care occurred when their medical journey with the hospital began on the First Date of [FIRST DATE].",
+        "The patient's encounter with the hospital kicked off on their First Date of [FIRST DATE], signifying a key stage in their medical care.",
+        "Beginning on the First Date of [FIRST DATE], the patient's medical relationship with the hospital marked an essential turning point in their care.",
+        "The First Date of [FIRST DATE] signaled the start of the patient's medical journey with the hospital, a crucial moment in their care.",
+        "With the First Date of [FIRST DATE], the patient’s medical pathway at the hospital was launched, highlighting a pivotal moment in their care.",
+        "The initiation of the patient's medical journey with the hospital took place on the First Date of [FIRST DATE], marking a significant point in their care.",
+        "On [FIRST DATE], the patient’s First Date, their medical journey with the hospital began, underscoring a vital moment in their care.",
+        "The patient’s care trajectory with the hospital was set in motion on their First Date of [FIRST DATE], a landmark moment in their medical journey.",
+        "Their medical journey with the hospital commenced on the First Date of [FIRST DATE], denoting a pivotal moment in the patient’s care.",
+        "The First Date of [FIRST DATE] launched the patient’s medical engagement with the hospital, marking an important milestone in their care.",
+        "On the First Date of [FIRST DATE], the hospital began its medical relationship with the patient, a turning point in the care provided.",
+        "The start of the patient’s medical journey with the hospital is recorded on their First Date of [FIRST DATE], highlighting a crucial moment in their care."
+      ],
+      "counter_variations": [
+        "Within the patient’s care timeline, the First Date is recorded as not specified, yet this undocumented entry still shapes later clinical decisions.",
+        "Although the First Date appears as not specified in the patient’s care timeline, the entry remains undocumented but continues to affect subsequent clinical choices.",
+        "The care timeline for the patient lists the First Date as not specified, an undocumented datum that nonetheless impacts ensuing clinical decision‑making.",
+        "Despite being not specified, the First Date noted in the patient’s care timeline constitutes an undocumented entry that influences later clinical determinations.",
+        "In the patient’s care timeline, a First Date of not specified is noted, reflecting an undocumented element that nevertheless guides future clinical judgments.",
+        "The patient’s care timeline reflects a First Date marked as not specified, indicating an undocumented record that still bears on subsequent clinical decisions.",
+        "An undocumented First Date recorded as not specified appears in the patient’s care timeline, thereby influencing later clinical choices.",
+        "While the First Date is listed as not specified within the patient’s care timeline, the lack of documentation still informs subsequent clinical decision processes.",
+        "The care timeline of the patient indicates a First Date of not specified, an omission that, despite being undocumented, affects downstream clinical decisions.",
+        "A First Date of not specified is shown in the patient’s care timeline, representing an undocumented entry that continues to shape later clinical determinations.",
+        "In the patient’s care timeline, the First Date is noted as not specified, and although undocumented, it exerts influence on subsequent clinical decisions.",
+        "The patient’s care timeline denotes a First Date of not specified, an undocumented data point that nonetheless steers future clinical decision‑making.",
+        "Even though the First Date is not specified in the patient’s care timeline, the undocumented entry still impacts the cascade of subsequent clinical decisions.",
+        "The care timeline for the patient marks the First Date as not specified, reflecting an undocumented element that continues to affect later clinical judgments.",
+        "A not specified First Date appears in the patient’s care timeline, an undocumented entry that nevertheless influences ensuing clinical decisions."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "pivotal": [
+          "pivotal"
+        ],
+        "hospital": [
+          "hospital",
+          "infirmary"
+        ],
+        "marking": [
+          "marking",
+          "mark",
+          "label",
+          "tag",
+          "note",
+          "grade"
+        ],
+        "moment": [
+          "moment",
+          "second",
+          "minute",
+          "instant"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "began": [
+          "began"
+        ],
+        "their": [
+          "their"
+        ],
+        "journey": [
+          "journey",
+          "travel"
+        ]
+      },
+      "field_data_types": {
+        "First Date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's Admission was marked as +, indicating they were admitted for inpatient care.",
+      "template_pattern": "The patient's Admission was marked as [ADMISSION], indicating they were admitted for inpatient care.",
+      "primary_data_fields": [
+        "Admission"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's Admission is shown as [ADMISSION], signifying that they entered inpatient care.",
+        "Admission was flagged with a [ADMISSION] for this patient, indicating an inpatient stay.",
+        "A [ADMISSION] appears in the Admission field, meaning the patient was admitted for inpatient care.",
+        "In the record, the patient's Admission carries a [ADMISSION], which reflects inpatient admission.",
+        "The Admission entry for the patient is marked [ADMISSION], denoting that they received inpatient care.",
+        "Marked with a [ADMISSION], the patient's Admission confirms an inpatient admission.",
+        "For this patient, Admission bears a [ADMISSION], indicating they were placed under inpatient care.",
+        "The system shows a [ADMISSION] in the Admission column, implying the patient was admitted as an inpatient.",
+        "A [ADMISSION] in Admission signals that the patient was admitted for inpatient care.",
+        "Admission displays a [ADMISSION] for the patient, which points to an inpatient admission.",
+        "The patient's record lists Admission as [ADMISSION], suggesting they are under inpatient care.",
+        "With Admission set to [ADMISSION], it is clear the patient was admitted for inpatient treatment.",
+        "Admission carries the value [ADMISSION], reflecting that the patient entered inpatient care.",
+        "The presence of a [ADMISSION] in Admission indicates the patient was admitted as an inpatient.",
+        "Seeing a [ADMISSION] in the Admission field tells us the patient was admitted for inpatient care."
+      ],
+      "counter_variations": [
+        "Because the patient’s Admission was recorded as not specified, the exact moment and character of the hospital entry remain indeterminate.",
+        "The Admission field for the patient is noted as not specified, thereby leaving the precise timing and nature of the admission undefined.",
+        "In this record, the patient’s Admission appears as not specified, which suggests that both the exact time and the type of hospital entry are unknown.",
+        "Not specified is the designation given to the patient’s Admission, implying that the specific date and manner of entry into the hospital cannot be ascertained.",
+        "Since the patient’s Admission is marked as not specified, clinicians lack information about the exact timing and the particular form of hospital entry.",
+        "The documentation lists the patient’s Admission as not specified, consequently rendering the precise moment and nature of the hospital entry ambiguous.",
+        "With the Admission recorded as not specified for this patient, the exact time frame and the modality of the hospital entry remain unresolved.",
+        "The patient’s Admission status is noted as not specified, which leaves the exact timing and the character of the hospital entry indeterminate.",
+        "Given that the patient’s Admission is entered as not specified, the specific timing and classification of the hospital entry are left undefined.",
+        "The record indicates the patient’s Admission as not specified, thereby obscuring the precise moment and the nature of the hospital entry.",
+        "Because the Admission entry for the patient is not specified, the exact chronology and the type of hospital entry cannot be determined.",
+        "The patient’s Admission has been recorded as not specified, meaning that both the exact time and the nature of the hospital entry are presently unknown.",
+        "When the patient’s Admission is flagged as not specified, it signals that the precise timing and the specific kind of hospital entry remain unclear.",
+        "The Admission field for this patient is labeled not specified, which implies that the exact timing and the nature of the hospital entry are not established.",
+        "Since the Admission for the patient is documented as not specified, the exact point in time and the manner of hospital entry are left unspecified."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "marked": [
+          "marked",
+          "notice",
+          "note",
+          "distinguish",
+          "differentiate",
+          "grade"
+        ],
+        "admitted": [
+          "admitted",
+          "accepted",
+          "acknowledged",
+          "allowed",
+          "admit"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "inpatient": [
+          "inpatient"
+        ],
+        "care": [
+          "care",
+          "attention",
+          "maintenance",
+          "upkeep",
+          "tending",
+          "aid"
+        ]
+      },
+      "field_data_types": {
+        "Admission": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient was given a diagnosis of RA susp., indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk.",
+      "template_pattern": "The patient was given a diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk.",
+      "primary_data_fields": [
+        "Diagnosis"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk was recorded for the patient.",
+        "The clinician entered a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk into the chart.",
+        "Given a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk, the patient’s condition was noted.",
+        "A Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk, has been assigned to the patient.",
+        "The patient’s medical record shows a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk.",
+        "With a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk, clinicians flagged an elevated risk.",
+        "Medical staff documented a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk for the patient.",
+        "A Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk, was given during the assessment.",
+        "The assessment resulted in a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk.",
+        "By assigning a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk, the doctor highlighted the concern.",
+        "A Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk appears in the report.",
+        "The health record lists a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk.",
+        "Provision of a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk suggests heightened vigilance.",
+        "In the report, a Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk is noted.",
+        "A Diagnosis of [DIAGNOSIS], indicating a potential rheumatoid arthritis suspicion affecting their thrombosis risk has been documented."
+      ],
+      "counter_variations": [
+        "The patient's Diagnosis is listed as not specified, which reveals that clinicians have yet to pinpoint a definitive condition for the treatment plan.",
+        "Recorded as not specified, the patient’s Diagnosis signals that a definitive condition has not been identified by clinicians for planning treatment.",
+        "In the record, the Diagnosis for the patient appears as not specified, indicating that clinicians have not determined a concrete condition for therapeutic planning.",
+        "Because the patient’s Diagnosis was entered as not specified, it reflects that clinicians have not established a definitive condition for the upcoming treatment plan.",
+        "The clinicians have marked the patient’s Diagnosis as not specified, thereby showing that a definitive condition for treatment planning remains undetermined.",
+        "Not specified is the status assigned to the patient’s Diagnosis, implying that clinicians have not yet ascertained a definitive condition for the treatment strategy.",
+        "The patient’s Diagnosis, captured as not specified, points to the fact that clinicians have not identified a definitive condition for the purpose of treatment planning.",
+        "Since the Diagnosis for the patient is recorded as not specified, it suggests that clinicians have not reached a definitive condition determination for treatment planning.",
+        "A not specified entry for the patient’s Diagnosis indicates that, to date, clinicians have not concluded a definitive condition required for treatment planning.",
+        "The medical record shows the patient’s Diagnosis as not specified, which denotes that clinicians have yet to determine a definitive condition for planning treatment.",
+        "Having logged the patient’s Diagnosis as not specified, the system reflects that clinicians have not ascertained a definitive condition for the treatment plan.",
+        "The patient’s Diagnosis was entered with the notation not specified, thereby indicating that clinicians have not finalized a definitive condition for treatment planning.",
+        "With the Diagnosis marked as not specified for the patient, clinicians convey that a definitive condition for treatment planning has not been established.",
+        "The entry for the patient’s Diagnosis reads not specified, signifying that clinicians have not yet identified a definitive condition to guide treatment planning.",
+        "Because the patient’s Diagnosis is documented as not specified, it reveals that clinicians have not determined a definitive condition for the purpose of treatment planning."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "risk": [
+          "risk",
+          "chance",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy"
+        ],
+        "affecting": [
+          "affecting",
+          "touching"
+        ],
+        "rheumatoid": [
+          "rheumatoid",
+          "rheumatic",
+          "arthritic"
+        ],
+        "arthritis": [
+          "arthritis"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "suspicion": [
+          "suspicion",
+          "misgiving",
+          "distrust",
+          "mistrust",
+          "hunch"
+        ],
+        "potential": [
+          "potential",
+          "possible",
+          "potentiality",
+          "potency"
+        ]
+      },
+      "field_data_types": {
+        "Diagnosis": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

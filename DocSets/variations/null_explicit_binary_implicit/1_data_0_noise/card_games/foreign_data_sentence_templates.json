@@ -1,0 +1,525 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "86337380af0e475c": "id",
+    "6e5043b72dbc4a64": "flavorText",
+    "17fb9414f82141cf": "language",
+    "8e1cd183bd6745f7": "multiverseid",
+    "413e5de402784b39": "name",
+    "eb2d474f1b754db0": "text",
+    "e481407f218a4260": "type",
+    "2bdde7ad793c4b74": "uuid"
+  },
+  "templates": [
+    {
+      "original": "The card's flavorText reads, „Es ist der Wille aller, und meine Hand, die ihn ausführt.\", adding depth to the game's lore.",
+      "template_pattern": "The card's flavorText reads, [FLAVORTEXT], adding depth to the game's lore.",
+      "primary_data_fields": [
+        "flavorText"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the card's flavorText, [FLAVORTEXT], adding depth to the game's lore.",
+        "The flavorText on the card reads, [FLAVORTEXT], adding depth to the game's lore.",
+        "In the card, flavorText declares, [FLAVORTEXT], adding depth to the game's lore.",
+        "Read in the card's flavorText: [FLAVORTEXT], adding depth to the game's lore.",
+        "The card’s flavorText states, [FLAVORTEXT], adding depth to the game's lore.",
+        "Within the card, the flavorText reads, [FLAVORTEXT], adding depth to the game's lore.",
+        "FlavorText on the card reports, [FLAVORTEXT], adding depth to the game's lore.",
+        "On the card, flavorText is written as, [FLAVORTEXT], adding depth to the game's lore.",
+        "The card’s flavorText contains the line, [FLAVORTEXT], adding depth to the game's lore.",
+        "As shown in the flavorText of the card, [FLAVORTEXT], adding depth to the game's lore.",
+        "From the card’s flavorText we learn, [FLAVORTEXT], adding depth to the game's lore.",
+        "The card’s flavorText conveys, [FLAVORTEXT], adding depth to the game's lore.",
+        "In the flavorText of the card, the phrase reads, [FLAVORTEXT], adding depth to the game's lore.",
+        "The flavorText attached to the card says, [FLAVORTEXT], adding depth to the game's lore.",
+        "According to flavorText on the card, [FLAVORTEXT], adding depth to the game's lore."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "depth": [
+          "depth",
+          "profoundness",
+          "deepness",
+          "profundity"
+        ],
+        "game": [
+          "game"
+        ],
+        "adding": [
+          "adding"
+        ],
+        "reads": [
+          "reads"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "lore": [
+          "lore"
+        ]
+      },
+      "field_data_types": {
+        "flavorText": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card was printed in German, adding a unique touch to its international collection appeal.",
+      "template_pattern": "The trading card was printed in [LANGUAGE], adding a unique touch to its international collection appeal.",
+      "primary_data_fields": [
+        "language"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Printed in [LANGUAGE], the trading card contributes a distinctive flair to its worldwide collection appeal.",
+        "The trading card, produced in [LANGUAGE], adds a singular charm that enhances its global collection attractiveness.",
+        "By being printed in [LANGUAGE], the trading card injects an exclusive element into its international collector appeal.",
+        "A [LANGUAGE]-language printing gives the trading card a unique edge, boosting its appeal across international collections.",
+        "Because the trading card was issued in [LANGUAGE], it gains a special touch that heightens its worldwide collection draw.",
+        "The trading card’s [LANGUAGE] print run introduces a one‑of‑a‑kind nuance, increasing its allure for international collectors.",
+        "With the card printed in [LANGUAGE], a unique characteristic is added, enriching its appeal within the global collection market.",
+        "The [LANGUAGE] version of the trading card supplies a distinctive detail that amplifies its international collection desirability.",
+        "Having been printed in [LANGUAGE], the trading card offers a unique aspect that strengthens its appeal to worldwide collectors.",
+        "The trading card, in [LANGUAGE], brings a singular touch that elevates its attractiveness on the international collector’s scene.",
+        "Through a [LANGUAGE] printing, the trading card gains a unique feature, enhancing its pull in the global collection arena.",
+        "Because it is printed in [LANGUAGE], the trading card enjoys a distinctive flair that boosts its international collection appeal.",
+        "The [LANGUAGE]-language edition of the trading card adds a unique element, making it more appealing to collectors worldwide.",
+        "By issuing the card in [LANGUAGE], a unique nuance is introduced, augmenting its allure across international collections.",
+        "The trading card’s [LANGUAGE] print adds a singular touch, thereby increasing its appeal within the worldwide collector community."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "printed": [
+          "printed"
+        ],
+        "international": [
+          "international"
+        ],
+        "touch": [
+          "touch",
+          "reach",
+          "contact"
+        ],
+        "adding": [
+          "adding"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "appeal": [
+          "appeal",
+          "attract",
+          "charm",
+          "solicitation"
+        ],
+        "card": [
+          "card"
+        ]
+      },
+      "field_data_types": {
+        "language": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card with multiverseid 148411 is sought after by collectors for its unique international appeal.",
+      "template_pattern": "The trading card with multiverseid [MULTIVERSEID] is sought after by collectors for its unique international appeal.",
+      "primary_data_fields": [
+        "multiverseid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors covet the trading card bearing multiverseid [MULTIVERSEID] for its distinctive global allure.",
+        "The trading card identified by multiverseid [MULTIVERSEID] is highly prized by collectors due to its unique international appeal.",
+        "With multiverseid [MULTIVERSEID], this trading card draws collector interest because of its singular worldwide charm.",
+        "Owing to its exclusive international draw, collectors seek out the trading card that carries multiverseid [MULTIVERSEID].",
+        "The card, featuring multiverseid [MULTIVERSEID], is pursued by collectors for its one‑of‑a‑kind global appeal.",
+        "Because of its unique cross‑border attraction, the trading card marked with multiverseid [MULTIVERSEID] is a favorite among collectors.",
+        "Collectors actively hunt the trading card with multiverseid [MULTIVERSEID], attracted by its exceptional international appeal.",
+        "The trading card, which holds multiverseid [MULTIVERSEID], is sought after by collectors for its distinctive worldwide appeal.",
+        "Due to its singular international allure, collectors are drawn to the trading card bearing multiverseid [MULTIVERSEID].",
+        "Multiverseid [MULTIVERSEID] tags a trading card that collectors desire for its unique global allure.",
+        "The trading card labeled multiverseid [MULTIVERSEID] enjoys high demand from collectors thanks to its exclusive international appeal.",
+        "As a result of its unique worldwide magnetism, the trading card with multiverseid [MULTIVERSEID] is coveted by collectors.",
+        "Collectors prize the trading card featuring multiverseid [MULTIVERSEID] because of its distinctive international charm.",
+        "The trading card carrying multiverseid [MULTIVERSEID] is in demand among collectors for its unparalleled global appeal.",
+        "Thanks to its one‑of‑a‑kind international allure, the trading card identified by multiverseid [MULTIVERSEID] is pursued by collectors."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "collectors": [
+          "collectors"
+        ],
+        "international": [
+          "international"
+        ],
+        "after": [
+          "after"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "appeal": [
+          "appeal",
+          "solicitation",
+          "charm",
+          "entreaty"
+        ],
+        "card": [
+          "card"
+        ],
+        "sought": [
+          "sought"
+        ]
+      },
+      "field_data_types": {
+        "multiverseid": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card is known as Ausgewählter der Ahnfrau in its international version, highlighting its unique identity.",
+      "template_pattern": "The trading card is known as [NAME] in its international version, highlighting its unique identity.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the international edition, the trading card bears the name [NAME], emphasizing its unique identity.",
+        "[NAME] is the designation given to the trading card in its global version, underscoring its unique identity.",
+        "The trading card carries the title [NAME] in the worldwide release, drawing attention to its unique identity.",
+        "Highlighting its unique identity, the international version labels the trading card as [NAME].",
+        "Known internationally as [NAME], the trading card showcases its unique identity.",
+        "The global edition refers to the trading card by the name [NAME], thereby accentuating its unique identity.",
+        "[NAME], the name assigned to the trading card in its international version, points to its unique identity.",
+        "By naming the trading card [NAME] in the international version, its unique identity is highlighted.",
+        "The trading card, called [NAME] in the worldwide version, underscores its unique identity.",
+        "In its international format, the trading card is identified as [NAME], which highlights its unique identity.",
+        "The international version designates the trading card as [NAME], emphasizing its unique identity.",
+        "With the label [NAME] in the global edition, the trading card's unique identity is brought to the fore.",
+        "The trading card receives the name [NAME] in its international version, showcasing its unique identity.",
+        "As [NAME] in the international release, the trading card exemplifies its unique identity.",
+        "The worldwide version names the trading card [NAME], thereby highlighting its unique identity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identity": [
+          "identity"
+        ],
+        "version": [
+          "version",
+          "variation",
+          "adaptation",
+          "variant",
+          "edition"
+        ],
+        "international": [
+          "international"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "known": [
+          "known"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card's ability, Erstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.), ensures a strategic advantage in combat.",
+      "template_pattern": "The card's ability, [TEXT], ensures a strategic advantage in combat.",
+      "primary_data_fields": [
+        "text"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the card possesses the ability [TEXT], it gains a strategic advantage in combat.",
+        "A strategic advantage in combat is provided by the card's ability [TEXT].",
+        "With its ability [TEXT], the card secures a strategic advantage during combat.",
+        "The presence of the ability [TEXT] on the card ensures a strategic advantage in combat.",
+        "By employing the ability [TEXT], the card obtains a strategic advantage in combat.",
+        "In combat, the card's ability [TEXT] delivers a strategic advantage.",
+        "Thanks to the ability [TEXT], the card enjoys a strategic advantage in combat.",
+        "The card’s strategic advantage in combat stems from its ability [TEXT].",
+        "Through the ability [TEXT], the card is granted a strategic advantage in combat.",
+        "A strategic advantage in combat is ensured by the card’s ability [TEXT].",
+        "Because it features the ability [TEXT], the card achieves a strategic advantage in combat.",
+        "The card, equipped with the ability [TEXT], gains a strategic advantage in combat.",
+        "Utilizing its ability [TEXT], the card secures a strategic advantage in combat.",
+        "The strategic advantage in combat conferred by the card’s ability [TEXT] is notable.",
+        "When the card's ability [TEXT] is active, it ensures a strategic advantage in combat."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ability": [
+          "ability",
+          "power"
+        ],
+        "ensures": [
+          "ensures",
+          "assures"
+        ],
+        "combat": [
+          "combat",
+          "battle",
+          "fight"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "advantage": [
+          "advantage",
+          "vantage"
+        ],
+        "strategic": [
+          "strategic",
+          "strategical"
+        ]
+      },
+      "field_data_types": {
+        "text": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The foreign type of the card is Kreatur — Mensch, Kleriker, which influences its strategic role in the game.",
+      "template_pattern": "The foreign type of the card is [TYPE], which influences its strategic role in the game.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card's foreign type is [TYPE], and this shapes its strategic role in the game.",
+        "[TYPE] is the foreign type of the card, influencing how it functions strategically within the game.",
+        "Because the foreign type of the card is [TYPE], its strategic role in the game is affected.",
+        "The strategic role in the game is impacted by the card's foreign type, which is [TYPE].",
+        "With a foreign type of [TYPE], the card sees its strategic role in the game altered.",
+        "The foreign type of the card—[TYPE]—determines its strategic role within the game.",
+        "As the card’s foreign type is [TYPE], it consequently influences its strategic role in the game.",
+        "Its strategic role in the game is governed by the foreign type, identified as [TYPE].",
+        "The card, whose foreign type is [TYPE], experiences a strategic role impact in the game.",
+        "By being assigned the foreign type [TYPE], the card’s strategic role in the game is modified.",
+        "The foreign type, [TYPE], assigned to the card, shapes its strategic role in the game.",
+        "Since the card’s foreign type equals [TYPE], the strategic role it plays in the game is influenced.",
+        "The strategic role in the game is influenced by the card’s foreign type, namely [TYPE].",
+        "Having the foreign type [TYPE], the card’s strategic role in the game is affected.",
+        "The card’s strategic role in the game is affected because its foreign type is [TYPE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "game": [
+          "game"
+        ],
+        "influences": [
+          "influences"
+        ],
+        "which": [
+          "which"
+        ],
+        "foreign": [
+          "foreign",
+          "strange",
+          "alien"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part",
+          "office",
+          "character"
+        ],
+        "strategic": [
+          "strategic"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card's international version is identified by the uuid 5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c.",
+      "template_pattern": "The trading card's international version is identified by the uuid [UUID].",
+      "primary_data_fields": [
+        "uuid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The international version of the trading card is designated by uuid [UUID].",
+        "Identified through uuid [UUID], the trading card’s international edition can be recognized.",
+        "The uuid [UUID] serves as the identifier for the trading card’s global version.",
+        "For the trading card’s international release, uuid [UUID] is used as its reference code.",
+        "Uuid [UUID] uniquely marks the international edition of the trading card.",
+        "The trading card’s global version is tagged with uuid [UUID].",
+        "By means of uuid [UUID], the international trading card is identified.",
+        "The identifier uuid [UUID] applies to the trading card’s international variant.",
+        "In the international release, the trading card carries the uuid [UUID].",
+        "Uuid [UUID] is assigned to the trading card’s overseas edition.",
+        "The trading card’s worldwide version is linked to uuid [UUID].",
+        "Through uuid [UUID], one can pinpoint the international trading card.",
+        "The global edition of the trading card bears uuid [UUID].",
+        "Uuid [UUID] functions as the reference for the trading card’s international version.",
+        "Consequently, the trading card’s international version is recognized by uuid [UUID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "version": [
+          "version",
+          "edition",
+          "variant",
+          "variation"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "international": [
+          "international"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "card": [
+          "card",
+          "notice",
+          "bill",
+          "scorecard",
+          "menu",
+          "posting"
+        ]
+      },
+      "field_data_types": {
+        "uuid": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The identifier assigned to this entry, denoted as id, is 1, thereby establishing its unique reference within the professional data report.",
+      "template_pattern": "The report highlights each entry’s unique identifier, with the ID displayed as [ID] for quick reference and verification.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each entry’s unique identifier is highlighted in the report, and the ID appears as [ID] to enable swift reference and verification.",
+        "The report spotlights the unique identifier of every entry, showing the ID as [ID] for rapid reference and verification.",
+        "In the report, the unique identifier for each entry is emphasized, with the ID presented as [ID] for quick reference and verification.",
+        "Unique identifiers for all entries are underscored in the report, where the ID is displayed as [ID] to facilitate fast reference and verification.",
+        "The report draws attention to each entry’s unique identifier, listing the ID as [ID] for prompt reference and verification.",
+        "By highlighting each entry’s unique identifier, the report displays the ID as [ID] for immediate reference and verification.",
+        "Each entry’s unique identifier is brought to the fore in the report, and the ID is shown as [ID] for quick reference and verification.",
+        "The report makes clear the unique identifier of every entry, with the ID shown as [ID] to aid quick reference and verification.",
+        "Highlighting every entry’s unique identifier, the report presents the ID as [ID] for swift reference and verification.",
+        "In the report, the ID is displayed as [ID] alongside each entry’s unique identifier, allowing quick reference and verification.",
+        "The report emphasizes each entry’s unique identifier, providing the ID as [ID] for fast reference and verification.",
+        "Each entry’s unique identifier receives emphasis in the report, where the ID appears as [ID] for quick reference and verification.",
+        "With the report underlining each entry’s unique identifier, the ID is rendered as [ID] for prompt reference and verification.",
+        "The report highlights the unique identifier for each entry, and the ID is presented as [ID] to support quick reference and verification.",
+        "By underscoring each entry’s unique identifier, the report shows the ID as [ID] for rapid reference and verification."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study",
+          "composition"
+        ],
+        "verification": [
+          "verification",
+          "confirmation",
+          "substantiation",
+          "check"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "mention",
+          "source",
+          "quotation",
+          "credit"
+        ],
+        "displayed": [
+          "displayed",
+          "exposed"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unparalleled",
+          "unequaled",
+          "singular"
+        ],
+        "quick": [
+          "quick",
+          "speedy",
+          "spry",
+          "prompt",
+          "fast",
+          "agile"
+        ],
+        "entry": [
+          "entry",
+          "entryway",
+          "entrance",
+          "entranceway",
+          "ingress",
+          "debut"
+        ],
+        "highlights": [
+          "highlights"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

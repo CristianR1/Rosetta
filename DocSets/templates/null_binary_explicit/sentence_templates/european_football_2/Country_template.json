@@ -1,0 +1,22 @@
+{
+  "database": "european_football_2",
+  "table": "Country",
+  "entry_index": 0,
+  "original_data": {
+    "id": "1",
+    "name": "Belgium"
+  },
+  "generated_sentences": [
+    "The country with the unique identifier 1 has a strong tradition in football, often leading its national team to impressive performances on the international stage. (Hash: 3c72ff596fa94bfe)",
+    "Belgium has consistently showcased strong performances in European football, making it a formidable national team within the continent. (Hash: f24aee0f177a4129)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "f24aee0f177a4129": "name",
+    "3c72ff596fa94bfe": "id"
+  },
+  "timestamp": "2026-03-31 16:29:56"
+}

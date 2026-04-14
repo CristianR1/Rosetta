@@ -1,0 +1,111 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "ac8b387040644d60": "hero_id",
+    "9a72284813f54b55": "power_id"
+  },
+  "templates": [
+    {
+      "original": "The superhero with the unique identifier 1 is known for their extraordinary ability to manipulate time.",
+      "template_pattern": "The superhero with the unique identifier [HERO_ID] is known for their extraordinary ability to manipulate time.",
+      "primary_data_fields": [
+        "hero_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero bearing hero id [HERO_ID] is celebrated for an extraordinary capacity to bend time.",
+        "With hero id [HERO_ID], the superhero is recognized for their remarkable talent for time manipulation.",
+        "Hero id [HERO_ID] designates a superhero famed for an exceptional skill in manipulating time.",
+        "Known for an extraordinary ability to control time, the superhero carries hero id [HERO_ID].",
+        "The superhero assigned hero id [HERO_ID] possesses a remarkable power to alter the flow of time.",
+        "An extraordinary talent for time manipulation characterizes the superhero identified by hero id [HERO_ID].",
+        "Possessing hero id [HERO_ID], the superhero is noted for a superb ability to manipulate time.",
+        "The superhero, whose hero id is [HERO_ID], is distinguished by an exceptional capability to bend time.",
+        "Hero id [HERO_ID] marks a superhero whose extraordinary skill lies in manipulating time.",
+        "Recognized for a phenomenal knack for time control, the superhero holds hero id [HERO_ID].",
+        "The superhero with hero id [HERO_ID] is famed for an extraordinary power to manipulate time.",
+        "Extraordinary time‑manipulation ability defines the superhero tagged with hero id [HERO_ID].",
+        "Bearing the hero id [HERO_ID], this superhero is known for a superior talent in altering time.",
+        "The superhero designated hero id [HERO_ID] enjoys a remarkable ability to manipulate time.",
+        "With an unparalleled skill in time manipulation, the superhero carries hero id [HERO_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ],
+        "ability": [
+          "ability",
+          "power"
+        ],
+        "extraordinary": [
+          "extraordinary"
+        ],
+        "their": [
+          "their"
+        ],
+        "known": [
+          "known"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "manipulate": [
+          "manipulate",
+          "rig",
+          "falsify"
+        ]
+      },
+      "field_data_types": {
+        "hero_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Superhero Blaze's power_id is 1.",
+      "template_pattern": "Superhero Blaze's power_id is [POWER_ID].",
+      "primary_data_fields": [
+        "power_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Superhero Blaze's power id equals [POWER_ID].",
+        "The power id assigned to Superhero Blaze is [POWER_ID].",
+        "For Superhero Blaze, the power id is recorded as [POWER_ID].",
+        "[POWER_ID] is the power id that belongs to Superhero Blaze.",
+        "Superhero Blaze has a power id of [POWER_ID].",
+        "According to the report, Superhero Blaze's power id is [POWER_ID].",
+        "In the data set, the power id for Superhero Blaze reads [POWER_ID].",
+        "Superhero Blaze's power id has been set to [POWER_ID].",
+        "It is noted that Superhero Blaze's power id is [POWER_ID].",
+        "The value of the power id for Superhero Blaze is [POWER_ID].",
+        "Superhero Blaze's power id: [POWER_ID].",
+        "As indicated, the power id of Superhero Blaze equals [POWER_ID].",
+        "Superhero Blaze carries a power id of [POWER_ID].",
+        "The assigned power id for Superhero Blaze stands at [POWER_ID].",
+        "In the professional report, Superhero Blaze's power id appears as [POWER_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "blaze": [
+          "blaze"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "power_id": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

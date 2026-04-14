@@ -1,0 +1,337 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "bcf97986589e48e4": "constructorId",
+    "726a44f7d87646f9": "constructorRef",
+    "97bb786e75734f83": "name",
+    "f23625874af04d5a": "nationality",
+    "400cd8757d374dc7": "url"
+  },
+  "templates": [
+    {
+      "original": "In Formula 1 racing, each team is uniquely identified by a number, such as the number 1.",
+      "template_pattern": "In Formula [CONSTRUCTORID] racing, each team is uniquely identified by a number, such as the number [CONSTRUCTORID].",
+      "primary_data_fields": [
+        "constructorId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within Formula [CONSTRUCTORID] racing, a unique number—like the number 1—identifies each team.",
+        "Each team in Formula [CONSTRUCTORID] is distinguished by its own number, for example the number [CONSTRUCTORID].",
+        "The number [CONSTRUCTORID], among other numbers, serves as the unique identifier for every Formula [CONSTRUCTORID] team.",
+        "In the world of Formula [CONSTRUCTORID], teams receive a distinct number, such as the number [CONSTRUCTORID].",
+        "A team’s exclusive identifier in Formula [CONSTRUCTORID] racing is a number, exemplified by the number [CONSTRUCTORID].",
+        "Formula [CONSTRUCTORID] racing assigns each team a singular number; the number [CONSTRUCTORID] is one such identifier.",
+        "Unique identification for every Formula [CONSTRUCTORID] team comes via a number, for instance the number [CONSTRUCTORID].",
+        "Every Formula [CONSTRUCTORID] team is marked by a specific number, with the number [CONSTRUCTORID] being a typical example.",
+        "The number [CONSTRUCTORID], like other numbers, uniquely tags each team competing in Formula [CONSTRUCTORID].",
+        "In Formula [CONSTRUCTORID], each competing team is labeled with a unique number, such as the number [CONSTRUCTORID].",
+        "A distinctive number—e.g., the number 1—identifies every team in Formula [CONSTRUCTORID] racing.",
+        "Teams in Formula [CONSTRUCTORID] are each assigned a unique number, the number [CONSTRUCTORID] being one example.",
+        "Within the sport of Formula [CONSTRUCTORID], the number [CONSTRUCTORID] functions as a unique identifier for a team.",
+        "Each Formula [CONSTRUCTORID] team carries a sole number, illustrated by the number [CONSTRUCTORID].",
+        "The unique number for a Formula [CONSTRUCTORID] team, exemplified by the number [CONSTRUCTORID], differentiates it from others."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "such": [
+          "such"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "racing": [
+          "racing"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "identified": [
+          "identified"
+        ]
+      },
+      "field_data_types": {
+        "constructorId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The constructorRef for the renowned Formula 1 team is mclaren, highlighting their significant presence on the racing circuit.",
+      "template_pattern": "The constructorRef for the renowned Formula 1 team is [CONSTRUCTORREF], highlighting their significant presence on the racing circuit.",
+      "primary_data_fields": [
+        "constructorRef"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For the renowned Formula 1 team, the constructorRef is [CONSTRUCTORREF], emphasizing their significant presence on the racing circuit.",
+        "The constructorRef assigned to the renowned Formula 1 team, [CONSTRUCTORREF], serves to highlight their significant presence on the racing circuit.",
+        "A significant presence on the racing circuit is highlighted by the constructorRef [CONSTRUCTORREF] for the renowned Formula 1 team.",
+        "The renowned Formula 1 team’s constructorRef, [CONSTRUCTORREF], underscores their significant presence on the racing circuit.",
+        "By noting that the constructorRef for the renowned Formula 1 team is [CONSTRUCTORREF], one can see their significant presence on the racing circuit.",
+        "[CONSTRUCTORREF], the constructorRef of the renowned Formula 1 team, illustrates their significant presence on the racing circuit.",
+        "The racing circuit’s notable participants include the renowned Formula 1 team, whose constructorRef is [CONSTRUCTORREF], reflecting a significant presence.",
+        "With the constructorRef set to [CONSTRUCTORREF], the renowned Formula 1 team demonstrates a significant presence on the racing circuit.",
+        "A significant presence on the racing circuit is evident through the constructorRef [CONSTRUCTORREF] belonging to the renowned Formula 1 team.",
+        "The renowned Formula 1 team, identified by the constructorRef [CONSTRUCTORREF], showcases a significant presence on the racing circuit.",
+        "Through the constructorRef [CONSTRUCTORREF], the renowned Formula 1 team is shown to have a significant presence on the racing circuit.",
+        "The constructorRef [CONSTRUCTORREF], linked to the renowned Formula 1 team, points to their significant presence on the racing circuit.",
+        "Highlighting their significant presence on the racing circuit, the constructorRef for the renowned Formula 1 team reads [CONSTRUCTORREF].",
+        "The renowned Formula 1 team’s presence on the racing circuit is significant, as indicated by the constructorRef [CONSTRUCTORREF].",
+        "Given that the constructorRef for the renowned Formula 1 team is [CONSTRUCTORREF], their significant presence on the racing circuit is apparent."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression",
+          "rule"
+        ],
+        "presence": [
+          "presence",
+          "bearing"
+        ],
+        "circuit": [
+          "circuit"
+        ],
+        "racing": [
+          "racing",
+          "race",
+          "speed",
+          "rush"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ],
+        "renowned": [
+          "renowned",
+          "famed",
+          "celebrated",
+          "notable",
+          "illustrious",
+          "noted"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {
+        "constructorRef": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The renowned Formula 1 team responsible for designing and building racing cars is officially known as McLaren.",
+      "template_pattern": "The renowned Formula 1 team responsible for designing and building racing cars is officially known as [NAME].",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The celebrated Formula 1 team that designs and constructs racing cars is officially called [NAME].",
+        "Officially named [NAME], the famed Formula 1 outfit designs and builds racing cars.",
+        "[NAME] is the official name of the distinguished Formula 1 squad responsible for the design and construction of racing cars.",
+        "Recognized for creating and assembling racing cars, the renowned Formula 1 team bears the official name [NAME].",
+        "The distinguished Formula 1 team, known for designing and building racing cars, is formally identified as [NAME].",
+        "As the officially designated [NAME], the acclaimed Formula 1 team handles the design and fabrication of racing cars.",
+        "Design and construction of racing cars are carried out by the eminent Formula 1 team officially titled [NAME].",
+        "The prominent Formula 1 team, tasked with designing and building racing cars, carries the official name [NAME].",
+        "Officially, the name of the celebrated Formula 1 team that fashions and assembles racing cars is [NAME].",
+        "The famed Formula 1 crew, responsible for the design and build of racing cars, is formally called [NAME].",
+        "[NAME], the official designation, belongs to the renowned Formula 1 team that designs and builds racing cars.",
+        "The renowned Formula 1 team that designs and builds racing cars is formally known as [NAME].",
+        "In the world of racing, the team acclaimed for designing and constructing cars is officially named [NAME].",
+        "The official name of the acclaimed Formula 1 team that creates and assembles racing cars is [NAME].",
+        "Known officially as [NAME], the celebrated Formula 1 team designs and builds racing cars."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "cars": [
+          "cars"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern"
+        ],
+        "responsible": [
+          "responsible"
+        ],
+        "designing": [
+          "designing"
+        ],
+        "building": [
+          "building",
+          "edifice",
+          "construction"
+        ],
+        "racing": [
+          "racing"
+        ],
+        "team": [
+          "team"
+        ],
+        "known": [
+          "known"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 racing team proudly represents the British nationality, showcasing the engineering prowess of its country of origin.",
+      "template_pattern": "The Formula 1 racing team proudly represents the [NATIONALITY] nationality, showcasing the engineering prowess of its country of origin.",
+      "primary_data_fields": [
+        "nationality"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Formula 1 racing team proudly represents the [NATIONALITY] nationality, showcasing the engineering prowess of its country of origin.",
+        "Proudly, the Formula 1 racing team represents the [NATIONALITY] nationality and displays the engineering prowess of its country of origin.",
+        "Representing the [NATIONALITY] nationality with pride, the Formula 1 racing team highlights the engineering prowess of its country of origin.",
+        "The engineering prowess of its country of origin is showcased by the Formula 1 racing team, which proudly represents the [NATIONALITY] nationality.",
+        "With pride, the Formula 1 racing team embodies the [NATIONALITY] nationality while illustrating the engineering prowess of its country of origin.",
+        "The Formula 1 racing team, bearing the [NATIONALITY] nationality, proudly demonstrates the engineering prowess of its country of origin.",
+        "As a symbol of the [NATIONALITY] nationality, the Formula 1 racing team proudly exhibits the engineering prowess of its country of origin.",
+        "The engineering prowess of its country of origin is highlighted by the Formula 1 racing team that proudly carries the [NATIONALITY] nationality.",
+        "By proudly representing the [NATIONALITY] nationality, the Formula 1 racing team showcases the engineering prowess of its country of origin.",
+        "The Formula 1 racing team, representing the [NATIONALITY] nationality, proudly presents the engineering prowess of its country of origin.",
+        "Showcasing the engineering prowess of its country of origin, the Formula 1 racing team proudly stands for the [NATIONALITY] nationality.",
+        "The [NATIONALITY] nationality is proudly represented by the Formula 1 racing team, which showcases the engineering prowess of its country of origin.",
+        "Through its proud representation of the [NATIONALITY] nationality, the Formula 1 racing team displays the engineering prowess of its country of origin.",
+        "The Formula 1 racing team, in its proud representation of the [NATIONALITY] nationality, highlights the engineering prowess of its country of origin.",
+        "Proud representation of the [NATIONALITY] nationality comes from the Formula 1 racing team, which showcases the engineering prowess of its country of origin."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "prowess": [
+          "prowess",
+          "artistry"
+        ],
+        "origin": [
+          "origin",
+          "origination",
+          "root",
+          "lineage",
+          "ancestry",
+          "parentage"
+        ],
+        "country": [
+          "country",
+          "state",
+          "nation"
+        ],
+        "engineering": [
+          "engineering"
+        ],
+        "proudly": [
+          "proudly"
+        ],
+        "represents": [
+          "represents",
+          "symbolise",
+          "symbolize",
+          "exemplify",
+          "present",
+          "map"
+        ],
+        "showcasing": [
+          "showcasing"
+        ]
+      },
+      "field_data_types": {
+        "nationality": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The report includes the URL for the resource at [URL], allowing stakeholders easy access to the referenced online content.",
+      "template_pattern": "The report includes the URL for the resource at [URL], allowing stakeholders easy access to the referenced online content.",
+      "primary_data_fields": [
+        "url"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The report provides the URL for the resource at [URL], giving stakeholders straightforward access to the cited online material.",
+        "Included in the report is the URL for the resource at [URL]; this enables stakeholders to readily reach the referenced web content.",
+        "Stakeholders can conveniently access the referenced online content because the report lists the URL for the resource at [URL].",
+        "By listing the URL for the resource at [URL], the report grants stakeholders easy entry to the mentioned online information.",
+        "The URL for the resource at [URL] is incorporated within the report, allowing stakeholders simple access to the cited digital content.",
+        "Within the report, the URL for the resource at [URL] appears, permitting stakeholders effortless navigation to the referenced online material.",
+        "The report's inclusion of the URL for the resource at [URL] facilitates stakeholders' quick access to the online content referenced.",
+        "Because the report contains the URL for the resource at [URL], stakeholders enjoy immediate access to the cited web information.",
+        "The resource's URL at [URL] is embedded in the report, thereby providing stakeholders with easy entry to the online content mentioned.",
+        "Stakeholders are given easy access to the referenced online content by the report's provision of the URL for the resource at [URL].",
+        "The report embeds the URL for the resource at [URL]; as a result, stakeholders can access the referenced online material with ease.",
+        "With the URL for the resource at [URL] included, the report ensures that stakeholders can readily reach the cited online content.",
+        "The inclusion of the URL for the resource at [URL] within the report allows stakeholders straightforward access to the referenced digital content.",
+        "By featuring the URL for the resource at [URL], the report makes it simple for stakeholders to obtain the referenced online information.",
+        "The report lists the URL for the resource at [URL], thereby granting stakeholders uncomplicated access to the online content cited."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "includes": [
+          "includes"
+        ],
+        "easy": [
+          "easy",
+          "comfortable",
+          "light"
+        ],
+        "allowing": [
+          "allowing"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study"
+        ],
+        "content": [
+          "content",
+          "subject",
+          "message",
+          "substance"
+        ],
+        "access": [
+          "access",
+          "admittance",
+          "admission"
+        ],
+        "online": [
+          "online"
+        ],
+        "resource": [
+          "resource"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "d6032437c3714b19": "Id",
+    "0b7f7f4e73fd4d38": "UserId",
+    "692d9d2971ea4ffd": "Name",
+    "7c1ab17890964dc4": "Date"
+  },
+  "templates": [
+    {
+      "original": "The badge displayed on the user's profile has Id 1.",
+      "template_pattern": "The badge displayed on the user's profile has Id [ID].",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The user's profile shows a badge with Id [ID].",
+        "Id [ID] is assigned to the badge displayed on the user's profile.",
+        "On the user's profile, the badge appears bearing Id [ID].",
+        "A badge marked Id [ID] is visible on the user's profile.",
+        "The badge that appears on the user's profile carries Id [ID].",
+        "Displayed on the user's profile, the badge has Id [ID].",
+        "The user's profile features a badge identified by Id [ID].",
+        "Id [ID] is the identifier of the badge shown on the user's profile.",
+        "The badge, shown on the user's profile, possesses Id [ID].",
+        "In the user's profile, the badge is labeled Id [ID].",
+        "The user's profile includes a badge with Id [ID].",
+        "A badge with Id [ID] is presented on the user's profile.",
+        "On the profile of the user, the badge bears Id [ID].",
+        "The badge on the user's profile is assigned Id [ID].",
+        "Id [ID] designates the badge displayed on the user's profile."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "user": [
+          "user"
+        ],
+        "displayed": [
+          "displayed"
+        ],
+        "badge": [
+          "badge"
+        ],
+        "profile": [
+          "profile",
+          "overview",
+          "summary",
+          "outline",
+          "description",
+          "specification"
+        ]
+      },
+      "field_data_types": {
+        "Id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "UserId 5 recently earned a new badge for contributing insightful programming solutions to the community platform.",
+      "template_pattern": "UserId [USERID] recently earned a new badge for contributing insightful programming solutions to the community platform.",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "UserId [USERID] has just been awarded a new badge for offering insightful programming solutions on the community platform.",
+        "For contributing insightful programming solutions to the community platform, UserId [USERID] recently earned a new badge.",
+        "A new badge was granted to UserId [USERID] after they supplied insightful programming solutions to the community platform.",
+        "Having provided insightful programming solutions to the community platform, UserId [USERID] earned a new badge recently.",
+        "UserId [USERID], recognized for insightful programming solutions on the community platform, received a new badge not long ago.",
+        "Thanks to insightful programming solutions contributed to the community platform, UserId [USERID] earned a new badge lately.",
+        "A new badge was earned by UserId [USERID] for their recent insightful programming solutions to the community platform.",
+        "Recent contributions of insightful programming solutions to the community platform earned UserId [USERID] a new badge.",
+        "UserId [USERID] secured a new badge after delivering insightful programming solutions on the community platform.",
+        "On the community platform, UserId [USERID]'s insightful programming solutions led to the recent acquisition of a new badge.",
+        "The community platform awarded a new badge to UserId [USERID] for their insightful programming solutions, earned recently.",
+        "By contributing insightful programming solutions to the community platform, UserId [USERID] has recently obtained a new badge.",
+        "UserId [USERID]'s recent insightful programming solutions to the community platform resulted in a new badge.",
+        "A new badge was recently bestowed upon UserId [USERID] for their insightful programming solutions to the community platform.",
+        "Because of insightful programming solutions supplied to the community platform, UserId [USERID] earned a new badge recently."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recently": [
+          "recently",
+          "lately"
+        ],
+        "insightful": [
+          "insightful"
+        ],
+        "earned": [
+          "earned",
+          "garner"
+        ],
+        "contributing": [
+          "contributing",
+          "contributory",
+          "contributive"
+        ],
+        "community": [
+          "community"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "solutions": [
+          "solutions"
+        ],
+        "programming": [
+          "programming"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Earning the Teacher badge on the platform was a significant milestone, recognizing her dedication to sharing knowledge with others.",
+      "template_pattern": "Earning the [NAME] badge on the platform was a significant milestone, recognizing her dedication to sharing knowledge with others.",
+      "primary_data_fields": [
+        "Name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Achieving the [NAME] badge on the platform marked a major milestone, acknowledging her dedication to sharing knowledge with others.",
+        "The platform’s recognition of her dedication to sharing knowledge with others came with the significant milestone of earning the [NAME] badge.",
+        "By earning the [NAME] badge on the platform, she reached a notable milestone that honors her dedication to sharing knowledge with others.",
+        "A significant milestone was reached when she earned the [NAME] badge on the platform, celebrating her dedication to sharing knowledge with others.",
+        "Her dedication to sharing knowledge with others was highlighted by the significant milestone of receiving the [NAME] badge on the platform.",
+        "The [NAME] badge was awarded on the platform, signifying a key milestone and recognizing her dedication to sharing knowledge with others.",
+        "With the [NAME] badge secured on the platform, she marked a meaningful milestone that reflects her dedication to sharing knowledge with others.",
+        "Recognizing her dedication to sharing knowledge with others, the platform granted her the [NAME] badge, a noteworthy milestone.",
+        "The accomplishment of the [NAME] badge on the platform stands as an important milestone, underscoring her dedication to sharing knowledge with others.",
+        "Earning the [NAME] badge on the platform served as a pivotal milestone, commending her dedication to sharing knowledge with others.",
+        "A pivotal milestone arrived as she earned the [NAME] badge on the platform, applauding her dedication to sharing knowledge with others.",
+        "The platform celebrated her dedication to sharing knowledge with others by awarding the [NAME] badge, marking a significant milestone.",
+        "By securing the [NAME] badge on the platform, she achieved a major milestone that acknowledges her dedication to sharing knowledge with others.",
+        "Her dedication to sharing knowledge with others was formally recognized through the significant milestone of earning the [NAME] badge on the platform.",
+        "The [NAME] badge, earned on the platform, represents a crucial milestone that honors her dedication to sharing knowledge with others."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "earning": [
+          "earning",
+          "gain"
+        ],
+        "dedication": [
+          "dedication",
+          "commitment",
+          "loyalty",
+          "allegiance"
+        ],
+        "others": [
+          "others"
+        ],
+        "recognizing": [
+          "recognizing",
+          "recognising"
+        ],
+        "sharing": [
+          "sharing"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "knowledge": [
+          "knowledge",
+          "cognition"
+        ],
+        "milestone": [
+          "milestone"
+        ]
+      },
+      "field_data_types": {
+        "Name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On the evening of 2010-07-19 19:39:07.0, the Date marked a moment of achievement as the user earned their badge.",
+      "template_pattern": "On the evening of [DATE], the Date marked a moment of achievement as the user earned their badge.",
+      "primary_data_fields": [
+        "Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "At the evening of [DATE], the Date logged a milestone as the user earned their badge.",
+        "The evening of [DATE] saw the Date highlight an achievement when the user earned their badge.",
+        "During the evening of [DATE], the Date recorded that the user earned their badge.",
+        "When the evening of [DATE] arrived, the Date marked the moment the user earned their badge.",
+        "The user earned their badge, and the Date noted this at the evening of [DATE].",
+        "At precisely the evening of [DATE], the Date captured the achievement as the user earned their badge.",
+        "The Date flagged a success at the evening of [DATE], indicating the user earned their badge.",
+        "On the evening of [DATE], the Date stamped a moment of accomplishment as the user earned their badge.",
+        "The evening of [DATE] was marked by the Date when the user earned their badge.",
+        "As the user earned their badge, the Date recorded the event at the evening of [DATE].",
+        "The Date logged an achievement during the evening of [DATE] as the user earned their badge.",
+        "In the evening of [DATE], the Date captured the moment the user earned their badge.",
+        "The user’s badge earning was noted by the Date at the evening of [DATE].",
+        "At the evening of [DATE], the Date highlighted that the user earned their badge.",
+        "The Date noted a significant event at the evening of [DATE], when the user earned their badge."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "evening": [
+          "evening"
+        ],
+        "moment": [
+          "moment",
+          "second",
+          "instant",
+          "minute"
+        ],
+        "earned": [
+          "earned"
+        ],
+        "user": [
+          "user"
+        ],
+        "achievement": [
+          "achievement",
+          "accomplishment"
+        ],
+        "their": [
+          "their"
+        ],
+        "badge": [
+          "badge"
+        ],
+        "marked": [
+          "marked",
+          "label",
+          "tag",
+          "mark",
+          "brand",
+          "grade",
+          "pronounced"
+        ]
+      },
+      "field_data_types": {
+        "Date": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

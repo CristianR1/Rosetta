@@ -1,0 +1,25 @@
+{
+  "database": "debit_card_specializing",
+  "table": "customers",
+  "entry_index": 0,
+  "original_data": {
+    "CustomerID": "3",
+    "Segment": "SME",
+    "Currency": "EUR"
+  },
+  "generated_sentences": [
+    "CustomerID 3 corresponds to a frequent debit card user who often takes advantage of exclusive shopping discounts. (Hash: 17f7d2084fd44267)",
+    "The Segment classification SME helps businesses tailor marketing strategies to better serve their small and medium enterprise clients. (Hash: 60f1e2dbffcb44d0)",
+    "The debit card transactions are primarily conducted in EUR, providing insights into customer spending habits and financial preferences. (Hash: 0d6275d8909b42bb)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "17f7d2084fd44267": "CustomerID",
+    "60f1e2dbffcb44d0": "Segment",
+    "0d6275d8909b42bb": "Currency"
+  },
+  "timestamp": "2026-04-13 13:12:21"
+}

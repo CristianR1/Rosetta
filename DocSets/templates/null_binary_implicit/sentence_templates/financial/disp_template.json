@@ -1,0 +1,28 @@
+{
+  "database": "financial",
+  "table": "disp",
+  "entry_index": 0,
+  "original_data": {
+    "disp_id": "1",
+    "client_id": "1",
+    "account_id": "1",
+    "type": "OWNER"
+  },
+  "generated_sentences": [
+    "Each account disposition record has a unique identifier assigned to ensure efficient management and tracking of access rights. (Hash: 6a5511865dcb4afb)",
+    "Each client has been assigned a unique identification number to facilitate the effective management of their account disposition and access rights. (Hash: 3b2585f034eb46fd)",
+    "The financial account has a unique identification number, enabling efficient management and tracking of account-related information regarding access rights and disposition. (Hash: ce3d086bb44e4007)",
+    "As the OWNER of the account, Maria has full control over its management and decision-making processes. (Hash: 6d2d4310fe9c49d5)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "6a5511865dcb4afb": "disp_id",
+    "3b2585f034eb46fd": "client_id",
+    "ce3d086bb44e4007": "account_id",
+    "6d2d4310fe9c49d5": "type"
+  },
+  "timestamp": "2026-03-31 19:59:08"
+}

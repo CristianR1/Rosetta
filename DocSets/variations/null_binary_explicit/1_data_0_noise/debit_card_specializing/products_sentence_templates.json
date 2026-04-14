@@ -1,0 +1,138 @@
+{
+  "document_context": "manufacturing data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "df7b67776bbd41b5": "ProductID",
+    "fc608db66d1a4d14": "Description"
+  },
+  "templates": [
+    {
+      "original": "In the transaction log, the product with the unique identifier 1 was purchased using a debit card.",
+      "template_pattern": "In the transaction log, the product with the unique identifier [PRODUCTID] was purchased using a debit card.",
+      "primary_data_fields": [
+        "ProductID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction log shows that ProductID [PRODUCTID] was bought with a debit card.",
+        "According to the transaction log, a debit card was used to purchase ProductID [PRODUCTID].",
+        "ProductID [PRODUCTID] appears in the transaction log as having been paid for via debit card.",
+        "In the transaction log, a debit‑card payment recorded the purchase of ProductID [PRODUCTID].",
+        "The purchase of ProductID [PRODUCTID], recorded in the transaction log, was made using a debit card.",
+        "A debit card transaction for ProductID [PRODUCTID] is listed in the transaction log.",
+        "Within the transaction log, the acquisition of ProductID [PRODUCTID] was completed with a debit card.",
+        "The transaction log documents that ProductID [PRODUCTID] was acquired through a debit card.",
+        "ProductID [PRODUCTID] was transacted in the log via debit card, according to the record.",
+        "In the log of transactions, ProductID [PRODUCTID] was secured using a debit card.",
+        "The entry for ProductID [PRODUCTID] in the transaction log indicates a debit card purchase.",
+        "A debit card was the payment method for ProductID [PRODUCTID], as noted in the transaction log.",
+        "Recorded in the transaction log, ProductID [PRODUCTID] was purchased using a debit card.",
+        "The transaction log records a debit‑card purchase of ProductID [PRODUCTID].",
+        "According to the transaction log, ProductID [PRODUCTID]’s purchase was made with a debit card."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "using": [
+          "using",
+          "use",
+          "employ",
+          "utilise",
+          "apply",
+          "utilize"
+        ],
+        "product": [
+          "product",
+          "merchandise"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "purchased": [
+          "purchased"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "transaction": [
+          "transaction"
+        ]
+      },
+      "field_data_types": {
+        "ProductID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Description highlights Rucní zadání as a unique feature of our products, ensuring customers understand their manual input options.",
+      "template_pattern": "The Description highlights [DESCRIPTION] as a unique feature of our products, ensuring customers understand their manual input options.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Description emphasizes [DESCRIPTION] as a distinctive attribute of our products, guaranteeing that customers grasp their manual input options.",
+        "In the Description, [DESCRIPTION] is spotlighted as a one‑of‑a‑kind feature of our products, helping customers comprehend their manual input choices.",
+        "[DESCRIPTION] is presented in the Description as an exclusive characteristic of our product line, thereby ensuring customers recognize their manual input possibilities.",
+        "By highlighting [DESCRIPTION] in the Description, we make clear to customers that this unique product feature supports their manual input needs.",
+        "The Description draws attention to [DESCRIPTION], a singular feature of our offerings, so that customers can understand the manual input alternatives.",
+        "Customers are made aware of the manual input alternatives through the Description’s focus on [DESCRIPTION] as a unique product feature.",
+        "Featuring [DESCRIPTION] prominently, the Description assures that customers understand the manual input options available with our products.",
+        "The Description points out [DESCRIPTION] as an exceptional element of our products, thereby informing customers about their manual input options.",
+        "Through the Description, [DESCRIPTION] is identified as a special feature of our products, which enables customers to grasp the manual input possibilities.",
+        "[DESCRIPTION], highlighted in the Description, serves as a unique product attribute that helps customers comprehend their manual input options.",
+        "With the Description stressing [DESCRIPTION] as a distinctive product feature, customers are guided to understand the manual input choices.",
+        "The Description makes clear that [DESCRIPTION] is a unique facet of our products, ensuring that customers recognize their manual input options.",
+        "By featuring [DESCRIPTION] in the Description, we guarantee that customers are aware of the manual input options this unique feature provides.",
+        "The Description underscores [DESCRIPTION] as a one‑of‑a‑kind aspect of our offerings, allowing customers to understand their manual input options.",
+        "Customers’ understanding of manual input options is secured by the Description’s emphasis on [DESCRIPTION] as a unique product feature."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensuring": [
+          "ensuring"
+        ],
+        "feature": [
+          "feature",
+          "characteristic"
+        ],
+        "input": [
+          "input"
+        ],
+        "highlights": [
+          "highlights"
+        ],
+        "manual": [
+          "manual"
+        ],
+        "customers": [
+          "customers"
+        ],
+        "understand": [
+          "understand",
+          "interpret",
+          "realize",
+          "realise",
+          "see"
+        ],
+        "options": [
+          "options"
+        ]
+      },
+      "field_data_types": {
+        "Description": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

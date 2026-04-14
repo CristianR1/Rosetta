@@ -1,0 +1,565 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "bdc35dc1b98f4348": "account_id",
+    "2af5362521394b74": "district_id",
+    "b1fd80119dd74e05": "frequency",
+    "70a5f0ae22e54180": "date"
+  },
+  "templates": [
+    {
+      "original": "The bank account with the unique identifier 1 is scheduled for review this week.",
+      "template_pattern": "The bank account with the unique identifier [ACCOUNT_ID] is scheduled for review this week.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The bank account bearing account id [ACCOUNT_ID] is slated for review this week.",
+        "Review of the bank account with account id [ACCOUNT_ID] is planned for this week.",
+        "This week, the bank account identified by account id [ACCOUNT_ID] will be examined.",
+        "The bank account that carries account id [ACCOUNT_ID] is set to be reviewed during this week.",
+        "A review of the bank account, account id [ACCOUNT_ID], is scheduled for this week.",
+        "During this week, the bank account holding account id [ACCOUNT_ID] is due for review.",
+        "The bank account, account id [ACCOUNT_ID], has a review appointment this week.",
+        "Account id [ACCOUNT_ID]’s bank account is earmarked for a review this week.",
+        "This week, a review is arranged for the bank account with account id [ACCOUNT_ID].",
+        "The bank account with account id [ACCOUNT_ID] is on the review list for this week.",
+        "The upcoming review this week pertains to the bank account bearing account id [ACCOUNT_ID].",
+        "For this week, the bank account tagged with account id [ACCOUNT_ID] is scheduled for review.",
+        "A scheduled review this week will cover the bank account using account id [ACCOUNT_ID].",
+        "The bank account possessing account id [ACCOUNT_ID] is due for a review this week.",
+        "In this week’s agenda, the bank account with account id [ACCOUNT_ID] is slated for review."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequaled",
+          "unequalled"
+        ],
+        "review": [
+          "review",
+          "recapitulation",
+          "reexamine",
+          "retrospect",
+          "reappraisal",
+          "reexamination"
+        ],
+        "account": [
+          "account",
+          "report",
+          "history",
+          "chronicle",
+          "explanation"
+        ],
+        "scheduled": [
+          "scheduled"
+        ],
+        "bank": [
+          "bank",
+          "trust"
+        ],
+        "week": [
+          "week"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As the review process begins, the focus shifts to understanding the historical data associated with the account.",
+      "template_pattern": "As the review process begins, the focus shifts to understanding the historical data associated with the account.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "When the review process kicks off, attention turns toward grasping the account’s historical data.",
+        "The commencement of the review shifts the focus to interpreting the account’s past records.",
+        "As the review begins, the spotlight moves to understanding the historical information linked to the account.",
+        "Once the review process is initiated, the emphasis changes to analyzing the account’s historical data.",
+        "With the start of the review, the priority becomes comprehending the account’s historical data.",
+        "The review’s onset redirects focus toward the account’s historical data for better understanding.",
+        "Beginning the review, we now concentrate on the historical data associated with the account.",
+        "At the launch of the review, the focus is redirected to the account’s historical information.",
+        "The initiation of the review process pivots attention to the account’s historical data.",
+        "As soon as the review starts, the emphasis shifts to examining the account’s historic data.",
+        "When the review process gets underway, the main concern moves to the account’s historical data.",
+        "The review’s beginning causes a shift in focus toward understanding the historical data of the account.",
+        "Upon starting the review, the focus is now on deciphering the account’s historical records.",
+        "With the review underway, the concentration turns to the account’s historical data.",
+        "The moment the review commences, the focus is redirected to the account’s historical information."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "focus": [
+          "focus",
+          "center",
+          "centre",
+          "concentrate",
+          "stress",
+          "sharpen"
+        ],
+        "data": [
+          "data",
+          "datum",
+          "information"
+        ],
+        "shifts": [
+          "shifts"
+        ],
+        "historical": [
+          "historical",
+          "historic",
+          "diachronic"
+        ],
+        "begins": [
+          "begins"
+        ],
+        "understanding": [
+          "understanding",
+          "apprehension",
+          "discernment",
+          "reason"
+        ],
+        "review": [
+          "review",
+          "followup",
+          "recapitulation",
+          "retrospect",
+          "reappraisal",
+          "survey",
+          "inspection"
+        ],
+        "process": [
+          "process",
+          "action",
+          "procedure",
+          "operation",
+          "work"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the financial system, district_id 18 is crucial for managing the bank account details of its associated educational institutions.",
+      "template_pattern": "In the financial system, district_id [DISTRICT_ID] is crucial for managing the bank account details of its associated educational institutions.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the financial system, district id [DISTRICT_ID] plays a vital role in handling the bank account details of its associated educational institutions.",
+        "The financial system relies on district id [DISTRICT_ID] to manage the bank account details of the educational institutions it oversees.",
+        "Managing the bank account details for its associated educational institutions is a key function of district id [DISTRICT_ID] in the financial system.",
+        "In the realm of finance, district id [DISTRICT_ID] is essential for overseeing the bank account details of its linked educational institutions.",
+        "The bank account details of the educational institutions tied to it are administered by district id [DISTRICT_ID] within the financial system.",
+        "District id [DISTRICT_ID], within the financial system, is indispensable for the administration of bank account details belonging to its associated educational institutions.",
+        "For the financial system, district id [DISTRICT_ID] serves as the primary manager of bank account details for its associated educational institutions.",
+        "The administration of bank account details for its associated educational institutions is entrusted to district id [DISTRICT_ID] in the financial system.",
+        "As part of the financial system, district id [DISTRICT_ID] is tasked with governing the bank account details of its associated educational institutions.",
+        "In the financial system, the responsibility for the bank account details of its associated educational institutions rests with district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] is the cornerstone in the financial system for controlling the bank account details of its associated educational institutions.",
+        "Within the financial system, the task of managing the bank account details of its associated educational institutions falls to district id [DISTRICT_ID].",
+        "The financial system assigns district id [DISTRICT_ID] the crucial job of overseeing bank account details for its associated educational institutions.",
+        "Bank account details of its associated educational institutions are managed by district id [DISTRICT_ID], a critical component of the financial system.",
+        "In the context of the financial system, district id [DISTRICT_ID] is pivotal for the supervision of the bank account details of its associated educational institutions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "details": [
+          "details"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "account": [
+          "account",
+          "report",
+          "explanation",
+          "invoice",
+          "chronicle",
+          "history"
+        ],
+        "system": [
+          "system",
+          "organisation",
+          "scheme",
+          "arrangement",
+          "organization"
+        ],
+        "bank": [
+          "bank",
+          "trust"
+        ],
+        "educational": [
+          "educational"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This importance highlights the need for accuracy and attention to detail in financial documentation.",
+      "template_pattern": "This importance highlights the need for accuracy and attention to detail in financial documentation.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This significance underscores the necessity for precise and meticulous handling of financial documents.",
+        "The importance of this point calls attention to the requirement for accuracy and detail‑orientation in financial paperwork.",
+        "Accurate and detailed financial documentation is essential, as highlighted by the importance of this issue.",
+        "Because of its importance, there is a clear demand for accuracy and careful detail in financial records.",
+        "The need for precision and attentiveness in financial documentation is emphasized by this importance.",
+        "Highlighting this importance reveals the critical need for exactness and thoroughness in financial paperwork.",
+        "Financial documents must be handled with accuracy and attention to detail, a necessity that this importance brings to light.",
+        "This importance makes evident the requirement for meticulousness and exactness in the preparation of financial reports.",
+        "Given its significance, one must prioritize accuracy and detail‑orientation when drafting financial documentation.",
+        "The significance of this matter points to the indispensable need for precision and careful detail in financial records.",
+        "Accuracy and close attention to detail in financial documentation are called for by the highlighted importance.",
+        "Emphasizing this importance serves to remind us of the essential need for exactness and diligence in financial paperwork.",
+        "The crucial nature of this issue underscores why financial documents require both accuracy and meticulous detail.",
+        "In light of its importance, financial documentation must be prepared with stringent accuracy and detailed attention.",
+        "The highlighted importance signals that precision and thorough detail are non‑negotiable in financial reporting."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "documentation": [
+          "documentation",
+          "certification"
+        ],
+        "accuracy": [
+          "accuracy",
+          "truth"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "need": [
+          "need",
+          "demand",
+          "want"
+        ],
+        "detail": [
+          "detail",
+          "item",
+          "point"
+        ],
+        "highlights": [
+          "highlights"
+        ],
+        "importance": [
+          "importance"
+        ],
+        "attention": [
+          "attention"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The account's transaction activity is characterized by a frequency of POPLATEK MESICNE, indicating consistent customer engagement.",
+      "template_pattern": "The account's transaction activity is characterized by a frequency of [FREQUENCY], indicating consistent customer engagement.",
+      "primary_data_fields": [
+        "frequency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction activity of the account shows a frequency of [FREQUENCY], which points to consistent customer engagement.",
+        "A frequency of [FREQUENCY] characterizes the account's transaction activity, suggesting steady customer involvement.",
+        "Consistent customer engagement is indicated by the account's transaction activity having a frequency of [FREQUENCY].",
+        "With a frequency of [FREQUENCY], the account's transaction activity reflects ongoing customer engagement.",
+        "The account's transaction activity, marked by a frequency of [FREQUENCY], denotes consistent engagement from customers.",
+        "Because the account's transaction activity exhibits a frequency of [FREQUENCY], we can infer continuous customer engagement.",
+        "Exhibiting a frequency of [FREQUENCY], the transaction activity of the account signals regular customer participation.",
+        "The presence of a frequency of [FREQUENCY] in the account's transaction activity indicates that customers remain consistently engaged.",
+        "Regular customer engagement is signaled by the account's transaction activity, which records a frequency of [FREQUENCY].",
+        "By maintaining a frequency of [FREQUENCY], the account's transaction activity demonstrates persistent customer involvement.",
+        "The account's transaction activity is noted for its frequency of [FREQUENCY], implying steady engagement by customers.",
+        "Since the account's transaction activity carries a frequency of [FREQUENCY], it points toward consistent customer engagement.",
+        "A steady level of customer engagement is implied by the account's transaction activity featuring a frequency of [FREQUENCY].",
+        "The frequency of [FREQUENCY] found in the account's transaction activity reveals ongoing customer involvement.",
+        "Observing a frequency of [FREQUENCY], the account's transaction activity suggests that customers are consistently engaged."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction"
+        ],
+        "consistent": [
+          "consistent",
+          "coherent",
+          "uniform"
+        ],
+        "engagement": [
+          "engagement",
+          "participation",
+          "involvement",
+          "appointment",
+          "booking",
+          "employment"
+        ],
+        "activity": [
+          "activity"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "account": [
+          "account",
+          "report",
+          "bill",
+          "history",
+          "chronicle",
+          "explanation",
+          "invoice"
+        ],
+        "characterized": [
+          "characterized"
+        ]
+      },
+      "field_data_types": {
+        "frequency": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such consistent activity demonstrates the account's ongoing relevance and utilization.",
+      "template_pattern": "Such consistent activity demonstrates the account's ongoing relevance and utilization.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The account's continuing relevance and use are evidenced by this steady activity.",
+        "Such steady activity underscores the ongoing relevance and utilization of the account.",
+        "This consistent activity serves as proof of the account's persistent importance and usage.",
+        "By maintaining consistent activity, the account demonstrates its continual relevance and utilization.",
+        "Consistent activity, therefore, signals that the account remains relevant and actively utilized.",
+        "The ongoing relevance and utilization of the account are highlighted through such regular activity.",
+        "Through this unbroken activity, one can see the account's sustained relevance and use.",
+        "The account's perpetual relevance and use are reflected in the consistency of its activity.",
+        "Given the steady activity, the account's continuous relevance and utilization become apparent.",
+        "Such unvarying activity confirms that the account continues to be relevant and employed.",
+        "The regularity of this activity demonstrates that the account retains ongoing relevance and usage.",
+        "With consistent activity, the account's relevance and utilization are clearly maintained.",
+        "This ongoing, consistent activity validates the account's sustained relevance and utilization.",
+        "The account's relevance and use are continuously affirmed by such steady activity.",
+        "By exhibiting consistent activity, the account proves its continued relevance and utilization."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "such": [
+          "such"
+        ],
+        "demonstrates": [
+          "demonstrates"
+        ],
+        "consistent": [
+          "consistent",
+          "ordered",
+          "reproducible",
+          "logical",
+          "coherent",
+          "uniform"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "relevance": [
+          "relevance",
+          "relevancy"
+        ],
+        "account": [
+          "account",
+          "report",
+          "bill",
+          "history",
+          "chronicle",
+          "explanation",
+          "invoice"
+        ],
+        "utilization": [
+          "utilization",
+          "utilisation",
+          "exercise",
+          "usage",
+          "employment",
+          "use"
+        ],
+        "ongoing": [
+          "ongoing"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The bank account was established on 1995-03-24, marking the beginning of a long financial journey.",
+      "template_pattern": "The bank account was established on [DATE], marking the beginning of a long financial journey.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE], the bank account was opened, signaling the start of an extensive financial odyssey.",
+        "The bank account opened on [DATE], initiating a lengthy financial journey.",
+        "A long financial trek began when the bank account was created on [DATE].",
+        "Established on [DATE], the bank account marked the commencement of a protracted financial saga.",
+        "With its inception on [DATE], the bank account launched a prolonged financial adventure.",
+        "The inception of the bank account on [DATE] set off an enduring financial expedition.",
+        "On the date [DATE], a bank account came into being, heralding the onset of a lengthy fiscal path.",
+        "The bank account’s foundation on [DATE] signified the beginning of a sustained financial voyage.",
+        "By establishing the bank account on [DATE], a long‑term financial journey was commenced.",
+        "A bank account was instituted on [DATE], marking the kickoff of an extended financial passage.",
+        "When the bank account was set up on [DATE], it ushered in a far‑reaching financial chronicle.",
+        "The date [DATE] saw the bank account’s formation, initiating a prolonged financial narrative.",
+        "Initiated on [DATE], the bank account opened the door to an extensive financial itinerary.",
+        "The establishment of the bank account, dated [DATE], heralded the start of a long financial trek.",
+        "As of [DATE], the bank account began, kicking off a lengthy financial saga."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "journey": [
+          "journey",
+          "travel"
+        ],
+        "established": [
+          "established",
+          "constituted"
+        ],
+        "account": [
+          "account",
+          "report",
+          "chronicle",
+          "explanation"
+        ],
+        "beginning": [
+          "beginning",
+          "commencement",
+          "start",
+          "origin",
+          "outset"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "long": [
+          "long"
+        ],
+        "marking": [
+          "marking",
+          "grading",
+          "grade",
+          "score",
+          "scoring",
+          "label"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This long-standing history provides a foundation for future financial planning and growth.",
+      "template_pattern": "This long-standing history provides a foundation for future financial planning and growth.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The enduring legacy lays the groundwork for upcoming financial planning and growth.",
+        "Future financial planning and growth are built upon this long‑standing history.",
+        "A long‑established history serves as the cornerstone for subsequent financial planning and expansion.",
+        "Because of its long‑standing past, a solid base is provided for future financial planning and growth.",
+        "This historic continuity furnishes the basis for upcoming financial planning and growth.",
+        "Future financial planning and growth rest on the foundation supplied by this long‑standing history.",
+        "With a long‑standing history behind it, the foundation for future financial planning and growth is set.",
+        "The long‑standing record underpins future financial planning and growth.",
+        "Future financial planning and growth can be anchored in this long‑standing history.",
+        "A foundation for future financial planning and growth is derived from the organization’s long‑standing history.",
+        "Thanks to its long‑standing history, we have a platform for future financial planning and growth.",
+        "The long‑standing history provides the structural base for future financial planning and growth.",
+        "Future financial planning and growth are enabled by the foundation that this long‑standing history offers.",
+        "Grounded in a long‑standing history, the path for future financial planning and growth is secured.",
+        "This long‑standing history supplies the essential groundwork for future financial planning and growth."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "provides": [
+          "provides"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "planning": [
+          "planning",
+          "plan",
+          "preparation",
+          "design"
+        ],
+        "future": [
+          "future"
+        ],
+        "standing": [
+          "standing"
+        ],
+        "history": [
+          "history",
+          "chronicle",
+          "account",
+          "story"
+        ],
+        "foundation": [
+          "foundation",
+          "base",
+          "groundwork",
+          "cornerstone",
+          "basis"
+        ],
+        "growth": [
+          "growth",
+          "development",
+          "increase",
+          "maturation",
+          "increment"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

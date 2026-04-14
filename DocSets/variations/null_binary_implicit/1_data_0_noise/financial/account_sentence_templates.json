@@ -1,0 +1,275 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "7b0071db72cb44d7": "account_id",
+    "c62d14f140e34112": "district_id",
+    "9bba9b59196c4c57": "frequency",
+    "a5a934e7a33c4a6f": "date"
+  },
+  "templates": [
+    {
+      "original": "The school district with district_id 18 has streamlined its bank account management to enhance efficiency and transparency in financial operations.",
+      "template_pattern": "The school district with district_id [DISTRICT_ID] has streamlined its bank account management to enhance efficiency and transparency in financial operations.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The school district identified as district id [DISTRICT_ID] has streamlined its bank account management to boost efficiency and transparency in financial operations.",
+        "Streamlining its bank account management, the school district with district id [DISTRICT_ID] aims to improve efficiency and transparency in its financial operations.",
+        "Efficiency and transparency in financial operations are being enhanced as the school district bearing district id [DISTRICT_ID] refines its bank account management.",
+        "With district id [DISTRICT_ID], the school district has optimized bank account management to increase efficiency and transparency throughout its financial activities.",
+        "The school district (district id [DISTRICT_ID]) has reengineered its bank account management, seeking greater efficiency and transparency in financial operations.",
+        "By overhauling bank account management, the school district that carries district id [DISTRICT_ID] strives for heightened efficiency and transparency in its financial operations.",
+        "Financial operations are set to become more efficient and transparent after the school district with district id [DISTRICT_ID] streamlined its bank account management.",
+        "The school district, district id [DISTRICT_ID], has refined its bank account management to foster efficiency and transparency in financial operations.",
+        "To promote efficiency and transparency, the school district possessing district id [DISTRICT_ID] has streamlined its bank account management.",
+        "Enhanced efficiency and transparency in financial operations result from the school district's (district id [DISTRICT_ID]) streamlining of bank account management.",
+        "The school district marked by district id [DISTRICT_ID] has modernized its bank account management, aiming to boost efficiency and transparency in financial operations.",
+        "After streamlining bank account management, the school district with district id [DISTRICT_ID] expects improved efficiency and transparency in its financial operations.",
+        "District id [DISTRICT_ID]'s school district has updated its bank account management to advance efficiency and transparency within financial operations.",
+        "The school district—district id [DISTRICT_ID]—has revamped its bank account management to raise efficiency and transparency in financial operations.",
+        "In an effort to enhance efficiency and transparency, the school district bearing district id [DISTRICT_ID] has streamlined its bank account management."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "streamlined": [
+          "streamlined"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "district": [
+          "district",
+          "territory",
+          "zone"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "transparency": [
+          "transparency"
+        ],
+        "efficiency": [
+          "efficiency"
+        ],
+        "school": [
+          "school"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The frequency of account activity is termed POPLATEK MESICNE, indicating a monthly cycle of transactions.",
+      "template_pattern": "The frequency of account activity is termed [FREQUENCY], indicating a monthly cycle of transactions.",
+      "primary_data_fields": [
+        "frequency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The frequency of account activity is termed [FREQUENCY], indicating a monthly cycle of transactions.",
+        "Frequency of account activity is called [FREQUENCY] and it signals a monthly cycle of transactions.",
+        "[FREQUENCY] is the term for the frequency of account activity, which denotes a monthly cycle of transactions.",
+        "The frequency of account activity, known as [FREQUENCY], reflects a monthly cycle of transactions.",
+        "A monthly cycle of transactions is signaled by the frequency of account activity, labeled [FREQUENCY].",
+        "The label [FREQUENCY] designates the frequency of account activity, indicating a monthly cycle of transactions.",
+        "For the frequency of account activity, the designation [FREQUENCY] points to a monthly cycle of transactions.",
+        "The monthly cycle of transactions is indicated by the frequency of account activity termed [FREQUENCY].",
+        "[FREQUENCY], the name given to the frequency of account activity, suggests a monthly cycle of transactions.",
+        "The frequency of account activity, termed [FREQUENCY], serves as an indicator of a monthly cycle of transactions.",
+        "A monthly cycle of transactions is implied by the frequency of account activity, which is termed [FREQUENCY].",
+        "The term [FREQUENCY] applies to the frequency of account activity and denotes a monthly cycle of transactions.",
+        "By naming the frequency of account activity [FREQUENCY], we highlight a monthly cycle of transactions.",
+        "The frequency of account activity, identified as [FREQUENCY], conveys a monthly cycle of transactions.",
+        "[FREQUENCY] describes the frequency of account activity, indicating a monthly cycle of transactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "cycle": [
+          "cycle",
+          "oscillation",
+          "rhythm"
+        ],
+        "termed": [
+          "termed"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "account": [
+          "account",
+          "explanation",
+          "chronicle",
+          "history",
+          "report"
+        ],
+        "monthly": [
+          "monthly"
+        ],
+        "transactions": [
+          "transactions",
+          "proceedings",
+          "dealings"
+        ]
+      },
+      "field_data_types": {
+        "frequency": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The bank account was established on 1995-03-24, marking the beginning of a long financial journey.",
+      "template_pattern": "The bank account was established on [DATE], marking the beginning of a long financial journey.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The bank account’s date of establishment is [DATE], marking the start of a long financial journey.",
+        "On the date [DATE] the bank account was created, beginning an extended financial saga.",
+        "A bank account was opened on [DATE], its date signifying the launch of a prolonged fiscal trek.",
+        "The date the bank account began, [DATE], heralded the commencement of a lengthy financial expedition.",
+        "Established on [DATE], the bank account’s date initiates an enduring financial voyage.",
+        "With the date set to [DATE], the bank account came into existence, starting a vast monetary journey.",
+        "The bank account, dated [DATE], started a long‑term financial passage.",
+        "On [DATE], the date the bank account was founded, a far‑reaching financial path was set in motion.",
+        "The date recorded as [DATE] marks when the bank account opened, kicking off a prolonged economic trek.",
+        "When the bank account’s date was logged as [DATE], it signaled the onset of a lengthy financial odyssey.",
+        "The bank account’s inception date, [DATE], commenced a sustained journey through finance.",
+        "Marking its date as [DATE], the bank account began a long financial adventure.",
+        "The financial journey started on the account’s date of [DATE], initiating a prolonged saga.",
+        "Having a date of [DATE], the bank account was established, launching an extensive fiscal voyage.",
+        "The bank account, established on [DATE] (date), embarked on a long‑lasting financial expedition."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "marking": [
+          "marking",
+          "score",
+          "mark",
+          "label",
+          "grading",
+          "note"
+        ],
+        "beginning": [
+          "beginning",
+          "outset",
+          "start",
+          "commencement",
+          "origin",
+          "source"
+        ],
+        "long": [
+          "long"
+        ],
+        "established": [
+          "established",
+          "conventional"
+        ],
+        "account": [
+          "account",
+          "explanation",
+          "report",
+          "chronicle",
+          "history",
+          "story"
+        ],
+        "journey": [
+          "journey",
+          "travel"
+        ],
+        "bank": [
+          "bank",
+          "trust"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account id, designated as 1, confirms the client’s primary registration within the financial data report.",
+      "template_pattern": "The financial summary references the account id [ACCOUNT_ID], indicating the specific client portfolio evaluated for this reporting period.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In this reporting period, the financial summary cites the account id [ACCOUNT_ID] to denote the particular client portfolio under review.",
+        "The account id [ACCOUNT_ID] is mentioned in the financial summary, pointing to the client portfolio assessed during the current reporting period.",
+        "For the present reporting period, the financial summary highlights the account id [ACCOUNT_ID], which refers to the specific client portfolio examined.",
+        "A reference to the account id [ACCOUNT_ID] appears in the financial summary, signaling the client portfolio evaluated for this reporting interval.",
+        "The financial summary, referencing the account id [ACCOUNT_ID], identifies the client portfolio that was evaluated in this reporting period.",
+        "Within the financial summary, the account id [ACCOUNT_ID] is used to indicate the client portfolio reviewed for the current reporting period.",
+        "This reporting period’s financial summary points to the account id [ACCOUNT_ID], indicating which client portfolio was examined.",
+        "The client portfolio evaluated for this reporting period is identified by the account id [ACCOUNT_ID] in the financial summary.",
+        "In the financial summary, the account id [ACCOUNT_ID] serves to specify the client portfolio assessed for the reporting period.",
+        "The account id [ACCOUNT_ID] is flagged in the financial summary as the specific client portfolio considered for this reporting period.",
+        "Referencing the account id [ACCOUNT_ID], the financial summary denotes the client portfolio that was evaluated during this reporting period.",
+        "The financial summary cites the account id [ACCOUNT_ID]; this denotes the particular client portfolio analyzed for the current reporting period.",
+        "For this reporting period, the account id [ACCOUNT_ID] is referenced in the financial summary, indicating the exact client portfolio under evaluation.",
+        "The specific client portfolio examined in this reporting period is indicated by the account id [ACCOUNT_ID] within the financial summary.",
+        "Within the financial summary, a reference to the account id [ACCOUNT_ID] signals the client portfolio evaluated for the reporting period."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reporting": [
+          "reporting"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "portfolio": [
+          "portfolio"
+        ],
+        "references": [
+          "references"
+        ],
+        "summary": [
+          "summary"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "account": [
+          "account",
+          "report",
+          "invoice",
+          "bill"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

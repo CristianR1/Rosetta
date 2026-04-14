@@ -1,0 +1,247 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "34bccbe0295d4e74": "id",
+    "2a1bef76e4354d57": "format",
+    "94de94e9f613484c": "status",
+    "c600cb14d2534f23": "uuid"
+  },
+  "templates": [
+    {
+      "original": "The legality entry id is 1.",
+      "template_pattern": "The legality entry id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The legality entry id equals [ID].",
+        "The id of the legality entry is [ID].",
+        "[ID] is the value of the legality entry id.",
+        "Legality entry id: [ID].",
+        "In this report, the legality entry id is recorded as [ID].",
+        "The recorded id for the legality entry stands at [ID].",
+        "According to the data, the legality entry id amounts to [ID].",
+        "The legality entry’s id has been set to [ID].",
+        "A legality entry id of [ID] is indicated.",
+        "The value assigned to the legality entry id is [ID].",
+        "It is noted that the legality entry id is [ID].",
+        "The legality entry id, which is [ID], appears in the summary.",
+        "[ID] serves as the legality entry id.",
+        "The id associated with the legality entry reads [ID].",
+        "Within the professional data report, the legality entry id is [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "entry": [
+          "entry",
+          "entrance",
+          "introduction"
+        ],
+        "legality": [
+          "legality"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The commander format has become increasingly popular among players seeking a more strategic and social gameplay experience.",
+      "template_pattern": "The [FORMAT] format has become increasingly popular among players seeking a more strategic and social gameplay experience.",
+      "primary_data_fields": [
+        "format"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Among players who desire a more strategic and social gameplay experience, the [FORMAT] format is gaining increasing popularity.",
+        "The [FORMAT] format is seeing a rise in popularity with gamers looking for a more strategic and social gameplay experience.",
+        "A growing number of players seeking a more strategic and social gameplay experience have turned to the [FORMAT] format.",
+        "For those craving a more strategic and social gameplay experience, the [FORMAT] format has become ever more popular.",
+        "Popularity of the [FORMAT] format has surged among players desiring a more strategic and social gameplay experience.",
+        "Players who want a more strategic and social gameplay experience are increasingly favoring the [FORMAT] format.",
+        "The [FORMAT] format, favored by players pursuing a more strategic and social gameplay experience, is becoming more popular.",
+        "Increasingly, the [FORMAT] format is being chosen by players who seek a more strategic and social gameplay experience.",
+        "With a focus on a more strategic and social gameplay experience, the [FORMAT] format has risen in popularity among players.",
+        "The [FORMAT] format has grown in popularity among players in search of a more strategic and social gameplay experience.",
+        "Among gamers seeking a more strategic and social gameplay experience, the [FORMAT] format has seen a steady climb in popularity.",
+        "A more strategic and social gameplay experience is driving players to adopt the [FORMAT] format, whose popularity is on the rise.",
+        "The [FORMAT] format’s popularity is climbing as players look for a more strategic and social gameplay experience.",
+        "Players pursuing a more strategic and social gameplay experience are increasingly embracing the [FORMAT] format.",
+        "In the quest for a more strategic and social gameplay experience, players are turning to the [FORMAT] format, which is now markedly more popular."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategic": [
+          "strategic"
+        ],
+        "seeking": [
+          "seeking"
+        ],
+        "popular": [
+          "popular"
+        ],
+        "experience": [
+          "experience"
+        ],
+        "increasingly": [
+          "increasingly",
+          "progressively"
+        ],
+        "among": [
+          "among"
+        ],
+        "gameplay": [
+          "gameplay"
+        ],
+        "more": [
+          "more",
+          "additional",
+          "extra",
+          "greater",
+          "increased",
+          "further"
+        ]
+      },
+      "field_data_types": {
+        "format": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading cards are categorized as Legal, allowing players to use them freely in tournaments and various formats.",
+      "template_pattern": "The trading cards are categorized as [STATUS], allowing players to use them freely in tournaments and various formats.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading cards are classified as [STATUS], which permits players to employ them without restriction in tournaments and a range of formats.",
+        "Classified under [STATUS], the trading cards enable players to freely utilize them across tournaments and multiple formats.",
+        "Because the trading cards hold a [STATUS] status, players may use them openly in tournaments as well as various formats.",
+        "Players can freely deploy the trading cards in tournaments and assorted formats, as they are designated [STATUS].",
+        "With a [STATUS] designation, the trading cards allow unrestricted player use in tournaments and diverse formats.",
+        "The trading cards carry a [STATUS] label, granting players the freedom to play them in tournaments and different formats.",
+        "As the trading cards are marked [STATUS], players are free to incorporate them into tournaments and numerous formats.",
+        "[STATUS] status assigned to the trading cards gives players permission to use them liberally in tournaments and assorted formats.",
+        "Since the trading cards are deemed [STATUS], they may be used by players without limits in tournaments and various formats.",
+        "The cards, classified as [STATUS], provide players unrestricted access for use in tournaments and a variety of formats.",
+        "By being categorized as [STATUS], the trading cards permit players to apply them freely in tournaments and multiple formats.",
+        "The [STATUS] categorization of the trading cards authorizes players to employ them openly across tournaments and several formats.",
+        "Players enjoy unrestricted use of the trading cards in tournaments and various formats because they are listed as [STATUS].",
+        "Given that the trading cards are labeled [STATUS], they can be utilized by players freely in tournaments and different formats.",
+        "The trading cards’ [STATUS] classification enables players to use them without limitation in tournaments and assorted formats."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "deal"
+        ],
+        "allowing": [
+          "allowing",
+          "allow",
+          "permit",
+          "grant"
+        ],
+        "them": [
+          "them"
+        ],
+        "formats": [
+          "formats"
+        ],
+        "freely": [
+          "freely"
+        ],
+        "tournaments": [
+          "tournaments"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "various": [
+          "various",
+          "assorted",
+          "diverse"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card's tournament eligibility is confirmed by its unique identifier, 5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c, ensuring precise legality status.",
+      "template_pattern": "The card's tournament eligibility is confirmed by its unique identifier, [UUID], ensuring precise legality status.",
+      "primary_data_fields": [
+        "uuid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card’s tournament eligibility is validated by its uuid, [UUID], which guarantees an exact legality status.",
+        "By referencing uuid [UUID], the system confirms the card’s eligibility for tournaments and assures precise legal standing.",
+        "Confirmation of the card’s tournament eligibility comes from its uuid [UUID], ensuring the legality status is accurately determined.",
+        "The presence of uuid [UUID] certifies that the card meets tournament eligibility requirements and maintains exact legality.",
+        "Because uuid [UUID] is associated with the card, its tournament eligibility is affirmed and its legal status is precisely known.",
+        "The card’s eligibility for tournaments is affirmed through uuid [UUID], guaranteeing an accurate legality determination.",
+        "With uuid [UUID] linked to the card, tournament eligibility is confirmed and the legality status is exact.",
+        "Tournament eligibility for the card is established by uuid [UUID], thereby ensuring its legal standing is precise.",
+        "The card’s uuid, [UUID], validates its tournament eligibility and secures a perfectly accurate legality status.",
+        "Through uuid [UUID], the card is recognized as tournament‑eligible, guaranteeing an exact legal status.",
+        "The uuid [UUID] confirms that the card qualifies for tournaments, ensuring its legality is precisely recorded.",
+        "By means of uuid [UUID], the card’s tournament eligibility is authenticated, providing an unambiguous legality status.",
+        "The card’s tournament‑eligibility claim is backed by uuid [UUID], which assures a definitive legal standing.",
+        "Given uuid [UUID], the card is deemed eligible for tournaments, and its legality status is precisely affirmed.",
+        "Uuid [UUID] serves as proof of the card’s tournament eligibility, guaranteeing an exact legal status."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "confirmed": [
+          "confirmed",
+          "affirmed",
+          "corroborated",
+          "substantiated"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "legality": [
+          "legality"
+        ],
+        "eligibility": [
+          "eligibility"
+        ],
+        "tournament": [
+          "tournament"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled"
+        ],
+        "precise": [
+          "precise",
+          "accurate",
+          "exact"
+        ]
+      },
+      "field_data_types": {
+        "uuid": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

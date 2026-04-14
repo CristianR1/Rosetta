@@ -1,0 +1,278 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6932cbf0ee7e4b03": "card_id",
+    "3eda267f41e84fe6": "disp_id",
+    "87d4a10d725a4725": "type",
+    "0ccaca4deb50434f": "issued"
+  },
+  "templates": [
+    {
+      "original": "The credit card ending in 1234 has been assigned the unique identifier 1 to streamline transaction tracking.",
+      "template_pattern": "The credit card ending in 1234 has been assigned the unique identifier [CARD_ID] to streamline transaction tracking.",
+      "primary_data_fields": [
+        "card_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card id 1234 was given the unique identifier [CARD_ID] to improve transaction tracking.",
+        "Unique identifier [CARD_ID] has been attached to card id 1234 in order to streamline transaction tracking.",
+        "To facilitate transaction tracking, the credit card ending in 1234 received unique identifier [CARD_ID].",
+        "For better transaction monitoring, card id 1234 is now assigned unique identifier [CARD_ID].",
+        "Card id 1234 now carries the unique identifier [CARD_ID], aiding streamlined transaction tracking.",
+        "In order to enhance transaction tracking, the unique identifier [CARD_ID] was allocated to card id 1234.",
+        "The unique identifier [CARD_ID] was linked to the credit card ending in 1234 to simplify transaction tracking.",
+        "Assigning unique identifier [CARD_ID] to card id 1234 helps to make transaction tracking more efficient.",
+        "To optimize transaction tracking, the system has attached unique identifier [CARD_ID] to card id 1234.",
+        "Card id 1234 has been paired with unique identifier [CARD_ID], which streamlines transaction tracking.",
+        "By assigning unique identifier [CARD_ID] to the credit card ending in 1234, transaction tracking is streamlined.",
+        "The credit card ending in 1234 now holds unique identifier [CARD_ID], facilitating smoother transaction tracking.",
+        "Unique identifier [CARD_ID] is now associated with card id 1234 to refine transaction tracking processes.",
+        "To make transaction tracking easier, the unique identifier [CARD_ID] was granted to card id 1234.",
+        "The system designated unique identifier [CARD_ID] for card id 1234, thereby improving transaction tracking."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "credit": [
+          "credit",
+          "reference",
+          "citation",
+          "acknowledgment"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "streamline": [
+          "streamline"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trailing",
+          "trail"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "ending": [
+          "ending",
+          "termination",
+          "finish",
+          "closing",
+          "conclusion",
+          "close",
+          "end"
+        ]
+      },
+      "field_data_types": {
+        "card_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The transaction was easily identified by its unique disp_id, which was listed as 9.",
+      "template_pattern": "The transaction was easily identified by its unique disp_id, which was listed as [DISP_ID].",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction was readily recognized by its distinct disp id, which appears as [DISP_ID].",
+        "Because its unique disp id was listed as [DISP_ID], the transaction could be identified with ease.",
+        "Identifying the transaction was simple once its disp id, recorded as [DISP_ID], was noted.",
+        "With a disp id of [DISP_ID], the transaction was quickly pinpointed thanks to its uniqueness.",
+        "The unique disp id—[DISP_ID]—made the transaction easy to spot.",
+        "By noting the disp id value [DISP_ID], analysts swiftly identified the transaction.",
+        "The transaction, marked by a unique disp id of [DISP_ID], was effortlessly detected.",
+        "A quick identification of the transaction was possible due to its disp id, shown as [DISP_ID].",
+        "Seeing the disp id listed as [DISP_ID] allowed the transaction to be easily recognized.",
+        "The transaction’s distinct disp id, displayed as [DISP_ID], facilitated rapid identification.",
+        "Since the disp id was [DISP_ID], the transaction was promptly identified as unique.",
+        "The presence of a disp id equal to [DISP_ID] made spotting the transaction straightforward.",
+        "Through its disp id—[DISP_ID]—the transaction was swiftly and clearly identified.",
+        "The transaction, bearing a disp id of [DISP_ID], was easily singled out.",
+        "Because the disp id was recorded as [DISP_ID], the transaction stood out for immediate identification."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "easily": [
+          "easily"
+        ],
+        "which": [
+          "which"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "listed": [
+          "listed"
+        ],
+        "identified": [
+          "identified"
+        ]
+      },
+      "field_data_types": {
+        "disp_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The new credit card offers exclusive benefits as it falls under the gold type, attracting premium users.",
+      "template_pattern": "The new credit card offers exclusive benefits as it falls under the [TYPE] type, attracting premium users.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The new credit card, classified as a [TYPE] type, provides exclusive benefits and draws premium users.",
+        "Exclusive benefits are offered by the new credit card because it belongs to the [TYPE] type, thereby enticing premium users.",
+        "Premium users are attracted by the new credit card that falls under the [TYPE] type and offers exclusive benefits.",
+        "Because it is a [TYPE] type, the new credit card delivers exclusive benefits, appealing to premium users.",
+        "Offering exclusive benefits, the new credit card—part of the [TYPE] type—captures the interest of premium users.",
+        "The new credit card, a [TYPE] type, extends exclusive benefits and consequently attracts premium users.",
+        "Attracting premium users, the new credit card offers exclusive benefits as it is categorized under the [TYPE] type.",
+        "Due to its [TYPE] type classification, the new credit card grants exclusive benefits, which lure premium users.",
+        "Exclusive benefits come with the new credit card, which falls under the [TYPE] type and draws premium users.",
+        "Premium users are drawn to the new credit card because it provides exclusive benefits and is a [TYPE] type.",
+        "The new credit card, falling under the [TYPE] type, supplies exclusive benefits, thereby appealing to premium users.",
+        "With its [TYPE] type status, the new credit card offers exclusive benefits that attract premium users.",
+        "By being a [TYPE] type, the new credit card offers exclusive benefits and consequently pulls in premium users.",
+        "The new credit card, being a [TYPE] type, confers exclusive benefits and thus entices premium users.",
+        "Exclusive benefits are a feature of the new credit card, which is a [TYPE] type and consequently draws premium users."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "offers": [
+          "offers"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "falls": [
+          "falls",
+          "decline",
+          "drop",
+          "decrease",
+          "tumble",
+          "diminish"
+        ],
+        "credit": [
+          "credit",
+          "reference",
+          "citation",
+          "acknowledgment",
+          "recognition"
+        ],
+        "users": [
+          "users"
+        ],
+        "premium": [
+          "premium",
+          "agio"
+        ],
+        "attracting": [
+          "attracting"
+        ],
+        "under": [
+          "under",
+          "below"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The credit card was issued on 1998-10-16, marking the beginning of its validity period.",
+      "template_pattern": "The credit card was issued on [ISSUED], marking the beginning of its validity period.",
+      "primary_data_fields": [
+        "issued"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Issued on [ISSUED], the credit card entered the start of its validity period.",
+        "The credit card, issued on [ISSUED], signals the commencement of its validity period.",
+        "On [ISSUED], the credit card was issued, thereby initiating its validity period.",
+        "With the credit card issued on [ISSUED], its validity period began.",
+        "The credit card, issued on [ISSUED], marks the opening of its validity period.",
+        "As of [ISSUED], the credit card was issued, commencing the validity period.",
+        "The credit card was issued on [ISSUED], denoting the start of its validity period.",
+        "Having been issued on [ISSUED], the credit card now starts its validity period.",
+        "The credit card’s validity period kicks off on the day it was issued, [ISSUED].",
+        "When the credit card was issued on [ISSUED], its validity period began.",
+        "The credit card, issued on [ISSUED], marks the onset of its validity period.",
+        "The credit card, issued on [ISSUED], initiates its validity period from that date.",
+        "On the date [ISSUED] the credit card was issued, which starts its validity period.",
+        "The credit card’s validity period starts the moment it was issued, i.e., [ISSUED].",
+        "Since it was issued on [ISSUED], the credit card has been in its validity period."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "credit": [
+          "credit",
+          "reference",
+          "acknowledgment",
+          "citation"
+        ],
+        "validity": [
+          "validity",
+          "robustness"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "grade",
+          "score"
+        ],
+        "period": [
+          "period"
+        ],
+        "beginning": [
+          "beginning",
+          "start",
+          "commencement",
+          "begin",
+          "commence",
+          "outset"
+        ]
+      },
+      "field_data_types": {
+        "issued": "date"
+      },
+      "is_static": false
+    }
+  ]
+}

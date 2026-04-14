@@ -1,0 +1,247 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "3c92ee2f84604e0e": "card_id",
+    "90546d9d32d34bb0": "disp_id",
+    "db607c9accab46ce": "type",
+    "a6bc5eae0c314ae5": "issued"
+  },
+  "templates": [
+    {
+      "original": "The card_id is 1.",
+      "template_pattern": "The card_id is [CARD_ID].",
+      "primary_data_fields": [
+        "card_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card id equals [CARD_ID].",
+        "Card id is set to [CARD_ID].",
+        "In this report, the card id registers as [CARD_ID].",
+        "The value for card id is [CARD_ID].",
+        "A card id of [CARD_ID] is recorded.",
+        "[CARD_ID] is the designated card id.",
+        "The card id has been assigned the number [CARD_ID].",
+        "For this entry, card id = [CARD_ID].",
+        "It appears that the card id is [CARD_ID].",
+        "The card id, as shown, stands at [CARD_ID].",
+        "According to the data, card id is [CARD_ID].",
+        "Card id: [CARD_ID].",
+        "The indicated card id is [CARD_ID].",
+        "As listed, the card id reads [CARD_ID].",
+        "The system reports a card id of [CARD_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "card_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The transaction was uniquely identified by disp_id 9, ensuring precise tracking and management within the financial system.",
+      "template_pattern": "The transaction was uniquely identified by disp_id [DISP_ID], ensuring precise tracking and management within the financial system.",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the financial system, the transaction is uniquely tagged with disp id [DISP_ID], guaranteeing precise tracking and management.",
+        "The financial system precisely tracks and manages the transaction that carries the unique disp id [DISP_ID].",
+        "By assigning disp id [DISP_ID], the transaction is uniquely identified, which ensures accurate tracking and management in the financial system.",
+        "Ensuring accurate tracking and management, the transaction bears the unique disp id [DISP_ID] within the financial system.",
+        "In the financial system, the transaction receives the unique identifier disp id [DISP_ID], facilitating precise tracking and management.",
+        "A unique disp id [DISP_ID] marks the transaction, allowing the financial system to track and manage it with precision.",
+        "The transaction, marked by the unique disp id [DISP_ID], is tracked and managed precisely within the financial system.",
+        "Through the unique disp id [DISP_ID], the transaction is unmistakably identified, supporting exact tracking and management in the financial system.",
+        "Precise tracking and management within the financial system are achieved because the transaction holds the unique disp id [DISP_ID].",
+        "Because it carries disp id [DISP_ID], the transaction is uniquely identified, ensuring the financial system can track and manage it accurately.",
+        "The financial system’s precise tracking and management are enabled by the transaction’s unique disp id [DISP_ID].",
+        "With disp id [DISP_ID] assigned, the transaction becomes uniquely identifiable, guaranteeing exact tracking and management in the financial system.",
+        "Unique identification via disp id [DISP_ID] allows the transaction to be precisely tracked and managed inside the financial system.",
+        "The transaction’s unique disp id [DISP_ID] ensures it is accurately tracked and managed throughout the financial system.",
+        "By using disp id [DISP_ID] as a unique marker, the transaction is reliably tracked and managed within the financial system."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "management": [
+          "management",
+          "direction"
+        ],
+        "system": [
+          "system",
+          "scheme",
+          "arrangement"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "tracking": [
+          "tracking",
+          "track"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "precise": [
+          "precise",
+          "accurate",
+          "exact"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "disp_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The credit card type classified as gold offers exclusive benefits and features for discerning cardholders.",
+      "template_pattern": "The credit card type classified as [TYPE] offers exclusive benefits and features for discerning cardholders.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "[TYPE] classified credit card type provides discerning cardholders with exclusive benefits and features.",
+        "For discerning cardholders, the [TYPE] credit card type delivers exclusive benefits and features.",
+        "Exclusive benefits and features are offered by the [TYPE] credit card type to discerning cardholders.",
+        "The [TYPE] credit card type, aimed at discerning cardholders, supplies exclusive benefits and features.",
+        "Discerning cardholders receive exclusive benefits and features from the [TYPE] credit card type.",
+        "Offering exclusive benefits and features, the [TYPE] credit card type caters to discerning cardholders.",
+        "The credit card type, classified as [TYPE], grants discerning cardholders exclusive benefits and features.",
+        "With exclusive benefits and features, the [TYPE]‑classified credit card type serves discerning cardholders.",
+        "Discerning cardholders can enjoy exclusive benefits and features through the [TYPE] credit card type.",
+        "Exclusive benefits and features come with the [TYPE] credit card type for discerning cardholders.",
+        "The [TYPE] credit card type bestows exclusive benefits and features upon discerning cardholders.",
+        "For those who are discerning, the [TYPE] credit card type offers exclusive benefits and features.",
+        "The credit card type known as [TYPE] supplies discerning cardholders with exclusive benefits and features.",
+        "Through the [TYPE] credit card type, discerning cardholders obtain exclusive benefits and features.",
+        "Exclusive benefits and features are provided by the [TYPE] credit card type for discerning cardholders."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "exclusive": [
+          "exclusive",
+          "single",
+          "sole"
+        ],
+        "classified": [
+          "classified",
+          "separate"
+        ],
+        "features": [
+          "features"
+        ],
+        "credit": [
+          "credit",
+          "recognition",
+          "acknowledgment",
+          "citation",
+          "reference"
+        ],
+        "cardholders": [
+          "cardholders"
+        ],
+        "card": [
+          "card"
+        ],
+        "discerning": [
+          "discerning"
+        ],
+        "benefits": [
+          "benefits"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The credit card was issued on 1998-10-16, marking the start of its validity period.",
+      "template_pattern": "The credit card was issued on [ISSUED], marking the start of its validity period.",
+      "primary_data_fields": [
+        "issued"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The credit card was issued on [ISSUED], marking the start of its validity period.",
+        "Issued on [ISSUED], the credit card began its validity period.",
+        "On [ISSUED] the credit card was issued, initiating the commencement of its valid term.",
+        "The credit card was issued on [ISSUED], which signals the beginning of its validity.",
+        "With the credit card issued on [ISSUED], its validity period commenced thereafter.",
+        "The credit card, issued on [ISSUED], started its period of validity.",
+        "As of [ISSUED], the credit card was issued, kicking off its valid timeframe.",
+        "The credit card’s validity period started when it was issued on [ISSUED].",
+        "After being issued on [ISSUED], the credit card entered its validity phase.",
+        "On the date [ISSUED], the credit card was issued, thereby beginning its valid period.",
+        "The credit card, having been issued on [ISSUED], marks the onset of its validity.",
+        "Issued on [ISSUED] denotes the launch of its validity period for the credit card.",
+        "The card’s validity period commenced with it being issued on [ISSUED].",
+        "When the credit card was issued on [ISSUED], its validity period officially started.",
+        "Since being issued on [ISSUED], the credit card has been in its valid period."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "grade",
+          "tag",
+          "grading",
+          "check",
+          "mark"
+        ],
+        "period": [
+          "period"
+        ],
+        "credit": [
+          "credit",
+          "recognition",
+          "acknowledgment",
+          "citation",
+          "reference",
+          "mention"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "validity": [
+          "validity",
+          "cogency",
+          "rigor",
+          "rigour",
+          "validness",
+          "robustness"
+        ],
+        "start": [
+          "start",
+          "commence",
+          "initiate",
+          "begin",
+          "outset",
+          "beginning"
+        ]
+      },
+      "field_data_types": {
+        "issued": "date"
+      },
+      "is_static": false
+    }
+  ]
+}

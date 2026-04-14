@@ -1,0 +1,29 @@
+{
+  "database": "financial",
+  "table": "client",
+  "entry_index": 0,
+  "original_data": {
+    "client_id": "1",
+    "gender": "F",
+    "birth_date": "1970-12-13",
+    "district_id": "18"
+  },
+  "generated_sentences": [
+    "The client_id is 1. (Hash: 4a36cc06edc94ff3)",
+    "The customer, identified as F, participated in a study to help better tailor financial services to her demographic needs. (Hash: 4443a88e8d764757)",
+    "Born on 1970-12-13, the customer provides insight into age-related preferences that help tailor financial services effectively. (Hash: 499c17df6d52442b)",
+    "The school district identified by district_id 18 has implemented new strategies to enhance its educational services. (Hash: 2775e4268f654977)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "4a36cc06edc94ff3": "client_id",
+    "4443a88e8d764757": "gender",
+    "499c17df6d52442b": "birth_date",
+    "2775e4268f654977": "district_id"
+  },
+  "timestamp": "2026-04-13 00:18:32",
+  "narrative": []
+}

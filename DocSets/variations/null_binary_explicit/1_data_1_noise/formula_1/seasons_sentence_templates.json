@@ -1,0 +1,299 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "44251d79919c45eb": "year",
+    "3db00046e5a74405": "url"
+  },
+  "templates": [
+    {
+      "original": "The inaugural Formula 1 championship season took place in the year 1950, marking the beginning of a legendary motorsport era.",
+      "template_pattern": "The inaugural Formula 1 championship season took place in the year [YEAR], marking the beginning of a legendary motorsport era.",
+      "primary_data_fields": [
+        "year"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The inaugural Formula 1 championship season unfolded in the year [YEAR], heralding the dawn of a legendary motorsport era.",
+        "The inaugural Formula 1 championship season was held in the year [YEAR], marking the start of a legendary motorsport era.",
+        "Having commenced in the year [YEAR], the inaugural Formula 1 championship season signaled the birth of a legendary motorsport era.",
+        "The inaugural Formula 1 championship season was initiated in the year [YEAR], which ushered in a legendary motorsport era.",
+        "Kicking off in the year [YEAR], the inaugural Formula 1 championship season began a legendary motorsport era.",
+        "The inaugural Formula 1 championship season, set in the year [YEAR], set the stage for a legendary motorsport era.",
+        "Commencing in the year [YEAR], the inaugural Formula 1 championship season introduced a legendary motorsport era.",
+        "The inaugural Formula 1 championship season saw its first race in the year [YEAR], launching a legendary motorsport era.",
+        "The year [YEAR] marked the inaugural Formula 1 championship season, which sparked a legendary motorsport era.",
+        "As the year [YEAR] arrived, the inaugural Formula 1 championship season commenced, paving the way for a legendary motorsport era.",
+        "When the year [YEAR] began, the inaugural Formula 1 championship season took place, heralding a legendary motorsport era.",
+        "In the wake of the year [YEAR], the inaugural Formula 1 championship season emerged, initiating a legendary motorsport era.",
+        "With the year [YEAR] as its backdrop, the inaugural Formula 1 championship season launched a legendary motorsport era.",
+        "During the year [YEAR], the inaugural Formula 1 championship season occurred, commencing a legendary motorsport era.",
+        "Having been introduced in the year [YEAR], the inaugural Formula 1 championship season signified the start of a legendary motorsport era."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "beginning": [
+          "beginning",
+          "outset",
+          "start",
+          "commencement",
+          "origin",
+          "source"
+        ],
+        "marking": [
+          "marking",
+          "mark",
+          "label",
+          "grade",
+          "score",
+          "tag"
+        ],
+        "place": [
+          "place",
+          "position",
+          "site",
+          "spot",
+          "station",
+          "post"
+        ],
+        "motorsport": [
+          "motorsport"
+        ],
+        "legendary": [
+          "legendary",
+          "fabled"
+        ],
+        "inaugural": [
+          "inaugural",
+          "first",
+          "maiden",
+          "initiatory"
+        ],
+        "season": [
+          "season",
+          "flavour",
+          "flavor",
+          "temper"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern",
+          "recipe"
+        ]
+      },
+      "field_data_types": {
+        "year": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The excitement of this new racing era captivated audiences worldwide, setting the stage for future legends.",
+      "template_pattern": "The excitement of this new racing era captivated audiences worldwide, setting the stage for future legends.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Audiences around the globe were enthralled by the thrill of this fresh racing epoch, paving the way for tomorrow's legends.",
+        "The fresh racing era's excitement has captured worldwide audiences, laying the groundwork for future icons.",
+        "Captivating viewers worldwide, the buzz surrounding this new racing age sets the scene for upcoming legends.",
+        "With its exhilarating vibe, the new racing period has seized global attention, preparing the field for future legends.",
+        "Worldwide spectators found themselves drawn in by the excitement of this novel racing era, which now frames the rise of future legends.",
+        "The thrill of this emerging racing era seized audiences across the world, thereby establishing a platform for future legends.",
+        "Enthusiasm generated by the latest racing age has hooked global audiences, establishing the foundation for later legends.",
+        "This new racing era, brimming with excitement, captured the interest of audiences worldwide and set the stage for the legends to come.",
+        "Global audiences were magnetized by the excitement of the new racing epoch, which in turn set the scene for future legends.",
+        "By exciting viewers worldwide, the nascent racing era has laid the groundwork for the legends of tomorrow.",
+        "The excitement inherent in this new racing period captivated an international audience, thereby ushering in the era of future legends.",
+        "World‑wide viewers were swept up in the hype of the new racing age, creating a launchpad for forthcoming legends.",
+        "Through its captivating excitement, the new racing era has drawn audiences globally, setting up the stage for future legends.",
+        "The fresh racing era's fervor attracted worldwide spectators, consequently preparing the arena for upcoming legends.",
+        "Audiences across the planet were seized by the excitement of this new racing era, which now sets the foundation for future legends."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "worldwide": [
+          "worldwide",
+          "global",
+          "planetary",
+          "universal"
+        ],
+        "setting": [
+          "setting",
+          "context",
+          "background",
+          "circumstance",
+          "position",
+          "place"
+        ],
+        "excitement": [
+          "excitement",
+          "fervor",
+          "fervour",
+          "excitation",
+          "exhilaration"
+        ],
+        "captivated": [
+          "captivated",
+          "captured",
+          "enthralled",
+          "enchanted",
+          "charmed",
+          "entranced"
+        ],
+        "racing": [
+          "racing",
+          "speed",
+          "rush",
+          "hasten",
+          "run"
+        ],
+        "legends": [
+          "legends"
+        ],
+        "audiences": [
+          "audiences"
+        ],
+        "future": [
+          "future"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "For more information on the Formula 1 racing season's year 1950, you can visit http://en.wikipedia.org/wiki/1950_Formula_One_season.",
+      "template_pattern": "For more information on the Formula 1 racing season's year 1950, you can visit [URL].",
+      "primary_data_fields": [
+        "url"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To learn more about the 1950 Formula 1 racing season, consult the url [URL].",
+        "If you need additional details on the 1950 Formula 1 season, the url [URL] is available.",
+        "Further information regarding the 1950 Formula 1 championship can be found at the url [URL].",
+        "The url [URL] provides extra data on the Formula 1 season of 1950.",
+        "For comprehensive coverage of the 1950 Formula 1 season, see the url [URL].",
+        "You may refer to the url [URL] for more insight into the 1950 Formula 1 racing season.",
+        "More details on the Formula 1 season in 1950 are accessible via the url [URL].",
+        "The 1950 Formula 1 season’s full description can be obtained by visiting the url [URL].",
+        "Should you require further information on the 1950 Formula 1 campaign, the url [URL] is your resource.",
+        "Additional facts about the 1950 Formula 1 racing season are available at the url [URL].",
+        "Consult the url [URL] for more about the Formula 1 season of 1950.",
+        "For a deeper look at the 1950 Formula 1 season, the url [URL] should be consulted.",
+        "The url [URL] contains further information on the 1950 Formula 1 racing season.",
+        "If you are seeking more data on the 1950 Formula 1 season, refer to the url [URL].",
+        "More comprehensive details about the 1950 Formula 1 season can be accessed through the url [URL]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "information": [
+          "information",
+          "data"
+        ],
+        "more": [
+          "more"
+        ],
+        "visit": [
+          "visit",
+          "inspect",
+          "see",
+          "sojourn"
+        ],
+        "wikipedia": [
+          "wikipedia"
+        ],
+        "wiki": [
+          "wiki"
+        ],
+        "racing": [
+          "racing",
+          "rush",
+          "speed"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe"
+        ],
+        "season": [
+          "season",
+          "flavour",
+          "flavor",
+          "temper"
+        ]
+      },
+      "field_data_types": {
+        "url": "url"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This pivotal moment in racing history continues to resonate with fans and historians alike.",
+      "template_pattern": "This pivotal moment in racing history continues to resonate with fans and historians alike.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The landmark event in motorsport lore still echoes among enthusiasts and scholars alike.",
+        "Fans and historians alike find that this key point in racing history still reverberates.",
+        "This crucial juncture in the annals of racing continues to strike a chord with both fans and historians.",
+        "Both aficionados and researchers feel the lasting impact of this seminal racing moment.",
+        "The resonant effect of this pivotal racing episode persists for fans as well as historians.",
+        "In racing's timeline, this defining instant remains resonant with fans and scholars alike.",
+        "The significance of this turning point in racing history is still felt by enthusiasts and historians.",
+        "Enthusiasts and historians alike continue to be moved by this critical moment in racing.",
+        "This decisive moment in the sport’s heritage still reverberates across fans and academic circles.",
+        "Across both fan bases and historical analyses, the echo of this pivotal racing event endures.",
+        "The echo of this key racing milestone still reaches both devotees and historians.",
+        "Fans, together with historians, still hear the reverberations of this pivotal racing instance.",
+        "This seminal point in racing history maintains its resonance among supporters and scholars.",
+        "The lasting resonance of this crucial racing moment is evident among both fans and historians.",
+        "Among aficionados and historians, the impact of this pivotal racing episode continues to resonate."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "moment": [
+          "moment",
+          "second",
+          "minute",
+          "instant"
+        ],
+        "historians": [
+          "historians"
+        ],
+        "continues": [
+          "continues"
+        ],
+        "history": [
+          "history",
+          "story",
+          "chronicle",
+          "account"
+        ],
+        "resonate": [
+          "resonate"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "alike": [
+          "alike",
+          "similar",
+          "likewise"
+        ],
+        "pivotal": [
+          "pivotal"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

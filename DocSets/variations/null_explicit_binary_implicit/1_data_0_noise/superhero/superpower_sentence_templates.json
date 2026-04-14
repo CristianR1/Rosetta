@@ -1,0 +1,113 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "1699a1f401594500": "id",
+    "ed51827e91e54ec0": "power_name"
+  },
+  "templates": [
+    {
+      "original": "The id is 1.",
+      "template_pattern": "The id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The id equals [ID].",
+        "In the report, the id is recorded as [ID].",
+        "The identifier, id, has a value of [ID].",
+        "According to the data, id stands at [ID].",
+        "Id is set to [ID] in this entry.",
+        "The current id reads [ID].",
+        "For this record, the id amounts to [ID].",
+        "It was noted that the id is [ID].",
+        "The id has been assigned the number [ID].",
+        "[ID] is the value assigned to the id.",
+        "The id appears as [ID] in the dataset.",
+        "Within the document, id is listed as [ID].",
+        "The field id reflects the value [ID].",
+        "As indicated, the id is [ID].",
+        "The id was documented as [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero, renowned for the power_name Agility, effortlessly dodged every obstacle with unparalleled speed and precision.",
+      "template_pattern": "The superhero, renowned for the power_name [POWER_NAME], effortlessly dodged every obstacle with unparalleled speed and precision.",
+      "primary_data_fields": [
+        "power_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero, famed for the power name [POWER_NAME], swiftly sidestepped every obstacle with unmatched speed and precision.",
+        "Renowned for the power name [POWER_NAME], the hero effortlessly evaded each hindrance, displaying unparalleled swiftness and accuracy.",
+        "With the power name [POWER_NAME] as his hallmark, the superhero dodged all obstacles effortlessly, achieving a level of speed and precision beyond compare.",
+        "Every barrier was bypassed by the superhero, whose power name [POWER_NAME] enabled him to move with extraordinary speed and exactness.",
+        "The hero’s power name [POWER_NAME] allowed him to glide past each obstacle, doing so with unrivaled rapidity and meticulousness.",
+        "Because of his power name [POWER_NAME], the superhero easily avoided every impediment, exhibiting unrivaled quickness and precision.",
+        "The superhero, whose power name [POWER_NAME] is celebrated, navigated obstacles with effortless grace, matching no other in speed and exactness.",
+        "Thanks to the power name [POWER_NAME], the hero dodged each obstacle with ease, demonstrating superior velocity and pinpoint accuracy.",
+        "Obstacles were deftly evaded by the superhero, his power name [POWER_NAME] granting him unmatched speed and flawless precision.",
+        "The power name [POWER_NAME] made the superhero glide past every hurdle, doing so with exceptional quickness and precise control.",
+        "Owing to his power name [POWER_NAME], the superhero maneuvered through all obstacles effortlessly, exhibiting peerless speed and accuracy.",
+        "The superhero’s acclaimed power name [POWER_NAME] enabled him to sidestep each barrier with effortless speed and perfect precision.",
+        "With unparalleled speed and precision, the superhero, powered by the power name [POWER_NAME], slipped past every obstacle.",
+        "The hero, equipped with the power name [POWER_NAME], effortlessly bypassed all obstacles, achieving unmatched rapidity and exactness.",
+        "Every obstacle was swiftly avoided by the superhero, whose power name [POWER_NAME] provided extraordinary speed and precise movement."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "speed": [
+          "speed",
+          "swiftness",
+          "fastness",
+          "rush",
+          "velocity"
+        ],
+        "renowned": [
+          "renowned",
+          "illustrious",
+          "notable",
+          "celebrated",
+          "noted",
+          "famous"
+        ],
+        "unparalleled": [
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "effortlessly": [
+          "effortlessly"
+        ],
+        "every": [
+          "every"
+        ],
+        "dodged": [
+          "dodged"
+        ],
+        "precision": [
+          "precision",
+          "preciseness"
+        ],
+        "obstacle": [
+          "obstacle",
+          "obstruction"
+        ]
+      },
+      "field_data_types": {
+        "power_name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

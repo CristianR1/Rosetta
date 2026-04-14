@@ -1,0 +1,43 @@
+{
+  "database": "debit_card_specializing",
+  "table": "transactions_1k",
+  "entry_index": 0,
+  "original_data": {
+    "TransactionID": "1",
+    "Date": "2012-08-24",
+    "Time": "09:41:00",
+    "CustomerID": "31543",
+    "CardID": "486621",
+    "GasStationID": "3704",
+    "ProductID": "2",
+    "Amount": "28",
+    "Price": "672.64"
+  },
+  "generated_sentences": [
+    "The debit card transaction was uniquely identified by the number 1. (Hash: 967d6dfd25f14ec7)",
+    "On 2012-08-24, a purchase was recorded, marking a significant transaction in the account's history. (Hash: a53cf970aa2c4a73)",
+    "Every morning, precisely at 09:41:00, he made his first purchase of the day, setting a predictable pattern. (Hash: b829ca561966480b)",
+    "The customer identified by CustomerID 31543 recently made several purchases using their debit card. (Hash: 4d77a8c9875847c4)",
+    "The transaction associated with CardID 486621 revealed a fascinating pattern in the customer's purchasing behavior. (Hash: 55557979eeaf41d4)",
+    "Gas station with GasStationID 3704 is frequently visited by customers using debit cards for their fuel purchases. (Hash: b25614b25c554be2)",
+    "The product associated with ProductID 2 was purchased using a debit card, ensuring smooth transaction tracking. (Hash: c3cf67e99ce34008)",
+    "The debit card transaction history shows a significant entry with an amount of 28, reflecting customer spending habits. (Hash: 1d772d1c9e8c46e0)",
+    "The total price for the debit card transaction amounted to 672.64, reflecting the consumer's spending behavior. (Hash: 89b698884d214de2)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "967d6dfd25f14ec7": "TransactionID",
+    "a53cf970aa2c4a73": "Date",
+    "b829ca561966480b": "Time",
+    "4d77a8c9875847c4": "CustomerID",
+    "55557979eeaf41d4": "CardID",
+    "b25614b25c554be2": "GasStationID",
+    "c3cf67e99ce34008": "ProductID",
+    "1d772d1c9e8c46e0": "Amount",
+    "89b698884d214de2": "Price"
+  },
+  "timestamp": "2026-04-13 13:12:39"
+}

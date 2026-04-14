@@ -1,0 +1,23 @@
+{
+  "database": "formula_1",
+  "table": "status",
+  "entry_index": 0,
+  "original_data": {
+    "statusId": "1",
+    "status": "Finished"
+  },
+  "generated_sentences": [
+    "The race is completed and its statusId is 1. (Hash: 93daf28f72ac4e90)",
+    "The status of the Formula 1 race is Finished, indicating the event has reached its conclusion. (Hash: c0be92ec7ffd437e)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "93daf28f72ac4e90": "statusId",
+    "c0be92ec7ffd437e": "status"
+  },
+  "timestamp": "2026-04-13 00:21:33",
+  "narrative": []
+}

@@ -1,0 +1,579 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "25b2a688cf2e4e10": "raceId",
+    "d03faf7e180c485f": "year",
+    "ca2883c43d064e87": "round",
+    "fbf12506c787456e": "circuitId",
+    "4edd2e974dad4223": "name",
+    "d7fe24c0fb5142af": "date",
+    "a86f82c239dd4dec": "time",
+    "74573ed399934d37": "url"
+  },
+  "templates": [
+    {
+      "original": "The raceId 2 marks a significant event in the history of Formula 1, showcasing thrilling competition and remarkable performances.",
+      "template_pattern": "The raceId [RACEID] marks a significant event in the history of Formula 1, showcasing thrilling competition and remarkable performances.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "raceId [RACEID] stands out as a landmark moment in Formula 1 history, delivering exhilarating competition and outstanding performances.",
+        "In the annals of Formula 1, raceId [RACEID] represents a pivotal event, highlighted by exciting rivalry and notable achievements.",
+        "A significant milestone for Formula 1 is marked by raceId [RACEID], which showcased intense battling and remarkable feats.",
+        "The history of Formula 1 records raceId [RACEID] as an important occasion, featuring thrilling competition and impressive displays.",
+        "Highlighted as a key episode in Formula 1, raceId [RACEID] brought forth fierce contests and extraordinary performances.",
+        "raceId [RACEID] is cited as a crucial chapter in Formula 1 lore, characterized by gripping competition and stellar performances.",
+        "Within Formula 1’s legacy, raceId [RACEID] denotes a momentous event, where electrifying competition and commendable performances shone.",
+        "An essential point in Formula 1’s timeline, raceId [RACEID], delivered high‑octane rivalry and exceptional performances.",
+        "The event identified by raceId [RACEID] is regarded as a turning point in Formula 1, marked by fierce competition and notable performances.",
+        "Formula 1’s chronicles include raceId [RACEID] as a noteworthy occurrence, featuring pulsating competition and remarkable performances.",
+        "raceId [RACEID] underscores a defining episode in Formula 1 history, with intense competition and outstanding performances on display.",
+        "In Formula 1, raceId [RACEID] is remembered for its significant impact, showcasing vigorous competition and impressive performances.",
+        "The notable raceId [RACEID] serves as a hallmark of Formula 1’s past, delivering riveting competition and commendable performances.",
+        "Marked as an important milestone, raceId [RACEID] in Formula 1 offered exhilarating contests and remarkable performances.",
+        "Within the saga of Formula 1, raceId [RACEID] emerges as a vital event, exemplifying thrilling competition and extraordinary performances."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "pattern"
+        ],
+        "remarkable": [
+          "remarkable",
+          "noteworthy"
+        ],
+        "performances": [
+          "performances"
+        ],
+        "event": [
+          "event"
+        ],
+        "competition": [
+          "competition",
+          "contest",
+          "rivalry"
+        ],
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ],
+        "showcasing": [
+          "showcasing"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 season of 2009 was notable for its thrilling races and unexpected outcomes.",
+      "template_pattern": "The Formula 1 season of [YEAR] was notable for its thrilling races and unexpected outcomes.",
+      "primary_data_fields": [
+        "year"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In [YEAR], the Formula 1 season stood out for its exhilarating races and surprising results.",
+        "The [YEAR] Formula 1 campaign was distinguished by high‑octane races and unforeseen outcomes.",
+        "Noted for its pulse‑pounding contests and unpredictable finishes, the Formula 1 season of [YEAR] captured attention.",
+        "Throughout the [YEAR] Formula 1 year, fans witnessed thrilling races and unexpected outcomes.",
+        "The Formula 1 season in [YEAR] earned recognition due to its intense races and surprising conclusions.",
+        "For the [YEAR] Formula 1 series, the combination of gripping races and unanticipated results made it memorable.",
+        "Highlighted by electrifying races and unforeseen results, the [YEAR] Formula 1 season left a lasting impression.",
+        "The [YEAR] season of Formula 1 was marked by adrenaline‑filled races and outcomes that defied expectations.",
+        "In the [YEAR] Formula 1 calendar, the races were captivating and the outcomes were anything but predictable.",
+        "The Formula 1 [YEAR] season garnered notice because of its heart‑racing competitions and surprising finishes.",
+        "With its dramatic races and unexpected results, the [YEAR] Formula 1 season stood as a notable year.",
+        "The year [YEAR] saw the Formula 1 season deliver thrilling contests and unforeseen conclusions.",
+        "Recognized for its high‑intensity races and unpredicted outcomes, the Formula 1 season of [YEAR] was remarkable.",
+        "The [YEAR] Formula 1 season, characterized by exciting races and surprising outcomes, was particularly noteworthy.",
+        "Due to its riveting races and unexpected results, the Formula 1 season in [YEAR] made headlines."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "outcomes": [
+          "outcomes"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "pattern",
+          "rule"
+        ],
+        "races": [
+          "races"
+        ],
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ],
+        "notable": [
+          "notable",
+          "noteworthy",
+          "famed",
+          "celebrated",
+          "illustrious",
+          "noted"
+        ],
+        "unexpected": [
+          "unexpected"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour"
+        ]
+      },
+      "field_data_types": {
+        "year": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The anticipation is high as the Formula 1 season progresses to round 2, promising thrilling action on the track.",
+      "template_pattern": "The anticipation is high as the Formula 1 season progresses to round [ROUND], promising thrilling action on the track.",
+      "primary_data_fields": [
+        "round"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "High anticipation builds as the Formula 1 season moves into round [ROUND], promising thrilling action on the track.",
+        "As the Formula 1 season advances to round [ROUND], excitement reaches a peak, promising thrilling action on the track.",
+        "The Formula 1 season’s progression to round [ROUND] has heightened anticipation, promising thrilling action on the track.",
+        "With the Formula 1 season now entering round [ROUND], anticipation is high and promising thrilling action on the track.",
+        "Anticipation runs high while the Formula 1 season proceeds to round [ROUND], a stage that promises thrilling action on the track.",
+        "The move to round [ROUND] in the Formula 1 season raises anticipation, promising thrilling action on the track.",
+        "As round [ROUND] approaches in the Formula 1 season, anticipation climbs, promising thrilling action on the track.",
+        "The Formula 1 season’s shift to round [ROUND] fuels high anticipation, promising thrilling action on the track.",
+        "High anticipation accompanies the Formula 1 season’s transition to round [ROUND], promising thrilling action on the track.",
+        "The excitement is palpable as the Formula 1 season reaches round [ROUND], promising thrilling action on the track.",
+        "Round [ROUND] of the Formula 1 season sees anticipation soar, promising thrilling action on the track.",
+        "The anticipation remains high while the Formula 1 season moves forward to round [ROUND], promising thrilling action on the track.",
+        "As the Formula 1 season progresses into round [ROUND], the anticipation is high, promising thrilling action on the track.",
+        "The Formula 1 season’s advancement to round [ROUND] elevates anticipation, promising thrilling action on the track.",
+        "With anticipation at a high level, the Formula 1 season proceeds to round [ROUND], promising thrilling action on the track."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "track": [
+          "track",
+          "trail",
+          "course",
+          "path",
+          "racetrack",
+          "racecourse"
+        ],
+        "promising": [
+          "promising",
+          "hopeful",
+          "bright"
+        ],
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ],
+        "action": [
+          "action",
+          "activity",
+          "process"
+        ],
+        "anticipation": [
+          "anticipation",
+          "expectation",
+          "expectancy"
+        ],
+        "high": [
+          "high",
+          "eminent"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour"
+        ]
+      },
+      "field_data_types": {
+        "round": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "CircuitId 2 is assigned to one of the unique Formula 1 racing circuits, ensuring its distinct place in the event schedule.",
+      "template_pattern": "CircuitId [CIRCUITID] is assigned to one of the unique Formula 1 racing circuits, ensuring its distinct place in the event schedule.",
+      "primary_data_fields": [
+        "circuitId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "circuitId [CIRCUITID] has been allocated to a unique Formula 1 racing circuit, guaranteeing its specific slot in the event schedule.",
+        "A unique Formula 1 circuit receives circuitId [CIRCUITID], thereby securing a distinct position within the event schedule.",
+        "In the event schedule, circuitId [CIRCUITID] is linked to one of the singular Formula 1 tracks, ensuring its exclusive placement.",
+        "By assigning circuitId [CIRCUITID] to a unique Formula 1 race track, its distinct place in the event schedule is assured.",
+        "The allocation of circuitId [CIRCUITID] to a unique Formula 1 circuit confirms its particular spot on the event schedule.",
+        "circuitId [CIRCUITID] is attached to a one‑of‑a‑kind Formula 1 circuit, which secures its unique slot in the event schedule.",
+        "Through placement on a unique Formula 1 racing circuit, circuitId [CIRCUITID] obtains a distinct position in the event schedule.",
+        "One of the unique Formula 1 circuits is designated for circuitId [CIRCUITID], guaranteeing its separate place in the event schedule.",
+        "circuitId [CIRCUITID], assigned to a unique Formula 1 track, ensures a distinct entry in the event schedule.",
+        "The unique Formula 1 circuit to which circuitId [CIRCUITID] is assigned secures its exclusive place in the event schedule.",
+        "Assigning circuitId [CIRCUITID] to a unique Formula 1 racing circuit locks in its distinct slot within the event schedule.",
+        "Within the event schedule, a unique Formula 1 circuit hosts circuitId [CIRCUITID], affirming its particular placement.",
+        "circuitId [CIRCUITID]’s assignment to a unique Formula 1 track guarantees a singular position on the event schedule.",
+        "Because circuitId [CIRCUITID] is placed on one of the unique Formula 1 circuits, its distinct place in the event schedule is maintained.",
+        "A unique Formula 1 racing circuit receives circuitId [CIRCUITID], thereby ensuring its exclusive spot in the event schedule."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "distinct": [
+          "distinct",
+          "distinguishable",
+          "discrete"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "pattern",
+          "rule"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "circuits": [
+          "circuits",
+          "circuit"
+        ],
+        "place": [
+          "place",
+          "station",
+          "spot",
+          "lieu",
+          "home",
+          "plaza",
+          "post"
+        ],
+        "racing": [
+          "racing",
+          "speed",
+          "race"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled"
+        ],
+        "assigned": [
+          "assigned",
+          "delegate",
+          "designate",
+          "allot",
+          "assign",
+          "depute"
+        ]
+      },
+      "field_data_types": {
+        "circuitId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Malaysian Grand Prix has always been a pivotal race, shaping the dynamics of the Formula 1 championship standings.",
+      "template_pattern": "The [NAME] has always been a pivotal race, shaping the dynamics of the Formula 1 championship standings.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [NAME] has consistently acted as a decisive event, shaping the dynamics of the Formula 1 championship standings.",
+        "As a cornerstone race, the [NAME] continually influences the Formula 1 championship standings.",
+        "The dynamics of the Formula 1 championship standings are regularly molded by the pivotal [NAME].",
+        "Throughout its history, the [NAME] has been a key contest that shapes the Formula 1 championship standings.",
+        "The [NAME] remains a critical fixture, directing the Formula 1 championship standings.",
+        "In the world of motorsport, the [NAME] is invariably a major factor that alters the Formula 1 championship standings.",
+        "The Formula 1 championship standings are often reshaped by the influential [NAME].",
+        "Undeniably, the [NAME] serves as a linchpin race, steering the Formula 1 championship standings.",
+        "The Formula 1 championship standings are repeatedly affected by the essential [NAME].",
+        "By consistently playing a central role, the [NAME] molds the Formula 1 championship standings.",
+        "The [NAME] is perpetually a turning point that impacts the Formula 1 championship standings.",
+        "Within the sport, the [NAME] consistently drives changes in the Formula 1 championship standings.",
+        "The pivotal nature of the [NAME] continually influences how the Formula 1 championship standings evolve.",
+        "The Formula 1 championship standings are habitually shaped by the strategic [NAME].",
+        "Serving as a vital race, the [NAME] repeatedly determines the configuration of the Formula 1 championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "pivotal": [
+          "pivotal"
+        ],
+        "always": [
+          "always",
+          "constantly",
+          "invariably"
+        ],
+        "shaping": [
+          "shaping"
+        ],
+        "dynamics": [
+          "dynamics"
+        ],
+        "standings": [
+          "standings"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On 2009-04-05, Formula 1 fans witnessed an exciting race that added a memorable chapter to the season's unfolding drama.",
+      "template_pattern": "On [DATE], Formula 1 fans witnessed an exciting race that added a memorable chapter to the season's unfolding drama.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE], Formula 1 supporters experienced a thrilling race that contributed a memorable chapter to the season's unfolding drama.",
+        "The season's unfolding drama gained a memorable chapter on [DATE] when Formula 1 fans witnessed an exciting race.",
+        "A memorable chapter was added to the season's unfolding drama on [DATE] as Formula 1 enthusiasts watched an electrifying race.",
+        "On [DATE], an electrifying race captured the attention of Formula 1 followers, enriching the season's unfolding drama with a memorable chapter.",
+        "Formula 1 followers saw an exciting race on [DATE], which injected a memorable chapter into the season's ongoing drama.",
+        "The exciting race on [DATE], observed by Formula 1 fans, inserted a memorable chapter into the season's unfolding drama.",
+        "A memorable chapter was woven into the season's unfolding drama on [DATE] when an exciting Formula 1 race unfolded before fans.",
+        "On [DATE], the excitement of a Formula 1 race added a new, memorable chapter to the drama that the season was unfolding.",
+        "The season's drama, unfolding throughout the year, received a memorable chapter on [DATE] as Formula 1 fans enjoyed an exciting race.",
+        "An exciting race on [DATE] saw Formula 1 fans adding a memorable chapter to the season's unfolding drama.",
+        "When Formula 1 fans gathered on [DATE], the exciting race they witnessed contributed a memorable chapter to the season's ongoing drama.",
+        "The excitement of the [DATE] Formula 1 race provided fans with a memorable chapter in the season's unfolding drama.",
+        "On [DATE], an exhilarating race was watched by Formula 1 fans, enriching the season's unfolding drama with a memorable chapter.",
+        "A memorable chapter was introduced to the season's unfolding drama on [DATE] thanks to an exciting Formula 1 race seen by fans.",
+        "Formula 1 enthusiasts experienced an exciting race on [DATE], which added a memorable chapter to the drama that the season was unfolding."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression",
+          "pattern"
+        ],
+        "chapter": [
+          "chapter"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "witnessed": [
+          "witnessed"
+        ],
+        "exciting": [
+          "exciting"
+        ],
+        "drama": [
+          "drama",
+          "play"
+        ],
+        "unfolding": [
+          "unfolding"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 race is scheduled to begin at precisely 09:00:00, marking the start of an exhilarating event.",
+      "template_pattern": "The Formula 1 race is scheduled to begin at precisely [TIME], marking the start of an exhilarating event.",
+      "primary_data_fields": [
+        "time"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "At exactly [TIME], the Formula 1 race is slated to kickoff, ushering in an exciting event.",
+        "The start of an exhilarating event will be marked when the Formula 1 race commences precisely at [TIME].",
+        "Scheduled for a [TIME] start, the Formula 1 race will launch an exhilarating competition.",
+        "An exhilarating event begins as the Formula 1 race is set to start at [TIME] sharp.",
+        "With the clock striking [TIME], the Formula 1 race is programmed to commence, signalling the event’s thrilling onset.",
+        "The Formula 1 race, slated for [TIME], will trigger the opening of an exhilarating event.",
+        "At [TIME] sharp, the Formula 1 race will be initiated, heralding the start of a thrilling event.",
+        "The commencement of the Formula 1 race at precisely [TIME] marks the launch of an exhilarating affair.",
+        "Precisely at [TIME], the Formula 1 race kicks off, indicating the beginning of an exciting event.",
+        "The Formula 1 race is set to begin at [TIME], thereby commencing an exhilarating spectacle.",
+        "When the time reaches [TIME], the Formula 1 race will start, opening an exhilarating event.",
+        "The onset of an exhilarating event coincides with the Formula 1 race’s start at exactly [TIME].",
+        "At the exact moment of [TIME], the Formula 1 race is scheduled to begin, launching an exciting competition.",
+        "An exhilarating event will commence as the Formula 1 race starts precisely at [TIME].",
+        "The Formula 1 race, programmed for a [TIME] start, signals the beginning of a thrilling event."
+      ],
+      "counter_variations": [
+        "Within this professional data report, the reported time is null, signifying that no explicit timestamp has been allocated.",
+        "The professional data report records the time as null, thereby indicating the absence of an assigned timestamp.",
+        "Because the reported time is null, this professional data report conveys that a precise timestamp has not been designated.",
+        "In the context of this professional data report, the time field is null, which denotes that no specific timestamp has been set.",
+        "A null value appears for the reported time, implying within the professional data report that no concrete timestamp was provided.",
+        "The professional data report shows a null entry for time, reflecting that a definitive timestamp remains unassigned.",
+        "Given that the reported time is null, the professional data report clarifies that no particular timestamp has been attached.",
+        "This professional data report indicates a null status for the time field, meaning that an exact timestamp has not been allocated.",
+        "When the reported time is null, the professional data report reveals that a specific timestamp has not been appointed.",
+        "The time recorded in this professional data report is null, a condition that signifies the lack of any assigned timestamp.",
+        "Within the professional data report, a null designation for time communicates that no exact timestamp has been allocated.",
+        "A null designation for the reported time appears in the professional data report, denoting that a precise timestamp has not been provided.",
+        "The professional data report lists time as null, which conveys that no exact timestamp has been assigned.",
+        "Because time is null in this professional data report, it conveys that a specific timestamp was not allocated.",
+        "In this professional data report, the reported time is null, thereby indicating that an exact timestamp has not been attached."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "start": [
+          "start",
+          "kickoff",
+          "commencement",
+          "initiate",
+          "outset",
+          "begin",
+          "commence"
+        ],
+        "begin": [
+          "begin",
+          "start",
+          "commence"
+        ],
+        "precisely": [
+          "precisely",
+          "exactly"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "score",
+          "grade"
+        ],
+        "exhilarating": [
+          "exhilarating",
+          "stimulating"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {
+        "time": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The report includes a direct link, with the URL displayed as [URL], allowing stakeholders immediate access to the referenced resource.",
+      "template_pattern": "The report includes a direct link, with the URL displayed as [URL], allowing stakeholders immediate access to the referenced resource.",
+      "primary_data_fields": [
+        "url"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A direct link is provided in the report, showing the URL as [URL] so that stakeholders can instantly reach the referenced resource.",
+        "Stakeholders are given immediate access to the referenced resource because the report contains a direct link, with the URL presented as [URL].",
+        "In the report, a direct link appears, the URL being displayed as [URL], which grants stakeholders instant access to the referenced resource.",
+        "The referenced resource can be accessed immediately by stakeholders, thanks to the report’s direct link that displays the URL as [URL].",
+        "A direct link, showing the URL as [URL], is included in the report, enabling stakeholders to reach the referenced resource without delay.",
+        "Immediate stakeholder access to the referenced resource is ensured by the report’s inclusion of a direct link, where the URL is shown as [URL].",
+        "The report embeds a direct link; the URL appears as [URL], allowing stakeholders rapid entry to the referenced resource.",
+        "By presenting the URL as [URL] within a direct link, the report provides stakeholders with instant access to the referenced resource.",
+        "Stakeholders can instantly access the referenced resource because the report lists a direct link with the URL displayed as [URL].",
+        "A direct link is embedded in the report, featuring the URL displayed as [URL], which lets stakeholders immediately reach the referenced resource.",
+        "The referenced resource is made instantly reachable for stakeholders via a direct link in the report, where the URL is shown as [URL].",
+        "Within the report, a direct link includes the URL displayed as [URL], granting stakeholders immediate access to the referenced resource.",
+        "The report’s direct link, which displays the URL as [URL], provides stakeholders with immediate entry to the referenced resource.",
+        "Immediate access for stakeholders to the referenced resource is provided by the report’s direct link, the URL being shown as [URL].",
+        "Because the report contains a direct link with the URL presented as [URL], stakeholders gain instant access to the referenced resource."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "direct": [
+          "direct",
+          "steer",
+          "guide",
+          "lead",
+          "head",
+          "conduct"
+        ],
+        "includes": [
+          "includes"
+        ],
+        "allowing": [
+          "allowing"
+        ],
+        "referenced": [
+          "referenced"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study"
+        ],
+        "immediate": [
+          "immediate",
+          "prompt",
+          "quick"
+        ],
+        "access": [
+          "access",
+          "admittance",
+          "admission"
+        ],
+        "resource": [
+          "resource"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

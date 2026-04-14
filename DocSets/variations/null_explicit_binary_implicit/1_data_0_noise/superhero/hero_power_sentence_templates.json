@@ -1,0 +1,79 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "a23efe7a6b5b4d0b": "hero_id",
+    "cb26d860c63f4895": "power_id"
+  },
+  "templates": [
+    {
+      "original": "The hero_id for this superhero is 1.",
+      "template_pattern": "The hero_id for this superhero is [HERO_ID].",
+      "primary_data_fields": [
+        "hero_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This superhero’s hero id equals [HERO_ID].",
+        "The hero id assigned to this superhero is [HERO_ID].",
+        "For this superhero, the hero id is [HERO_ID].",
+        "A hero id of [HERO_ID] is linked to this superhero.",
+        "This superhero is identified by hero id [HERO_ID].",
+        "Hero id [HERO_ID] corresponds to this superhero.",
+        "The value [HERO_ID] serves as the hero id for this superhero.",
+        "In the report, the hero id for this superhero appears as [HERO_ID].",
+        "The superhero’s hero id has been set to [HERO_ID].",
+        "According to the data, this superhero’s hero id is [HERO_ID].",
+        "The hero id, which is [HERO_ID], belongs to this superhero.",
+        "This superhero carries the hero id [HERO_ID].",
+        "As recorded, the hero id for this superhero stands at [HERO_ID].",
+        "The designated hero id for this superhero reads [HERO_ID].",
+        "With a hero id of [HERO_ID], this superhero is cataloged."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "hero_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The power_id is 1.",
+      "template_pattern": "The power_id is [POWER_ID].",
+      "primary_data_fields": [
+        "power_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The power id equals [POWER_ID].",
+        "Power id: [POWER_ID].",
+        "It is reported that the power id is [POWER_ID].",
+        "According to the report, the power id is set to [POWER_ID].",
+        "The value assigned to power id is [POWER_ID].",
+        "Power id has been recorded as [POWER_ID].",
+        "In this dataset, power id is [POWER_ID].",
+        "The figure for power id stands at [POWER_ID].",
+        "Power id is currently [POWER_ID].",
+        "As per the data, the power id reads [POWER_ID].",
+        "The power id has a value of [POWER_ID].",
+        "Recorded value for power id: [POWER_ID].",
+        "The power id, as indicated, is [POWER_ID].",
+        "[POWER_ID] is the designated power id.",
+        "The power id is assigned the value [POWER_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "power_id": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

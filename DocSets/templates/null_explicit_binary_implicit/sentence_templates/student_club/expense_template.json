@@ -1,0 +1,37 @@
+{
+  "database": "student_club",
+  "table": "expense",
+  "entry_index": 0,
+  "original_data": {
+    "expense_id": "rec017x6R3hQqkLAo",
+    "expense_description": "Post Cards, Posters",
+    "expense_date": "2019-08-20",
+    "cost": "122.06",
+    "approved": "true",
+    "link_to_member": "rec4BLdZHS2Blfp4v",
+    "link_to_budget": "recvKTAWAFKkVNnXQ"
+  },
+  "generated_sentences": [
+    "The student club treasurer confirmed that the expense_id rec017x6R3hQqkLAo corresponds to last month's event catering cost. (Hash: 4b911d51ede44250)",
+    "The expense_description includes costs for Post Cards, Posters to promote upcoming events organized by the student clubs. (Hash: 3ed653cd77374341)",
+    "The student organization recorded its expense_date as 2019-08-20, providing a clear timeline for their financial activities. (Hash: 9f23d41e1e3d4e93)",
+    "The student organization recorded a cost of 122.06 for the catering service during their annual general meeting. (Hash: b5cf08437e184355)",
+    "The expense has been approved for the student organization, ensuring it aligns with authorized financial expenditures within the club's budget. (Hash: 8390adb97f8348d1)",
+    "The link_to_member for the recent expense is rec4BLdZHS2Blfp4v, ensuring precise tracking of individual contributions. (Hash: 43e41047573e494f)",
+    "The student organization can easily track expenses by referring to the link_to_budget available at recvKTAWAFKkVNnXQ. (Hash: e3459c2da97c400a)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "4b911d51ede44250": "expense_id",
+    "3ed653cd77374341": "expense_description",
+    "9f23d41e1e3d4e93": "expense_date",
+    "b5cf08437e184355": "cost",
+    "8390adb97f8348d1": "approved",
+    "43e41047573e494f": "link_to_member",
+    "e3459c2da97c400a": "link_to_budget"
+  },
+  "timestamp": "2026-04-13 00:22:03"
+}

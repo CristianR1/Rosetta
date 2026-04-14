@@ -1,0 +1,139 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "74e5c764f4a941b4": "link_to_event",
+    "9ce214c523eb4c51": "link_to_member"
+  },
+  "templates": [
+    {
+      "original": "For more details about the club event, please visit link_to_event at rec2N69DMcrqN9PJC.",
+      "template_pattern": "For more details about the club event, please visit link_to_event at [LINK_TO_EVENT].",
+      "primary_data_fields": [
+        "link_to_event"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To obtain further information on the club event, kindly access link to event at [LINK_TO_EVENT].",
+        "Additional details regarding the club event can be found by visiting link to event at [LINK_TO_EVENT].",
+        "Please consult link to event at [LINK_TO_EVENT] for more information about the club event.",
+        "More information about the club event is available via link to event at [LINK_TO_EVENT].",
+        "Should you need extra details on the club event, go to link to event at [LINK_TO_EVENT].",
+        "The club event's full details are located at link to event at [LINK_TO_EVENT].",
+        "For a comprehensive overview of the club event, refer to link to event at [LINK_TO_EVENT].",
+        "You can find further specifics on the club event by navigating to link to event at [LINK_TO_EVENT].",
+        "Visit link to event at [LINK_TO_EVENT] for additional club event details.",
+        "If you seek more details about the club event, the link to event at [LINK_TO_EVENT] should be consulted.",
+        "More details concerning the club event are accessible through link to event at [LINK_TO_EVENT].",
+        "To learn more about the club event, please proceed to link to event at [LINK_TO_EVENT].",
+        "The link to event at [LINK_TO_EVENT] provides further information on the club event.",
+        "For further club event data, simply open link to event at [LINK_TO_EVENT].",
+        "Detailed information about the club event can be retrieved via link to event at [LINK_TO_EVENT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "event": [
+          "event",
+          "outcome",
+          "consequence"
+        ],
+        "more": [
+          "more"
+        ],
+        "details": [
+          "details"
+        ],
+        "about": [
+          "about",
+          "approximately",
+          "roughly",
+          "around",
+          "nearly",
+          "almost"
+        ],
+        "please": [
+          "please"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "lodge",
+          "society",
+          "order",
+          "clubhouse"
+        ],
+        "visit": [
+          "visit",
+          "inspect",
+          "call",
+          "see",
+          "sojourn"
+        ]
+      },
+      "field_data_types": {
+        "link_to_event": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The link_to_member for tracking individual participation in club events is recD078PnS3x2doBe.",
+      "template_pattern": "The link_to_member for tracking individual participation in club events is [LINK_TO_MEMBER].",
+      "primary_data_fields": [
+        "link_to_member"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The link to member that records each member's participation in club events equals [LINK_TO_MEMBER].",
+        "For tracking individual participation in club events, the link to member is [LINK_TO_MEMBER].",
+        "[LINK_TO_MEMBER] serves as the link to member for monitoring personal involvement in club events.",
+        "Individual participation in club events is tracked via the link to member, which is [LINK_TO_MEMBER].",
+        "The link to member used for club event attendance tracking is identified as [LINK_TO_MEMBER].",
+        "Tracking each member's involvement in club events relies on the link to member: [LINK_TO_MEMBER].",
+        "The code [LINK_TO_MEMBER] represents the link to member for monitoring individual club event participation.",
+        "In the professional data report, the link to member for individual club event tracking is [LINK_TO_MEMBER].",
+        "To monitor personal participation in club events, the link to member is set to [LINK_TO_MEMBER].",
+        "The link to member—used for tracking each participant in club events—is [LINK_TO_MEMBER].",
+        "[LINK_TO_MEMBER] is the designated link to member that tracks individual participation in club events.",
+        "For each club event, the link to member that logs individual participation equals [LINK_TO_MEMBER].",
+        "The link to member, which tracks personal involvement in club events, has the value [LINK_TO_MEMBER].",
+        "Each member’s club event participation is captured through the link to member, assigned the identifier [LINK_TO_MEMBER].",
+        "The identifier [LINK_TO_MEMBER] is the link to member employed for individual club event tracking."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "events": [
+          "events"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trailing"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "society",
+          "order",
+          "lodge"
+        ],
+        "participation": [
+          "participation",
+          "engagement",
+          "involvement"
+        ],
+        "individual": [
+          "individual",
+          "person",
+          "someone"
+        ]
+      },
+      "field_data_types": {
+        "link_to_member": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

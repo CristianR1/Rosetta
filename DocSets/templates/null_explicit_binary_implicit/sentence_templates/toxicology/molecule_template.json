@@ -1,0 +1,22 @@
+{
+  "database": "toxicology",
+  "table": "molecule",
+  "entry_index": 0,
+  "original_data": {
+    "molecule_id": "TR000",
+    "label": "+"
+  },
+  "generated_sentences": [
+    "The molecule_id TR000 plays a crucial role in identifying chemical compounds for toxicology studies. (Hash: af4c87c559634deb)",
+    "The chemical compound is marked with a label of +, indicating it is classified as carcinogenic in toxicology studies. (Hash: a90dd0ff9a2e4633)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "af4c87c559634deb": "molecule_id",
+    "a90dd0ff9a2e4633": "label"
+  },
+  "timestamp": "2026-04-13 00:24:56"
+}

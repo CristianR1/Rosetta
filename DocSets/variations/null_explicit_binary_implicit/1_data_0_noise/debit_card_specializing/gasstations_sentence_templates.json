@@ -1,0 +1,268 @@
+{
+  "document_context": "business data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "0e59a275bbe443cb": "GasStationID",
+    "28c12816df964310": "ChainID",
+    "4eb6f41b81f74f4c": "Country",
+    "379d97716fae425d": "Segment"
+  },
+  "templates": [
+    {
+      "original": "The transaction records indicated that GasStationID 44 had an unusually high volume of debit card purchases last weekend.",
+      "template_pattern": "The transaction records indicated that GasStationID [GASSTATIONID] had an unusually high volume of debit card purchases last weekend.",
+      "primary_data_fields": [
+        "GasStationID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Transaction logs reveal that GasStationID [GASSTATIONID] experienced an exceptionally large number of debit card purchases over the past weekend.",
+        "The records of transactions show GasStationID [GASSTATIONID] had a surprisingly high count of debit card sales last weekend.",
+        "According to the transaction data, debit card purchases surged at GasStationID [GASSTATIONID] during last weekend.",
+        "It was noted in the transaction records that last weekend, GasStationID [GASSTATIONID] recorded an unusually high volume of debit card purchases.",
+        "GasStationID [GASSTATIONID] was found in the transaction logs to have an atypically high amount of debit card buying last weekend.",
+        "The transaction archive indicates a marked increase in debit card purchases at GasStationID [GASSTATIONID] over the weekend just ended.",
+        "In the latest transaction report, GasStationID [GASSTATIONID] displayed a notably high level of debit card transactions for last weekend.",
+        "Debit card buying activity peaked at GasStationID [GASSTATIONID] last weekend, as shown by the transaction records.",
+        "The data shows that during last weekend, GasStationID [GASSTATIONID] posted an unusually high volume of debit card purchases.",
+        "From the transaction records, it emerges that GasStationID [GASSTATIONID] saw a strikingly high number of debit card purchases last weekend.",
+        "Last weekend, the transaction logs indicated that GasStationID [GASSTATIONID] had a surprisingly large volume of debit card purchases.",
+        "A review of transaction entries reveals GasStationID [GASSTATIONID] experienced a high volume of debit card purchases last weekend.",
+        "Transaction records point to an abnormal spike in debit card purchases at GasStationID [GASSTATIONID] during the past weekend.",
+        "The reporting system flagged that GasStationID [GASSTATIONID] recorded an unusually high amount of debit card purchases last weekend.",
+        "According to the transaction summary, GasStationID [GASSTATIONID] registered a very high volume of debit card purchases over the weekend."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "weekend": [
+          "weekend"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "high": [
+          "high",
+          "eminent"
+        ],
+        "indicated": [
+          "indicated"
+        ],
+        "purchases": [
+          "purchases"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "last": [
+          "last",
+          "final",
+          "terminal",
+          "concluding"
+        ]
+      },
+      "field_data_types": {
+        "GasStationID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The gas station chain with ChainID 13 has implemented new strategies to enhance its customer service and operational efficiency.",
+      "template_pattern": "The gas station chain with ChainID [CHAINID] has implemented new strategies to enhance its customer service and operational efficiency.",
+      "primary_data_fields": [
+        "ChainID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The gas station chain identified by ChainID [CHAINID] has rolled out fresh initiatives aimed at boosting both customer service and operational efficiency.",
+        "New strategies have been adopted by the gas station chain bearing ChainID [CHAINID] to improve its customer service and operational efficiency.",
+        "With ChainID [CHAINID], the gas station chain introduced innovative measures to elevate customer service and streamline operations.",
+        "To strengthen customer service and operational efficiency, the gas station chain (ChainID [CHAINID]) has put new strategies into action.",
+        "The gas station chain that carries ChainID [CHAINID] is now employing novel tactics to enhance its service to customers and its operational performance.",
+        "By implementing new strategies, the gas station chain, ChainID [CHAINID], seeks to upgrade customer service and increase operational efficiency.",
+        "ChainID [CHAINID]’s gas station chain has launched new approaches designed to improve both its customer service and operational efficiency.",
+        "In an effort to raise customer service standards and operational efficiency, the gas station chain with ChainID [CHAINID] has introduced new strategies.",
+        "The gas station chain (ChainID [CHAINID]) has begun applying fresh strategies to better its customer service and operational efficiency.",
+        "New tactics have been put in place by the gas station chain holding ChainID [CHAINID] to boost customer service and operational efficiency.",
+        "To augment its customer service and operational efficiency, the gas station chain designated as ChainID [CHAINID] has implemented new strategies.",
+        "The chain of gas stations that holds ChainID [CHAINID] has adopted new strategies for the purpose of enhancing customer service and operational efficiency.",
+        "Enhancing both customer service and operational efficiency, the gas station chain with ChainID [CHAINID] has rolled out new strategies.",
+        "The gas station network identified by ChainID [CHAINID] has initiated new strategic measures to improve its customer service and operational efficiency.",
+        "With the aim of improving customer service and operational efficiency, new strategies have been implemented by the gas station chain bearing ChainID [CHAINID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "operational": [
+          "operational",
+          "operating",
+          "functional",
+          "operable"
+        ],
+        "efficiency": [
+          "efficiency"
+        ],
+        "strategies": [
+          "strategies"
+        ],
+        "implemented": [
+          "implemented"
+        ],
+        "station": [
+          "station",
+          "place",
+          "post"
+        ],
+        "chain": [
+          "chain",
+          "string",
+          "strand"
+        ],
+        "service": [
+          "service",
+          "help"
+        ]
+      },
+      "field_data_types": {
+        "ChainID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many gas stations in the CZE offer a unique opportunity to explore the country's diverse landscapes while refueling.",
+      "template_pattern": "Many gas stations in the [COUNTRY] offer a unique opportunity to explore the country's diverse landscapes while refueling.",
+      "primary_data_fields": [
+        "Country"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Many gas stations in the [COUNTRY] present a unique chance to explore the country's diverse landscapes while refueling.",
+        "While refueling, travelers can take advantage of the unique opportunity offered by many gas stations across the [COUNTRY] to discover the country's diverse landscapes.",
+        "A unique opportunity to see the country's diverse landscapes while refueling is offered by many gas stations in the [COUNTRY].",
+        "In the [COUNTRY], many gas stations give motorists a distinctive opening to explore the country's diverse landscapes as they refuel.",
+        "The country's diverse landscapes can be explored during refueling thanks to many gas stations that exist in the [COUNTRY].",
+        "During a fuel stop, many gas stations in the [COUNTRY] allow you to uniquely explore the country's diverse landscapes.",
+        "Unique opportunities to discover the country's diverse landscapes while topping up are provided by many gas stations throughout the [COUNTRY].",
+        "While you refuel, the country's diverse landscapes become accessible through many gas stations situated in the [COUNTRY].",
+        "The [COUNTRY] hosts many gas stations that uniquely enable exploration of the country's diverse landscapes during refueling.",
+        "Exploration of the country's diverse landscapes while refueling is uniquely facilitated by many gas stations in the [COUNTRY].",
+        "As you fill up, many gas stations located in the [COUNTRY] grant a singular chance to tour the country's diverse landscapes.",
+        "Many gas stations across the [COUNTRY] afford a one‑of‑a‑kind opportunity to view the country's diverse landscapes during a refuel.",
+        "A one‑off chance to explore the country's diverse landscapes while refueling is afforded by many gas stations in the [COUNTRY].",
+        "The country's diverse landscapes can be explored uniquely when refueling at any of the many gas stations in the [COUNTRY].",
+        "Refueling at many gas stations in the [COUNTRY] opens a special window to explore the country's diverse landscapes."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "opportunity": [
+          "opportunity",
+          "chance"
+        ],
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "refueling": [
+          "refueling",
+          "fueling"
+        ],
+        "landscapes": [
+          "landscapes"
+        ],
+        "explore": [
+          "explore",
+          "search",
+          "research"
+        ],
+        "while": [
+          "while",
+          "spell"
+        ],
+        "many": [
+          "many"
+        ]
+      },
+      "field_data_types": {
+        "Country": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The gas station's Segment focuses on providing value for money, catering to budget-conscious customers seeking affordable and efficient services.",
+      "template_pattern": "The gas station's Segment focuses on providing [SEGMENT], catering to budget-conscious customers seeking affordable and efficient services.",
+      "primary_data_fields": [
+        "Segment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Focusing on [SEGMENT], the gas station's Segment serves budget-conscious customers who look for affordable and efficient services.",
+        "The gas station's Segment is dedicated to delivering [SEGMENT] and targets budget-conscious customers seeking affordable and efficient services.",
+        "[SEGMENT] is the core of the gas station's Segment, which aims at budget-conscious customers wanting affordable and efficient services.",
+        "Targeting budget-conscious customers, the gas station's Segment emphasizes [SEGMENT] and offers affordable and efficient services.",
+        "In the gas station's Segment, [SEGMENT] is prioritized to attract budget-conscious customers desiring affordable and efficient services.",
+        "Budget-conscious customers are catered to by the gas station's Segment, which focuses on providing [SEGMENT] and affordable and efficient services.",
+        "Providing affordable and efficient services, the gas station's Segment concentrates on [SEGMENT] for budget-conscious customers.",
+        "The gas station's Segment, aimed at budget-conscious customers, concentrates on delivering [SEGMENT] through affordable and efficient services.",
+        "[SEGMENT] underpins the gas station's Segment, which serves budget-conscious customers seeking affordable and efficient services.",
+        "For budget-conscious customers, the gas station's Segment provides affordable and efficient services while focusing on [SEGMENT].",
+        "The gas station's Segment, with an emphasis on [SEGMENT], meets the needs of budget-conscious customers looking for affordable and efficient services.",
+        "By prioritizing [SEGMENT], the gas station's Segment appeals to budget-conscious customers who want affordable and efficient services.",
+        "The gas station's Segment is oriented toward budget-conscious customers, delivering [SEGMENT] and affordable and efficient services.",
+        "Budget-conscious customers seeking affordable and efficient services are the focus of the gas station's Segment, which stresses [SEGMENT].",
+        "Through affordable and efficient services, the gas station's Segment seeks to provide [SEGMENT] to budget-conscious customers."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "seeking": [
+          "seeking"
+        ],
+        "affordable": [
+          "affordable"
+        ],
+        "services": [
+          "services"
+        ],
+        "budget": [
+          "budget"
+        ],
+        "conscious": [
+          "conscious"
+        ],
+        "customers": [
+          "customers"
+        ],
+        "focuses": [
+          "focuses"
+        ],
+        "station": [
+          "station",
+          "place",
+          "post"
+        ]
+      },
+      "field_data_types": {
+        "Segment": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

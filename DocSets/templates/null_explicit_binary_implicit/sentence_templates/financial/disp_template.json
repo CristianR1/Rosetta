@@ -1,0 +1,31 @@
+{
+  "database": "financial",
+  "table": "disp",
+  "entry_index": 0,
+  "original_data": {
+    "disp_id": "1",
+    "client_id": "1",
+    "account_id": "1",
+    "type": "OWNER"
+  },
+  "generated_sentences": [
+    "The disp_id for this account disposition record is 1. (Hash: 8458b122a6624092)",
+    "The client_id is 1. (Hash: 3cc9b610f6714120)",
+    "The account_id is 1. (Hash: 1ea70b50a83748b4)",
+    "As the OWNER, she held the highest level of access and rights to manage the account effectively. (Hash: 90e494f31a884af0)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "8458b122a6624092": "disp_id",
+    "3cc9b610f6714120": "client_id",
+    "1ea70b50a83748b4": "account_id",
+    "90e494f31a884af0": "type"
+  },
+  "timestamp": "2026-04-13 00:18:37",
+  "narrative": [
+    "The disp_id for this account disposition record is 1. (Hash: 8458b122a6624092)"
+  ]
+}

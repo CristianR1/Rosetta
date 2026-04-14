@@ -1,0 +1,518 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6ea4b2d7f1754986": "Id",
+    "43d4e4e55438485c": "PostId",
+    "5fce278cb70842ae": "Score",
+    "59d1b6e7ec32488b": "Text",
+    "cf3e92cde14743d7": "CreationDate",
+    "69f8809242c941ba": "UserId",
+    "85a194b2869a4dcd": "UserDisplayName"
+  },
+  "templates": [
+    {
+      "original": "The discussion on PostId 3 sparked a lively debate among the community members, leading to numerous insightful comments.",
+      "template_pattern": "The discussion on PostId [POSTID] sparked a lively debate among the community members, leading to numerous insightful comments.",
+      "primary_data_fields": [
+        "PostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A lively debate erupted among community members after the discussion on PostId [POSTID], producing numerous insightful comments.",
+        "Following the discussion on PostId [POSTID], community members engaged in a spirited debate that generated many insightful comments.",
+        "The community members' spirited debate was ignited by the discussion on PostId [POSTID], resulting in a wealth of insightful comments.",
+        "Because the discussion on PostId [POSTID] sparked a lively debate, numerous insightful comments were posted by community members.",
+        "Numerous insightful comments emerged as the discussion on PostId [POSTID] fueled a vibrant debate among the community members.",
+        "The debate that unfolded among community members, sparked by the discussion on PostId [POSTID], led to many insightful comments.",
+        "After the discussion on PostId [POSTID], a vibrant debate broke out within the community, yielding a multitude of insightful comments.",
+        "The discussion on PostId [POSTID] set off a lively debate among community members, which in turn produced numerous insightful comments.",
+        "Community members launched a lively debate when the discussion on PostId [POSTID] was introduced, culminating in many insightful comments.",
+        "Sparked by the discussion on PostId [POSTID], a lively debate among community members gave rise to numerous insightful comments.",
+        "The lively debate among community members, caused by the discussion on PostId [POSTID], resulted in a plethora of insightful comments.",
+        "As a result of the discussion on PostId [POSTID], community members entered a spirited debate, leading to countless insightful comments.",
+        "The discussion on PostId [POSTID] triggered a vibrant debate among community members, which led to a number of insightful comments.",
+        "Numerous insightful comments were the outcome of a lively debate sparked by the discussion on PostId [POSTID] among community members.",
+        "With the discussion on PostId [POSTID] as the catalyst, community members engaged in a lively debate that produced many insightful comments."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "leading": [
+          "leading",
+          "precede",
+          "direct",
+          "ahead",
+          "top",
+          "preeminent",
+          "guide"
+        ],
+        "community": [
+          "community"
+        ],
+        "insightful": [
+          "insightful"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse"
+        ],
+        "numerous": [
+          "numerous",
+          "legion"
+        ],
+        "comments": [
+          "comments"
+        ],
+        "members": [
+          "members"
+        ],
+        "sparked": [
+          "sparked"
+        ]
+      },
+      "field_data_types": {
+        "PostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The comment received a Score of 5, indicating a generally negative sentiment from the community feedback.",
+      "template_pattern": "The comment received a Score of [SCORE], indicating a generally negative sentiment from the community feedback.",
+      "primary_data_fields": [
+        "Score"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The comment earned a Score of [SCORE], reflecting overall negative sentiment in the community feedback.",
+        "A Score of [SCORE] was assigned to the comment, signalling a broadly unfavorable community response.",
+        "Community feedback gave the comment a Score of [SCORE], which points to a generally negative sentiment.",
+        "With a Score of [SCORE], the comment shows a largely negative tone from the community's input.",
+        "The comment was marked with a Score of [SCORE], indicating that the community feedback is mostly negative.",
+        "Receiving a Score of [SCORE], the comment suggests a predominantly negative sentiment among users.",
+        "The community’s feedback resulted in the comment receiving a Score of [SCORE], denoting a generally adverse sentiment.",
+        "A Score of [SCORE], as recorded for the comment, reveals a chiefly negative reaction from the community.",
+        "The comment attained a Score of [SCORE], which conveys a generally negative feeling in the community feedback.",
+        "According to community feedback, the comment carries a Score of [SCORE], implying an overall negative sentiment.",
+        "The comment’s Score of [SCORE] reflects a broadly negative sentiment expressed by the community.",
+        "Assigned a Score of [SCORE], the comment indicates a mainly negative outlook from community responses.",
+        "Community input assigned the comment a Score of [SCORE], signaling a generally negative sentiment.",
+        "The comment holds a Score of [SCORE], pointing to a prevailing negative sentiment in the community feedback.",
+        "A Score of [SCORE] was recorded for the comment, denoting that the community feedback is largely negative."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "sentiment": [
+          "sentiment",
+          "opinion",
+          "view",
+          "thought"
+        ],
+        "community": [
+          "community"
+        ],
+        "comment": [
+          "comment",
+          "remark",
+          "commentary",
+          "notice",
+          "input"
+        ],
+        "feedback": [
+          "feedback"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "generally": [
+          "generally",
+          "mostly",
+          "broadly"
+        ],
+        "negative": [
+          "negative",
+          "damaging",
+          "disconfirming",
+          "minus"
+        ],
+        "received": [
+          "received"
+        ]
+      },
+      "field_data_types": {
+        "Score": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In a lively discussion about programming paradigms, one comment noted, \"Could be a poster child fo argumentative and subjective. At the least, need to define 'valuable'.\"",
+      "template_pattern": "In a lively discussion about programming paradigms, one comment noted, [TEXT]",
+      "primary_data_fields": [
+        "Text"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Text: During an animated debate on programming paradigms, a participant remarked, [TEXT]",
+        "Text: A lively conversation about programming paradigms featured a comment that stated, [TEXT]",
+        "Text: In the midst of a spirited discussion regarding programming paradigms, one voice observed, [TEXT]",
+        "Text: While participants energetically exchanged views on programming paradigms, someone noted, [TEXT]",
+        "Text: The discussion on programming paradigms, which was quite lively, produced a remark: [TEXT]",
+        "Text: A comment emerged in a vibrant talk about programming paradigms, saying, [TEXT]",
+        "Text: In a bustling dialogue concerning programming paradigms, one comment was recorded: [TEXT]",
+        "Text: Among the energetic exchange on programming paradigms, a participant contributed, [TEXT]",
+        "Text: The conversation about programming paradigms was lively, and a remark was made: [TEXT]",
+        "Text: A lively debate on programming paradigms led to the observation, [TEXT]",
+        "Text: In the course of a dynamic discussion on programming paradigms, an individual pointed out, [TEXT]",
+        "Text: While the talk on programming paradigms was animated, a comment surfaced, [TEXT]",
+        "Text: An animated exchange regarding programming paradigms produced the comment, [TEXT]",
+        "Text: The forum on programming paradigms buzzed with energy, prompting someone to say, [TEXT]",
+        "Text: During a vigorous discussion about programming paradigms, a voice declared, [TEXT]"
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "noted": [
+          "noted",
+          "celebrated",
+          "famed",
+          "famous",
+          "illustrious",
+          "renowned"
+        ],
+        "paradigms": [
+          "paradigms"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse",
+          "treatment"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "comment": [
+          "comment",
+          "remark",
+          "commentary",
+          "input",
+          "gloss",
+          "notice"
+        ],
+        "about": [
+          "about",
+          "approximately",
+          "around",
+          "near",
+          "nearly",
+          "roughly"
+        ],
+        "lively": [
+          "lively",
+          "brisk",
+          "vital",
+          "alert",
+          "merry"
+        ]
+      },
+      "field_data_types": {
+        "Text": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On 2010-07-19 19:15:52.0, a lively discussion unfolded as a user contributed their thoughts to the ongoing conversation.",
+      "template_pattern": "On [CREATIONDATE], a lively discussion unfolded as a user contributed their thoughts to the ongoing conversation.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Creation Date [CREATIONDATE] saw a vibrant discussion emerge when a user added their insights to the ongoing dialogue.",
+        "At Creation Date [CREATIONDATE], a spirited exchange began as a participant offered their thoughts to the continuing conversation.",
+        "On the timestamp Creation Date [CREATIONDATE], a lively debate was sparked by a user contributing their ideas to the persistent discussion.",
+        "Creation Date [CREATIONDATE] marked the moment a dynamic discussion unfolded, with a user sharing their perspective in the ongoing chat.",
+        "During Creation Date [CREATIONDATE], a fervent conversation took shape as a user injected their opinions into the continuing discourse.",
+        "When Creation Date [CREATIONDATE] arrived, a bustling dialogue was set in motion, propelled by a user’s input into the existing conversation.",
+        "Creation Date [CREATIONDATE]—at that point—a lively discussion developed, and a user contributed their remarks to the ongoing exchange.",
+        "At the moment marked by Creation Date [CREATIONDATE], a robust conversation was underway, with a user offering their thoughts to the persistent dialogue.",
+        "Creation Date [CREATIONDATE] witnessed a spirited talk blossom as a user added their viewpoint to the continuing conversation.",
+        "On Creation Date [CREATIONDATE], the conversation became animated when a user supplied their ideas to the ongoing discussion.",
+        "The timestamp Creation Date [CREATIONDATE] triggered a lively exchange, with a user delivering their thoughts into the still‑active conversation.",
+        "At Creation Date [CREATIONDATE], a vibrant dialogue unfolded; a user contributed their insights to the persisting conversation.",
+        "When the clock read Creation Date [CREATIONDATE], a dynamic discussion took off as a user shared their perspective within the ongoing chat.",
+        "Creation Date [CREATIONDATE] saw an animated discussion arise, with a user feeding their thoughts into the continuing exchange.",
+        "During the period indicated by Creation Date [CREATIONDATE], a lively conversation emerged, driven by a user’s contribution of their ideas to the ongoing dialogue."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "discussion": [
+          "discussion",
+          "discourse",
+          "treatment"
+        ],
+        "conversation": [
+          "conversation"
+        ],
+        "lively": [
+          "lively",
+          "brisk",
+          "vital",
+          "snappy",
+          "alert",
+          "racy"
+        ],
+        "user": [
+          "user"
+        ],
+        "ongoing": [
+          "ongoing"
+        ],
+        "unfolded": [
+          "unfolded"
+        ],
+        "their": [
+          "their"
+        ],
+        "thoughts": [
+          "thoughts"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "UserId 13 consistently contributes insightful comments that spark engaging discussions within the programming community platform.",
+      "template_pattern": "UserId [USERID] consistently contributes insightful comments that spark engaging discussions within the programming community platform.",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "UserId [USERID] regularly offers insightful comments that ignite lively discussions on the programming community platform.",
+        "On the programming community platform, insightful comments are consistently contributed by UserId [USERID], sparking engaging discussions.",
+        "Engaging discussions within the programming community platform are sparked by the insightful comments that UserId [USERID] consistently provides.",
+        "Consistently, UserId [USERID] contributes insightful remarks, fueling vibrant conversations on the programming community platform.",
+        "The programming community platform sees lively debates thanks to the insightful comments regularly posted by UserId [USERID].",
+        "Insightful comments that provoke engaging dialogue are a steady output of UserId [USERID] on the programming community platform.",
+        "UserId [USERID]’s consistent contribution of insightful comments fuels engaging discussions throughout the programming community platform.",
+        "Within the programming community platform, engaging discussions are sparked by the consistently insightful comments from UserId [USERID].",
+        "The steady flow of insightful comments from UserId [USERID] generates vibrant discussions across the programming community platform.",
+        "Across the programming community platform, UserId [USERID] consistently fuels engaging discussions with insightful commentary.",
+        "Insightful commentary by UserId [USERID], delivered consistently, ignites engaging conversation on the programming community platform.",
+        "The programming community platform benefits from UserId [USERID]’s regular, insightful comments that stir engaging discussions.",
+        "Engaging discussions are continually sparked on the programming community platform by UserId [USERID]’s consistent, insightful remarks.",
+        "UserId [USERID]’s regular insightful comments act as a catalyst for lively discussion throughout the programming community platform.",
+        "On the programming community platform, the consistent, insightful contributions of UserId [USERID] provoke engaging dialogues."
+      ],
+      "counter_variations": [
+        "Although the User Id null is presently undefined, its omission subtly shapes system behavior throughout numerous analytical modules.",
+        "The current undefined state of User Id null nevertheless exerts a subtle influence on system behavior across multiple analytical modules.",
+        "While User Id null remains undefined at this stage, its lack nonetheless exerts a nuanced impact on system behavior in a variety of analytical modules.",
+        "Even though User Id null is still undefined, the silent effect it triggers permeates system behavior within several analytical modules.",
+        "Given that User Id null stays undefined, the latent effect it produces gently alters system behavior across many analytical modules.",
+        "User Id null, currently undefined, quietly modulates system behavior across a spectrum of analytical modules.",
+        "In the present undefined condition of User Id null, a subtle modulation of system behavior can be observed throughout multiple analytical modules.",
+        "The undefined status of User Id null, while seemingly inert, subtly sways system behavior across various analytical modules.",
+        "Because User Id null remains undefined, a faint yet discernible influence on system behavior manifests in several analytical modules.",
+        "Despite being undefined, User Id null exerts an understated effect on system behavior that propagates through multiple analytical modules.",
+        "User Id null’s undefined nature quietly informs system behavior, imparting a delicate influence across a range of analytical modules.",
+        "With User Id null still undefined, the system behavior experiences a subtle shift that reverberates through many analytical modules.",
+        "Although undefined, the presence of User Id null subtly informs system behavior across an array of analytical modules.",
+        "The fact that User Id null is undefined currently introduces a nuanced impact on system behavior within multiple analytical modules.",
+        "Even in its undefined state, User Id null contributes a faint influence that subtly shapes system behavior across several analytical modules."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "community": [
+          "community"
+        ],
+        "insightful": [
+          "insightful"
+        ],
+        "comments": [
+          "comments"
+        ],
+        "contributes": [
+          "contributes"
+        ],
+        "programming": [
+          "programming",
+          "programme"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "spark": [
+          "spark",
+          "arc",
+          "glint",
+          "sparkle",
+          "discharge"
+        ],
+        "platform": [
+          "platform"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The user display name for this member is NULL, making their contributions in the programming community harder to identify.",
+      "template_pattern": "The user display name for this member is [USERDISPLAYNAME], making their contributions in the programming community harder to identify.",
+      "primary_data_fields": [
+        "UserDisplayName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "User Display Name [USERDISPLAYNAME] is assigned to this participant, which in turn determines how the platform perceives their activity.",
+        "This participant’s User Display Name, set as [USERDISPLAYNAME], consequently affects the recognition of their activity on the platform.",
+        "The platform recognizes the activity of this participant based on the assigned User Display Name [USERDISPLAYNAME].",
+        "Because the User Display Name assigned to this participant is [USERDISPLAYNAME], their activity is interpreted in a specific way by the platform.",
+        "User Display Name [USERDISPLAYNAME] has been allocated to this participant, thereby influencing the platform’s view of their activity.",
+        "Having [USERDISPLAYNAME] as the User Display Name for this participant, the platform consequently identifies their activity accordingly.",
+        "The assignment of User Display Name [USERDISPLAYNAME] to this participant shapes the manner in which the platform acknowledges their activity.",
+        "Since this participant’s User Display Name is [USERDISPLAYNAME], the platform’s recognition of their activity is affected.",
+        "User Display Name [USERDISPLAYNAME], attached to this participant, guides how the platform registers their activity.",
+        "When the User Display Name [USERDISPLAYNAME] is assigned to this participant, it directly impacts the platform’s detection of their activity.",
+        "The participant’s activity is recognized on the platform in light of the User Display Name [USERDISPLAYNAME] that has been assigned.",
+        "Because [USERDISPLAYNAME] serves as the User Display Name for this participant, it alters the way the platform perceives their activity.",
+        "The platform’s handling of this participant’s activity is influenced by the User Display Name [USERDISPLAYNAME] that has been designated.",
+        "User Display Name [USERDISPLAYNAME], designated for this participant, consequently shapes the platform’s interpretation of their activity.",
+        "Given that the User Display Name assigned to this participant is [USERDISPLAYNAME], the platform’s acknowledgment of their activity changes accordingly."
+      ],
+      "counter_variations": [
+        "Because the User Display Name for this member is null, pinpointing their contributions within the programming community becomes considerably more challenging.",
+        "The null value assigned to the User Display Name of this member significantly hampers the ability to identify their work in the programming community.",
+        "With the User Display Name recorded as null for this member, discerning their input to the programming community proves difficult.",
+        "The programming community finds it harder to recognize this member’s contributions owing to the User Display Name being null.",
+        "Since the User Display Name for this member is null, their contributions to the programming community are less readily traceable.",
+        "A null setting for the User Display Name of this member obscures the identification of their programming community contributions.",
+        "The member’s contributions in the programming community are rendered more opaque because the User Display Name is null.",
+        "Owing to a null entry for the User Display Name pertaining to this member, extracting their programming community contributions is more cumbersome.",
+        "The null status of the User Display Name for this member complicates the task of linking their work to the programming community.",
+        "When the User Display Name for this member is null, the process of locating their contributions within the programming community becomes arduous.",
+        "The presence of null in the User Display Name field for this member diminishes the clarity with which their programming community contributions can be identified.",
+        "Because this member’s User Display Name is null, analysts encounter greater difficulty in associating their output with the programming community.",
+        "The fact that the User Display Name of this member is null makes it substantially harder to attribute their programming community contributions.",
+        "A null User Display Name attached to this member impedes the clear identification of their role in the programming community.",
+        "The null assignment to the User Display Name for this member obstructs efficient recognition of their contributions to the programming community."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "community": [
+          "community"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "making": [
+          "making",
+          "fashioning",
+          "building"
+        ],
+        "identify": [
+          "identify",
+          "name",
+          "distinguish"
+        ],
+        "user": [
+          "user"
+        ],
+        "harder": [
+          "harder",
+          "difficult",
+          "tough",
+          "laborious",
+          "arduous",
+          "gruelling"
+        ],
+        "their": [
+          "their"
+        ],
+        "member": [
+          "member"
+        ]
+      },
+      "field_data_types": {
+        "UserDisplayName": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The system assigns the record an Id of 1, indicating its unique position within the comprehensive technology data report framework.",
+      "template_pattern": "The system assigns a unique Id to each device, ensuring that [ID] can be tracked throughout the lifecycle of the technology.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The system assigns a unique Id to every device, guaranteeing that [ID] remains traceable across the technology’s lifecycle.",
+        "A unique Id is assigned by the system to each device, so that [ID] can be followed throughout the lifecycle of the technology.",
+        "By assigning a unique Id to each device, the system ensures [ID] is trackable during the entire technology lifecycle.",
+        "Each device receives a unique Id from the system, which makes it possible to monitor [ID] across the technology’s whole lifecycle.",
+        "The system’s allocation of a unique Id to every device allows [ID] to be tracked throughout the technology’s lifecycle.",
+        "With a unique Id given to each device by the system, [ID] can be traced for the duration of the technology’s lifecycle.",
+        "The system provides each device with a unique Id, thereby ensuring that [ID] can be followed through the full lifecycle of the technology.",
+        "A unique Id is provided to each device by the system, enabling the tracking of [ID] across the technology’s complete lifecycle.",
+        "Assigning a unique Id to each device, the system makes certain that [ID] is traceable throughout the technology’s lifecycle.",
+        "The system’s practice of assigning a unique Id to each device guarantees that [ID] can be monitored during the entire lifecycle of the technology.",
+        "Each device is given a unique Id by the system, which ensures [ID] can be followed throughout the lifecycle of the technology.",
+        "By giving every device a unique Id, the system ensures that [ID] remains trackable across the technology’s lifecycle.",
+        "The system assigns a unique Id to each device so that [ID] may be tracked for the full span of the technology’s lifecycle.",
+        "A unique Id is allocated by the system to each device, allowing [ID] to be traced throughout the technology’s lifecycle.",
+        "Through assigning a unique Id to each device, the system assures that [ID] can be followed across the entire lifecycle of the technology."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "assigns": [
+          "assigns"
+        ],
+        "system": [
+          "system",
+          "scheme",
+          "organization",
+          "organisation",
+          "arrangement"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "throughout": [
+          "throughout"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unparalleled",
+          "unequaled",
+          "singular"
+        ],
+        "device": [
+          "device"
+        ],
+        "technology": [
+          "technology",
+          "engineering"
+        ],
+        "lifecycle": [
+          "lifecycle"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

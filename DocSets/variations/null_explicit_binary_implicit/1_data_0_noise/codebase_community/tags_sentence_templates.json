@@ -1,0 +1,370 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "27db925612134d6c": "Id",
+    "6d0c6be5557647e1": "TagName",
+    "36107bdebf184ca0": "Count",
+    "4031bc91528446e2": "ExcerptPostId",
+    "dacce8bb7055494b": "WikiPostId"
+  },
+  "templates": [
+    {
+      "original": "The system assigns each device a unique Id, and the report shows that the current entry is identified by [ID] for tracking purposes.",
+      "template_pattern": "The system assigns each device a unique Id, and the report shows that the current entry is identified by [ID] for tracking purposes.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each device receives a unique Id from the system, and the report indicates that the present entry is tracked by [ID].",
+        "The system allocates a unique Id to every device, while the report confirms that [ID] serves as the identifier for the current entry.",
+        "In the report, the current entry is shown as being identified by [ID], after the system has assigned each device a unique Id.",
+        "A unique Id is assigned to each device by the system, and the report lists [ID] as the identifier of the active record.",
+        "According to the report, the active record is flagged with [ID]; this follows the system's assignment of a unique Id to every device.",
+        "The system’s assignment of a unique Id to each device precedes the report’s notation that the current entry is marked by [ID] for tracking.",
+        "Each device gets a unique Id from the system, and the report reveals that [ID] is used to identify the current entry.",
+        "After the system assigns a unique Id to each device, the report displays [ID] as the identifier for the present entry.",
+        "The current entry is labeled with [ID] for tracking, as documented in the report, following the system’s distribution of a unique Id to all devices.",
+        "The report indicates that [ID] identifies the current entry, which occurs after the system allocates a unique Id to each device.",
+        "A unique Id is given to each device by the system, and the report states that the current entry is identified by [ID] for tracking purposes.",
+        "For tracking purposes, the report shows the current entry is identified by [ID] after the system has provided each device with a unique Id.",
+        "The system provides each device with a unique Id, and subsequently the report marks the current entry using [ID] for tracking.",
+        "In the system, every device receives a unique Id; the report then shows that the current entry is identified by [ID] for tracking.",
+        "The report confirms that [ID] serves as the identifier of the current entry, following the system’s assignment of a unique Id to each device."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequaled",
+          "unequalled",
+          "singular"
+        ],
+        "assigns": [
+          "assigns"
+        ],
+        "current": [
+          "current"
+        ],
+        "system": [
+          "system",
+          "organization",
+          "organisation",
+          "arrangement",
+          "scheme"
+        ],
+        "entry": [
+          "entry",
+          "submission",
+          "entrance",
+          "entranceway",
+          "entryway",
+          "ingress"
+        ],
+        "purposes": [
+          "purposes"
+        ],
+        "tracking": [
+          "tracking"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study",
+          "composition"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The TagName bayesian is frequently used by programmers to discuss topics related to probability and statistical inference.",
+      "template_pattern": "The TagName [TAGNAME] is frequently used by programmers to discuss topics related to probability and statistical inference.",
+      "primary_data_fields": [
+        "TagName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Programmers often employ the TagName [TAGNAME] when they talk about probability and statistical inference.",
+        "The TagName [TAGNAME] is commonly utilized by programmers to converse on subjects of probability and statistical inference.",
+        "Frequently, programmers turn to the TagName [TAGNAME] as a means of discussing probability and statistical inference.",
+        "In discussions of probability and statistical inference, programmers frequently make use of the TagName [TAGNAME].",
+        "The TagName [TAGNAME] sees regular use among programmers for conversations concerning probability and statistical inference.",
+        "For topics involving probability and statistical inference, programmers habitually use the TagName [TAGNAME].",
+        "Probability and statistical inference are often addressed by programmers through the TagName [TAGNAME].",
+        "Among programmers, the TagName [TAGNAME] is a frequent tool for debating probability and statistical inference.",
+        "To talk about probability and statistical inference, programmers regularly rely on the TagName [TAGNAME].",
+        "The TagName [TAGNAME], frequently chosen by programmers, serves to discuss probability and statistical inference.",
+        "When programmers discuss probability and statistical inference, they frequently resort to the TagName [TAGNAME].",
+        "The TagName [TAGNAME] is a popular choice for programmers seeking to explore probability and statistical inference.",
+        "Programmers commonly adopt the TagName [TAGNAME] as a platform for probability and statistical inference discussions.",
+        "In the realm of probability and statistical inference, the TagName [TAGNAME] is often employed by programmers.",
+        "The TagName [TAGNAME] is routinely used by programmers to engage in topics related to probability and statistical inference."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "topics": [
+          "topics"
+        ],
+        "frequently": [
+          "frequently",
+          "often"
+        ],
+        "probability": [
+          "probability",
+          "chance"
+        ],
+        "programmers": [
+          "programmers"
+        ],
+        "related": [
+          "related"
+        ],
+        "inference": [
+          "inference"
+        ],
+        "discuss": [
+          "discuss"
+        ],
+        "used": [
+          "used",
+          "utilized",
+          "employed"
+        ]
+      },
+      "field_data_types": {
+        "TagName": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The topic tag has gained significant attention, appearing in 1342 posts within the programming community platform, highlighting its popularity.",
+      "template_pattern": "The topic tag has gained significant attention, appearing in [COUNT] posts within the programming community platform, highlighting its popularity.",
+      "primary_data_fields": [
+        "Count"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The topic tag has attracted considerable interest, showing up in [COUNT] posts on the programming community platform, which underscores its popularity.",
+        "With [COUNT] posts featuring the topic tag on the programming community platform, its popularity is evident as it draws notable attention.",
+        "Significant attention has been garnered by the topic tag, as it appears in [COUNT] posts across the programming community platform, highlighting its widespread appeal.",
+        "Appearing in [COUNT] posts within the programming community platform, the topic tag has become a focal point, reflecting its strong popularity.",
+        "The programming community platform records the topic tag in [COUNT] posts, a sign of the considerable attention and popularity it enjoys.",
+        "Having been mentioned in [COUNT] posts on the programming community platform, the topic tag enjoys substantial attention and notable popularity.",
+        "The topic tag, featured in [COUNT] posts on the programming community platform, has garnered notable attention and demonstrates clear popularity.",
+        "Notably, the topic tag surfaces in [COUNT] posts across the programming community platform, signaling its high level of attention and popularity.",
+        "Through its presence in [COUNT] posts on the programming community platform, the topic tag has attracted significant attention and underscores its popularity.",
+        "The programming community platform shows the topic tag in [COUNT] posts, indicating the tag’s considerable attention and popularity.",
+        "A total of [COUNT] posts on the programming community platform contain the topic tag, reflecting the substantial attention it has received.",
+        "The topic tag is cited in [COUNT] posts within the programming community platform, a testament to its popularity and the attention it commands.",
+        "Within the programming community platform, the topic tag appears in [COUNT] posts, highlighting the significant attention it has garnered.",
+        "The considerable attention received by the topic tag is evident from its appearance in [COUNT] posts on the programming community platform, showcasing its popularity.",
+        "In [COUNT] posts on the programming community platform, the topic tag is present, illustrating the considerable attention and popularity it enjoys."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "community": [
+          "community"
+        ],
+        "attention": [
+          "attention"
+        ],
+        "topic": [
+          "topic",
+          "subject",
+          "matter",
+          "issue",
+          "theme"
+        ],
+        "appearing": [
+          "appearing"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "popularity": [
+          "popularity"
+        ]
+      },
+      "field_data_types": {
+        "Count": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The ExcerptPostId 20258 plays a crucial role in organizing and retrieving posts within the programming community platform.",
+      "template_pattern": "The ExcerptPostId [EXCERPTPOSTID] plays a crucial role in organizing and retrieving posts within the programming community platform.",
+      "primary_data_fields": [
+        "ExcerptPostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "ExcerptPostId [EXCERPTPOSTID] is essential for sorting and accessing posts on the programming community platform.",
+        "Within the programming community platform, the ExcerptPostId [EXCERPTPOSTID] serves a critical function in organizing and retrieving posts.",
+        "The platform’s ability to organize and retrieve posts hinges on ExcerptPostId [EXCERPTPOSTID].",
+        "Posts are efficiently organized and fetched in the programming community platform thanks to ExcerptPostId [EXCERPTPOSTID].",
+        "By acting as a key identifier, ExcerptPostId [EXCERPTPOSTID] facilitates the arrangement and lookup of posts within the programming community platform.",
+        "In the programming community platform, ExcerptPostId [EXCERPTPOSTID] plays a pivotal role in both the categorization and retrieval of posts.",
+        "Organizing and pulling up posts on the programming community platform relies heavily on ExcerptPostId [EXCERPTPOSTID].",
+        "The programming community platform leverages ExcerptPostId [EXCERPTPOSTID] to manage and retrieve its posts effectively.",
+        "Crucial to the sorting and extraction of posts on the programming community platform is ExcerptPostId [EXCERPTPOSTID].",
+        "ExcerptPostId [EXCERPTPOSTID] underpins the systematic organization and quick retrieval of posts within the programming community platform.",
+        "Through ExcerptPostId [EXCERPTPOSTID], the programming community platform can structure and access posts with precision.",
+        "The ability to catalog and fetch posts on the programming community platform is driven by ExcerptPostId [EXCERPTPOSTID].",
+        "ExcerptPostId [EXCERPTPOSTID], a vital component, enables organized storage and swift retrieval of posts on the programming community platform.",
+        "For the programming community platform, ExcerptPostId [EXCERPTPOSTID] is indispensable in arranging and locating posts.",
+        "Posts are organized and retrieved on the programming community platform because of the crucial role played by ExcerptPostId [EXCERPTPOSTID]."
+      ],
+      "counter_variations": [
+        "Although currently undefined, the Excerpt Post Id null nonetheless shapes the system’s content indexing strategy throughout the technology report.",
+        "The system’s content indexing strategy across the technology report is impacted by the Excerpt Post Id null, which remains currently undefined.",
+        "While the Excerpt Post Id null is currently undefined, it still exerts influence over the system’s content indexing strategy in the technology report.",
+        "In the technology report, the system’s content indexing strategy is subtly guided by the Excerpt Post Id null, despite its currently undefined status.",
+        "Despite being currently undefined, the Excerpt Post Id null continues to affect the system’s content indexing strategy across the technology report.",
+        "The technology report’s system’s content indexing strategy receives input from the Excerpt Post Id null, even though it is currently undefined.",
+        "Even though it is currently undefined, the Excerpt Post Id null plays a role in shaping the system’s content indexing strategy within the technology report.",
+        "The Excerpt Post Id null, while currently undefined, exerts a measurable impact on the system’s content indexing strategy throughout the technology report.",
+        "Across the technology report, the system’s content indexing strategy is influenced by the Excerpt Post Id null, which remains currently undefined.",
+        "Although the Excerpt Post Id null is currently undefined, it nevertheless informs the system’s content indexing strategy in the technology report.",
+        "The system’s content indexing strategy, as presented in the technology report, is nevertheless swayed by the Excerpt Post Id null despite its currently undefined condition.",
+        "In spite of its currently undefined state, the Excerpt Post Id null contributes to the system’s content indexing strategy across the technology report.",
+        "While the Excerpt Post Id null remains currently undefined, it still directs the system’s content indexing strategy throughout the technology report.",
+        "The technology report’s system’s content indexing strategy is subtly dictated by the Excerpt Post Id null, even though it is currently undefined.",
+        "Despite the currently undefined nature of the Excerpt Post Id null, the system’s content indexing strategy within the technology report is still affected."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "community": [
+          "community"
+        ],
+        "programming": [
+          "programming",
+          "programme"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "organizing": [
+          "organizing"
+        ],
+        "posts": [
+          "posts"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part"
+        ],
+        "plays": [
+          "plays"
+        ]
+      },
+      "field_data_types": {
+        "ExcerptPostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The collaborative article on advanced coding techniques can be easily accessed using WikiPostId 20257.",
+      "template_pattern": "The collaborative article on advanced coding techniques can be easily accessed using WikiPostId [WIKIPOSTID].",
+      "primary_data_fields": [
+        "WikiPostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "You can quickly reach the collaborative article about advanced coding techniques by entering WikiPostId [WIKIPOSTID].",
+        "Access to the collaborative piece on advanced coding techniques is simple when you use WikiPostId [WIKIPOSTID].",
+        "By typing WikiPostId [WIKIPOSTID], the collaborative article covering advanced coding techniques becomes readily available.",
+        "The collaborative article that discusses advanced coding techniques may be accessed effortlessly via WikiPostId [WIKIPOSTID].",
+        "With WikiPostId [WIKIPOSTID], retrieving the collaborative article on advanced coding techniques is straightforward.",
+        "To view the collaborative article on advanced coding techniques, simply apply WikiPostId [WIKIPOSTID].",
+        "The collaborative article on advanced coding techniques can be retrieved with ease using WikiPostId [WIKIPOSTID].",
+        "Using WikiPostId [WIKIPOSTID], one can easily obtain the collaborative article concerning advanced coding techniques.",
+        "The advanced coding techniques collaborative article is accessible through WikiPostId [WIKIPOSTID].",
+        "If you input WikiPostId [WIKIPOSTID], the collaborative article on advanced coding techniques will be instantly accessible.",
+        "Through the use of WikiPostId [WIKIPOSTID], the collaborative article detailing advanced coding techniques can be opened without difficulty.",
+        "A quick way to reach the collaborative article on advanced coding techniques is to employ WikiPostId [WIKIPOSTID].",
+        "The collaborative piece on advanced coding techniques may be opened effortlessly by providing WikiPostId [WIKIPOSTID].",
+        "By supplying WikiPostId [WIKIPOSTID], you gain easy access to the collaborative article about advanced coding techniques.",
+        "Accessing the collaborative article on advanced coding techniques is made simple with WikiPostId [WIKIPOSTID]."
+      ],
+      "counter_variations": [
+        "Although the technology overview is exhaustive and fully detailed, it presently records the Wiki Post Id as null, signifying that assignment remains pending.",
+        "The current comprehensive technology overview, despite its thoroughness, designates the Wiki Post Id as null, which implies the identifier has yet to be allocated.",
+        "In this fully detailed technology overview, the Wiki Post Id is presently marked null, reflecting a pending assignment.",
+        "While the technology overview offers a complete and detailed account, it currently lists the Wiki Post Id as null, denoting that the assignment is still outstanding.",
+        "The exhaustive technology overview, fully detailed as it is, presently shows the Wiki Post Id as null, indicating that allocation is awaiting completion.",
+        "Even though the technology overview is fully detailed and comprehensive, the Wiki Post Id currently appears as null, a sign that the assignment is still to be made.",
+        "The technology overview, comprehensive and meticulously detailed, currently records the Wiki Post Id as null, suggesting the identifier is awaiting assignment.",
+        "Despite the fully detailed nature of the comprehensive technology overview, the Wiki Post Id is currently set to null, pointing to a pending allocation.",
+        "In the present comprehensive technology overview, the Wiki Post Id is indicated as null, which reveals that the assignment has not yet been performed.",
+        "The fully detailed, comprehensive technology overview presently reflects a null value for the Wiki Post Id, denoting an assignment that is pending.",
+        "Although the overview of technology is both comprehensive and fully detailed, it presently assigns a null status to the Wiki Post Id, implying the assignment is pending.",
+        "Within the exhaustive, fully detailed technology overview, the Wiki Post Id is currently flagged as null, meaning the assignment remains to be finalized.",
+        "The technology overview, while comprehensive and entirely detailed, currently designates the Wiki Post Id as null, indicating that the assignment is still pending.",
+        "In this fully detailed and comprehensive technology overview, the Wiki Post Id appears as null, a clear indicator that the assignment has yet to occur.",
+        "The comprehensive technology overview, though fully detailed, presently lists the Wiki Post Id as null, signalling that the assignment is still awaiting completion."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "article": [
+          "article",
+          "clause"
+        ],
+        "techniques": [
+          "techniques"
+        ],
+        "collaborative": [
+          "collaborative"
+        ],
+        "coding": [
+          "coding",
+          "code",
+          "cipher",
+          "cypher",
+          "encrypt",
+          "encipher"
+        ],
+        "advanced": [
+          "advanced",
+          "sophisticated",
+          "modern",
+          "innovative"
+        ],
+        "easily": [
+          "easily"
+        ],
+        "accessed": [
+          "accessed"
+        ],
+        "using": [
+          "using"
+        ]
+      },
+      "field_data_types": {
+        "WikiPostId": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

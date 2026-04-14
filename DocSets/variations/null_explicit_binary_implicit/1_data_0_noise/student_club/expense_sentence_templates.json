@@ -1,0 +1,500 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4b911d51ede44250": "expense_id",
+    "3ed653cd77374341": "expense_description",
+    "9f23d41e1e3d4e93": "expense_date",
+    "b5cf08437e184355": "cost",
+    "8390adb97f8348d1": "approved",
+    "43e41047573e494f": "link_to_member",
+    "e3459c2da97c400a": "link_to_budget"
+  },
+  "templates": [
+    {
+      "original": "The student club treasurer confirmed that the expense_id rec017x6R3hQqkLAo corresponds to last month's event catering cost.",
+      "template_pattern": "The student club treasurer confirmed that the expense_id [EXPENSE_ID] corresponds to last month's event catering cost.",
+      "primary_data_fields": [
+        "expense_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club treasurer confirmed that the expense id [EXPENSE_ID] corresponds to last month's event catering cost.",
+        "According to the student club treasurer, the expense id [EXPENSE_ID] matches the catering cost for last month's event.",
+        "It was verified by the student club treasurer that the expense id [EXPENSE_ID] relates to the catering expense of last month's event.",
+        "Last month's event catering cost is linked to expense id [EXPENSE_ID], as the student club treasurer affirmed.",
+        "The student club treasurer has indicated that expense id [EXPENSE_ID] corresponds to the catering cost of last month's event.",
+        "Expense id [EXPENSE_ID], according to the student club treasurer, is the charge for last month's event catering.",
+        "The treasurer of the student club confirmed the expense id [EXPENSE_ID] as the cost of catering for last month's event.",
+        "Confirmed by the student club treasurer, the expense id [EXPENSE_ID] pertains to last month's event catering cost.",
+        "The cost of catering for last month's event is identified by the student club treasurer as expense id [EXPENSE_ID].",
+        "Student club treasurer verification: expense id [EXPENSE_ID] equals the catering expense for last month's event.",
+        "The expense id [EXPENSE_ID] was stated by the student club treasurer to correspond with last month's event catering cost.",
+        "According to verification from the student club treasurer, expense id [EXPENSE_ID] matches the catering cost of last month's event.",
+        "The student club treasurer reports that expense id [EXPENSE_ID] aligns with the cost of catering for last month's event.",
+        "In the report, the student club treasurer links expense id [EXPENSE_ID] to the catering expense of last month's event.",
+        "Expense id [EXPENSE_ID] is the designated identifier for last month's event catering cost, as confirmed by the student club treasurer."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "last": [
+          "last",
+          "final",
+          "concluding",
+          "terminal"
+        ],
+        "catering": [
+          "catering"
+        ],
+        "month": [
+          "month"
+        ],
+        "corresponds": [
+          "corresponds",
+          "agrees",
+          "matches",
+          "equates",
+          "fits",
+          "tallies"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "event": [
+          "event"
+        ],
+        "treasurer": [
+          "treasurer"
+        ]
+      },
+      "field_data_types": {
+        "expense_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The expense_description includes costs for Post Cards, Posters to promote upcoming events organized by the student clubs.",
+      "template_pattern": "The expense_description includes costs for [EXPENSE_DESCRIPTION] to promote upcoming events organized by the student clubs.",
+      "primary_data_fields": [
+        "expense_description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The expense description covers the costs of [EXPENSE_DESCRIPTION] used to advertise upcoming events run by the student clubs.",
+        "Included in the expense description are the costs for [EXPENSE_DESCRIPTION] that promote upcoming events organized by the student clubs.",
+        "Costs for [EXPENSE_DESCRIPTION], intended to publicize upcoming events organized by the student clubs, are listed under expense description.",
+        "Within the expense description, you will find costs allocated to [EXPENSE_DESCRIPTION] for promoting upcoming events of the student clubs.",
+        "Expense description comprises expenses for [EXPENSE_DESCRIPTION] aimed at promoting upcoming events that the student clubs organize.",
+        "The expense description details the spending on [EXPENSE_DESCRIPTION] to market upcoming events coordinated by the student clubs.",
+        "Costs associated with [EXPENSE_DESCRIPTION], which serve to promote upcoming events organized by the student clubs, appear in the expense description.",
+        "In the expense description, costs are assigned to [EXPENSE_DESCRIPTION] for the purpose of promoting upcoming events run by the student clubs.",
+        "The expense description lists the costs for [EXPENSE_DESCRIPTION] as tools to advertise upcoming events organized by the student clubs.",
+        "Under expense description, the budget includes [EXPENSE_DESCRIPTION] costs to promote upcoming events managed by the student clubs.",
+        "The expense description encompasses expenditures for [EXPENSE_DESCRIPTION] that are used to promote upcoming events organized by the student clubs.",
+        "Costs for [EXPENSE_DESCRIPTION] intended to promote upcoming events organized by the student clubs are captured in the expense description.",
+        "Within the expense description, the allocation covers [EXPENSE_DESCRIPTION] costs for promoting upcoming events organized by the student clubs.",
+        "The expense description reflects spending on [EXPENSE_DESCRIPTION] to publicize upcoming events that the student clubs organize.",
+        "Posted under expense description are the costs for [EXPENSE_DESCRIPTION], which aim to promote upcoming events organized by the student clubs."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "costs": [
+          "costs"
+        ],
+        "upcoming": [
+          "upcoming",
+          "coming",
+          "approaching",
+          "forthcoming"
+        ],
+        "promote": [
+          "promote",
+          "elevate",
+          "boost",
+          "encourage",
+          "advance",
+          "advertise"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "includes": [
+          "includes"
+        ],
+        "organized": [
+          "organized",
+          "organised"
+        ],
+        "events": [
+          "events"
+        ],
+        "clubs": [
+          "clubs"
+        ]
+      },
+      "field_data_types": {
+        "expense_description": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization recorded its expense_date as 2019-08-20, providing a clear timeline for their financial activities.",
+      "template_pattern": "The student organization recorded its expense_date as [EXPENSE_DATE], providing a clear timeline for their financial activities.",
+      "primary_data_fields": [
+        "expense_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [EXPENSE_DATE], the student organization logged its expense date, establishing a clear timeline for its financial activities.",
+        "The expense date of the student organization was recorded as [EXPENSE_DATE], which sets a transparent timeline for their financial actions.",
+        "By noting the expense date as [EXPENSE_DATE], the student organization created a precise chronological framework for its finances.",
+        "A clear financial timeline is provided by the student organization’s entry of the expense date on [EXPENSE_DATE].",
+        "Recorded on [EXPENSE_DATE], the expense date entered by the student organization outlines an unambiguous schedule for its monetary operations.",
+        "The student organization entered the expense date—[EXPENSE_DATE]—thereby furnishing a distinct timeline for its fiscal activities.",
+        "With the expense date set to [EXPENSE_DATE], the student organization offers a lucid chronological record of its financial undertakings.",
+        "The expense date, noted as [EXPENSE_DATE] by the student organization, supplies a clear temporal map of its financial dealings.",
+        "By documenting the expense date on [EXPENSE_DATE], the student organization provides an unmistakable timeline for its budgetary actions.",
+        "The student organization’s reporting of the expense date as [EXPENSE_DATE] delivers a straightforward timeline for its economic activities.",
+        "A transparent timeline for the student organization’s finances is achieved by recording the expense date as [EXPENSE_DATE].",
+        "The expense date was logged as [EXPENSE_DATE] by the student organization, presenting a clear chronology of its financial work.",
+        "Through recording an expense date of [EXPENSE_DATE], the student organization establishes a clear schedule for its monetary activities.",
+        "The student organization’s entry of the expense date—[EXPENSE_DATE]—provides an evident timeline for its financial operations.",
+        "By setting the expense date to [EXPENSE_DATE], the student organization creates a transparent chronological outline of its financial pursuits."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activities": [
+          "activities"
+        ],
+        "timeline": [
+          "timeline"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "system",
+          "formation",
+          "arrangement",
+          "administration"
+        ],
+        "their": [
+          "their"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "clear": [
+          "clear",
+          "discharge",
+          "solve",
+          "exonerate",
+          "exculpate",
+          "illuminate"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "expense_date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization recorded a cost of 122.06 for the catering service during their annual general meeting.",
+      "template_pattern": "The student organization recorded a cost of [COST] for the catering service during their annual general meeting.",
+      "primary_data_fields": [
+        "cost"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization recorded a cost of [COST] for the catering service during their annual general meeting.",
+        "A cost of [COST] was recorded by the student organization for the catering service at their annual general meeting.",
+        "During the annual general meeting, the student organization logged a cost of [COST] for catering services.",
+        "The catering service incurred a cost of [COST], as noted by the student organization in their annual general meeting.",
+        "In their annual general meeting, the student organization documented a cost of [COST] for the catering service.",
+        "It was reported that the student organization’s catering service cost [COST] at the annual general meeting.",
+        "For the annual general meeting, the student organization’s catering service carried a cost of [COST].",
+        "The cost of [COST] for the catering service was captured by the student organization during the annual general meeting.",
+        "At the annual general meeting, the student organization attributed a cost of [COST] to the catering service.",
+        "The student organization’s annual general meeting saw a catering service cost of [COST] recorded.",
+        "Recorded during the annual general meeting, the student organization’s catering service cost amounted to [COST].",
+        "A total cost of [COST] for the catering service was entered by the student organization in the annual general meeting records.",
+        "The student organization assigned a cost of [COST] to the catering service for their annual general meeting.",
+        "During their annual general meeting, the student organization logged that the catering service cost [COST].",
+        "The catering service was billed at a cost of [COST], as logged by the student organization during the annual general meeting."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "general": [
+          "general",
+          "universal",
+          "worldwide"
+        ],
+        "catering": [
+          "catering"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "administration",
+          "establishment",
+          "system"
+        ],
+        "annual": [
+          "annual",
+          "yearly"
+        ],
+        "their": [
+          "their"
+        ],
+        "meeting": [
+          "meeting",
+          "encounter",
+          "confluence"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ]
+      },
+      "field_data_types": {
+        "cost": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student's enrollment status is considered approved when the value shown here reads [APPROVED], indicating official confirmation of eligibility.",
+      "template_pattern": "The student's enrollment status is considered approved when the value shown here reads [APPROVED], indicating official confirmation of eligibility.",
+      "primary_data_fields": [
+        "approved"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "When the value shown here reads [APPROVED], the student's enrollment status is considered approved, indicating official confirmation of eligibility.",
+        "The student's enrollment status is deemed approved once the displayed value reads [APPROVED], which signals official confirmation of eligibility.",
+        "official confirmation of eligibility is indicated by the student's enrollment status being approved when the value displayed here reads [APPROVED].",
+        "If the value here shows [APPROVED], then the student's enrollment status will be considered approved, reflecting official confirmation of eligibility.",
+        "A reading of [APPROVED] in the value shown here marks the student's enrollment status as approved, denoting official confirmation of eligibility.",
+        "The student's enrollment status becomes approved upon the value shown here reading [APPROVED], thereby indicating official confirmation of eligibility.",
+        "Upon seeing [APPROVED] in the displayed value, the student's enrollment status is regarded as approved, signaling official confirmation of eligibility.",
+        "When the displayed value reads [APPROVED], it signifies that the student's enrollment status is approved, indicating official confirmation of eligibility.",
+        "The student's enrollment status is recognized as approved whenever the value presented here reads [APPROVED], which serves as official confirmation of eligibility.",
+        "A value of [APPROVED] shown here results in the student's enrollment status being considered approved, indicating official confirmation of eligibility.",
+        "If the value presented reads [APPROVED], the student's enrollment status is treated as approved, providing official confirmation of eligibility.",
+        "The student's enrollment status is labeled approved once the value shown here reads [APPROVED], confirming official confirmation of eligibility.",
+        "Seeing [APPROVED] in the shown value leads to the student's enrollment status being approved, denoting official confirmation of eligibility.",
+        "When the value shown here displays [APPROVED], the student's enrollment status is classified as approved, indicating official confirmation of eligibility.",
+        "The student's enrollment status attains approved status when the value displayed here reads [APPROVED], indicating official confirmation of eligibility."
+      ],
+      "counter_variations": [
+        "In the educational data report concerning this particular student entry, the approved status appears as NULL.",
+        "The educational data report for this particular student entry indicates that the approved status is NULL.",
+        "For this particular student entry, the approved status is recorded as NULL in the educational data report.",
+        "Within the educational data report pertaining to this particular student entry, the approved status is shown to be NULL.",
+        "As reflected in the educational data report for this particular student entry, the approved status holds the value NULL.",
+        "The approved status, according to the educational data report for this particular student entry, is NULL.",
+        "Examining the educational data report for this particular student entry reveals that the approved status is NULL.",
+        "The educational data report for this particular student entry lists the approved status as NULL.",
+        "Regarding this particular student entry, the educational data report designates the approved status as NULL.",
+        "In the context of this particular student entry, the educational data report displays the approved status as NULL.",
+        "The approved status is denoted by NULL in the educational data report for this particular student entry.",
+        "According to the educational data report for this particular student entry, the approved status is NULL.",
+        "The educational data report, when referencing this particular student entry, shows the approved status as NULL.",
+        "For this particular student entry, the approved status is noted as NULL within the educational data report.",
+        "Within the educational data report that covers this particular student entry, the approved status is NULL."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "official": [
+          "official",
+          "functionary"
+        ],
+        "enrollment": [
+          "enrollment",
+          "enrolment",
+          "registration"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "shown": [
+          "shown"
+        ],
+        "confirmation": [
+          "confirmation",
+          "ratification",
+          "verification",
+          "substantiation",
+          "check"
+        ],
+        "approved": [
+          "approved",
+          "sanctioned"
+        ],
+        "here": [
+          "here"
+        ],
+        "eligibility": [
+          "eligibility"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The link_to_member for the recent expense is rec4BLdZHS2Blfp4v, ensuring precise tracking of individual contributions.",
+      "template_pattern": "The link_to_member for the recent expense is [LINK_TO_MEMBER], ensuring precise tracking of individual contributions.",
+      "primary_data_fields": [
+        "link_to_member"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The link to member associated with the latest expense is [LINK_TO_MEMBER], which guarantees accurate monitoring of each person's contribution.",
+        "For the recent expense, the link to member [LINK_TO_MEMBER] provides precise tracking of individual contributions.",
+        "Precise tracking of individual contributions is ensured by the link to member [LINK_TO_MEMBER] for the recent expense.",
+        "[LINK_TO_MEMBER] serves as the link to member for the latest expense, enabling exact monitoring of each contributor's input.",
+        "The recent expense’s link to member, [LINK_TO_MEMBER], ensures that each individual’s contribution is tracked accurately.",
+        "By assigning the link to member [LINK_TO_MEMBER] to the recent expense, we achieve precise tracking of every participant’s contribution.",
+        "Ensuring exact tracking of individual contributions, the link to member for the recent expense is [LINK_TO_MEMBER].",
+        "The recent expense is tied to the link to member [LINK_TO_MEMBER], which allows for meticulous tracking of each contributor’s share.",
+        "With the link to member [LINK_TO_MEMBER] attached to the latest expense, individual contributions are monitored with precision.",
+        "The link to member for this recent expense—[LINK_TO_MEMBER]—facilitates precise tracking of each person's contribution.",
+        "[LINK_TO_MEMBER] is the link to member for the recent expense, ensuring that individual contributions are recorded accurately.",
+        "Through the link to member [LINK_TO_MEMBER], the recent expense can be traced with exactness to each participant’s contribution.",
+        "Each individual's contribution is precisely tracked thanks to the link to member [LINK_TO_MEMBER] attached to the recent expense.",
+        "The recent expense’s designated link to member, [LINK_TO_MEMBER], guarantees accurate monitoring of personal contributions.",
+        "Link to member [LINK_TO_MEMBER], linked with the latest expense, ensures precise tracking of each contributor’s input."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "expense": [
+          "expense",
+          "disbursement",
+          "disbursal"
+        ],
+        "contributions": [
+          "contributions"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "individual": [
+          "individual",
+          "person",
+          "someone"
+        ],
+        "precise": [
+          "precise",
+          "accurate",
+          "exact"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "ensuring": [
+          "ensuring"
+        ]
+      },
+      "field_data_types": {
+        "link_to_member": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization can easily track expenses by referring to the link_to_budget available at recvKTAWAFKkVNnXQ.",
+      "template_pattern": "The student organization can easily track expenses by referring to the link_to_budget available at [LINK_TO_BUDGET].",
+      "primary_data_fields": [
+        "link_to_budget"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization can effortlessly monitor expenses via the link to budget located at [LINK_TO_BUDGET].",
+        "By using the link to budget found at [LINK_TO_BUDGET], the student organization easily tracks its expenses.",
+        "Expenses are readily tracked by the student organization through the link to budget provided at [LINK_TO_BUDGET].",
+        "Through the link to budget at [LINK_TO_BUDGET], the student organization can quickly keep tabs on expenses.",
+        "The link to budget accessible at [LINK_TO_BUDGET] enables the student organization to smoothly track expenses.",
+        "With the link to budget available at [LINK_TO_BUDGET], the student organization is able to easily oversee expenses.",
+        "Expenses can be efficiently followed by the student organization using the link to budget at [LINK_TO_BUDGET].",
+        "At [LINK_TO_BUDGET], the link to budget allows the student organization to simply track expenses.",
+        "The student organization may readily manage expenses by referring to the link to budget situated at [LINK_TO_BUDGET].",
+        "Through the link to budget ([LINK_TO_BUDGET]), the student organization can swiftly monitor its expenses.",
+        "The link to budget located at [LINK_TO_BUDGET] provides the student organization with an easy way to track expenses.",
+        "By consulting the link to budget at [LINK_TO_BUDGET], the student organization can promptly track its expenses.",
+        "Expenses are easily overseen by the student organization via the link to budget found at [LINK_TO_BUDGET].",
+        "The student organization, using the link to budget at [LINK_TO_BUDGET], can effortlessly keep track of expenses.",
+        "Through accessing the link to budget at [LINK_TO_BUDGET], the student organization can readily follow its expenses."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "system",
+          "arrangement",
+          "administration",
+          "establishment",
+          "organisation"
+        ],
+        "available": [
+          "available",
+          "usable",
+          "useable"
+        ],
+        "easily": [
+          "easily"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "track": [
+          "track",
+          "trail",
+          "path",
+          "course"
+        ],
+        "referring": [
+          "referring"
+        ],
+        "expenses": [
+          "expenses"
+        ]
+      },
+      "field_data_types": {
+        "link_to_budget": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

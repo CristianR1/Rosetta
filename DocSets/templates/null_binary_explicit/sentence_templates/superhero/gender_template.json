@@ -1,0 +1,23 @@
+{
+  "database": "superhero",
+  "table": "gender",
+  "entry_index": 0,
+  "original_data": {
+    "id": "1",
+    "gender": "Male"
+  },
+  "generated_sentences": [
+    "In the world of comic books, some characters are categorized with the identifier 1 to denote their gender identity. (Hash: 5dce0077f100437f)",
+    "The superhero's character is defined by his Male gender, which often influences the narrative and dynamics within the comic book universe. (Hash: eda08a7fc9bf45cc)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "eda08a7fc9bf45cc": "gender",
+    "5dce0077f100437f": "id"
+  },
+  "timestamp": "2026-03-31 16:47:36",
+  "narrative": []
+}

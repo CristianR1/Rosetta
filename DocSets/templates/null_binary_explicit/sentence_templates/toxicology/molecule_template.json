@@ -1,0 +1,22 @@
+{
+  "database": "toxicology",
+  "table": "molecule",
+  "entry_index": 0,
+  "original_data": {
+    "molecule_id": "TR000",
+    "label": "+"
+  },
+  "generated_sentences": [
+    "In recent toxicology studies, the molecule_id TR000 has been pivotal in identifying potential hazards in chemical compounds. (Hash: dd04f0c5233148e3)",
+    "The chemical compound's label indicates it is classified as carcinogenic with a +, highlighting its potential health risks in toxicology studies. (Hash: a32de6e78aaf445d)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "dd04f0c5233148e3": "molecule_id",
+    "a32de6e78aaf445d": "label"
+  },
+  "timestamp": "2026-03-31 16:52:17"
+}

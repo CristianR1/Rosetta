@@ -1,0 +1,223 @@
+{
+  "document_context": "business data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "d0978062a025461e": "CustomerID",
+    "5e871b7b2f3e4453": "Segment",
+    "c89b6a97143e464a": "Currency"
+  },
+  "templates": [
+    {
+      "original": "CustomerID 3 recently updated their payment preferences, reflecting a shift towards more digital-friendly debit card transactions.",
+      "template_pattern": "CustomerID [CUSTOMERID] recently updated their payment preferences, reflecting a shift towards more digital-friendly debit card transactions.",
+      "primary_data_fields": [
+        "CustomerID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Recently, CustomerID [CUSTOMERID] revised their payment preferences, indicating a move toward more digital-friendly debit card transactions.",
+        "A shift toward more digital-friendly debit card transactions is shown by the recent update of payment preferences for CustomerID [CUSTOMERID].",
+        "CustomerID [CUSTOMERID] has just updated their payment preferences, which now point to an increased preference for digital-friendly debit card transactions.",
+        "The payment preferences of CustomerID [CUSTOMERID] were recently updated, reflecting a tilt toward more digital-friendly debit card transactions.",
+        "With a recent change to payment preferences, CustomerID [CUSTOMERID] demonstrates a trend toward more digital-friendly debit card transactions.",
+        "Update of payment preferences by CustomerID [CUSTOMERID], done recently, signals a shift toward more digital-friendly debit card transactions.",
+        "In a recent adjustment, CustomerID [CUSTOMERID] altered their payment preferences, highlighting a move toward more digital-friendly debit card transactions.",
+        "More digital-friendly debit card transactions are now favored, as shown by the recent update of payment preferences for CustomerID [CUSTOMERID].",
+        "The payment preferences of CustomerID [CUSTOMERID] were updated recently, reflecting a pivot toward more digital-friendly debit card transactions.",
+        "Having recently updated payment preferences, CustomerID [CUSTOMERID] is now leaning toward more digital-friendly debit card transactions.",
+        "The most recent change to payment preferences by CustomerID [CUSTOMERID] points to a shift toward more digital-friendly debit card transactions.",
+        "A recent modification of payment preferences by CustomerID [CUSTOMERID] signals an increased inclination for digital-friendly debit card transactions.",
+        "CustomerID [CUSTOMERID], in a recent update, revised payment preferences, marking a transition toward more digital-friendly debit card transactions.",
+        "Through a recent update of payment preferences, CustomerID [CUSTOMERID] reflects a growing preference for digital-friendly debit card transactions.",
+        "The recent update of payment preferences by CustomerID [CUSTOMERID] reveals a shift toward more digital-friendly debit card transactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recently": [
+          "recently",
+          "lately"
+        ],
+        "payment": [
+          "payment"
+        ],
+        "towards": [
+          "towards"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "updated": [
+          "updated",
+          "revised",
+          "current",
+          "modernized",
+          "refreshed",
+          "latest"
+        ],
+        "preferences": [
+          "preferences",
+          "predilections",
+          "penchants"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "friendly": [
+          "friendly"
+        ]
+      },
+      "field_data_types": {
+        "CustomerID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The marketing team developed a tailored strategy specifically for the SME Segment to optimize engagement and improve customer loyalty.",
+      "template_pattern": "The marketing team developed a tailored strategy specifically for the [SEGMENT] Segment to optimize engagement and improve customer loyalty.",
+      "primary_data_fields": [
+        "Segment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The marketing team crafted a customized strategy for the [SEGMENT] Segment to boost engagement and increase customer loyalty.",
+        "A tailored approach for the [SEGMENT] Segment was devised by the marketing team to enhance engagement and strengthen customer loyalty.",
+        "To optimize engagement and improve customer loyalty, the marketing team designed a bespoke strategy aimed at the [SEGMENT] Segment.",
+        "The marketing department formulated a specific plan for the [SEGMENT] Segment, targeting higher engagement and greater customer loyalty.",
+        "For the [SEGMENT] Segment, the marketing team rolled out a specialized strategy intended to maximize engagement and elevate customer loyalty.",
+        "A strategy specifically tailored to the [SEGMENT] Segment was created by the marketing team to raise engagement levels and foster customer loyalty.",
+        "To elevate both engagement and customer loyalty, the marketing team implemented a purpose‑built strategy for the [SEGMENT] Segment.",
+        "The marketing group developed a unique plan for the [SEGMENT] Segment, seeking to enhance engagement and boost customer loyalty.",
+        "A customized strategy for the [SEGMENT] Segment was assembled by the marketing team to improve engagement and reinforce customer loyalty.",
+        "The marketing team launched a focused strategy targeting the [SEGMENT] Segment, aiming to optimize engagement and heighten customer loyalty.",
+        "To strengthen customer loyalty and optimize engagement, a tailored strategy for the [SEGMENT] Segment was produced by the marketing team.",
+        "The marketing department introduced a bespoke strategy for the [SEGMENT] Segment, designed to increase engagement and improve customer loyalty.",
+        "A purpose‑specific strategy for the [SEGMENT] Segment was formulated by the marketing team to drive engagement and augment customer loyalty.",
+        "For the [SEGMENT] Segment, the marketing team prepared a tailor‑made strategy to maximize engagement and enhance customer loyalty.",
+        "The marketing team’s development of a dedicated strategy for the [SEGMENT] Segment aimed at boosting engagement and elevating customer loyalty."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marketing": [
+          "marketing"
+        ],
+        "strategy": [
+          "strategy"
+        ],
+        "loyalty": [
+          "loyalty",
+          "dedication",
+          "allegiance",
+          "commitment"
+        ],
+        "optimize": [
+          "optimize",
+          "optimise",
+          "streamline",
+          "enhance",
+          "improve",
+          "refine"
+        ],
+        "tailored": [
+          "tailored",
+          "bespoke"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "improve": [
+          "improve",
+          "ameliorate",
+          "better"
+        ],
+        "engagement": [
+          "engagement",
+          "booking",
+          "involvement",
+          "date",
+          "appointment",
+          "participation"
+        ]
+      },
+      "field_data_types": {
+        "Segment": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The recent analysis of customer spending patterns highlights that most transactions are conducted using the EUR currency.",
+      "template_pattern": "The recent analysis of customer spending patterns highlights that most transactions are conducted using the [CURRENCY] currency.",
+      "primary_data_fields": [
+        "Currency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The latest analysis of customer spending patterns reveals that the [CURRENCY] currency is used for the majority of transactions.",
+        "In the recent study of how customers spend, it was found that most transactions are carried out in [CURRENCY] currency.",
+        "Most transactions are performed using the [CURRENCY] currency, according to the newest analysis of customer spending patterns.",
+        "A recent review of customer spending patterns highlights that the [CURRENCY] currency dominates transaction usage.",
+        "According to the latest customer spending analysis, the [CURRENCY] currency accounts for most transaction activity.",
+        "The recent customer spending patterns analysis underscores that [CURRENCY] currency is the medium for most transactions.",
+        "It is highlighted in the recent analysis of customer spending patterns that the [CURRENCY] currency handles the bulk of transactions.",
+        "Recent analysis of how customers spend points out that the [CURRENCY] currency is employed in most transactions.",
+        "The [CURRENCY] currency is identified as the primary means for most transactions in the latest customer spending patterns analysis.",
+        "Findings from the recent customer spending patterns analysis indicate that most transactions utilize [CURRENCY] currency.",
+        "In the newest analysis of customer spending, the [CURRENCY] currency emerges as the choice for the majority of transactions.",
+        "The recent assessment of customer spending patterns shows that most transactions rely on [CURRENCY] currency.",
+        "According to the latest assessment, the [CURRENCY] currency is used in the majority of transactions within customer spending patterns.",
+        "The analysis of recent customer spending patterns demonstrates that most transactions are executed with [CURRENCY] currency.",
+        "Recent data on customer spending patterns points to [CURRENCY] currency being used for most transactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "using": [
+          "using",
+          "use",
+          "employ",
+          "apply",
+          "utilise",
+          "utilize"
+        ],
+        "highlights": [
+          "highlights",
+          "highlight",
+          "spotlight",
+          "highlighting"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "most": [
+          "most"
+        ],
+        "conducted": [
+          "conducted"
+        ],
+        "spending": [
+          "spending",
+          "expenditure",
+          "outlay",
+          "disbursement"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "transaction"
+        ]
+      },
+      "field_data_types": {
+        "Currency": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "34b184a9c9054ee3": "CustomerID",
+    "e55895df7f6d4324": "Date",
+    "75892bf246354f2f": "Consumption"
+  },
+  "templates": [
+    {
+      "original": "CustomerID 5 recently made a debit card transaction that provided insights into their spending habits.",
+      "template_pattern": "CustomerID [CUSTOMERID] recently made a debit card transaction that provided insights into their spending habits.",
+      "primary_data_fields": [
+        "CustomerID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "CustomerID [CUSTOMERID] recently made a debit card transaction that provided insights into their spending habits.",
+        "A debit card transaction was recently performed by CustomerID [CUSTOMERID], revealing details about their spending habits.",
+        "Recently, CustomerID [CUSTOMERID] executed a debit card transaction, which shed light on their spending habits.",
+        "The spending habits of CustomerID [CUSTOMERID] were illuminated by a recent debit card transaction they made.",
+        "A recent debit card transaction by CustomerID [CUSTOMERID] offered insight into their spending habits.",
+        "Insight into the spending habits of CustomerID [CUSTOMERID] came from a debit card transaction they carried out lately.",
+        "CustomerID [CUSTOMERID]'s latest debit card transaction has uncovered information about their spending habits.",
+        "Through a debit card transaction made recently, CustomerID [CUSTOMERID] has provided insight into their spending habits.",
+        "The recent debit card transaction performed by CustomerID [CUSTOMERID] reveals their spending habits.",
+        "By making a debit card transaction, CustomerID [CUSTOMERID] has recently supplied data on their spending habits.",
+        "CustomerID [CUSTOMERID], in a recent debit card transaction, gave clues about their spending habits.",
+        "Their spending habits were highlighted after CustomerID [CUSTOMERID] completed a recent debit card transaction.",
+        "A debit card transaction completed recently by CustomerID [CUSTOMERID] sheds light on their spending habits.",
+        "Recent activity: CustomerID [CUSTOMERID]'s debit card transaction unveiled aspects of their spending habits.",
+        "The debit card transaction that CustomerID [CUSTOMERID] made recently provided insight into their spending habits."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "provided": [
+          "provided",
+          "furnish",
+          "supply",
+          "offer",
+          "render",
+          "provide"
+        ],
+        "recently": [
+          "recently",
+          "lately",
+          "latterly"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "card": [
+          "card"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "habits": [
+          "habits",
+          "wont"
+        ],
+        "made": [
+          "made",
+          "built",
+          "formed",
+          "established",
+          "created",
+          "produced"
+        ],
+        "insights": [
+          "insights"
+        ]
+      },
+      "field_data_types": {
+        "CustomerID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Date 201207 marks a key point in evaluating the trends of debit card transactions over specific reporting periods.",
+      "template_pattern": "The Date [DATE] marks a key point in evaluating the trends of debit card transactions over specific reporting periods.",
+      "primary_data_fields": [
+        "Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Date [DATE] serves as a pivotal moment when assessing debit card transaction trends across designated reporting windows.",
+        "A critical milestone for reviewing debit card transactions trends, the Date [DATE] highlights this specific reporting interval.",
+        "In the analysis of debit card transaction patterns during particular reporting spans, the Date [DATE] stands out as a significant reference point.",
+        "The reporting period identified by Date [DATE] is a cornerstone for measuring the evolution of debit card transactions.",
+        "Date [DATE] is identified as a key benchmark in the study of debit card transaction trends over defined reporting periods.",
+        "When examining debit card transaction trends within certain reporting cycles, analysts point to Date [DATE] as a crucial indicator.",
+        "A salient reference, Date [DATE] delineates a major stage in the evaluation of debit card transaction trends for specific reporting periods.",
+        "Evaluators consider Date [DATE] a vital checkpoint in tracking the patterns of debit card transactions across particular reporting intervals.",
+        "The Date [DATE] marks a pivotal checkpoint for analyzing debit card transaction trends throughout designated reporting periods.",
+        "For the purpose of trend analysis of debit card transactions, Date [DATE] functions as an essential reference point within specific reporting windows.",
+        "Date [DATE] functions as a landmark in the assessment of debit card transaction trends over selected reporting periods.",
+        "During the review of debit card transactions across chosen reporting periods, the Date [DATE] emerges as a key evaluative point.",
+        "The key evaluative moment for debit card transaction trends, Date [DATE], anchors the analysis of specific reporting periods.",
+        "In scrutinizing debit card transaction trends over particular reporting periods, Date [DATE] is highlighted as a critical juncture.",
+        "Date [DATE] is highlighted as a central point in the appraisal of debit card transaction trends across defined reporting periods."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "over": [
+          "over",
+          "terminated",
+          "complete",
+          "ended",
+          "concluded"
+        ],
+        "reporting": [
+          "reporting"
+        ],
+        "trends": [
+          "trends"
+        ],
+        "evaluating": [
+          "evaluating"
+        ],
+        "card": [
+          "card",
+          "bill",
+          "notice",
+          "menu",
+          "placard",
+          "scorecard"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "marks": [
+          "marks"
+        ]
+      },
+      "field_data_types": {
+        "Date": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the recent transaction period, debit card Consumption reached 528.30, shedding light on consumer spending patterns.",
+      "template_pattern": "During the recent transaction period, debit card Consumption reached [CONSUMPTION], shedding light on consumer spending patterns.",
+      "primary_data_fields": [
+        "Consumption"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the recent transaction period, debit card Consumption hit [CONSUMPTION], illuminating consumer spending trends.",
+        "Debit card Consumption was [CONSUMPTION] during the recent transaction period, providing insight into how consumers spend.",
+        "The recent transaction period saw debit card Consumption climb to [CONSUMPTION], which highlights consumer spending patterns.",
+        "Consumer spending patterns are highlighted by a debit card Consumption of [CONSUMPTION] recorded in the recent transaction period.",
+        "During the latest transaction window, the debit card Consumption amounted to [CONSUMPTION], shedding light on consumer spending behavior.",
+        "A debit card Consumption of [CONSUMPTION] was observed in the recent transaction period, revealing consumer spending tendencies.",
+        "The recent transaction period recorded debit card Consumption at [CONSUMPTION], offering a glimpse into consumer spending habits.",
+        "With debit card Consumption reaching [CONSUMPTION], the recent transaction period sheds light on consumer spending patterns.",
+        "Consumer spending patterns become clearer as debit card Consumption reaches [CONSUMPTION] during the recent transaction period.",
+        "In the recent transaction period, the figure for debit card Consumption was [CONSUMPTION], which helps to understand consumer spending.",
+        "Debit card Consumption reached [CONSUMPTION] in the recent transaction period, casting light on how consumers spend.",
+        "The recent transaction period’s debit card Consumption stood at [CONSUMPTION], providing insight into consumer spending patterns.",
+        "By reaching [CONSUMPTION], debit card Consumption during the recent transaction period highlights consumer spending trends.",
+        "The amount of debit card Consumption, [CONSUMPTION], recorded during the recent transaction period, illuminates consumer spending patterns.",
+        "During the recent transaction period, a debit card Consumption of [CONSUMPTION] was reported, shedding light on consumer spending behavior."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "during": [
+          "during"
+        ],
+        "light": [
+          "light",
+          "luminosity",
+          "illumination",
+          "brightness",
+          "luminance",
+          "lighting"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "period": [
+          "period"
+        ],
+        "card": [
+          "card"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "shedding": [
+          "shedding",
+          "slough",
+          "molt",
+          "peeling"
+        ],
+        "debit": [
+          "debit"
+        ]
+      },
+      "field_data_types": {
+        "Consumption": "float"
+      },
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "database": "financial",
+  "table": "card",
+  "entry_index": 0,
+  "original_data": {
+    "card_id": "1",
+    "disp_id": "9",
+    "type": "gold",
+    "issued": "1998-10-16"
+  },
+  "generated_sentences": [
+    "The card_id is 1. (Hash: 3c92ee2f84604e0e)",
+    "The transaction was uniquely identified by disp_id 9, ensuring precise tracking and management within the financial system. (Hash: 90546d9d32d34bb0)",
+    "The credit card type classified as gold offers exclusive benefits and features for discerning cardholders. (Hash: db607c9accab46ce)",
+    "The credit card was issued on 1998-10-16, marking the start of its validity period. (Hash: a6bc5eae0c314ae5)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "3c92ee2f84604e0e": "card_id",
+    "90546d9d32d34bb0": "disp_id",
+    "db607c9accab46ce": "type",
+    "a6bc5eae0c314ae5": "issued"
+  },
+  "timestamp": "2026-04-13 00:18:26",
+  "narrative": []
+}

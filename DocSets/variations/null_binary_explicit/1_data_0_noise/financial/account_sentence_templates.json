@@ -1,0 +1,282 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "bdc35dc1b98f4348": "account_id",
+    "2af5362521394b74": "district_id",
+    "b1fd80119dd74e05": "frequency",
+    "70a5f0ae22e54180": "date"
+  },
+  "templates": [
+    {
+      "original": "The bank account with the unique identifier 1 is scheduled for review this week.",
+      "template_pattern": "The bank account with the unique identifier [ACCOUNT_ID] is scheduled for review this week.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This week, the account id bearing the unique identifier [ACCOUNT_ID] is slated for review.",
+        "Review of the account id with unique identifier [ACCOUNT_ID] is planned for this week.",
+        "The account id that carries unique identifier [ACCOUNT_ID] will undergo review this week.",
+        "Scheduled for review this week is the account id whose unique identifier is [ACCOUNT_ID].",
+        "We will be reviewing the account id marked by unique identifier [ACCOUNT_ID] this week.",
+        "The account id, identified uniquely by [ACCOUNT_ID], is set for a review this week.",
+        "For this week, a review has been assigned to the account id with the unique identifier [ACCOUNT_ID].",
+        "This week, the agenda includes a review of the account id having unique identifier [ACCOUNT_ID].",
+        "The account id with the unique identifier [ACCOUNT_ID] is due for a review this week.",
+        "A review is slated for the account id that holds unique identifier [ACCOUNT_ID] this week.",
+        "During this week, the account id possessing unique identifier [ACCOUNT_ID] will be examined.",
+        "This week will see a review of the account id whose unique identifier equals [ACCOUNT_ID].",
+        "The account id, whose unique identifier is [ACCOUNT_ID], is earmarked for review this week.",
+        "Review proceedings for the account id with unique identifier [ACCOUNT_ID] are scheduled for this week.",
+        "This week, the account id featuring unique identifier [ACCOUNT_ID] is on the review list."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "week": [
+          "week"
+        ],
+        "account": [
+          "account",
+          "report",
+          "accounting",
+          "invoice",
+          "bill"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ],
+        "review": [
+          "review",
+          "critique",
+          "reassessment",
+          "survey",
+          "reappraisal",
+          "inspection",
+          "reexamination"
+        ],
+        "scheduled": [
+          "scheduled"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the financial system, district_id 18 is crucial for managing the bank account details of its associated educational institutions.",
+      "template_pattern": "In the financial system, district_id [DISTRICT_ID] is crucial for managing the bank account details of its associated educational institutions.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the financial system, district id [DISTRICT_ID] plays a vital role in overseeing the bank account details of its associated educational institutions.",
+        "The financial system relies on district id [DISTRICT_ID] to manage the bank account details for its associated educational institutions.",
+        "Bank account details of its associated educational institutions are administered by district id [DISTRICT_ID] in the financial system.",
+        "In the financial system, the management of bank account details for its associated educational institutions hinges on district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] is a key component of the financial system for handling the bank account information of its associated educational institutions.",
+        "For the financial system, district id [DISTRICT_ID] serves as the primary manager of bank account details belonging to its associated educational institutions.",
+        "The handling of bank account details for its associated educational institutions is entrusted to district id [DISTRICT_ID] within the financial system.",
+        "Within the financial system, district id [DISTRICT_ID] is indispensable when it comes to supervising bank account details of its associated educational institutions.",
+        "Bank account details of its associated educational institutions are governed by district id [DISTRICT_ID] in the financial system.",
+        "The financial system depends on district id [DISTRICT_ID] to control the bank account details of its associated educational institutions.",
+        "In managing bank account details for its associated educational institutions, the financial system turns to district id [DISTRICT_ID] as a pivotal element.",
+        "District id [DISTRICT_ID], within the financial system, is essential for the administration of bank account details of its associated educational institutions.",
+        "The administration of bank account details for its associated educational institutions is a core function of district id [DISTRICT_ID] in the financial system.",
+        "In the financial system, the task of overseeing bank account details for its associated educational institutions falls to district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] holds a fundamental role in the financial system, directing the bank account details of its associated educational institutions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "system": [
+          "system",
+          "organization",
+          "organisation"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "institutions": [
+          "institutions"
+        ],
+        "details": [
+          "details"
+        ],
+        "account": [
+          "account",
+          "report",
+          "explanation"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account's transaction activity is characterized by a frequency of POPLATEK MESICNE, indicating consistent customer engagement each month.",
+      "template_pattern": "The account's transaction activity is characterized by a frequency of [FREQUENCY], indicating consistent customer engagement each month.",
+      "primary_data_fields": [
+        "frequency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A frequency of [FREQUENCY] defines the account's transaction activity, showing steady customer engagement each month.",
+        "The transaction activity of the account shows a frequency of [FREQUENCY], reflecting consistent monthly customer involvement.",
+        "Consistent monthly customer engagement is evident from the account's transaction activity, which has a frequency of [FREQUENCY].",
+        "With a frequency of [FREQUENCY], the account's transaction activity underscores regular customer participation every month.",
+        "Regular monthly engagement by customers is indicated by the account's transaction activity, marked by a frequency of [FREQUENCY].",
+        "The account exhibits a frequency of [FREQUENCY] in its transaction activity, pointing to continual customer interaction each month.",
+        "Each month, the account's transaction activity maintains a frequency of [FREQUENCY], signalling ongoing customer engagement.",
+        "A frequency of [FREQUENCY] characterizes the transaction activity for the account, implying steady customer involvement month after month.",
+        "Customer engagement remains consistent each month, as the account's transaction activity carries a frequency of [FREQUENCY].",
+        "The presence of a frequency of [FREQUENCY] in the account's transaction activity denotes persistent monthly customer activity.",
+        "Monthly customer involvement is reflected by the account's transaction activity, which possesses a frequency of [FREQUENCY].",
+        "Showing a frequency of [FREQUENCY], the account's transaction activity signals continuous engagement from customers every month.",
+        "The account's transaction activity, bearing a frequency of [FREQUENCY], indicates that customers engage consistently each month.",
+        "By exhibiting a frequency of [FREQUENCY], the account's transaction activity demonstrates regular monthly customer participation.",
+        "A constant monthly customer presence is revealed through the account's transaction activity, highlighted by a frequency of [FREQUENCY]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "each": [
+          "each",
+          "every",
+          "apiece",
+          "per"
+        ],
+        "activity": [
+          "activity"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "month": [
+          "month"
+        ],
+        "engagement": [
+          "engagement",
+          "involvement",
+          "appointment",
+          "participation"
+        ],
+        "account": [
+          "account",
+          "report"
+        ],
+        "consistent": [
+          "consistent",
+          "coherent",
+          "uniform"
+        ]
+      },
+      "field_data_types": {
+        "frequency": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The bank account was established on 1995-03-24, marking the beginning of a long financial journey.",
+      "template_pattern": "The bank account was established on [DATE], marking the beginning of a long financial journey.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The bank account opened on [DATE], signaling the start of an extensive financial odyssey.",
+        "On [DATE], the bank account was created, initiating a long‑term fiscal journey.",
+        "A long financial voyage began when the bank account was set up on [DATE].",
+        "With its establishment on [DATE], the bank account marked the commencement of a prolonged monetary path.",
+        "The date [DATE] saw the founding of the bank account, launching a lengthy economic trek.",
+        "By opening the bank account on [DATE], a protracted financial adventure was embarked upon.",
+        "The bank account’s inception on [DATE] heralded the onset of a sustained fiscal expedition.",
+        "Established on [DATE], the bank account started an enduring journey through financial matters.",
+        "When the bank account was instituted on [DATE], it set in motion a far‑reaching monetary saga.",
+        "The commencement of the bank account on [DATE] signified the beginning of a drawn‑out financial narrative.",
+        "On the date [DATE], the bank account came into existence, kicking off an extended economic voyage.",
+        "The bank account was inaugurated on [DATE], marking the launch of a long‑lasting financial course.",
+        "Beginning on [DATE], the bank account’s creation initiated a protracted monetary journey.",
+        "A lengthy financial trajectory was triggered when the bank account was established on [DATE].",
+        "The opening of the bank account on [DATE] represented the start of a drawn‑out fiscal path."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "journey": [
+          "journey"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "long": [
+          "long"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "grade",
+          "grading"
+        ],
+        "account": [
+          "account",
+          "report"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "beginning": [
+          "beginning",
+          "start",
+          "origin",
+          "commencement",
+          "outset"
+        ],
+        "established": [
+          "established",
+          "founded",
+          "proven",
+          "instituted",
+          "constituted",
+          "demonstrated"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    }
+  ]
+}

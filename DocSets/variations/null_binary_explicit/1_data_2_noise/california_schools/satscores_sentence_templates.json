@@ -1,0 +1,2011 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "9eb06509b6514d03": "cds",
+    "b9f9e288e4454e7a": "rtype",
+    "9b9e0f080247418a": "sname",
+    "7b5274654a924d05": "dname",
+    "b56f2f1cb3364064": "cname",
+    "1e441e012b154bf7": "enroll12",
+    "760434882c614c2b": "NumTstTakr",
+    "1707e0d904094a99": "AvgScrRead",
+    "34a7b324591e4bc6": "AvgScrMath",
+    "f360f4f893984129": "AvgScrWrite",
+    "3ce7e7d6905e4fbb": "NumGE1500"
+  },
+  "templates": [
+    {
+      "original": "The California Department of Education identifies the school with the unique cds code 01100170000000 for official records.",
+      "template_pattern": "The California Department of Education identifies the school with the unique cds code [CDS] for official records.",
+      "primary_data_fields": [
+        "cds"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The California Department of Education records the school bearing the unique cds code [CDS] in its official files.",
+        "For official records, the school identified by the unique cds code [CDS] is noted by the California Department of Education.",
+        "The unique cds code [CDS] designates the school that the California Department of Education lists in its official records.",
+        "Official documentation by the California Department of Education lists the school with the unique cds code [CDS].",
+        "According to the California Department of Education, the school carrying the unique cds code [CDS] is entered into official records.",
+        "The school, marked by the unique cds code [CDS], is recognized by the California Department of Education for official record‑keeping.",
+        "In the official registers, the California Department of Education identifies the school that holds the unique cds code [CDS].",
+        "The California Department of Education, for its official archives, identifies the school with the unique cds code [CDS].",
+        "With the unique cds code [CDS], the school is identified by the California Department of Education for official records.",
+        "Official records show that the California Department of Education has identified the school bearing the unique cds code [CDS].",
+        "The California Department of Education, in its official records, notes the school possessing the unique cds code [CDS].",
+        "For the purposes of official documentation, the school with the unique cds code [CDS] is identified by the California Department of Education.",
+        "The school that carries the unique cds code [CDS] is listed in official records by the California Department of Education.",
+        "By means of official records, the California Department of Education flags the school with the unique cds code [CDS].",
+        "The unique cds code [CDS] ties the school to the California Department of Education’s official records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "unequaled",
+          "singular"
+        ],
+        "official": [
+          "official",
+          "prescribed"
+        ],
+        "identifies": [
+          "identifies"
+        ],
+        "school": [
+          "school",
+          "schoolhouse"
+        ],
+        "department": [
+          "department",
+          "section"
+        ],
+        "records": [
+          "records"
+        ],
+        "california": [
+          "california",
+          "California"
+        ]
+      },
+      "field_data_types": {
+        "cds": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The rtype for categorizing the nature of the SAT test scores for California public schools is labeled as D.",
+      "template_pattern": "The rtype for categorizing the nature of the SAT test scores for California public schools is labeled as [RTYPE].",
+      "primary_data_fields": [
+        "rtype"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The rtype used to classify the nature of SAT test scores for California public schools is labeled as [RTYPE].",
+        "For California public schools, the rtype that categorizes the nature of SAT test scores carries the label [RTYPE].",
+        "In the context of California public schools, the rtype assigning the nature of SAT test scores is designated [RTYPE].",
+        "SAT test scores for California public schools are grouped by an rtype identified as [RTYPE].",
+        "An rtype, which sorts the nature of SAT test scores for California public schools, is marked as [RTYPE].",
+        "The nature of SAT test scores in California public schools is categorized by an rtype labeled [RTYPE].",
+        "California public schools’ SAT test scores are classified under an rtype that bears the code [RTYPE].",
+        "Label [RTYPE] is assigned to the rtype that defines the nature of SAT test scores for California public schools.",
+        "The rtype that defines the nature of SAT test scores for California public schools has been set to [RTYPE].",
+        "For the SAT test scores of California public schools, the rtype is indicated as [RTYPE].",
+        "The rtype, responsible for categorizing the nature of SAT test scores for California public schools, is noted as [RTYPE].",
+        "SAT test scores in California public schools are organized by an rtype, which is denoted as [RTYPE].",
+        "An rtype that categorizes the nature of SAT test scores for California public schools is recorded as [RTYPE].",
+        "The designation [RTYPE] applies to the rtype that classifies the nature of SAT test scores for California public schools.",
+        "In California public schools, the rtype that sorts the nature of SAT test scores is identified with the label [RTYPE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "nature": [
+          "nature"
+        ],
+        "scores": [
+          "scores",
+          "grades",
+          "marks"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "categorizing": [
+          "categorizing"
+        ],
+        "labeled": [
+          "labeled",
+          "labelled",
+          "tagged"
+        ],
+        "test": [
+          "test",
+          "exam",
+          "examination",
+          "quiz",
+          "trial"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ],
+        "california": [
+          "california",
+          "California"
+        ]
+      },
+      "field_data_types": {
+        "rtype": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Understanding the categorization helps in analyzing the data effectively.",
+      "template_pattern": "Understanding the categorization helps in analyzing the data effectively.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Grasping the classification enables effective data analysis.",
+        "Because the categorization is understood, the data can be analyzed efficiently.",
+        "Effective analysis of the data is facilitated by an understanding of the grouping.",
+        "When one comprehends the taxonomy, data analysis becomes more effective.",
+        "Insight into the categorization supports thorough analysis of the data.",
+        "The data is analyzed properly once the classification is understood.",
+        "Understanding how items are categorized aids in analyzing the data successfully.",
+        "Since we understand the classification, we can examine the data with greater efficacy.",
+        "An appreciation of the categorization contributes to efficient data interpretation.",
+        "Effective data examination is helped by familiarity with the grouping.",
+        "By recognizing the categorization, analysts can evaluate the data more effectively.",
+        "The ability to analyze the data effectively stems from knowledge of the classification.",
+        "Therefore, mastering the categorization enhances the effectiveness of data analysis.",
+        "Data analysis proceeds effectively when the categorization is comprehended.",
+        "A solid grasp of the grouping empowers a more effective analysis of the data."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "effectively": [
+          "effectively",
+          "efficaciously"
+        ],
+        "helps": [
+          "helps"
+        ],
+        "data": [
+          "data"
+        ],
+        "analyzing": [
+          "analyzing"
+        ],
+        "understanding": [
+          "understanding",
+          "discernment",
+          "apprehension"
+        ],
+        "categorization": [
+          "categorization",
+          "categorisation",
+          "classification",
+          "sorting",
+          "compartmentalization"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The school name is listed as NULL in the California Department of Education records.",
+      "template_pattern": "The school name is listed as [SNAME] in the California Department of Education records.",
+      "primary_data_fields": [
+        "sname"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The s name listed in the report reads [SNAME], indicating its status in the education system.",
+        "According to the report, the s name is [SNAME], which reflects its classification within the school system.",
+        "In the documentation, the s name appears as [SNAME], denoting its role in the educational hierarchy.",
+        "[SNAME] is recorded as the s name in the report, showing its designation in the schooling framework.",
+        "The report identifies the s name as [SNAME], highlighting its placement in the education sector.",
+        "As noted in the report, the s name equals [SNAME], signifying its position within the academic system.",
+        "Within the report, the s name is given as [SNAME], mirroring its official label in the school network.",
+        "The s name, per the report, stands as [SNAME], reflecting how it is categorized in the education arena.",
+        "From the report’s perspective, the s name corresponds to [SNAME], underscoring its educational classification.",
+        "The report’s entry for the s name reads [SNAME], signifying its assigned role in the school structure.",
+        "In the data report, the s name is noted as [SNAME], which conveys its standing in the academic system.",
+        "[SNAME] is the s name cited in the report, illustrating its identification within the education field.",
+        "The s name, as captured in the report, is [SNAME], indicating its official designation in schooling.",
+        "According to the report’s records, the s name is [SNAME], reflecting its place in the educational landscape.",
+        "The report records the s name as [SNAME], denoting its recognized status within the school system."
+      ],
+      "counter_variations": [
+        "According to the California Department of Education records, the school name appears as null.",
+        "The California Department of Education’s database records the school name as null.",
+        "In the records of the California Department of Education, the school name is recorded as null.",
+        "Within the California Department of Education files, the school name is designated null.",
+        "The school name, as reflected in the California Department of Education records, is null.",
+        "As per the California Department of Education documentation, the school name is listed as null.",
+        "In the official California Department of Education archives, the school name shows up as null.",
+        "The California Department of Education’s register lists the school name as null.",
+        "According to official California Department of Education data, the school name is null.",
+        "The school name is entered as null in the California Department of Education’s records.",
+        "Within California Department of Education records, the school name is entered as null.",
+        "The California Department of Education records denote the school name with the value null.",
+        "In the California Department of Education’s compiled records, the school name carries the value null.",
+        "The school name is marked null in the California Department of Education’s dataset.",
+        "In the dataset maintained by the California Department of Education, the school name is null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "school": [
+          "school",
+          "schoolhouse"
+        ],
+        "department": [
+          "department",
+          "section"
+        ],
+        "listed": [
+          "listed"
+        ],
+        "records": [
+          "records"
+        ],
+        "california": [
+          "california",
+          "California"
+        ]
+      },
+      "field_data_types": {
+        "sname": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This anomaly raises questions about the record-keeping procedures.",
+      "template_pattern": "This anomaly raises questions about the record-keeping procedures.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The irregularity prompts us to question the record‑keeping methods.",
+        "Questions about the documentation practices are sparked by this anomaly.",
+        "This unusual finding casts doubt on how records are maintained.",
+        "Because of the anomaly, the procedures for keeping records come under scrutiny.",
+        "The record‑keeping procedures are called into question by this anomaly.",
+        "Anomalous data leads to inquiries regarding the system of record maintenance.",
+        "This oddity raises concerns about the way records are kept.",
+        "The presence of the anomaly invites a review of record‑keeping protocols.",
+        "Record‑keeping methods are being questioned following this irregularity.",
+        "With this anomaly, one must ask about the adequacy of the record‑keeping process.",
+        "This discrepancy triggers doubts concerning how records are managed.",
+        "The odd occurrence forces us to reconsider the current record‑keeping procedures.",
+        "Given the anomaly, the integrity of the record‑keeping system is now under examination.",
+        "This deviation prompts a reassessment of the methods used for record maintenance.",
+        "The unusual result raises queries about the established record‑keeping practices."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "record": [
+          "record",
+          "register",
+          "book",
+          "enter"
+        ],
+        "questions": [
+          "questions"
+        ],
+        "keeping": [
+          "keeping",
+          "holding"
+        ],
+        "procedures": [
+          "procedures"
+        ],
+        "anomaly": [
+          "anomaly"
+        ],
+        "raises": [
+          "raises"
+        ],
+        "about": [
+          "about",
+          "virtually",
+          "approximately",
+          "nearly",
+          "roughly",
+          "around"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Alameda County Office of Education oversees various public schools, ensuring quality education and resources are available to all students.",
+      "template_pattern": "The [DNAME] oversees various public schools, ensuring quality education and resources are available to all students.",
+      "primary_data_fields": [
+        "dname"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [DNAME] supervises various public schools, making sure that quality education and resources reach all students.",
+        "Various public schools are overseen by the [DNAME], which ensures that all students receive quality education and resources.",
+        "Ensuring quality education and resources for all students, the [DNAME] monitors a range of public schools.",
+        "By overseeing multiple public schools, the [DNAME] guarantees that quality education and resources are provided to all students.",
+        "All students are afforded quality education and resources because the [DNAME] directs several public schools.",
+        "The [DNAME], in its role of overseeing public schools, secures quality education and resources for all students.",
+        "Quality education and resources are made available to all students through the [DNAME]'s oversight of various public schools.",
+        "Through its supervision of public schools, the [DNAME] ensures that all students have access to quality education and resources.",
+        "The responsibility of the [DNAME] includes overseeing public schools so that all students obtain quality education and resources.",
+        "With the [DNAME] overseeing public schools, quality education and resources become accessible to all students.",
+        "All students benefit from quality education and resources as a result of the [DNAME]'s oversight of public schools.",
+        "Public schools are under the watch of the [DNAME], which guarantees quality education and resources for all students.",
+        "The [DNAME]'s oversight of public schools ensures that quality education and resources are available to all students.",
+        "Ensuring that quality education and resources reach all students, the [DNAME] oversees public schools.",
+        "By supervising public schools, the [DNAME] provides all students with quality education and resources."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "resources": [
+          "resources"
+        ],
+        "available": [
+          "available",
+          "usable"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "various": [
+          "various",
+          "diverse",
+          "assorted",
+          "several"
+        ],
+        "oversees": [
+          "oversees"
+        ],
+        "students": [
+          "students"
+        ],
+        "quality": [
+          "quality",
+          "caliber",
+          "calibre",
+          "character",
+          "choice"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ]
+      },
+      "field_data_types": {
+        "dname": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The office works diligently to support educational initiatives across the region.",
+      "template_pattern": "The office works diligently to support educational initiatives across the region.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The office diligently supports educational initiatives throughout the region.",
+        "Educational initiatives across the region are backed by the office's diligent efforts.",
+        "With diligence, the office works to bolster education programs across the region.",
+        "Across the region, the office is hard‑working in its support of educational initiatives.",
+        "The office commits itself to supporting regional educational initiatives with great diligence.",
+        "Supporting educational initiatives across the region is a priority the office pursues diligently.",
+        "By working diligently, the office aids educational initiatives throughout the region.",
+        "Educational initiatives in the region receive diligent support from the office.",
+        "The office, working diligently, assists educational initiatives across the region.",
+        "Throughout the region, the office’s diligent work underpins educational initiatives.",
+        "Diligent effort from the office fuels support for educational initiatives across the region.",
+        "The office’s commitment to the region’s educational initiatives is carried out with diligence.",
+        "Across the region, educational initiatives are sustained by the office’s diligent work.",
+        "The office actively and diligently backs educational initiatives throughout the region.",
+        "In the region, educational initiatives are supported through the office’s diligent work."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "support": [
+          "support",
+          "sustain",
+          "back",
+          "reinforcement",
+          "substantiate",
+          "corroborate"
+        ],
+        "initiatives": [
+          "initiatives"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "office": [
+          "office",
+          "bureau",
+          "agency",
+          "post",
+          "position",
+          "authority"
+        ],
+        "diligently": [
+          "diligently"
+        ],
+        "region": [
+          "region",
+          "realm",
+          "area",
+          "neighborhood",
+          "part"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "works": [
+          "works",
+          "deeds",
+          "workings"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The analysis of SAT test performance highlights the trends observed in Alameda, providing insights into student outcomes in California.",
+      "template_pattern": "The analysis of SAT test performance highlights the trends observed in [CNAME], providing insights into student outcomes in California.",
+      "primary_data_fields": [
+        "cname"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The SAT test performance analysis spotlights the trends seen in [CNAME] and offers insight into student outcomes across California.",
+        "By examining SAT results, the analysis uncovers [CNAME]’s observed trends while shedding light on California student outcomes.",
+        "Insights into California student outcomes emerge from the SAT performance review that highlights [CNAME]’s trends.",
+        "[CNAME]’s trends are highlighted in the SAT analysis, which in turn provides insights on student outcomes throughout California.",
+        "Through the SAT performance analysis, trends identified in [CNAME] are emphasized, delivering perspectives on California’s student results.",
+        "The review of SAT scores emphasizes [CNAME]’s trends and furnishes insights into how students fare statewide in California.",
+        "Highlighting [CNAME]’s observed patterns, the SAT analysis delivers valuable understanding of student outcomes in California.",
+        "In California, the SAT performance study brings [CNAME]’s trends to the fore and supplies insight into overall student achievement.",
+        "The analysis of SAT test results underscores trends recorded in [CNAME], thereby informing conclusions about student outcomes in California.",
+        "By focusing on [CNAME]’s trends, the SAT analysis provides a clearer picture of student outcomes throughout California.",
+        "Student outcomes in California become clearer thanks to the SAT analysis that highlights trends observed in [CNAME].",
+        "The SAT performance assessment draws attention to [CNAME]’s trends and consequently illuminates student outcomes across California.",
+        "Through its focus on [CNAME], the SAT analysis reveals trends that help explain student outcomes in the wider California context.",
+        "[CNAME]’s trend data, highlighted by the SAT performance analysis, contributes to a deeper understanding of California student results.",
+        "The SAT test evaluation shines a light on [CNAME]’s trends, offering essential insights into student outcomes throughout California."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "insights": [
+          "insights"
+        ],
+        "into": [
+          "into"
+        ],
+        "providing": [
+          "providing"
+        ],
+        "observed": [
+          "observed",
+          "discovered",
+          "ascertained"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "performance": [
+          "performance",
+          "execution"
+        ],
+        "trends": [
+          "trends"
+        ]
+      },
+      "field_data_types": {
+        "cname": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These insights help in tailoring future educational strategies.",
+      "template_pattern": "These insights help in tailoring future educational strategies.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "These insights assist in customizing upcoming educational strategies.",
+        "Future educational strategies are shaped by these insights.",
+        "By using these insights, we can tailor future educational approaches.",
+        "These findings enable the design of future teaching strategies.",
+        "Tailoring forthcoming educational plans is facilitated by these insights.",
+        "With these insights, educators can refine future strategies.",
+        "The insights provided help craft upcoming educational tactics.",
+        "Future educational strategies benefit from the guidance of these insights.",
+        "These insights serve to adapt future teaching methodologies.",
+        "The knowledge gained aids in adjusting future educational strategies.",
+        "Future curricula can be tailored thanks to these insights.",
+        "These insights make it possible to personalize forthcoming educational strategies.",
+        "By applying these insights, future educational strategies can be fine‑tuned.",
+        "The development of future educational strategies is supported by these insights.",
+        "These insights contribute to the customization of upcoming educational plans."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategies": [
+          "strategies"
+        ],
+        "these": [
+          "these"
+        ],
+        "insights": [
+          "insights"
+        ],
+        "tailoring": [
+          "tailoring"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "help": [
+          "help",
+          "aid",
+          "assistance"
+        ],
+        "future": [
+          "future",
+          "futurity"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the 2012 academic year, enroll12 showed that 398 students were part of the California public school's community.",
+      "template_pattern": "In the 2012 academic year, enroll12 showed that [ENROLL12] students were part of the California public school's community.",
+      "primary_data_fields": [
+        "enroll12"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the 2012 academic year, enroll12 indicated that [ENROLL12] students belonged to the California public school's community.",
+        "The 2012 academic year data from enroll12 reveal that the California public school's community included [ENROLL12] students.",
+        "According to enroll12, in the 2012 academic year, [ENROLL12] students were members of the California public school's community.",
+        "In the 2012 academic year, enroll12 reported [ENROLL12] students as part of the California public school's community.",
+        "The enroll12 record for the 2012 academic year shows [ENROLL12] students comprising the California public school's community.",
+        "For the 2012 academic year, enroll12 notes that the California public school's community consisted of [ENROLL12] students.",
+        "[ENROLL12] students were counted within the California public school's community in the 2012 academic year, as per enroll12.",
+        "As documented by enroll12, the California public school's community had [ENROLL12] students during the 2012 academic year.",
+        "Enroll12 states that the California public school's community comprised [ENROLL12] students in the 2012 academic year.",
+        "In the 2012 academic year, the California public school's community was made up of [ENROLL12] students, according to enroll12.",
+        "The 2012 academic year figures from enroll12 show [ENROLL12] students forming part of the California public school's community.",
+        "According to the enroll12 data for the 2012 academic year, [ENROLL12] students were included in the California public school's community.",
+        "Enrollment data (enroll12) for the 2012 academic year indicate that [ENROLL12] students were members of the California public school's community.",
+        "The California public school's community contained [ENROLL12] students in the 2012 academic year, as recorded by enroll12.",
+        "In the 2012 academic year, enroll12 captured that the California public school's community encompassed [ENROLL12] students."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "showed": [
+          "showed"
+        ],
+        "school": [
+          "school",
+          "schoolhouse",
+          "schooling",
+          "schooltime"
+        ],
+        "students": [
+          "students"
+        ],
+        "community": [
+          "community"
+        ],
+        "public": [
+          "public",
+          "populace",
+          "world"
+        ],
+        "part": [
+          "part",
+          "piece",
+          "portion",
+          "section",
+          "component",
+          "constituent"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "academic": [
+          "academic"
+        ]
+      },
+      "field_data_types": {
+        "enroll12": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student body was diverse and eager to learn.",
+      "template_pattern": "The student body was diverse and eager to learn.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Diverse and eager to learn, the student body represented a wide range of backgrounds.",
+        "The student body, composed of varied individuals, was keen on learning.",
+        "A varied student population demonstrated a strong appetite for learning.",
+        "Learning enthusiasm and diversity characterized the student body.",
+        "The student body exhibited diversity and a thirst for knowledge.",
+        "With its diverse makeup, the student body was eager to acquire knowledge.",
+        "Diverse students made up the body, all eager to learn.",
+        "The student body, diverse in composition, showed a keen desire to learn.",
+        "Eager to learn, the diverse student body engaged actively in coursework.",
+        "A broad spectrum of students formed the body, each keen on learning.",
+        "The body of students was both diverse and highly motivated to learn.",
+        "Diversity marked the student body, which was also eager to learn.",
+        "The student body, reflecting varied backgrounds, pursued learning with enthusiasm.",
+        "In the student body, diversity and a hunger for learning were evident.",
+        "The collective student body combined diversity with a strong eagerness to learn."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "eager": [
+          "eager"
+        ],
+        "body": [
+          "body"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "learn": [
+          "learn",
+          "acquire",
+          "study",
+          "discover",
+          "ascertain",
+          "memorize"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "At the local California public school, the NumTstTakr for the SAT was recorded at 88.",
+      "template_pattern": "At the local California public school, the NumTstTakr for the SAT was recorded at [NUMTSTTAKR].",
+      "primary_data_fields": [
+        "NumTstTakr"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The local California public school logged a NumTstTakr of [NUMTSTTAKR] for the SAT.",
+        "In a California public school nearby, the SAT NumTstTakr was documented as [NUMTSTTAKR].",
+        "At a nearby public school in California, officials recorded the NumTstTakr for the SAT at [NUMTSTTAKR].",
+        "The SAT’s NumTstTakr reached [NUMTSTTAKR] at the local public school in California.",
+        "Recorded at the local California public school, the NumTstTakr for the SAT stood at [NUMTSTTAKR].",
+        "For the SAT, the NumTstTakr was [NUMTSTTAKR] according to data from the local California public school.",
+        "Data from the nearby California public school shows a NumTstTakr of [NUMTSTTAKR] for the SAT.",
+        "The local California public school reported that the SAT NumTstTakr measured [NUMTSTTAKR].",
+        "According to the local California public school, the NumTstTakr for the SAT amounted to [NUMTSTTAKR].",
+        "A NumTstTakr of [NUMTSTTAKR] was noted for the SAT at the local public school in California.",
+        "The SAT NumTstTakr, as recorded by the local California public school, equals [NUMTSTTAKR].",
+        "At the nearby California public school, the NumTstTakr for the SAT was noted at [NUMTSTTAKR].",
+        "The local public school in California documented the SAT NumTstTakr at [NUMTSTTAKR].",
+        "In the local California public school, the NumTstTakr for the SAT came in at [NUMTSTTAKR].",
+        "The NumTstTakr for the SAT, reported by the local California public school, was [NUMTSTTAKR]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "local": [
+          "local"
+        ],
+        "school": [
+          "school"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ],
+        "california": [
+          "california",
+          "California"
+        ]
+      },
+      "field_data_types": {
+        "NumTstTakr": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This participation rate provided a substantial set of data for analysis.",
+      "template_pattern": "This participation rate provided a substantial set of data for analysis.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The participation rate yielded a sizable dataset for analysis.",
+        "A substantial set of data for analysis was supplied by this participation rate.",
+        "Thanks to this participation rate, researchers obtained a large amount of data to analyze.",
+        "This participation rate generated an ample collection of data for analytical purposes.",
+        "An extensive data set for analysis was produced as a result of the participation rate.",
+        "With this participation rate, a considerable amount of data became available for analysis.",
+        "The data set, substantial in size, stemmed from the participation rate for analysis.",
+        "Because of the participation rate, analysts now have a hefty pool of data to examine.",
+        "This rate of participation furnished analysts with a robust set of data.",
+        "A robust dataset for analysis was derived from the observed participation rate.",
+        "From the participation rate emerged a large collection of data suitable for analysis.",
+        "The participation rate contributed a considerable data set for analysis.",
+        "Having this participation rate meant that a substantial amount of data was at hand for analysis.",
+        "In light of the participation rate, a plentiful data set was made available for analysis.",
+        "This participation rate supplied analysts with a sizable amount of data for further analysis."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "data": [
+          "data"
+        ],
+        "participation": [
+          "participation",
+          "involvement",
+          "engagement"
+        ],
+        "rate": [
+          "rate",
+          "pace",
+          "grade",
+          "value"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "provided": [
+          "provided"
+        ],
+        "substantial": [
+          "substantial",
+          "substantive",
+          "material",
+          "solid",
+          "significant"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The AvgScrRead of 418 reflects the average performance of students in California public schools on the SAT reading section.",
+      "template_pattern": "The AvgScrRead of [AVGSCRREAD] reflects the average performance of students in California public schools on the SAT reading section.",
+      "primary_data_fields": [
+        "AvgScrRead"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The AvgScrRead of [AVGSCRREAD] indicates how California public‑school students performed on the SAT reading portion.",
+        "A value of [AVGSCRREAD] for AvgScrRead reflects the average SAT reading scores of students attending public schools in California.",
+        "In California’s public schools, the AvgScrRead stands at [AVGSCRREAD], representing the mean performance on the SAT reading section.",
+        "The average SAT reading result for California public‑school pupils is captured by an AvgScrRead of [AVGSCRREAD].",
+        "With an AvgScrRead of [AVGSCRREAD], California’s public‑school learners achieve this average on the SAT reading segment.",
+        "The SAT reading section’s average score among California public‑school students is shown by an AvgScrRead of [AVGSCRREAD].",
+        "An AvgScrRead of [AVGSCRREAD] denotes the typical reading score on the SAT for students in California’s public schools.",
+        "For public schools in California, the AvgScrRead registers at [AVGSCRREAD], summarizing the average SAT reading performance.",
+        "The AvgScrRead figure, [AVGSCRREAD], summarizes how California public‑school students fare on the SAT reading part.",
+        "California public‑school students’ mean SAT reading score is reflected in the AvgScrRead value of [AVGSCRREAD].",
+        "Recorded as [AVGSCRREAD], the AvgScrRead conveys the average reading outcome on the SAT for students in California’s public schools.",
+        "The AvgScrRead, set at [AVGSCRREAD], measures the average performance of California public‑school students on the SAT reading component.",
+        "In the context of California public schools, an AvgScrRead of [AVGSCRREAD] captures the average SAT reading result.",
+        "The [AVGSCRREAD] AvgScrRead figure represents the typical SAT reading score achieved by students in California’s public schools.",
+        "Averaging [AVGSCRREAD], the AvgScrRead indicates the performance level of California public‑school students on the SAT reading section."
+      ],
+      "counter_variations": [
+        "Because the Avg Scr Read is null, the average reading score for the reported cohort could not be computed.",
+        "The reported cohort’s average reading score cannot be calculated, as the Avg Scr Read value is null.",
+        "When the Avg Scr Read returns null, it signifies that the average reading score for this cohort remains uncalculable.",
+        "A null reading in the Avg Scr Read field indicates that the average reading score for the cohort could not be derived.",
+        "Given that the Avg Scr Read shows a null value, the system is unable to determine an average reading score for the cohort in question.",
+        "The presence of null in the Avg Scr Read metric means the average reading score for the reported cohort cannot be established.",
+        "Since the Avg Scr Read yields null, the average reading score for the cohort cannot be ascertained.",
+        "If the Avg Scr Read is null, this denotes that the average reading score for the cohort cannot be computed.",
+        "The Avg Scr Read returning null conveys that an average reading score could not be calculated for the cohort reported.",
+        "A null result for the Avg Scr Read field signals that the average reading score for the cohort is not calculable.",
+        "When null appears in the Avg Scr Read column, it reflects the inability to compute an average reading score for the reported cohort.",
+        "The Avg Scr Read value of null reveals that the average reading score for the cohort could not be derived.",
+        "Because the Avg Scr Read registers null, the average reading score for this cohort cannot be produced.",
+        "The fact that the Avg Scr Read is null indicates the average reading score for the reported cohort cannot be generated.",
+        "If a null is recorded for Avg Scr Read, it implies that the average reading score for the cohort cannot be calculated."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "reflects": [
+          "reflects"
+        ],
+        "reading": [
+          "reading",
+          "scan",
+          "indication",
+          "record"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "students": [
+          "students"
+        ],
+        "average": [
+          "average",
+          "mean",
+          "median",
+          "norm"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ],
+        "performance": [
+          "performance",
+          "operation",
+          "execution",
+          "functioning"
+        ],
+        "california": [
+          "california",
+          "California"
+        ]
+      },
+      "field_data_types": {
+        "AvgScrRead": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Reading skills are vital for academic success and future careers.",
+      "template_pattern": "Reading skills are vital for academic success and future careers.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Mastery of reading is essential for both academic achievement and future professional paths.",
+        "Academic success and future careers depend heavily on strong reading abilities.",
+        "Strong reading skills are a prerequisite for succeeding in school and in later occupations.",
+        "For academic accomplishment and forthcoming careers, proficient reading is indispensable.",
+        "Academic success and future careers are underpinned by the ability to read well.",
+        "Academic performance and subsequent career prospects hinge on solid reading competence.",
+        "It is the reading skill set that fuels academic triumphs and paves the way for future occupations.",
+        "Success in school and future professional life is driven by robust reading capabilities.",
+        "Reading proficiency, a vital component, supports both scholarly success and future employment.",
+        "Both scholarly achievement and future career opportunities are anchored in effective reading.",
+        "Effective reading skills are crucial for achieving academic goals and securing future jobs.",
+        "Future careers and academic success are both contingent upon strong reading abilities.",
+        "In order to excel academically and later in one’s career, reading competence is indispensable.",
+        "Academic excellence and later professional success are made possible by solid reading skills.",
+        "The cornerstone of academic success and future career prospects is proficient reading."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "success": [
+          "success",
+          "winner"
+        ],
+        "skills": [
+          "skills"
+        ],
+        "vital": [
+          "vital",
+          "critical"
+        ],
+        "careers": [
+          "careers"
+        ],
+        "reading": [
+          "reading",
+          "study",
+          "interpretation"
+        ],
+        "future": [
+          "future"
+        ],
+        "academic": [
+          "academic"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The AvgScrMath at the school is 418, indicating the students' average performance on the SAT math section.",
+      "template_pattern": "The AvgScrMath at the school is 418, indicating the students' average performance on the SAT math section.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "At the school, the AvgScrMath registers 418, signifying the students' average SAT math performance.",
+        "The school's AvgScrMath is 418, a figure that denotes the average performance of its students on the SAT math section.",
+        "With an AvgScrMath of 418, the school demonstrates its students' mean score on the SAT math portion.",
+        "A 418 AvgScrMath at the school indicates how the students performed on average in the SAT math section.",
+        "The AvgScrMath, recorded at 418 for the school, reflects the average SAT math results of its students.",
+        "Students at the school average a 418 on the SAT math section, as shown by the AvgScrMath.",
+        "The school’s AvgScrMath, standing at 418, points to the average math score achieved by its students on the SAT.",
+        "Indicating the average SAT math performance of its pupils, the school's AvgScrMath is 418.",
+        "An AvgScrMath of 418 has been reported for the school, indicating the mean SAT math score of its students.",
+        "The reported AvgScrMath for the school equals 418, which reveals the average performance of students on the SAT math section.",
+        "Because the school's AvgScrMath is 418, it can be inferred that students' average SAT math score is 418.",
+        "The 418 AvgScrMath figure at the school serves as an indicator of the students' average performance on the SAT math portion.",
+        "Reflecting the average SAT math outcome for its students, the school's AvgScrMath totals 418.",
+        "A value of 418 for the school's AvgScrMath signals the average math section score of its students on the SAT.",
+        "The school's average SAT math score, captured by an AvgScrMath of 418, indicates how its students performed on average."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Mathematics remains a cornerstone of many educational programs.",
+      "template_pattern": "Mathematics remains a cornerstone of many educational programs.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Mathematics continues to serve as a fundamental pillar in numerous educational curricula.",
+        "In many educational programs, mathematics still stands as a key cornerstone.",
+        "The cornerstone of many educational curricula remains mathematics.",
+        "Many education programs still regard mathematics as a core foundation.",
+        "Mathematics is still regarded as a cornerstone across a wide range of educational programs.",
+        "Across numerous educational initiatives, mathematics persists as an essential cornerstone.",
+        "A cornerstone of many educational programs, mathematics remains integral.",
+        "Educational curricula worldwide keep mathematics as a central cornerstone.",
+        "Many schooling systems maintain mathematics as a foundational pillar.",
+        "Mathematics retains its status as a cornerstone within many educational programs.",
+        "Within a variety of educational programs, mathematics continues to be a cornerstone.",
+        "The role of mathematics as a cornerstone endures in many educational frameworks.",
+        "As a cornerstone, mathematics persists in a multitude of educational programs.",
+        "Numerous educational programs still count mathematics among their core cornerstones.",
+        "Mathematics, still a cornerstone, underpins many educational programs."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "remains": [
+          "remains",
+          "rest"
+        ],
+        "cornerstone": [
+          "cornerstone",
+          "basis",
+          "base",
+          "foundation",
+          "fundament"
+        ],
+        "mathematics": [
+          "mathematics",
+          "maths",
+          "math"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "programs": [
+          "programs",
+          "programme"
+        ],
+        "many": [
+          "many"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In California public schools, the AvgScrWrite on the SAT test's writing section stands at 417, reflecting students' proficiency.",
+      "template_pattern": "In California public schools, the AvgScrWrite on the SAT test's writing section stands at [AVGSCRWRITE], reflecting students' proficiency.",
+      "primary_data_fields": [
+        "AvgScrWrite"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In California public schools, the AvgScrWrite on the SAT test's writing section registers [AVGSCRWRITE], indicating student proficiency.",
+        "The AvgScrWrite recorded for the SAT test's writing section in California public schools is [AVGSCRWRITE], reflecting how skilled the learners are.",
+        "California public schools show an AvgScrWrite of [AVGSCRWRITE] on the SAT test's writing section, which signals student competence.",
+        "An AvgScrWrite of [AVGSCRWRITE] appears on the SAT test's writing section for California public schools, demonstrating learners' proficiency.",
+        "For California public schools, the SAT test's writing section yields an AvgScrWrite of [AVGSCRWRITE], underscoring student ability.",
+        "The SAT test's writing section in California public schools reports an AvgScrWrite of [AVGSCRWRITE], mirroring student skill.",
+        "Within California public schools, the AvgScrWrite on the SAT test's writing section stands at [AVGSCRWRITE], revealing the students' proficiency level.",
+        "In the realm of California public schools, an AvgScrWrite of [AVGSCRWRITE] is observed on the SAT test's writing section, highlighting learner competence.",
+        "The AvgScrWrite on the SAT test's writing section reaches [AVGSCRWRITE] in California public schools, signifying the proficiency of the students.",
+        "California public schools have an AvgScrWrite of [AVGSCRWRITE] on the SAT test's writing section, which reflects the aptitude of their pupils.",
+        "On the SAT test's writing section, California public schools achieve an AvgScrWrite of [AVGSCRWRITE], illustrating student proficiency.",
+        "The SAT test's writing section yields an AvgScrWrite of [AVGSCRWRITE] for California public schools, conveying how proficient the students are.",
+        "In California public schools, an AvgScrWrite of [AVGSCRWRITE] is noted on the SAT test's writing section, denoting the students' skill level.",
+        "For the SAT test's writing section, the AvgScrWrite in California public schools stands at [AVGSCRWRITE], indicating robust student proficiency.",
+        "California public schools report that the AvgScrWrite on the SAT test's writing section is [AVGSCRWRITE], reflecting the competence of their students."
+      ],
+      "counter_variations": [
+        "Within the statewide educational assessment, the Avg Scr Write metric is reported as null, signifying that no writing performance data have been recorded.",
+        "The statewide educational assessment reveals that the Avg Scr Write metric registers null, thereby indicating a lack of documented writing performance figures.",
+        "As part of the statewide educational assessment, the Avg Scr Write metric appears as null, which reflects an absence of captured writing performance data.",
+        "In the context of the statewide educational assessment, the Avg Scr Write metric shows a value of null, denoting that writing performance data are not present.",
+        "The statewide educational assessment lists the Avg Scr Write metric with a status of null, implying that no writing performance data have been logged.",
+        "According to the statewide educational assessment, the Avg Scr Write metric is assigned null, pointing to the non‑existence of recorded writing performance data.",
+        "Within the statewide educational assessment framework, the Avg Scr Write metric registers null, thereby indicating that writing performance data are missing from the record.",
+        "The statewide educational assessment data set records the Avg Scr Write metric as null, a marker that writing performance data were not captured.",
+        "In the statewide educational assessment, the Avg Scr Write metric is noted as null, suggesting that there are no documented writing performance measurements.",
+        "The Avg Scr Write metric, as captured in the statewide educational assessment, is designated null, which conveys that writing performance data are currently unavailable.",
+        "During the statewide educational assessment, the Avg Scr Write metric is marked null, reflecting that writing performance data have not been entered.",
+        "The statewide educational assessment indicates a null value for the Avg Scr Write metric, an indication that writing performance data are absent.",
+        "In the statewide educational assessment report, the Avg Scr Write metric is listed as null, denoting the absence of any recorded writing performance data.",
+        "The Avg Scr Write metric receives a null entry in the statewide educational assessment, thereby communicating that writing performance data are not recorded.",
+        "As reported by the statewide educational assessment, the Avg Scr Write metric shows null, which implies that there is no recorded writing performance data."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "schools": [
+          "schools"
+        ],
+        "stands": [
+          "stands"
+        ],
+        "writing": [
+          "writing",
+          "authorship",
+          "composition",
+          "penning"
+        ],
+        "proficiency": [
+          "proficiency",
+          "technique"
+        ],
+        "students": [
+          "students"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "test": [
+          "test",
+          "exam",
+          "examination",
+          "trial",
+          "quiz"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ]
+      },
+      "field_data_types": {
+        "AvgScrWrite": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Writing skills are essential for effective communication.",
+      "template_pattern": "Writing skills are essential for effective communication.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Effective communication depends on strong writing abilities.",
+        "Mastery of writing is indispensable for communicating effectively.",
+        "To communicate well, one must possess essential writing skills.",
+        "Writing competence is a crucial element of effective communication.",
+        "The ability to write well is vital for successful communication.",
+        "Communicating effectively requires the essential skill of writing.",
+        "Essential for effective communication are proficient writing skills.",
+        "Without solid writing skills, effective communication cannot be achieved.",
+        "Effective communication is underpinned by necessary writing capabilities.",
+        "Writing proficiency, a key factor, ensures effective communication.",
+        "For communication to be effective, writing skills must be essential.",
+        "The cornerstone of effective communication lies in adept writing abilities.",
+        "Effective communication hinges on the indispensable skill of writing.",
+        "It is the essential writing skills that enable effective communication.",
+        "In order to communicate effectively, writing skills are indispensable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "skills": [
+          "skills"
+        ],
+        "writing": [
+          "writing",
+          "authorship",
+          "composition",
+          "penning"
+        ],
+        "effective": [
+          "effective",
+          "effectual",
+          "efficacious"
+        ],
+        "essential": [
+          "essential",
+          "necessary",
+          "crucial",
+          "requisite",
+          "indispensable"
+        ],
+        "communication": [
+          "communication",
+          "communicating"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In California public schools, 14 students achieved the NumGE1500 benchmark, highlighting a notable level of college readiness.",
+      "template_pattern": "In California public schools, [NUMGE1500] students achieved the NumGE1500 benchmark, highlighting a notable level of college readiness.",
+      "primary_data_fields": [
+        "NumGE1500"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In California's public schools, [NUMGE1500] students met the NumGE1500 benchmark, indicating a strong degree of college readiness.",
+        "[NUMGE1500] pupils in California public schools achieved the NumGE1500 standard, underscoring notable college readiness.",
+        "The NumGE1500 benchmark was reached by [NUMGE1500] students across California public schools, highlighting a significant level of college preparedness.",
+        "Highlighting a notable level of college readiness, [NUMGE1500] students in California public schools satisfied the NumGE1500 criterion.",
+        "California public schools reported that [NUMGE1500] learners attained the NumGE1500 target, reflecting considerable college readiness.",
+        "A total of [NUMGE1500] students in California’s public schools have fulfilled the NumGE1500 requirement, showcasing notable readiness for college.",
+        "Notably, [NUMGE1500] students from California public schools have achieved the NumGE1500 benchmark, signaling solid college readiness.",
+        "The achievement of the NumGE1500 benchmark by [NUMGE1500] students in California public schools points to a marked level of college readiness.",
+        "In the realm of college readiness, [NUMGE1500] students in California public schools have met the NumGE1500 standard.",
+        "With [NUMGE1500] students reaching the NumGE1500 threshold, California public schools demonstrate a noteworthy degree of college preparedness.",
+        "College readiness is highlighted by [NUMGE1500] students in California public schools who attained the NumGE1500 benchmark.",
+        "The NumGE1500 metric was satisfied by [NUMGE1500] students within California public schools, indicating a prominent level of college readiness.",
+        "California public schools show notable college readiness as [NUMGE1500] students meet the NumGE1500 benchmark.",
+        "Meeting the NumGE1500 benchmark, [NUMGE1500] students in California public schools underscore a strong level of college readiness.",
+        "A notable level of college readiness is evident as [NUMGE1500] students in California public schools achieve the NumGE1500 benchmark."
+      ],
+      "counter_variations": [
+        "Within the statewide academic performance overview, the Num GE1500 metric registers as null, thereby signifying that the corresponding college‑readiness indicator could not be reported.",
+        "The statewide academic performance overview reveals that the Num GE1500 metric is null, which denotes that data for this college‑readiness indicator were not supplied.",
+        "In the context of the statewide academic performance overview, analysts note the Num GE1500 metric as null, indicating a lack of available figures for this college‑readiness measure.",
+        "According to the statewide academic performance overview, the Num GE1500 metric appears null, reflecting that no data could be captured for this college‑readiness indicator.",
+        "The report’s statewide academic performance overview lists the Num GE1500 metric as null, implying that information for this college‑readiness indicator is presently inaccessible.",
+        "When reviewing the statewide academic performance overview, one observes the Num GE1500 metric being null, which suggests that the associated college‑readiness data are not on hand.",
+        "In the statewide academic performance overview, the Num GE1500 metric is recorded as null, a status that points to the unavailability of data for this college‑readiness indicator.",
+        "The statewide academic performance overview documents the Num GE1500 metric as null, thereby indicating that the relevant college‑readiness data could not be obtained.",
+        "Within the statewide academic performance overview, the Num GE1500 metric is noted as null, signaling that the data for this college‑readiness indicator were not provided.",
+        "The statewide academic performance overview shows the Num GE1500 metric to be null, which conveys that no data exist for this particular college‑readiness measure.",
+        "In the compilation of the statewide academic performance overview, the Num GE1500 metric is identified as null, denoting that the college‑readiness indicator lacks a reported value.",
+        "According to the statewide academic performance overview, the Num GE1500 metric is marked null, indicating that the data for this college‑readiness indicator were unavailable at the time of reporting.",
+        "The statewide academic performance overview cites the Num GE1500 metric as null, reflecting that the associated college‑readiness data could not be retrieved.",
+        "When the statewide academic performance overview is examined, the Num GE1500 metric appears as null, suggesting that the data for this college‑readiness indicator are missing from the dataset.",
+        "In the statewide academic performance overview, the Num GE1500 metric is classified as null, which conveys that the college‑readiness indicator lacks any reported data."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "readiness": [
+          "readiness",
+          "preparedness",
+          "preparation"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "stratum",
+          "plane",
+          "grade",
+          "degree"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "notable": [
+          "notable",
+          "noted",
+          "celebrated",
+          "illustrious",
+          "renowned",
+          "famed"
+        ],
+        "students": [
+          "students",
+          "pupils",
+          "scholars"
+        ],
+        "benchmark": [
+          "benchmark"
+        ],
+        "college": [
+          "college"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {
+        "NumGE1500": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This achievement sets a standard for others to aspire to.",
+      "template_pattern": "This achievement sets a standard for others to aspire to.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This accomplishment establishes a benchmark that others may strive to reach.",
+        "A standard is set by this achievement, providing a goal for others to pursue.",
+        "By achieving this, a model is created for others to aspire toward.",
+        "Others can look to this milestone as the yardstick they aim to match.",
+        "This success sets the bar, inviting others to aim for the same level.",
+        "With this achievement, a reference point is offered for others to emulate.",
+        "The achievement forms a paradigm that others are encouraged to follow.",
+        "This feat establishes a criterion for others to aspire to.",
+        "A new standard, set by this accomplishment, serves as an aspiration for others.",
+        "Others may aspire to this benchmark, which this achievement has defined.",
+        "Setting a standard, this achievement gives others something to aim for.",
+        "This result creates a touchstone that others can aspire toward.",
+        "The establishment of this standard by the achievement provides a target for others.",
+        "By setting this benchmark, the achievement offers a model for others to pursue.",
+        "This achievement provides a yardstick that others should aspire to emulate."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "sets": [
+          "sets"
+        ],
+        "aspire": [
+          "aspire",
+          "aim"
+        ],
+        "achievement": [
+          "achievement",
+          "accomplishment"
+        ],
+        "standard": [
+          "standard",
+          "criterion",
+          "measure",
+          "touchstone"
+        ],
+        "others": [
+          "others"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The educational landscape continues to evolve with new challenges.",
+      "template_pattern": "The educational landscape continues to evolve with new challenges.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Amid fresh challenges, the educational landscape keeps evolving.",
+        "New challenges are driving the continual evolution of the education sector.",
+        "The learning environment remains in flux as it confronts emerging challenges.",
+        "Ongoing transformation characterizes the academic terrain facing novel obstacles.",
+        "With novel challenges appearing, the education sphere is progressively developing.",
+        "The schooling sector is being reshaped by new challenges, sustaining its evolution.",
+        "Emerging challenges propel the continual change of the educational landscape.",
+        "As new difficulties arise, the educational environment continues its evolution.",
+        "The academic landscape undergoes ongoing adaptation in the face of fresh challenges.",
+        "New challenges keep the education field in a state of constant evolution.",
+        "Facing novel pressures, the education realm persistently evolves.",
+        "The continual evolution of the learning landscape is fueled by new challenges.",
+        "With emerging obstacles, the educational terrain remains dynamically evolving.",
+        "New challenges ensure that the education sector stays in a perpetual state of change.",
+        "The education environment, confronted with fresh challenges, continues to transform."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "evolve": [
+          "evolve",
+          "develop"
+        ],
+        "continues": [
+          "continues"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "challenges": [
+          "challenges"
+        ],
+        "landscape": [
+          "landscape"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Teachers and educators strive to meet these challenges with innovative solutions.",
+      "template_pattern": "Teachers and educators strive to meet these challenges with innovative solutions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Teachers and educators work to overcome these challenges by employing innovative solutions.",
+        "Innovative solutions are being used by teachers and educators to address these challenges.",
+        "In confronting these challenges, teachers and educators adopt inventive approaches.",
+        "To tackle these challenges, educators and teachers pursue creative solutions.",
+        "These challenges are met by teachers and educators through novel problem‑solving methods.",
+        "Teachers, alongside educators, strive toward resolving these challenges with fresh solutions.",
+        "By applying innovative strategies, educators and teachers aim to meet these challenges.",
+        "The challenges are addressed by teachers and educators using cutting‑edge solutions.",
+        "With inventive solutions, teachers and educators endeavor to surmount these challenges.",
+        "Educators and teachers are committed to meeting these challenges via innovative approaches.",
+        "Meeting these challenges, teachers and educators rely on pioneering solutions.",
+        "Innovative approaches are employed by teachers and educators to confront these challenges.",
+        "Teachers and educators, seeking to meet these challenges, turn to creative solutions.",
+        "To meet these challenges, teachers and educators implement forward‑thinking solutions.",
+        "These challenges are being met through innovative solutions by teachers and educators."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "innovative": [
+          "innovative",
+          "groundbreaking",
+          "advanced",
+          "modern"
+        ],
+        "educators": [
+          "educators"
+        ],
+        "these": [
+          "these"
+        ],
+        "teachers": [
+          "teachers"
+        ],
+        "challenges": [
+          "challenges"
+        ],
+        "meet": [
+          "meet",
+          "fulfill",
+          "match",
+          "fit",
+          "satisfy",
+          "fill"
+        ],
+        "solutions": [
+          "solutions"
+        ],
+        "strive": [
+          "strive",
+          "endeavour",
+          "endeavor"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Parents and guardians play a critical role in supporting their children's development.",
+      "template_pattern": "Parents and guardians play a critical role in supporting their children's development.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Parents and guardians are essential contributors to their children's developmental progress.",
+        "A crucial part of fostering child development is performed by parents and guardians.",
+        "The development of children is supported critically by parents and guardians.",
+        "It is parents and guardians who critically aid in the growth of their kids.",
+        "Supporting the development of their children, parents and guardians assume a vital role.",
+        "The pivotal role in nurturing children’s development belongs to parents and guardians.",
+        "Children’s development receives crucial backing from parents and guardians.",
+        "In the realm of child development, parents and guardians play an indispensable part.",
+        "The vital contribution of parents and guardians lies in bolstering their children’s growth.",
+        "By actively supporting their kids’ development, parents and guardians fulfill a critical function.",
+        "Critical support for children's development is provided by parents and guardians.",
+        "Parents and guardians, acting as key supporters, influence their children's developmental outcomes.",
+        "The essential role of parents and guardians in promoting child development cannot be overstated.",
+        "Developmental advancement for children hinges on the critical involvement of parents and guardians.",
+        "With a critical role, parents and guardians help nurture their children's development."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "guardians": [
+          "guardians"
+        ],
+        "play": [
+          "play",
+          "sport",
+          "recreate"
+        ],
+        "their": [
+          "their"
+        ],
+        "critical": [
+          "critical",
+          "vital",
+          "decisive"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part",
+          "character",
+          "persona",
+          "office"
+        ],
+        "supporting": [
+          "supporting"
+        ],
+        "development": [
+          "development",
+          "growth",
+          "maturation",
+          "evolution"
+        ],
+        "parents": [
+          "parents"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Community involvement is key to the success of public schools.",
+      "template_pattern": "Community involvement is key to the success of public schools.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The success of public schools hinges on active community involvement.",
+        "Active participation from the community is essential for public schools to thrive.",
+        "Public schools achieve success when the community gets involved.",
+        "Success in public schools depends largely on community engagement.",
+        "Community involvement serves as the cornerstone of public school achievement.",
+        "For public schools to succeed, community participation is indispensable.",
+        "The key to public school success lies in the involvement of the community.",
+        "When communities engage, public schools are more likely to succeed.",
+        "Public school success is driven by robust community involvement.",
+        "It is community involvement that underpins the success of public schools.",
+        "Without community participation, public schools cannot achieve success.",
+        "A thriving public school system requires the community’s active involvement.",
+        "The involvement of the community proves vital to the success of public schools.",
+        "Public schools' success is contingent upon strong community involvement.",
+        "If the community gets involved, public schools will likely succeed."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "success": [
+          "success",
+          "winner"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "community": [
+          "community"
+        ],
+        "involvement": [
+          "involvement",
+          "participation",
+          "engagement",
+          "interest"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Students are encouraged to take an active role in their learning journey.",
+      "template_pattern": "Students are encouraged to take an active role in their learning journey.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Educators urge students to actively participate in their educational path.",
+        "Students should be motivated to assume a proactive stance throughout their learning experience.",
+        "It is recommended that learners take an engaged role in their academic journey.",
+        "By taking an active part in their studies, students are encouraged to shape their own learning trajectory.",
+        "The school encourages pupils to play an active part in their learning journey.",
+        "Learners are prompted to adopt an active role as they progress through their education.",
+        "Encourage students to become active agents in the course of their learning.",
+        "Active involvement in their educational journey is something students are urged to pursue.",
+        "Teachers ask students to take an active role in navigating their own learning path.",
+        "Students are advised to engage proactively with their learning journey.",
+        "Taking a hands‑on role in their studies is encouraged for all students.",
+        "It is advocated that students assume an active position throughout their learning process.",
+        "Within their educational journey, students are called upon to act actively.",
+        "The institution promotes student participation as an active component of their learning voyage.",
+        "Students are prompted to embrace an active role in their own learning adventure."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "journey": [
+          "journey"
+        ],
+        "active": [
+          "active",
+          "dynamic"
+        ],
+        "learning": [
+          "learning",
+          "study",
+          "acquisition",
+          "erudition"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part"
+        ],
+        "students": [
+          "students",
+          "pupils",
+          "scholars"
+        ],
+        "encouraged": [
+          "encouraged"
+        ],
+        "take": [
+          "take",
+          "consume",
+          "get",
+          "select",
+          "assume",
+          "choose"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Collaboration between schools and the community strengthens educational outcomes.",
+      "template_pattern": "Collaboration between schools and the community strengthens educational outcomes.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Schools partnering with local communities boost educational outcomes.",
+        "When schools and the community work together, learning results improve.",
+        "Educational outcomes are enhanced by the joint efforts of schools and community members.",
+        "The synergy of schools and community collaboration leads to stronger academic results.",
+        "By uniting schools and community resources, educational performance is fortified.",
+        "Collaboration between schools and the community serves to elevate student achievement.",
+        "Through cooperative ties with the community, schools see heightened educational success.",
+        "Stronger educational outcomes result from schools’ collaboration with community partners.",
+        "When community and schools collaborate, the quality of education is reinforced.",
+        "The partnership of schools and community members strengthens learning outcomes.",
+        "Educational results are amplified when schools engage in community collaboration.",
+        "Joint school‑community initiatives bolster academic outcomes.",
+        "Community‑school collaboration contributes to more robust educational achievements.",
+        "If schools team up with the community, educational outcomes become stronger.",
+        "The combined efforts of schools and the community enhance educational performance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "between": [
+          "between"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "strengthens": [
+          "strengthens"
+        ],
+        "community": [
+          "community"
+        ],
+        "collaboration": [
+          "collaboration",
+          "coaction"
+        ],
+        "outcomes": [
+          "outcomes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Ongoing assessments help identify areas for improvement.",
+      "template_pattern": "Ongoing assessments help identify areas for improvement.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Continuous evaluations assist in pinpointing improvement zones.",
+        "By conducting ongoing assessments, we can spot areas that need improvement.",
+        "Areas for improvement are identified through regular assessment.",
+        "Regular assessment aids in recognizing where enhancements are required.",
+        "Ongoing assessment provides insight into opportunities for improvement.",
+        "Improvement areas become apparent thanks to continual assessments.",
+        "Through persistent evaluation, schools can uncover improvement opportunities.",
+        "The identification of improvement zones is facilitated by ongoing assessments.",
+        "Ongoing assessments help uncover where enhancements are needed.",
+        "Ongoing assessment helps to highlight areas requiring improvement.",
+        "Areas needing improvement are revealed by continuous assessment.",
+        "Continuous assessment serves to locate areas for improvement.",
+        "By maintaining ongoing assessments, one can detect improvement opportunities.",
+        "Ongoing evaluations assist in discovering improvement areas.",
+        "With ongoing assessments, areas for improvement can be identified."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identify": [
+          "identify",
+          "name",
+          "distinguish"
+        ],
+        "ongoing": [
+          "ongoing"
+        ],
+        "areas": [
+          "areas"
+        ],
+        "assessments": [
+          "assessments"
+        ],
+        "improvement": [
+          "improvement",
+          "advance",
+          "betterment"
+        ],
+        "help": [
+          "help",
+          "aid",
+          "assistance"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Schools aim to provide a well‑rounded offering that prepares students for the future.",
+      "template_pattern": "Schools aim to provide a well‑rounded offering that prepares students for the future.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Schools aim to provide a well‑rounded offering that prepares students for the future.",
+        "Educational institutions strive to deliver a comprehensive program designed to ready learners for what lies ahead.",
+        "A holistic curriculum is offered by schools with the purpose of equipping pupils for future success.",
+        "Schools seek to furnish a balanced suite of courses that equips students for tomorrow’s challenges.",
+        "The goal of schools is to present a versatile education that readies learners for the future.",
+        "By providing a rounded selection of subjects, schools intend to prepare students for the years to come.",
+        "Schools are committed to supplying a full‑spectrum offering that prepares pupils for upcoming opportunities.",
+        "A well‑rounded educational package is provided by schools to ensure students are prepared for the future.",
+        "Schools work toward delivering an all‑encompassing curriculum that equips learners for future endeavors.",
+        "The purpose of schools’ programs is to furnish a comprehensive education that readies students for what’s next.",
+        "Schools endeavor to present a balanced learning portfolio that prepares pupils for future pathways.",
+        "Through a holistic offering, schools aim to arm students with the skills needed for future prospects.",
+        "A broad, well‑rounded curriculum is supplied by schools to prepare learners for the future.",
+        "Schools pursue the goal of delivering a diverse educational suite that prepares students for forthcoming challenges.",
+        "By offering a comprehensive set of courses, schools intend to ready students for the future."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rounded": [
+          "rounded",
+          "round"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "offering": [
+          "offering",
+          "offer",
+          "tender",
+          "bid"
+        ],
+        "students": [
+          "students"
+        ],
+        "provide": [
+          "provide",
+          "supply",
+          "furnish",
+          "render",
+          "offer",
+          "cater"
+        ],
+        "future": [
+          "future",
+          "next",
+          "succeeding",
+          "hereafter",
+          "futurity"
+        ],
+        "well": [
+          "well",
+          "comfortably",
+          "easily",
+          "advantageously"
+        ],
+        "prepares": [
+          "prepares"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Technological advancements are integrated into teaching methods.",
+      "template_pattern": "Technological advancements are integrated into teaching methods.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Teaching methods now incorporate the latest technological advancements.",
+        "Technological advances have been woven into instructional practices.",
+        "Instructors embed modern technology developments within their teaching approaches.",
+        "The integration of new tech advancements into pedagogy is evident.",
+        "New technological innovations are being blended with classroom methods.",
+        "Educational techniques are infused with recent technology progress.",
+        "Teachers are assimilating cutting‑edge technological advances into their curricula.",
+        "Technological progress is seamlessly merged with teaching strategies.",
+        "The curriculum reflects the inclusion of contemporary tech developments.",
+        "Modern teaching practices have adopted the latest technological breakthroughs.",
+        "Advances in technology are incorporated into instructional methods.",
+        "Classroom methods now feature integrated technological advancements.",
+        "Pedagogical approaches are enhanced by the infusion of new tech.",
+        "The adoption of recent technological advancements into teaching has become standard.",
+        "Teaching methodologies are being updated with current technological innovations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "into": [
+          "into"
+        ],
+        "integrated": [
+          "integrated",
+          "unified",
+          "incorporated",
+          "merged"
+        ],
+        "technological": [
+          "technological",
+          "technical"
+        ],
+        "methods": [
+          "methods"
+        ],
+        "teaching": [
+          "teaching",
+          "instruction",
+          "education",
+          "pedagogy",
+          "didactics"
+        ],
+        "advancements": [
+          "advancements"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Extracurricular activities offer students opportunities to explore their interests.",
+      "template_pattern": "Extracurricular activities offer students opportunities to explore their interests.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Students can pursue their interests through extracurricular activities.",
+        "Opportunities to explore personal interests are provided by extracurricular activities for students.",
+        "By participating in extracurricular activities, students gain chances to investigate their own interests.",
+        "Extracurricular programs give learners the chance to delve into what they like.",
+        "The chance to explore individual interests is offered to students via extracurricular activities.",
+        "Through extracurricular involvement, pupils are afforded opportunities to follow their interests.",
+        "Students are presented with opportunities to explore their interests when they join extracurricular activities.",
+        "Extracurricular activities serve as a platform for students to examine their personal interests.",
+        "Engaging in extracurricular activities enables learners to discover and pursue their interests.",
+        "Opportunities for interest exploration are made available to students through extracurricular activities.",
+        "When students take part in extracurricular activities, they receive opportunities to explore what interests them.",
+        "The provision of extracurricular activities grants students the ability to investigate their interests.",
+        "With extracurricular activities, students obtain avenues to explore their own interests.",
+        "Students' interests can be explored thanks to the opportunities offered by extracurricular activities.",
+        "By means of extracurricular activities, learners are given the chance to explore their interests."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "extracurricular": [
+          "extracurricular"
+        ],
+        "offer": [
+          "offer",
+          "provide",
+          "propose",
+          "tender",
+          "extend",
+          "bid"
+        ],
+        "students": [
+          "students",
+          "pupils",
+          "scholars"
+        ],
+        "explore": [
+          "explore",
+          "research",
+          "search"
+        ],
+        "opportunities": [
+          "opportunities"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "interests": [
+          "interests"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The commitment in the region is evident in the dedication of all stakeholders.",
+      "template_pattern": "The commitment in the region is evident in the dedication of all stakeholders.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "All stakeholders' dedication clearly demonstrates the region's commitment.",
+        "Evident throughout the region, the commitment shines through every stakeholder's dedication.",
+        "The region's commitment is reflected by the dedication shown by all stakeholders.",
+        "In the region, the dedication of every stakeholder makes the commitment unmistakable.",
+        "Stakeholder dedication across the region serves as clear evidence of its commitment.",
+        "The commitment evident in the region stems from the dedication of all its stakeholders.",
+        "Across the region, one can see the commitment through the unwavering dedication of each stakeholder.",
+        "With every stakeholder's dedication, the region's commitment becomes apparent.",
+        "The dedication of all stakeholders highlights the evident commitment within the region.",
+        "It is the dedication of all stakeholders that reveals the region's evident commitment.",
+        "The region's evident commitment is underscored by the dedication of every stakeholder.",
+        "In the region, commitment is manifested by the dedication of all stakeholders.",
+        "The dedication displayed by all stakeholders makes the region's commitment evident.",
+        "All stakeholders' dedication serves as proof of the region's evident commitment.",
+        "The region shows its commitment through the collective dedication of every stakeholder."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "dedication": [
+          "dedication",
+          "allegiance",
+          "loyalty",
+          "commitment"
+        ],
+        "stakeholders": [
+          "stakeholders"
+        ],
+        "region": [
+          "region",
+          "realm",
+          "area",
+          "neighborhood"
+        ],
+        "commitment": [
+          "commitment",
+          "dedication",
+          "allegiance",
+          "loyalty",
+          "committedness"
+        ],
+        "evident": [
+          "evident",
+          "discernible",
+          "plain",
+          "patent",
+          "unmistakable",
+          "observable"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The report indicates that Avg Scr Math stands at 418, reflecting a notable performance level within the examined student cohort.",
+      "template_pattern": "The AvgScrMath for the cohort was [AVGSCRMATH] points, reflecting overall mathematical performance across the sampled students.",
+      "primary_data_fields": [
+        "AvgScrMath"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The cohort’s AvgScrMath registered [AVGSCRMATH] points, indicating the overall math performance of the sampled students.",
+        "Overall mathematical achievement among the sampled students is shown by an AvgScrMath of [AVGSCRMATH] points for the cohort.",
+        "For the cohort, the AvgScrMath amounted to [AVGSCRMATH] points, reflecting the group’s general math performance.",
+        "An AvgScrMath of [AVGSCRMATH] points was observed for the cohort, summarizing the sampled students’ mathematical results.",
+        "The sampled students’ collective math score, AvgScrMath, stood at [AVGSCRMATH] points for this cohort.",
+        "Reflecting the cohort’s overall math ability, the AvgScrMath reached [AVGSCRMATH] points.",
+        "Across the cohort, the AvgScrMath was measured at [AVGSCRMATH] points, denoting overall mathematical performance.",
+        "The cohort’s overall mathematical performance is captured by an AvgScrMath of [AVGSCRMATH] points.",
+        "Measured across the sampled students, the AvgScrMath for the cohort equals [AVGSCRMATH] points.",
+        "In this cohort, the AvgScrMath came out to be [AVGSCRMATH] points, highlighting the general math achievement.",
+        "The AvgScrMath recorded for the cohort is [AVGSCRMATH] points, which reflects the overall math performance of the sampled students.",
+        "Overall, the cohort’s AvgScrMath totals [AVGSCRMATH] points, indicating the mathematical proficiency of the sampled group.",
+        "The sampled group’s AvgScrMath was [AVGSCRMATH] points, a metric of their collective mathematical performance.",
+        "With a value of [AVGSCRMATH] points, the AvgScrMath represents the cohort’s overall math results.",
+        "For the cohort under review, the AvgScrMath stands at [AVGSCRMATH] points, mirroring overall mathematical performance."
+      ],
+      "counter_variations": [
+        "For this cohort, the Avg Scr Math is logged as NULL, signifying that the mathematics performance indicator could not be ascertained.",
+        "The data entry for Avg Scr Math concerning this cohort shows NULL, which reflects the inability to determine the associated mathematical metric.",
+        "In the report on this cohort, Avg Scr Math appears as NULL, denoting that the relevant math performance figure remains indeterminate.",
+        "NULL is the value recorded for Avg Scr Math for this cohort, thereby indicating that the corresponding mathematical performance measure could not be derived.",
+        "Regarding this cohort, the Avg Scr Math field contains the literal NULL, implying that the math‑related performance statistic could not be computed.",
+        "The Avg Scr Math for this cohort has been assigned NULL, a designation that conveys the impossibility of determining the underlying mathematics metric.",
+        "Within the dataset for this cohort, Avg Scr Math is set to NULL, which points to the fact that the mathematical performance parameter could not be established.",
+        "This cohort’s Avg Scr Math is presently NULL, suggesting that the intended math performance value could not be resolved.",
+        "A NULL entry appears in the Avg Scr Math column for this cohort, indicating that the relevant mathematical metric could not be quantified.",
+        "The record for this cohort lists Avg Scr Math as NULL, reflecting the failure to calculate the corresponding math performance indicator.",
+        "Avg Scr Math for this cohort is currently NULL, an outcome that signals the inability to determine the related mathematical performance measure.",
+        "In the current analysis, the Avg Scr Math associated with this cohort is marked NULL, denoting that the math performance metric could not be ascertained.",
+        "The field Avg Scr Math for this cohort contains the value NULL, which underscores that the mathematical performance figure could not be obtained.",
+        "For the cohort in question, Avg Scr Math is represented by NULL, thereby communicating that the math performance metric cannot be determined.",
+        "NULL appears as the entry for Avg Scr Math in the context of this cohort, indicating that the intended mathematical performance statistic could not be derived."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "reflecting": [
+          "reflecting"
+        ],
+        "sampled": [
+          "sampled"
+        ],
+        "cohort": [
+          "cohort"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "overall": [
+          "overall"
+        ],
+        "avgscrmath": [
+          "avgscrmath"
+        ],
+        "performance": [
+          "performance",
+          "operation",
+          "execution",
+          "functioning"
+        ],
+        "points": [
+          "points"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

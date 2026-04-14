@@ -1,0 +1,601 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "87081d695c1a4b3e": "id",
+    "18b3c9cf80544dff": "country_id",
+    "c96fb30b8ccc4c34": "name"
+  },
+  "templates": [
+    {
+      "original": "The football league with the identifier 1 is known for its distinct recognition within European football.",
+      "template_pattern": "The football league with the identifier [ID] is known for its distinct recognition within European football.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football league with the identifier [ID] enjoys unique acclaim throughout European football.",
+        "Within European football, the league bearing the identifier [ID] is celebrated for its distinct recognition.",
+        "Renowned for its distinct recognition in European football, the football league carrying the identifier [ID] stands out.",
+        "The football league that holds the identifier [ID] is noted for its unique standing across European football.",
+        "Across European football, the football league identified by the identifier [ID] is distinguished by its distinct recognition.",
+        "Distinct recognition in European football is attributed to the football league with the identifier [ID].",
+        "European football regards the football league with the identifier [ID] as uniquely recognized.",
+        "The football league possessing the identifier [ID] has earned distinct recognition throughout European football.",
+        "In the realm of European football, the football league marked by the identifier [ID] is known for its unique reputation.",
+        "The football league featuring the identifier [ID] is famed for its distinct recognition within European football.",
+        "Distinct recognition within European football is a hallmark of the football league with the identifier [ID].",
+        "The football league, with the identifier [ID], enjoys a unique reputation across European football.",
+        "Across the European football landscape, the football league with the identifier [ID] is recognized for its distinct status.",
+        "The football league assigned the identifier [ID] has gained distinct recognition within European football.",
+        "European football circles acknowledge the football league bearing the identifier [ID] for its unique recognition."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "distinct": [
+          "distinct",
+          "discrete",
+          "distinguishable"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "known": [
+          "known"
+        ],
+        "football": [
+          "football"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "recognition": [
+          "recognition",
+          "acknowledgment",
+          "acknowledgement",
+          "identification"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Every weekend, fans gather in stadiums across the continent to support their favorite teams.",
+      "template_pattern": "Every weekend, fans gather in stadiums across the continent to support their favorite teams.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every weekend, fans assemble in stadiums across the continent to cheer on their favorite teams.",
+        "Throughout the continent, supporters gather in arenas each weekend to back their beloved teams.",
+        "On weekends, spectators come together in venues nationwide to root for their preferred teams.",
+        "Fans convene in stadiums across the continent every weekend, offering support to their favourite teams.",
+        "Across the continent, every weekend sees fans congregating in arenas to endorse their favorite teams.",
+        "Each weekend, the continent’s stadiums fill with fans who rally behind their cherished teams.",
+        "The favorite teams receive backing as fans gather in stadiums across the continent every weekend.",
+        "Weekend after weekend, supporters assemble in venues throughout the continent to champion their beloved teams.",
+        "In stadiums spanning the continent, fans meet every weekend to show support for their preferred teams.",
+        "Every weekend, the continent’s arenas are populated by fans who unite to back their favorite teams.",
+        "Fans are gathered in stadiums across the continent each weekend to support the teams they love.",
+        "Throughout the continent, every weekend brings fans together in venues to cheer for their favourite teams.",
+        "Each weekend, supporters rally in stadiums across the region to endorse their beloved teams.",
+        "The continent’s stadiums host fans every weekend, who gather to back their preferred teams.",
+        "On each weekend, fans converge in arenas across the continent to champion their favorite teams."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "support": [
+          "support",
+          "sustain",
+          "back",
+          "reinforcement",
+          "substantiate",
+          "corroborate"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "favorite": [
+          "favorite",
+          "preferred",
+          "favored",
+          "favourite",
+          "pet"
+        ],
+        "weekend": [
+          "weekend"
+        ],
+        "continent": [
+          "continent",
+          "Continent"
+        ],
+        "every": [
+          "every"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the realm of European football, the country identifier 1 is key to distinguishing the nation where a particular league operates.",
+      "template_pattern": "In the realm of European football, the country identifier [COUNTRY_ID] is key to distinguishing the nation where a particular league operates.",
+      "primary_data_fields": [
+        "country_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within European football, the country id [COUNTRY_ID] serves as the crucial marker for identifying the nation that hosts a given league.",
+        "The nation in which a specific league functions can be singled out in European football by the essential country id [COUNTRY_ID].",
+        "In the sphere of European football, distinguishing the country where a league operates hinges on country id [COUNTRY_ID].",
+        "European football relies on country id [COUNTRY_ID] as the primary means of pinpointing the nation of a particular league.",
+        "To pinpoint the nation that a certain league belongs to in European football, one must refer to country id [COUNTRY_ID].",
+        "Country id [COUNTRY_ID] is the pivotal identifier used in European football to separate the country of a specific league.",
+        "When analyzing European football, the key to telling apart the nation of a league lies in country id [COUNTRY_ID].",
+        "The essential tool for differentiating the host country of a league in European football is country id [COUNTRY_ID].",
+        "In the context of European football, country id [COUNTRY_ID] functions as the main clue for recognizing the league’s nation.",
+        "Identifying the nation where a particular league plays in European football depends on country id [COUNTRY_ID].",
+        "Within the domain of European football, country id [COUNTRY_ID] stands as the vital element for distinguishing the league’s country.",
+        "The country id [COUNTRY_ID] becomes the decisive factor for separating the nation of a league in European football.",
+        "To separate the nation of a specific league in European football, one utilizes the country id [COUNTRY_ID] as a key.",
+        "In European football, the country id [COUNTRY_ID] is employed as the essential reference for locating the league’s nation.",
+        "Distinguishing the nation that hosts a particular league in European football is achieved through country id [COUNTRY_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "where": [
+          "where"
+        ],
+        "realm": [
+          "realm",
+          "kingdom",
+          "region",
+          "land"
+        ],
+        "country": [
+          "country",
+          "commonwealth",
+          "nation",
+          "area",
+          "state",
+          "land"
+        ],
+        "particular": [
+          "particular",
+          "especial",
+          "special",
+          "specific",
+          "peculiar"
+        ],
+        "operates": [
+          "operates"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "nation": [
+          "nation",
+          "country",
+          "commonwealth",
+          "state",
+          "land"
+        ],
+        "football": [
+          "football"
+        ]
+      },
+      "field_data_types": {
+        "country_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Players train rigorously to match the high expectations set by their predecessors.",
+      "template_pattern": "Players train rigorously to match the high expectations set by their predecessors.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "To live up to the lofty standards set by former players, the athletes engage in rigorous training.",
+        "Rigorous training is undertaken by the players so they can meet the high expectations of their predecessors.",
+        "The players, aiming to satisfy the elevated expectations left by those before them, train intensively.",
+        "High expectations established by earlier players compel the athletes to train with great rigor.",
+        "By training rigorously, players strive to match the ambitious benchmarks set by their forebears.",
+        "The demanding standards set by past players drive the current athletes to engage in intensive preparation.",
+        "Players undergo strict training regimes in order to fulfill the lofty expectations of their forerunners.",
+        "In order to meet the high expectations of their predecessors, the athletes pursue rigorous training.",
+        "Rigorous preparation is the method players use to align with the high standards set by prior generations.",
+        "The high expectations left by earlier players push the current players to train intensely.",
+        "To align with the elevated expectations of their predecessors, athletes commit to rigorous training.",
+        "Players' rigorous training seeks to mirror the high expectations established by those who came before.",
+        "Because their predecessors set high expectations, players train with rigorous intensity.",
+        "The athletes’ intensive training reflects an effort to meet the lofty standards set by former players.",
+        "Matching the high expectations of their forebears, players engage in rigorous training sessions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rigorously": [
+          "rigorously",
+          "strictly"
+        ],
+        "their": [
+          "their"
+        ],
+        "players": [
+          "players"
+        ],
+        "match": [
+          "match",
+          "equal",
+          "equalize",
+          "equalise",
+          "equate",
+          "correspond"
+        ],
+        "high": [
+          "high",
+          "eminent"
+        ],
+        "expectations": [
+          "expectations"
+        ],
+        "predecessors": [
+          "predecessors"
+        ],
+        "train": [
+          "train",
+          "develop",
+          "discipline",
+          "educate",
+          "prepare",
+          "coach"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The thrill of a matchday experience is unmatched, with excitement building from the first whistle.",
+      "template_pattern": "The thrill of a matchday experience is unmatched, with excitement building from the first whistle.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The matchday thrill is unparalleled, with anticipation rising as soon as the first whistle sounds.",
+        "An unrivaled excitement defines the matchday experience, beginning the moment the opening whistle blows.",
+        "From the inaugural whistle onward, the exhilaration of a matchday is unmatched.",
+        "The first whistle sparks a buildup of excitement, making the matchday thrill unmatched.",
+        "Unmatched is the thrill of a matchday, where excitement accumulates right from the initial whistle.",
+        "Excitement mounts from the very first whistle, delivering a matchday thrill that cannot be equaled.",
+        "A matchday’s thrill remains unsurpassed, as excitement starts to swell with the opening whistle.",
+        "The moment the first whistle blows, the matchday excitement builds, creating an unmatched thrill.",
+        "With the initial whistle, excitement gathers, rendering the matchday experience’s thrill incomparable.",
+        "The exhilaration of a matchday, unmatched in itself, begins to rise from the first whistle.",
+        "From the first whistle onward, the matchday experience builds excitement, delivering an unrivaled thrill.",
+        "As soon as the first whistle sounds, excitement climbs, and the matchday thrill remains unmatched.",
+        "The first whistle ignites a surge of excitement, making the matchday thrill beyond compare.",
+        "Unrivaled excitement starts at the opening whistle, giving the matchday experience its unmatched thrill.",
+        "When the whistle first blows, excitement escalates, ensuring the matchday thrill is second‑to‑none."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "thrill": [
+          "thrill",
+          "rush"
+        ],
+        "experience": [
+          "experience",
+          "have"
+        ],
+        "building": [
+          "building",
+          "edifice",
+          "construction"
+        ],
+        "excitement": [
+          "excitement",
+          "exhilaration",
+          "fervor",
+          "fervour"
+        ],
+        "matchday": [
+          "matchday"
+        ],
+        "whistle": [
+          "whistle",
+          "pennywhistle"
+        ],
+        "first": [
+          "first",
+          "foremost",
+          "inaugural",
+          "maiden"
+        ],
+        "unmatched": [
+          "unmatched",
+          "unrivaled",
+          "unrivalled",
+          "peerless",
+          "matchless",
+          "nonpareil"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Belgium Jupiler League is renowned for its competitive spirit and talented football clubs within European football.",
+      "template_pattern": "The [NAME] is renowned for its competitive spirit and talented football clubs within European football.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Renowned for its competitive spirit and talented football clubs within European football, the [NAME] stands out.",
+        "The [NAME], celebrated for its competitive spirit and talented football clubs in European football, enjoys a strong reputation.",
+        "Within European football, the [NAME] is famed for its competitive spirit and talented football clubs.",
+        "Known for its competitive spirit and talented football clubs, the [NAME] holds a prominent place in European football.",
+        "In European football, the [NAME] is distinguished by its competitive spirit and talented football clubs.",
+        "The [NAME] has earned renown for its competitive spirit and talented football clubs across European football.",
+        "Across European football, the [NAME] is praised for its competitive spirit and talented football clubs.",
+        "For its competitive spirit and talented football clubs, the [NAME] is widely regarded within European football.",
+        "European football recognizes the [NAME] for its competitive spirit and talented football clubs.",
+        "The competitive spirit and talented football clubs of the [NAME] make it a notable entity in European football.",
+        "Within the realm of European football, the [NAME] is noted for its competitive spirit and talented football clubs.",
+        "The [NAME], known throughout European football for its competitive spirit and talented football clubs, enjoys high esteem.",
+        "Highly regarded in European football, the [NAME] is lauded for its competitive spirit and talented football clubs.",
+        "The [NAME]'s competitive spirit and talented football clubs have earned it a reputation in European football.",
+        "Esteemed across European football, the [NAME] is recognized for its competitive spirit and talented football clubs."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "talented": [
+          "talented",
+          "gifted"
+        ],
+        "competitive": [
+          "competitive"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "football": [
+          "football"
+        ],
+        "clubs": [
+          "clubs"
+        ],
+        "renowned": [
+          "renowned",
+          "celebrated",
+          "noted",
+          "notable",
+          "illustrious",
+          "famed"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "spirit": [
+          "spirit",
+          "feeling",
+          "heart",
+          "tone",
+          "intent",
+          "life"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Spectators are often treated to a display of skill, strategy, and sportsmanship.",
+      "template_pattern": "Spectators are often treated to a display of skill, strategy, and sportsmanship.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Spectators frequently witness a showcase of skill, strategy, and sportsmanship.",
+        "A display of skill, strategy, and sportsmanship is often presented to spectators.",
+        "Often, viewers are treated to demonstrations of skill, strategic play, and sportsmanship.",
+        "The audience regularly experiences a performance highlighting skill, tactics, and fair play.",
+        "Viewers commonly observe a blend of expertise, strategic planning, and sportsmanship.",
+        "In many instances, spectators are afforded the chance to see skill, strategy, and sportsmanship on display.",
+        "Skill, strategy, and sportsmanship are routinely exhibited for the benefit of the spectators.",
+        "Those watching are typically treated to an exhibition of skill, strategic thinking, and sportsmanship.",
+        "It is common for spectators to be shown a combination of skillful play, strategic maneuvers, and sportsmanship.",
+        "The crowd often enjoys a presentation that merges skill, strategy, and sportsmanship.",
+        "Spectators regularly enjoy observing a display that fuses skill, strategic tactics, and sportsmanship.",
+        "A regular feature for the audience is a showcase of skill, strategic execution, and sportsmanship.",
+        "Frequently, the audience is exposed to a performance rich in skill, strategy, and sportsmanship.",
+        "The event typically provides spectators with a view of skillful action, strategic depth, and sportsmanship.",
+        "For many observers, the experience includes a display of skill, strategic planning, and sportsmanship."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "skill": [
+          "skill"
+        ],
+        "treated": [
+          "treated",
+          "processed",
+          "handled",
+          "addressed"
+        ],
+        "display": [
+          "display",
+          "presentation",
+          "exhibit",
+          "show",
+          "showing"
+        ],
+        "sportsmanship": [
+          "sportsmanship"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oft",
+          "oftentimes"
+        ],
+        "spectators": [
+          "spectators",
+          "viewers",
+          "watchers"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Rivalries fuel the passion, making every goal a cause for celebration or despair.",
+      "template_pattern": "Rivalries fuel the passion, making every goal a cause for celebration or despair.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Rivalries ignite the fervor, turning each goal into a reason for either jubilation or disappointment.",
+        "The passion is fueled by rivalries, so that every goal becomes a trigger for celebration or sorrow.",
+        "Because of rivalries, passion surges, and each goal is seen as a cause for either triumph or grief.",
+        "Every goal is rendered a source of celebration or despair, a result of the passion that rivalries stoke.",
+        "Passion, driven by rivalries, makes each goal a point of either festivity or lament.",
+        "Fueled by rivalries, the enthusiasm ensures that each goal leads to celebration or despondency.",
+        "When rivalries stoke the passion, every goal transforms into a catalyst for joy or anguish.",
+        "The rivalry‑induced passion causes each goal to be celebrated or mourned.",
+        "Each goal, under the influence of rivalry‑driven passion, becomes a cause for either exultation or despair.",
+        "Passion, powered by rivalries, renders every goal a matter of celebration or desolation.",
+        "With rivalries feeding the passion, every goal turns into a reason for either festivity or misery.",
+        "Rivalries, by energizing the passion, make each goal a trigger for celebration or sorrow.",
+        "The fervor, fueled by rivalries, translates every goal into a moment of either elation or despair.",
+        "Every goal is cast as a cause for jubilation or gloom, thanks to the passion that rivalries ignite.",
+        "Because rivalries enliven the passion, each goal becomes a point of celebration or despondence."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rivalries": [
+          "rivalries"
+        ],
+        "every": [
+          "every"
+        ],
+        "goal": [
+          "goal",
+          "destination",
+          "finish",
+          "end"
+        ],
+        "despair": [
+          "despair",
+          "desperation"
+        ],
+        "cause": [
+          "cause",
+          "reason"
+        ],
+        "fuel": [
+          "fuel"
+        ],
+        "passion": [
+          "passion"
+        ],
+        "making": [
+          "making",
+          "devising",
+          "forming",
+          "fashioning"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "As the season progresses, the race for the top becomes more intense with each passing game.",
+      "template_pattern": "As the season progresses, the race for the top becomes more intense with each passing game.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "With every game that passes, the contest for first place sharpens as the season moves forward.",
+        "As the season unfolds, each successive match heightens the battle for the leading spot.",
+        "The struggle for the top tier grows increasingly fierce with each game, as the season advances.",
+        "Each new game in the progressing season intensifies the race toward the top position.",
+        "As the season continues, the competition for the top spot is becoming more aggressive game by game.",
+        "The race for the number‑one ranking intensifies with every passing match as the season proceeds.",
+        "With the season's progression, each subsequent game fuels a tighter contest for the lead.",
+        "As games accumulate throughout the season, the chase for the top becomes progressively more intense.",
+        "The fight for the leading position is amplified with each game, given the season's forward motion.",
+        "As the season moves onward, the pursuit of the top spot escalates with each successive game.",
+        "The competition for the top place is heightened with every game as the season advances.",
+        "With each passing match, the race for supremacy becomes more intense as the season evolves.",
+        "As the season progresses, the quest for first place intensifies with each new game.",
+        "Each game that passes during the season adds intensity to the competition for the top rank.",
+        "As the season unfolds, the battle for the top position tightens with every subsequent game."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "game": [
+          "game"
+        ],
+        "becomes": [
+          "becomes",
+          "gets",
+          "turns",
+          "suits"
+        ],
+        "passing": [
+          "passing",
+          "ephemeral",
+          "transient",
+          "transitory"
+        ],
+        "more": [
+          "more"
+        ],
+        "progresses": [
+          "progresses"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour",
+          "temper"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "intense": [
+          "intense",
+          "vivid",
+          "acute"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

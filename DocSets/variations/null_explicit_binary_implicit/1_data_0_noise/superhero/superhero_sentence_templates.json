@@ -1,0 +1,815 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "292326d1ccd04abf": "id",
+    "8125888bfa5d4655": "superhero_name",
+    "0ee0b61b29054024": "full_name",
+    "d0485e883bb242ab": "gender_id",
+    "202c7a5a41924fd0": "eye_colour_id",
+    "3317a50a51c44f9d": "hair_colour_id",
+    "001998b4b5a747b5": "skin_colour_id",
+    "28370429dff54884": "race_id",
+    "d1610f727deb4fe9": "publisher_id",
+    "9204f710b6204bbd": "alignment_id",
+    "47c1d754b23c4eab": "height_cm",
+    "90f5180ca0384abc": "weight_kg"
+  },
+  "templates": [
+    {
+      "original": "The superhero character's id is 1.",
+      "template_pattern": "The superhero character's id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero character’s id equals [ID].",
+        "For the superhero character, the id is recorded as [ID].",
+        "The id of the superhero character is set to [ID].",
+        "In the report, the superhero character’s id is listed as [ID].",
+        "The superhero character has an id of [ID].",
+        "An id of [ID] is assigned to the superhero character.",
+        "The superhero character’s identifier, id, is noted as [ID].",
+        "According to the data, the superhero character’s id stands at [ID].",
+        "The id value for the superhero character is [ID].",
+        "As per the dataset, the superhero character’s id reads [ID].",
+        "The superhero character is associated with id [ID].",
+        "Id [ID] corresponds to the superhero character.",
+        "The superhero character’s id has been documented as [ID].",
+        "In this entry, the superhero character’s id appears as [ID].",
+        "The record shows the superhero character’s id being [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "character": [
+          "character",
+          "quality",
+          "type"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero known as 3-D Man is recognized for his unique abilities and distinct place in comic book history.",
+      "template_pattern": "The superhero known as [SUPERHERO_NAME] is recognized for his unique abilities and distinct place in comic book history.",
+      "primary_data_fields": [
+        "superhero_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero name [SUPERHERO_NAME] is celebrated for his unique abilities and distinct place in comic book history.",
+        "Unique abilities and a distinct place in comic book history are attributed to the superhero name [SUPERHERO_NAME].",
+        "Recognized for his unique abilities and distinct place in comic book history, the superhero name [SUPERHERO_NAME] stands out.",
+        "In comic book history, the superhero name [SUPERHERO_NAME] holds a distinct place thanks to his unique abilities.",
+        "For his unique abilities and distinct place in comic book history, the superhero name [SUPERHERO_NAME] receives recognition.",
+        "The superhero name [SUPERHERO_NAME], noted for unique abilities, occupies a distinct place in comic book history.",
+        "Due to his unique abilities, the superhero name [SUPERHERO_NAME] enjoys a distinct place in comic book history.",
+        "A distinct place in comic book history and unique abilities define the superhero name [SUPERHERO_NAME].",
+        "The superhero name [SUPERHERO_NAME] has earned a distinct place in comic book history because of his unique abilities.",
+        "Distinct place in comic book history and unique abilities characterize the superhero name [SUPERHERO_NAME].",
+        "Because of his unique abilities, the superhero name [SUPERHERO_NAME] is known for a distinct place in comic book history.",
+        "The superhero name [SUPERHERO_NAME], distinguished by unique abilities, secures a distinct place in comic book history.",
+        "Unique abilities grant the superhero name [SUPERHERO_NAME] a distinct place in comic book history.",
+        "In the annals of comic book history, the superhero name [SUPERHERO_NAME] is recognized for his unique abilities and distinct place.",
+        "The superhero name [SUPERHERO_NAME] is identified by his unique abilities and a distinct place in comic book history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "comic": [
+          "comic",
+          "funny",
+          "amusing",
+          "comical"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unparalleled",
+          "unequalled",
+          "singular"
+        ],
+        "recognized": [
+          "recognized",
+          "acknowledged",
+          "accepted",
+          "accredited",
+          "distinguished",
+          "identified"
+        ],
+        "abilities": [
+          "abilities"
+        ],
+        "place": [
+          "place",
+          "site",
+          "spot",
+          "lieu",
+          "position"
+        ],
+        "book": [
+          "book",
+          "volume",
+          "record",
+          "ledger"
+        ],
+        "distinct": [
+          "distinct",
+          "distinguishable",
+          "discrete"
+        ]
+      },
+      "field_data_types": {
+        "superhero_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero known as Charles Chandler uses his full_name to maintain a secret identity while fighting crime.",
+      "template_pattern": "The superhero known as [FULL_NAME] uses his full_name to maintain a secret identity while fighting crime.",
+      "primary_data_fields": [
+        "full_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "[FULL_NAME], the superhero, employs his full name to keep a secret identity as he combats crime.",
+        "The superhero [FULL_NAME] relies on his full name to preserve anonymity while battling crime.",
+        "To safeguard his secret identity during crime‑fighting, the hero known as [FULL_NAME] utilizes his full name.",
+        "A secret identity is maintained by the crime‑fighting superhero [FULL_NAME] through the use of his full name.",
+        "While fighting crime, the hero [FULL_NAME] makes use of his full name to retain a concealed identity.",
+        "The full name is the tool [FULL_NAME], the superhero, uses to hide his identity amid his crime‑fighting efforts.",
+        "In his crusade against crime, the superhero known as [FULL_NAME] adopts his full name to mask his true self.",
+        "[FULL_NAME], a crime‑fighting superhero, leverages his full name to protect a secret identity.",
+        "The secret identity of the superhero [FULL_NAME] is kept intact by employing his full name during his fight against crime.",
+        "By using his full name, [FULL_NAME] the superhero preserves a hidden identity while he confronts criminals.",
+        "Maintaining a covert identity while battling crime, the superhero [FULL_NAME] utilizes his full name.",
+        "The superhero’s secret identity is upheld through the use of his full name, as [FULL_NAME] battles crime.",
+        "While engaged in crime fighting, [FULL_NAME] the hero adopts his full name to conceal his identity.",
+        "A concealed identity is achieved by the superhero [FULL_NAME] through the application of his full name during his fight on crime.",
+        "The full name serves as the disguise for the superhero [FULL_NAME] as he fights crime and keeps his identity secret."
+      ],
+      "counter_variations": [
+        "Within the professional data report, the individual's full name appears as NULL, signaling that no identifier was supplied.",
+        "The professional data report records the individual's full name as NULL, thereby denoting the lack of a provided identifier.",
+        "In the professional data report, the full name field for the individual is set to NULL, which conveys that an identifier was not furnished.",
+        "The individual's full name is documented as NULL in the professional data report, indicating that no identifier has been entered.",
+        "According to the professional data report, the individual's full name holds the value NULL, reflecting the omission of an identifier.",
+        "The professional data report lists the individual's full name with the value NULL, implying that an identifier was omitted.",
+        "As shown in the professional data report, the individual's full name is assigned NULL, denoting the non‑provision of an identifier.",
+        "In the context of the professional data report, the individual's full name receives the entry NULL, which points to the absence of an identifier.",
+        "The professional data report marks the individual's full name as NULL, thereby expressing that a corresponding identifier was not provided.",
+        "Within the professional data report, the entry for the individual's full name is NULL, a notation that the identifier is missing.",
+        "The individual's full name, as captured in the professional data report, is recorded as NULL, signifying that no identifier was supplied.",
+        "In the professional data report, the field for the individual's full name contains NULL, illustrating that the identifier has not been provided.",
+        "The professional data report indicates that the individual's full name is NULL, a clear marker of an unprovided identifier.",
+        "According to the professional data report, the individual's full name bears the value NULL, which denotes that an identifier was not presented.",
+        "The professional data report reflects the individual's full name as NULL, thereby denoting the void of a supplied identifier."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "secret": [
+          "secret",
+          "confidential",
+          "private",
+          "hidden",
+          "clandestine"
+        ],
+        "while": [
+          "while",
+          "spell"
+        ],
+        "fighting": [
+          "fighting",
+          "combat",
+          "struggle"
+        ],
+        "uses": [
+          "uses"
+        ],
+        "maintain": [
+          "maintain",
+          "conserve",
+          "sustain",
+          "preserve",
+          "uphold",
+          "keep"
+        ],
+        "identity": [
+          "identity",
+          "individuality"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "known": [
+          "known"
+        ]
+      },
+      "field_data_types": {
+        "full_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero character has gender_id 1.",
+      "template_pattern": "The superhero character has gender_id [GENDER_ID].",
+      "primary_data_fields": [
+        "gender_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero character is assigned a gender id of [GENDER_ID].",
+        "Gender id [GENDER_ID] is recorded for the superhero character.",
+        "For the superhero character, the gender id equals [GENDER_ID].",
+        "The superhero character possesses gender id [GENDER_ID].",
+        "Gender id [GENDER_ID] has been attributed to the superhero character.",
+        "In the report, the superhero character shows gender id [GENDER_ID].",
+        "The superhero character’s gender id is listed as [GENDER_ID].",
+        "According to the data, the superhero character carries gender id [GENDER_ID].",
+        "Gender id [GENDER_ID] appears alongside the superhero character.",
+        "The superhero character displays a gender id of [GENDER_ID].",
+        "A gender id of [GENDER_ID] is linked to the superhero character.",
+        "The superhero character’s profile includes gender id [GENDER_ID].",
+        "Gender id [GENDER_ID] is associated with the superhero character.",
+        "The data entry for the superhero character notes gender id [GENDER_ID].",
+        "For the superhero character, gender id is set to [GENDER_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "character": [
+          "character",
+          "quality",
+          "type",
+          "role",
+          "part",
+          "persona"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "gender_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero character is renowned for their striking eye colour, identified uniquely by the eye_colour_id 9.",
+      "template_pattern": "The superhero character is renowned for their striking eye colour, identified uniquely by the eye_colour_id [EYE_COLOUR_ID].",
+      "primary_data_fields": [
+        "eye_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero is famed for a vivid eye colour, which is uniquely indexed by eye colour id [EYE_COLOUR_ID].",
+        "Recognized for a striking eye colour, the superhero character bears the distinct eye colour id [EYE_COLOUR_ID].",
+        "With eye colour id [EYE_COLOUR_ID], the superhero’s eye hue stands out as a renowned feature.",
+        "The eye colour id [EYE_COLOUR_ID] uniquely marks the superhero, whose vivid eyes are widely celebrated.",
+        "Celebrated for its bold eye colour, the superhero is assigned eye colour id [EYE_COLOUR_ID].",
+        "Eye colour id [EYE_COLOUR_ID] identifies the superhero character, whose eye shade is famously striking.",
+        "Known for a dramatic eye colour, the superhero carries the exclusive eye colour id [EYE_COLOUR_ID].",
+        "The superhero’s eye hue, acclaimed for its intensity, is catalogued under eye colour id [EYE_COLOUR_ID].",
+        "Eye colour id [EYE_COLOUR_ID] serves as the unique identifier for the superhero’s remarkable eye colour.",
+        "The celebrated eye colour of the superhero is distinguished by eye colour id [EYE_COLOUR_ID].",
+        "Featuring a prominent eye colour, the superhero is linked to eye colour id [EYE_COLOUR_ID].",
+        "The superhero character, noted for a vivid eye colour, is tagged with eye colour id [EYE_COLOUR_ID].",
+        "A striking eye colour defines the superhero, recorded under eye colour id [EYE_COLOUR_ID].",
+        "Eye colour id [EYE_COLOUR_ID] is the precise code for the superhero’s renowned eye hue.",
+        "The superhero’s renowned eye colour is pinpointed by eye colour id [EYE_COLOUR_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "renowned": [
+          "renowned",
+          "illustrious",
+          "notable",
+          "celebrated",
+          "noted",
+          "famous"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "their": [
+          "their"
+        ],
+        "character": [
+          "character",
+          "fibre",
+          "fiber",
+          "quality",
+          "type",
+          "role"
+        ],
+        "uniquely": [
+          "uniquely",
+          "unambiguously"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "striking": [
+          "striking",
+          "dramatic",
+          "outstanding",
+          "spectacular",
+          "salient",
+          "prominent"
+        ],
+        "colour": [
+          "colour",
+          "color",
+          "tinge",
+          "gloss",
+          "colouration",
+          "coloration"
+        ]
+      },
+      "field_data_types": {
+        "eye_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the vibrant universe of comic book heroes, the hair_colour_id 13 adds a distinctive flair to the character's visual identity.",
+      "template_pattern": "In the vibrant universe of comic book heroes, the hair_colour_id [HAIR_COLOUR_ID] adds a distinctive flair to the character's visual identity.",
+      "primary_data_fields": [
+        "hair_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the colorful realm of comic book heroes, hair colour id [HAIR_COLOUR_ID] contributes a unique touch to the character's visual identity.",
+        "The character's visual identity is given a distinctive flair by hair colour id [HAIR_COLOUR_ID] in the vivid universe of comic book heroes.",
+        "In the dynamic world of superhero comics, hair colour id [HAIR_COLOUR_ID] injects a striking accent into the visual profile of the figure.",
+        "A distinctive flair is added to the visual identity of the hero thanks to hair colour id [HAIR_COLOUR_ID], set against a vibrant comic book backdrop.",
+        "Among the lively pantheon of comic book champions, hair colour id [HAIR_COLOUR_ID] imparts an unmistakable style to the character’s appearance.",
+        "The vibrant comic‑book universe sees hair colour id [HAIR_COLOUR_ID] enhancing the hero’s visual identity with a singular flair.",
+        "By applying hair colour id [HAIR_COLOUR_ID], the character’s visual identity gains a notable flair within the bright arena of comic heroes.",
+        "In the exuberant setting of comic book protagonists, hair colour id [HAIR_COLOUR_ID] serves to enrich the visual identity with a distinctive edge.",
+        "The visual identity of the figure receives a special flair through hair colour id [HAIR_COLOUR_ID], nestled in the colorful world of comic heroes.",
+        "Within the bright expanse of superhero comics, hair colour id [HAIR_COLOUR_ID] bestows a unique visual flair upon the character.",
+        "A unique visual signature is bestowed on the character by hair colour id [HAIR_COLOUR_ID] in the lively universe of comic book heroes.",
+        "The lively comic‑book hero landscape is punctuated by hair colour id [HAIR_COLOUR_ID], which adds a distinctive flair to the character’s look.",
+        "Hair colour id [HAIR_COLOUR_ID], set against the vibrant backdrop of comic book heroes, imparts a characteristic flair to the visual identity.",
+        "In the sparkling realm of comic book champions, the visual identity of the character is accentuated by hair colour id [HAIR_COLOUR_ID].",
+        "The character’s look is highlighted with a distinctive flair thanks to hair colour id [HAIR_COLOUR_ID] within the vivid comic hero universe."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "heroes": [
+          "heroes"
+        ],
+        "adds": [
+          "adds"
+        ],
+        "book": [
+          "book",
+          "record",
+          "script",
+          "volume",
+          "ledger"
+        ],
+        "character": [
+          "character",
+          "persona",
+          "quality",
+          "type"
+        ],
+        "universe": [
+          "universe",
+          "cosmos",
+          "macrocosm"
+        ],
+        "distinctive": [
+          "distinctive"
+        ],
+        "identity": [
+          "identity",
+          "individuality"
+        ],
+        "flair": [
+          "flair",
+          "panache",
+          "style",
+          "elan",
+          "dash"
+        ]
+      },
+      "field_data_types": {
+        "hair_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's skin_colour_id is 1.",
+      "template_pattern": "The superhero's skin_colour_id is [SKIN_COLOUR_ID].",
+      "primary_data_fields": [
+        "skin_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's skin colour id is recorded as [SKIN_COLOUR_ID].",
+        "According to the report, the superhero has a skin colour id of [SKIN_COLOUR_ID].",
+        "A skin colour id of [SKIN_COLOUR_ID] is assigned to the superhero.",
+        "The data indicates that the superhero's skin colour id equals [SKIN_COLOUR_ID].",
+        "In the dataset, the superhero's skin colour id appears as [SKIN_COLOUR_ID].",
+        "The superhero’s skin colour id, as listed, stands at [SKIN_COLOUR_ID].",
+        "It is noted that the superhero's skin colour id is [SKIN_COLOUR_ID].",
+        "For the superhero, the skin colour id has been set to [SKIN_COLOUR_ID].",
+        "The skin colour id for the superhero is documented as [SKIN_COLOUR_ID].",
+        "The record shows a skin colour id of [SKIN_COLOUR_ID] for the superhero.",
+        "The superhero’s skin colour id registers the value [SKIN_COLOUR_ID].",
+        "Within the professional report, the superhero's skin colour id is [SKIN_COLOUR_ID].",
+        "The assigned skin colour id for the superhero equals [SKIN_COLOUR_ID].",
+        "According to the data table, the superhero's skin colour id equals [SKIN_COLOUR_ID].",
+        "The superhero's skin colour id is indicated as [SKIN_COLOUR_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "skin_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's race_id is 1.",
+      "template_pattern": "The superhero's race_id is [RACE_ID].",
+      "primary_data_fields": [
+        "race_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero’s race id equals [RACE_ID].",
+        "Race id for the superhero is recorded as [RACE_ID].",
+        "According to the report, the superhero’s race id is [RACE_ID].",
+        "In the dataset, the superhero’s race id is listed as [RACE_ID].",
+        "The value of the superhero’s race id is [RACE_ID].",
+        "[RACE_ID] is the race id assigned to the superhero.",
+        "For the superhero, the race id is [RACE_ID].",
+        "The superhero has a race id of [RACE_ID].",
+        "It is noted that the superhero’s race id is [RACE_ID].",
+        "The superhero’s race id was identified as [RACE_ID].",
+        "As per the professional data, the superhero’s race id stands at [RACE_ID].",
+        "The race id belonging to the superhero is [RACE_ID].",
+        "Within the report, the superhero’s race id appears as [RACE_ID].",
+        "The superhero’s race id has been set to [RACE_ID].",
+        "According to the records, the superhero’s race id registers [RACE_ID]."
+      ],
+      "counter_variations": [
+        "The professional data report notes that the race id is set to NULL, thereby signifying that this specific attribute is undefined.",
+        "In the professional data report, the race id appears as NULL, which conveys that the corresponding field lacks a defined value.",
+        "According to the professional data report, the race id has been entered as NULL, implying that this attribute remains without definition.",
+        "The professional data report records the race id as NULL, indicating that this particular property is presently undefined.",
+        "Within the professional data report, the race id is documented as NULL, denoting that the associated attribute is not defined.",
+        "As detailed in the professional data report, the race id is marked NULL, reflecting the fact that this element is undefined.",
+        "The professional data report asserts that the race id equals NULL, a notation that the attribute in question lacks a defined value.",
+        "In the professional data report, the race id is listed as NULL, suggesting that this specific field remains undefined.",
+        "Per the professional data report, the race id is designated NULL, which signals that the attribute has no defined entry.",
+        "The professional data report specifies that the race id is recorded as NULL, thereby indicating the attribute's undefined status.",
+        "According to the professional data report, the race id carries the value NULL, a marker that this attribute has not been defined.",
+        "The professional data report reveals the race id as NULL, implying that this particular attribute is currently undefined.",
+        "In the professional data report, the race id bears the value NULL, denoting that the associated attribute remains undefined.",
+        "The professional data report indicates that the race id is assigned NULL, reflecting the undefined nature of this attribute.",
+        "As stated in the professional data report, the race id holds the value NULL, which conveys that the attribute is undefined."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "race_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero character is associated with publisher_id 13, linking them directly to their comic book publisher.",
+      "template_pattern": "The superhero character is associated with publisher_id [PUBLISHER_ID], linking them directly to their comic book publisher.",
+      "primary_data_fields": [
+        "publisher_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero character is tied to publisher id [PUBLISHER_ID], which directly connects them to their comic book publisher.",
+        "Linked directly to their comic book publisher, the superhero character has a publisher id of [PUBLISHER_ID].",
+        "Publisher id [PUBLISHER_ID] is associated with the superhero character, establishing a direct link to their comic book publisher.",
+        "By virtue of publisher id [PUBLISHER_ID], the superhero character is directly linked to the comic book publisher.",
+        "The comic book publisher is directly connected to the superhero character through publisher id [PUBLISHER_ID].",
+        "With publisher id [PUBLISHER_ID], the superhero character is directly tied to their comic book publisher.",
+        "The superhero character’s affiliation with publisher id [PUBLISHER_ID] links them straight to the comic book publisher.",
+        "Directly linking the superhero character to their comic book publisher is the assignment of publisher id [PUBLISHER_ID].",
+        "Because the superhero character holds publisher id [PUBLISHER_ID], they are directly connected to their comic book publisher.",
+        "The superhero character, linked directly to their comic book publisher, carries publisher id [PUBLISHER_ID].",
+        "Publisher id [PUBLISHER_ID] serves to associate the superhero character directly with their comic book publisher.",
+        "Through publisher id [PUBLISHER_ID], the superhero character is directly linked to the comic book publisher.",
+        "The assignment of publisher id [PUBLISHER_ID] ties the superhero character straight to their comic book publisher.",
+        "Direct association with publisher id [PUBLISHER_ID] connects the superhero character to their comic book publisher.",
+        "The superhero character’s direct link to their comic book publisher stems from publisher id [PUBLISHER_ID]."
+      ],
+      "counter_variations": [
+        "The manuscript's metadata records publisher id NULL, thereby signifying that no publishing entity has been assigned within this professional report.",
+        "Within this professional report, the manuscript's metadata indicates publisher id NULL, which means that no publishing entity has been assigned.",
+        "Publisher id NULL appears in the manuscript's metadata, a notation that no publishing entity has been assigned in this professional report.",
+        "The metadata of the manuscript lists publisher id NULL, implying the absence of an assigned publishing entity in this professional report.",
+        "In the professional report, the manuscript's metadata shows publisher id NULL, denoting that no publishing entity has been assigned.",
+        "Noting publisher id NULL, the manuscript's metadata conveys that this professional report lacks an assigned publishing entity.",
+        "The manuscript's metadata, in this professional report, contains publisher id NULL, reflecting that no publishing entity has been assigned.",
+        "By listing publisher id NULL, the manuscript's metadata underscores that no publishing entity has been assigned within this professional report.",
+        "The professional report's manuscript metadata registers publisher id NULL, indicating that no publishing entity has been assigned.",
+        "Publisher id NULL is captured in the manuscript's metadata, signaling that this professional report does not have an assigned publishing entity.",
+        "In this professional report, the manuscript's metadata documents publisher id NULL, which reveals that no publishing entity has been assigned.",
+        "The manuscript's metadata, as presented in the professional report, cites publisher id NULL, thereby stating that no publishing entity has been assigned.",
+        "Reflecting the data, the manuscript's metadata lists publisher id NULL, confirming that no publishing entity has been assigned within this professional report.",
+        "The presence of publisher id NULL in the manuscript's metadata indicates that this professional report lacks an assigned publishing entity.",
+        "Within the professional report, the manuscript's metadata registers publisher id NULL, denoting that no publishing entity has been assigned."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "comic": [
+          "comic",
+          "funny",
+          "amusing",
+          "comical",
+          "laughable"
+        ],
+        "linking": [
+          "linking"
+        ],
+        "them": [
+          "them"
+        ],
+        "directly": [
+          "directly",
+          "instantly",
+          "immediately",
+          "forthwith",
+          "straightaway",
+          "straight"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "their": [
+          "their"
+        ],
+        "publisher": [
+          "publisher"
+        ],
+        "character": [
+          "character",
+          "quality",
+          "type"
+        ]
+      },
+      "field_data_types": {
+        "publisher_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The alignment_id is 1.",
+      "template_pattern": "The alignment_id is [ALIGNMENT_ID].",
+      "primary_data_fields": [
+        "alignment_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Alignment id equals [ALIGNMENT_ID].",
+        "The alignment id has a value of [ALIGNMENT_ID].",
+        "In this report, the alignment id is [ALIGNMENT_ID].",
+        "According to the data, the alignment id is [ALIGNMENT_ID].",
+        "The alignment id is set to [ALIGNMENT_ID].",
+        "It was recorded that the alignment id is [ALIGNMENT_ID].",
+        "Value [ALIGNMENT_ID] is assigned to the alignment id.",
+        "[ALIGNMENT_ID] represents the alignment id.",
+        "The alignment id: [ALIGNMENT_ID].",
+        "For the alignment id, the recorded figure is [ALIGNMENT_ID].",
+        "The figure for alignment id stands at [ALIGNMENT_ID].",
+        "As noted, the alignment id is [ALIGNMENT_ID].",
+        "The alignment id was documented as [ALIGNMENT_ID].",
+        "The alignment id has been identified as [ALIGNMENT_ID].",
+        "The alignment id, which is [ALIGNMENT_ID], appears in the dataset."
+      ],
+      "counter_variations": [
+        "Within the current reporting framework, the alignment id is recorded as NULL, signifying that no alignment identifier has been assigned.",
+        "The alignment id appears as NULL in the dataset, which denotes that the current reporting framework has not allocated an alignment identifier.",
+        "Recorded as NULL, the alignment id reflects the absence of an assigned identifier under the present reporting schema.",
+        "In this reporting cycle, the alignment id is set to NULL, indicating that no alignment identifier has been provisioned.",
+        "The alignment id, listed as NULL, conveys that the current reporting framework has not designated an alignment identifier.",
+        "As per the current reporting framework, the alignment id holds the value NULL, implying that no identifier has been allocated.",
+        "The alignment id is documented as NULL, thereby denoting that the present reporting structure lacks an assigned alignment identifier.",
+        "Within the confines of the current reporting framework, the alignment id registers as NULL, which signals that no identifier has been assigned.",
+        "The alignment id bears the value NULL, indicating that under the current reporting framework no alignment identifier has been assigned.",
+        "In the current reporting framework, the alignment id is marked NULL, reflecting that an alignment identifier has not been assigned.",
+        "The alignment id is designated as NULL, a notation that conveys the non‑assignment of an identifier within the current reporting framework.",
+        "NULL is entered for the alignment id, which communicates that the current reporting framework has not assigned an alignment identifier.",
+        "According to the current reporting framework, the alignment id is entered as NULL, signifying the lack of an assigned identifier.",
+        "The alignment id, captured as NULL, underscores that no alignment identifier has been allocated within the present reporting framework.",
+        "In this report, the alignment id is logged as NULL, thereby indicating that the current reporting framework provides no alignment identifier."
+      ],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "alignment_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's impressive height_cm of 188 often gives him an intimidating presence in the comic book universe.",
+      "template_pattern": "The superhero's impressive height_cm of [HEIGHT_CM] often gives him an intimidating presence in the comic book universe.",
+      "primary_data_fields": [
+        "height_cm"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's impressive height cm of [HEIGHT_CM] frequently endows him with an intimidating presence throughout the comic book universe.",
+        "In the comic book universe, the superhero's towering height cm of [HEIGHT_CM] often creates an intimidating presence around him.",
+        "An intimidating presence in the comic book universe is often granted to the superhero by his impressive height cm of [HEIGHT_CM].",
+        "Because his height cm of [HEIGHT_CM] is so impressive, the superhero regularly projects an intimidating presence across the comic book universe.",
+        "The superhero, whose height cm measures an impressive [HEIGHT_CM], commonly commands an intimidating presence within the comic book universe.",
+        "Owing to an impressive height cm of [HEIGHT_CM], the superhero typically exudes an intimidating presence in the comic book universe.",
+        "Throughout the comic book universe, an intimidating presence is frequently attributed to the superhero thanks to his impressive height cm of [HEIGHT_CM].",
+        "With an impressive height cm of [HEIGHT_CM], the superhero often commands an intimidating presence in the comic book universe.",
+        "The superhero’s intimidating presence in the comic book universe often stems from his impressive height cm of [HEIGHT_CM].",
+        "In the realm of comic books, the superhero’s impressive height cm of [HEIGHT_CM] usually bestows upon him an intimidating presence.",
+        "An intimidating presence in the comic book universe is often a result of the superhero’s impressive height cm of [HEIGHT_CM].",
+        "The superhero, thanks to an impressive height cm of [HEIGHT_CM], often carries an intimidating presence throughout the comic book universe.",
+        "Due to his impressive height cm of [HEIGHT_CM], the superhero regularly appears with an intimidating presence in the comic book universe.",
+        "The comic book universe frequently regards the superhero as having an intimidating presence, a perception driven by his impressive height cm of [HEIGHT_CM].",
+        "Because the superhero possesses an impressive height cm of [HEIGHT_CM], he often radiates an intimidating presence across the comic book universe."
+      ],
+      "counter_variations": [
+        "The subject’s documented height cm registers as NULL, creating a conspicuous void in the biometric profile of this professional analysis.",
+        "In this professional analysis, the recorded height cm for the subject is NULL, which generates a significant lacuna within the biometric profile.",
+        "A NULL value appears for the subject’s height cm, thereby introducing a marked discontinuity in the biometric profile examined here.",
+        "Within the scope of this professional assessment, the subject’s height cm is reported as NULL, leaving an evident deficiency in the overall biometric portrait.",
+        "The biometric profile compiled in this analysis reveals a NULL entry for height cm, resulting in a pronounced gap concerning the subject’s measurements.",
+        "Because the subject’s height cm is recorded as NULL, the biometric profile in this professional report suffers a noteworthy omission.",
+        "The professional analysis identifies a NULL designation for height cm, producing a salient interruption in the subject’s biometric dataset.",
+        "Height cm for the subject is noted as NULL, which precipitates a distinct shortfall in the biometric profile presented in this report.",
+        "In the course of this expert evaluation, the height cm field for the subject returns NULL, thereby engendering a substantive void within the biometric profile.",
+        "The subject’s height cm being NULL contributes to a pronounced discontinuity in the biometric profile delineated in this professional study.",
+        "A NULL entry for height cm is observed for the subject, engendering an appreciable gap in the biometric profile assembled herein.",
+        "Within this analytical document, the subject’s height cm registers NULL, leaving a clear breach in the integrity of the biometric profile.",
+        "The height cm measurement for the subject is listed as NULL, which in turn creates a notable fissure in the biometric profile under professional review.",
+        "Given that the subject’s height cm is NULL, the resulting biometric profile exhibits a marked deficiency in this professional analysis.",
+        "The professional report flags a NULL value for height cm, thereby introducing a salient interruption in the subject’s biometric profile."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "gives": [
+          "gives"
+        ],
+        "presence": [
+          "presence",
+          "bearing",
+          "mien",
+          "comportment"
+        ],
+        "comic": [
+          "comic",
+          "funny",
+          "amusing",
+          "comical",
+          "laughable"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "book": [
+          "book",
+          "record",
+          "volume",
+          "ledger"
+        ],
+        "universe": [
+          "universe",
+          "cosmos",
+          "world"
+        ],
+        "intimidating": [
+          "intimidating",
+          "daunting"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "height_cm": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's weight_kg of 90 contributes significantly to their impressive strength and ability to withstand powerful forces.",
+      "template_pattern": "The superhero's weight_kg of [WEIGHT_KG] contributes significantly to their impressive strength and ability to withstand powerful forces.",
+      "primary_data_fields": [
+        "weight_kg"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's weight kg of [WEIGHT_KG] plays a major role in the remarkable strength and capacity to endure intense forces.",
+        "With a weight kg of [WEIGHT_KG], the superhero demonstrates impressive power and the ability to resist strong impacts.",
+        "A weight kg of [WEIGHT_KG] contributes substantially to the hero's notable strength and their resilience against powerful forces.",
+        "The hero's weight kg of [WEIGHT_KG] is a key factor behind their extraordinary strength and their capability to withstand great force.",
+        "Thanks to a weight kg of [WEIGHT_KG], the superhero possesses significant strength and can tolerate powerful blows.",
+        "The impressive strength and resistance to high‑impact forces of the superhero are largely due to a weight kg of [WEIGHT_KG].",
+        "Because the superhero carries a weight kg of [WEIGHT_KG], they exhibit considerable strength and can bear severe forces.",
+        "The weight kg of [WEIGHT_KG] that the hero carries underpins both their formidable strength and their ability to survive intense pressures.",
+        "Owing to a weight kg of [WEIGHT_KG], the superhero’s strength is notable and their tolerance for powerful forces is high.",
+        "A weight kg of [WEIGHT_KG] is instrumental in granting the hero impressive strength and the endurance to face strong forces.",
+        "The superhero’s capacity to endure powerful forces and display great strength is significantly enhanced by a weight kg of [WEIGHT_KG].",
+        "By possessing a weight kg of [WEIGHT_KG], the hero gains the substantial strength and the resilience required to confront intense forces.",
+        "The weight kg of [WEIGHT_KG], attributed to the superhero, markedly boosts their strength and fortitude against powerful impacts.",
+        "Strong and resistant to high forces, the superhero benefits greatly from a weight kg of [WEIGHT_KG].",
+        "The hero’s weight kg of [WEIGHT_KG] contributes heavily to their powerful strength and their ability to absorb massive forces."
+      ],
+      "counter_variations": [
+        "The subject's weight kg is noted as NULL, indicating that the precise mass measurement was unavailable for this analysis.",
+        "In this analysis, the subject's weight kg is denoted by NULL, which conveys that a precise mass measurement could not be obtained.",
+        "Because the precise mass measurement could not be captured, the subject's weight kg is listed as NULL for this analysis.",
+        "The dataset records the subject's weight kg as NULL, thereby reflecting the lack of a precise mass measurement in the analysis.",
+        "For the purposes of this analysis, the subject's weight kg is entered as NULL, signifying that a precise mass measurement was not accessible.",
+        "The subject's weight kg, recorded as NULL, reveals that the precise mass measurement was unattainable for the current analysis.",
+        "Since the precise mass measurement could not be ascertained, the subject's weight kg is marked NULL in this analysis.",
+        "NULL is the value assigned to the subject's weight kg, denoting that the precise mass measurement was unavailable for analysis.",
+        "The analysis cites the subject's weight kg as NULL, thereby indicating the precise mass measurement could not be provided.",
+        "With the precise mass measurement missing, the subject's weight kg is documented as NULL for this analysis.",
+        "The subject's weight kg appears as NULL in the report, reflecting that a precise mass measurement was not obtainable for analysis.",
+        "In the present analysis, the subject's weight kg has been set to NULL, which signals that the precise mass measurement was unavailable.",
+        "The report assigns NULL to the subject's weight kg, implying that the precise mass measurement could not be recorded for this analysis.",
+        "As the precise mass measurement could not be secured, the subject's weight kg is captured as NULL in the analysis.",
+        "The subject's weight kg is captured as NULL, indicating that the precise mass measurement was unavailable for this analytical assessment."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "forces": [
+          "forces"
+        ],
+        "significantly": [
+          "significantly",
+          "importantly"
+        ],
+        "powerful": [
+          "powerful",
+          "potent",
+          "mighty",
+          "herculean",
+          "hefty"
+        ],
+        "withstand": [
+          "withstand",
+          "resist",
+          "defy"
+        ],
+        "their": [
+          "their"
+        ],
+        "strength": [
+          "strength",
+          "potency",
+          "force",
+          "durability",
+          "intensity",
+          "forte"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "ability": [
+          "ability",
+          "power"
+        ]
+      },
+      "field_data_types": {
+        "weight_kg": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

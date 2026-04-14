@@ -1,0 +1,34 @@
+{
+  "database": "student_club",
+  "table": "income",
+  "entry_index": 0,
+  "original_data": {
+    "income_id": "rec0s9ZrO15zhzUeE",
+    "date_received": "2019-10-17",
+    "amount": "50",
+    "source": "Dues",
+    "notes": "NULL",
+    "link_to_member": "reccW7q1KkhSKZsea"
+  },
+  "generated_sentences": [
+    "The student organization efficiently tracks its revenue sources with the unique income_id rec0s9ZrO15zhzUeE. (Hash: 5c7991071d6b4b35)",
+    "The student organization officially recorded the club's revenue on 2019-10-17, marking a key date in their financial timeline. (Hash: 50cff4710acc48d6)",
+    "The student organizations managed to generate a total dollar amount of 50 from various revenue sources this year. (Hash: 9f8c9ff234bf4f4b)",
+    "The source of funding for many student organizations often includes Dues collected from members. (Hash: 4c62f8e226fc4437)",
+    "The additional details regarding the receipt of funds for the student organization are NULL. (Hash: 4135c3e2cfe54c25)",
+    "The link_to_member reccW7q1KkhSKZsea plays a crucial role in tracking student engagement in the organization's events. (Hash: ea8231333e474ab8)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "5c7991071d6b4b35": "income_id",
+    "50cff4710acc48d6": "date_received",
+    "9f8c9ff234bf4f4b": "amount",
+    "4c62f8e226fc4437": "source",
+    "4135c3e2cfe54c25": "notes",
+    "ea8231333e474ab8": "link_to_member"
+  },
+  "timestamp": "2026-03-31 16:46:03"
+}

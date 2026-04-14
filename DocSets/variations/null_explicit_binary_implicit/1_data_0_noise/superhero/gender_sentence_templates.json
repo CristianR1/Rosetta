@@ -1,0 +1,108 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "5a957faf15cb4d22": "id",
+    "e3db1ac726dd41ff": "gender"
+  },
+  "templates": [
+    {
+      "original": "The gender id is 1.",
+      "template_pattern": "The gender id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The gender id equals [ID].",
+        "Gender id is set to [ID].",
+        "In this report, the gender id reads [ID].",
+        "A value of [ID] is assigned to the gender id.",
+        "The gender id has been recorded as [ID].",
+        "[ID] is the current value of the gender id.",
+        "It is noted that the gender id is [ID].",
+        "The gender id, as indicated, stands at [ID].",
+        "According to the data, the gender id registers [ID].",
+        "The gender id was found to be [ID].",
+        "For this entry, gender id = [ID].",
+        "The gender id shows a value of [ID].",
+        "[ID] appears as the gender id in the dataset.",
+        "The gender id, when evaluated, results in [ID].",
+        "As per the analysis, the gender id is [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many iconic superheroes have a Male gender identity, which influences both their character development and the stories they inhabit.",
+      "template_pattern": "Many iconic superheroes have a [GENDER] gender identity, which influences both their character development and the stories they inhabit.",
+      "primary_data_fields": [
+        "gender"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A great number of celebrated superheroes possess a [GENDER] gender identity, which shapes both their character arcs and the narratives they occupy.",
+        "The [GENDER] gender identity of many iconic superheroes drives the development of their characters as well as the plots they appear in.",
+        "Both character development and the story worlds of numerous iconic superheroes are affected by their [GENDER] gender identity.",
+        "Because many iconic superheroes have a [GENDER] gender identity, their character growth and the tales they inhabit are influenced.",
+        "[GENDER] gender identity, held by many iconic superheroes, impacts the evolution of their personas and the stories they inhabit.",
+        "The stories that many iconic superheroes inhabit and their character development are both shaped by a [GENDER] gender identity.",
+        "Influenced by a [GENDER] gender identity, many iconic superheroes experience specific character development and inhabit particular narratives.",
+        "In the case of many iconic superheroes, a [GENDER] gender identity informs both how their characters develop and the narratives they occupy.",
+        "Both the development of characters and the narrative settings of many iconic superheroes are guided by their [GENDER] gender identity.",
+        "[GENDER] gender identity serves as a driving factor for the character arcs and story worlds of many iconic superheroes.",
+        "For many iconic superheroes, possessing a [GENDER] gender identity affects how their characters evolve and which stories they populate.",
+        "The evolution of characters and the plot environments of many iconic superheroes are conditioned by a [GENDER] gender identity.",
+        "A [GENDER] gender identity, present in many iconic superheroes, shapes their character progression as well as the stories they dwell in.",
+        "Many iconic superheroes, with a [GENDER] gender identity, see both their character development and the narratives they inhabit influenced.",
+        "Through their [GENDER] gender identity, many iconic superheroes have their character development and story settings impacted."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "inhabit": [
+          "inhabit",
+          "dwell",
+          "populate",
+          "live"
+        ],
+        "many": [
+          "many"
+        ],
+        "iconic": [
+          "iconic"
+        ],
+        "influences": [
+          "influences"
+        ],
+        "stories": [
+          "stories"
+        ],
+        "their": [
+          "their"
+        ],
+        "character": [
+          "character",
+          "quality",
+          "type",
+          "fibre",
+          "fiber"
+        ],
+        "identity": [
+          "identity",
+          "individuality"
+        ]
+      },
+      "field_data_types": {
+        "gender": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

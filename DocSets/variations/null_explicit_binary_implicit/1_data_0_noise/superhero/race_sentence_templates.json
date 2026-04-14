@@ -1,0 +1,113 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "9018261b16b64ff8": "id",
+    "1ab985fe0036473e": "race"
+  },
+  "templates": [
+    {
+      "original": "The race's id is 1.",
+      "template_pattern": "The race's id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The race's id equals [ID].",
+        "The race's id has a value of [ID].",
+        "The id of the race is [ID].",
+        "In this race, the id is recorded as [ID].",
+        "The race's id is assigned the number [ID].",
+        "An id of [ID] is associated with the race.",
+        "The race's id was determined to be [ID].",
+        "The id for the race stands at [ID].",
+        "The race's id, which is [ID], is noted here.",
+        "According to the data, the race's id is [ID].",
+        "The race's id: [ID].",
+        "[ID] is the id of the race.",
+        "The race's id has been set to [ID].",
+        "The race's id appears as [ID] in the report.",
+        "The race's id is listed as [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's racial background is classified as -, reflecting the unique diversity within the comic book universe.",
+      "template_pattern": "The superhero's racial background is classified as [RACE], reflecting the unique diversity within the comic book universe.",
+      "primary_data_fields": [
+        "race"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's race is recorded as [RACE], underscoring the distinct diversity of the comic book universe.",
+        "Classified under race as [RACE], this hero exemplifies the singular diversity found throughout the comic book universe.",
+        "In the race category, the superhero is marked [RACE], highlighting the comic book universe's exceptional diversity.",
+        "The superhero’s race, noted as [RACE], reflects the remarkable diversity present within the comic book universe.",
+        "With race designated as [RACE], the character illustrates the unique variety inherent in the comic book universe.",
+        "Race: [RACE], indicating the superhero contributes to the comic book universe’s distinctive diversity.",
+        "The hero’s race appears as [RACE], a testament to the comic book universe’s unparalleled diversity.",
+        "Marked with race [RACE], the superhero embodies the diverse tapestry of the comic book universe.",
+        "As far as race is concerned, the superhero is identified as [RACE], showcasing the comic book universe’s unique diversity.",
+        "The superhero’s race entry is [RACE], mirroring the comic book universe’s singular diversity.",
+        "In terms of race, the superhero is listed as [RACE], signifying the diverse nature of the comic book universe.",
+        "The race field for this hero reads [RACE], which reflects the comic book universe’s exceptional diversity.",
+        "Recorded under race as [RACE], this superhero highlights the unique diversity of the comic book universe.",
+        "The character’s race is indicated as [RACE], pointing to the comic book universe’s distinctive diversity.",
+        "Race assigned [RACE], the superhero adds to the varied landscape of the comic book universe."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "comic": [
+          "comic",
+          "funny",
+          "amusing",
+          "comical",
+          "laughable"
+        ],
+        "classified": [
+          "classified"
+        ],
+        "diversity": [
+          "diversity",
+          "variety"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unparalleled",
+          "singular"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "book": [
+          "book",
+          "record",
+          "volume",
+          "ledger"
+        ],
+        "universe": [
+          "universe",
+          "cosmos"
+        ]
+      },
+      "field_data_types": {
+        "race": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

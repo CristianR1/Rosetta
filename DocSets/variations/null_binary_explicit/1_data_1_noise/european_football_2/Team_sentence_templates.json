@@ -1,0 +1,706 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "aead13122edb4a39": "id",
+    "c166c79dd3f24e5d": "team_api_id",
+    "0319dd6eec7f4e76": "team_fifa_api_id",
+    "9d180aad135f492e": "team_long_name",
+    "7839d395e96d410c": "team_short_name"
+  },
+  "templates": [
+    {
+      "original": "In the European football scene, Club 1 stands out with its unique identity.",
+      "template_pattern": "In the European football scene, Club [ID] stands out with its unique identity.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the European football scene, Club [ID] distinguishes itself through its unique identity.",
+        "Club [ID]’s unique identity makes it stand out in the European football scene.",
+        "In the European football scene, the unique identity of Club [ID] sets it apart.",
+        "The European football scene highlights Club [ID] because of its unique identity.",
+        "Thanks to its unique identity, Club [ID] emerges as a standout in the European football scene.",
+        "Across the European football scene, Club [ID] is recognized for its unique identity.",
+        "The unique identity of Club [ID] commands attention throughout the European football scene.",
+        "In the European football scene, Club [ID] is noted for its unique identity that sets it apart.",
+        "Club [ID], with its unique identity, shines prominently within the European football scene.",
+        "Through its unique identity, Club [ID] captures a leading position in the European football scene.",
+        "The European football scene sees Club [ID] rise above others owing to its unique identity.",
+        "Owing to a unique identity, Club [ID] stands out across the European football scene.",
+        "Within the European football scene, Club [ID]’s unique identity differentiates it from the rest.",
+        "The distinctiveness of Club [ID]’s unique identity makes it a focal point in the European football scene.",
+        "In the context of the European football scene, Club [ID] is distinguished by its unique identity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequaled",
+          "unequalled"
+        ],
+        "club": [
+          "club",
+          "society",
+          "order",
+          "lodge",
+          "guild",
+          "clubhouse"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "stands": [
+          "stands"
+        ],
+        "football": [
+          "football"
+        ],
+        "scene": [
+          "scene",
+          "setting",
+          "view",
+          "aspect",
+          "picture",
+          "vista"
+        ],
+        "identity": [
+          "identity",
+          "individuality"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Fans across the continent eagerly follow their favorite teams, creating a vibrant community around the sport.",
+      "template_pattern": "Fans across the continent eagerly follow their favorite teams, creating a vibrant community around the sport.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Throughout the continent, fans zealously track their beloved teams, fostering a lively community centered on the sport.",
+        "A vibrant community around the sport is built as fans from across the continent enthusiastically follow their favorite teams.",
+        "The sport’s fan base, spread across the continent, avidly follows its teams, generating a dynamic communal atmosphere.",
+        "Across the continent, supporters eagerly keep up with their preferred teams, thereby creating a bustling sport‑related community.",
+        "A lively community surrounding the sport emerges as continent‑wide fans passionately track their favorite teams.",
+        "Fans nationwide are following their beloved teams with great enthusiasm, which cultivates a vibrant community around the sport.",
+        "The continent’s fans, in their eagerness to follow favorite teams, are shaping a vibrant community centered on the sport.",
+        "With eager devotion, fans throughout the continent follow their chosen teams, forming a vibrant sporting community.",
+        "A vibrant community around the sport is being created by fans across the continent who follow their favorite teams with enthusiasm.",
+        "Enthusiastic followers across the continent keep tabs on their favorite teams, thereby nurturing a lively sport‑centric community.",
+        "Across the continent, the fervent fan base follows its favorite teams, resulting in a vibrant community built around the sport.",
+        "The sport’s vibrant community is the product of continent‑wide fans who eagerly follow their favourite teams.",
+        "As fans across the continent avidly follow their chosen teams, a vibrant community centered on the sport takes shape.",
+        "By eagerly tracking their favorite teams, fans throughout the continent generate a dynamic community around the sport.",
+        "A dynamic, sport‑focused community arises from the eager following of favorite teams by fans across the continent."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "sport": [
+          "sport",
+          "play"
+        ],
+        "around": [
+          "around",
+          "round",
+          "roughly",
+          "approximately",
+          "about"
+        ],
+        "creating": [
+          "creating"
+        ],
+        "continent": [
+          "continent",
+          "Continent"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "their": [
+          "their"
+        ],
+        "follow": [
+          "follow",
+          "trace",
+          "watch",
+          "observe",
+          "comply",
+          "pursue"
+        ],
+        "teams": [
+          "teams"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The European football club with team_api_id 9987 has consistently impressed fans with its remarkable performance on the field.",
+      "template_pattern": "The European football club with team_api_id [TEAM_API_ID] has consistently impressed fans with its remarkable performance on the field.",
+      "primary_data_fields": [
+        "team_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The European football club identified by team api id [TEAM_API_ID] has continuously dazzled supporters with its outstanding on‑field performance.",
+        "Fans have been repeatedly impressed by the remarkable field play of the European football club whose team api id is [TEAM_API_ID].",
+        "With a team api id of [TEAM_API_ID], the European football club consistently delivers a remarkable performance that delights its fans.",
+        "The on‑field achievements of the European football club (team api id [TEAM_API_ID]) have constantly won over its fanbase.",
+        "Consistent excellence on the pitch has made the European football club bearing team api id [TEAM_API_ID] a favorite among supporters.",
+        "The European football club, team api id [TEAM_API_ID], has habitually amazed its audience through its impressive field performance.",
+        "Supporters are regularly awed by the European football club that carries team api id [TEAM_API_ID] and its stellar play on the field.",
+        "Recognized by team api id [TEAM_API_ID], the European football club persistently impresses fans with its noteworthy on‑field display.",
+        "The football club from Europe, with team api id [TEAM_API_ID], continually captivates fans via its remarkable performance on the pitch.",
+        "Fans continually commend the European football club (team api id [TEAM_API_ID]) for its impressive and consistent field showing.",
+        "Through a consistently remarkable performance on the field, the European football club designated by team api id [TEAM_API_ID] wins fan admiration.",
+        "The European football club—team api id [TEAM_API_ID]—has repeatedly enchanted its supporters with outstanding play on the field.",
+        "Thanks to its remarkable on‑field performance, the European football club that holds team api id [TEAM_API_ID] consistently impresses its fans.",
+        "The team api id [TEAM_API_ID] identifies a European football club whose field performance has constantly impressed its fanbase.",
+        "Consistent fan praise stems from the European football club’s remarkable field performance, identified by team api id [TEAM_API_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "field": [
+          "field",
+          "sphere",
+          "area",
+          "domain",
+          "discipline",
+          "subject"
+        ],
+        "performance": [
+          "performance",
+          "execution",
+          "operation",
+          "functioning"
+        ],
+        "club": [
+          "club",
+          "society",
+          "order",
+          "lodge",
+          "guild",
+          "clubhouse"
+        ],
+        "impressed": [
+          "impressed",
+          "moved",
+          "affected",
+          "struck"
+        ],
+        "remarkable": [
+          "remarkable",
+          "noteworthy",
+          "singular"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ],
+        "football": [
+          "football"
+        ]
+      },
+      "field_data_types": {
+        "team_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "A strong sense of tradition and passion fuels the clubs, driving them to achieve greatness.",
+      "template_pattern": "A strong sense of tradition and passion fuels the clubs, driving them to achieve greatness.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The clubs are propelled toward greatness by a deep‑rooted tradition and fervent passion.",
+        "Fueled by a robust sense of heritage and enthusiasm, the clubs pursue greatness.",
+        "A powerful blend of tradition and passion energizes the clubs, pushing them to achieve greatness.",
+        "Greatness is driven in the clubs by their strong tradition and passionate spirit.",
+        "With a solid foundation of tradition and zeal, the clubs are driven to attain greatness.",
+        "The clubs' quest for greatness is powered by an intense sense of tradition and fervor.",
+        "Tradition’s weight and passionate fire combine to propel the clubs toward greatness.",
+        "Because of their profound tradition and ardent passion, the clubs are driven to excel.",
+        "The clubs, energized by a strong tradition and fervent passion, strive for greatness.",
+        "A deep sense of heritage and enthusiasm fuels the clubs, steering them toward greatness.",
+        "Greatness is pursued by the clubs thanks to a potent mix of tradition and passion.",
+        "Driven by a steadfast tradition and burning passion, the clubs aim for greatness.",
+        "The clubs' drive toward greatness stems from a solid tradition and lively passion.",
+        "Tradition and passion, strong in the clubs, act as catalysts for achieving greatness.",
+        "By virtue of their strong traditional roots and passionate drive, the clubs achieve greatness."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "clubs": [
+          "clubs"
+        ],
+        "fuels": [
+          "fuels"
+        ],
+        "passion": [
+          "passion",
+          "love",
+          "heat",
+          "warmth"
+        ],
+        "tradition": [
+          "tradition",
+          "custom"
+        ],
+        "strong": [
+          "strong",
+          "potent",
+          "secure",
+          "solid",
+          "firm",
+          "substantial"
+        ],
+        "sense": [
+          "sense"
+        ],
+        "driving": [
+          "driving"
+        ],
+        "achieve": [
+          "achieve",
+          "reach",
+          "accomplish",
+          "attain"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The team_fifa_api_id 673 serves as a critical reference for tracking a specific football club's performance across the European leagues.",
+      "template_pattern": "The team_fifa_api_id [TEAM_FIFA_API_ID] serves as a critical reference for tracking a specific football club's performance across the European leagues.",
+      "primary_data_fields": [
+        "team_fifa_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Team fifa api id [TEAM_FIFA_API_ID] acts as a key reference for monitoring a particular football club’s performance throughout the European leagues.",
+        "A critical reference for tracking the performance of a specific football club across European leagues is provided by team fifa api id [TEAM_FIFA_API_ID].",
+        "The performance of a given football club in the European leagues is tracked using team fifa api id [TEAM_FIFA_API_ID] as an essential reference.",
+        "Team fifa api id [TEAM_FIFA_API_ID] is employed as an important benchmark to follow a specific football club’s results across the European leagues.",
+        "In monitoring a particular soccer club’s outcomes across European leagues, team fifa api id [TEAM_FIFA_API_ID] serves as a vital reference point.",
+        "For the purpose of tracing a specific football club’s performance throughout Europe’s leagues, the identifier team fifa api id [TEAM_FIFA_API_ID] is used as a primary reference.",
+        "Team fifa api id [TEAM_FIFA_API_ID] functions as a crucial reference when observing a specific football club’s performance in the European leagues.",
+        "The identifier team fifa api id [TEAM_FIFA_API_ID] provides a fundamental reference for assessing a particular football club’s results across the European leagues.",
+        "Across the European leagues, a specific football club’s performance can be tracked via the critical reference of team fifa api id [TEAM_FIFA_API_ID].",
+        "Using team fifa api id [TEAM_FIFA_API_ID] as a pivotal reference, analysts can follow a specific football club’s performance across European leagues.",
+        "Team fifa api id [TEAM_FIFA_API_ID], acting as a key reference, enables the tracking of a particular football club’s performance throughout European leagues.",
+        "To trace a specific football club’s results across the European leagues, the critical reference of team fifa api id [TEAM_FIFA_API_ID] is utilized.",
+        "The critical reference known as team fifa api id [TEAM_FIFA_API_ID] allows for monitoring a specific football club’s performance across Europe’s leagues.",
+        "When evaluating a particular football club’s performance across the European leagues, team fifa api id [TEAM_FIFA_API_ID] serves as an essential reference.",
+        "Team fifa api id [TEAM_FIFA_API_ID] is the primary reference point for tracking the performance of a specific football club throughout the European leagues."
+      ],
+      "counter_variations": [
+        "In the professional data report's analytical overview, the team fifa api id for this club is null.",
+        "The professional data report's analytical overview indicates that the team fifa api id for this club is null.",
+        "As noted in the professional data report's analytical overview, this club's team fifa api id is null.",
+        "Within the professional data report's analytical overview, the team fifa api id pertaining to this club appears as null.",
+        "According to the professional data report's analytical overview, the team fifa api id for this club is null.",
+        "The professional data report's analytical overview presents the team fifa api id of this club as null.",
+        "For this club, the professional data report's analytical overview records a team fifa api id of null.",
+        "In the professional data report's analytical overview, the team fifa api id associated with this club is reported as null.",
+        "The professional data report's analytical overview lists the team fifa api id for this club as null.",
+        "Reviewing the professional data report's analytical overview reveals that the team fifa api id for this club is null.",
+        "The team fifa api id, as documented in the professional data report's analytical overview for this club, is null.",
+        "Within the professional data report's analytical overview, the team fifa api id for this club registers as null.",
+        "The professional data report's analytical overview specifies that the team fifa api id for this club is null.",
+        "As detailed in the professional data report's analytical overview, this club's team fifa api id is null.",
+        "In the context of the professional data report's analytical overview, the team fifa api id for this club remains null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "critical": [
+          "critical",
+          "decisive",
+          "vital"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "source",
+          "quotation",
+          "mention",
+          "credit"
+        ],
+        "performance": [
+          "performance",
+          "functioning",
+          "operation",
+          "execution"
+        ],
+        "club": [
+          "club",
+          "society",
+          "order",
+          "lodge",
+          "guild",
+          "clubhouse"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "serves": [
+          "serves",
+          "function",
+          "serve",
+          "service",
+          "assist",
+          "help"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trail",
+          "tag"
+        ],
+        "football": [
+          "football"
+        ]
+      },
+      "field_data_types": {
+        "team_fifa_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Rivalries between clubs add an exhilarating edge to the matches, captivating audiences worldwide.",
+      "template_pattern": "Rivalries between clubs add an exhilarating edge to the matches, captivating audiences worldwide.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The fierce club rivalries inject an electrifying intensity into matches, enthralling viewers across the globe.",
+        "An exhilarating edge is brought to the games by club rivalries, which captivate audiences worldwide.",
+        "Worldwide audiences are captivated by the thrilling edge that club rivalries add to each match.",
+        "By pitting clubs against one another, rivalries create a pulse‑pounding atmosphere that draws global spectators.",
+        "Club rivalries, by infusing matches with excitement, hold the attention of fans around the world.",
+        "The excitement of club rivalries gives matches an extra spark, captivating fans worldwide.",
+        "Matches gain an electrifying edge thanks to club rivalries, thereby enthralling audiences everywhere.",
+        "As clubs clash, their rivalries heighten the thrill of the contest and mesmerize viewers worldwide.",
+        "The added exhilaration from club rivalries makes matches more compelling, attracting a worldwide audience.",
+        "With club rivalries intensifying each game, audiences around the globe become fully engaged.",
+        "An exhilarating dimension is added to matches by club rivalries, which captivate a global audience.",
+        "The presence of club rivalries injects a thrilling edge into matches, captivating worldwide spectators.",
+        "Club rivalries enhance the excitement of matches, thereby captivating audiences on a global scale.",
+        "By amplifying the intensity of games, club rivalries capture the attention of fans worldwide.",
+        "Worldwide viewers are drawn in by the exhilarating edge that club rivalries lend to every match."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "worldwide": [
+          "worldwide",
+          "global",
+          "universal",
+          "planetary"
+        ],
+        "clubs": [
+          "clubs"
+        ],
+        "rivalries": [
+          "rivalries"
+        ],
+        "captivating": [
+          "captivating",
+          "enchanting",
+          "enthralling",
+          "fascinating",
+          "entrancing"
+        ],
+        "matches": [
+          "matches"
+        ],
+        "exhilarating": [
+          "exhilarating",
+          "stimulating"
+        ],
+        "audiences": [
+          "audiences"
+        ],
+        "between": [
+          "between"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The football club known as KRC Genk is widely recognized for its official team_long_name in the world of European football.",
+      "template_pattern": "The football club known as [TEAM_LONG_NAME] is widely recognized for its official team_long_name in the world of European football.",
+      "primary_data_fields": [
+        "team_long_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In European football, the football club [TEAM_LONG_NAME] is widely acknowledged for its official team long name.",
+        "[TEAM_LONG_NAME], a football club, enjoys broad recognition for its official team long name throughout European football.",
+        "The official team long name of the football club known as [TEAM_LONG_NAME] is highly regarded across the European football scene.",
+        "Across the world of European football, the football club [TEAM_LONG_NAME] is celebrated for its official team long name.",
+        "Known as [TEAM_LONG_NAME], the football club is extensively praised for its official team long name in European football.",
+        "The football club [TEAM_LONG_NAME], famed in European football, is noted for its official team long name.",
+        "Within European football, the official team long name of [TEAM_LONG_NAME]’s football club receives wide acclaim.",
+        "European football circles commonly recognize the football club [TEAM_LONG_NAME] for its official team long name.",
+        "For its official team long name, the football club [TEAM_LONG_NAME] is well‑known throughout European football.",
+        "The football club identified as [TEAM_LONG_NAME] has earned broad acknowledgment for its official team long name in European football.",
+        "In the realm of European football, [TEAM_LONG_NAME]’s football club is distinguished by its official team long name.",
+        "The official team long name of [TEAM_LONG_NAME]’s football club is frequently highlighted in European football discussions.",
+        "Across the European football landscape, the football club [TEAM_LONG_NAME] is famed for its official team long name.",
+        "Recognized widely in European football, the football club [TEAM_LONG_NAME] boasts an official team long name.",
+        "The football club [TEAM_LONG_NAME], prominent in European football, is famed for its official team long name."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "official": [
+          "official",
+          "functionary"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "order",
+          "lodge"
+        ],
+        "world": [
+          "world",
+          "earth",
+          "globe"
+        ],
+        "known": [
+          "known",
+          "recognised"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "widely": [
+          "widely"
+        ],
+        "football": [
+          "football"
+        ],
+        "recognized": [
+          "recognized",
+          "recognised",
+          "accepted"
+        ]
+      },
+      "field_data_types": {
+        "team_long_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Every season brings new challenges and opportunities for teams to prove their mettle.",
+      "template_pattern": "Every season brings new challenges and opportunities for teams to prove their mettle.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each season presents fresh challenges and chances for teams to demonstrate their mettle.",
+        "New challenges and opportunities arise every season, testing teams' mettle.",
+        "With every passing season, teams encounter novel obstacles and prospects to prove their mettle.",
+        "The arrival of each season introduces new trials and openings for squads to showcase their mettle.",
+        "Teams are given new hurdles and possibilities each season to affirm their mettle.",
+        "Season after season, fresh challenges and opportunities compel teams to validate their mettle.",
+        "As seasons change, fresh tests and opportunities emerge for teams to exhibit their mettle.",
+        "New challenges and opportunities are brought forth by each season, urging teams to prove their mettle.",
+        "Every new season delivers both challenges and opportunities, allowing teams to display their mettle.",
+        "For teams, each season delivers novel challenges and openings to demonstrate their mettle.",
+        "The coming of each season provides teams with fresh challenges and chances to confirm their mettle.",
+        "Teams must meet the new challenges and seize the opportunities that each season presents to prove their mettle.",
+        "Each successive season offers teams fresh trials and chances to prove their mettle.",
+        "When a new season arrives, it brings both challenges and opportunities for teams to showcase their mettle.",
+        "The cyclical nature of seasons supplies teams with continual challenges and opportunities to affirm their mettle."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "season": [
+          "season",
+          "flavour",
+          "flavor"
+        ],
+        "mettle": [
+          "mettle",
+          "nerve",
+          "heart"
+        ],
+        "every": [
+          "every"
+        ],
+        "prove": [
+          "prove",
+          "show",
+          "establish",
+          "demonstrate",
+          "shew",
+          "evidence"
+        ],
+        "challenges": [
+          "challenges"
+        ],
+        "their": [
+          "their"
+        ],
+        "teams": [
+          "teams"
+        ],
+        "opportunities": [
+          "opportunities"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "During the European football season, GEN has become one of the most recognized team_short_name identifiers among fans.",
+      "template_pattern": "During the European football season, [TEAM_SHORT_NAME] has become one of the most recognized team_short_name identifiers among fans.",
+      "primary_data_fields": [
+        "team_short_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Throughout the European football season, fans have come to know [TEAM_SHORT_NAME] as one of the most recognized team short name identifiers.",
+        "In the course of the European football season, [TEAM_SHORT_NAME] emerged as a top‑ranked team short name identifier among supporters.",
+        "During the European football season, [TEAM_SHORT_NAME] is regarded by fans as one of the most widely recognised team short name identifiers.",
+        "Among fans, [TEAM_SHORT_NAME] has risen to be one of the most acknowledged team short name identifiers during the European football season.",
+        "The European football season has seen [TEAM_SHORT_NAME] become a leading team short name identifier recognized by fans.",
+        "Fans now view [TEAM_SHORT_NAME] as one of the most prominent team short name identifiers during the European football season.",
+        "Throughout the European football season, [TEAM_SHORT_NAME] was identified by supporters as a highly recognized team short name identifier.",
+        "During the European football season, the team short name identifier [TEAM_SHORT_NAME] attained widespread recognition among fans.",
+        "In the European football season, [TEAM_SHORT_NAME] secured its place as one of the most famed team short name identifiers in the eyes of fans.",
+        "Fans have acknowledged [TEAM_SHORT_NAME] as a leading team short name identifier throughout the European football season.",
+        "During the European football season, [TEAM_SHORT_NAME]’s status as a top team short name identifier was affirmed by fans.",
+        "The European football season highlighted [TEAM_SHORT_NAME] as one of the most celebrated team short name identifiers among its followers.",
+        "Among the fan base, [TEAM_SHORT_NAME] was elevated to one of the most recognized team short name identifiers during the European football season.",
+        "During the European football season, the team short name identifier [TEAM_SHORT_NAME] was widely recognized by fans.",
+        "Throughout the European football season, supporters have come to recognize [TEAM_SHORT_NAME] as a foremost team short name identifier."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "season": [
+          "season"
+        ],
+        "most": [
+          "most",
+          "almost",
+          "virtually",
+          "nearly"
+        ],
+        "among": [
+          "among"
+        ],
+        "become": [
+          "become",
+          "turn",
+          "get"
+        ],
+        "identifiers": [
+          "identifiers"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "football": [
+          "football"
+        ],
+        "fans": [
+          "fans"
+        ]
+      },
+      "field_data_types": {
+        "team_short_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The enduring appeal of European football lies in its rich history and the thrilling unpredictability of each game.",
+      "template_pattern": "The enduring appeal of European football lies in its rich history and the thrilling unpredictability of each game.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The lasting charm of European football stems from its storied past and the electrifying uncertainty that accompanies every match.",
+        "European football's enduring attraction can be traced to a deep heritage and the captivating randomness of each fixture.",
+        "Owing to its extensive chronology and the thrilling unpredictability of each game, European football enjoys timeless appeal.",
+        "The timeless allure of soccer in Europe is rooted in a rich history and the exhilarating variance of every contest.",
+        "Thanks to a profound legacy and the exciting unpredictability inherent in each match, the appeal of European football remains strong.",
+        "The enduring appeal of European football is derived from its deep heritage and the suspenseful unpredictability found in every game.",
+        "Because of its rich historical background and the thrilling unknowns of each fixture, European football continues to captivate audiences.",
+        "A rich past and the electrifying uncertainty of each match give European football its lasting attraction.",
+        "European football maintains its timeless appeal due to a storied history coupled with the exhilarating unpredictability of every game.",
+        "The persistent fascination with European soccer arises from an extensive heritage and the thrilling variability of each contest.",
+        "With a deep‑rooted history and the captivating randomness of every match, European football's appeal endures.",
+        "The compelling allure of football in Europe owes itself to a rich chronology and the exciting unpredictability of each game.",
+        "Each game’s thrilling unpredictability, together with a rich history, underpins the enduring appeal of European football.",
+        "The appeal that endures in European football is anchored in its extensive past and the exhilarating unpredictability of every fixture.",
+        "Due to its storied past and the suspenseful variability of each match, European football sustains a lasting charm."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "lies": [
+          "lies"
+        ],
+        "rich": [
+          "rich",
+          "copious",
+          "ample",
+          "plenteous",
+          "fertile",
+          "robust"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "history": [
+          "history",
+          "chronicle",
+          "account"
+        ],
+        "football": [
+          "football"
+        ],
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ],
+        "enduring": [
+          "enduring",
+          "abiding",
+          "imperishable"
+        ],
+        "game": [
+          "game",
+          "spirited"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

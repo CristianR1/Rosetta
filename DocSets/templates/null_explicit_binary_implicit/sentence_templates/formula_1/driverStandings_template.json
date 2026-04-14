@@ -1,0 +1,38 @@
+{
+  "database": "formula_1",
+  "table": "driverStandings",
+  "entry_index": 0,
+  "original_data": {
+    "driverStandingsId": "1",
+    "raceId": "18",
+    "driverId": "1",
+    "points": "10.0",
+    "position": "1",
+    "positionText": "1",
+    "wins": "1"
+  },
+  "generated_sentences": [
+    "Each Formula 1 driver has a unique identifier to precisely track their performance in the championship standings. (Hash: 6e60e1f03c2b45a3)",
+    "The excitement was palpable as the racers prepared for Formula 1 raceId 18, a crucial event in the championship. (Hash: d481dd0091c74738)",
+    "Each Formula 1 driver possesses a unique identification number to track their performance and standings within the championship results. (Hash: 2d08610283a040c0)",
+    "During the race, the driver managed to earn 10 points, boosting his position in the championship standings significantly. (Hash: 6a45508bfeff4f55)",
+    "The driver is currently ranked among the top competitors in the Formula 1 championship standings. (Hash: 02b32a621e1149a3)",
+    "positionText is true, indicating a strong championship position. (Hash: 1f439fb9aed148c0)",
+    "The driver has achieved victory in at least one Formula 1 race. (Hash: 582165378ce8431a)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "6e60e1f03c2b45a3": "driverStandingsId",
+    "d481dd0091c74738": "raceId",
+    "2d08610283a040c0": "driverId",
+    "6a45508bfeff4f55": "points",
+    "02b32a621e1149a3": "position",
+    "1f439fb9aed148c0": "positionText",
+    "582165378ce8431a": "wins"
+  },
+  "timestamp": "2026-04-13 00:20:16",
+  "narrative": []
+}

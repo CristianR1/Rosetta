@@ -1,0 +1,34 @@
+{
+  "database": "formula_1",
+  "table": "lapTimes",
+  "entry_index": 0,
+  "original_data": {
+    "raceId": "2",
+    "driverId": "1",
+    "lap": "1",
+    "position": "10",
+    "time": "1:52.965",
+    "milliseconds": "112965"
+  },
+  "generated_sentences": [
+    "The raceId 2 marks an exciting event where drivers showcased exceptional skills on the Formula 1 circuit. (Hash: 0faacd378d3a43f9)",
+    "Each Formula 1 driver has a unique identifier that links them to their lap time records. (Hash: 6ad84fd2839043e1)",
+    "The lap number serves as a crucial indicator of the sequence in which a driver completes laps during a Formula 1 race. (Hash: 1a892a6708a74f4f)",
+    "During the race, the driver managed to secure the 10 position by the end of that particular lap. (Hash: 563d8a41038745f9)",
+    "During the final lap, the driver impressively clocked a time of 1:52.965, showcasing their remarkable speed and precision. (Hash: f08d5dd895294462)",
+    "During the thrilling Formula 1 race, one driver's impressive lap was timed at exactly 112965 milliseconds. (Hash: a0de3376f2504cfb)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "0faacd378d3a43f9": "raceId",
+    "6ad84fd2839043e1": "driverId",
+    "1a892a6708a74f4f": "lap",
+    "563d8a41038745f9": "position",
+    "f08d5dd895294462": "time",
+    "a0de3376f2504cfb": "milliseconds"
+  },
+  "timestamp": "2026-04-13 00:20:36"
+}

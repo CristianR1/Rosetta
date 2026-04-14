@@ -1,0 +1,134 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "8ce5265b6c2d46b8": "id",
+    "d4c7e9eddf53472d": "name"
+  },
+  "templates": [
+    {
+      "original": "Belgium is well-known for its competitive national team in European football.",
+      "template_pattern": "[NAME] is well-known for its competitive national team in European football.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "[NAME] is renowned for its competitive national team in European football.",
+        "The competitive national team of [NAME] is famous in European football.",
+        "In European football, [NAME]'s competitive national team enjoys a strong reputation.",
+        "European football recognizes [NAME] for its competitive national team.",
+        "[NAME]'s competitive national team is widely acknowledged in European football.",
+        "Known for its competitive national team, [NAME] plays a major role in European football.",
+        "The competitive national team representing [NAME] is well‑regulated within European football.",
+        "Within European football, [NAME] boasts a competitive national team that is well‑known.",
+        "[NAME], celebrated for its competitive national team, stands out in European football.",
+        "A competitive national team from [NAME] is a hallmark of European football.",
+        "The competitive national team that draws attention belongs to [NAME] in European football.",
+        "The nation of [NAME] fields a competitive national team that is prominent in European football.",
+        "In the realm of European football, [NAME] fields a competitive national team known for its strength.",
+        "[NAME]'s reputation in European football stems from its competitive national team.",
+        "It is [NAME]’s competitive national team that makes the country well‑known in European football."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "national": [
+          "national"
+        ],
+        "known": [
+          "known"
+        ],
+        "well": [
+          "well"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "competitive": [
+          "competitive",
+          "competitory"
+        ],
+        "football": [
+          "football"
+        ],
+        "european": [
+          "european",
+          "European"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The ID field, assigned the value 1, uniquely distinguishes this entry within the research data report, facilitating accurate cross‑referencing and robust analysis.",
+      "template_pattern": "The ID, displayed as [ID], uniquely distinguishes each participant in the research data report study.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each participant in the research data report study is uniquely identified by the ID, shown as [ID].",
+        "The ID, shown as [ID], serves as a unique identifier for every participant in the research data report study.",
+        "In the research data report study, the ID displayed as [ID] uniquely distinguishes each participant.",
+        "Unique distinction of each participant in the research data report study is provided by the ID, displayed as [ID].",
+        "For every participant in the research data report study, the ID—displayed as [ID]—acts as a unique differentiator.",
+        "The ID, which appears as [ID], uniquely separates each participant within the research data report study.",
+        "Each participant is uniquely marked in the research data report study by the ID, presented as [ID].",
+        "Displayed as [ID], the ID uniquely identifies each participant of the research data report study.",
+        "Within the research data report study, the ID (displayed as [ID]) uniquely sets apart each participant.",
+        "The unique identifier for each participant in the research data report study is the ID, displayed as [ID].",
+        "Each participant in the research data report study can be uniquely distinguished by the ID, shown as [ID].",
+        "The ID—displayed as [ID]—provides a unique distinction for every participant in the research data report study.",
+        "In the research data report study, every participant is uniquely distinguished by the ID, shown as [ID].",
+        "Unique differentiation of participants in the research data report study is achieved through the ID, displayed as [ID].",
+        "The ID, presented as [ID], uniquely separates each participant within the research data report study."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "research": [
+          "research",
+          "inquiry",
+          "enquiry"
+        ],
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study",
+          "composition"
+        ],
+        "displayed": [
+          "displayed"
+        ],
+        "uniquely": [
+          "uniquely",
+          "unambiguously"
+        ],
+        "study": [
+          "study",
+          "field",
+          "discipline",
+          "subject",
+          "bailiwick"
+        ],
+        "distinguishes": [
+          "distinguishes"
+        ],
+        "data": [
+          "data"
+        ],
+        "participant": [
+          "participant"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

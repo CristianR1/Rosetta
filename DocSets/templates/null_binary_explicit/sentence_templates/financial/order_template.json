@@ -1,0 +1,34 @@
+{
+  "database": "financial",
+  "table": "order",
+  "entry_index": 0,
+  "original_data": {
+    "order_id": "29401",
+    "account_id": "1",
+    "bank_to": "YZ",
+    "account_to": "87144583",
+    "amount": "2452.0",
+    "k_symbol": "SIPO"
+  },
+  "generated_sentences": [
+    "The banking service order with order_id 29401 was processed successfully, ensuring precise tracking of the transaction. (Hash: 07286b2503704d16)",
+    "The banking account with the unique identification number 1 is used for managing all associated financial transactions and services. (Hash: 07abd84e9b244e22)",
+    "The transaction was successfully directed to bank_to YZ for processing. (Hash: fbf5fb46aba34345)",
+    "The funds were transferred smoothly to account_to 87144583, ensuring the transaction was completed without any delays. (Hash: c94c1388ba454e67)",
+    "The transaction request was processed successfully, involving an amount of 2452 in the latest banking service order. (Hash: 0c67bb132aac4dda)",
+    "The k_symbol for this transaction is SIPO, ensuring precise tracking and management of the banking service order. (Hash: ccdca4d483624a82)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "07286b2503704d16": "order_id",
+    "07abd84e9b244e22": "account_id",
+    "fbf5fb46aba34345": "bank_to",
+    "c94c1388ba454e67": "account_to",
+    "0c67bb132aac4dda": "amount",
+    "ccdca4d483624a82": "k_symbol"
+  },
+  "timestamp": "2026-03-31 16:40:17"
+}

@@ -1,0 +1,152 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "9b2dce7e1a584f7a": "id",
+    "f235beae65c14a60": "alignment"
+  },
+  "templates": [
+    {
+      "original": "The unique identifier assigned to each entry is shown as [ID] in the executive summary of the report.",
+      "template_pattern": "The unique identifier assigned to each entry is shown as [ID] in the executive summary of the report.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the executive summary of the report, each entry's unique identifier appears as [ID].",
+        "Each entry's unique identifier is shown as [ID] in the executive summary of the report.",
+        "The executive summary of the report lists the unique identifier for each entry as [ID].",
+        "Shown as [ID] in the executive summary of the report, the unique identifier is assigned to each entry.",
+        "For every entry, the unique identifier is presented as [ID] in the executive summary of the report.",
+        "The executive summary of the report displays [ID] as the unique identifier for each entry.",
+        "Each entry’s unique identifier, [ID], is displayed in the executive summary of the report.",
+        "The unique identifier assigned to each entry is shown as [ID] in the executive summary of the report.",
+        "The unique identifier for each entry appears as [ID] in the executive summary of the report.",
+        "[ID] is the unique identifier shown for each entry in the executive summary of the report.",
+        "The executive summary of the report indicates the unique identifier for each entry as [ID].",
+        "Presented in the executive summary of the report, the unique identifier for each entry is [ID].",
+        "Each entry’s assigned unique identifier is shown as [ID] in the executive summary of the report.",
+        "The executive summary of the report contains the unique identifier, shown as [ID], for each entry.",
+        "In the executive summary of the report, the assigned unique identifier appears as [ID] for each entry."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unequalled",
+          "unequaled",
+          "unparalleled",
+          "singular"
+        ],
+        "executive": [
+          "executive",
+          "administrator"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "shown": [
+          "shown"
+        ],
+        "entry": [
+          "entry",
+          "entrance",
+          "entranceway",
+          "entryway",
+          "ingress",
+          "submission"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "summary": [
+          "summary"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The superhero's alignment is Good, always striving to protect the innocent and uphold justice above all else.",
+      "template_pattern": "The superhero's alignment is [ALIGNMENT], always striving to protect the innocent and uphold justice above all else.",
+      "primary_data_fields": [
+        "alignment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's alignment is [ALIGNMENT], and he constantly works to shield the innocent while championing justice above all else.",
+        "[ALIGNMENT] is the alignment of the superhero, who ever‑more endeavors to protect the innocent and uphold justice above all else.",
+        "In the report, the superhero's alignment is [ALIGNMENT]; his continual mission is to safeguard the innocent and maintain justice above all else.",
+        "Always aiming to defend the innocent and keep justice supreme, the superhero's alignment is [ALIGNMENT].",
+        "The alignment of the superhero reads [ALIGNMENT], with a perpetual drive to protect the innocent and to uphold justice above all else.",
+        "[ALIGNMENT] defines the superhero's alignment, whose ongoing purpose is protecting the innocent and upholding justice above all else.",
+        "The superhero's alignment, [ALIGNMENT], signals an unending commitment to protect the innocent and to uphold justice above all else.",
+        "With an alignment marked as [ALIGNMENT], the superhero tirelessly defends the innocent and enforces justice above all else.",
+        "The superhero's alignment is [ALIGNMENT]; he relentlessly seeks to shield the innocent and to uphold justice above all else.",
+        "[ALIGNMENT] is listed as the superhero's alignment, indicating a constant effort to protect the innocent and to uphold justice above all else.",
+        "In this professional data report, the superhero's alignment is [ALIGNMENT], and the hero persistently protects the innocent while upholding justice above all else.",
+        "The superhero's alignment is [ALIGNMENT]—ever committed to protecting the innocent and upholding justice above all else.",
+        "Marked as [ALIGNMENT], the superhero's alignment reflects a continual drive to protect the innocent and to uphold justice above all else.",
+        "The superhero's alignment is [ALIGNMENT]; his primary objective remains the protection of the innocent and the upholding of justice above all else.",
+        "[ALIGNMENT], as the superhero's alignment, conveys an ongoing dedication to protect the innocent and uphold justice above all else."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "striving": [
+          "striving",
+          "endeavor",
+          "endeavour"
+        ],
+        "always": [
+          "always",
+          "perpetually",
+          "forever",
+          "incessively",
+          "constantly",
+          "invariably"
+        ],
+        "innocent": [
+          "innocent",
+          "guiltless",
+          "sinless"
+        ],
+        "uphold": [
+          "uphold",
+          "preserve",
+          "maintain",
+          "continue"
+        ],
+        "justice": [
+          "justice",
+          "justness",
+          "Justice"
+        ],
+        "else": [
+          "else"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "above": [
+          "above",
+          "supra"
+        ]
+      },
+      "field_data_types": {
+        "alignment": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

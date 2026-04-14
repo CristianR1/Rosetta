@@ -1,0 +1,296 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "38a564a63c2443bd": "id",
+    "bfee9970de704c25": "colour"
+  },
+  "templates": [
+    {
+      "original": "In the superhero world, color entry 1 represents the hero's iconic cape.",
+      "template_pattern": "In the superhero world, color entry [ID] represents the hero's iconic cape.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the superhero universe, color entry [ID] signifies the hero's iconic cape.",
+        "The hero's iconic cape is represented by color entry [ID] in the superhero world.",
+        "In the world of superheroes, color entry [ID] serves as the symbol for the hero's iconic cape.",
+        "Color entry [ID], in the superhero realm, denotes the hero's iconic cape.",
+        "For superhero contexts, the hero's iconic cape corresponds to color entry [ID].",
+        "Among superheroes, color entry [ID] functions as the identifier of the hero's iconic cape.",
+        "The superhero domain assigns color entry [ID] to the hero's iconic cape.",
+        "In superhero settings, the hero's iconic cape is indicated by color entry [ID].",
+        "Color entry [ID] acts as the marker for the hero's iconic cape within the superhero world.",
+        "Within superhero lore, the hero's iconic cape is linked to color entry [ID].",
+        "The hero's iconic cape finds its representation in color entry [ID] across the superhero world.",
+        "Superhero narratives use color entry [ID] to denote the hero's iconic cape.",
+        "In the context of superheroes, color entry [ID] designates the hero's iconic cape.",
+        "The hero's iconic cape is captured by color entry [ID] in the superhero arena.",
+        "Across the superhero sphere, color entry [ID] stands for the hero's iconic cape."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "represents": [
+          "represents",
+          "exemplify",
+          "symbolize",
+          "symbolise"
+        ],
+        "iconic": [
+          "iconic"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "earth",
+          "Earth"
+        ],
+        "entry": [
+          "entry",
+          "entrance",
+          "entranceway",
+          "entryway",
+          "ingress"
+        ],
+        "color": [
+          "color",
+          "colour",
+          "coloration",
+          "colouration",
+          "coloring",
+          "colouring"
+        ],
+        "hero": [
+          "hero",
+          "Hero",
+          "champion",
+          "paladin"
+        ],
+        "cape": [
+          "cape",
+          "mantle"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The city was buzzing with anticipation as the sun set, casting a golden glow over the skyline.",
+      "template_pattern": "The city was buzzing with anticipation as the sun set, casting a golden glow over the skyline.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As the sun slipped below the horizon, a golden glow bathed the skyline while the city thrummed with eager anticipation.",
+        "The city hummed with anticipation, and the setting sun poured a golden sheen across the skyline.",
+        "A golden glow spread over the skyline as the sun set, causing the city to buzz with expectation.",
+        "With the sun sinking, the skyline was washed in gold, and the city vibrated with anticipation.",
+        "The setting sun cast an amber light over the skyline, prompting the city to hum with eager anticipation.",
+        "Anticipation filled the city as the sun descended, its golden rays illuminating the skyline.",
+        "As twilight fell, the skyline glowed golden, and the city was alive with anticipation.",
+        "The city, buzzing with expectation, watched the sun set and drape a golden hue over the skyline.",
+        "A golden sheen was cast across the skyline by the setting sun, while the city pulsed with anticipation.",
+        "While the sun went down, its golden glow brushed the skyline, and the city thrummed with anticipation.",
+        "The skyline received a golden wash as the sun set, and the city buzzed with eager anticipation.",
+        "With the sun lowering, a golden light spread over the skyline, filling the city with anticipation.",
+        "The city’s anticipation rose as the sun set, casting a golden glow that illuminated the skyline.",
+        "As the sun dropped, the skyline was lit by a golden glow, and the city hummed with expectation.",
+        "Golden light flooded the skyline at sunset, while the city buzzed in anticipation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "casting": [
+          "casting",
+          "cast",
+          "mould",
+          "mold",
+          "molding",
+          "moulding"
+        ],
+        "buzzing": [
+          "buzzing",
+          "buzz",
+          "abuzz",
+          "hum"
+        ],
+        "over": [
+          "over",
+          "ended",
+          "concluded",
+          "complete",
+          "terminated"
+        ],
+        "skyline": [
+          "skyline",
+          "horizon"
+        ],
+        "golden": [
+          "golden",
+          "gilt",
+          "gilded",
+          "favorable",
+          "favourable",
+          "prosperous"
+        ],
+        "city": [
+          "city",
+          "metropolis"
+        ],
+        "anticipation": [
+          "anticipation",
+          "prediction",
+          "expectation",
+          "prevision",
+          "expectancy"
+        ],
+        "glow": [
+          "glow",
+          "glowing",
+          "radiance",
+          "luminescence",
+          "incandescence",
+          "gleam"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The superhero's unique appearance is accentuated by having No Colour in their skin, eyes, and hair, adding to their mystique.",
+      "template_pattern": "The superhero's unique appearance is accentuated by having [COLOUR] in their skin, eyes, and hair, adding to their mystique.",
+      "primary_data_fields": [
+        "colour"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's distinctive look is emphasized by the presence of [COLOUR] on their skin, eyes, and hair, which adds to their mystique.",
+        "By featuring [COLOUR] in the skin, eyes, and hair, the superhero's unique appearance becomes more striking, further contributing to their mystique.",
+        "[COLOUR] on their skin, eyes, and hair accentuates the superhero's one‑of‑a‑kind appearance, enhancing the aura of mystique surrounding them.",
+        "The mystique of the superhero is heightened because their unique appearance includes [COLOUR] across skin, eyes, and hair.",
+        "Having [COLOUR] in the skin, eyes, and hair, the superhero's unusual look is amplified, lending additional mystique.",
+        "The superhero's one‑of‑a‑kind visage, marked by [COLOUR] on skin, eyes, and hair, is made more mysterious.",
+        "Because the superhero exhibits [COLOUR] in skin, eyes, and hair, their singular appearance is underscored, deepening the sense of mystique.",
+        "With [COLOUR] evident on the skin, eyes, and hair, the superhero's unique appearance is accentuated, thereby increasing their mystique.",
+        "The presence of [COLOUR] in the skin, eyes, and hair serves to accentuate the superhero's distinctive appearance and boost their mystique.",
+        "[COLOUR] across skin, eyes, and hair accentuates the superhero's unique look, adding a layer of mystique.",
+        "The superhero’s singular appearance, featuring [COLOUR] on skin, eyes, and hair, is highlighted, which contributes to their mystique.",
+        "By featuring [COLOUR] in the skin, eyes, and hair, the superhero's unique look stands out, further enhancing their mystique.",
+        "The unique appearance of the superhero is made more mysterious through [COLOUR] on the skin, eyes, and hair.",
+        "Having [COLOUR] on their skin, eyes, and hair, the superhero’s distinctive look is reinforced, augmenting the aura of mystique.",
+        "[COLOUR] in the skin, eyes, and hair emphasizes the superhero's one‑of‑a‑kind appearance, thereby adding to their mystique."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "skin": [
+          "skin",
+          "hide",
+          "cutis",
+          "tegument",
+          "pelt",
+          "peel"
+        ],
+        "mystique": [
+          "mystique"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "adding": [
+          "adding"
+        ],
+        "eyes": [
+          "eyes"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequaled",
+          "unequalled"
+        ],
+        "appearance": [
+          "appearance",
+          "show"
+        ],
+        "accentuated": [
+          "accentuated"
+        ]
+      },
+      "field_data_types": {
+        "colour": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As the night deepened, shadows danced along the streets, whispering tales of heroism and mystery.",
+      "template_pattern": "As the night deepened, shadows danced along the streets, whispering tales of heroism and mystery.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "When night fell deeper, shadows moved across the avenues, murmuring stories of bravery and intrigue.",
+        "The deeper the night became, the more the shadows glided along the streets, softly recounting legends of heroism and mystery.",
+        "Shadows, as darkness intensified, swept the roadways, whispering accounts of courageous deeds and enigmatic events.",
+        "As darkness thickened, the streets were lit by dancing shadows that whispered narratives of valor and mystery.",
+        "With the night growing ever more profound, shadows traversed the thoroughfares, quietly telling tales of heroism and intrigue.",
+        "In the deepening night, the streets were animated by shadows that whispered of heroic exploits and mysterious sagas.",
+        "Night’s deepening hue saw shadows glide down the boulevards, softly relaying stories of courage and mystery.",
+        "As the evening grew darker, shadows floated along the lanes, sharing hushed tales of bravery and enigmatic wonders.",
+        "The night’s intensification caused shadows to ripple across the roads, murmuring legends of heroism and mystery.",
+        "When darkness deepened, shadows swept the city streets, whispering of daring feats and mysterious narratives.",
+        "Shadows, under the increasingly deep night, drifted through the streets, quietly conveying accounts of heroism and intrigue.",
+        "As the night progressed toward its deepest hour, shadows danced down the avenues, softly whispering heroic and mysterious tales.",
+        "In the waning light of a deepening night, shadows coursed along the streets, recounting hushed stories of valor and mystery.",
+        "The deepening night prompted shadows to move along the streets, whispering quietly about acts of heroism and mysterious events.",
+        "With night growing ever darker, shadows meandered across the thoroughfares, murmuring narratives of bravery and mystery."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "whispering": [
+          "whispering",
+          "rustling",
+          "murmuring"
+        ],
+        "night": [
+          "night",
+          "nighttime"
+        ],
+        "streets": [
+          "streets"
+        ],
+        "heroism": [
+          "heroism",
+          "valor",
+          "valour",
+          "gallantry",
+          "valiance"
+        ],
+        "mystery": [
+          "mystery",
+          "enigma"
+        ],
+        "along": [
+          "along"
+        ],
+        "tales": [
+          "tales"
+        ],
+        "danced": [
+          "danced"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

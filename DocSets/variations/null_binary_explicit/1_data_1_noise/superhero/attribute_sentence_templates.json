@@ -1,0 +1,263 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "8eca5d3349e141b8": "id",
+    "608aa555704b47cb": "attribute_name"
+  },
+  "templates": [
+    {
+      "original": "The superhero known for his Intelligence and strategic prowess is assigned the identifier 1 in the registry of heroes.",
+      "template_pattern": "The superhero known for his Intelligence and strategic prowess is assigned the identifier [ID] in the registry of heroes.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero celebrated for his Intelligence and strategic prowess is listed under identifier [ID] in the registry of heroes.",
+        "In the registry of heroes, identifier [ID] is assigned to the superhero noted for his Intelligence and strategic prowess.",
+        "Identifier [ID] has been allocated to the hero whose Intelligence and strategic prowess are well recognized, according to the registry of heroes.",
+        "According to the heroes registry, the individual distinguished by Intelligence and strategic prowess bears the identifier [ID].",
+        "The registry of heroes records identifier [ID] for the superhero possessing Intelligence and strategic prowess.",
+        "For the superhero renowned for his Intelligence and strategic prowess, the registry of heroes designates identifier [ID].",
+        "Identifier [ID] is granted to the superhero with Intelligence and strategic prowess within the heroes registry.",
+        "Within the heroes registry, the superhero known for Intelligence and strategic prowess receives identifier [ID].",
+        "The hero, famed for his Intelligence and strategic prowess, carries identifier [ID] as recorded in the registry of heroes.",
+        "In the official heroes registry, the superhero with Intelligence and strategic prowess is given identifier [ID].",
+        "The registry of heroes assigns identifier [ID] to the superhero who exhibits Intelligence and strategic prowess.",
+        "Identifier [ID] is attached to the superhero celebrated for Intelligence and strategic prowess in the heroes registry.",
+        "According to the registry of heroes, the superhero possessing Intelligence and strategic prowess holds identifier [ID].",
+        "The superhero possessing Intelligence and strategic prowess has been entered as identifier [ID] in the heroes registry.",
+        "In the heroes registry, the superhero identified by Intelligence and strategic prowess is marked with identifier [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "heroes": [
+          "heroes"
+        ],
+        "known": [
+          "known"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "registry": [
+          "registry",
+          "register"
+        ],
+        "strategic": [
+          "strategic"
+        ],
+        "prowess": [
+          "prowess",
+          "artistry"
+        ],
+        "assigned": [
+          "assigned"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Tales of valor and cunning are often whispered among those who admire these extraordinary beings.",
+      "template_pattern": "Tales of valor and cunning are often whispered among those who admire these extraordinary beings.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "People who admire these extraordinary beings often whisper tales of valor and cunning.",
+        "Among admirers of these remarkable beings, tales of bravery and wit are frequently murmured.",
+        "Tales of valor and cunning are commonly shared in the circles that revere these exceptional beings.",
+        "In the company of those who esteem these extraordinary beings, whispers of heroic and clever deeds abound.",
+        "Those who hold these extraordinary beings in high regard frequently exchange stories of courage and cunning.",
+        "Within the community that admires these remarkable beings, there is a steady murmur of tales about valor and cunning.",
+        "It is common for admirers of these extraordinary beings to whisper stories of bravery and cleverness.",
+        "Stories of daring and ingenuity are often whispered among the fans of these extraordinary beings.",
+        "Among the faithful followers of these exceptional beings, whispers of valor and guile circulate regularly.",
+        "The circle of admirers of these extraordinary beings often passes along tales of courage and cunning.",
+        "Whispers of heroic and shrewd exploits frequently arise among those who look up to these remarkable beings.",
+        "Tales of bravery and craftiness are habitually whispered by those who admire these extraordinary beings.",
+        "Those who revere these exceptional beings regularly share whispered accounts of valor and cunning.",
+        "In the midst of admirers of these extraordinary beings, stories of valor and cleverness are often murmured.",
+        "Among the audience that esteems these extraordinary beings, whispers of daring and cunning are a common occurrence."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "these": [
+          "these"
+        ],
+        "valor": [
+          "valor",
+          "heroism",
+          "valour",
+          "gallantry",
+          "valiance"
+        ],
+        "beings": [
+          "beings"
+        ],
+        "among": [
+          "among"
+        ],
+        "whispered": [
+          "whispered"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "those": [
+          "those"
+        ],
+        "cunning": [
+          "cunning",
+          "sly",
+          "crafty",
+          "clever",
+          "wily",
+          "ingenious"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the realm of superhero attributes, Intelligence stands out as a defining characteristic that often dictates strategic prowess.",
+      "template_pattern": "In the realm of superhero attributes, [ATTRIBUTE_NAME] stands out as a defining characteristic that often dictates strategic prowess.",
+      "primary_data_fields": [
+        "attribute_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within superhero attributes, [ATTRIBUTE_NAME] emerges as a hallmark trait that frequently shapes strategic prowess.",
+        "[ATTRIBUTE_NAME], among the suite of superhero attributes, is recognized as a defining hallmark that often governs strategic skill.",
+        "Strategic prowess is often dictated by [ATTRIBUTE_NAME], a standout characteristic in the domain of superhero attributes.",
+        "In the sphere of superhero attributes, the trait of [ATTRIBUTE_NAME] frequently dictates strategic prowess, marking it as a key defining feature.",
+        "Among the many superhero attributes, [ATTRIBUTE_NAME] stands out, regularly influencing the level of strategic prowess.",
+        "The realm of superhero attributes highlights [ATTRIBUTE_NAME] as a defining quality that commonly directs strategic capability.",
+        "[ATTRIBUTE_NAME] is identified as a pivotal characteristic within superhero attributes, regularly steering strategic prowess.",
+        "When examining superhero attributes, one sees [ATTRIBUTE_NAME] as a defining element that often determines strategic effectiveness.",
+        "Strategic prowess is frequently guided by [ATTRIBUTE_NAME], a prominent characteristic in the world of superhero attributes.",
+        "In superhero attributes, [ATTRIBUTE_NAME] serves as a defining hallmark, often shaping the strategic acumen displayed.",
+        "The characteristic of [ATTRIBUTE_NAME], within the context of superhero attributes, often dictates the strategic prowess exhibited.",
+        "[ATTRIBUTE_NAME], a leading trait among superhero attributes, consistently influences the strategic prowess of heroes.",
+        "Within the field of superhero attributes, [ATTRIBUTE_NAME] functions as a defining marker that regularly directs strategic strength.",
+        "Superhero attributes feature [ATTRIBUTE_NAME] as a standout quality that commonly governs strategic prowess.",
+        "Strategic prowess is commonly driven by [ATTRIBUTE_NAME], a defining attribute in the superhero attribute landscape."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "stands": [
+          "stands",
+          "endures",
+          "resists",
+          "bears",
+          "tolerates",
+          "abides"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "defining": [
+          "defining",
+          "shaping"
+        ],
+        "prowess": [
+          "prowess",
+          "artistry"
+        ],
+        "realm": [
+          "realm",
+          "kingdom",
+          "region"
+        ],
+        "attributes": [
+          "attributes"
+        ],
+        "dictates": [
+          "dictates"
+        ]
+      },
+      "field_data_types": {
+        "attribute_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "It is this unique combination of traits that sets the greatest heroes apart from the rest.",
+      "template_pattern": "It is this unique combination of traits that sets the greatest heroes apart from the rest.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This distinctive blend of characteristics distinguishes the greatest heroes from everyone else.",
+        "The greatest heroes are set apart from others by this singular mix of attributes.",
+        "What separates the top heroes from the rest is this one‑of‑a‑kind combination of traits.",
+        "A unique amalgam of qualities is what makes the greatest heroes stand out from the crowd.",
+        "By virtue of this exclusive set of traits, the most outstanding heroes differ from all others.",
+        "It is the particular fusion of characteristics that isolates the greatest heroes from the rest.",
+        "The greatest heroes differ from the rest because of this exceptional trait combination.",
+        "Thanks to this rare assortment of features, the top heroes are distinguished from the rest.",
+        "This singular collection of attributes sets the greatest heroes apart from their peers.",
+        "The rest is left behind by the greatest heroes, owing to this unique trait blend.",
+        "A special confluence of qualities sets the most eminent heroes apart from everyone else.",
+        "What sets the greatest heroes apart from the rest is the unique combination of their traits.",
+        "Owing to this exclusive mix of characteristics, the greatest heroes stand apart from others.",
+        "The greatest heroes are differentiated from the rest by this one‑of‑a‑kind trait combination.",
+        "Because of this distinctive set of attributes, the top heroes separate themselves from the rest."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rest": [
+          "rest",
+          "remainder",
+          "balance",
+          "residue"
+        ],
+        "heroes": [
+          "heroes"
+        ],
+        "traits": [
+          "traits"
+        ],
+        "apart": [
+          "apart",
+          "isolated",
+          "aside"
+        ],
+        "combination": [
+          "combination"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "sets": [
+          "sets"
+        ],
+        "greatest": [
+          "greatest",
+          "outstanding",
+          "superlative"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

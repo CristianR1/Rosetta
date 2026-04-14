@@ -1,0 +1,1696 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "f699062da37a4dd2": "id",
+    "7d3d194ac4284ed2": "team_fifa_api_id",
+    "ab41586e138b451f": "team_api_id",
+    "e05639046ffe49b3": "date",
+    "e28956d154014e1f": "buildUpPlaySpeed",
+    "cf6e17b782c04eb8": "buildUpPlaySpeedClass",
+    "c46cd5adbb934f2e": "buildUpPlayDribbling",
+    "b77414ce078244f2": "buildUpPlayDribblingClass",
+    "ac1175049d6142cb": "buildUpPlayPassing",
+    "1f878193565b4a5e": "buildUpPlayPassingClass",
+    "3c8acb02312f4555": "buildUpPlayPositioningClass",
+    "61afcf2674d64812": "chanceCreationPassing",
+    "3b33367f68944823": "chanceCreationPassingClass",
+    "979821b09b754db3": "chanceCreationCrossing",
+    "edafcfb40c3c4c1f": "chanceCreationCrossingClass",
+    "d23797baa0f04563": "chanceCreationShooting",
+    "e936e089b3194b1a": "chanceCreationShootingClass",
+    "92f1fbb08f4c471f": "chanceCreationPositioningClass",
+    "052b3f686bf9421e": "defencePressure",
+    "3aca1c07e84d4e7e": "defencePressureClass",
+    "6a9e4ccd229c4a00": "defenceAggression",
+    "dc7c96f18ddb434b": "defenceAggressionClass",
+    "48af4992ac004e3d": "defenceTeamWidth",
+    "9e9a9506f5854dbc": "defenceTeamWidthClass",
+    "ec83d2c3c8c54f7c": "defenceDefenderLineClass"
+  },
+  "templates": [
+    {
+      "original": "The team with the identifier 1 has consistently demonstrated outstanding tactical attributes in the European football scene.",
+      "template_pattern": "The team with the identifier [ID] has consistently demonstrated outstanding tactical attributes in the European football scene.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the European football scene, the team with id [ID] has consistently showcased outstanding tactical attributes.",
+        "Outstanding tactical attributes have been consistently displayed by the team identified as id [ID] within the European football scene.",
+        "Across the European football scene, the team bearing id [ID] has repeatedly demonstrated superior tactical qualities.",
+        "The European football scene has repeatedly witnessed the team with id [ID] exhibiting exceptional tactical traits.",
+        "Consistently, the team carrying id [ID] has shown remarkable tactical attributes in the European football scene.",
+        "Within the European football scene, id [ID]’s squad has continuously manifested outstanding tactical capabilities.",
+        "The team marked by id [ID] has, time after time, proven its outstanding tactical attributes in the European football scene.",
+        "The European football scene has seen the team with id [ID] consistently deliver exceptional tactical performance.",
+        "Repeatedly, the team known as id [ID] has exemplified outstanding tactical attributes on the European football scene.",
+        "The team designated id [ID] consistently demonstrates superb tactical attributes throughout the European football scene.",
+        "In the realm of the European football scene, the team carrying id [ID] has persistently exhibited outstanding tactical attributes.",
+        "Outstanding tactical attributes are a constant for the team known as id [ID] within the European football scene.",
+        "The European football scene has continually observed the team with id [ID] displaying exceptional tactical qualities.",
+        "Id [ID]’s team has habitually shown remarkable tactical attributes across the European football scene.",
+        "Consistently across the European football scene, the team bearing id [ID] has manifested outstanding tactical attributes."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "scene": [
+          "scene",
+          "view",
+          "setting",
+          "aspect"
+        ],
+        "football": [
+          "football"
+        ],
+        "demonstrated": [
+          "demonstrated"
+        ],
+        "tactical": [
+          "tactical"
+        ],
+        "team": [
+          "team"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ],
+        "outstanding": [
+          "outstanding",
+          "great",
+          "salient",
+          "prominent"
+        ],
+        "european": [
+          "european",
+          "European",
+          "continental"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team_fifa_api_id 434 is crucial for identifying specific football teams within European football statistics.",
+      "template_pattern": "The team_fifa_api_id [TEAM_FIFA_API_ID] is crucial for identifying specific football teams within European football statistics.",
+      "primary_data_fields": [
+        "team_fifa_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In European football statistics, the team fifa api id [TEAM_FIFA_API_ID] serves as a key identifier for particular football clubs.",
+        "The identifier team fifa api id [TEAM_FIFA_API_ID] is essential for pinpointing individual football teams in European football data.",
+        "European football stats rely on the team fifa api id [TEAM_FIFA_API_ID] to single out specific clubs.",
+        "Specific football teams within European football statistics are identified by the team fifa api id [TEAM_FIFA_API_ID].",
+        "For recognizing distinct football teams in European football analytics, the team fifa api id [TEAM_FIFA_API_ID] is indispensable.",
+        "The team fifa api id [TEAM_FIFA_API_ID] functions as a crucial reference when distinguishing football teams across European statistics.",
+        "When analyzing European football data, one must use the team fifa api id [TEAM_FIFA_API_ID] to locate particular teams.",
+        "A vital element for tagging football clubs in European statistics is the team fifa api id [TEAM_FIFA_API_ID].",
+        "The team fifa api id [TEAM_FIFA_API_ID] is employed to differentiate specific football teams within the realm of European football statistics.",
+        "Within the scope of European football statistical reports, the team fifa api id [TEAM_FIFA_API_ID] acts as a primary marker for individual teams.",
+        "To isolate certain football teams in European football statistics, the team fifa api id [TEAM_FIFA_API_ID] is utilized.",
+        "The team fifa api id [TEAM_FIFA_API_ID] provides a necessary means of identifying particular football clubs in European football data sets.",
+        "European football statistical analyses depend on the team fifa api id [TEAM_FIFA_API_ID] for the identification of specific teams.",
+        "By referencing the team fifa api id [TEAM_FIFA_API_ID], analysts can accurately single out football teams in European statistics.",
+        "The team fifa api id [TEAM_FIFA_API_ID], as a critical code, enables the precise identification of football clubs within European football statistics."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "football": [
+          "football"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "statistics": [
+          "statistics"
+        ],
+        "teams": [
+          "teams"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "identifying": [
+          "identifying"
+        ]
+      },
+      "field_data_types": {
+        "team_fifa_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football team with the team_api_id 9930 has consistently demonstrated impressive performance in recent seasons.",
+      "template_pattern": "The football team with the team_api_id [TEAM_API_ID] has consistently demonstrated impressive performance in recent seasons.",
+      "primary_data_fields": [
+        "team_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football team, identified by team api id [TEAM_API_ID], has consistently delivered impressive performance over recent seasons.",
+        "In recent seasons, the football team bearing team api id [TEAM_API_ID] has repeatedly shown impressive results.",
+        "Impressive performance has been consistently demonstrated by the football team with team api id [TEAM_API_ID] during the latest seasons.",
+        "Throughout the past seasons, the football side linked to team api id [TEAM_API_ID] has maintained an impressive level of performance.",
+        "With team api id [TEAM_API_ID], the football club has steadily exhibited impressive outcomes in the most recent seasons.",
+        "Recent seasons have seen the football team (team api id [TEAM_API_ID]) consistently achieve impressive performance levels.",
+        "The soccer squad carrying team api id [TEAM_API_ID] has continually posted impressive performances throughout recent seasons.",
+        "Consistently impressive performance characterizes the football team whose team api id is [TEAM_API_ID] in the latest seasons.",
+        "During the latest seasons, the football team marked by team api id [TEAM_API_ID] repeatedly displayed impressive performance.",
+        "Having team api id [TEAM_API_ID], the football team has persistently shown impressive results across recent seasons.",
+        "Impressive performance has been a hallmark of the football team with team api id [TEAM_API_ID] throughout recent seasons.",
+        "Across recent seasons, the football team assigned team api id [TEAM_API_ID] has continually demonstrated impressive performance.",
+        "The football team, team api id [TEAM_API_ID], has regularly achieved impressive performance in the most recent seasons.",
+        "Recent seasonal data reveal that the football team identified by team api id [TEAM_API_ID] consistently delivers impressive performance.",
+        "By maintaining team api id [TEAM_API_ID], the football team has consistently recorded impressive performance during recent seasons."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "football": [
+          "football"
+        ],
+        "seasons": [
+          "seasons"
+        ],
+        "demonstrated": [
+          "demonstrated",
+          "exhibit",
+          "prove",
+          "manifest",
+          "evidence",
+          "attest"
+        ],
+        "team": [
+          "team"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ],
+        "performance": [
+          "performance",
+          "execution"
+        ]
+      },
+      "field_data_types": {
+        "team_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On 2010-02-22 00:00:00, the team attributes were recorded, providing a snapshot of their performance in European football.",
+      "template_pattern": "On [DATE], the team attributes were recorded, providing a snapshot of their performance in European football.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The record of the team attributes on date [DATE] offers a snapshot of their performance in European football.",
+        "On date [DATE], a snapshot of the team attributes was captured, reflecting their performance in European football.",
+        "A snapshot of the team attributes, documenting their performance in European football, was logged on date [DATE].",
+        "Date [DATE] saw the team attributes being recorded, thereby providing a snapshot of their European football performance.",
+        "Recorded on date [DATE], the team attributes give a snapshot of how they performed in European football.",
+        "Providing a snapshot of their European football performance, the team attributes were entered on date [DATE].",
+        "The team attributes, entered on date [DATE], furnish a snapshot of their performance in European football.",
+        "On date [DATE] the team attributes were logged, which supplies a snapshot of their European football performance.",
+        "A snapshot of the team's performance in European football is derived from the team attributes recorded on date [DATE].",
+        "The date [DATE] marks when the team attributes were documented, yielding a snapshot of their European football performance.",
+        "When the team attributes were recorded on date [DATE], they produced a snapshot of the team's performance in European football.",
+        "On [DATE], the team attributes were logged, delivering a snapshot of their European football performance.",
+        "The team attributes were captured on [DATE], offering a snapshot of the team's performance in European football.",
+        "By recording the team attributes on [DATE], a snapshot of their performance in European football was obtained.",
+        "A snapshot of their European football performance comes from the team attributes recorded on [DATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "european": [
+          "european",
+          "European"
+        ],
+        "snapshot": [
+          "snapshot"
+        ],
+        "football": [
+          "football"
+        ],
+        "providing": [
+          "providing",
+          "render",
+          "furnish",
+          "provide",
+          "supply",
+          "offer"
+        ],
+        "recorded": [
+          "recorded",
+          "record",
+          "register",
+          "enter"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ],
+        "performance": [
+          "performance"
+        ]
+      },
+      "field_data_types": {
+        "date": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's buildUpPlaySpeed is 60, indicating a balanced approach between quick transitions and maintaining possession during matches.",
+      "template_pattern": "The team's buildUpPlaySpeed is [BUILDUPPLAYSPEED], indicating a balanced approach between quick transitions and maintaining possession during matches.",
+      "primary_data_fields": [
+        "buildUpPlaySpeed"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's buildUpPlaySpeed registers at [BUILDUPPLAYSPEED], reflecting a balanced strategy that blends rapid transitions with sustained possession in games.",
+        "A buildUpPlaySpeed of [BUILDUPPLAYSPEED] for the team points to an equilibrium between swift counter‑plays and keeping the ball under control throughout matches.",
+        "With a buildUpPlaySpeed set to [BUILDUPPLAYSPEED], the team demonstrates a harmonious mix of quick shifts and possession retention during play.",
+        "The value [BUILDUPPLAYSPEED] assigned to the team's buildUpPlaySpeed suggests a measured blend of fast transitions and continued ball holding across matches.",
+        "At [BUILDUPPLAYSPEED], the team's buildUpPlaySpeed signals a balanced approach that merges rapid turnover with possession maintenance in contests.",
+        "A buildUpPlaySpeed of [BUILDUPPLAYSPEED] indicates that the team adopts an even-handed tactic, combining speedy transitions and possession management during matches.",
+        "The team's buildUpPlaySpeed, recorded at [BUILDUPPLAYSPEED], conveys a proportionate focus on quick changes of play and holding onto the ball throughout games.",
+        "Balanced between fast transitions and possession retention, the team's buildUpPlaySpeed stands at [BUILDUPPLAYSPEED].",
+        "A score of [BUILDUPPLAYSPEED] on the team's buildUpPlaySpeed reveals a compromise between rapid play shifts and sustained ball control in matches.",
+        "The team's buildUpPlaySpeed, at [BUILDUPPLAYSPEED], is indicative of a balanced methodology that intertwines swift transitions with possession upkeep during fixtures.",
+        "By setting the buildUpPlaySpeed to [BUILDUPPLAYSPEED], the team achieves a balanced blend of quick turnovers and continuous possession throughout matches.",
+        "The team's buildUpPlaySpeed of [BUILDUPPLAYSPEED] denotes an equilibrium that fuses rapid transitions with ongoing ball possession in game situations.",
+        "With a [BUILDUPPLAYSPEED] rating for buildUpPlaySpeed, the team maintains a balanced mix of fast transitions and possession preservation across matches.",
+        "A buildUpPlaySpeed measured at [BUILDUPPLAYSPEED] implies the team pursues a balanced tactic, marrying quick transitions with possession maintenance during play.",
+        "The buildUpPlaySpeed of the team, noted as [BUILDUPPLAYSPEED], points to a balanced approach that combines rapid transitions and sustained possession in matches."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "possession": [
+          "possession",
+          "ownership"
+        ],
+        "between": [
+          "between"
+        ],
+        "matches": [
+          "matches"
+        ],
+        "during": [
+          "during"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "team": [
+          "team"
+        ],
+        "quick": [
+          "quick",
+          "prompt",
+          "speedy",
+          "immediate",
+          "fast"
+        ]
+      },
+      "field_data_types": {
+        "buildUpPlaySpeed": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's buildUpPlaySpeedClass is Balanced, indicating a well-measured tactical approach in their football matches.",
+      "template_pattern": "The team's buildUpPlaySpeedClass is [BUILDUPPLAYSPEEDCLASS], indicating a well-measured tactical approach in their football matches.",
+      "primary_data_fields": [
+        "buildUpPlaySpeedClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's build Up Play Speed Class is [BUILDUPPLAYSPEEDCLASS], reflecting a carefully calibrated tactical style in football matches.",
+        "A [BUILDUPPLAYSPEEDCLASS] rating for the team's build Up Play Speed Class signals a well‑measured tactical approach during their games.",
+        "In football contests, the team's build Up Play Speed Class is labeled [BUILDUPPLAYSPEEDCLASS], denoting a thoughtfully [BUILDUPPLAYSPEEDCLASS] strategy.",
+        "[BUILDUPPLAYSPEEDCLASS] is the designation of the team's build Up Play Speed Class, indicating a precise tactical methodology on the pitch.",
+        "The football side’s build Up Play Speed Class, marked as [BUILDUPPLAYSPEEDCLASS], points to a judiciously measured game plan.",
+        "With a [BUILDUPPLAYSPEEDCLASS] status, the team's build Up Play Speed Class suggests an evenly measured tactical execution in matches.",
+        "A [BUILDUPPLAYSPEEDCLASS] classification for the team's build Up Play Speed Class reveals a methodical tactical stance in football play.",
+        "The team's build Up Play Speed Class has been assigned [BUILDUPPLAYSPEEDCLASS], which implies a well‑balanced tactical framework in their fixtures.",
+        "[BUILDUPPLAYSPEEDCLASS], the team's build Up Play Speed Class denotes a carefully measured tactical approach throughout football encounters.",
+        "In their football matches, the team's build Up Play Speed Class being [BUILDUPPLAYSPEEDCLASS] indicates a thoughtfully calibrated strategy.",
+        "The assignment of [BUILDUPPLAYSPEEDCLASS] to the team's build Up Play Speed Class underscores a measured tactical orientation on the field.",
+        "A [BUILDUPPLAYSPEEDCLASS] label on the team's build Up Play Speed Class conveys a deliberate, well‑measured tactical plan in games.",
+        "The team's build Up Play Speed Class, identified as [BUILDUPPLAYSPEEDCLASS], points toward a meticulously [BUILDUPPLAYSPEEDCLASS] tactical outlook in match play.",
+        "[BUILDUPPLAYSPEEDCLASS] is the current build Up Play Speed Class for the team, highlighting a measured tactical approach across football contests.",
+        "By being [BUILDUPPLAYSPEEDCLASS], the team's build Up Play Speed Class demonstrates a carefully [BUILDUPPLAYSPEEDCLASS] tactical methodology in their matches."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "well": [
+          "well"
+        ],
+        "football": [
+          "football"
+        ],
+        "matches": [
+          "matches",
+          "agrees",
+          "fits",
+          "meets",
+          "equalizes",
+          "equals"
+        ],
+        "approach": [
+          "approach"
+        ],
+        "measured": [
+          "measured",
+          "calculated",
+          "careful",
+          "deliberate"
+        ],
+        "tactical": [
+          "tactical"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "buildUpPlaySpeedClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The dribbling effectiveness of the football team during build-up play is rated as NULL.",
+      "template_pattern": "The dribbling effectiveness of the football team during build-up play is rated as NULL.",
+      "primary_data_fields": [
+        "buildUpPlayDribbling"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Build Up Play Dribbling records a score of [BUILDUPPLAYDRIBBLING], indicating the measured performance metric in the report.",
+        "In the report, the metric for Build Up Play Dribbling shows a value of [BUILDUPPLAYDRIBBLING], reflecting its quantified performance indicator.",
+        "A value of [BUILDUPPLAYDRIBBLING] is registered for Build Up Play Dribbling, representing the quantified performance indicator within the report.",
+        "The report captures the Build Up Play Dribbling metric at [BUILDUPPLAYDRIBBLING], which mirrors the quantified performance indicator.",
+        "Recorded at [BUILDUPPLAYDRIBBLING], the Build Up Play Dribbling metric serves as the quantified performance indicator in the report.",
+        "Within the financial data report, Build Up Play Dribbling registers [BUILDUPPLAYDRIBBLING], evidencing the quantified performance indicator.",
+        "The quantified performance indicator for Build Up Play Dribbling is [BUILDUPPLAYDRIBBLING], as noted in the report.",
+        "According to the report, Build Up Play Dribbling’s metric registers a value of [BUILDUPPLAYDRIBBLING], reflecting its quantified performance.",
+        "The metric for Build Up Play Dribbling, noted in the report, yields a value of [BUILDUPPLAYDRIBBLING], denoting the quantified performance indicator.",
+        "[BUILDUPPLAYDRIBBLING] is the recorded figure for Build Up Play Dribbling, highlighting the quantified performance indicator in the report.",
+        "In the report’s findings, Build Up Play Dribbling registers a [BUILDUPPLAYDRIBBLING] value, which reflects the quantified performance indicator.",
+        "The report indicates that the Build Up Play Dribbling metric stands at [BUILDUPPLAYDRIBBLING], representing its quantified performance indicator.",
+        "The measured value of Build Up Play Dribbling is [BUILDUPPLAYDRIBBLING], appearing in the report as the quantified performance indicator.",
+        "A quantified performance indicator of [BUILDUPPLAYDRIBBLING] is assigned to Build Up Play Dribbling in the report.",
+        "The financial report lists the Build Up Play Dribbling metric with a value of [BUILDUPPLAYDRIBBLING], reflecting its quantified performance indicator."
+      ],
+      "counter_variations": [
+        "The football team's dribbling effectiveness within the build up play dribbling phase is recorded as null.",
+        "In the context of build up play dribbling, the dribbling effectiveness of the football squad receives a null rating.",
+        "A null value has been assigned to the dribbling effectiveness metric for the football team's build up play dribbling.",
+        "The assessment of the football team's dribbling effectiveness during build up play dribbling yields null.",
+        "Null is the designated score for the dribbling effectiveness of the football side in the build up play dribbling component.",
+        "For the build up play dribbling category, the football team's dribbling effectiveness is marked as null.",
+        "The dribbling effectiveness of the football club, when examined under build up play dribbling, is classified as null.",
+        "Within the build up play dribbling segment, the football team's dribbling effectiveness is reported as null.",
+        "The rating for dribbling effectiveness of the football team in the build up play dribbling area is null.",
+        "Null is the indicated value for the football team's dribbling effectiveness pertaining to build up play dribbling.",
+        "During the build up play dribbling interval, the football team's dribbling effectiveness registers as null.",
+        "The football team’s dribbling effectiveness, as measured in build up play dribbling, is assigned a null designation.",
+        "In the build up play dribbling metric, the dribbling effectiveness of the football side is denoted by null.",
+        "The data field for build up play dribbling shows the football team's dribbling effectiveness as null.",
+        "A null entry appears for the dribbling effectiveness of the football team within the build up play dribbling column."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "dribbling": [
+          "dribbling"
+        ],
+        "rated": [
+          "rated",
+          "grade",
+          "value",
+          "rate",
+          "rank"
+        ],
+        "football": [
+          "football"
+        ],
+        "during": [
+          "during"
+        ],
+        "build": [
+          "build",
+          "construct",
+          "establish",
+          "make",
+          "form",
+          "shape"
+        ],
+        "play": [
+          "play",
+          "act",
+          "roleplay",
+          "maneuver",
+          "sport"
+        ],
+        "team": [
+          "team"
+        ],
+        "effectiveness": [
+          "effectiveness",
+          "effectivity"
+        ]
+      },
+      "field_data_types": {
+        "buildUpPlayDribbling": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's tactical approach during the buildup phase is categorized as buildUpPlayDribblingClass: Little, indicating minimal reliance on dribbling.",
+      "template_pattern": "The team's tactical approach during the buildup phase is categorized as buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], indicating minimal reliance on dribbling.",
+      "primary_data_fields": [
+        "buildUpPlayDribblingClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the buildup phase, the team's tactical approach is labeled buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], reflecting a minimal reliance on dribbling.",
+        "The team's strategy in the buildup stage is classified as buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], indicating they lean very [BUILDUPPLAYDRIBBLINGCLASS] on dribbling.",
+        "In the buildup period, the tactical method employed by the team falls under buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], signifying scant use of dribbling.",
+        "BuildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS] categorizes the team's tactical approach for the buildup phase, showing a limited dependence on dribbling.",
+        "A minimal reliance on dribbling characterizes the team's buildup‑phase tactics, which are recorded as buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS].",
+        "The approach the team takes during the buildup is recorded under buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], denoting [BUILDUPPLAYDRIBBLINGCLASS] emphasis on dribbling.",
+        "With the buildup phase in focus, the team's tactics are assigned to buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], implying a modest dribbling usage.",
+        "The tactical scheme for the buildup period is tagged as buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], pointing to a low reliance on dribbling.",
+        "For the buildup stage, the team’s tactical profile is identified as buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], which means dribbling is scarcely utilized.",
+        "The team's buildup‑phase tactical plan is marked as buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], suggesting minimal dependence on dribbling.",
+        "During the buildup, the team's tactical disposition is classified under buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], reflecting a slight reliance on dribbling.",
+        "The classification buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS] applies to the team’s tactical approach in the buildup phase, indicating a limited use of dribbling.",
+        "In the buildup stage, the team's tactics receive the label buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], denoting an almost negligible dribbling component.",
+        "The team's tactical approach for the buildup is designated buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS], which signals minimal reliance on dribbling.",
+        "Buildup‑phase tactics are recorded as buildUpPlayDribblingClass: [BUILDUPPLAYDRIBBLINGCLASS] for the team, highlighting a very low reliance on dribbling."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "dribbling": [
+          "dribbling",
+          "drip",
+          "trickle"
+        ],
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "show",
+          "indicate"
+        ],
+        "minimal": [
+          "minimal"
+        ],
+        "buildup": [
+          "buildup"
+        ],
+        "during": [
+          "during"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "tactical": [
+          "tactical"
+        ],
+        "phase": [
+          "phase",
+          "stage"
+        ]
+      },
+      "field_data_types": {
+        "buildUpPlayDribblingClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football team's buildUpPlayPassing is rated at 50, indicating a moderate effectiveness in their offensive strategy during matches.",
+      "template_pattern": "The football team's buildUpPlayPassing is rated at [BUILDUPPLAYPASSING], indicating a moderate effectiveness in their offensive strategy during matches.",
+      "primary_data_fields": [
+        "buildUpPlayPassing"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A rating of [BUILDUPPLAYPASSING] for buildUpPlayPassing signals moderate effectiveness in the team's offensive strategy during matches.",
+        "The buildUpPlayPassing metric receives a score of [BUILDUPPLAYPASSING], denoting moderate effectiveness within the offensive strategy across matches.",
+        "Rated at [BUILDUPPLAYPASSING], buildUpPlayPassing reflects moderate effectiveness in the football team's offensive strategy throughout matches.",
+        "Moderate effectiveness in their offensive strategy during matches is shown by the buildUpPlayPassing rating of [BUILDUPPLAYPASSING].",
+        "With a [BUILDUPPLAYPASSING] rating, buildUpPlayPassing indicates the team's offensive strategy is moderately effective in matches.",
+        "During matches, the team's offensive strategy exhibits moderate effectiveness as evidenced by a buildUpPlayPassing score of [BUILDUPPLAYPASSING].",
+        "A buildUpPlayPassing score of [BUILDUPPLAYPASSING] points to moderate effectiveness in the team's offensive strategy when playing matches.",
+        "The football team's offensive strategy during matches is rated as moderately effective, as the buildUpPlayPassing stands at [BUILDUPPLAYPASSING].",
+        "Evidence of moderate effectiveness in the offensive strategy during matches comes from the [BUILDUPPLAYPASSING] rating assigned to buildUpPlayPassing.",
+        "In matches, the team's offensive strategy shows moderate effectiveness, reflected by a buildUpPlayPassing value of [BUILDUPPLAYPASSING].",
+        "The [BUILDUPPLAYPASSING] rating attached to buildUpPlayPassing signifies moderate effectiveness in the team's offensive strategy throughout matches.",
+        "buildUpPlayPassing is assigned a [BUILDUPPLAYPASSING], which denotes moderate effectiveness in the offensive strategy during match play.",
+        "During match situations, a [BUILDUPPLAYPASSING] rating on buildUpPlayPassing points to a moderately effective offensive strategy.",
+        "The team's offensive strategy during matches is considered moderately effective, as indicated by a buildUpPlayPassing rating of [BUILDUPPLAYPASSING].",
+        "A moderate effectiveness rating for the offensive strategy in matches is captured by buildUpPlayPassing's score of [BUILDUPPLAYPASSING]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rated": [
+          "rated",
+          "grade",
+          "value",
+          "rank"
+        ],
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "point",
+          "show"
+        ],
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "football": [
+          "football"
+        ],
+        "matches": [
+          "matches"
+        ],
+        "during": [
+          "during"
+        ],
+        "offensive": [
+          "offensive",
+          "loathsome",
+          "nauseating",
+          "sickening",
+          "unsavoury",
+          "unsavory"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "buildUpPlayPassing": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's buildUpPlayPassingClass is categorized as Mixed, reflecting a versatile approach to their passing strategy during matches.",
+      "template_pattern": "The team's buildUpPlayPassingClass is categorized as [BUILDUPPLAYPASSINGCLASS], reflecting a versatile approach to their passing strategy during matches.",
+      "primary_data_fields": [
+        "buildUpPlayPassingClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's buildUpPlayPassingClass is classified as [BUILDUPPLAYPASSINGCLASS], indicating a flexible passing strategy in matches.",
+        "Classified as [BUILDUPPLAYPASSINGCLASS], the team's buildUpPlayPassingClass mirrors a versatile approach to passing during games.",
+        "In matches, the team's buildUpPlayPassingClass, labeled [BUILDUPPLAYPASSINGCLASS], showcases a multi‑dimensional passing plan.",
+        "A [BUILDUPPLAYPASSINGCLASS] designation for the team's buildUpPlayPassingClass highlights its adaptable passing tactics on the field.",
+        "The team's buildUpPlayPassingClass receives a [BUILDUPPLAYPASSINGCLASS] rating, signifying a varied passing methodology throughout games.",
+        "With a [BUILDUPPLAYPASSINGCLASS] label, the team's buildUpPlayPassingClass reflects an all‑round passing strategy in match play.",
+        "The buildUpPlayPassingClass of the team is marked [BUILDUPPLAYPASSINGCLASS], underscoring a versatile passing approach during contests.",
+        "[BUILDUPPLAYPASSINGCLASS], the team's buildUpPlayPassingClass points to a dynamic and flexible passing system in matches.",
+        "By being assigned [BUILDUPPLAYPASSINGCLASS], the team's buildUpPlayPassingClass conveys a broad‑based passing style in competition.",
+        "The team's buildUpPlayPassingClass, described as [BUILDUPPLAYPASSINGCLASS], denotes a varied and adaptable passing tactic during matches.",
+        "A [BUILDUPPLAYPASSINGCLASS] classification for the team's buildUpPlayPassingClass reveals an extensive, flexible passing scheme in games.",
+        "The team's buildUpPlayPassingClass is denoted [BUILDUPPLAYPASSINGCLASS], reflecting a comprehensive and versatile passing approach in match situations.",
+        "Reflecting a versatile passing plan during matches, the team's buildUpPlayPassingClass is identified as [BUILDUPPLAYPASSINGCLASS].",
+        "The team's buildUpPlayPassingClass has been set to [BUILDUPPLAYPASSINGCLASS], which illustrates a flexible approach to passing in games.",
+        "[BUILDUPPLAYPASSINGCLASS] is the assigned buildUpPlayPassingClass for the team, indicating a varied passing strategy throughout matches."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy"
+        ],
+        "matches": [
+          "matches"
+        ],
+        "versatile": [
+          "versatile"
+        ],
+        "during": [
+          "during"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "passing": [
+          "passing",
+          "transient",
+          "transitory",
+          "ephemeral",
+          "lapse",
+          "elapse"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "buildUpPlayPassingClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's buildUpPlayPositioningClass is Organised, reflecting their strategic approach in maintaining structure during the build-up phase.",
+      "template_pattern": "The team's buildUpPlayPositioningClass is [BUILDUPPLAYPOSITIONINGCLASS], reflecting their strategic approach in maintaining structure during the build-up phase.",
+      "primary_data_fields": [
+        "buildUpPlayPositioningClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's buildUpPlayPositioningClass is [BUILDUPPLAYPOSITIONINGCLASS], showcasing a strategic approach to preserving structure throughout the build-up phase.",
+        "[BUILDUPPLAYPOSITIONINGCLASS] is the designation of the team's buildUpPlayPositioningClass, which highlights their tactical method of keeping structure during the build-up phase.",
+        "With an [BUILDUPPLAYPOSITIONINGCLASS] buildUpPlayPositioningClass, the team demonstrates a strategic mindset for maintaining structural integrity in the build-up phase.",
+        "A strategic approach to structural upkeep in the build-up phase is evident as the team's buildUpPlayPositioningClass is labelled [BUILDUPPLAYPOSITIONINGCLASS].",
+        "The team's buildUpPlayPositioningClass, marked [BUILDUPPLAYPOSITIONINGCLASS], underscores their strategic effort to retain structure during the build-up phase.",
+        "Being [BUILDUPPLAYPOSITIONINGCLASS], the team's buildUpPlayPositioningClass reflects a strategic commitment to uphold structure throughout the build-up phase.",
+        "In the build-up phase, the team’s buildUpPlayPositioningClass is [BUILDUPPLAYPOSITIONINGCLASS], indicating a strategic plan to sustain structural order.",
+        "The [BUILDUPPLAYPOSITIONINGCLASS] status of the team's buildUpPlayPositioningClass mirrors their strategic intent to maintain structure during the build-up phase.",
+        "During the build-up phase, the team maintains structural order thanks to an [BUILDUPPLAYPOSITIONINGCLASS] buildUpPlayPositioningClass, a testament to their strategic approach.",
+        "Their buildUpPlayPositioningClass is [BUILDUPPLAYPOSITIONINGCLASS], which reveals a strategic focus on preserving structure throughout the build-up phase.",
+        "An [BUILDUPPLAYPOSITIONINGCLASS] buildUpPlayPositioningClass characterises the team’s strategic approach to keeping structure intact during the build-up phase.",
+        "The strategic approach of the team, aimed at maintaining structure in the build-up phase, is evident from their [BUILDUPPLAYPOSITIONINGCLASS] buildUpPlayPositioningClass.",
+        "Because the team's buildUpPlayPositioningClass is [BUILDUPPLAYPOSITIONINGCLASS], it reflects a strategic pursuit of structural consistency during the build-up phase.",
+        "The team’s [BUILDUPPLAYPOSITIONINGCLASS] buildUpPlayPositioningClass signals a strategic commitment to uphold structural integrity throughout the build-up phase.",
+        "Reflecting a strategic mindset for structural maintenance in the build-up phase, the team's buildUpPlayPositioningClass is [BUILDUPPLAYPOSITIONINGCLASS]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategic": [
+          "strategic"
+        ],
+        "during": [
+          "during"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "build": [
+          "build",
+          "construct",
+          "establish",
+          "make",
+          "form",
+          "shape"
+        ],
+        "structure": [
+          "structure",
+          "construction"
+        ],
+        "phase": [
+          "phase",
+          "stage"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "buildUpPlayPositioningClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's offensive strategy was evident with a chanceCreationPassing of 60, showcasing their ability to create scoring opportunities.",
+      "template_pattern": "The team's offensive strategy was evident with a chanceCreationPassing of [CHANCECREATIONPASSING], showcasing their ability to create scoring opportunities.",
+      "primary_data_fields": [
+        "chanceCreationPassing"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's offensive approach shone through, with a chanceCreationPassing of [CHANCECREATIONPASSING], highlighting their knack for generating scoring chances.",
+        "Evident in their play was an offensive strategy, as demonstrated by a chanceCreationPassing of [CHANCECREATIONPASSING], which underscored their capacity to craft goal‑creating opportunities.",
+        "With a chanceCreationPassing of [CHANCECREATIONPASSING], the squad's attacking game plan became unmistakable, revealing how adept they are at producing scoring situations.",
+        "A chanceCreationPassing of [CHANCECREATIONPASSING] made clear the team’s offensive tactics, emphasizing their proficiency in forging scoring opportunities.",
+        "The offensive blueprint of the team was apparent, marked by a chanceCreationPassing of [CHANCECREATIONPASSING], thereby illustrating their talent for creating chances to score.",
+        "Showcasing their ability to manufacture scoring opportunities, the team posted a chanceCreationPassing of [CHANCECREATIONPASSING], making their offensive strategy evident.",
+        "Their attacking methodology was plain to see, thanks to a chanceCreationPassing of [CHANCECREATIONPASSING], which signals a strong aptitude for generating goal chances.",
+        "A chanceCreationPassing of [CHANCECREATIONPASSING] signals that the team's offensive scheme was evident, reflecting their skill in crafting scoring opportunities.",
+        "The data point of chanceCreationPassing at [CHANCECREATIONPASSING] highlighted the team's clear offensive plan and their knack for producing scoring chances.",
+        "By recording a chanceCreationPassing of [CHANCECREATIONPASSING], the team’s offensive strategy was unmistakable, demonstrating their expertise in creating scoring opportunities.",
+        "The team's capacity to forge scoring chances was evident, as a chanceCreationPassing of [CHANCECREATIONPASSING] revealed their offensive game plan.",
+        "With the metric chanceCreationPassing reaching [CHANCECREATIONPASSING], the offensive tactics of the team became evident, showcasing their ability to generate scoring chances.",
+        "A chanceCreationPassing of [CHANCECREATIONPASSING] exposed the team's attacking strategy, underlining how effectively they can create opportunities to score.",
+        "The offensive design was plainly displayed through a chanceCreationPassing of [CHANCECREATIONPASSING], illustrating the squad’s proficiency at crafting scoring opportunities.",
+        "Demonstrating their skill in producing goal chances, the team achieved a chanceCreationPassing of [CHANCECREATIONPASSING], making their offensive approach evident."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy"
+        ],
+        "scoring": [
+          "scoring",
+          "marking",
+          "grading"
+        ],
+        "evident": [
+          "evident",
+          "apparent",
+          "discernible",
+          "manifest",
+          "unmistakable",
+          "patent"
+        ],
+        "ability": [
+          "ability",
+          "power"
+        ],
+        "create": [
+          "create",
+          "make",
+          "produce"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ]
+      },
+      "field_data_types": {
+        "chanceCreationPassing": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's chanceCreationPassingClass is Normal, indicating a standard approach in utilizing passing techniques to create scoring opportunities.",
+      "template_pattern": "The team's chanceCreationPassingClass is [CHANCECREATIONPASSINGCLASS], indicating a standard approach in utilizing passing techniques to create scoring opportunities.",
+      "primary_data_fields": [
+        "chanceCreationPassingClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "[CHANCECREATIONPASSINGCLASS] is the team's chanceCreationPassingClass, which signals a conventional approach to using passing techniques for scoring chances.",
+        "The team's chanceCreationPassingClass, marked as [CHANCECREATIONPASSINGCLASS], reflects a typical strategy in applying passes to forge scoring opportunities.",
+        "Indicating a standard method of employing passing tactics to create goals, the team's chanceCreationPassingClass is [CHANCECREATIONPASSINGCLASS].",
+        "A [CHANCECREATIONPASSINGCLASS] classification for the team's chanceCreationPassingClass denotes a routine use of passing to generate scoring chances.",
+        "With the team's chanceCreationPassingClass designated as [CHANCECREATIONPASSINGCLASS], it points to an ordinary use of passing to produce scoring opportunities.",
+        "The team's chanceCreationPassingClass being [CHANCECREATIONPASSINGCLASS] suggests a regular approach in leveraging passes to craft scoring chances.",
+        "Since the team's chanceCreationPassingClass is [CHANCECREATIONPASSINGCLASS], it implies a standard practice of using passing techniques to open scoring possibilities.",
+        "[CHANCECREATIONPASSINGCLASS], the team's chanceCreationPassingClass, conveys a typical reliance on passing to build scoring opportunities.",
+        "The team's chanceCreationPassingClass holds a [CHANCECREATIONPASSINGCLASS] rating, indicating a customary way of applying passing to create chances on goal.",
+        "Because the team's chanceCreationPassingClass is [CHANCECREATIONPASSINGCLASS], the team adopts a conventional passing style to generate scoring opportunities.",
+        "A [CHANCECREATIONPASSINGCLASS] chanceCreationPassingClass for the team denotes an average method of utilizing passes to fabricate scoring chances.",
+        "The team's chanceCreationPassingClass, set to [CHANCECREATIONPASSINGCLASS], underscores a standard deployment of passing tactics to forge scoring opportunities.",
+        "Given that the team's chanceCreationPassingClass is [CHANCECREATIONPASSINGCLASS], it reflects a regular approach to using passing for creating scoring chances.",
+        "[CHANCECREATIONPASSINGCLASS] characterizes the team's chanceCreationPassingClass, highlighting a standard use of passing techniques to produce scoring opportunities.",
+        "The team's chanceCreationPassingClass is [CHANCECREATIONPASSINGCLASS], indicating a typical approach in employing passing to create goal-scoring chances."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "scoring": [
+          "scoring",
+          "marking",
+          "grading"
+        ],
+        "utilizing": [
+          "utilizing",
+          "use",
+          "employ",
+          "utilise",
+          "utilize",
+          "apply"
+        ],
+        "create": [
+          "create",
+          "make",
+          "produce"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "passing": [
+          "passing",
+          "transient",
+          "transitory",
+          "ephemeral"
+        ],
+        "standard": [
+          "standard",
+          "criterion",
+          "measure"
+        ],
+        "team": [
+          "team"
+        ]
+      },
+      "field_data_types": {
+        "chanceCreationPassingClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football team recorded a chanceCreationCrossing of 65, highlighting their effectiveness in executing successful crossing attempts during matches.",
+      "template_pattern": "The football team recorded a chanceCreationCrossing of [CHANCECREATIONCROSSING], highlighting their effectiveness in executing successful crossing attempts during matches.",
+      "primary_data_fields": [
+        "chanceCreationCrossing"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football team posted a chanceCreationCrossing of [CHANCECREATIONCROSSING], underscoring their skill in delivering effective crossing attempts during games.",
+        "A chanceCreationCrossing of [CHANCECREATIONCROSSING] was recorded by the football squad, highlighting how proficient they are at successful crosses in matches.",
+        "With a chanceCreationCrossing of [CHANCECREATIONCROSSING], the football side demonstrated notable efficiency in executing crossing plays throughout the season.",
+        "The team's chanceCreationCrossing reached [CHANCECREATIONCROSSING], reflecting strong performance in carrying out crossing maneuvers in competition.",
+        "In matches, the football club achieved a chanceCreationCrossing of [CHANCECREATIONCROSSING], emphasizing their capability to produce successful crosses.",
+        "A chanceCreationCrossing figure of [CHANCECREATIONCROSSING] signals the football team's adeptness at performing crossing actions effectively during fixtures.",
+        "Recorded at [CHANCECREATIONCROSSING], the chanceCreationCrossing metric shows the football unit’s effectiveness in pulling off crossing attempts in games.",
+        "The football ensemble logged a chanceCreationCrossing of [CHANCECREATIONCROSSING], indicating high proficiency in successful crossing during play.",
+        "By attaining a chanceCreationCrossing of [CHANCECREATIONCROSSING], the football team proved its competence in executing crossing moves across matches.",
+        "A chanceCreationCrossing of [CHANCECREATIONCROSSING] was noted for the football side, pointing to their strong execution of crossing opportunities on the field.",
+        "The football group’s chanceCreationCrossing stood at [CHANCECREATIONCROSSING], revealing their talent for delivering successful crosses in contests.",
+        "Achieving a chanceCreationCrossing of [CHANCECREATIONCROSSING], the football team highlighted its efficiency in carrying out crossing attempts throughout the campaign.",
+        "The recorded chanceCreationCrossing of [CHANCECREATIONCROSSING] for the football team underscores their effectiveness in successful crossing throughout games.",
+        "With a chanceCreationCrossing of [CHANCECREATIONCROSSING], the football club’s crossing proficiency was clearly demonstrated during match play.",
+        "A chanceCreationCrossing of [CHANCECREATIONCROSSING] marks the football side’s ability to execute crossing attempts successfully across the season."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "football": [
+          "football"
+        ],
+        "matches": [
+          "matches"
+        ],
+        "attempts": [
+          "attempts"
+        ],
+        "during": [
+          "during"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "executing": [
+          "executing"
+        ],
+        "successful": [
+          "successful"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "chanceCreationCrossing": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's chanceCreationCrossingClass is Normal, indicating their crossing plays moderately contribute to creating goal-scoring opportunities.",
+      "template_pattern": "The team's chanceCreationCrossingClass is [CHANCECREATIONCROSSINGCLASS], indicating their crossing plays moderately contribute to creating goal-scoring opportunities.",
+      "primary_data_fields": [
+        "chanceCreationCrossingClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's chanceCreationCrossingClass is [CHANCECREATIONCROSSINGCLASS], showing that their crossing attempts modestly aid in generating scoring chances.",
+        "With a [CHANCECREATIONCROSSINGCLASS] rating for chanceCreationCrossingClass, the team's crossing work modestly adds to goal‑creating opportunities.",
+        "A [CHANCECREATIONCROSSINGCLASS] chanceCreationCrossingClass denotes that the team's crossing actions moderately support the creation of goal‑scoring chances.",
+        "The crossing component of the team is classified as [CHANCECREATIONCROSSINGCLASS] in chanceCreationCrossingClass, meaning it contributes moderately to creating opportunities to score.",
+        "Because the team's chanceCreationCrossingClass is [CHANCECREATIONCROSSINGCLASS], their crossing play only somewhat helps generate scoring chances.",
+        "[CHANCECREATIONCROSSINGCLASS] is the team’s chanceCreationCrossingClass, which implies that crossing actions have a moderate impact on producing goal‑scoring opportunities.",
+        "The team's crossing, rated [CHANCECREATIONCROSSINGCLASS] in chanceCreationCrossingClass, moderately contributes to the formation of goal‑scoring chances.",
+        "Having a [CHANCECREATIONCROSSINGCLASS] chanceCreationCrossingClass, the team’s crossing plays are only moderately influential in creating scoring opportunities.",
+        "The chanceCreationCrossingClass for the team is [CHANCECREATIONCROSSINGCLASS], indicating a modest contribution from crossing to goal‑creating chances.",
+        "Their crossing, given a [CHANCECREATIONCROSSINGCLASS] chanceCreationCrossingClass, modestly enhances the creation of goal‑scoring opportunities.",
+        "Since the team's chanceCreationCrossingClass is [CHANCECREATIONCROSSINGCLASS], crossing plays provide a moderate boost to the generation of scoring chances.",
+        "A [CHANCECREATIONCROSSINGCLASS] label on chanceCreationCrossingClass signals that the team's crossing work moderately aids in producing goal‑scoring opportunities.",
+        "The team's crossing is assigned a [CHANCECREATIONCROSSINGCLASS] chanceCreationCrossingClass, suggesting a moderate role in creating chances to score.",
+        "[CHANCECREATIONCROSSINGCLASS] chanceCreationCrossingClass reflects that the team's crossing actions have a modest effect on crafting goal‑scoring opportunities.",
+        "With chanceCreationCrossingClass marked as [CHANCECREATIONCROSSINGCLASS], the team's crossing contributes only moderately to the creation of scoring chances."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "scoring": [
+          "scoring",
+          "tally",
+          "mark",
+          "marking",
+          "score",
+          "grading"
+        ],
+        "creating": [
+          "creating"
+        ],
+        "moderately": [
+          "moderately",
+          "reasonably",
+          "somewhat",
+          "fairly"
+        ],
+        "contribute": [
+          "contribute",
+          "add",
+          "give",
+          "impart",
+          "bring"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ],
+        "crossing": [
+          "crossing",
+          "crosswalk",
+          "intersection",
+          "crossway",
+          "crossroad",
+          "ford"
+        ]
+      },
+      "field_data_types": {
+        "chanceCreationCrossingClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's chanceCreationShooting statistic reached an impressive 55, showcasing their offensive prowess on the field this season.",
+      "template_pattern": "The team's chanceCreationShooting statistic reached an impressive [CHANCECREATIONSHOOTING], showcasing their offensive prowess on the field this season.",
+      "primary_data_fields": [
+        "chanceCreationShooting"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's chanceCreationShooting metric climbed to an impressive [CHANCECREATIONSHOOTING], highlighting their offensive strength this season.",
+        "A remarkable [CHANCECREATIONSHOOTING] was recorded for the team's chanceCreationShooting, underscoring their attacking capability on the field.",
+        "With a chanceCreationShooting value of [CHANCECREATIONSHOOTING], the squad demonstrated notable offensive power throughout the season.",
+        "An impressive [CHANCECREATIONSHOOTING] in chanceCreationShooting reflects the team's potent attacking performance this year.",
+        "The chanceCreationShooting figure reached [CHANCECREATIONSHOOTING], showcasing the team's offensive dominance on the pitch this season.",
+        "Achieving a chanceCreationShooting of [CHANCECREATIONSHOOTING], the team exhibited strong offensive prowess during this campaign.",
+        "The season saw the team's chanceCreationShooting rise to [CHANCECREATIONSHOOTING], evidencing their formidable attacking skill.",
+        "A chanceCreationShooting score of [CHANCECREATIONSHOOTING] was achieved, illustrating the team's robust offensive output this season.",
+        "Reaching [CHANCECREATIONSHOOTING] in chanceCreationShooting, the team highlighted their offensive excellence on the field.",
+        "The team's offensive might was evident as their chanceCreationShooting hit [CHANCECREATIONSHOOTING] this season.",
+        "An outstanding [CHANCECREATIONSHOOTING] was logged for chanceCreationShooting, confirming the squad's offensive effectiveness.",
+        "By attaining a chanceCreationShooting of [CHANCECREATIONSHOOTING], the team proved its offensive competence this season.",
+        "The chanceCreationShooting statistic hit [CHANCECREATIONSHOOTING], a testament to the team's attacking vigor on the field.",
+        "Recording a chanceCreationShooting of [CHANCECREATIONSHOOTING], the team displayed impressive offensive ability throughout the season.",
+        "The team's chanceCreationShooting rose to [CHANCECREATIONSHOOTING], reflecting a high level of offensive performance this year."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "impressive": [
+          "impressive"
+        ],
+        "prowess": [
+          "prowess"
+        ],
+        "statistic": [
+          "statistic"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "field": [
+          "field",
+          "domain",
+          "area",
+          "sphere",
+          "subject",
+          "arena"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ],
+        "reached": [
+          "reached",
+          "attained",
+          "achieved",
+          "accomplished",
+          "gained",
+          "hit"
+        ]
+      },
+      "field_data_types": {
+        "chanceCreationShooting": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football team's chanceCreationShootingClass was rated as Normal, indicating a balanced approach to creating scoring opportunities.",
+      "template_pattern": "The football team's chanceCreationShootingClass was rated as [CHANCECREATIONSHOOTINGCLASS], indicating a balanced approach to creating scoring opportunities.",
+      "primary_data_fields": [
+        "chanceCreationShootingClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football team’s chance Creation Shooting Class received a [CHANCECREATIONSHOOTINGCLASS] rating, reflecting a balanced method for generating scoring chances.",
+        "Rated [CHANCECREATIONSHOOTINGCLASS], the chance Creation Shooting Class of the football team signals a balanced approach to crafting scoring opportunities.",
+        "A [CHANCECREATIONSHOOTINGCLASS] assessment was given to the football squad’s chance Creation Shooting Class, denoting an even‑handed strategy for creating goals.",
+        "The football club’s chance Creation Shooting Class is classified as [CHANCECREATIONSHOOTINGCLASS], which suggests a balanced way of producing scoring chances.",
+        "With a [CHANCECREATIONSHOOTINGCLASS] designation, the chance Creation Shooting Class for the football team points to a harmonious tactic in forming scoring opportunities.",
+        "[CHANCECREATIONSHOOTINGCLASS] was the assigned level for the football team’s chance Creation Shooting Class, indicating a balanced approach to forging scoring chances.",
+        "The chance Creation Shooting Class of the football side is marked [CHANCECREATIONSHOOTINGCLASS], implying an equilibrated method of creating goal opportunities.",
+        "In the report, the football team's chance Creation Shooting Class is listed as [CHANCECREATIONSHOOTINGCLASS], showing a balanced strategy for generating scoring chances.",
+        "A [CHANCECREATIONSHOOTINGCLASS] rating for the chance Creation Shooting Class signals that the football team employs a balanced approach to creating scoring opportunities.",
+        "The chance Creation Shooting Class, attributed to the football team, is rated [CHANCECREATIONSHOOTINGCLASS], denoting a balanced plan for producing scoring chances.",
+        "[CHANCECREATIONSHOOTINGCLASS] classification of the football team’s chance Creation Shooting Class indicates an even‑tempered approach to building scoring opportunities.",
+        "The football squad’s chance Creation Shooting Class carries a [CHANCECREATIONSHOOTINGCLASS] label, reflecting a balanced approach to crafting scoring chances.",
+        "According to the data, the chance Creation Shooting Class for the football team is [CHANCECREATIONSHOOTINGCLASS], which points to a balanced method of creating scoring opportunities.",
+        "[CHANCECREATIONSHOOTINGCLASS] status was assigned to the football team’s chance Creation Shooting Class, highlighting a balanced way of generating goal chances.",
+        "The football team's chance Creation Shooting Class has been designated [CHANCECREATIONSHOOTINGCLASS], suggesting a balanced approach to producing scoring opportunities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rated": [
+          "rated"
+        ],
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "point",
+          "show",
+          "indicate"
+        ],
+        "scoring": [
+          "scoring",
+          "tally",
+          "marking",
+          "score",
+          "grading",
+          "grade"
+        ],
+        "football": [
+          "football"
+        ],
+        "creating": [
+          "creating"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "team": [
+          "team"
+        ],
+        "opportunities": [
+          "opportunities",
+          "opportunity"
+        ]
+      },
+      "field_data_types": {
+        "chanceCreationShootingClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's chanceCreationPositioningClass strategy was distinctly Organised, reflecting their methodical approach to creating scoring opportunities.",
+      "template_pattern": "The team's chanceCreationPositioningClass strategy was distinctly [CHANCECREATIONPOSITIONINGCLASS], reflecting their methodical approach to creating scoring opportunities.",
+      "primary_data_fields": [
+        "chanceCreationPositioningClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team’s chanceCreationPositioningClass approach was clearly [CHANCECREATIONPOSITIONINGCLASS], showcasing a systematic method for generating scoring chances.",
+        "Clearly [CHANCECREATIONPOSITIONINGCLASS], the chanceCreationPositioningClass strategy employed by the team highlights their methodical way of crafting scoring opportunities.",
+        "A methodical mindset toward forming scoring chances is evident in the team’s [CHANCECREATIONPOSITIONINGCLASS] chanceCreationPositioningClass strategy.",
+        "Because the team's chanceCreationPositioningClass plan is [CHANCECREATIONPOSITIONINGCLASS], it mirrors their systematic approach to producing scoring opportunities.",
+        "The [CHANCECREATIONPOSITIONINGCLASS] chanceCreationPositioningClass tactic adopted by the team reflects a disciplined approach to creating scoring chances.",
+        "Reflecting a methodical style, the team's chanceCreationPositioningClass was [CHANCECREATIONPOSITIONINGCLASS], facilitating the creation of scoring opportunities.",
+        "The team's chanceCreationPositioningClass, which is [CHANCECREATIONPOSITIONINGCLASS], underscores their systematic effort to forge scoring opportunities.",
+        "With an [CHANCECREATIONPOSITIONINGCLASS] chanceCreationPositioningClass, the team demonstrates a methodical approach to building scoring chances.",
+        "The [CHANCECREATIONPOSITIONINGCLASS] nature of the team's chanceCreationPositioningClass strategy points to a careful method of generating scoring opportunities.",
+        "By keeping the chanceCreationPositioningClass strategy [CHANCECREATIONPOSITIONINGCLASS], the team adopts a methodical stance toward creating scoring chances.",
+        "The team’s strategy, chanceCreationPositioningClass, is [CHANCECREATIONPOSITIONINGCLASS], reflecting a methodical approach to crafting scoring opportunities.",
+        "An [CHANCECREATIONPOSITIONINGCLASS] chanceCreationPositioningClass strategy characterises the team’s methodical pursuit of scoring opportunities.",
+        "Since the chanceCreationPositioningClass was [CHANCECREATIONPOSITIONINGCLASS], the team’s systematic approach to creating scoring chances becomes apparent.",
+        "The team’s methodical creation of scoring opportunities is mirrored in an [CHANCECREATIONPOSITIONINGCLASS] chanceCreationPositioningClass strategy.",
+        "In an [CHANCECREATIONPOSITIONINGCLASS] chanceCreationPositioningClass, the team showcases a disciplined method for generating scoring opportunities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy"
+        ],
+        "scoring": [
+          "scoring",
+          "tally",
+          "marking",
+          "grading"
+        ],
+        "distinctly": [
+          "distinctly",
+          "clearly",
+          "unmistakably",
+          "evidently",
+          "plainly",
+          "manifestly"
+        ],
+        "creating": [
+          "creating"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "methodical": [
+          "methodical"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "chanceCreationPositioningClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's tactical approach resulted in a defencePressure of 50, effectively minimizing the opponents' scoring opportunities.",
+      "template_pattern": "The team's tactical approach resulted in a defencePressure of [DEFENCEPRESSURE], effectively minimizing the opponents' scoring opportunities.",
+      "primary_data_fields": [
+        "defencePressure"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "By employing a tactical plan, the team achieved a defencePressure of [DEFENCEPRESSURE], which substantially curtailed the opponents' scoring opportunities.",
+        "A defencePressure of [DEFENCEPRESSURE] was produced by the team's strategic approach, effectively limiting the opponents' scoring opportunities.",
+        "Thanks to their tactical approach, the team recorded a defencePressure of [DEFENCEPRESSURE], thereby reducing the opponents' scoring opportunities.",
+        "The opponents' scoring opportunities were markedly minimized as a result of the team's tactical approach, which yielded a defencePressure of [DEFENCEPRESSURE].",
+        "Through its tactical methodology, the team generated a defencePressure of [DEFENCEPRESSURE], consequently suppressing the opponents' scoring opportunities.",
+        "With a defencePressure of [DEFENCEPRESSURE], the team's tactical scheme successfully kept the opponents' scoring opportunities to a minimum.",
+        "The tactical approach adopted by the team led to a defencePressure of [DEFENCEPRESSURE] and, in turn, significantly lowered the opponents' scoring opportunities.",
+        "A defencePressure of [DEFENCEPRESSURE], stemming from the team's tactical tactics, effectively dampened the opponents' scoring opportunities.",
+        "Because the team pursued a tactical strategy, a defencePressure of [DEFENCEPRESSURE] was attained, which in effect minimized the opponents' scoring opportunities.",
+        "The team's tactical blueprint resulted in a defencePressure of [DEFENCEPRESSURE], consequently curbing the opponents' scoring opportunities.",
+        "Resulting from the team's tactical choices, a defencePressure of [DEFENCEPRESSURE] was recorded, thereby sharply decreasing the opponents' scoring opportunities.",
+        "A defencePressure of [DEFENCEPRESSURE] emerged from the team's tactical execution, leading to a pronounced reduction in the opponents' scoring opportunities.",
+        "The implementation of a tactical approach by the team produced a defencePressure of [DEFENCEPRESSURE], effectively narrowing the opponents' scoring opportunities.",
+        "Owing to the team's tactical methodology, a defencePressure of [DEFENCEPRESSURE] was achieved, which substantially limited the opponents' scoring opportunities.",
+        "A defencePressure of [DEFENCEPRESSURE] was the outcome of the team's tactical plan, and it effectively suppressed the opponents' scoring opportunities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "scoring": [
+          "scoring",
+          "tally",
+          "score",
+          "grading",
+          "grade",
+          "marking"
+        ],
+        "minimizing": [
+          "minimizing"
+        ],
+        "approach": [
+          "approach"
+        ],
+        "resulted": [
+          "resulted"
+        ],
+        "tactical": [
+          "tactical"
+        ],
+        "team": [
+          "team"
+        ],
+        "opponents": [
+          "opponents"
+        ],
+        "opportunities": [
+          "opportunities"
+        ]
+      },
+      "field_data_types": {
+        "defencePressure": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's defensive pressure tactics are categorized as Medium in their defencePressureClass, reflecting a balanced approach in their matches.",
+      "template_pattern": "The team's defensive pressure tactics are categorized as [DEFENCEPRESSURECLASS] in their defencePressureClass, reflecting a balanced approach in their matches.",
+      "primary_data_fields": [
+        "defencePressureClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's defensive pressure tactics are recorded as [DEFENCEPRESSURECLASS] in their defencePressureClass, indicating a balanced match approach.",
+        "Classified as [DEFENCEPRESSURECLASS] in the defencePressureClass, the team's defensive pressure tactics reflect a balanced strategy during games.",
+        "With a [DEFENCEPRESSURECLASS] rating in the defencePressureClass, the team's defensive pressure tactics demonstrate a balanced approach on the field.",
+        "The defencePressureClass assigns a [DEFENCEPRESSURECLASS] value to the team's defensive pressure tactics, showing a balanced play style.",
+        "A [DEFENCEPRESSURECLASS] designation in their defencePressureClass marks the team's defensive pressure tactics as balanced in matches.",
+        "In matches, the team's defensive pressure tactics are deemed [DEFENCEPRESSURECLASS] within the defencePressureClass, highlighting a balanced methodology.",
+        "The team's defensive pressure tactics receive a [DEFENCEPRESSURECLASS] classification under the defencePressureClass, signifying a balanced approach.",
+        "[DEFENCEPRESSURECLASS] is the value given to the team's defensive pressure tactics in the defencePressureClass, reflecting a balanced game plan.",
+        "Reflecting a balanced approach in their matches, the team's defensive pressure tactics are set to [DEFENCEPRESSURECLASS] in the defencePressureClass.",
+        "The defensive pressure tactics of the team, listed as [DEFENCEPRESSURECLASS] in the defencePressureClass, convey a balanced match strategy.",
+        "By assigning [DEFENCEPRESSURECLASS] in the defencePressureClass, the team’s defensive pressure tactics convey a balanced approach.",
+        "The team's defensive pressure tactics, labeled [DEFENCEPRESSURECLASS] in their defencePressureClass, illustrate a balanced playing style.",
+        "In their defencePressureClass, the team’s defensive pressure tactics are marked [DEFENCEPRESSURECLASS], indicating a balanced approach.",
+        "A [DEFENCEPRESSURECLASS] rating in defencePressureClass characterizes the team's defensive pressure tactics as balanced during games.",
+        "The team's defensive pressure tactics, with a [DEFENCEPRESSURECLASS] entry in the defencePressureClass, point to a balanced match tactic."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "matches": [
+          "matches",
+          "peers"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "approach": [
+          "approach",
+          "advance"
+        ],
+        "pressure": [
+          "pressure",
+          "force"
+        ],
+        "defensive": [
+          "defensive"
+        ],
+        "team": [
+          "team"
+        ],
+        "their": [
+          "their"
+        ],
+        "tactics": [
+          "tactics"
+        ]
+      },
+      "field_data_types": {
+        "defencePressureClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's defenceAggression score of 55 indicates a moderate level of assertiveness in their defensive strategy on the field.",
+      "template_pattern": "The team's defenceAggression score of [DEFENCEAGGRESSION] indicates a moderate level of assertiveness in their defensive strategy on the field.",
+      "primary_data_fields": [
+        "defenceAggression"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's defenceAggression score of [DEFENCEAGGRESSION] suggests a moderate level of assertiveness within their defensive strategy on the field.",
+        "A moderate level of assertiveness in the defensive strategy on the field is reflected by the team's defenceAggression score of [DEFENCEAGGRESSION].",
+        "The defenceAggression score of [DEFENCEAGGRESSION], recorded for the team, signals a moderate level of assertiveness in their defensive strategy on the field.",
+        "In their defensive strategy on the field, the team shows a moderate level of assertiveness, as indicated by a defenceAggression score of [DEFENCEAGGRESSION].",
+        "A defenceAggression score of [DEFENCEAGGRESSION] for the team denotes a moderate level of assertiveness in their defensive strategy on the field.",
+        "Moderate level of assertiveness in the defensive strategy on the field is conveyed by the team's defenceAggression score of [DEFENCEAGGRESSION].",
+        "The team's defenceAggression score of [DEFENCEAGGRESSION] reveals a moderate level of assertiveness across their defensive strategy on the field.",
+        "A moderate level of assertiveness characterizes the team's defensive strategy on the field, as the defenceAggression score of [DEFENCEAGGRESSION] demonstrates.",
+        "By attaining a defenceAggression score of [DEFENCEAGGRESSION], the team exhibits a moderate level of assertiveness in their defensive strategy on the field.",
+        "The defenceAggression score of [DEFENCEAGGRESSION], belonging to the team, points to a moderate level of assertiveness within their defensive strategy on the field.",
+        "Within the team's defensive strategy on the field, a defenceAggression score of [DEFENCEAGGRESSION] indicates a moderate level of assertiveness.",
+        "A defenceAggression score of [DEFENCEAGGRESSION] signals that the team maintains a moderate level of assertiveness in their defensive strategy on the field.",
+        "The team's defensive strategy on the field registers a moderate level of assertiveness, as shown by a defenceAggression score of [DEFENCEAGGRESSION].",
+        "A moderate level of assertiveness is evident in the team's defensive strategy on the field, according to their defenceAggression score of [DEFENCEAGGRESSION].",
+        "The defenceAggression score of [DEFENCEAGGRESSION] confirms a moderate level of assertiveness in the team's defensive strategy on the field."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "stratum",
+          "grade",
+          "even",
+          "stage"
+        ],
+        "score": [
+          "score",
+          "tally",
+          "mark",
+          "grade"
+        ],
+        "field": [
+          "field",
+          "domain",
+          "area",
+          "sphere",
+          "subject",
+          "discipline"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ],
+        "assertiveness": [
+          "assertiveness"
+        ]
+      },
+      "field_data_types": {
+        "defenceAggression": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's defenceAggressionClass is categorized as Press, indicating their defensive tactics are highly aggressive and proactive.",
+      "template_pattern": "The team's defenceAggressionClass is categorized as [DEFENCEAGGRESSIONCLASS], indicating their defensive tactics are highly aggressive and proactive.",
+      "primary_data_fields": [
+        "defenceAggressionClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's defenceAggressionClass is classified as [DEFENCEAGGRESSIONCLASS], which signals a highly aggressive and proactive defensive approach.",
+        "Classified as [DEFENCEAGGRESSIONCLASS], the team's defenceAggressionClass reflects a defensive strategy that is both aggressive and proactive.",
+        "With a defenceAggressionClass of [DEFENCEAGGRESSIONCLASS], the team demonstrates defensive tactics that are extremely aggressive and forward‑looking.",
+        "[DEFENCEAGGRESSIONCLASS] is the designated defenceAggressionClass for the team, indicating that its defensive play is notably aggressive and proactive.",
+        "The team's defensive tactics are deemed highly aggressive and proactive, as shown by its defenceAggressionClass being [DEFENCEAGGRESSIONCLASS].",
+        "Because the defenceAggressionClass is [DEFENCEAGGRESSIONCLASS], the team employs a defensive style that is aggressively proactive.",
+        "A [DEFENCEAGGRESSIONCLASS] rating for the team's defenceAggressionClass reveals a defensive posture that is sharply aggressive and anticipatory.",
+        "The team’s defenceAggressionClass, labeled [DEFENCEAGGRESSIONCLASS], points to a defensive methodology that is intensely aggressive and proactive.",
+        "Given that the defenceAggressionClass equals [DEFENCEAGGRESSIONCLASS], the team’s defense is characterized by aggressive, proactive maneuvers.",
+        "[DEFENCEAGGRESSIONCLASS], the assigned defenceAggressionClass, underscores the team's commitment to an aggressive and proactive defensive scheme.",
+        "The defensive approach of the team is highly aggressive and proactive, as indicated by a defenceAggressionClass of [DEFENCEAGGRESSIONCLASS].",
+        "By assigning [DEFENCEAGGRESSIONCLASS] to the defenceAggressionClass, the report highlights the team’s aggressive and forward‑driving defensive tactics.",
+        "The team’s defenceAggressionClass has been set to [DEFENCEAGGRESSIONCLASS], denoting a defensive game plan that is both aggressive and proactive.",
+        "Since the defenceAggressionClass is [DEFENCEAGGRESSIONCLASS], the team's defensive tactics are identified as aggressively proactive.",
+        "A [DEFENCEAGGRESSIONCLASS] classification for the team's defenceAggressionClass signals a defensive style that combines high aggression with proactive execution."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "point",
+          "show",
+          "indicate"
+        ],
+        "proactive": [
+          "proactive"
+        ],
+        "aggressive": [
+          "aggressive"
+        ],
+        "highly": [
+          "highly",
+          "extremely"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ],
+        "defensive": [
+          "defensive",
+          "justificatory"
+        ],
+        "tactics": [
+          "tactics"
+        ]
+      },
+      "field_data_types": {
+        "defenceAggressionClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's strategy relied on a defenceTeamWidth of 45, balancing their formation's compactness and coverage effectively.",
+      "template_pattern": "The team's strategy relied on a defenceTeamWidth of [DEFENCETEAMWIDTH], balancing their formation's compactness and coverage effectively.",
+      "primary_data_fields": [
+        "defenceTeamWidth"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The strategy the team employed hinged on a defenceTeamWidth of [DEFENCETEAMWIDTH], which effectively balanced the compactness and coverage of their formation.",
+        "Relying on a defenceTeamWidth of [DEFENCETEAMWIDTH], the team’s approach successfully balanced both the compactness and the coverage of their formation.",
+        "With a defenceTeamWidth set at [DEFENCETEAMWIDTH], the team’s tactical plan achieved an effective balance between formation compactness and coverage.",
+        "The team’s formation benefited from a defenceTeamWidth of [DEFENCETEAMWIDTH], allowing compactness and coverage to be balanced efficiently.",
+        "By using a defenceTeamWidth of [DEFENCETEAMWIDTH], the team’s strategy managed to balance formation compactness and coverage in an effective manner.",
+        "Effective balance of compactness and coverage in the formation was attained through the team’s reliance on a defenceTeamWidth of [DEFENCETEAMWIDTH].",
+        "A defenceTeamWidth of [DEFENCETEAMWIDTH] underpinned the team’s strategy, ensuring the formation’s compactness and coverage were well balanced.",
+        "The team’s tactical blueprint, anchored by a defenceTeamWidth of [DEFENCETEAMWIDTH], balanced the formation’s compactness with its coverage effectively.",
+        "Because the team depended on a defenceTeamWidth of [DEFENCETEAMWIDTH], their formation’s compactness and coverage were harmonized efficiently.",
+        "The reliance on a defenceTeamWidth of [DEFENCETEAMWIDTH] allowed the team to balance the formation’s compactness and coverage quite effectively.",
+        "Through a defenceTeamWidth of [DEFENCETEAMWIDTH], the team’s strategy achieved a good balance between the compactness and coverage of its formation.",
+        "The team’s chosen defenceTeamWidth of [DEFENCETEAMWIDTH] facilitated an effective equilibrium between formation compactness and coverage.",
+        "Employing a defenceTeamWidth of [DEFENCETEAMWIDTH], the team’s plan balanced the formation’s compactness and coverage with notable effectiveness.",
+        "A defenceTeamWidth of [DEFENCETEAMWIDTH] was central to the team’s strategy, balancing the compactness and coverage of the formation efficiently.",
+        "The team’s approach, which leaned on a defenceTeamWidth of [DEFENCETEAMWIDTH], succeeded in balancing formation compactness and coverage effectively."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "formation": [
+          "formation",
+          "organization",
+          "establishment",
+          "organisation"
+        ],
+        "coverage": [
+          "coverage",
+          "reporting"
+        ],
+        "compactness": [
+          "compactness",
+          "density",
+          "denseness"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "effectively": [
+          "effectively"
+        ],
+        "balancing": [
+          "balancing"
+        ]
+      },
+      "field_data_types": {
+        "defenceTeamWidth": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's defenceTeamWidthClass is categorized as Normal, indicating a balanced approach to their defensive strategy on the field.",
+      "template_pattern": "The team's defenceTeamWidthClass is categorized as [DEFENCETEAMWIDTHCLASS], indicating a balanced approach to their defensive strategy on the field.",
+      "primary_data_fields": [
+        "defenceTeamWidthClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's defenceTeamWidthClass is classified as [DEFENCETEAMWIDTHCLASS], reflecting a balanced defensive strategy on the field.",
+        "Categorized as [DEFENCETEAMWIDTHCLASS], the defenceTeamWidthClass of the team signals a well‑balanced approach to defense during play.",
+        "A [DEFENCETEAMWIDTHCLASS] rating for the team's defenceTeamWidthClass denotes a harmonious defensive tactic on the pitch.",
+        "With a [DEFENCETEAMWIDTHCLASS] designation, the team's defenceTeamWidthClass points to an evenly weighted defensive plan on the field.",
+        "The defenceTeamWidthClass assigned to the team is [DEFENCETEAMWIDTHCLASS], which implies a balanced defensive methodology on the field.",
+        "Being [DEFENCETEAMWIDTHCLASS], the team's defenceTeamWidthClass suggests a proportionate defensive scheme during matches.",
+        "The team's defensive approach is indicated as [DEFENCETEAMWIDTHCLASS] by the defenceTeamWidthClass, showing a balanced field strategy.",
+        "[DEFENCETEAMWIDTHCLASS] is the classification given to the team's defenceTeamWidthClass, indicating a balanced defensive posture on the field.",
+        "A [DEFENCETEAMWIDTHCLASS] label on the defenceTeamWidthClass reveals that the team employs a balanced defensive strategy on the field.",
+        "The team’s defenceTeamWidthClass, marked as [DEFENCETEAMWIDTHCLASS], conveys a balanced approach to its defensive play.",
+        "Because the defenceTeamWidthClass is [DEFENCETEAMWIDTHCLASS], the team adopts a balanced defensive tactic on the field.",
+        "The defenceTeamWidthClass of the team is recorded as [DEFENCETEAMWIDTHCLASS], denoting a balanced defensive scheme on the field.",
+        "[DEFENCETEAMWIDTHCLASS] classification of the team's defenceTeamWidthClass points toward a balanced defensive plan during games.",
+        "The team's defensive strategy is balanced, as shown by a [DEFENCETEAMWIDTHCLASS] defenceTeamWidthClass.",
+        "A [DEFENCETEAMWIDTHCLASS] defenceTeamWidthClass indicates that the team’s defense is balanced on the field."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "show",
+          "indicate"
+        ],
+        "approach": [
+          "approach"
+        ],
+        "field": [
+          "field",
+          "domain",
+          "area",
+          "sphere",
+          "discipline",
+          "subject"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team"
+        ],
+        "defensive": [
+          "defensive"
+        ],
+        "categorized": [
+          "categorized",
+          "categorised"
+        ]
+      },
+      "field_data_types": {
+        "defenceTeamWidthClass": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In analyzing the team's defensive strategy, the defenceDefenderLineClass was identified as Cover, highlighting their tactical positioning.",
+      "template_pattern": "In analyzing the team's defensive strategy, the defenceDefenderLineClass was identified as [DEFENCEDEFENDERLINECLASS], highlighting their tactical positioning.",
+      "primary_data_fields": [
+        "defenceDefenderLineClass"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In reviewing the team's defensive approach, analysts labeled the defenceDefenderLineClass as [DEFENCEDEFENDERLINECLASS], emphasizing its tactical placement.",
+        "The assessment of the squad's defense revealed that the defenceDefenderLineClass equals [DEFENCEDEFENDERLINECLASS], underscoring the chosen positioning.",
+        "When examining the defensive scheme, the defenceDefenderLineClass was classified as [DEFENCEDEFENDERLINECLASS], highlighting the strategic alignment.",
+        "Our analysis pinpointed the defenceDefenderLineClass as [DEFENCEDEFENDERLINECLASS], drawing attention to its deliberate tactical stance.",
+        "By dissecting the team's defense, we found the defenceDefenderLineClass marked as [DEFENCEDEFENDERLINECLASS], which signals their positioning strategy.",
+        "During the defensive review, the defenceDefenderLineClass was identified as [DEFENCEDEFENDERLINECLASS], indicating a purposeful tactical arrangement.",
+        "The defensive audit showed the defenceDefenderLineClass designated as [DEFENCEDEFENDERLINECLASS], reflecting the team's positioning tactics.",
+        "In the course of evaluating the defense, the defenceDefenderLineClass came up as [DEFENCEDEFENDERLINECLASS], pointing to its tactical placement.",
+        "Through scrutiny of the defensive setup, the defenceDefenderLineClass emerged as [DEFENCEDEFENDERLINECLASS], illustrating the intended positioning.",
+        "Our report notes that the defenceDefenderLineClass has been tagged as [DEFENCEDEFENDERLINECLASS], signifying its tactical location.",
+        "Examining the defensive layout, we observed the defenceDefenderLineClass being labeled [DEFENCEDEFENDERLINECLASS], which highlights the positioning plan.",
+        "The defensive analysis identified the defenceDefenderLineClass as [DEFENCEDEFENDERLINECLASS], shedding light on the tactical arrangement.",
+        "In the context of the team's defense, the defenceDefenderLineClass was recorded as [DEFENCEDEFENDERLINECLASS], emphasizing its strategic placement.",
+        "A close look at the defensive tactics revealed the defenceDefenderLineClass set to [DEFENCEDEFENDERLINECLASS], underscoring the positioning choice.",
+        "The review concluded that the defenceDefenderLineClass corresponds to [DEFENCEDEFENDERLINECLASS], marking the tactical positioning."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "analyzing": [
+          "analyzing",
+          "analyse",
+          "analyze",
+          "study",
+          "dissect",
+          "examine"
+        ],
+        "tactical": [
+          "tactical"
+        ],
+        "defensive": [
+          "defensive"
+        ],
+        "team": [
+          "team"
+        ],
+        "their": [
+          "their"
+        ],
+        "positioning": [
+          "positioning",
+          "placement",
+          "position"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {
+        "defenceDefenderLineClass": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

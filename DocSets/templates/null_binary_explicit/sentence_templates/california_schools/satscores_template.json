@@ -1,0 +1,49 @@
+{
+  "database": "california_schools",
+  "table": "satscores",
+  "entry_index": 0,
+  "original_data": {
+    "cds": "01100170000000",
+    "rtype": "D",
+    "sname": "NULL",
+    "dname": "Alameda County Office of Education",
+    "cname": "Alameda",
+    "enroll12": "398",
+    "NumTstTakr": "88",
+    "AvgScrRead": "418",
+    "AvgScrMath": "418",
+    "AvgScrWrite": "417",
+    "NumGE1500": "14"
+  },
+  "generated_sentences": [
+    "The California Department of Education identifies the school with the unique cds code 01100170000000 for official records. (Hash: 9eb06509b6514d03)",
+    "The rtype for categorizing the nature of the SAT test scores for California public schools is labeled as D. (Hash: b9f9e288e4454e7a)",
+    "The school name is listed as NULL in the California Department of Education records. (Hash: 9b9e0f080247418a)",
+    "The Alameda County Office of Education oversees various public schools, ensuring quality education and resources are available to all students. (Hash: 7b5274654a924d05)",
+    "The analysis of SAT test performance highlights the trends observed in Alameda, providing insights into student outcomes in California. (Hash: b56f2f1cb3364064)",
+    "In the 2012 academic year, enroll12 showed that 398 students were part of the California public school's community. (Hash: 1e441e012b154bf7)",
+    "At the local California public school, the NumTstTakr for the SAT was recorded at 88. (Hash: 760434882c614c2b)",
+    "The AvgScrRead of 418 reflects the average performance of students in California public schools on the SAT reading section. (Hash: 1707e0d904094a99)",
+    "Analyzing SAT test performance across California, Alameda stands out as a significant county contributing valuable insights. (Hash: 34a7b324591e4bc6)",
+    "In California public schools, the AvgScrWrite on the SAT test's writing section stands at 417, reflecting students' proficiency. (Hash: f360f4f893984129)",
+    "In California public schools, 14 students achieved the NumGE1500 benchmark, highlighting a notable level of college readiness. (Hash: 3ce7e7d6905e4fbb)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "9eb06509b6514d03": "cds",
+    "b9f9e288e4454e7a": "rtype",
+    "9b9e0f080247418a": "sname",
+    "7b5274654a924d05": "dname",
+    "b56f2f1cb3364064": "cname",
+    "1e441e012b154bf7": "enroll12",
+    "760434882c614c2b": "NumTstTakr",
+    "1707e0d904094a99": "AvgScrRead",
+    "34a7b324591e4bc6": "AvgScrMath",
+    "f360f4f893984129": "AvgScrWrite",
+    "3ce7e7d6905e4fbb": "NumGE1500"
+  },
+  "timestamp": "2026-04-11 16:27:12"
+}

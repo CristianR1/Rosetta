@@ -1,0 +1,128 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "f781b03f56604243": "id",
+    "c842569ffe6c46fc": "alignment"
+  },
+  "templates": [
+    {
+      "original": "The id of the superhero character is 1.",
+      "template_pattern": "The id of the superhero character is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero character’s id equals [ID].",
+        "Id of the superhero character is set to [ID].",
+        "In this report, the id for the superhero character is [ID].",
+        "[ID] is the id assigned to the superhero character.",
+        "The identifier (id) of the superhero character is [ID].",
+        "The superhero character has an id of [ID].",
+        "According to the data, the id of the superhero character is [ID].",
+        "The id pertaining to the superhero character reads [ID].",
+        "In the dataset, the superhero character’s id is [ID].",
+        "The id for the superhero character has the value [ID].",
+        "[ID] serves as the id for the superhero character.",
+        "The superhero character’s id is recorded as [ID].",
+        "The value of the id for the superhero character is [ID].",
+        "The id assigned to the superhero character equals [ID].",
+        "Within the report, the superhero character’s id stands at [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "character": [
+          "character",
+          "quality",
+          "type",
+          "role",
+          "part"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's alignment was firmly categorized as Good, always choosing to act in the best interest of justice and others.",
+      "template_pattern": "The superhero's alignment was firmly categorized as [ALIGNMENT], always choosing to act in the best interest of justice and others.",
+      "primary_data_fields": [
+        "alignment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's alignment was recorded as [ALIGNMENT], consistently opting to act in the best interest of justice and others.",
+        "In the report, the superhero’s alignment is listed as [ALIGNMENT], with a constant preference for serving justice and others.",
+        "Alignment for the superhero was classified as [ALIGNMENT], and the hero invariably chose actions that favor justice and others.",
+        "According to the data, the superhero’s alignment falls under [ALIGNMENT], always prioritizing the welfare of justice and others.",
+        "The superhero’s alignment appears as [ALIGNMENT], and the character habitually selects deeds that support justice and others.",
+        "[ALIGNMENT] is the designated alignment for the superhero, who repeatedly elects to act for the benefit of justice and others.",
+        "The alignment assigned to the superhero is [ALIGNMENT], and the hero persistently chooses to work toward justice and others.",
+        "In this assessment, the superhero’s alignment is marked [ALIGNMENT], with a continual inclination to champion justice and others.",
+        "[ALIGNMENT] alignment characterizes the superhero, who unfailingly decides to act in favor of justice and others.",
+        "The superhero’s alignment has been set to [ALIGNMENT], and the individual consistently embraces actions that aid justice and others.",
+        "Recorded as [ALIGNMENT], the superhero’s alignment indicates a steadfast commitment to act for justice and others.",
+        "The alignment of the superhero is [ALIGNMENT], reflecting an ongoing tendency to prioritize justice and others.",
+        "[ALIGNMENT] alignment defines the superhero, who habitually opts to support justice and others.",
+        "The data lists the superhero’s alignment as [ALIGNMENT], accompanied by an unwavering choice to serve justice and others.",
+        "Alignment: [ALIGNMENT] for the superhero, who always elects to act in the best interest of justice and others."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "categorized": [
+          "categorized",
+          "categorised"
+        ],
+        "justice": [
+          "justice",
+          "justness"
+        ],
+        "interest": [
+          "interest",
+          "involvement",
+          "concern",
+          "stake"
+        ],
+        "best": [
+          "best",
+          "proficient",
+          "adept",
+          "expert",
+          "skillful"
+        ],
+        "choosing": [
+          "choosing"
+        ],
+        "always": [
+          "always",
+          "constantly",
+          "ever",
+          "invariably",
+          "perpetually",
+          "forever"
+        ],
+        "others": [
+          "others"
+        ],
+        "firmly": [
+          "firmly",
+          "steadfastly",
+          "unwaveringly",
+          "securely"
+        ]
+      },
+      "field_data_types": {
+        "alignment": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

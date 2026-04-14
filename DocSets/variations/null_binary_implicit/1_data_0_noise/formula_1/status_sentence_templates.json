@@ -1,0 +1,163 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "91ecf45f737e484f": "status",
+    "3eefdd40fa0c4bfb": "statusId"
+  },
+  "templates": [
+    {
+      "original": "The race has been successfully completed, allowing its outcome to be included in the overall analysis of the Formula 1 season.",
+      "template_pattern": "The race has been successfully completed, allowing its outcome to be included in the overall analysis of the Formula [STATUSID] season.",
+      "primary_data_fields": [
+        "statusId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Having successfully completed the race, we can now incorporate its outcome into the overall analysis of the Formula [STATUSID] season.",
+        "The race was completed successfully, which permits its result to be factored into the overall analysis of the Formula [STATUSID] season.",
+        "Because the race concluded successfully, its outcome may be added to the overall analysis of the Formula [STATUSID] season.",
+        "With the race finished successfully, its result is now part of the overall analysis of the Formula [STATUSID] season.",
+        "Successful completion of the race enables the inclusion of its outcome in the overall analysis of the Formula [STATUSID] season.",
+        "The race’s successful completion allows us to include its outcome within the overall analysis of the Formula [STATUSID] season.",
+        "Since the race has been completed successfully, its outcome can be incorporated into the overall analysis of the Formula [STATUSID] season.",
+        "The outcome of the race, now that it has been successfully completed, will be included in the overall analysis of the Formula [STATUSID] season.",
+        "By completing the race successfully, we are able to embed its outcome into the overall analysis of the Formula [STATUSID] season.",
+        "The race, having been successfully completed, sees its outcome entered into the overall analysis of the Formula [STATUSID] season.",
+        "A successful race completion makes it possible to add its outcome to the overall analysis of the Formula [STATUSID] season.",
+        "Following the race’s successful completion, its result is incorporated into the overall analysis of the Formula [STATUSID] season.",
+        "The race’s successful finish allows its outcome to be merged with the overall analysis of the Formula [STATUSID] season.",
+        "Now that the race is successfully completed, its outcome will be included in the overall analysis of the Formula [STATUSID] season.",
+        "The outcome of the race can be included in the overall analysis of the Formula [STATUSID] season because the race has been successfully completed."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "overall": [
+          "overall"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush",
+          "speed"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "pattern"
+        ],
+        "outcome": [
+          "outcome",
+          "upshot",
+          "result",
+          "resultant",
+          "issue",
+          "effect"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour"
+        ],
+        "included": [
+          "included"
+        ],
+        "allowing": [
+          "allowing"
+        ],
+        "successfully": [
+          "successfully"
+        ]
+      },
+      "field_data_types": {
+        "statusId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The race completion status for the current Formula 1 event is marked as Finished, indicating the event has concluded.",
+      "template_pattern": "The race completion status for the current Formula 1 event is marked as [STATUS], indicating the event has concluded.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The race completion status for the current Formula 1 event is marked as [STATUS], indicating the event has concluded.",
+        "Marked as [STATUS], the race completion status for the current Formula 1 event confirms that the event has concluded.",
+        "For the current Formula 1 event, the race completion status is set to [STATUS], showing the event is now concluded.",
+        "The race completion status of the current Formula 1 event has been labeled [STATUS], which means the event has concluded.",
+        "Having concluded, the current Formula 1 event carries a race completion status marked as [STATUS].",
+        "A [STATUS] race completion status is recorded for the current Formula 1 event, signalling the event’s conclusion.",
+        "The current Formula 1 event’s race completion status reads [STATUS], indicating the event has come to an end.",
+        "[STATUS] is the race completion status assigned to the current Formula 1 event, denoting that the event is concluded.",
+        "The race completion status for the current Formula 1 event indicates [STATUS], reflecting that the event has ended.",
+        "In the current Formula 1 event, the race completion status is noted as [STATUS], confirming the event’s conclusion.",
+        "The event has concluded, as shown by a [STATUS] race completion status for the current Formula 1 event.",
+        "A [STATUS] designation appears in the race completion status for the current Formula 1 event, meaning the event is over.",
+        "For the current Formula 1 event, the race completion status displays [STATUS], which signifies the event’s completion.",
+        "The race completion status for the current Formula 1 event shows it is [STATUS], evidencing that the event is [STATUS].",
+        "[STATUS] marks the race completion status of the current Formula 1 event, indicating that the event has wrapped up."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marked": [
+          "marked",
+          "noted",
+          "distinguished",
+          "pronounced",
+          "label"
+        ],
+        "race": [
+          "race",
+          "run",
+          "speed"
+        ],
+        "event": [
+          "event",
+          "case"
+        ],
+        "concluded": [
+          "concluded",
+          "terminated",
+          "ended"
+        ],
+        "current": [
+          "current",
+          "flow",
+          "stream"
+        ],
+        "indicating": [
+          "indicating",
+          "signal",
+          "indicate",
+          "designate",
+          "suggest",
+          "point"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "convention",
+          "pattern"
+        ],
+        "completion": [
+          "completion",
+          "culmination",
+          "closing",
+          "windup"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

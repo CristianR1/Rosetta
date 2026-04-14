@@ -1,0 +1,102 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "13ca4947f16c476f": "id",
+    "4d8171abca3d4b92": "publisher_name"
+  },
+  "templates": [
+    {
+      "original": "The publisher’s id is 1.",
+      "template_pattern": "The publisher’s id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The id of the publisher is [ID].",
+        "Publisher id equals [ID].",
+        "The publisher’s id has a value of [ID].",
+        "Assigned to the publisher, the id is [ID].",
+        "[ID] serves as the publisher’s id.",
+        "In this report, the publisher’s id is recorded as [ID].",
+        "The publisher’s id number is [ID].",
+        "According to the data, the publisher’s id stands at [ID].",
+        "The publisher’s id, as noted, is [ID].",
+        "[ID] is listed as the publisher’s id.",
+        "As per the dataset, the publisher’s id equals [ID].",
+        "The id for the publisher reads [ID].",
+        "In the table, the publisher’s id appears as [ID].",
+        "The publisher’s id has been set to [ID].",
+        "Within the record, the publisher’s id is [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "publisher": [
+          "publisher"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "publisher_name is NULL.",
+      "template_pattern": "publisher_name is NULL.",
+      "primary_data_fields": [
+        "publisher_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The publisher name is [PUBLISHER_NAME].",
+        "Publisher name appears as [PUBLISHER_NAME].",
+        "[PUBLISHER_NAME] is recorded for the publisher name.",
+        "There is no value; the publisher name equals [PUBLISHER_NAME].",
+        "The field “publisher name” contains [PUBLISHER_NAME].",
+        "[PUBLISHER_NAME] has been assigned to publisher name.",
+        "In this report, publisher name is set to [PUBLISHER_NAME].",
+        "The publisher name field shows [PUBLISHER_NAME].",
+        "Publisher name currently reflects [PUBLISHER_NAME].",
+        "[PUBLISHER_NAME] is the value for publisher name.",
+        "No entry exists for publisher name; it is [PUBLISHER_NAME].",
+        "The data entry for publisher name is [PUBLISHER_NAME].",
+        "Publisher name returns [PUBLISHER_NAME].",
+        "[PUBLISHER_NAME] appears in the publisher name column.",
+        "The system reports publisher name as [PUBLISHER_NAME]."
+      ],
+      "counter_variations": [
+        "The publisher name field presently holds a null value, indicating that no publishing entity has been specified for this entry.",
+        "In the current dataset, the publisher name field is set to null, which signals that no publishing entity has been specified for this entry.",
+        "A null assignment is recorded in the publisher name field, thereby denoting that no publishing entity has been specified for this entry.",
+        "Because the publisher name field contains null, it conveys that no publishing entity has been specified for this entry.",
+        "Observing the publisher name field reveals a null condition, implying that no publishing entity has been specified for this entry.",
+        "The publisher name field is presently populated with null, reflecting that no publishing entity has been specified for this entry.",
+        "Null appears in the publisher name field, serving as an indicator that no publishing entity has been specified for this entry.",
+        "Within the report, the publisher name field shows null, which denotes that no publishing entity has been specified for this entry.",
+        "The data entry lists null in the publisher name field, signifying that no publishing entity has been specified for this entry.",
+        "A null status in the publisher name field points to the fact that no publishing entity has been specified for this entry.",
+        "The publisher name field exhibits a null designation, thereby indicating that no publishing entity has been specified for this entry.",
+        "Since the publisher name field registers null, it is understood that no publishing entity has been specified for this entry.",
+        "The presence of null in the publisher name field communicates that no publishing entity has been specified for this entry.",
+        "When the publisher name field contains null, it reveals that no publishing entity has been specified for this entry.",
+        "Null is recorded in the publisher name field, which conveys that no publishing entity has been specified for this entry."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "null": [
+          "null",
+          "zero",
+          "void",
+          "nil"
+        ]
+      },
+      "field_data_types": {
+        "publisher_name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

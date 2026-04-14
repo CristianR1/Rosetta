@@ -1,0 +1,136 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "dd04f0c5233148e3": "molecule_id",
+    "a32de6e78aaf445d": "label"
+  },
+  "templates": [
+    {
+      "original": "In recent toxicology studies, the molecule_id TR000 has been pivotal in identifying potential hazards in chemical compounds.",
+      "template_pattern": "In recent toxicology studies, the molecule_id [MOLECULE_ID] has been pivotal in identifying potential hazards in chemical compounds.",
+      "primary_data_fields": [
+        "molecule_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Recent toxicology studies have shown that molecule id [MOLECULE_ID] plays a key role in spotting potential hazards within chemical compounds.",
+        "In the latest toxicology research, molecule id [MOLECULE_ID] was instrumental in detecting possible risks in chemical compounds.",
+        "Potential hazards in chemical compounds have been identified thanks to molecule id [MOLECULE_ID], according to recent toxicology investigations.",
+        "Recent toxicology analyses underscore the importance of molecule id [MOLECULE_ID] for uncovering potential hazards in chemical compounds.",
+        "The molecule id [MOLECULE_ID], highlighted in recent toxicology studies, serves as a crucial tool for pinpointing potential hazards in chemical compounds.",
+        "By examining chemical compounds, recent toxicology studies have relied on molecule id [MOLECULE_ID] to reveal potential hazards.",
+        "In recent toxicology work, the identification of potential hazards in chemical compounds has hinged on molecule id [MOLECULE_ID].",
+        "Molecule id [MOLECULE_ID] has become essential in recent toxicology assessments for the discovery of potential hazards within chemical compounds.",
+        "Recent toxicology examinations indicate that molecule id [MOLECULE_ID] is central to the detection of potential hazards in chemical compounds.",
+        "The detection of potential hazards in chemical compounds was facilitated by molecule id [MOLECULE_ID] during recent toxicology studies.",
+        "With molecule id [MOLECULE_ID], recent toxicology investigations have been able to flag potential hazards present in chemical compounds.",
+        "Recent toxicology reports attribute the identification of potential hazards in chemical compounds to molecule id [MOLECULE_ID].",
+        "In the field of toxicology, recent studies have employed molecule id [MOLECULE_ID] to uncover potential hazards among chemical compounds.",
+        "The role of molecule id [MOLECULE_ID] in recent toxicology studies has been pivotal for recognizing potential hazards in chemical compounds.",
+        "Recent toxicology surveys have utilized molecule id [MOLECULE_ID] as a primary means of identifying potential hazards in chemical compounds."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "compounds": [
+          "compounds"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "studies": [
+          "studies"
+        ],
+        "chemical": [
+          "chemical"
+        ],
+        "pivotal": [
+          "pivotal"
+        ],
+        "hazards": [
+          "hazards"
+        ],
+        "potential": [
+          "potential",
+          "possible",
+          "likely"
+        ]
+      },
+      "field_data_types": {
+        "molecule_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The chemical compound's label indicates it is classified as carcinogenic with a +, highlighting its potential health risks in toxicology studies.",
+      "template_pattern": "The chemical compound's label indicates it is classified as carcinogenic with a [LABEL], highlighting its potential health risks in toxicology studies.",
+      "primary_data_fields": [
+        "label"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The label on the chemical compound marks it as carcinogenic with a [LABEL], underscoring possible health hazards in toxicology research.",
+        "According to the chemical compound’s label, it is classified as carcinogenic with a [LABEL], drawing attention to its health risks in toxicology studies.",
+        "A review of the label for this chemical compound reveals a carcinogenic status with a [LABEL], emphasizing potential dangers in toxicology analysis.",
+        "In toxicology examinations, the chemical compound’s label identifies it as carcinogenic with a [LABEL], highlighting associated health concerns.",
+        "The chemical compound’s label denotes a carcinogenic classification with a [LABEL], pointing out its potential health threats in toxicology work.",
+        "From the label of the chemical compound we learn it is deemed carcinogenic with a [LABEL], signaling health risks in toxicology investigations.",
+        "The label attached to the chemical compound states it is carcinogenic with a [LABEL], bringing its health risk profile to light in toxicology studies.",
+        "Within toxicology reports, the chemical compound’s label flags it as carcinogenic with a [LABEL], indicating possible health implications.",
+        "The chemical compound’s label conveys a carcinogenic rating with a [LABEL], reflecting its health risk significance in toxicology research.",
+        "Based on the label of this chemical compound, it carries a carcinogenic designation with a [LABEL], alerting to health hazards in toxicology contexts.",
+        "The label associated with the chemical compound declares it carcinogenic with a [LABEL], highlighting potential health risks in toxicology assessments.",
+        "In the context of toxicology, the chemical compound’s label reports a carcinogenic classification with a [LABEL], stressing its health risk potential.",
+        "The chemical compound’s label reports that it is carcinogenic with a [LABEL], thereby emphasizing its health risk relevance in toxicology studies.",
+        "According to its label, the chemical compound is categorized as carcinogenic with a [LABEL], which underscores health concerns in toxicology analysis.",
+        "The label of the chemical compound indicates a carcinogenic status with a [LABEL], pointing to possible health risks in toxicology examinations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "compound": [
+          "compound",
+          "intensify",
+          "deepen",
+          "heighten"
+        ],
+        "indicates": [
+          "indicates",
+          "suggest",
+          "signal",
+          "point",
+          "designate",
+          "show"
+        ],
+        "health": [
+          "health",
+          "wellness"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "studies": [
+          "studies"
+        ],
+        "risks": [
+          "risks"
+        ],
+        "chemical": [
+          "chemical"
+        ],
+        "carcinogenic": [
+          "carcinogenic"
+        ]
+      },
+      "field_data_types": {
+        "label": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "database": "student_club",
+  "table": "zip_code",
+  "entry_index": 0,
+  "original_data": {
+    "zip_code": "501",
+    "type": "Unique",
+    "city": "Holtsville",
+    "county": "Suffolk County",
+    "state": "New York",
+    "short_state": "NY"
+  },
+  "generated_sentences": [
+    "Several club members reside in the 501 zip code, highlighting a concentrated area of student organization activity. (Hash: ec03a30fe9f5435b)",
+    "The student club members hail from an area with a Unique ZIP code type, indicating a special geographic classification. (Hash: c1a31cde12c94a68)",
+    "Several members of the student club reside in Holtsville, adding a diverse geographic perspective to the organization. (Hash: 1f481b88a7164cfc)",
+    "Many of the student club members reside in Suffolk County, adding a vibrant mix of perspectives to the organization. (Hash: 89868056c6ba44b4)",
+    "Many student organizations are situated in New York, reflecting the diverse interests of club members across the state. (Hash: 83ff925c6d3a47d3)",
+    "The student club members are all based in the short_state of NY, showcasing their connection to this vibrant region. (Hash: 5905d2dca4bf444b)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "ec03a30fe9f5435b": "zip_code",
+    "c1a31cde12c94a68": "type",
+    "1f481b88a7164cfc": "city",
+    "89868056c6ba44b4": "county",
+    "83ff925c6d3a47d3": "state",
+    "5905d2dca4bf444b": "short_state"
+  },
+  "timestamp": "2026-04-13 00:22:37"
+}

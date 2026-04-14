@@ -1,0 +1,476 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "b7047c95613c4c2c": "driverStandingsId",
+    "c58e9b1940694c10": "raceId",
+    "2c95f481e9b04738": "driverId",
+    "c102b7a9cc7546a2": "points",
+    "874a06cbe860494f": "wins",
+    "89a804c54ff14eb0": "position",
+    "57c865ae2f754bfa": "positionText"
+  },
+  "templates": [
+    {
+      "original": "Each driver in the Formula 1 championship has a unique identifier that accurately tracks their performance in the standings.",
+      "template_pattern": "Each driver in the Formula [DRIVERSTANDINGSID] championship has a unique identifier that accurately tracks their performance in the standings.",
+      "primary_data_fields": [
+        "driverStandingsId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every driver competing in the Formula [DRIVERSTANDINGSID] championship possesses a driverStandingsId that precisely records his or her performance in the standings.",
+        "A driverStandingsId uniquely identifies each Formula [DRIVERSTANDINGSID] driver and accurately monitors that driver’s performance within the standings.",
+        "In the Formula [DRIVERSTANDINGSID] series, each driver is assigned a driverStandingsId which faithfully tracks their performance in the standings.",
+        "The performance of every Formula [DRIVERSTANDINGSID] driver in the standings is accurately tracked by a unique driverStandingsId.",
+        "Each Formula [DRIVERSTANDINGSID] driver’s performance in the standings is recorded precisely by their unique driverStandingsId.",
+        "A unique driverStandingsId is allocated to each driver in the Formula [DRIVERSTANDINGSID] championship to accurately follow their performance in the standings.",
+        "For every driver in the Formula [DRIVERSTANDINGSID] championship, a driverStandingsId uniquely and accurately follows his or her performance in the standings.",
+        "The driverStandingsId, unique to each Formula [DRIVERSTANDINGSID] driver, reliably tracks that driver’s performance in the standings.",
+        "Within the Formula [DRIVERSTANDINGSID] championship, each driver receives a driverStandingsId that accurately logs their performance in the standings.",
+        "Accurate tracking of a driver’s performance in the Formula [DRIVERSTANDINGSID] standings is achieved through a unique driverStandingsId.",
+        "Each driver in the Formula [DRIVERSTANDINGSID] championship is linked to a driverStandingsId that precisely captures their performance in the standings.",
+        "A driver’s performance in the Formula [DRIVERSTANDINGSID] standings is precisely monitored by their unique driverStandingsId.",
+        "Unique driverStandingsId codes are assigned to every Formula [DRIVERSTANDINGSID] driver to faithfully record performance in the standings.",
+        "In the Formula [DRIVERSTANDINGSID] championship, the unique driverStandingsId attached to each driver accurately reflects their performance in the standings.",
+        "Performance in the Formula [DRIVERSTANDINGSID] standings is accurately tracked for each driver by means of a unique driverStandingsId."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "tracks": [
+          "tracks",
+          "rails"
+        ],
+        "standings": [
+          "standings"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "accurately": [
+          "accurately"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "pattern"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "performance": [
+          "performance",
+          "execution",
+          "functioning",
+          "operation"
+        ],
+        "driver": [
+          "driver"
+        ]
+      },
+      "field_data_types": {
+        "driverStandingsId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The raceId 18 played a crucial role in the tracking of championship standings during the Formula 1 season.",
+      "template_pattern": "The raceId [RACEID] played a crucial role in the tracking of championship standings during the Formula 1 season.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the Formula 1 season, the raceId [RACEID] was instrumental in tracking championship standings.",
+        "The tracking of championship standings in the Formula 1 season relied heavily on raceId [RACEID].",
+        "RaceId [RACEID] proved essential for monitoring championship standings throughout the Formula 1 season.",
+        "In the Formula 1 season, championship standings were closely followed thanks to raceId [RACEID].",
+        "A pivotal part of championship standings tracking during the Formula 1 season was played by raceId [RACEID].",
+        "Championship standings during the Formula 1 season were effectively tracked because of raceId [RACEID].",
+        "The role of raceId [RACEID] in the Formula 1 season championship standings tracking was crucial.",
+        "Throughout the Formula 1 season, raceId [RACEID] contributed significantly to the monitoring of championship standings.",
+        "RaceId [RACEID]'s involvement was vital for the tracking of championship standings during the Formula 1 season.",
+        "The Formula 1 season saw raceId [RACEID] serve a key function in following championship standings.",
+        "Tracking championship standings in the Formula 1 season hinged on the contribution of raceId [RACEID].",
+        "During the Formula 1 season, raceId [RACEID] acted as a critical factor in the observation of championship standings.",
+        "Championship standings were tracked during the Formula 1 season with the crucial assistance of raceId [RACEID].",
+        "The crucial role of raceId [RACEID] in the Formula 1 season involved tracking championship standings.",
+        "In the context of the Formula 1 season, raceId [RACEID] was a decisive element for the tracking of championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "played": [
+          "played"
+        ],
+        "standings": [
+          "standings"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "during": [
+          "during"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "pattern",
+          "convention"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each Formula 1 driver has a unique identification number that is used to track their performance and standings within the championship results.",
+      "template_pattern": "Each Formula [DRIVERID] driver has a unique identification number that is used to track their performance and standings within the championship results.",
+      "primary_data_fields": [
+        "driverId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each Formula [DRIVERID] driver possesses a driver Id that uniquely identifies them for monitoring performance and standings in the championship results.",
+        "A driver Id, unique to every Formula [DRIVERID] driver, is employed to follow their performance and championship results standings.",
+        "The performance and standings of each Formula [DRIVERID] driver in the championship results are tracked using their unique driver Id.",
+        "For every Formula [DRIVERID] driver, a unique driver Id is used to record performance and rank within the championship results.",
+        "Unique driver Ids assigned to each Formula [DRIVERID] driver enable the tracking of their performance and standings throughout the championship results.",
+        "In the championship results, a driver’s performance and standings are traced via the unique driver Id given to each Formula [DRIVERID] driver.",
+        "Each Formula [DRIVERID] driver’s unique driver Id serves to monitor their performance and placement in the championship results.",
+        "To follow a Formula [DRIVERID] driver’s performance and championship results standings, a unique driver Id is applied to each driver.",
+        "The championship results rely on each Formula [DRIVERID] driver’s unique driver Id to log performance and standings.",
+        "Performance metrics and standings within the championship results are linked to each Formula [DRIVERID] driver through a unique driver Id.",
+        "A unique driver Id is attached to every Formula [DRIVERID] driver, allowing their performance and standings to be tracked in the championship results.",
+        "Tracking of performance and standings in the championship results is accomplished by assigning each Formula [DRIVERID] driver a unique driver Id.",
+        "Each Formula [DRIVERID] driver is given a unique driver Id, which is used to chart their performance and standings across the championship results.",
+        "By using a unique driver Id for each Formula [DRIVERID] driver, analysts can trace performance and championship results standings.",
+        "The unique driver Id of each Formula [DRIVERID] driver is the key tool for monitoring performance and standings in the championship results."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "used": [
+          "used",
+          "utilise",
+          "utilize",
+          "employ",
+          "secondhand"
+        ],
+        "standings": [
+          "standings"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "recipe",
+          "pattern"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ],
+        "results": [
+          "results"
+        ],
+        "performance": [
+          "performance",
+          "execution",
+          "functioning",
+          "operation"
+        ],
+        "driver": [
+          "driver"
+        ]
+      },
+      "field_data_types": {
+        "driverId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the latest race, the driver secured 10 points, adding significantly to their championship standings.",
+      "template_pattern": "In the latest race, the driver secured [POINTS] points, adding significantly to their championship standings.",
+      "primary_data_fields": [
+        "points"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The driver earned [POINTS] points in the latest race, boosting their championship standings considerably.",
+        "[POINTS] points were secured by the driver during the latest race, markedly improving their championship standings.",
+        "During the latest race, the driver clinched [POINTS] points, which substantially raised their championship standings.",
+        "By obtaining [POINTS] points in the latest race, the driver considerably enhanced their championship standings.",
+        "The latest race saw the driver collect [POINTS] points, a gain that significantly lifted their championship standings.",
+        "A haul of [POINTS] points was achieved by the driver in the latest race, markedly adding to their championship standings.",
+        "The driver’s [POINTS] points in the latest race contributed heavily to their championship standings.",
+        "With [POINTS] points earned in the latest race, the driver saw a substantial rise in their championship standings.",
+        "The latest race delivered [POINTS] points to the driver, substantially bolstering their championship standings.",
+        "Securing [POINTS] points in the latest race, the driver markedly advanced their championship standings.",
+        "The driver’s acquisition of [POINTS] points during the latest race significantly uplifted their championship standings.",
+        "In the latest race, [POINTS] points were added by the driver, greatly improving their championship standings.",
+        "The driver added [POINTS] points to their tally in the latest race, considerably enhancing their championship standings.",
+        "By gaining [POINTS] points in the latest race, the driver considerably lifted their championship standings.",
+        "The driver amassed [POINTS] points in the latest race, dramatically increasing their championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "adding": [
+          "adding"
+        ],
+        "standings": [
+          "standings"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "significantly": [
+          "significantly",
+          "importantly"
+        ],
+        "secured": [
+          "secured"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "points": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The driver is currently leading the Formula 1 championship standings.",
+      "template_pattern": "The driver is currently leading the Formula [POSITION] championship standings.",
+      "primary_data_fields": [
+        "position"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The driver is currently leading the Formula [POSITION] championship standings.",
+        "At present, the driver leads the Formula [POSITION] championship standings.",
+        "The driver presently heads the Formula [POSITION] championship standings.",
+        "Leading the Formula [POSITION] championship standings, the driver is currently in front.",
+        "Currently, the driver tops the Formula [POSITION] championship standings.",
+        "The Formula [POSITION] championship standings are being led by the driver at this moment.",
+        "In the Formula [POSITION] championship standings, the driver is currently in the lead.",
+        "The driver, as of now, is ahead in the Formula [POSITION] championship standings.",
+        "At this time, the driver holds the lead in the Formula [POSITION] championship standings.",
+        "The driver currently occupies the top spot of the Formula [POSITION] championship standings.",
+        "Presently, the driver is the leader of the Formula [POSITION] championship standings.",
+        "The Formula [POSITION] championship standings currently show the driver in first place.",
+        "The driver is, at this moment, leading the Formula [POSITION] championship standings.",
+        "Currently, the driver stands at the summit of the Formula [POSITION] championship standings.",
+        "The driver leads the Formula [POSITION] championship standings as of now."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "standings": [
+          "standings"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "leading": [
+          "leading",
+          "top",
+          "preeminent"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "pattern"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "driver": [
+          "driver"
+        ]
+      },
+      "field_data_types": {
+        "position": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The driver currently holds a strong position in the Formula 1 championship standings, highlighting their impressive performance this season.",
+      "template_pattern": "The driver currently holds a strong position in the Formula [POSITIONTEXT] championship standings, highlighting their impressive performance this season.",
+      "primary_data_fields": [
+        "positionText"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Currently, the driver occupies a strong position in the Formula [POSITIONTEXT] championship standings, underscoring an impressive performance this season.",
+        "In the Formula [POSITIONTEXT] championship standings, the driver now holds a strong position, which highlights their impressive performance this season.",
+        "A strong position in the Formula [POSITIONTEXT] championship standings is presently held by the driver, emphasizing their impressive performance this season.",
+        "The driver’s impressive performance this season is evident from the strong position they currently occupy in the Formula [POSITIONTEXT] championship standings.",
+        "Highlighting their impressive performance this season, the driver currently enjoys a strong position in the Formula [POSITIONTEXT] championship standings.",
+        "A strong position in the Formula [POSITIONTEXT] championship standings is currently enjoyed by the driver, showcasing their impressive performance this season.",
+        "This season’s impressive performance is reflected in the driver’s current strong position within the Formula [POSITIONTEXT] championship standings.",
+        "The driver’s current strong position in the Formula [POSITIONTEXT] championship standings highlights an impressive performance this season.",
+        "Because of their impressive performance this season, the driver now holds a strong position in the Formula [POSITIONTEXT] championship standings.",
+        "The driver, thanks to an impressive performance this season, currently occupies a strong position in the Formula [POSITIONTEXT] championship standings.",
+        "A strong position in the Formula [POSITIONTEXT] championship standings, held by the driver at present, signals their impressive performance this season.",
+        "Their impressive performance this season has placed the driver in a strong position within the Formula [POSITIONTEXT] championship standings currently.",
+        "In the Formula [POSITIONTEXT] championship standings, a strong position is currently held by the driver, highlighting an impressive performance this season.",
+        "The driver’s strong position, currently held in the Formula [POSITIONTEXT] championship standings, underscores an impressive performance this season.",
+        "Owing to an impressive performance this season, the driver presently maintains a strong position in the Formula [POSITIONTEXT] championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "impressive": [
+          "impressive"
+        ],
+        "standings": [
+          "standings"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "pattern"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "holds": [
+          "holds",
+          "keep",
+          "contain",
+          "maintain",
+          "retain",
+          "support"
+        ],
+        "performance": [
+          "performance",
+          "execution",
+          "functioning",
+          "operation"
+        ],
+        "season": [
+          "season"
+        ]
+      },
+      "field_data_types": {
+        "positionText": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The driver has achieved victory in at least one Formula 1 race, showcasing their skill and competitive edge in the championship.",
+      "template_pattern": "The driver has achieved victory in at least one Formula [WINS] race, showcasing their skill and competitive edge in the championship.",
+      "primary_data_fields": [
+        "wins"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The driver has secured victory in at least one Formula [WINS] race, highlighting their skill and competitive edge in the championship.",
+        "Victory was attained by the driver in at least one Formula [WINS] race, underscoring their skill and competitive edge in the championship.",
+        "In at least one Formula [WINS] race, the driver achieved victory, illustrating their skill and competitive edge in the championship.",
+        "At least one Formula [WINS] race saw the driver achieve victory, a testament to their skill and competitive edge in the championship.",
+        "The driver’s victory in at least one Formula [WINS] race showcases their skill and competitive edge in the championship.",
+        "Having won in at least one Formula [WINS] race, the driver demonstrates their skill and competitive edge in the championship.",
+        "A victory in at least one Formula [WINS] race was earned by the driver, reflecting their skill and competitive edge in the championship.",
+        "The driver earned victory in at least one Formula [WINS] race, proving their skill and competitive edge in the championship.",
+        "In at least one Formula [WINS] race, victory was achieved by the driver, confirming their skill and competitive edge in the championship.",
+        "The driver’s attainment of victory in at least one Formula [WINS] race highlights their skill and competitive edge in the championship.",
+        "By securing victory in at least one Formula [WINS] race, the driver exhibits their skill and competitive edge in the championship.",
+        "At least one Formula [WINS] race delivered a victory for the driver, evidencing their skill and competitive edge in the championship.",
+        "The driver captured a victory in at least one Formula [WINS] race, indicating their skill and competitive edge in the championship.",
+        "Victory in at least one Formula [WINS] race was achieved by the driver, showcasing their skill and competitive edge in the championship.",
+        "Through a victory in at least one Formula [WINS] race, the driver reveals their skill and competitive edge in the championship."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "edge": [
+          "edge",
+          "boundary",
+          "border"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "race": [
+          "race"
+        ],
+        "least": [
+          "least"
+        ],
+        "achieved": [
+          "achieved"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "recipe",
+          "pattern"
+        ],
+        "competitive": [
+          "competitive"
+        ]
+      },
+      "field_data_types": {
+        "wins": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "database": "european_football_2",
+  "table": "Team",
+  "entry_index": 0,
+  "original_data": {
+    "id": "1",
+    "team_api_id": "9987",
+    "team_fifa_api_id": "673",
+    "team_long_name": "KRC Genk",
+    "team_short_name": "GEN"
+  },
+  "generated_sentences": [
+    "Each football club in the extensive European football data is assigned a unique identifier for precise tracking and differentiation. (Hash: 45726c4377124342)",
+    "The football club with team_api_id 9987 has consistently demonstrated impressive performance in the European league this season. (Hash: 96b74d9b33f64a6f)",
+    "The team_fifa_api_id 673 uniquely identifies a football club within the extensive European football database managed by FIFA. (Hash: 5513d78574d847f0)",
+    "The team long name KRC Genk is well-known for its competitive spirit in European football. (Hash: 0da2cfde2dc14171)",
+    "The team known as GEN has consistently impressed fans with their dynamic style and strategic plays on the European football stage. (Hash: 1cddb9faf58142fe)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "45726c4377124342": "id",
+    "96b74d9b33f64a6f": "team_api_id",
+    "5513d78574d847f0": "team_fifa_api_id",
+    "0da2cfde2dc14171": "team_long_name",
+    "1cddb9faf58142fe": "team_short_name"
+  },
+  "timestamp": "2026-03-31 19:59:08"
+}

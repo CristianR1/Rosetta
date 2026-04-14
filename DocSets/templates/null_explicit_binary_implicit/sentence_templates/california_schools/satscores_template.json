@@ -1,0 +1,49 @@
+{
+  "database": "california_schools",
+  "table": "satscores",
+  "entry_index": 0,
+  "original_data": {
+    "cds": "01100170000000",
+    "rtype": "D",
+    "sname": "NULL",
+    "dname": "Alameda County Office of Education",
+    "cname": "Alameda",
+    "enroll12": "398",
+    "NumTstTakr": "88",
+    "AvgScrRead": "418",
+    "AvgScrMath": "418",
+    "AvgScrWrite": "417",
+    "NumGE1500": "14"
+  },
+  "generated_sentences": [
+    "The cds 01100170000000 serves as a unique identifier for a public school under the California Department of Education. (Hash: 122c4d88d29c400d)",
+    "The report type labeled as D provides a detailed representation of California public schools' SAT test score performance metrics. (Hash: 3793a67f20044fe5)",
+    "The school name is currently NULL, making it difficult to identify the institution within California's public school system. (Hash: df2f0833ff464b69)",
+    "The Alameda County Office of Education ensures that each school within its district adheres to state educational standards. (Hash: a61490f51bd741a2)",
+    "In California, analyzing SAT test performance across counties, Alameda emerges as a key area of focus. (Hash: d178b8e521ae47ec)",
+    "In 2012, the California public school saw an enroll12 count of 398 students, reflecting its size and capacity that year. (Hash: 965e82b8f53246b0)",
+    "At one California public school, the NumTstTakr for the SAT test was recorded at 88 students. (Hash: 6c3de453060148ae)",
+    "In California public schools, the AvgScrRead on the SAT reading section stands at 418, highlighting literacy achievement levels. (Hash: fecd630e44d64ae9)",
+    "The AvgScrMath at the school stands at 418, reflecting the students' average performance in mathematics on the SAT. (Hash: 42d51a2acd89422a)",
+    "The AvgScrWrite for students in California public schools on the SAT writing section stands at 417. (Hash: 1268189558864466)",
+    "In California public schools, 14 students achieved a remarkable NumGE1500 score on the SAT, reflecting their strong academic readiness for college. (Hash: 986b20bf7f0c4e27)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "122c4d88d29c400d": "cds",
+    "3793a67f20044fe5": "rtype",
+    "df2f0833ff464b69": "sname",
+    "a61490f51bd741a2": "dname",
+    "d178b8e521ae47ec": "cname",
+    "965e82b8f53246b0": "enroll12",
+    "6c3de453060148ae": "NumTstTakr",
+    "fecd630e44d64ae9": "AvgScrRead",
+    "42d51a2acd89422a": "AvgScrMath",
+    "1268189558864466": "AvgScrWrite",
+    "986b20bf7f0c4e27": "NumGE1500"
+  },
+  "timestamp": "2026-04-13 00:09:06"
+}

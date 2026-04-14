@@ -1,0 +1,31 @@
+{
+  "database": "formula_1",
+  "table": "constructorResults",
+  "entry_index": 0,
+  "original_data": {
+    "constructorResultsId": "1",
+    "raceId": "18",
+    "constructorId": "1",
+    "points": "14.0",
+    "status": "NULL"
+  },
+  "generated_sentences": [
+    "Each constructor result entry in Formula 1 racing is uniquely identified, ensuring precise tracking and referencing of team performance across different races. (Hash: d44aea479d334045)",
+    "The constructors eagerly anticipated raceId 18, as it was crucial for securing their positions in the championship standings. (Hash: 1e70a11a654f40c3)",
+    "Each Formula 1 team has a unique identifier that facilitates the tracking and analysis of their performance results across various races. (Hash: d927eafb826a4c8d)",
+    "The Formula 1 team secured 14 points in the race, boosting their position in the championship standings. (Hash: b645369c79bb4796)",
+    "The performance outcome of the Formula 1 team for this particular race is currently not specified. (Hash: 7b1418aab5274b53)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "1e70a11a654f40c3": "raceId",
+    "d927eafb826a4c8d": "constructorId",
+    "b645369c79bb4796": "points",
+    "7b1418aab5274b53": "status",
+    "d44aea479d334045": "constructorResultsId"
+  },
+  "timestamp": "2026-03-31 19:59:08"
+}

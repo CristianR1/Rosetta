@@ -1,0 +1,152 @@
+{
+  "document_context": "manufacturing data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "5af02718f56c4d02": "ProductID",
+    "42b4fc652da74061": "Description"
+  },
+  "templates": [
+    {
+      "original": "The manufacturing report confirms that ProductID [PRODUCTID] corresponds to a batch produced during the June 2026 shift.",
+      "template_pattern": "The manufacturing report confirms that ProductID [PRODUCTID] corresponds to a batch produced during the June 2026 shift.",
+      "primary_data_fields": [
+        "ProductID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the manufacturing report, ProductID [PRODUCTID] matches a batch made in the June 2026 shift.",
+        "The manufacturing report verifies that the batch created in the June 2026 shift is linked to ProductID [PRODUCTID].",
+        "ProductID [PRODUCTID] is shown by the manufacturing report to belong to a batch produced during the June 2026 shift.",
+        "In the manufacturing report, ProductID [PRODUCTID] is identified as part of a batch from the June 2026 shift.",
+        "The report on manufacturing confirms ProductID [PRODUCTID] aligns with a batch generated during the June 2026 shift.",
+        "It is recorded in the manufacturing report that ProductID [PRODUCTID] pertains to a batch fabricated in the June 2026 shift.",
+        "The manufacturing report states that a batch produced during the June 2026 shift corresponds to ProductID [PRODUCTID].",
+        "As per the manufacturing report, the batch from the June 2026 shift is associated with ProductID [PRODUCTID].",
+        "ProductID [PRODUCTID] is linked, per the manufacturing report, to a batch made during the June 2026 shift.",
+        "The manufacturing report indicates that the June 2026 shift batch corresponds to ProductID [PRODUCTID].",
+        "According to the manufacturing report, the June 2026 shift batch is tied to ProductID [PRODUCTID].",
+        "The manufacturing report confirms that a batch produced in the June 2026 shift is the one identified by ProductID [PRODUCTID].",
+        "ProductID [PRODUCTID] corresponds, as the manufacturing report shows, to a batch from the June 2026 shift.",
+        "The manufacturing report reveals that ProductID [PRODUCTID] refers to a batch produced during the June 2026 shift.",
+        "In the manufacturing report, it is confirmed that ProductID [PRODUCTID] matches a batch made during the June 2026 shift."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "productid": [
+          "productid"
+        ],
+        "batch": [
+          "batch",
+          "lot",
+          "mass",
+          "pile",
+          "stack"
+        ],
+        "shift": [
+          "shift",
+          "change",
+          "reposition",
+          "transfer",
+          "switch",
+          "budge"
+        ],
+        "manufacturing": [
+          "manufacturing",
+          "fabrication"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study",
+          "composition"
+        ],
+        "produced": [
+          "produced"
+        ],
+        "june": [
+          "june",
+          "June"
+        ],
+        "corresponds": [
+          "corresponds"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The Description of the product highlights its unique feature, Rucní zadání, offering customers a detailed insight into their purchasing options.",
+      "template_pattern": "The Description of the product highlights its unique feature, [DESCRIPTION], offering customers a detailed insight into their purchasing options.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Description of the product emphasizes its unique feature, [DESCRIPTION], giving customers a thorough understanding of their purchasing options.",
+        "Customers receive a comprehensive view of their purchasing options because the Description of the product showcases the unique feature [DESCRIPTION].",
+        "A detailed insight into purchasing options is provided to customers by the product's Description, which spotlights the unique feature [DESCRIPTION].",
+        "By highlighting the unique feature [DESCRIPTION], the Description of the product supplies customers with an in‑depth look at their purchasing options.",
+        "The product’s Description draws attention to its unique feature, [DESCRIPTION], thereby offering customers a clear picture of the purchasing options available.",
+        "Through its Description, the product brings the unique feature [DESCRIPTION] to the fore, furnishing customers with a detailed insight into their purchasing options.",
+        "Customers are offered a detailed insight into purchasing options as the Description of the product underlines the unique feature, [DESCRIPTION].",
+        "In the product’s Description, the unique feature [DESCRIPTION] is highlighted, which provides customers with an exhaustive view of their purchasing options.",
+        "The unique feature [DESCRIPTION] is spotlighted in the Description of the product, delivering customers a meticulous insight into their purchasing options.",
+        "Offering customers a detailed insight into purchasing options, the Description of the product accentuates its unique feature, [DESCRIPTION].",
+        "Because the Description of the product stresses the unique feature [DESCRIPTION], customers gain a detailed insight into their purchasing options.",
+        "The product’s Description, by emphasizing the unique feature [DESCRIPTION], equips customers with a thorough understanding of their purchasing options.",
+        "A thorough insight into purchasing options is granted to customers through the Description of the product, which highlights the unique feature [DESCRIPTION].",
+        "Highlighting the unique feature [DESCRIPTION], the Description of the product furnishes customers with an extensive view of their purchasing options.",
+        "Customers obtain a detailed insight into their purchasing options thanks to the Description of the product, which showcases the unique feature [DESCRIPTION]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "offering": [
+          "offering",
+          "bid",
+          "tender",
+          "offer"
+        ],
+        "into": [
+          "into"
+        ],
+        "feature": [
+          "feature",
+          "characteristic"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "insight": [
+          "insight",
+          "penetration",
+          "perceptivity",
+          "perceptiveness"
+        ],
+        "customers": [
+          "customers"
+        ],
+        "purchasing": [
+          "purchasing",
+          "buying"
+        ],
+        "product": [
+          "product",
+          "ware",
+          "merchandise"
+        ]
+      },
+      "field_data_types": {
+        "Description": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

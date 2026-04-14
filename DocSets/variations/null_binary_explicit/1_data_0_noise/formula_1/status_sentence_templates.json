@@ -1,0 +1,151 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4a6606d23086459d": "statusId",
+    "25072fc467164c7c": "status"
+  },
+  "templates": [
+    {
+      "original": "The completion status of the recent Formula 1 race was marked with a 1, indicating it was a significant event for analysis.",
+      "template_pattern": "The completion status of the recent Formula [STATUSID] race was marked with a [STATUSID], indicating it was a significant event for analysis.",
+      "primary_data_fields": [
+        "statusId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The status Id for the recent Formula [STATUSID] race was recorded as [STATUSID], signifying an important case for analysis.",
+        "Marked with a [STATUSID], the status Id of the latest Formula [STATUSID] race highlights its significance for analytical review.",
+        "A [STATUSID] was assigned to the status Id of the recent Formula [STATUSID] event, indicating that it constitutes a notable subject for analysis.",
+        "For the recent Formula [STATUSID] race, the status Id received a value of [STATUSID], denoting a noteworthy event for analytical purposes.",
+        "The recent Formula [STATUSID] race’s status Id was set to [STATUSID], reflecting its relevance as a significant analysis case.",
+        "By assigning [STATUSID] to the status Id of the recent Formula [STATUSID] competition, analysts underscore its importance for study.",
+        "The status Id, tied to the recent Formula [STATUSID] race, carries the value [STATUSID], which points to its analytical significance.",
+        "In the recent Formula [STATUSID] race, the status Id was logged as [STATUSID], marking the event as a key item for analysis.",
+        "A value of [STATUSID] on the status Id for the recent Formula [STATUSID] race signals that the event is crucial for analytical examination.",
+        "The recent Formula [STATUSID] race’s status Id is marked with [STATUSID], indicating the event’s importance for analysis.",
+        "Assigning the number [STATUSID] to the status Id of the recent Formula [STATUSID] race designates it as a significant analytical case.",
+        "The status Id for the recent Formula [STATUSID] race shows a [STATUSID], denoting that the event merits analysis.",
+        "With a [STATUSID] recorded in the status Id of the recent Formula [STATUSID] race, the event is flagged as analytically significant.",
+        "The recent Formula [STATUSID] race received a status Id of [STATUSID], which underscores its relevance for analysis.",
+        "A status Id value of [STATUSID] was logged for the recent Formula [STATUSID] race, highlighting the event’s analytical importance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "pattern",
+          "rule"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "completion": [
+          "completion",
+          "culmination",
+          "closing"
+        ],
+        "event": [
+          "event"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ]
+      },
+      "field_data_types": {
+        "statusId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 race status is currently Finished, indicating that the event has reached its conclusion successfully.",
+      "template_pattern": "The Formula 1 race status is currently [STATUS], indicating that the event has reached its conclusion successfully.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Currently, the Formula 1 race status reads [STATUS], showing that the event has successfully concluded.",
+        "The Formula 1 race status is marked as [STATUS], which indicates the competition has come to a successful end.",
+        "[STATUS] is the current status of the Formula 1 race, signifying that the event has reached its successful conclusion.",
+        "With the Formula 1 race now listed as [STATUS], the event has been brought to a successful close.",
+        "The event’s Formula 1 race status, currently [STATUS], confirms that it has ended successfully.",
+        "As of now, the Formula 1 race status stands at [STATUS], denoting a successful completion of the event.",
+        "The Formula 1 race has a status of [STATUS], meaning the competition concluded successfully.",
+        "[STATUS], the present status of the Formula 1 race, reflects that the event wrapped up successfully.",
+        "Indicating a successful wrap‑up, the Formula 1 race status is currently [STATUS].",
+        "The race’s Formula 1 status is currently [STATUS], which tells us the event has ended successfully.",
+        "Having reached the [STATUS] status, the Formula 1 race is now officially concluded.",
+        "The current status for the Formula 1 race is [STATUS], confirming the event’s successful termination.",
+        "Because the Formula 1 race status is [STATUS], we know the event has successfully come to an end.",
+        "The Formula 1 race status—[STATUS]—signifies that the event has successfully reached its conclusion.",
+        "A [STATUS] status now applies to the Formula 1 race, indicating the event concluded successfully."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "point",
+          "show"
+        ],
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "successfully": [
+          "successfully"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush",
+          "speed",
+          "hasten"
+        ],
+        "conclusion": [
+          "conclusion",
+          "ending",
+          "closing",
+          "end",
+          "finish"
+        ],
+        "reached": [
+          "reached",
+          "attain",
+          "achieve",
+          "gain",
+          "accomplish",
+          "hit"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

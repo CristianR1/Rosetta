@@ -1,0 +1,37 @@
+{
+  "database": "student_club",
+  "table": "budget",
+  "entry_index": 0,
+  "original_data": {
+    "budget_id": "rec0QmEc3cSQFQ6V2",
+    "category": "Advertisement",
+    "spent": "67.81",
+    "remaining": "7.19",
+    "amount": "75",
+    "event_status": "Closed",
+    "link_to_event": "recI43CzsZ0Q625ma"
+  },
+  "generated_sentences": [
+    "The student club's budget entry with budget_id rec0QmEc3cSQFQ6V2 was carefully reviewed to ensure proper resource allocation. (Hash: 7a867e30637e4a79)",
+    "The student organization allocated funds under the category of Advertisement to enhance their visibility and reach their audience effectively. (Hash: 937b4e0cdd67487e)",
+    "The student club spent 67.81 dollars from their allocated budget for the recent event they organized. (Hash: 6a4774d0630945b8)",
+    "The student club has $7.19 remaining in its budget for activities this semester. (Hash: 44801df7bebc45bf)",
+    "The student organization allocated 75 dollars for each event, ensuring adequate funding for diverse club activities. (Hash: 366cd1ffe8924806)",
+    "The event_status for the student organization's planned activities is now marked as Closed, affecting both financial planning and resource allocation. (Hash: 9c0831a533114dde)",
+    "To view the event details and plan the budget accordingly, visit the link_to_event recI43CzsZ0Q625ma. (Hash: 6d6aab94f56648c6)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "7a867e30637e4a79": "budget_id",
+    "937b4e0cdd67487e": "category",
+    "6a4774d0630945b8": "spent",
+    "44801df7bebc45bf": "remaining",
+    "366cd1ffe8924806": "amount",
+    "9c0831a533114dde": "event_status",
+    "6d6aab94f56648c6": "link_to_event"
+  },
+  "timestamp": "2026-04-13 00:21:44"
+}

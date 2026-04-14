@@ -1,0 +1,22 @@
+{
+  "database": "superhero",
+  "table": "hero_power",
+  "entry_index": 0,
+  "original_data": {
+    "hero_id": "1",
+    "power_id": "1"
+  },
+  "generated_sentences": [
+    "Each superhero has been assigned a unique identifier to accurately link their supernatural abilities to their profiles. (Hash: b3524cb074464534)",
+    "The superhero possesses a unique identifier for their supernatural ability. (Hash: 3e72f44e01dd4fa0)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "b3524cb074464534": "hero_id",
+    "3e72f44e01dd4fa0": "power_id"
+  },
+  "timestamp": "2026-03-31 19:59:09"
+}

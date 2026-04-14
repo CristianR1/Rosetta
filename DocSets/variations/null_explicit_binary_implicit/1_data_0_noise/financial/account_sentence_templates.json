@@ -1,0 +1,293 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4b747537801049c6": "account_id",
+    "57669072c9c34e64": "district_id",
+    "e17c3b5e64964cdc": "frequency",
+    "0c8851020b7849db": "date"
+  },
+  "templates": [
+    {
+      "original": "The transaction summary for account id [ACCOUNT_ID] indicates a net increase of 8.5% over the previous quarter.",
+      "template_pattern": "The transaction summary for account id [ACCOUNT_ID] indicates a net increase of 8.5% over the previous quarter.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For account id [ACCOUNT_ID], the transaction summary shows a net increase of 8.5% compared to the previous quarter.",
+        "A net increase of 8.5% is recorded in the transaction summary for account id [ACCOUNT_ID] when measured against the previous quarter.",
+        "The previous quarter’s performance is surpassed by a net increase of 8.5% in the transaction summary for account id [ACCOUNT_ID].",
+        "In the transaction summary, account id [ACCOUNT_ID] reflects a net increase of 8.5% over the previous quarter.",
+        "Account id [ACCOUNT_ID] exhibits a net increase of 8.5% in its transaction summary versus the previous quarter.",
+        "The transaction summary reveals that account id [ACCOUNT_ID] experienced a net increase of 8.5% relative to the previous quarter.",
+        "A net increase of 8.5% can be seen in the transaction summary for account id [ACCOUNT_ID] when compared with the previous quarter.",
+        "Compared with the previous quarter, the transaction summary for account id [ACCOUNT_ID] indicates a net increase of 8.5%.",
+        "The data shows a net increase of 8.5% for account id [ACCOUNT_ID] in the transaction summary over the previous quarter.",
+        "For the period ending this quarter, the transaction summary of account id [ACCOUNT_ID] registers a net increase of 8.5% over the previous quarter.",
+        "A net increase of 8.5% is evident in the transaction summary belonging to account id [ACCOUNT_ID] relative to the previous quarter.",
+        "The transaction summary pertaining to account id [ACCOUNT_ID] demonstrates a net increase of 8.5% against the previous quarter.",
+        "Observing the transaction summary, account id [ACCOUNT_ID] shows a net increase of 8.5% over the previous quarter.",
+        "Over the previous quarter, account id [ACCOUNT_ID] achieved a net increase of 8.5% as reflected in its transaction summary.",
+        "The account id [ACCOUNT_ID] transaction summary indicates a net increase of 8.5% versus the previous quarter."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "over": [
+          "over",
+          "ended",
+          "complete"
+        ],
+        "indicates": [
+          "indicates",
+          "show",
+          "signal",
+          "suggest",
+          "designate",
+          "point"
+        ],
+        "increase": [
+          "increase",
+          "gain",
+          "growth",
+          "increment",
+          "addition"
+        ],
+        "quarter": [
+          "quarter",
+          "fourth"
+        ],
+        "account": [
+          "account",
+          "report",
+          "invoice",
+          "explanation",
+          "history",
+          "chronicle"
+        ],
+        "previous": [
+          "previous",
+          "former",
+          "old"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "summary": [
+          "summary"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The unique district_id of 18 plays a crucial role in managing the financial details of related educational institutions.",
+      "template_pattern": "The unique district_id of [DISTRICT_ID] plays a crucial role in managing the financial details of related educational institutions.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The unique district id [DISTRICT_ID] is essential for overseeing the financial details of associated educational institutions.",
+        "Managing the financial particulars of related schools hinges on the unique district id [DISTRICT_ID].",
+        "Financial information for linked educational institutions is administered through the unique district id [DISTRICT_ID].",
+        "With the unique district id [DISTRICT_ID], the handling of fiscal data for related schools becomes pivotal.",
+        "The unique district id [DISTRICT_ID] serves a vital function in controlling the monetary specifics of connected educational institutions.",
+        "In the management of financial details for affiliated educational institutions, the unique district id [DISTRICT_ID] plays a key role.",
+        "A crucial part of supervising the fiscal records of related schools is the unique district id [DISTRICT_ID].",
+        "The financial details of associated educational institutions are governed by the unique district id [DISTRICT_ID].",
+        "Through the unique district id [DISTRICT_ID], the administration of monetary data for related schools is facilitated.",
+        "The unique district id [DISTRICT_ID] underpins the oversight of financial specifics for linked educational institutions.",
+        "Overseeing the financial aspects of related educational institutions relies heavily on the unique district id [DISTRICT_ID].",
+        "The unique district id [DISTRICT_ID] is instrumental in managing the financial particulars of affiliated schools.",
+        "The management of monetary details for connected educational institutions depends on the unique district id [DISTRICT_ID].",
+        "A pivotal role in handling the financial data of related schools is performed by the unique district id [DISTRICT_ID].",
+        "Financial details of related educational institutions are managed thanks to the unique district id [DISTRICT_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "details": [
+          "details"
+        ],
+        "plays": [
+          "plays"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "managing": [
+          "managing"
+        ],
+        "related": [
+          "related"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part",
+          "office",
+          "character",
+          "persona"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ],
+        "institutions": [
+          "institutions"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account shows a transaction activity with a frequency labeled as POPLATEK MESICNE, indicating regular monthly engagement.",
+      "template_pattern": "The account shows a transaction activity with a frequency labeled as [FREQUENCY], indicating regular monthly engagement.",
+      "primary_data_fields": [
+        "frequency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The account records a transaction activity whose frequency is labeled [FREQUENCY], signifying a regular monthly engagement.",
+        "A transaction activity appears in the account with a frequency marked as [FREQUENCY], denoting consistent monthly involvement.",
+        "In the account, the transaction activity is shown with frequency [FREQUENCY], indicating ongoing monthly participation.",
+        "The account displays a transaction activity featuring a frequency called [FREQUENCY], which reflects regular monthly engagement.",
+        "With frequency [FREQUENCY], the account’s transaction activity points to a steady monthly engagement.",
+        "A regular monthly engagement is implied by the account’s transaction activity, which carries a frequency labeled [FREQUENCY].",
+        "The transaction activity listed in the account carries a frequency titled [FREQUENCY], illustrating recurring monthly activity.",
+        "Frequency [FREQUENCY] is attached to the account’s transaction activity, indicating systematic monthly involvement.",
+        "The account’s transaction activity, bearing the frequency [FREQUENCY], reveals a pattern of monthly engagement.",
+        "Showing a transaction activity, the account notes a frequency identified as [FREQUENCY], representing regular monthly participation.",
+        "A frequency named [FREQUENCY] accompanies the transaction activity in the account, signalling consistent monthly engagement.",
+        "The account’s transaction activity, with its frequency marked [FREQUENCY], conveys a regular monthly involvement.",
+        "Regular monthly engagement is conveyed by the account’s transaction activity, which lists frequency [FREQUENCY].",
+        "In the account, frequency [FREQUENCY] accompanies a transaction activity, denoting a steady monthly interaction.",
+        "The transaction activity is presented in the account together with a frequency called [FREQUENCY], reflecting monthly regularity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "regular": [
+          "regular",
+          "steady",
+          "even"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "labeled": [
+          "labeled",
+          "labelled",
+          "tagged"
+        ],
+        "monthly": [
+          "monthly"
+        ],
+        "shows": [
+          "shows"
+        ],
+        "engagement": [
+          "engagement",
+          "participation",
+          "involvement"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ]
+      },
+      "field_data_types": {
+        "frequency": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The bank account was established on 1995-03-24, marking the beginning of a long financial journey.",
+      "template_pattern": "The bank account was established on [DATE], marking the beginning of a long financial journey.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE], the bank account was opened, initiating a prolonged financial odyssey.",
+        "The opening of the bank account occurred on [DATE], heralding the start of an extensive fiscal trek.",
+        "A bank account came into existence on [DATE], kicking off a lengthy financial voyage.",
+        "Established on [DATE], the bank account began a long‑term financial adventure.",
+        "The bank account commenced on [DATE], marking the onset of a drawn‑out financial journey.",
+        "On the date [DATE], the bank account was set up, signaling the launch of a sustained financial path.",
+        "The creation of the bank account on [DATE] signified the beginning of an extended financial expedition.",
+        "With its foundation on [DATE], the bank account embarked on a protracted financial saga.",
+        "[DATE] saw the bank account established, ushering in a long financial pilgrimage.",
+        "The bank account was inaugurated on [DATE], commencing a drawn‑out financial journey.",
+        "Starting on [DATE], the bank account began a lengthy financial odyssey.",
+        "On [DATE], the bank account came into being, initiating an extended financial trek.",
+        "The bank account’s establishment date of [DATE] marked the launch of a prolonged financial journey.",
+        "From [DATE] onward, the bank account was in place, beginning a long‑running financial adventure.",
+        "The bank account, set up on [DATE], signaled the start of a drawn‑out financial voyage."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "journey": [
+          "journey",
+          "travel"
+        ],
+        "marking": [
+          "marking",
+          "scoring",
+          "tag",
+          "marker",
+          "grading",
+          "label",
+          "mark"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "beginning": [
+          "beginning",
+          "start",
+          "outset",
+          "commencement",
+          "origin",
+          "first"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "long": [
+          "long"
+        ],
+        "established": [
+          "established"
+        ],
+        "account": [
+          "account",
+          "accounting",
+          "explanation",
+          "report",
+          "history",
+          "chronicle"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    }
+  ]
+}

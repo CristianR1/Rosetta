@@ -1,0 +1,214 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "3b4913e83f4e4e6e": "hero_id",
+    "06c3b48c6e8f4d77": "attribute_id",
+    "9e435d2f6b344856": "attribute_value"
+  },
+  "templates": [
+    {
+      "original": "The system assigns each unique attribute id, such as [ATTRIBUTE_ID], to ensure precise tracking across all product specifications.",
+      "template_pattern": "The system assigns each unique attribute id, such as [ATTRIBUTE_ID], to ensure precise tracking across all product specifications.",
+      "primary_data_fields": [
+        "attribute_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To guarantee accurate tracking across all product specifications, the system allocates each unique attribute id, such as [ATTRIBUTE_ID], to the relevant items.",
+        "Each unique attribute id—like [ATTRIBUTE_ID]—is assigned by the system to enable precise tracking throughout every product specification.",
+        "The system, in order to maintain precise tracking of all product specifications, assigns a unique attribute id, for example [ATTRIBUTE_ID], to each record.",
+        "Precise tracking across all product specifications is achieved when the system assigns each unique attribute id, e.g., [ATTRIBUTE_ID].",
+        "By assigning each unique attribute id, such as [ATTRIBUTE_ID], the system ensures precise tracking across every product specification.",
+        "Each unique attribute id, for instance [ATTRIBUTE_ID], is allocated by the system to support exact tracking throughout all product specifications.",
+        "To ensure exact tracking in all product specifications, the system designates each unique attribute id, like [ATTRIBUTE_ID], to the corresponding elements.",
+        "The assignment of each unique attribute id—[ATTRIBUTE_ID] being one example—is performed by the system to secure precise tracking across product specifications.",
+        "For precise tracking across all product specifications, the system provides each unique attribute id, exemplified by [ATTRIBUTE_ID].",
+        "Each unique attribute id (e.g., [ATTRIBUTE_ID]) is given by the system to guarantee accurate tracking throughout every product specification.",
+        "The system's allocation of each unique attribute id, such as [ATTRIBUTE_ID], facilitates precise tracking across all product specifications.",
+        "To maintain exact tracking across product specifications, the system distributes each unique attribute id, like [ATTRIBUTE_ID], to the appropriate items.",
+        "Each unique attribute id, with [ATTRIBUTE_ID] as a sample, is assigned by the system to ensure precise tracking across all product specifications.",
+        "Ensuring precise tracking across all product specifications, the system assigns each unique attribute id, for example [ATTRIBUTE_ID].",
+        "The system assigns each unique attribute id, for instance [ATTRIBUTE_ID], thereby guaranteeing accurate tracking throughout all product specifications."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "assigns": [
+          "assigns",
+          "ascribes",
+          "designates",
+          "allots",
+          "attributes",
+          "deputes"
+        ],
+        "ensure": [
+          "ensure",
+          "assure",
+          "ascertain",
+          "secure",
+          "guarantee"
+        ],
+        "specifications": [
+          "specifications"
+        ],
+        "system": [
+          "system",
+          "organization",
+          "organisation",
+          "arrangement",
+          "scheme"
+        ],
+        "tracking": [
+          "tracking"
+        ],
+        "attribute": [
+          "attribute",
+          "property",
+          "dimension",
+          "ascribe",
+          "assign",
+          "impute"
+        ],
+        "such": [
+          "such"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The superhero impressed everyone with an attribute_value of 80, showcasing his extraordinary abilities and unique strengths.",
+      "template_pattern": "The superhero impressed everyone with an attribute_value of [ATTRIBUTE_VALUE], showcasing his extraordinary abilities and unique strengths.",
+      "primary_data_fields": [
+        "attribute_value"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero wowed the crowd with an attribute value of [ATTRIBUTE_VALUE], displaying his remarkable powers and distinctive strengths.",
+        "With an attribute value of [ATTRIBUTE_VALUE], the superhero amazed everyone, illustrating his exceptional abilities and singular strengths.",
+        "Everyone was impressed by the superhero’s attribute value of [ATTRIBUTE_VALUE], as he demonstrated his extraordinary talents and unique strengths.",
+        "An attribute value of [ATTRIBUTE_VALUE] was achieved by the superhero, impressing all observers and highlighting his phenomenal abilities and exclusive strengths.",
+        "The superhero’s attribute value of [ATTRIBUTE_VALUE] left the audience astonished, showcasing his superb capabilities and one‑of‑a‑kind strengths.",
+        "By attaining an attribute value of [ATTRIBUTE_VALUE], the superhero impressed all, revealing his outstanding abilities and distinctive strengths.",
+        "The crowd was dazzled when the superhero recorded an attribute value of [ATTRIBUTE_VALUE], underscoring his impressive skills and unique strengths.",
+        "An attribute value of [ATTRIBUTE_VALUE], presented by the superhero, earned universal admiration and highlighted his extraordinary abilities and singular strengths.",
+        "The superhero, with an attribute value of [ATTRIBUTE_VALUE], captured everyone’s attention, exhibiting his exceptional prowess and unique strengths.",
+        "Everyone admired the superhero’s attribute value of [ATTRIBUTE_VALUE], which served to showcase his remarkable abilities and distinct strengths.",
+        "The superhero’s performance, marked by an attribute value of [ATTRIBUTE_VALUE], impressed all and emphasized his extraordinary talents and unique strengths.",
+        "An attribute value of [ATTRIBUTE_VALUE], delivered by the superhero, impressed the onlookers and displayed his superb abilities and exclusive strengths.",
+        "The superhero impressed the entire audience through an attribute value of [ATTRIBUTE_VALUE], highlighting his exceptional powers and unique strengths.",
+        "With an attribute value of [ATTRIBUTE_VALUE], the superhero earned the admiration of everyone, illustrating his impressive capabilities and singular strengths.",
+        "The attribute value of [ATTRIBUTE_VALUE] attained by the superhero impressed everyone, demonstrating his extraordinary abilities and unique strengths."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "showcasing": [
+          "showcasing"
+        ],
+        "everyone": [
+          "everyone"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ],
+        "extraordinary": [
+          "extraordinary"
+        ],
+        "strengths": [
+          "strengths"
+        ],
+        "abilities": [
+          "abilities"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "impressed": [
+          "impressed"
+        ]
+      },
+      "field_data_types": {
+        "attribute_value": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The professional data report records hero id as 1, providing a definitive identifier for the principal entity examined.",
+      "template_pattern": "The hero id, [HERO_ID], uniquely identifies each character within the report's dataset, enabling precise cross-referencing across all analysis sections.",
+      "primary_data_fields": [
+        "hero_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each character in the report's dataset is uniquely identified by the hero id, [HERO_ID], which allows precise cross‑referencing throughout all analysis sections.",
+        "The hero id, [HERO_ID], serves as a unique identifier for every character within the report's dataset, enabling exact cross‑referencing across all analysis sections.",
+        "Within the report's dataset, the hero id, [HERO_ID], uniquely tags each character, thereby supporting precise cross‑referencing in every analysis section.",
+        "A character’s unique identification in the report's dataset is provided by the hero id, [HERO_ID], facilitating accurate cross‑referencing across all analysis sections.",
+        "By using the hero id, [HERO_ID], each character in the report's dataset can be uniquely distinguished, which makes precise cross‑referencing possible across all analysis sections.",
+        "The hero id, [HERO_ID], uniquely marks each character inside the report's dataset, allowing for precise cross‑referencing throughout all analysis sections.",
+        "In the report's dataset, every character is uniquely labeled with the hero id, [HERO_ID], supporting precise cross‑referencing across all analysis sections.",
+        "Unique identification of each character in the report's dataset is achieved through the hero id, [HERO_ID], and this enables precise cross‑referencing across all analysis sections.",
+        "The hero id, [HERO_ID], uniquely designates each character within the report's dataset, thereby permitting exact cross‑referencing in all analysis sections.",
+        "Each character receives a unique tag via the hero id, [HERO_ID], in the report's dataset, which in turn allows precise cross‑referencing across all analysis sections.",
+        "Through the hero id, [HERO_ID], the report's dataset uniquely identifies every character, granting the ability to cross‑reference precisely across all analysis sections.",
+        "The report's dataset employs the hero id, [HERO_ID], to uniquely identify each character, thus enabling precise cross‑referencing throughout all analysis sections.",
+        "A unique identifier, hero id, [HERO_ID], is assigned to every character in the report's dataset, facilitating accurate cross‑referencing across all analysis sections.",
+        "Every character in the report's dataset is uniquely tagged by the hero id, [HERO_ID]; this provides precise cross‑referencing across all analysis sections.",
+        "Utilizing the hero id, [HERO_ID], the report's dataset uniquely distinguishes each character, which supports precise cross‑referencing throughout all analysis sections."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study"
+        ],
+        "referencing": [
+          "referencing"
+        ],
+        "across": [
+          "across"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "hero": [
+          "hero",
+          "champion"
+        ],
+        "character": [
+          "character",
+          "persona",
+          "role",
+          "type"
+        ],
+        "enabling": [
+          "enabling"
+        ],
+        "precise": [
+          "precise",
+          "accurate",
+          "exact"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

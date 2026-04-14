@@ -1,0 +1,702 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "a53351f0473d4284": "trans_id",
+    "74fcca007755448d": "account_id",
+    "44d16ad5d170426a": "date",
+    "066e1fc346254b88": "type",
+    "0498f2af003f47d4": "operation",
+    "c0d7a03e7bb04d1f": "amount",
+    "3c82ee9c08b944df": "balance",
+    "bb845a7f79be4c1c": "k_symbol",
+    "e739af93710e472b": "bank",
+    "9abefdb0f3c44171": "account"
+  },
+  "templates": [
+    {
+      "original": "On 1995-03-24, a significant financial transaction occurred, marking an important point in the chronological analysis of payment history.",
+      "template_pattern": "On [DATE], a significant financial transaction occurred, marking an important point in the chronological analysis of payment history.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The date [DATE] saw a major financial transaction take place, representing a key milestone in the timeline analysis of payment history.",
+        "A noteworthy financial transaction happened on [DATE], serving as an important marker in the chronological review of payment history.",
+        "On [DATE], a substantial monetary transfer was recorded, highlighting a pivotal moment in the sequential examination of payment history.",
+        "The financial record for [DATE] includes a significant transaction, which constitutes a crucial point in the ordered analysis of payment history.",
+        "A critical point in the chronological study of payment history is marked by a significant financial transaction that occurred on [DATE].",
+        "[DATE] marks the occurrence of a major financial transaction, underscoring an essential juncture in the timeline of payment history analysis.",
+        "A major financial transaction was logged on [DATE], indicating an important stage in the chronological assessment of payment history.",
+        "The occurrence of a significant financial transaction on [DATE] delineates a notable point within the sequential analysis of payment history.",
+        "On the date [DATE], a significant monetary transaction took place, marking a vital point in the chronological evaluation of payment history.",
+        "A significant financial transaction took place on [DATE], serving as an important reference point in the chronological analysis of payment history.",
+        "The payment history's chronological analysis is highlighted by a major transaction that happened on [DATE].",
+        "Recorded on [DATE], a notable financial transaction represents a key moment in the ordered review of payment history.",
+        "A pivotal financial transaction occurred on [DATE], marking an essential point in the chronological study of payment history.",
+        "The date [DATE] is associated with a significant financial transaction, which acts as an important marker in the timeline analysis of payment history.",
+        "On [DATE], a major financial transaction was executed, indicating a crucial point in the chronological examination of payment history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "note",
+          "mark",
+          "grade"
+        ],
+        "payment": [
+          "payment",
+          "defrayal",
+          "defrayment"
+        ],
+        "occurred": [
+          "occurred"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "important": [
+          "important",
+          "significant",
+          "crucial"
+        ],
+        "chronological": [
+          "chronological"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The latest financial report shows that the transaction type is PRIJEM, indicating a specific category of financial activity.",
+      "template_pattern": "The latest financial report shows that the transaction type is [TYPE], indicating a specific category of financial activity.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the latest financial report, the transaction type is [TYPE], which signals a distinct category of financial activity.",
+        "The newest financial report shows that the transaction type is [TYPE], indicating a particular financial activity category.",
+        "In the most recent financial report, the transaction type is [TYPE], denoting a specific category of financial activity.",
+        "A specific category of financial activity is identified by [TYPE], the transaction type recorded in the latest financial report.",
+        "The transaction type is [TYPE], as the latest financial report reveals, pointing to a defined financial activity category.",
+        "From the latest financial report we learn that the transaction type is [TYPE], marking a particular category of financial activity.",
+        "The latest financial report indicates that the transaction type is [TYPE], representing a specific financial activity category.",
+        "[TYPE], the transaction type noted in the latest financial report, reflects a distinct category of financial activity.",
+        "The most up‑to‑date financial report confirms the transaction type is [TYPE], which designates a certain financial activity category.",
+        "A particular financial activity category is signaled by [TYPE], the transaction type listed in the latest financial report.",
+        "The transaction type is [TYPE], according to the latest financial report, classifying it within a specific financial activity category.",
+        "In the latest financial report, [TYPE] appears as the transaction type, indicating a defined category of financial activity.",
+        "The latest financial report documents that the transaction type is [TYPE], highlighting a specific category of financial activity.",
+        "[TYPE] is the transaction type reported in the latest financial report, denoting a particular financial activity category.",
+        "The transaction type is [TYPE], as documented by the latest financial report, pointing to a distinct category of financial activity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "category": [
+          "category",
+          "class"
+        ],
+        "shows": [
+          "shows",
+          "indicates",
+          "exhibits",
+          "evinces",
+          "demonstrates",
+          "presents"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "report": [
+          "report",
+          "study",
+          "paper",
+          "account"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The recent transaction was categorized as an operation VKLAD, indicating a deposit activity within the financial records.",
+      "template_pattern": "The recent transaction was categorized as an operation [OPERATION], indicating a deposit activity within the financial records.",
+      "primary_data_fields": [
+        "operation"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The recent transaction was logged as an operation [OPERATION], signifying a deposit activity in the financial records.",
+        "In the financial records, the recent transaction is recorded as an operation [OPERATION], which denotes a deposit activity.",
+        "An operation [OPERATION], denoting a deposit activity, classifies the recent transaction within the financial records.",
+        "The recent transaction has been assigned to operation [OPERATION], reflecting a deposit activity across the financial records.",
+        "Within the financial records, the recent transaction falls under operation [OPERATION], indicating a deposit activity.",
+        "Operation [OPERATION], indicating a deposit activity, was applied to the recent transaction in the financial records.",
+        "The recent transaction appears as an operation [OPERATION], which points to a deposit activity in the financial records.",
+        "A deposit activity is signaled by the recent transaction being marked as operation [OPERATION] in the financial records.",
+        "The recent transaction, categorized under operation [OPERATION], reveals a deposit activity inside the financial records.",
+        "In the financial records, the recent transaction receives the label operation [OPERATION], indicating a deposit activity.",
+        "The recent transaction is tagged with operation [OPERATION], indicating a deposit activity within the financial records.",
+        "Operation [OPERATION], representing a deposit activity, categorizes the recent transaction within the financial records.",
+        "The recent transaction has been classified as operation [OPERATION], denoting a deposit activity in the financial records.",
+        "Within the financial records, the recent transaction is identified as operation [OPERATION], a sign of deposit activity.",
+        "The recent transaction was identified as operation [OPERATION], indicating a deposit activity across the financial records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "records": [
+          "records"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "deposit": [
+          "deposit",
+          "repository",
+          "depository",
+          "bank",
+          "depositary"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "recent": [
+          "recent",
+          "late"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ]
+      },
+      "field_data_types": {
+        "operation": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each transaction in the customer's account history reflects a financial activity with an amount of 1000.",
+      "template_pattern": "Each transaction in the customer's account history reflects a financial activity with an amount of [AMOUNT].",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every entry in the customer's account history shows a financial activity with an amount of [AMOUNT].",
+        "Each transaction recorded in the customer's account history reflects a financial activity with an amount of [AMOUNT].",
+        "In the customer's account history, each transaction denotes a financial activity with an amount of [AMOUNT].",
+        "Each transaction listed in the customer's account history corresponds to a financial activity with an amount of [AMOUNT].",
+        "The customer's account history records that each transaction represents a financial activity with an amount of [AMOUNT].",
+        "Within the customer's account history, every transaction mirrors a financial activity with an amount of [AMOUNT].",
+        "A financial activity with an amount of [AMOUNT] is captured in each transaction of the customer's account history.",
+        "Each transaction, as seen in the customer's account history, reflects a financial activity with an amount of [AMOUNT].",
+        "The customer's account history shows that each transaction reflects a financial activity with an amount of [AMOUNT].",
+        "Each transaction in the customer's account history is a record of a financial activity with an amount of [AMOUNT].",
+        "A financial activity, having an amount of [AMOUNT], is reflected in each transaction of the customer's account history.",
+        "In the customer's account history, each transaction evidences a financial activity with an amount of [AMOUNT].",
+        "Each transaction within the customer's account history denotes a financial activity with an amount of [AMOUNT].",
+        "The account history of the customer lists transactions, each reflecting a financial activity with an amount of [AMOUNT].",
+        "Every transaction in the customer's account history signifies a financial activity with an amount of [AMOUNT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "reflects": [
+          "reflects"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "activity": [
+          "activity"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Jane's account has a balance of 1000, reflecting her careful management of her financial transactions.",
+      "template_pattern": "Jane's account has a balance of [BALANCE], reflecting her careful management of her financial transactions.",
+      "primary_data_fields": [
+        "balance"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Jane's account shows a balance of [BALANCE], a testament to her careful management of her financial transactions.",
+        "A balance of [BALANCE] appears in Jane's account, reflecting how carefully she manages her financial transactions.",
+        "With a balance of [BALANCE], Jane's account demonstrates her careful management of her financial transactions.",
+        "Jane's account, which holds a balance of [BALANCE], underscores her careful management of her financial transactions.",
+        "The balance of [BALANCE] in Jane's account highlights her careful management of her financial transactions.",
+        "Jane's careful management of her financial transactions is evident from the balance of [BALANCE] in her account.",
+        "In Jane's account, the balance of [BALANCE] signals her careful management of her financial transactions.",
+        "A balance of [BALANCE] is recorded in Jane's account, indicating her careful management of her financial transactions.",
+        "Jane's account, carrying a balance of [BALANCE], mirrors her careful management of her financial transactions.",
+        "The presence of a balance of [BALANCE] in Jane's account reflects her careful management of her financial transactions.",
+        "Because of her careful management of her financial transactions, Jane's account maintains a balance of [BALANCE].",
+        "Jane's account maintains a balance of [BALANCE], which is a result of her careful management of her financial transactions.",
+        "Owing to her careful management of her financial transactions, a balance of [BALANCE] is shown in Jane's account.",
+        "The balance of [BALANCE] shown in Jane's account is attributable to her careful management of her financial transactions.",
+        "Jane's account, with its balance of [BALANCE], is a product of her careful management of her financial transactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "jane": [
+          "jane"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "careful": [
+          "careful",
+          "measured",
+          "deliberate"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "reflecting": [
+          "reflecting",
+          "reflect"
+        ],
+        "transactions": [
+          "transactions",
+          "proceedings",
+          "dealings"
+        ]
+      },
+      "field_data_types": {
+        "balance": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The key symbol for this financial transaction is not specified, making it difficult to track and categorize the payment history.",
+      "template_pattern": "The key symbol for this financial transaction is [K_SYMBOL], making it difficult to track and categorize the payment history.",
+      "primary_data_fields": [
+        "k_symbol"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction’s k symbol is [K_SYMBOL], making it harder to track and categorize the related financial activities.",
+        "Because the k symbol for this transaction is [K_SYMBOL], tracking and categorizing the associated financial activities becomes complicated.",
+        "Tracking and categorizing the linked financial activities is complicated by the k symbol [K_SYMBOL] assigned to this transaction.",
+        "This transaction carries the k symbol [K_SYMBOL], which adds difficulty to the tracking and categorization of its financial activities.",
+        "The k symbol designated for this transaction, [K_SYMBOL], complicates the tracking and categorization of the associated financial activities.",
+        "With [K_SYMBOL] serving as the k symbol for this transaction, the associated financial activities are harder to track and categorize.",
+        "The assigned k symbol [K_SYMBOL] for this transaction poses challenges for tracking and categorizing the related financial activities.",
+        "Tracking and categorizing the financial activities tied to this transaction is made more complex by the k symbol [K_SYMBOL].",
+        "Because [K_SYMBOL] is the k symbol earmarked for this transaction, monitoring and classifying its financial activities becomes more difficult.",
+        "The presence of the k symbol [K_SYMBOL] in this transaction complicates both the tracking and categorization of its financial activities.",
+        "This transaction’s k symbol, [K_SYMBOL], introduces complications in tracking and categorizing the associated financial activities.",
+        "The k symbol [K_SYMBOL], attached to this transaction, hinders effective tracking and categorization of the related financial activities.",
+        "Tracking and categorizing the financial activities linked to this transaction is complicated due to the k symbol [K_SYMBOL].",
+        "As the k symbol for this transaction is [K_SYMBOL], the associated financial activities are more challenging to track and categorize.",
+        "The transaction is identified by the k symbol [K_SYMBOL], which makes tracking and categorizing its financial activities more complex."
+      ],
+      "counter_variations": [
+        "Because the k symbol for this financial transaction is not specified, tracking and categorizing the payment history becomes challenging.",
+        "The k symbol of this financial transaction remains unspecified, thereby complicating the tracking and classification of the payment history.",
+        "In this financial transaction, the k symbol is not available, which makes it arduous to monitor and organize the payment history.",
+        "Since the k symbol associated with this financial transaction is unknown, efforts to trace and categorize the payment history are hindered.",
+        "The lack of a not specified k symbol for this financial transaction impedes both the tracking and the categorization of the payment history.",
+        "When the k symbol for this financial transaction is not specified, analysts encounter difficulty in tracing and classifying the payment history.",
+        "Given that the k symbol in this financial transaction is unspecified, the ability to follow and categorize the payment history is substantially reduced.",
+        "The financial transaction’s k symbol is not available, resulting in significant obstacles to tracking and organizing the payment history.",
+        "Because the k symbol tied to this financial transaction remains unknown, the process of tracking and categorizing the payment history is compromised.",
+        "If the k symbol for this financial transaction is not specified, it becomes problematic to monitor and segment the payment history.",
+        "The k symbol is not specified in this financial transaction, which complicates the tracing and categorization of the payment history.",
+        "Due to the k symbol being unspecified for this financial transaction, the task of tracking and categorizing the payment history proves difficult.",
+        "The k symbol for this financial transaction is unknown, thereby obstructing the accurate tracking and classification of the payment history.",
+        "With the k symbol not available in this financial transaction, stakeholders find it challenging to monitor and group the payment history.",
+        "An unspecified k symbol for this financial transaction hampers the ability to track and categorize the payment history effectively."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "categorize": [
+          "categorize",
+          "categorise"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "payment": [
+          "payment"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "specified": [
+          "specified",
+          "designated",
+          "stipulated",
+          "defined",
+          "set"
+        ],
+        "making": [
+          "making",
+          "fashioning",
+          "devising"
+        ],
+        "difficult": [
+          "difficult",
+          "hard"
+        ],
+        "symbol": [
+          "symbol"
+        ]
+      },
+      "field_data_types": {
+        "k_symbol": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The name of the financial institution involved in the transaction is not available.",
+      "template_pattern": "The name of the financial institution involved in the transaction is [BANK].",
+      "primary_data_fields": [
+        "bank"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The bank linked to this financial entry is listed as [BANK], but additional information about the institution is not disclosed.",
+        "[BANK] is the name identified for the bank tied to this financial entry, although the institution’s further details are undisclosed.",
+        "This financial entry’s bank is recorded as [BANK], yet no further details about the institution are provided.",
+        "While the bank for this financial entry is identified as [BANK], the institution’s other particulars remain undisclosed.",
+        "Identified as [BANK], the bank associated with this financial entry lacks any further disclosed details about the institution.",
+        "The bank pertaining to this financial entry bears the identifier [BANK], and no additional information about the institution is available.",
+        "For this financial entry, the bank is recognized as [BANK]; however, the institution’s extra details are not disclosed.",
+        "[BANK] designates the bank connected to this financial entry, though the institution’s further specifics remain unknown.",
+        "The institution’s bank, noted as [BANK] for this financial entry, has no additional details disclosed.",
+        "This financial entry references a bank named [BANK], but further information about the institution is withheld.",
+        "The bank, marked as [BANK] in relation to this financial entry, offers no further disclosed details about the institution.",
+        "Although the bank for this financial entry is [BANK], the institution’s additional particulars are not made public.",
+        "In this financial entry, the bank is identified as [BANK] while the institution’s further data stays undisclosed.",
+        "The bank tied to this financial entry appears as [BANK], yet the institution’s other details remain unknown.",
+        "[BANK] serves as the bank identifier for this financial entry, although no further details about the institution are provided."
+      ],
+      "counter_variations": [
+        "The bank name associated with this transaction is not available.",
+        "For the transaction in question, the bank’s name remains not available.",
+        "The name of the bank that participated in the transaction is not available.",
+        "In this transaction report, the bank name is listed as not available.",
+        "The transaction’s corresponding bank name is currently not available.",
+        "Not available is the bank name tied to the transaction.",
+        "The bank name, which should accompany the transaction details, is not available.",
+        "Due to missing data, the bank name for this transaction is not available.",
+        "The transaction references a bank, yet the bank name is not available.",
+        "Although the transaction is recorded, the bank name is not available.",
+        "The bank name linked to the transaction cannot be provided as it is not available.",
+        "This transaction’s associated bank name remains not available.",
+        "The name of the bank involved in the transaction is currently unspecified.",
+        "We have no record of the bank name for this transaction; it is unknown.",
+        "The bank name pertinent to the transaction is marked as not available."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "institution": [
+          "institution",
+          "establishment",
+          "foundation"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "available": [
+          "available",
+          "usable",
+          "useable"
+        ],
+        "involved": [
+          "involved",
+          "knotty",
+          "convoluted",
+          "Byzantine",
+          "tangled",
+          "tortuous"
+        ]
+      },
+      "field_data_types": {
+        "bank": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The unique identifier for the customer's financial account is currently not available.",
+      "template_pattern": "The unique identifier for the customer's financial account is currently [ACCOUNT].",
+      "primary_data_fields": [
+        "account"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This entry’s designated account carries the numeric code [ACCOUNT], adhering to the current reporting specification.",
+        "The account linked to this entry is recognized by numeric code [ACCOUNT], as required by the current reporting specification.",
+        "Identified by the numeric code [ACCOUNT], the designated account for this entry follows the current reporting specification.",
+        "Numeric code [ACCOUNT] designates the account associated with this entry, reflecting the current reporting specification.",
+        "The account assigned to this entry is marked with numeric code [ACCOUNT], consistent with the current reporting specification.",
+        "For this entry, the designated account is labeled with numeric code [ACCOUNT], in accordance with the current reporting specification.",
+        "The numeric code [ACCOUNT] identifies the account tied to this entry, meeting the current reporting specification.",
+        "In this entry, the account is specified by numeric code [ACCOUNT], which aligns with the current reporting specification.",
+        "This entry’s account, designated by numeric code [ACCOUNT], complies with the current reporting specification.",
+        "The account referenced in this entry bears numeric code [ACCOUNT], fulfilling the current reporting specification.",
+        "By numeric code [ACCOUNT], the designated account for this entry is distinguished, satisfying the current reporting specification.",
+        "The designated account for this entry is denoted by numeric code [ACCOUNT], as stipulated by the current reporting specification.",
+        "Numeric code [ACCOUNT] serves to identify the account linked to this entry, supporting the current reporting specification.",
+        "Associated with this entry, the account is identified through numeric code [ACCOUNT], reflecting the current reporting specification.",
+        "The account tied to this entry is identified by numeric code [ACCOUNT], adhering to the current reporting specification."
+      ],
+      "counter_variations": [
+        "At present, the unique identifier for the customer's financial account is not available.",
+        "The customer's financial account presently lacks a unique identifier, which is not available.",
+        "Because the unique identifier for the customer's financial account is not available, the record cannot be completed.",
+        "In the current report, the unique identifier associated with the customer's financial account is not available.",
+        "The unique identifier tied to the customer's financial account remains not available at this time.",
+        "Given that the unique identifier for the customer's financial account is not available, further processing is delayed.",
+        "The unique identifier for the customer's financial account, as of now, is not available.",
+        "Although the customer's financial account is listed, its unique identifier is not available.",
+        "The unique identifier pertaining to the customer's financial account is not available, pending data retrieval.",
+        "In the latest financial data set, the unique identifier for the customer's financial account is not available.",
+        "The unique identifier for the customer's financial account continues to be not available pending system update.",
+        "Due to a data feed interruption, the unique identifier for the customer's financial account is not available.",
+        "The unique identifier for the customer's financial account cannot be displayed because it is not available.",
+        "Since the unique identifier for the customer's financial account is not available, the entry is marked accordingly.",
+        "The unique identifier for the customer's financial account is not available, reflecting a temporary data gap."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "available": [
+          "available",
+          "usable"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ]
+      },
+      "field_data_types": {
+        "account": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account id, designated as 1, confirms that the financial entity meets the reporting criteria stipulated herein.",
+      "template_pattern": "The report confirms that the account id [ACCOUNT_ID] has maintained a positive balance throughout the fiscal quarter.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the report, the account id [ACCOUNT_ID] sustained a positive balance for the entire fiscal quarter.",
+        "The fiscal quarter saw the account id [ACCOUNT_ID] keep a positive balance, as the report confirms.",
+        "It is confirmed in the report that the account id [ACCOUNT_ID] held a positive balance throughout the fiscal quarter.",
+        "A positive balance was maintained by the account id [ACCOUNT_ID] during the fiscal quarter, per the report.",
+        "The report verifies that throughout the fiscal quarter the account id [ACCOUNT_ID] retained a positive balance.",
+        "Throughout the fiscal quarter, the account id [ACCOUNT_ID] consistently posted a positive balance, according to the report.",
+        "The account id [ACCOUNT_ID] is shown in the report to have preserved a positive balance across the fiscal quarter.",
+        "In the report, it is noted that the account id [ACCOUNT_ID] kept a positive balance over the fiscal quarter.",
+        "Positive balance throughout the fiscal quarter was recorded for the account id [ACCOUNT_ID] in the report.",
+        "The report indicates that the account id [ACCOUNT_ID] maintained a positive balance for the whole fiscal quarter.",
+        "During the fiscal quarter, the account id [ACCOUNT_ID] maintained a positive balance, as documented in the report.",
+        "The account id [ACCOUNT_ID] has, per the report, held a positive balance for the duration of the fiscal quarter.",
+        "According to the financial report, the account id [ACCOUNT_ID] retained a positive balance throughout the fiscal quarter.",
+        "The report confirms the account id [ACCOUNT_ID] stayed in positive balance across the fiscal quarter.",
+        "For the entire fiscal quarter, the account id [ACCOUNT_ID] kept a positive balance, according to the report."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "positive": [
+          "positive",
+          "plus",
+          "confident"
+        ],
+        "report": [
+          "report",
+          "study",
+          "account",
+          "paper",
+          "composition"
+        ],
+        "fiscal": [
+          "fiscal",
+          "financial"
+        ],
+        "quarter": [
+          "quarter",
+          "fourth"
+        ],
+        "throughout": [
+          "throughout"
+        ],
+        "account": [
+          "account",
+          "report",
+          "chronicle",
+          "explanation",
+          "history"
+        ],
+        "maintained": [
+          "maintained",
+          "retained",
+          "sustained",
+          "conserved"
+        ],
+        "confirms": [
+          "confirms"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The transaction’s trans id is recorded as 1, indicating its inclusion within the current financial data report’s validated series.",
+      "template_pattern": "The report indicates that the transaction identified by trans id [TRANS_ID] was processed successfully on the settlement date.",
+      "primary_data_fields": [
+        "trans_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The report shows that the transaction with trans id [TRANS_ID] was successfully processed on the settlement date.",
+        "According to the report, the transaction identified by trans id [TRANS_ID] completed processing successfully on the settlement date.",
+        "The settlement date saw the transaction bearing trans id [TRANS_ID] processed without issues, as the report confirms.",
+        "In the report, it is noted that the transaction marked by trans id [TRANS_ID] was processed successfully on the settlement date.",
+        "The report indicates the transaction, trans id [TRANS_ID], underwent successful processing on the settlement date.",
+        "On the settlement date, the transaction referenced by trans id [TRANS_ID] was processed successfully, the report states.",
+        "As per the report, the transaction having trans id [TRANS_ID] achieved successful processing on the settlement date.",
+        "The report reveals that on the settlement date the transaction with trans id [TRANS_ID] was processed successfully.",
+        "It is recorded in the report that the transaction identified via trans id [TRANS_ID] was successfully processed on the settlement date.",
+        "The transaction carrying trans id [TRANS_ID] was processed successfully on the settlement date, according to the report.",
+        "According to the report, on the settlement date the transaction with trans id [TRANS_ID] completed processing successfully.",
+        "The report confirms that the transaction, identified by trans id [TRANS_ID], was successfully processed on the settlement date.",
+        "On the settlement date, the report notes that the transaction bearing trans id [TRANS_ID] was processed successfully.",
+        "The report states that the transaction associated with trans id [TRANS_ID] was processed successfully on the settlement date.",
+        "It is indicated in the report that the transaction marked with trans id [TRANS_ID] underwent successful processing on the settlement date."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identified": [
+          "identified"
+        ],
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "trans": [
+          "trans"
+        ],
+        "settlement": [
+          "settlement",
+          "liquidation",
+          "closure",
+          "resolution"
+        ],
+        "processed": [
+          "processed",
+          "refined"
+        ],
+        "successfully": [
+          "successfully"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

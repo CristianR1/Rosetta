@@ -1,0 +1,37 @@
+{
+  "database": "financial",
+  "table": "loan",
+  "entry_index": 0,
+  "original_data": {
+    "loan_id": "4959",
+    "account_id": "2",
+    "date": "1994-01-05",
+    "amount": "80952",
+    "duration": "24",
+    "payments": "3373.0",
+    "status": "A"
+  },
+  "generated_sentences": [
+    "The loan agreement identified by loan_id 4959 was signed and processed last week, ensuring smooth management of the transaction. (Hash: 2d0fe7865987457d)",
+    "The loan agreement was smoothly processed under account_id 2, ensuring the transactions were tracked with precision. (Hash: 2cee4fa77f124d4c)",
+    "The loan agreement received official approval on 1994-01-05, marking a key date in the lending process. (Hash: baea17e91c6a4972)",
+    "The bank approved an amount of 80952 for the loan, providing the borrower with the necessary funds for their project. (Hash: f7bc1363e8394afc)",
+    "The loan agreement specifies a duration of 24 months, providing ample time for the borrower to manage repayments effectively. (Hash: 6a5d863067e444d4)",
+    "The borrowers collectively made payments totaling 3373, marking a significant step in fulfilling their loan obligations. (Hash: d5557a12880e4e7f)",
+    "The current loan repayment status for the client is categorized as A, indicating the condition of their agreement. (Hash: abc66dad8d754113)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "2d0fe7865987457d": "loan_id",
+    "2cee4fa77f124d4c": "account_id",
+    "baea17e91c6a4972": "date",
+    "f7bc1363e8394afc": "amount",
+    "6a5d863067e444d4": "duration",
+    "d5557a12880e4e7f": "payments",
+    "abc66dad8d754113": "status"
+  },
+  "timestamp": "2026-03-31 16:40:01"
+}

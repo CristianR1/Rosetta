@@ -1,0 +1,951 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "50bd779922e54a78": "expense_id",
+    "fc415ef00ec74090": "expense_description",
+    "24e9888adbe74d20": "expense_date",
+    "aadf42625b4d4728": "cost",
+    "843375be748a4a9e": "approved",
+    "544ac44ea15d4698": "link_to_member",
+    "31a54f65976b425f": "link_to_budget"
+  },
+  "templates": [
+    {
+      "original": "The expense_id rec017x6R3hQqkLAo was crucial in clarifying the recent financial transaction for the student club's event budget.",
+      "template_pattern": "The expense_id [EXPENSE_ID] was crucial in clarifying the recent financial transaction for the student club's event budget.",
+      "primary_data_fields": [
+        "expense_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The expense id [EXPENSE_ID] proved essential for elucidating the latest financial transaction tied to the student club's event budget.",
+        "Clarifying the recent financial transaction for the student club's event budget hinged on the expense id [EXPENSE_ID].",
+        "It was the expense id [EXPENSE_ID] that played a pivotal role in shedding light on the newest financial transaction for the student club's event budget.",
+        "The recent financial transaction concerning the student club's event budget was clarified thanks to the expense id [EXPENSE_ID].",
+        "Because of the expense id [EXPENSE_ID], the recent financial transaction for the student club's event budget became clear.",
+        "The expense id [EXPENSE_ID] is what made the recent financial transaction for the student club's event budget understandable.",
+        "In the context of the student club's event budget, the recent financial transaction was made clear by the expense id [EXPENSE_ID].",
+        "For the student club's event budget, the expense id [EXPENSE_ID] was instrumental in clarifying the recent financial transaction.",
+        "The recent financial transaction linked to the student club's event budget was illuminated through the expense id [EXPENSE_ID].",
+        "Thanks to the expense id [EXPENSE_ID], clarification of the recent financial transaction for the student club's event budget was achieved.",
+        "The expense id [EXPENSE_ID] served as the key factor in untangling the recent financial transaction for the student club's event budget.",
+        "A clear understanding of the recent financial transaction for the student club's event budget stemmed from the expense id [EXPENSE_ID].",
+        "With the expense id [EXPENSE_ID], the recent financial transaction for the student club's event budget was successfully clarified.",
+        "The recent financial transaction for the student club's event budget could be clarified only because of the expense id [EXPENSE_ID].",
+        "By leveraging the expense id [EXPENSE_ID], the recent financial transaction affecting the student club's event budget was clarified."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "society",
+          "order",
+          "lodge"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ],
+        "budget": [
+          "budget"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "recent": [
+          "recent",
+          "late"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {
+        "expense_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "After reviewing the budget allocations, the club members felt confident in the event's success.",
+      "template_pattern": "After reviewing the budget allocations, the club members felt confident in the event's success.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Once the budget allocations were examined, the club's members expressed confidence in the event's success.",
+        "Having reviewed the financial allocations, the members of the club felt assured that the event would succeed.",
+        "The club members, after scrutinizing the budget distribution, were confident about the event's success.",
+        "Confidence in the event's success was felt by the club's members after they analyzed the budget allocations.",
+        "Upon reviewing the budget allocations, the association's members became optimistic regarding the event's outcome.",
+        "After the budget allocations were assessed, the club members were certain the event would be successful.",
+        "The event's success seemed assured to the club members once they had evaluated the financial allocations.",
+        "Following a review of the budget distribution, the club's members felt sure of the event's triumph.",
+        "The members of the club, after analyzing the budget allocations, believed the event would succeed.",
+        "After an examination of the budget allocations, confidence in the event's success rose among the club members.",
+        "The club members, upon scrutinizing the monetary allocations, were confident that the event would be a success.",
+        "Once the financial allocations were reviewed, the club's members expressed certainty about the event's success.",
+        "Having assessed the budget allocations, confidence in the event's success was shared by the club members.",
+        "After reviewing the budget distribution, the group felt assured of a successful event.",
+        "The event's prospective success was trusted by the club members after they evaluated the budget allocations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "confident": [
+          "confident",
+          "positive",
+          "convinced"
+        ],
+        "success": [
+          "success"
+        ],
+        "members": [
+          "members"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "society",
+          "order",
+          "lodge"
+        ],
+        "reviewing": [
+          "reviewing"
+        ],
+        "budget": [
+          "budget"
+        ],
+        "felt": [
+          "felt"
+        ],
+        "after": [
+          "after"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The student organization allocated funds for Post Cards, Posters to enhance their event's visibility and increase participation among peers.",
+      "template_pattern": "The student organization allocated funds for [EXPENSE_DESCRIPTION] to enhance their event's visibility and increase participation among peers.",
+      "primary_data_fields": [
+        "expense_description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization earmarked money for [EXPENSE_DESCRIPTION] to boost the event’s visibility and increase peer participation.",
+        "Funds were allocated by the student organization toward [EXPENSE_DESCRIPTION] in order to improve the visibility of their event and raise participation among peers.",
+        "To enhance the event’s visibility and encourage participation among peers, the student organization set aside resources for [EXPENSE_DESCRIPTION].",
+        "By assigning budget to [EXPENSE_DESCRIPTION], the student organization aimed to sharpen the event’s visibility and lift peer participation.",
+        "The student organization designated funds for [EXPENSE_DESCRIPTION], thereby elevating the event’s visibility and fostering greater participation among peers.",
+        "In an effort to amplify visibility of the event and spur peer involvement, the student organization allocated money for [EXPENSE_DESCRIPTION].",
+        "[EXPENSE_DESCRIPTION] received funding from the student organization, a move intended to heighten event visibility and boost participation among peers.",
+        "Consequently, the student organization allocated resources for [EXPENSE_DESCRIPTION] to raise the event’s visibility and increase engagement among peers.",
+        "To raise the event’s visibility and attract more peer participation, the student organization committed funds to [EXPENSE_DESCRIPTION].",
+        "The allocation of funds for [EXPENSE_DESCRIPTION] by the student organization was meant to improve event visibility and encourage peer participation.",
+        "Moreover, the student organization set aside budget for [EXPENSE_DESCRIPTION] with the goal of enhancing event visibility and expanding participation among peers.",
+        "Through funding [EXPENSE_DESCRIPTION], the student organization sought to increase the visibility of their event and promote higher peer participation.",
+        "The student organization’s budget includes [EXPENSE_DESCRIPTION], intended to boost the event’s visibility and elevate participation among peers.",
+        "As a result, funds were directed by the student organization toward [EXPENSE_DESCRIPTION] to augment event visibility and stimulate peer participation.",
+        "To maximize event visibility and drive participation among peers, the student organization provided financing for [EXPENSE_DESCRIPTION]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "peers": [
+          "peers"
+        ],
+        "increase": [
+          "increase",
+          "increment",
+          "addition",
+          "growth",
+          "gain"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "funds": [
+          "funds",
+          "finances"
+        ],
+        "participation": [
+          "participation",
+          "involvement",
+          "engagement"
+        ],
+        "visibility": [
+          "visibility",
+          "profile"
+        ],
+        "allocated": [
+          "allocated"
+        ]
+      },
+      "field_data_types": {
+        "expense_description": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The marketing materials were expected to draw a considerable crowd, adding excitement to the upcoming event.",
+      "template_pattern": "The marketing materials were expected to draw a considerable crowd, adding excitement to the upcoming event.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "It was anticipated that the promotional brochures would attract a sizable audience, thereby heightening enthusiasm for the forthcoming event.",
+        "The upcoming event was set to buzz with excitement as the marketing collateral was expected to pull in a large crowd.",
+        "Expecting a considerable turnout, the marketing materials were projected to boost excitement for the event that lies ahead.",
+        "Anticipated to draw a substantial crowd, the promotional assets added a thrill to the imminent event.",
+        "The promotional materials, forecasted to attract a notable audience, infused the approaching event with extra excitement.",
+        "By drawing a considerable crowd, the marketing handouts were expected to amplify the excitement surrounding the upcoming event.",
+        "With the expectation of a large gathering, the marketing literature was poised to inject excitement into the forthcoming event.",
+        "The upcoming event’s excitement was set to increase thanks to marketing collateral predicted to pull a sizable crowd.",
+        "Forecasts suggested that the marketing pieces would pull in a considerable audience, thereby energizing the imminent event.",
+        "The event on the horizon was expected to gain extra excitement as the marketing materials attracted a large crowd.",
+        "Anticipating a big turnout, the promotional content was meant to add vigor to the upcoming event.",
+        "The marketing brochures were projected to bring in a considerable crowd, which would heighten excitement for the event to come.",
+        "Expected to rally a substantial audience, the marketing assets contributed additional excitement to the soon‑to‑occur event.",
+        "By attracting a notable crowd, the promotional materials were slated to boost the excitement surrounding the upcoming event.",
+        "The upcoming event’s anticipation grew as the marketing materials were forecasted to draw a large crowd."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "crowd": [
+          "crowd"
+        ],
+        "marketing": [
+          "marketing",
+          "selling",
+          "commercialize",
+          "commercialise",
+          "merchandising",
+          "market"
+        ],
+        "expected": [
+          "expected"
+        ],
+        "adding": [
+          "adding"
+        ],
+        "materials": [
+          "materials"
+        ],
+        "excitement": [
+          "excitement",
+          "exhilaration",
+          "fervor",
+          "fervour"
+        ],
+        "considerable": [
+          "considerable"
+        ],
+        "draw": [
+          "draw",
+          "pull",
+          "attract",
+          "depict",
+          "trace",
+          "guide"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The expense_date for the student organization was recorded as 2019-08-20, marking an important entry in their financial timeline.",
+      "template_pattern": "The expense_date for the student organization was recorded as [EXPENSE_DATE], marking an important entry in their financial timeline.",
+      "primary_data_fields": [
+        "expense_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The expense date for the student organization was logged on [EXPENSE_DATE], representing a key point in its financial timeline.",
+        "On [EXPENSE_DATE], the student organization’s expense date was entered, marking a significant milestone in its fiscal chronology.",
+        "Recorded as [EXPENSE_DATE], the expense date for the student organization highlights an important entry in its financial record.",
+        "An important entry in the student organization’s financial timeline occurred when its expense date was set to [EXPENSE_DATE].",
+        "The student organization recorded its expense date as [EXPENSE_DATE], a notable moment in its financial history.",
+        "Marking a pivotal point in the financial timeline, the expense date for the student organization was noted as [EXPENSE_DATE].",
+        "The expense date, noted on [EXPENSE_DATE], signifies a crucial entry for the student organization’s finances.",
+        "For the student organization, the expense date was captured on [EXPENSE_DATE], underscoring an essential entry in its fiscal timeline.",
+        "As of [EXPENSE_DATE], the expense date for the student organization was documented, marking a major point in its financial chronology.",
+        "The student organization’s expense date, recorded on [EXPENSE_DATE], serves as an important entry in its financial timeline.",
+        "With the expense date set to [EXPENSE_DATE], the student organization marked a significant event in its financial timeline.",
+        "The financial timeline of the student organization includes an important entry: its expense date of [EXPENSE_DATE].",
+        "On the date [EXPENSE_DATE], the expense date for the student organization was entered, highlighting a key moment in its finances.",
+        "The expense date for the student organization, logged as [EXPENSE_DATE], represents a noteworthy entry in its financial timeline.",
+        "A crucial entry in the student organization’s financial timeline was made when the expense date was recorded as [EXPENSE_DATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "timeline": [
+          "timeline"
+        ],
+        "recorded": [
+          "recorded",
+          "registered",
+          "entered"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "marking": [
+          "marking",
+          "grading",
+          "scoring"
+        ],
+        "important": [
+          "important",
+          "significant",
+          "crucial"
+        ],
+        "entry": [
+          "entry",
+          "entrance",
+          "introduction",
+          "ingress",
+          "submission",
+          "debut"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "organization": [
+          "organization",
+          "administration",
+          "system",
+          "establishment",
+          "arrangement"
+        ]
+      },
+      "field_data_types": {
+        "expense_date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With the date set, the team worked diligently to meet all deadlines for the event preparations.",
+      "template_pattern": "With the date set, the team worked diligently to meet all deadlines for the event preparations.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Once the date was fixed, the team toiled relentlessly to satisfy every deadline for the event's preparations.",
+        "The team, having the date established, diligently pursued all preparation deadlines for the event.",
+        "All deadlines for the event preparations were met by the team, who worked hard after the date was set.",
+        "After confirming the date, the team earnestly chased every preparation deadline for the event.",
+        "With the schedule locked in, the team pressed on, ensuring all event‑preparation deadlines were fulfilled.",
+        "The date being set, the team set about meeting each deadline for the event's preparation with diligence.",
+        "As soon as the date was confirmed, the team diligently aimed to hit every deadline tied to the event preparation.",
+        "The event’s preparation deadlines were tackled by the team, who worked diligently once the date was fixed.",
+        "Having secured the date, the team vigorously pursued all deadlines associated with the event preparations.",
+        "The team, after the date was established, worked assiduously to meet every preparation deadline for the event.",
+        "With the date finalized, all event‑preparation deadlines were pursued diligently by the team.",
+        "Once the date was set, diligent effort from the team ensured every deadline for the event’s preparation was met.",
+        "The date set, the team set a rigorous pace to satisfy all preparation deadlines for the upcoming event.",
+        "After the date had been locked, the team worked painstakingly to fulfill each deadline related to the event preparations.",
+        "The team, upon the date being fixed, applied diligent effort to meet all deadlines for preparing the event."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "team": [
+          "team"
+        ],
+        "deadlines": [
+          "deadlines"
+        ],
+        "meet": [
+          "meet",
+          "encounter",
+          "satisfy",
+          "fulfill",
+          "match",
+          "gather"
+        ],
+        "preparations": [
+          "preparations"
+        ],
+        "diligently": [
+          "diligently"
+        ],
+        "event": [
+          "event",
+          "result",
+          "outcome",
+          "effect",
+          "consequence",
+          "upshot"
+        ],
+        "worked": [
+          "worked"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The student organization recorded an expense of 122.06 as part of its detailed financial transactions.",
+      "template_pattern": "The student organization recorded an expense of [COST] as part of its detailed financial transactions.",
+      "primary_data_fields": [
+        "cost"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization logged a cost of [COST] within its comprehensive financial transactions.",
+        "A cost of [COST] was recorded by the student organization as part of its detailed financial activity.",
+        "In its thorough financial records, the student organization entered a cost of [COST].",
+        "As one of its detailed financial transactions, the student organization noted a cost of [COST].",
+        "The student group documented a cost of [COST] among its extensive financial dealings.",
+        "Among the detailed financial entries, a cost of [COST] was captured by the student organization.",
+        "Recording a cost of [COST], the student organization added it to its elaborate financial transaction list.",
+        "The student organization’s financial ledger shows a cost of [COST] in its detailed transaction set.",
+        "A cost of [COST] appears in the student organization’s meticulously kept financial records.",
+        "Within the student organization’s detailed financial transactions, a cost of [COST] was entered.",
+        "The student organization has entered a cost of [COST] as part of its exhaustive financial transaction log.",
+        "A cost of [COST] was entered into the student organization’s detailed financial transaction report.",
+        "In the detailed financial transactions of the student organization, a cost of [COST] was recorded.",
+        "The student organization, while compiling detailed financial transactions, documented a cost of [COST].",
+        "Detailed financial transaction records of the student organization include a cost of [COST]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recorded": [
+          "recorded"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "expense": [
+          "expense",
+          "disbursement",
+          "disbursal"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "administration",
+          "governance",
+          "system",
+          "establishment"
+        ],
+        "part": [
+          "part",
+          "section",
+          "component",
+          "portion",
+          "piece",
+          "share"
+        ],
+        "detailed": [
+          "detailed",
+          "elaborate"
+        ]
+      },
+      "field_data_types": {
+        "cost": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Ensuring transparency, every financial decision was meticulously documented.",
+      "template_pattern": "Ensuring transparency, every financial decision was meticulously documented.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "To maintain transparency, we meticulously recorded each financial decision.",
+        "Every financial decision was carefully logged to guarantee transparency.",
+        "In the interest of openness, each financial choice was documented with precision.",
+        "Meticulous documentation of all financial decisions ensured full transparency.",
+        "Transparency was secured by thoroughly documenting every financial decision.",
+        "Each financial decision was systematically recorded, ensuring transparency.",
+        "By diligently documenting every financial decision, we upheld transparency.",
+        "All financial choices were captured in detail, thereby preserving transparency.",
+        "Transparency was achieved through painstaking documentation of each financial decision.",
+        "We ensured transparency by precisely documenting every financial decision.",
+        "Every financial decision received meticulous documentation to ensure transparency.",
+        "Through careful recording of each financial decision, transparency was maintained.",
+        "The thorough documentation of every financial decision served to guarantee transparency.",
+        "To uphold transparency, each financial decision was recorded with meticulous care.",
+        "Every financial decision was logged in detail, thereby securing transparency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "meticulously": [
+          "meticulously"
+        ],
+        "transparency": [
+          "transparency"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "decision": [
+          "decision",
+          "determination",
+          "conclusion"
+        ],
+        "documented": [
+          "documented",
+          "attested",
+          "authenticated"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "every": [
+          "every"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The expense for the student organization has been approved as true.",
+      "template_pattern": "The expense for the student organization has been approved as [APPROVED].",
+      "primary_data_fields": [
+        "approved"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Approved as [APPROVED], the expense for the student organization has been recorded.",
+        "The expense for the student organization, approved as [APPROVED], is now in effect.",
+        "Having been approved as [APPROVED], the expense for the student organization stands confirmed.",
+        "In accordance with policy, the expense for the student organization was approved as [APPROVED].",
+        "Approved as [APPROVED], the expense for the student organization receives final endorsement.",
+        "The expense for the student organization is officially approved as [APPROVED].",
+        "As a result of the review, the expense for the student organization has been approved as [APPROVED].",
+        "With approval marked as [APPROVED], the expense for the student organization is validated.",
+        "The expense for the student organization, now approved as [APPROVED], may be disbursed.",
+        "Approved as [APPROVED], the expense for the student organization meets all compliance criteria.",
+        "Following the audit, the expense for the student organization was approved as [APPROVED].",
+        "The expense for the student organization has attained status approved as [APPROVED].",
+        "Having secured an approved as [APPROVED] designation, the expense for the student organization proceeds.",
+        "The expense for the student organization is deemed approved as [APPROVED] by the finance team.",
+        "Approved as [APPROVED], the expense for the student organization clears the final hurdle."
+      ],
+      "counter_variations": [
+        "Within the current financial data report, the approved field appears as null, signifying that no definitive approval decision has been entered.",
+        "The current financial data report shows the approved field set to null, which denotes the absence of a definitive approval decision.",
+        "In the present financial data report, the approved field is designated null, indicating that a definitive approval decision has not been entered.",
+        "A null value occupies the approved field in the current financial data report, reflecting that no definitive approval decision has been recorded.",
+        "The approved field in the current financial data report is populated with null, thereby communicating that a definitive approval decision remains unentered.",
+        "Observing the current financial data report, one finds the approved field marked null, implying that no definitive approval decision has been entered.",
+        "In the current financial data report, the approved field carries a null entry, which conveys that a definitive approval decision has not been supplied.",
+        "The current financial data report records null in the approved field, a notation that no definitive approval decision has been entered.",
+        "Null is the value assigned to the approved field within the current financial data report, indicating the lack of a definitive approval decision.",
+        "Within the current financial data report, the approved field bears the value null, denoting that a definitive approval decision has not been entered.",
+        "The approved field, as presented in the current financial data report, contains null, symbolizing that no definitive approval decision has been entered.",
+        "In the current financial data report, a null entry is found in the approved field, suggesting that a definitive approval decision remains unentered.",
+        "The current financial data report lists null for the approved field, thereby indicating that a definitive approval decision has not been entered.",
+        "Null appears in the approved field of the current financial data report, reflecting the fact that no definitive approval decision has been entered.",
+        "Within the current financial data report, the approved field is logged as null, which signals that a definitive approval decision has not been entered."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "expense": [
+          "expense"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "establishment"
+        ]
+      },
+      "field_data_types": {
+        "approved": "bool"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This approval solidified the plans, allowing the club to move forward without hesitation.",
+      "template_pattern": "This approval solidified the plans, allowing the club to move forward without hesitation.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The club could proceed without delay after the approval cemented the plans.",
+        "With the endorsement in place, the plans were reinforced, enabling the club to advance confidently.",
+        "This green light fortified the strategy, permitting the club to move ahead unhesitatingly.",
+        "By securing approval, the club's plans were solidified, allowing it to progress without pause.",
+        "The plans, now bolstered by the sanction, let the club move forward without hesitation.",
+        "Approval of the proposal solidified the agenda, thus the club can proceed without doubt.",
+        "Having received the approval, the club's plans were strengthened, giving it the freedom to go forward instantly.",
+        "The club was able to advance without hesitation once the approval cemented the plans.",
+        "Once the endorsement was granted, the plans became firm, and the club could move forward unabated.",
+        "This sanction confirmed the plans, thereby allowing the club to proceed without any hesitation.",
+        "The approval locked in the plans, which in turn let the club push ahead confidently.",
+        "With the plans now locked down by the approval, the club can move forward without second‑guessing.",
+        "The club’s forward motion, unhindered, stems from the approval that solidified its plans.",
+        "By ratifying the plans, the approval gave the club the green light to proceed without hesitation.",
+        "The confirmed approval reinforced the plans, enabling the club to advance without any doubts."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "forward": [
+          "forward",
+          "advancing",
+          "onwards",
+          "frontwards",
+          "ahead",
+          "frontward"
+        ],
+        "approval": [
+          "approval",
+          "blessing",
+          "commendation"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "society",
+          "order",
+          "lodge"
+        ],
+        "solidified": [
+          "solidified",
+          "coagulated"
+        ],
+        "move": [
+          "move",
+          "act",
+          "actuate",
+          "propel",
+          "displace",
+          "prompt"
+        ],
+        "hesitation": [
+          "hesitation",
+          "reluctance",
+          "hesitancy",
+          "vacillation",
+          "disinclination"
+        ],
+        "plans": [
+          "plans"
+        ],
+        "without": [
+          "without"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The expense was recorded with reference to the link_to_member rec4BLdZHS2Blfp4v, ensuring proper tracking within the organization.",
+      "template_pattern": "The expense was recorded with reference to the link_to_member [LINK_TO_MEMBER], ensuring proper tracking within the organization.",
+      "primary_data_fields": [
+        "link_to_member"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The expense was logged referencing the link to member [LINK_TO_MEMBER], thereby guaranteeing accurate tracking across the organization.",
+        "By citing the link to member [LINK_TO_MEMBER], we recorded the expense to ensure proper organizational tracking.",
+        "Recording the expense with the link to member [LINK_TO_MEMBER] as a reference secures correct tracking within the organization.",
+        "The organization ensured proper tracking by recording the expense and referencing the link to member [LINK_TO_MEMBER].",
+        "To maintain accurate tracking, the expense was entered with a reference to the link to member [LINK_TO_MEMBER].",
+        "With the link to member [LINK_TO_MEMBER] noted, the expense was captured, facilitating proper tracking within the organization.",
+        "We logged the expense, referencing the link to member [LINK_TO_MEMBER], which ensures the organization tracks it correctly.",
+        "Proper tracking within the organization is achieved by recording the expense and attaching the link to member [LINK_TO_MEMBER].",
+        "The expense entry, tied to the link to member [LINK_TO_MEMBER], guarantees proper organizational tracking.",
+        "By attaching the link to member [LINK_TO_MEMBER], the expense was recorded to support accurate tracking in the organization.",
+        "To ensure the organization tracks it properly, the expense was recorded with the link to member [LINK_TO_MEMBER] as a reference.",
+        "The expense was entered, with a reference to the link to member [LINK_TO_MEMBER], thereby assuring proper tracking throughout the organization.",
+        "Using the link to member [LINK_TO_MEMBER] as a reference, we recorded the expense to maintain proper tracking within the organization.",
+        "Proper organizational tracking is secured when the expense is recorded with the link to member [LINK_TO_MEMBER] attached.",
+        "The organization logged the expense with a reference to the link to member [LINK_TO_MEMBER], ensuring it is tracked correctly."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "within": [
+          "within",
+          "inside"
+        ],
+        "recorded": [
+          "recorded",
+          "register",
+          "enter",
+          "record"
+        ],
+        "proper": [
+          "proper",
+          "right"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "source",
+          "mention",
+          "acknowledgment",
+          "quotation"
+        ],
+        "expense": [
+          "expense",
+          "disbursal",
+          "disbursement"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "administration",
+          "governance",
+          "system",
+          "establishment"
+        ],
+        "ensuring": [
+          "ensuring",
+          "ensure",
+          "assure",
+          "guarantee",
+          "ascertain",
+          "secure"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trail",
+          "tag"
+        ]
+      },
+      "field_data_types": {
+        "link_to_member": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each member felt reassured that all financial activities were properly accounted for.",
+      "template_pattern": "Each member felt reassured that all financial activities were properly accounted for.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each member felt confident that all financial activities were accurately logged.",
+        "The team members were reassured, knowing that every financial activity had been properly accounted for.",
+        "Knowing that all financial transactions were correctly recorded, each member felt at ease.",
+        "All members felt a sense of reassurance because the financial activities had been duly accounted for.",
+        "Because the financial activities were properly documented, every member felt reassured.",
+        "Reassurance washed over each member as they confirmed that all financial activities were correctly accounted for.",
+        "Each member was assured that the accounting of all financial activities was accurate.",
+        "With the assurance that every financial activity was accounted for, each member felt reassured.",
+        "The proper accounting of all financial activities gave each member a feeling of reassurance.",
+        "Each member, assured that all financial activities were properly recorded, felt reassured.",
+        "All members felt reassured, convinced that every financial activity was properly accounted for.",
+        "Knowing that every financial activity had been properly accounted for, each member felt reassured.",
+        "The accurate accounting of all financial activities left each member feeling reassured.",
+        "Each member experienced reassurance after confirming that all financial activities were properly accounted for.",
+        "As all financial activities were properly accounted for, each member felt reassured."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "member": [
+          "member"
+        ],
+        "properly": [
+          "properly",
+          "right"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "reassured": [
+          "reassured"
+        ],
+        "felt": [
+          "felt"
+        ],
+        "accounted": [
+          "accounted"
+        ],
+        "each": [
+          "each"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "To access the financial expenditures document for the student organization, please refer to link_to_budget recvKTAWAFKkVNnXQ.",
+      "template_pattern": "To access the financial expenditures document for the student organization, please refer to link_to_budget [LINK_TO_BUDGET].",
+      "primary_data_fields": [
+        "link_to_budget"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "If you need the student organization's financial expenditures document, consult the link to budget [LINK_TO_BUDGET].",
+        "The financial expenditures file for the student group can be opened via link to budget [LINK_TO_BUDGET].",
+        "Access the student organization’s spending report by clicking on link to budget [LINK_TO_BUDGET].",
+        "For the student organization’s financial expenditures record, use link to budget [LINK_TO_BUDGET].",
+        "You may retrieve the financial expenditures document for the student organization through link to budget [LINK_TO_BUDGET].",
+        "Refer to link to budget [LINK_TO_BUDGET] to obtain the student organization’s financial expenditures document.",
+        "To view the student organization’s expenditures report, follow link to budget [LINK_TO_BUDGET].",
+        "The student organization’s budgetary spending document is available at link to budget [LINK_TO_BUDGET].",
+        "By using link to budget [LINK_TO_BUDGET], you can access the financial expenditures file of the student organization.",
+        "Please locate the financial expenditures document for the student organization via link to budget [LINK_TO_BUDGET].",
+        "Link to budget [LINK_TO_BUDGET] provides the student organization’s financial expenditures documentation.",
+        "To retrieve the student organization’s financial expenditures record, navigate to link to budget [LINK_TO_BUDGET].",
+        "The financial expenditures for the student organization are stored at link to budget [LINK_TO_BUDGET].",
+        "Consult link to budget [LINK_TO_BUDGET] for the student organization’s financial expenditures document.",
+        "If you wish to see the student organization’s expenditure details, go to link to budget [LINK_TO_BUDGET]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "expenditures": [
+          "expenditures"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "access": [
+          "access",
+          "admission",
+          "admittance"
+        ],
+        "refer": [
+          "refer",
+          "cite",
+          "mention",
+          "name"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "administration",
+          "establishment",
+          "arrangement"
+        ],
+        "please": [
+          "please",
+          "delight"
+        ],
+        "document": [
+          "document"
+        ]
+      },
+      "field_data_types": {
+        "link_to_budget": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With everything in place, the student club eagerly anticipated the event's kickoff.",
+      "template_pattern": "With everything in place, the student club eagerly anticipated the event's kickoff.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Now that all arrangements are finalized, the student club eagerly awaited the event’s kickoff.",
+        "With everything set, the kickoff of the event was eagerly anticipated by the student club.",
+        "Having completed all preparations, the student club looked forward with enthusiasm to the event’s opening.",
+        "The student club, having everything in order, was keenly awaiting the start of the event.",
+        "All components in place, the student club anticipated the event’s kickoff with great eagerness.",
+        "Since every detail is settled, the student club is poised to welcome the event’s opening.",
+        "The kickoff of the event, with all elements ready, was met with eager anticipation from the student club.",
+        "After finalizing every requirement, the student club waited anxiously for the event’s commencement.",
+        "With the groundwork laid, the student club looked forward eagerly to the event’s kickoff.",
+        "The event’s start, now fully prepared for, was awaited with enthusiasm by the student club.",
+        "All preparations complete, the student club anticipated the opening of the event with excitement.",
+        "Given that everything is in place, the student club is eagerly anticipating the event’s kickoff.",
+        "The student club, with all plans set, was awaiting the event’s launch with great anticipation.",
+        "Once everything is organized, the student club looks forward eagerly to the event’s kickoff.",
+        "The event’s kickoff, now that all is arranged, has been eagerly anticipated by the student club."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "anticipated": [
+          "anticipated",
+          "awaited"
+        ],
+        "everything": [
+          "everything"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "kickoff": [
+          "kickoff",
+          "commencement",
+          "beginning",
+          "start",
+          "outset"
+        ],
+        "place": [
+          "place",
+          "site",
+          "spot",
+          "position",
+          "space"
+        ],
+        "eagerly": [
+          "eagerly"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

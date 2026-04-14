@@ -1,0 +1,129 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "46892bf2ed1a463f": "id",
+    "30f5c8334d9b4f92": "power_name"
+  },
+  "templates": [
+    {
+      "original": "The superpower with identifier 1 grants the ability to manipulate time effortlessly.",
+      "template_pattern": "The superpower with identifier [ID] grants the ability to manipulate time effortlessly.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "With identifier [ID], the superpower grants the ability to manipulate time effortlessly.",
+        "Effortlessly, the superpower with identifier [ID] provides the capability to manipulate time effortlessly.",
+        "The ability to manipulate time effortlessly is granted by the superpower bearing identifier [ID].",
+        "Identifier [ID] designates a superpower that enables the ability to manipulate time effortlessly.",
+        "Granting the ability to manipulate time effortlessly, the superpower labeled identifier [ID] stands out.",
+        "The superpower with identifier [ID] bestows the ability to manipulate time effortlessly.",
+        "By virtue of identifier [ID], the superpower confers the ability to manipulate time effortlessly.",
+        "The ability to manipulate time effortlessly is granted by the superpower that carries identifier [ID].",
+        "The ability to manipulate time effortlessly comes from the superpower with identifier [ID].",
+        "Through identifier [ID], the superpower provides the ability to manipulate time effortlessly.",
+        "The superpower with identifier [ID], through its power, allows the ability to manipulate time effortlessly.",
+        "The ability to manipulate time effortlessly is a grant from the superpower with identifier [ID].",
+        "The superpower with identifier [ID] endows users with the ability to manipulate time effortlessly.",
+        "With identifier [ID] attached, the superpower offers the ability to manipulate time effortlessly.",
+        "Providing the ability to manipulate time effortlessly, the superpower tagged identifier [ID] serves its purpose."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ability": [
+          "ability",
+          "power"
+        ],
+        "grants": [
+          "grants"
+        ],
+        "effortlessly": [
+          "effortlessly"
+        ],
+        "manipulate": [
+          "manipulate",
+          "control",
+          "falsify"
+        ],
+        "superpower": [
+          "superpower"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's power_name, Agility, allows them to navigate any environment with remarkable speed and precision.",
+      "template_pattern": "The superhero's power_name, [POWER_NAME], allows them to navigate any environment with remarkable speed and precision.",
+      "primary_data_fields": [
+        "power_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's power name, [POWER_NAME], enables them to traverse any environment with remarkable speed and precision.",
+        "With remarkable speed and precision, the superhero's power name, [POWER_NAME], lets them navigate any environment.",
+        "Any environment can be navigated by the superhero, whose power name, [POWER_NAME], provides them with remarkable speed and precision.",
+        "Thanks to the power name [POWER_NAME], the superhero moves through any environment with remarkable speed and precision.",
+        "The power name, [POWER_NAME], granted to the superhero, allows them to handle any environment with remarkable speed and precision.",
+        "By virtue of the superhero's power name, [POWER_NAME], they are able to cross any environment with remarkable speed and precision.",
+        "Remarkable speed and precision are afforded to the superhero through the power name, [POWER_NAME], when they navigate any environment.",
+        "The superhero, equipped with the power name [POWER_NAME], can navigate any environment, delivering remarkable speed and precision.",
+        "Any environment is negotiated by the superhero using the power name, [POWER_NAME], which grants them remarkable speed and precision.",
+        "Because of the power name [POWER_NAME], the superhero is capable of moving through any environment with remarkable speed and precision.",
+        "The superhero's power name, [POWER_NAME], confers on them the ability to navigate any environment with remarkable speed and precision.",
+        "Through the power name [POWER_NAME], the superhero gains the capacity to traverse any environment with remarkable speed and precision.",
+        "Equipped with [POWER_NAME] as their power name, the superhero can handle any environment, exhibiting remarkable speed and precision.",
+        "The power name, [POWER_NAME], bestows upon the superhero the skill to navigate any environment with remarkable speed and precision.",
+        "With the power name [POWER_NAME], the superhero is able to move across any environment, achieving remarkable speed and precision."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ],
+        "environment": [
+          "environment"
+        ],
+        "remarkable": [
+          "remarkable",
+          "noteworthy",
+          "singular"
+        ],
+        "them": [
+          "them"
+        ],
+        "allows": [
+          "allows",
+          "grant",
+          "admit",
+          "tolerate"
+        ],
+        "speed": [
+          "speed",
+          "swiftness",
+          "velocity",
+          "rush",
+          "hurry"
+        ],
+        "precision": [
+          "precision"
+        ],
+        "navigate": [
+          "navigate",
+          "pilot"
+        ]
+      },
+      "field_data_types": {
+        "power_name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

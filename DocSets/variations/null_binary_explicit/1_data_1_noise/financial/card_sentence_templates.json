@@ -1,0 +1,510 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6932cbf0ee7e4b03": "card_id",
+    "3eda267f41e84fe6": "disp_id",
+    "87d4a10d725a4725": "type",
+    "0ccaca4deb50434f": "issued"
+  },
+  "templates": [
+    {
+      "original": "The credit card ending in 1234 has been assigned the unique identifier 1 to streamline transaction tracking.",
+      "template_pattern": "The credit card ending in 1234 has been assigned the unique identifier [CARD_ID] to streamline transaction tracking.",
+      "primary_data_fields": [
+        "card_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card id 1234 was assigned the unique identifier [CARD_ID] to enhance transaction tracking.",
+        "Having the card id 1234, the system allocated unique identifier [CARD_ID] for smoother transaction monitoring.",
+        "To streamline transaction tracking, unique identifier [CARD_ID] has been linked to card id 1234.",
+        "Card id 1234 now carries the unique identifier [CARD_ID], facilitating more efficient transaction tracking.",
+        "For improved transaction tracking, the unique identifier [CARD_ID] was attached to card id 1234.",
+        "The unique identifier [CARD_ID] was applied to card id 1234, thereby simplifying transaction tracking.",
+        "By granting card id 1234 the unique identifier [CARD_ID], transaction tracking becomes more streamlined.",
+        "Card id 1234 receives unique identifier [CARD_ID], which aids in the efficient tracking of transactions.",
+        "In order to optimize transaction tracking, card id 1234 has been given the unique identifier [CARD_ID].",
+        "The system has designated unique identifier [CARD_ID] to card id 1234 to better track transactions.",
+        "Unique identifier [CARD_ID] now corresponds to card id 1234, supporting streamlined transaction monitoring.",
+        "To aid transaction tracking, the unique identifier [CARD_ID] was assigned to card id 1234.",
+        "With card id 1234, the unique identifier [CARD_ID] was allocated to simplify tracking of transactions.",
+        "Card id 1234 is now paired with unique identifier [CARD_ID], improving the flow of transaction tracking.",
+        "Assigning unique identifier [CARD_ID] to card id 1234 helps to make transaction tracking more efficient."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequaled",
+          "unequalled"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "streamline": [
+          "streamline"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "credit": [
+          "credit",
+          "acknowledgment",
+          "citation",
+          "reference",
+          "recognition",
+          "mention"
+        ],
+        "tracking": [
+          "tracking",
+          "track"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "ending": [
+          "ending",
+          "conclusion",
+          "close",
+          "closing",
+          "end"
+        ]
+      },
+      "field_data_types": {
+        "card_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This identifier plays a crucial role in the seamless processing of payments and transactions.",
+      "template_pattern": "This identifier plays a crucial role in the seamless processing of payments and transactions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The identifier is essential for the smooth handling of payments and transactions.",
+        "A seamless processing of payments and transactions hinges on this identifier.",
+        "Payments and transactions are processed effortlessly thanks to this crucial identifier.",
+        "This identifier underpins the efficient processing of both payments and transactions.",
+        "In ensuring seamless payment and transaction processing, this identifier plays a vital role.",
+        "The smooth execution of payments and transactions relies heavily on this identifier.",
+        "Crucial to flawless payment and transaction workflows, the identifier ensures seamless processing.",
+        "Seamless processing of payments and transactions is made possible by this key identifier.",
+        "By acting as a pivotal element, this identifier facilitates the uninterrupted flow of payments and transactions.",
+        "This identifier serves as a cornerstone for the uninterrupted processing of payments and transactions.",
+        "For payments and transactions to be processed without hitches, this identifier is indispensable.",
+        "The role of this identifier is critical in achieving seamless payment and transaction processing.",
+        "Ensuring that payments and transactions proceed smoothly, this identifier holds a crucial function.",
+        "A smooth processing of payments and transactions depends on the presence of this identifier.",
+        "The identifier's importance lies in its ability to enable seamless handling of payments and transactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "plays": [
+          "plays"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "processing": [
+          "processing",
+          "process",
+          "work"
+        ],
+        "payments": [
+          "payments"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "proceedings"
+        ],
+        "seamless": [
+          "seamless"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part",
+          "office"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The transaction was easily identified by its unique disp_id, which was listed as 9.",
+      "template_pattern": "The transaction was easily identified by its unique disp_id, which was listed as [DISP_ID].",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction was readily recognized thanks to its unique disp id, recorded as [DISP_ID].",
+        "By its unique disp id of [DISP_ID], the transaction could be quickly pinpointed.",
+        "Using the distinct disp id [DISP_ID], analysts easily identified the transaction.",
+        "The transaction’s unique disp id, listed as [DISP_ID], made it simple to spot.",
+        "Owing to the unique disp id [DISP_ID], the transaction was swiftly detected.",
+        "With a disp id of [DISP_ID], the transaction was effortlessly identified as unique.",
+        "The unique disp id, numbered [DISP_ID], allowed quick identification of the transaction.",
+        "Because its disp id was [DISP_ID], the transaction was instantly recognized as unique.",
+        "The transaction could be easily traced by its unique disp id, which is [DISP_ID].",
+        "Identification of the transaction was simple thanks to its unique disp id [DISP_ID].",
+        "A unique disp id of [DISP_ID] enabled rapid identification of the transaction.",
+        "The transaction, bearing the unique disp id [DISP_ID], was promptly identified.",
+        "Through its unique disp id—[DISP_ID]—the transaction was clearly identified.",
+        "The presence of the unique disp id [DISP_ID] made the transaction easy to identify.",
+        "By noting the unique disp id [DISP_ID], one could quickly identify the transaction."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "easily": [
+          "easily"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequaled",
+          "unequalled"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "listed": [
+          "listed"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "which": [
+          "which"
+        ]
+      },
+      "field_data_types": {
+        "disp_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such precision in tracking ensures that customer queries and issues are resolved with utmost efficiency.",
+      "template_pattern": "Such precision in tracking ensures that customer queries and issues are resolved with utmost efficiency.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The high precision of our tracking guarantees that customer queries and issues are handled with maximum efficiency.",
+        "By tracking with such accuracy, we ensure customer questions and problems are resolved as efficiently as possible.",
+        "Customer inquiries and concerns are addressed with peak efficiency thanks to the precise tracking system.",
+        "With meticulous tracking, we can resolve client queries and issues with the utmost efficiency.",
+        "Precision in tracking leads to the most efficient resolution of customer questions and problems.",
+        "Because of exact tracking, customer queries and issues receive the highest level of efficiency in resolution.",
+        "The precise monitoring ensures that every customer query and issue is settled with optimal efficiency.",
+        "Efficient resolution of client questions and issues is secured through our precise tracking.",
+        "Our tracking's exactness assures that customer queries and problems are dealt with maximum efficiency.",
+        "When tracking is performed with such precision, customer queries and issues are solved with unparalleled efficiency.",
+        "The accuracy of our tracking system guarantees the swift and efficient handling of all customer queries and issues.",
+        "Thanks to precise tracking, the resolution of customer questions and concerns is achieved with utmost efficiency.",
+        "Customer queries and issues are efficiently resolved, a result of the precise tracking employed.",
+        "Through exacting tracking methods, we ensure that client inquiries and problems are resolved with top efficiency.",
+        "Precise tracking makes certain that every customer query and issue is addressed with the highest efficiency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "such": [
+          "such"
+        ],
+        "precision": [
+          "precision",
+          "preciseness"
+        ],
+        "utmost": [
+          "utmost",
+          "maximum",
+          "uttermost",
+          "extreme"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "issues": [
+          "issues",
+          "matters",
+          "topics",
+          "subjects"
+        ],
+        "efficiency": [
+          "efficiency"
+        ],
+        "ensures": [
+          "ensures"
+        ],
+        "tracking": [
+          "tracking"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The new credit card offers exclusive benefits as it falls under the gold type, attracting premium users.",
+      "template_pattern": "The new credit card offers exclusive benefits as it falls under the [TYPE] type, attracting premium users.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the new credit card falls under the [TYPE] type, it offers exclusive benefits that attract premium users.",
+        "Exclusive benefits are offered by the new credit card, which is categorized as the [TYPE] type, thereby drawing premium users.",
+        "The new credit card, classified under the [TYPE] type, provides exclusive benefits and consequently appeals to premium users.",
+        "Attracting premium users, the new credit card delivers exclusive benefits as it belongs to the [TYPE] type.",
+        "Since it is a [TYPE] type product, the new credit card grants exclusive benefits that lure premium users.",
+        "Premium users are enticed by the new credit card's exclusive benefits, given its status as the [TYPE] type.",
+        "The new credit card's exclusive benefits stem from its placement in the [TYPE] type, making it attractive to premium users.",
+        "By being a [TYPE] type offering, the new credit card supplies exclusive benefits and thus captivates premium users.",
+        "Exclusive benefits accompany the new credit card, which falls within the [TYPE] type, consequently pulling premium users.",
+        "The [TYPE] type designation of the new credit card enables it to provide exclusive benefits, thereby appealing to premium users.",
+        "With its [TYPE] type classification, the new credit card extends exclusive benefits that attract premium users.",
+        "Premium users are drawn to the new credit card because it offers exclusive benefits as part of the [TYPE] type.",
+        "The new credit card, under the [TYPE] type, offers exclusive benefits and consequently draws premium users.",
+        "Offering exclusive benefits, the new credit card is a [TYPE] type product that appeals to premium users.",
+        "Because the new credit card is a [TYPE] type, it furnishes exclusive benefits which attract premium users."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "offers": [
+          "offers"
+        ],
+        "card": [
+          "card",
+          "scorecard",
+          "board"
+        ],
+        "attracting": [
+          "attracting"
+        ],
+        "credit": [
+          "credit",
+          "acknowledgment",
+          "citation",
+          "reference",
+          "recognition",
+          "mention"
+        ],
+        "premium": [
+          "premium",
+          "agio"
+        ],
+        "users": [
+          "users"
+        ],
+        "under": [
+          "under",
+          "below"
+        ],
+        "benefits": [
+          "benefits"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These benefits are specifically designed to enhance the user experience and provide added value.",
+      "template_pattern": "These benefits are specifically designed to enhance the user experience and provide added value.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Designed expressly to improve the user experience, these benefits also deliver extra value.",
+        "These advantages have been crafted to boost user experience while adding additional value.",
+        "To enrich the user experience and add value, these benefits were purposefully created.",
+        "The user experience is enhanced and added value is supplied by these specially designed benefits.",
+        "By specifically tailoring these benefits, we aim to elevate the user experience and introduce added value.",
+        "These benefits, built to upgrade the user experience, simultaneously provide added value.",
+        "Aimed at improving user experience and contributing further value, these benefits are intentionally designed.",
+        "With the goal of enhancing the user experience and offering extra value, these benefits have been designed.",
+        "These benefits serve to augment the user experience and furnish additional value, as intended.",
+        "Enhancing the user experience and supplying added value are the primary purposes of these benefits.",
+        "The purpose behind these benefits is to specifically boost the user experience and provide added value.",
+        "These benefits, designed with intent, work to elevate the user experience and add value.",
+        "To provide added value and improve the user experience, these benefits have been specially crafted.",
+        "Specifically engineered, these benefits aim to enhance the user experience and deliver extra value.",
+        "By delivering added value and enhancing the user experience, these benefits fulfill their designed purpose."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "designed": [
+          "designed",
+          "intentional"
+        ],
+        "enhance": [
+          "enhance",
+          "raise",
+          "heighten"
+        ],
+        "user": [
+          "user"
+        ],
+        "provide": [
+          "provide",
+          "supply",
+          "furnish",
+          "offer",
+          "render",
+          "cater"
+        ],
+        "these": [
+          "these"
+        ],
+        "added": [
+          "added"
+        ],
+        "specifically": [
+          "specifically"
+        ],
+        "benefits": [
+          "benefits"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The credit card was issued on 1998-10-16, marking the beginning of its validity period.",
+      "template_pattern": "The credit card was issued on [ISSUED], marking the beginning of its validity period.",
+      "primary_data_fields": [
+        "issued"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [ISSUED] the credit card was issued, marking the start of its validity period.",
+        "The credit card, issued on [ISSUED], began its validity period at that moment.",
+        "Issued on [ISSUED], the credit card entered the first day of its validity period.",
+        "The validity period of the credit card commenced when it was issued on [ISSUED].",
+        "When the credit card was issued on [ISSUED], its validity period officially started.",
+        "As of [ISSUED], the credit card was issued, thereby initiating its validity period.",
+        "The credit card's issued date, [ISSUED], signals the opening of its validity period.",
+        "Having been issued on [ISSUED], the credit card's validity period kicked off.",
+        "The credit card was issued on [ISSUED]; this date marks the onset of its validity period.",
+        "With the credit card issued on [ISSUED], its validity period began immediately.",
+        "Since the credit card was issued on [ISSUED], its validity period began.",
+        "The credit card, issued on [ISSUED], started its validity period without delay.",
+        "After being issued on [ISSUED], the credit card entered its validity period.",
+        "The credit card's validity period launched on the day it was issued, namely [ISSUED].",
+        "Issued on [ISSUED], the credit card's validity period commenced at that point."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "credit": [
+          "credit",
+          "acknowledgment",
+          "recognition"
+        ],
+        "beginning": [
+          "beginning",
+          "commencement",
+          "start",
+          "outset",
+          "origin",
+          "kickoff"
+        ],
+        "period": [
+          "period"
+        ],
+        "marking": [
+          "marking",
+          "grading",
+          "grade",
+          "scoring",
+          "mark",
+          "score"
+        ],
+        "validity": [
+          "validity",
+          "validness",
+          "cogency",
+          "rigor"
+        ]
+      },
+      "field_data_types": {
+        "issued": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This issuance date highlights the card's longstanding presence in the financial market.",
+      "template_pattern": "This issuance date highlights the card's longstanding presence in the financial market.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card’s issuance date underscores its enduring presence in the financial market.",
+        "Highlighting the card’s long‑standing market presence, the issuance date serves as evidence.",
+        "The issuance date demonstrates that the card has been a fixture in the financial market for years.",
+        "In the financial market, the card’s prolonged presence is emphasized by its issuance date.",
+        "By noting the issuance date, one can see the card’s sustained existence in the financial sector.",
+        "The card’s long‑term presence in finance is highlighted by its date of issuance.",
+        "This date of issuance points to the card’s historic role within the financial marketplace.",
+        "The issuance date acts as a marker of the card’s lengthy tenure in the financial market.",
+        "With its issuance date, the card’s enduring market presence is brought to the fore.",
+        "The card’s issuance date signals a longstanding foothold in the financial market.",
+        "Evident from the issuance date is the card’s persistent presence in the world of finance.",
+        "That issuance date showcases how the card has long been present in the financial market.",
+        "The card, whose issuance date is noted, has maintained a durable presence in the financial market.",
+        "Through its issuance date, the card’s historic and continued market presence is highlighted.",
+        "The issuance date of the card highlights its long‑standing involvement in the financial sector."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "issuance": [
+          "issuance",
+          "issue"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "market": [
+          "market",
+          "marketplace"
+        ],
+        "presence": [
+          "presence"
+        ],
+        "highlights": [
+          "highlights"
+        ],
+        "longstanding": [
+          "longstanding"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

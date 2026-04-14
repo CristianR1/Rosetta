@@ -1,0 +1,1605 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "157aca0e8dab44fb": "Id",
+    "f74d76a9965f48d9": "PostTypeId",
+    "8e1f7fcc781a43f9": "AcceptedAnswerId",
+    "98edd103afdf4254": "CreaionDate",
+    "183348bc5fac482d": "Score",
+    "1d61b2b06c3442ec": "ViewCount",
+    "e506629d3758431d": "Body",
+    "fba89352b3694336": "OwnerUserId",
+    "44172dc02d514a73": "LasActivityDate",
+    "8bcc8cf681104041": "Title",
+    "a97c77ce51994de9": "Tags",
+    "9fcac1e38ddc4e74": "AnswerCount",
+    "9eae5470dc0e4fcf": "CommentCount",
+    "09c3f26bec484a5c": "FavoriteCount",
+    "26790fd137334f4f": "LastEditorUserId",
+    "28a17a872c764f91": "LastEditDate",
+    "d5973400b3394a97": "CommunityOwnedDate",
+    "0a7490d48c514399": "ParentId",
+    "f4d8bca5080e48bb": "ClosedDate",
+    "1ccd186b61ad49f1": "OwnerDisplayName",
+    "38ac2f9538eb44a3": "LastEditorDisplayName"
+  },
+  "templates": [
+    {
+      "original": "The first post has Id 1 and sparked an engaging discussion among the members.",
+      "template_pattern": "The first post has Id [ID] and sparked an engaging discussion among the members.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The inaugural post, identified by Id [ID], ignited a lively discussion among the members.",
+        "With Id [ID], the first post triggered an engaging conversation within the member community.",
+        "An engaging discussion among members was sparked by the first post, which carries Id [ID].",
+        "Id [ID] marks the first post that provoked a vibrant dialogue among the members.",
+        "The first post (Id [ID]) set off a spirited debate among the members.",
+        "Among the members, the [ID] post—Id [ID]—generated an active discussion.",
+        "The initial post, bearing Id [ID], catalyzed a dynamic exchange among members.",
+        "A lively discussion among members arose when the first post, Id [ID], was published.",
+        "The first post’s Id [ID] led to an engaging discussion across the membership.",
+        "By posting first with Id [ID], a stimulating discussion among the members was sparked.",
+        "The members engaged in a robust conversation after the first post, which has Id [ID], was released.",
+        "Id [ID] on the first post sparked a vibrant discussion among members.",
+        "The first post, carrying Id [ID], provoked an animated dialogue among the members.",
+        "A vigorous discussion among the members ensued following the first post’s Id [ID].",
+        "The first post (Id [ID]) caused an engaging discussion to emerge among the members."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "engaging": [
+          "engaging"
+        ],
+        "first": [
+          "first",
+          "start",
+          "inaugural",
+          "commencement",
+          "firstly",
+          "foremost"
+        ],
+        "among": [
+          "among"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse"
+        ],
+        "post": [
+          "post",
+          "station",
+          "office",
+          "position"
+        ],
+        "sparked": [
+          "sparked",
+          "activate",
+          "trigger",
+          "actuate"
+        ],
+        "members": [
+          "members"
+        ]
+      },
+      "field_data_types": {
+        "Id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the community, a post type identifier of 1 indicates content categorized as a question.",
+      "template_pattern": "In the community, a post type identifier of [POSTTYPEID] indicates content categorized as a question.",
+      "primary_data_fields": [
+        "PostTypeId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the community, a Post Type Id of [POSTTYPEID] signals that the entry is classified as a question.",
+        "The community treats a Post Type Id equal to [POSTTYPEID] as denoting question‑type content.",
+        "When the Post Type Id is [POSTTYPEID], the community labels the material as a question.",
+        "In community data, a Post Type Id of [POSTTYPEID] corresponds to content marked as a question.",
+        "Content bearing a Post Type Id of [POSTTYPEID] is identified in the community as a question.",
+        "A Post Type Id of [POSTTYPEID], in the community context, designates the item as a question.",
+        "The community interprets a Post Type Id value of [POSTTYPEID] to mean the post is a question.",
+        "If the Post Type Id equals [POSTTYPEID], the community categorizes the entry as a question.",
+        "For the community, a Post Type Id set to [POSTTYPEID] indicates question‑type content.",
+        "In the community’s taxonomy, a Post Type Id of [POSTTYPEID] denotes that the piece is a question.",
+        "A Post Type Id of [POSTTYPEID] leads the community to classify the content as a question.",
+        "The community’s system flags a Post Type Id of [POSTTYPEID] as representing a question.",
+        "With a Post Type Id of [POSTTYPEID], the community tags the material as a question.",
+        "The community’s definition of a Post Type Id of [POSTTYPEID] is that it marks the post as a question.",
+        "Whenever the Post Type Id reads [POSTTYPEID], the community marks the corresponding content as a question."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicates": [
+          "indicates"
+        ],
+        "community": [
+          "community"
+        ],
+        "content": [
+          "content",
+          "subject",
+          "substance"
+        ],
+        "question": [
+          "question",
+          "query",
+          "inquiry",
+          "enquiry"
+        ],
+        "post": [
+          "post",
+          "station",
+          "billet",
+          "office",
+          "position"
+        ],
+        "categorized": [
+          "categorized",
+          "categorised"
+        ]
+      },
+      "field_data_types": {
+        "PostTypeId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The AcceptedAnswerId for the correct response to the coding question was 15, highlighting its selection as the best solution.",
+      "template_pattern": "The AcceptedAnswerId for the correct response to the coding question was [ACCEPTEDANSWERID], highlighting its selection as the best solution.",
+      "primary_data_fields": [
+        "AcceptedAnswerId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the coding question, the correct response carried an AcceptedAnswerId of [ACCEPTEDANSWERID], underscoring its designation as the optimal solution.",
+        "A value of [ACCEPTEDANSWERID] was assigned to the AcceptedAnswerId of the coding question’s correct answer, marking it as the top solution.",
+        "The coding problem’s best answer was identified by an AcceptedAnswerId of [ACCEPTEDANSWERID], indicating its status as the preferred solution.",
+        "With an AcceptedAnswerId of [ACCEPTEDANSWERID], the correct answer to the coding query was flagged as the leading solution.",
+        "The correct coding answer, bearing AcceptedAnswerId [ACCEPTEDANSWERID], was highlighted as the most suitable solution.",
+        "Because the AcceptedAnswerId equals [ACCEPTEDANSWERID], the chosen response to the coding question is recognized as the best solution.",
+        "The coding question’s chosen answer is denoted by AcceptedAnswerId [ACCEPTEDANSWERID], signifying its role as the premier solution.",
+        "Having an AcceptedAnswerId of [ACCEPTEDANSWERID], the correct response to the coding problem was singled out as the prime solution.",
+        "The best solution to the coding question is marked by an AcceptedAnswerId of [ACCEPTEDANSWERID], emphasizing its selection.",
+        "AcceptedAnswerId [ACCEPTEDANSWERID] identifies the correct answer to the coding query as the leading solution.",
+        "The correct response to the coding question received an AcceptedAnswerId of [ACCEPTEDANSWERID], which points to its status as the top solution.",
+        "As the accepted answer, it holds the AcceptedAnswerId [ACCEPTEDANSWERID], confirming its position as the optimal solution for the coding problem.",
+        "The coding question’s accepted answer carries the identifier AcceptedAnswerId [ACCEPTEDANSWERID], highlighting it as the foremost solution.",
+        "By assigning AcceptedAnswerId [ACCEPTEDANSWERID], the correct answer to the coding question is distinguished as the best solution.",
+        "The designation of AcceptedAnswerId [ACCEPTEDANSWERID] on the correct coding response underscores its selection as the preferred solution."
+      ],
+      "counter_variations": [
+        "The Accepted Answer Id tied to this inquiry is null, signifying that no singular response has been earmarked as the definitive choice.",
+        "Because the Accepted Answer Id remains null, the dataset indicates that an optimal answer has yet to be assigned.",
+        "In the current report, the Accepted Answer Id is null, which conveys that no answer has been officially designated as the best.",
+        "A null value for the Accepted Answer Id denotes that the system has not identified any response as the prevailing solution.",
+        "Given that the Accepted Answer Id registers as null, the analysis reflects the absence of a formally selected answer.",
+        "The fact that the Accepted Answer Id appears null underscores that no answer has been marked as the definitive one.",
+        "When the Accepted Answer Id is null, it implies that the query lacks a designated optimal response.",
+        "Since the Accepted Answer Id shows null, the record confirms that no answer has been chosen as the authoritative solution.",
+        "The Accepted Answer Id being null reveals that the dataset has not appointed any response as the definitive answer.",
+        "A null setting for the Accepted Answer Id communicates that no answer has been officially recognized as optimal.",
+        "With the Accepted Answer Id recorded as null, the report indicates that no single response has been selected as the best.",
+        "The presence of a null Accepted Answer Id indicates that the system has not assigned a definitive answer to the query.",
+        "Because the Accepted Answer Id is null, the data conveys that no answer has been singled out as the optimal choice.",
+        "The Accepted Answer Id, currently null, signals that the query does not have an answer designated as the preferred one.",
+        "When the Accepted Answer Id returns null, it reflects that no answer has been formally identified as the optimal response."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "correct": [
+          "correct",
+          "rectify",
+          "adjust",
+          "right",
+          "redress"
+        ],
+        "response": [
+          "response",
+          "reply",
+          "answer",
+          "reaction"
+        ],
+        "best": [
+          "best"
+        ],
+        "question": [
+          "question",
+          "query",
+          "inquiry",
+          "enquiry",
+          "interrogation"
+        ],
+        "coding": [
+          "coding",
+          "code",
+          "cipher",
+          "cypher",
+          "encrypt",
+          "encipher"
+        ],
+        "selection": [
+          "selection",
+          "option",
+          "choice"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "solution": [
+          "solution",
+          "answer",
+          "resolution"
+        ]
+      },
+      "field_data_types": {
+        "AcceptedAnswerId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post was created on CreaionDate 2010-07-19 19:12:12.0, marking a significant contribution to the programming community.",
+      "template_pattern": "The post was created on CreaionDate [CREAIONDATE], marking a significant contribution to the programming community.",
+      "primary_data_fields": [
+        "CreaionDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On CreaionDate [CREAIONDATE], the post was generated, representing a notable contribution to the programming community.",
+        "The post, created at CreaionDate [CREAIONDATE], stands as a significant addition to the programming community.",
+        "Marking a major contribution to the programming community, the post was initiated on CreaionDate [CREAIONDATE].",
+        "At the timestamp CreaionDate [CREAIONDATE], this post came into existence, underscoring its importance to the programming community.",
+        "A key contribution to the programming community was made when the post was entered on CreaionDate [CREAIONDATE].",
+        "The creation of the post on CreaionDate [CREAIONDATE] highlights a substantial contribution to the programming community.",
+        "When the post was recorded on CreaionDate [CREAIONDATE], it marked an important contribution to the programming community.",
+        "CreaionDate [CREAIONDATE] saw the post's inception, a noteworthy addition to the programming community.",
+        "By being created on CreaionDate [CREAIONDATE], the post signifies a meaningful contribution to the programming community.",
+        "The post's inception on CreaionDate [CREAIONDATE] serves as a prominent contribution to the programming community.",
+        "Having been created on CreaionDate [CREAIONDATE], the post represents a vital contribution to the programming community.",
+        "On the date and time CreaionDate [CREAIONDATE], the post was launched, marking a significant impact on the programming community.",
+        "The post originated on CreaionDate [CREAIONDATE], thereby contributing notably to the programming community.",
+        "With its creation timestamp of CreaionDate [CREAIONDATE], the post stands as a substantial contribution to the programming community.",
+        "The programming community received a significant contribution when the post was created on CreaionDate [CREAIONDATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "community": [
+          "community"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "score",
+          "grade"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "created": [
+          "created"
+        ],
+        "contribution": [
+          "contribution",
+          "share"
+        ],
+        "post": [
+          "post",
+          "station",
+          "position",
+          "office",
+          "send",
+          "mail"
+        ],
+        "significant": [
+          "significant",
+          "substantial",
+          "important"
+        ]
+      },
+      "field_data_types": {
+        "CreaionDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The user-generated post achieved a Score of 23, indicating a moderate level of popularity within the programming community.",
+      "template_pattern": "The user-generated post achieved a Score of [SCORE], indicating a moderate level of popularity within the programming community.",
+      "primary_data_fields": [
+        "Score"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The user‑generated post earned a Score of [SCORE], reflecting a moderate degree of popularity among programmers.",
+        "With a Score of [SCORE], the post created by users shows a medium level of popularity in the programming community.",
+        "A Score of [SCORE] was recorded for the user‑authored post, signifying moderate popularity within the programming community.",
+        "Achieving a Score of [SCORE], the community‑submitted post indicates a moderate amount of popularity among developers.",
+        "The post, generated by users, obtained a Score of [SCORE], which points to a moderate popularity level in the programming community.",
+        "In the programming community, the user‑generated post secured a Score of [SCORE], denoting a moderate popularity rating.",
+        "A moderate popularity rating in the programming community is evident from the post’s Score of [SCORE].",
+        "The Score of [SCORE] assigned to the user‑created post suggests a moderate level of popularity among the programming community.",
+        "For the user‑authored post, a Score of [SCORE] was achieved, indicating moderate popularity within the programming community.",
+        "The user‑produced post achieved a Score of [SCORE], signalling a moderate degree of popularity in the programming community.",
+        "Moderately popular among programmers, the post earned a Score of [SCORE].",
+        "A Score of [SCORE], attained by the user‑generated post, reflects a moderate popularity within the programming community.",
+        "Within the programming community, the post generated by users garnered a Score of [SCORE], indicating moderate popularity.",
+        "The user‑created post’s Score of [SCORE] demonstrates a moderate level of popularity among the programming community.",
+        "By reaching a Score of [SCORE], the user‑generated post shows moderate popularity in the programming community."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "within": [
+          "within",
+          "inside",
+          "in"
+        ],
+        "generated": [
+          "generated"
+        ],
+        "community": [
+          "community"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "stratum",
+          "grade",
+          "even",
+          "story"
+        ],
+        "user": [
+          "user"
+        ],
+        "popularity": [
+          "popularity"
+        ],
+        "programming": [
+          "programming"
+        ]
+      },
+      "field_data_types": {
+        "Score": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post has garnered significant attention with a ViewCount of 1278, highlighting its popularity within the programming community.",
+      "template_pattern": "The post has garnered significant attention with a ViewCount of [VIEWCOUNT], highlighting its popularity within the programming community.",
+      "primary_data_fields": [
+        "ViewCount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The post has attracted considerable attention, registering a ViewCount of [VIEWCOUNT], which underscores its popularity among programmers.",
+        "With a ViewCount of [VIEWCOUNT], the post has drawn notable interest, highlighting its appeal within the programming community.",
+        "A ViewCount of [VIEWCOUNT] was recorded for the post, indicating significant attention and strong popularity in the programming sector.",
+        "Significant attention has been directed at the post, as evidenced by its ViewCount of [VIEWCOUNT], reflecting its popularity among developers.",
+        "The post’s popularity in the programming community is evident from the ViewCount of [VIEWCOUNT], which has garnered considerable attention.",
+        "Having amassed a ViewCount of [VIEWCOUNT], the post has captured substantial interest within the programming community.",
+        "The ViewCount of [VIEWCOUNT] demonstrates that the post has received notable attention, emphasizing its standing among programmers.",
+        "In the programming community, the post enjoys high popularity, as shown by a ViewCount of [VIEWCOUNT] and the significant attention it has earned.",
+        "A ViewCount tally of [VIEWCOUNT] signals that the post has attracted considerable attention, underscoring its relevance to programmers.",
+        "The post, with a ViewCount of [VIEWCOUNT], has been the focus of significant attention, highlighting its popularity among the programming audience.",
+        "Considerable attention has been given to the post, reflected in a ViewCount of [VIEWCOUNT], which points to its popularity in the programming field.",
+        "Recording a ViewCount of [VIEWCOUNT], the post has achieved notable attention, illustrating its appeal within the programming community.",
+        "The post’s ViewCount of [VIEWCOUNT] indicates that it has drawn substantial interest, marking its popularity among developers.",
+        "Within the programming community, the post has garnered strong attention, as its ViewCount stands at [VIEWCOUNT].",
+        "A ViewCount of [VIEWCOUNT] highlights the post’s significant attention and its popularity across the programming community."
+      ],
+      "counter_variations": [
+        "Although the piece has been widely disseminated, the article’s View Count is null, indicating that exact readership figures cannot be retrieved at this time.",
+        "The article’s View Count registers as null despite its extensive circulation, implying that precise audience metrics are presently inaccessible.",
+        "Even with broad distribution, the View Count for the article remains null, which suggests that accurate readership statistics are not currently obtainable.",
+        "While the article enjoys extensive circulation, its View Count is reported as null, pointing to the unavailability of exact readership data.",
+        "In spite of the widespread propagation of the article, the View Count stays null, denoting that precise measurement of readers is presently lacking.",
+        "Despite the article’s broad reach, the View Count registers null, signifying that definitive readership numbers are currently beyond reach.",
+        "The article’s broad dissemination has not yielded a non‑null View Count, which remains null and signals that precise readership metrics are unavailable for now.",
+        "Although circulation is extensive, the View Count for this article is null, reflecting that specific readership figures cannot be ascertained at this moment.",
+        "The extensive circulation of the article has yet to produce a concrete View Count, which stays null, indicating that exact readership data are not presently accessible.",
+        "Notwithstanding its wide circulation, the article’s View Count is still null, suggesting that exact audience metrics are currently indeterminable.",
+        "With the article circulating extensively, the View Count continues to be null, implying that precise readership counts are presently unattainable.",
+        "Although the article enjoys extensive circulation, the View Count remains null, thereby indicating that accurate readership metrics are currently missing from the dataset.",
+        "The article’s pervasive distribution does not alter the fact that its View Count is null, hinting that precise readership numbers are unavailable at this stage.",
+        "Even though the article has been circulated broadly, the View Count stays null, which conveys that precise readership statistics are presently out of reach.",
+        "Despite an extensive circulation footprint, the View Count for the article is null, pointing to the current inability to capture exact readership metrics."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "attention": [
+          "attention"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "community": [
+          "community"
+        ],
+        "popularity": [
+          "popularity"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "post": [
+          "post",
+          "station",
+          "position"
+        ],
+        "garnered": [
+          "garnered"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {
+        "ViewCount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "One user shared a post with the Body: <p>How should I elicit prior distributions from experts when fitting a Bayesian model?</p> seeking advice from the community.",
+      "template_pattern": "One user shared a post with the Body: [BODY] seeking advice from the community.",
+      "primary_data_fields": [
+        "Body"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "One user posted a message with the Body: [BODY] and is looking for advice from the community.",
+        "One user uploaded a post that includes the Body: [BODY], seeking advice from the community.",
+        "One user contributed a submission containing the Body: [BODY] while requesting advice from the community.",
+        "One user shared a discussion entry with the Body: [BODY], hoping to receive advice from the community.",
+        "One user added a thread featuring the Body: [BODY] and asks for advice from the community.",
+        "One user made a post that presents the Body: [BODY], looking for advice from the community.",
+        "One user disseminated a note with the Body: [BODY] in order to obtain advice from the community.",
+        "One user broadcast a message containing the Body: [BODY], seeking advice from the community.",
+        "One user posted a contribution that displays the Body: [BODY], hoping for advice from the community.",
+        "One user released a comment with the Body: [BODY], aiming to get advice from the community.",
+        "One user posted a forum entry where the Body: [BODY] appears, seeking advice from the community.",
+        "One user submitted a post that carries the Body: [BODY], requesting advice from the community.",
+        "One user shared a content piece featuring the Body: [BODY], in pursuit of advice from the community.",
+        "One user placed a post that includes the Body: [BODY], hoping the community will provide advice.",
+        "One user contributed a message with the Body: [BODY], looking for community advice."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "shared": [
+          "shared"
+        ],
+        "seeking": [
+          "seeking",
+          "seek",
+          "search"
+        ],
+        "community": [
+          "community"
+        ],
+        "advice": [
+          "advice"
+        ],
+        "user": [
+          "user"
+        ],
+        "model": [
+          "model",
+          "modelling",
+          "modeling",
+          "exemplar",
+          "example",
+          "pattern"
+        ],
+        "post": [
+          "post",
+          "station",
+          "mail",
+          "Post",
+          "position"
+        ]
+      },
+      "field_data_types": {
+        "Body": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "OwnerUserId 8 has consistently contributed insightful posts, enhancing discussions and fostering a collaborative spirit within the programming community.",
+      "template_pattern": "OwnerUserId [OWNERUSERID] has consistently contributed insightful posts, enhancing discussions and fostering a collaborative spirit within the programming community.",
+      "primary_data_fields": [
+        "OwnerUserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "OwnerUserId [OWNERUSERID] regularly shares insightful posts, which enrich discussions and nurture a collaborative atmosphere in the programming community.",
+        "Through steady contributions of insightful posts, OwnerUserId [OWNERUSERID] boosts dialogue and cultivates a cooperative spirit among programmers.",
+        "The programming community benefits from OwnerUserId [OWNERUSERID]’s continual delivery of insightful posts, enhancing conversations and promoting teamwork.",
+        "Insightful posts are consistently provided by OwnerUserId [OWNERUSERID], thereby improving discussions and encouraging a collaborative culture within the coding community.",
+        "OwnerUserId [OWNERUSERID]’s ongoing input of thoughtful posts elevates debates and strengthens the sense of collaboration among developers.",
+        "By persistently offering insightful posts, OwnerUserId [OWNERUSERID] advances discourse and helps build a cooperative environment in the programming sphere.",
+        "Discussions are enriched and a collaborative vibe is fostered in the programming community thanks to OwnerUserId [OWNERUSERID]’s steady stream of insightful posts.",
+        "OwnerUserId [OWNERUSERID] has been a reliable source of insightful posts, which enhance dialogue and support a collaborative ethos among programmers.",
+        "The consistent flow of insightful posts from OwnerUserId [OWNERUSERID] sharpens discussions and reinforces a teamwork‑oriented atmosphere in the coding community.",
+        "Through his regular posting of insightful content, OwnerUserId [OWNERUSERID] upgrades conversations and fuels a collaborative spirit within the programming world.",
+        "OwnerUserId [OWNERUSERID]’s frequent delivery of insightful posts amplifies discussion quality and promotes a shared, cooperative mindset among developers.",
+        "A collaborative spirit thrives in the programming community as OwnerUserId [OWNERUSERID] continuously contributes insightful posts that improve discourse.",
+        "By habitually contributing insightful posts, OwnerUserId [OWNERUSERID] strengthens discussions and cultivates a collaborative environment for programmers.",
+        "OwnerUserId [OWNERUSERID]’s steady provision of insightful posts enhances the quality of discussions and fosters teamwork throughout the programming community.",
+        "The programming community experiences richer dialogues and heightened collaboration, courtesy of OwnerUserId [OWNERUSERID]’s consistent insightful postings."
+      ],
+      "counter_variations": [
+        "Owner User Id null remains undefined, yet its absence subtly influences the project's governance structure and stakeholder accountability frameworks.",
+        "While Owner User Id null remains undefined, its absence subtly influences the project's governance structure and stakeholder accountability frameworks.",
+        "Although Owner User Id null remains undefined, the subtle influence of its absence on the project's governance structure and stakeholder accountability frameworks persists.",
+        "The fact that Owner User Id null remains undefined, combined with its absence, subtly influences the project's governance structure and stakeholder accountability frameworks.",
+        "Owner User Id null remains undefined; nevertheless, its absence exerts a subtle influence on the project's governance structure and stakeholder accountability frameworks.",
+        "Even though Owner User Id null remains undefined, the subtle impact of its absence on the project's governance structure and stakeholder accountability frameworks is evident.",
+        "With Owner User Id null remains undefined, its absence subtly shapes the project's governance structure and stakeholder accountability frameworks.",
+        "Owner User Id null remains undefined, and its absence quietly influences the project's governance structure and stakeholder accountability frameworks.",
+        "Owner User Id null remains undefined, and together with its absence subtly steers the project's governance structure and stakeholder accountability frameworks.",
+        "Owner User Id null remains undefined, but the subtle influence of its absence on the project's governance structure and stakeholder accountability frameworks cannot be overlooked.",
+        "Owner User Id null remains undefined, and by that condition its absence subtly affects the project's governance structure and stakeholder accountability frameworks.",
+        "Owner User Id null remains undefined, whilst its absence subtly molds the project's governance structure and stakeholder accountability frameworks.",
+        "As Owner User Id null remains undefined, its absence subtly informs the project's governance structure and stakeholder accountability frameworks.",
+        "Owner User Id null remains undefined, yet the subtle influence of its absence permeates the project's governance structure and stakeholder accountability frameworks.",
+        "Though Owner User Id null remains undefined, its absence subtly influences the project's governance structure and stakeholder accountability frameworks."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "insightful": [
+          "insightful"
+        ],
+        "contributed": [
+          "contributed"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "community": [
+          "community"
+        ],
+        "spirit": [
+          "spirit",
+          "tone",
+          "heart",
+          "liveliness"
+        ],
+        "fostering": [
+          "fostering",
+          "raising",
+          "rearing"
+        ],
+        "posts": [
+          "posts"
+        ],
+        "discussions": [
+          "discussions"
+        ]
+      },
+      "field_data_types": {
+        "OwnerUserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The LasActivityDate of the post, capturing its latest engagement, was recorded as 2010-09-15 21:08:26.0.",
+      "template_pattern": "The LasActivityDate of the post, capturing its latest engagement, was recorded as [LASACTIVITYDATE].",
+      "primary_data_fields": [
+        "LasActivityDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The LasActivityDate indicating the post's most recent interaction was logged as [LASACTIVITYDATE].",
+        "Recorded on [LASACTIVITYDATE], the LasActivityDate captures the latest engagement of the post.",
+        "As of [LASACTIVITYDATE], the post’s LasActivityDate, reflecting its newest activity, was documented.",
+        "The post’s latest engagement is reflected in its LasActivityDate, which was entered as [LASACTIVITYDATE].",
+        "According to the report, the LasActivityDate for the post—marking its most recent activity—stood at [LASACTIVITYDATE].",
+        "We noted the LasActivityDate of the post at [LASACTIVITYDATE], capturing its most recent engagement.",
+        "The timestamp [LASACTIVITYDATE] represents the LasActivityDate that records the post’s latest interaction.",
+        "In the data set, the LasActivityDate for this post was captured as [LASACTIVITYDATE], indicating its newest activity.",
+        "The most recent activity of the post is recorded under LasActivityDate, with the value [LASACTIVITYDATE].",
+        "At [LASACTIVITYDATE], the post’s LasActivityDate—signifying its latest engagement—was logged.",
+        "The LasActivityDate, which documents the post’s latest interaction, was set to [LASACTIVITYDATE].",
+        "As recorded, the post’s LasActivityDate shows a timestamp of [LASACTIVITYDATE] for its most recent activity.",
+        "The latest engagement of the post is captured by its LasActivityDate, noted as [LASACTIVITYDATE].",
+        "With the value [LASACTIVITYDATE], the LasActivityDate records the post’s most recent activity.",
+        "The post’s LasActivityDate, indicating the time of its latest engagement, was entered as [LASACTIVITYDATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recorded": [
+          "recorded"
+        ],
+        "engagement": [
+          "engagement",
+          "involvement",
+          "appointment",
+          "participation",
+          "booking"
+        ],
+        "post": [
+          "post",
+          "station",
+          "office",
+          "position"
+        ],
+        "capturing": [
+          "capturing"
+        ],
+        "latest": [
+          "latest",
+          "recent"
+        ]
+      },
+      "field_data_types": {
+        "LasActivityDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Title of the post is Eliciting priors from experts, which captures the essence of engaging with knowledgeable individuals in programming discussions.",
+      "template_pattern": "The Title of the post is [TITLE], which captures the essence of engaging with knowledgeable individuals in programming discussions.",
+      "primary_data_fields": [
+        "Title"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Title of the post reads [TITLE], reflecting the core idea of interacting with knowledgeable individuals during programming discussions.",
+        "In this report, the Title is [TITLE], which encapsulates the notion of consulting knowledgeable individuals within programming discussions.",
+        "[TITLE] serves as the Title, capturing the essence of engaging knowledgeable individuals in programming discussions.",
+        "The Title—[TITLE]—conveys the fundamental concept of collaborating with knowledgeable individuals in programming discussions.",
+        "Title: [TITLE]; this phrasing embodies the spirit of dialogue with knowledgeable individuals across programming discussions.",
+        "By naming the post [TITLE], the Title highlights the central theme of involving knowledgeable individuals in programming discussions.",
+        "The post’s Title, [TITLE], underscores the significance of engaging knowledgeable individuals during programming discussions.",
+        "[TITLE] is the Title, and it mirrors the aim of consulting knowledgeable individuals in programming discussions.",
+        "With the Title set to [TITLE], the sentence captures the primary focus on interacting with knowledgeable individuals in programming discussions.",
+        "The Title—[TITLE]—symbolizes the act of drawing on knowledgeable individuals within programming discussions.",
+        "In the document, the Title appears as [TITLE], which reflects the purpose of engaging knowledgeable individuals in programming discussions.",
+        "The chosen Title, [TITLE], conveys the intent to involve knowledgeable individuals throughout programming discussions.",
+        "Title: [TITLE]; this designation captures the essence of collaborating with knowledgeable individuals in programming discussions.",
+        "Naming the post [TITLE] gives the Title a meaning that centers on engaging knowledgeable individuals in programming discussions.",
+        "The Title, [TITLE], aptly represents the focus on consulting knowledgeable individuals during programming discussions."
+      ],
+      "counter_variations": [
+        "The Title of the report is null, and the surrounding sections elaborate on the subject matter with thorough detail.",
+        "While the surrounding sections elaborate on the subject matter with thorough detail, the Title of the report is null.",
+        "Although the surrounding sections elaborate on the subject matter with thorough detail, the Title of the report is null.",
+        "The Title of the report is null; meanwhile, the surrounding sections elaborate on the subject matter with thorough detail.",
+        "Even though the surrounding sections elaborate on the subject matter with thorough detail, the Title of the report is null.",
+        "The surrounding sections elaborate on the subject matter with thorough detail, yet the Title of the report is null.",
+        "Given that the surrounding sections elaborate on the subject matter with thorough detail, the Title of the report is null.",
+        "The Title of the report is null—additionally, the surrounding sections elaborate on the subject matter with thorough detail.",
+        "In this document, the Title of the report is null, while the surrounding sections elaborate on the subject matter with thorough detail.",
+        "The surrounding sections elaborate on the subject matter with thorough detail; consequently, the Title of the report is null.",
+        "Considering that the surrounding sections elaborate on the subject matter with thorough detail, the Title of the report is null.",
+        "The Title of the report is null; the surrounding sections elaborate on the subject matter with thorough detail.",
+        "Although the Title of the report is null, the surrounding sections elaborate on the subject matter with thorough detail.",
+        "The surrounding sections elaborate on the subject matter with thorough detail, and the Title of the report is null.",
+        "Despite the fact that the surrounding sections elaborate on the subject matter with thorough detail, the Title of the report is null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "engaging": [
+          "engaging",
+          "hire",
+          "employ",
+          "engage"
+        ],
+        "which": [
+          "which"
+        ],
+        "individuals": [
+          "individuals"
+        ],
+        "essence": [
+          "essence",
+          "core",
+          "center",
+          "kernel",
+          "gist",
+          "pith",
+          "substance"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "discussions": [
+          "discussions"
+        ],
+        "post": [
+          "post",
+          "position",
+          "office",
+          "station"
+        ],
+        "captures": [
+          "captures",
+          "capture",
+          "seize",
+          "catch"
+        ]
+      },
+      "field_data_types": {
+        "Title": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the community, a user tagged their post with <bayesian><prior><elicitation> to enhance its discoverability among relevant discussions.",
+      "template_pattern": "In the community, a user tagged their post with [TAGS] to enhance its discoverability among relevant discussions.",
+      "primary_data_fields": [
+        "Tags"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the community, a member applied the Tags [TAGS] to boost the post's visibility in related discussions.",
+        "The post was tagged with the Tags [TAGS] by a user in the community, aiming to improve its discoverability among pertinent threads.",
+        "To increase the likelihood of being found in relevant conversations, a community user attached the Tags [TAGS] to their post.",
+        "In community forums, a participant assigned the Tags [TAGS] to their entry, enhancing its findability in related debates.",
+        "By adding the Tags [TAGS], a user in the community sought to make their post more searchable within comparable discussions.",
+        "A community member labeled their post with the Tags [TAGS], thereby raising its discoverability across similar topics.",
+        "For better exposure in related dialogues, the Tags [TAGS] were attached to a user's post within the community.",
+        "The community saw a user affix the Tags [TAGS] to their contribution, facilitating easier discovery among relevant threads.",
+        "To aid navigation through pertinent discussions, a user incorporated the Tags [TAGS] into their community post.",
+        "In the community setting, the Tags [TAGS] were applied by a user to improve the post's reach in related conversations.",
+        "A user enhanced the discoverability of their community post by assigning the Tags [TAGS].",
+        "The Tags [TAGS] were used by a community participant to tag their post, increasing its visibility in associated discussions.",
+        "Through tagging their post with the Tags [TAGS], a user aimed to make it more accessible within the community's relevant dialogues.",
+        "To ensure the post appears in relevant community discussions, a user added the Tags [TAGS].",
+        "Within the community, the post received the Tags [TAGS], which helps it surface in related conversations."
+      ],
+      "counter_variations": [
+        "Within the report, the Tags field receives a null assignment, signifying that no categorical identifiers have been supplied for this record.",
+        "The report designates the Tags attribute as null, thereby indicating that this entry lacks any specified categorical identifiers.",
+        "In the compiled report, the value of the Tags column is set to null, which conveys that no categorical identifiers are provided for this particular item.",
+        "Assigning null to the Tags field in the report denotes the absence of any categorical identifiers for the given entry.",
+        "The report records a null value for Tags, implying that the entry does not contain any categorical identifiers.",
+        "By marking the Tags field with null in the report, it is made clear that this record carries no categorical identifiers.",
+        "The report’s Tags attribute is populated with null, a marker that no categorical identifiers have been defined for this entry.",
+        "Null is entered for the Tags field in the report, reflecting that the entry lacks defined categorical identifiers.",
+        "In the data report, the Tags column is assigned null, which indicates that there are no categorical identifiers associated with this entry.",
+        "The report assigns null to Tags, thereby communicating that the entry contains no categorical identifiers.",
+        "Within the professional report, the Tags field is given a null value, denoting that this particular entry holds no categorical identifiers.",
+        "The Tags field, as presented in the report, bears the value null, signaling that the entry is without categorical identifiers.",
+        "When drafting the report, the analyst set Tags to null, which conveys that no categorical identifiers have been attached to this record.",
+        "In the final report, the Tags column carries a null assignment, indicating that this item possesses no categorical identifiers.",
+        "The report explicitly marks the Tags attribute with null, thereby clarifying that the entry does not specify any categorical identifiers."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "relevant": [
+          "relevant"
+        ],
+        "community": [
+          "community"
+        ],
+        "discoverability": [
+          "discoverability"
+        ],
+        "user": [
+          "user"
+        ],
+        "tagged": [
+          "tagged",
+          "labelled",
+          "labeled",
+          "marked"
+        ],
+        "their": [
+          "their"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten"
+        ],
+        "among": [
+          "among"
+        ]
+      },
+      "field_data_types": {
+        "Tags": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The lively discussion on the post resulted in an AnswerCount of 5, showcasing strong community interaction and interest.",
+      "template_pattern": "The lively discussion on the post resulted in an AnswerCount of [ANSWERCOUNT], showcasing strong community interaction and interest.",
+      "primary_data_fields": [
+        "AnswerCount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A lively discussion on the post produced an AnswerCount of [ANSWERCOUNT], highlighting strong community interaction and interest.",
+        "The post’s vibrant debate led to an AnswerCount of [ANSWERCOUNT], demonstrating robust community engagement and curiosity.",
+        "Resulting from the animated conversation on the post, the AnswerCount reached [ANSWERCOUNT], reflecting keen community participation.",
+        "An AnswerCount of [ANSWERCOUNT] was generated by the lively discussion on the post, illustrating strong community interaction and interest.",
+        "Because of the spirited exchange on the post, the AnswerCount climbed to [ANSWERCOUNT], underscoring active community involvement.",
+        "The lively discussion on the post yielded an AnswerCount of [ANSWERCOUNT], showcasing pronounced community interaction and interest.",
+        "With the post sparking a lively discussion, an AnswerCount of [ANSWERCOUNT] emerged, evidencing strong community engagement.",
+        "Strong community interaction and interest are evident as the lively discussion on the post resulted in an AnswerCount of [ANSWERCOUNT].",
+        "Following a lively discussion on the post, the AnswerCount was recorded at [ANSWERCOUNT], indicating vigorous community participation.",
+        "The post’s lively discussion culminated in an AnswerCount of [ANSWERCOUNT], signifying robust community interaction and interest.",
+        "An AnswerCount of [ANSWERCOUNT], reflecting solid community interaction and interest, was the outcome of the lively discussion on the post.",
+        "Due to the lively discussion on the post, the AnswerCount reached [ANSWERCOUNT], pointing to strong community engagement.",
+        "The lively discussion on the post gave rise to an AnswerCount of [ANSWERCOUNT], revealing active community interaction and interest.",
+        "Resulting from a vibrant discussion on the post, the AnswerCount stood at [ANSWERCOUNT], showcasing strong community involvement.",
+        "A robust community interaction and interest are showcased by the AnswerCount of [ANSWERCOUNT], which stemmed from the lively discussion on the post."
+      ],
+      "counter_variations": [
+        "A meticulous audit of the forum activity disclosed an Answer Count of null, thereby signalling an unexpected scarcity of logged responses.",
+        "The exhaustive examination of forum interactions uncovered an Answer Count of null, suggesting that no responses were captured in the dataset.",
+        "In reviewing the forum’s activity, analysts observed an Answer Count of null, a finding that underscores the surprising void of recorded answers.",
+        "The detailed analysis of forum metrics revealed an Answer Count of null, which implies an anomalous absence of any documented replies.",
+        "Upon close inspection of the forum’s log, the data indicated an Answer Count of null, reflecting an unforeseen lack of enumerated responses.",
+        "Our comprehensive assessment of the forum activity identified an Answer Count of null, highlighting a puzzling gap where responses should have been recorded.",
+        "The systematic evaluation of forum engagement produced an Answer Count of null, pointing to an unexpected deficiency in captured answers.",
+        "A full‑scale review of the forum’s activity yielded an Answer Count of null, illustrating a notable omission of any recorded replies.",
+        "Through an in‑depth investigation of forum activity, we found an Answer Count of null, which reveals a surprising non‑existence of logged responses.",
+        "The rigorous scrutiny of the forum’s interaction data returned an Answer Count of null, indicating that no responses were documented.",
+        "An extensive survey of the forum activity reported an Answer Count of null, thereby exposing an unexpected lack of captured answers.",
+        "Our detailed inspection of forum metrics uncovered an Answer Count of null, a result that denotes a surprising void of recorded replies.",
+        "The systematic audit of forum activity brought to light an Answer Count of null, suggesting that the system failed to register any responses.",
+        "A comprehensive review of the forum’s engagement statistics revealed an Answer Count of null, signifying an unanticipated absence of documented answers.",
+        "In the course of evaluating forum activity, the analysis highlighted an Answer Count of null, which reflects a puzzling shortage of recorded responses."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "community": [
+          "community"
+        ],
+        "interest": [
+          "interest",
+          "involvement",
+          "stake",
+          "concern",
+          "pursuit"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "lively": [
+          "lively",
+          "brisk",
+          "snappy"
+        ],
+        "strong": [
+          "strong",
+          "secure",
+          "substantial",
+          "firm",
+          "unassailable",
+          "potent"
+        ],
+        "resulted": [
+          "resulted"
+        ],
+        "post": [
+          "post",
+          "station",
+          "office",
+          "place",
+          "spot",
+          "position"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse"
+        ]
+      },
+      "field_data_types": {
+        "AnswerCount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post received 1 comment, indicating a low level of engagement from the community.",
+      "template_pattern": "The post received [COMMENTCOUNT] comment, indicating a low level of engagement from the community.",
+      "primary_data_fields": [
+        "CommentCount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "With a Comment Count of [COMMENTCOUNT], the post shows minimal community engagement.",
+        "The post’s Comment Count stands at [COMMENTCOUNT], reflecting a low engagement level from the community.",
+        "A single comment (Comment Count = [COMMENTCOUNT]) suggests the community’s engagement is weak.",
+        "Because the Comment Count is only [COMMENTCOUNT], the post experiences limited engagement from users.",
+        "Having just [COMMENTCOUNT] in the Comment Count, the post registers a modest level of community interaction.",
+        "The community contributed only one comment, giving the post a Comment Count of [COMMENTCOUNT] and indicating scarce engagement.",
+        "Low engagement is evident as the Comment Count registers [COMMENTCOUNT] for this post.",
+        "This post recorded a Comment Count of [COMMENTCOUNT], which points to a subdued level of community involvement.",
+        "Given the Comment Count of [COMMENTCOUNT], the post suffers from a low degree of community engagement.",
+        "Only one comment was logged (Comment Count: [COMMENTCOUNT]), signaling minimal engagement from the audience.",
+        "The post attracted a solitary comment, resulting in a Comment Count of [COMMENTCOUNT] and denoting weak community engagement.",
+        "An engagement metric shows a Comment Count of [COMMENTCOUNT], underscoring the post’s low interaction with the community.",
+        "Since the Comment Count equals [COMMENTCOUNT], the post reflects a modest engagement from its audience.",
+        "The post’s engagement is low, as evidenced by a Comment Count of [COMMENTCOUNT].",
+        "A Comment Count of [COMMENTCOUNT] on this post indicates that community engagement is quite limited."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "point",
+          "show",
+          "indicate"
+        ],
+        "community": [
+          "community"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "stratum",
+          "grade",
+          "stage",
+          "degree"
+        ],
+        "engagement": [
+          "engagement",
+          "booking",
+          "involvement",
+          "appointment",
+          "participation"
+        ],
+        "received": [
+          "received",
+          "obtain",
+          "receive",
+          "get"
+        ],
+        "post": [
+          "post",
+          "position",
+          "office",
+          "station",
+          "place"
+        ],
+        "comment": [
+          "comment",
+          "remark",
+          "commentary",
+          "input"
+        ]
+      },
+      "field_data_types": {
+        "CommentCount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post's popularity is evident, with a FavoriteCount of 14, highlighting its appeal within the programming community.",
+      "template_pattern": "The post's popularity is evident, with a FavoriteCount of [FAVORITECOUNT], highlighting its appeal within the programming community.",
+      "primary_data_fields": [
+        "FavoriteCount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Evidence of the post’s popularity appears in its FavoriteCount of [FAVORITECOUNT], underscoring its attractiveness to the programming community.",
+        "With a FavoriteCount of [FAVORITECOUNT], the post clearly demonstrates popularity and resonates strongly among programmers.",
+        "The programming community’s interest is reflected by the post’s FavoriteCount of [FAVORITECOUNT], a clear sign of its popularity.",
+        "A FavoriteCount of [FAVORITECOUNT] signals the post’s widespread appeal within the developer community.",
+        "Popularity is unmistakable, as the post registers a FavoriteCount of [FAVORITECOUNT], indicating strong programmer interest.",
+        "The post has garnered a FavoriteCount of [FAVORITECOUNT], which highlights its notable appeal to programmers.",
+        "Demonstrating strong appeal, the post records a FavoriteCount of [FAVORITECOUNT] among the programming audience.",
+        "The post’s FavoriteCount of [FAVORITECOUNT] serves as proof of its popularity within the coding community.",
+        "Recognized for its appeal, the post shows a FavoriteCount of [FAVORITECOUNT], confirming its popularity among developers.",
+        "Within the programming community, the post’s popularity is evident through a FavoriteCount of [FAVORITECOUNT].",
+        "A FavoriteCount of [FAVORITECOUNT] underscores how popular the post is among programmers.",
+        "The post’s appeal to programmers is evident, as reflected by a FavoriteCount of [FAVORITECOUNT].",
+        "Showing notable traction, the post’s FavoriteCount stands at [FAVORITECOUNT], highlighting its popularity in the developer sphere.",
+        "The strong programmer interest is manifested by the post’s FavoriteCount of [FAVORITECOUNT].",
+        "With a FavoriteCount of [FAVORITECOUNT], the post’s popularity becomes clear, emphasizing its draw for the programming community."
+      ],
+      "counter_variations": [
+        "The analysis reveals a Favorite Count of null, indicating that this metric was not captured for the current record.",
+        "According to the findings, the Favorite Count of null suggests that no value has been logged for this entry.",
+        "Our evaluation shows a Favorite Count of null, implying the metric remains unrecorded for this particular case.",
+        "The data review points to a Favorite Count of null, which denotes that the metric has not been documented for this item.",
+        "In this report, the Favorite Count of null is observed, signifying that the corresponding measurement was omitted.",
+        "Evidence from the analysis indicates a Favorite Count of null, reflecting the absence of a recorded value for this record.",
+        "The statistical summary highlights a Favorite Count of null, thereby suggesting that this field was left empty for the entry.",
+        "Upon examination, a Favorite Count of null emerges, meaning the metric was not entered for this specific case.",
+        "The findings disclose a Favorite Count of null, thereby implying that the measurement was not logged for this record.",
+        "Review of the dataset uncovers a Favorite Count of null, which conveys that the metric has not been registered for this entry.",
+        "The compiled results feature a Favorite Count of null, a sign that the metric was not captured in this instance.",
+        "Analysis of the dataset yields a Favorite Count of null, indicating that no value was recorded for this entry.",
+        "The report identifies a Favorite Count of null, suggesting that this particular metric was not entered for the current record.",
+        "Data inspection reveals a Favorite Count of null, pointing to the fact that the metric remains unrecorded for this entry.",
+        "The assessment notes a Favorite Count of null, thereby denoting that the metric has not been logged for this specific item."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "appeal": [
+          "appeal",
+          "attract",
+          "solicitation"
+        ],
+        "evident": [
+          "evident",
+          "apparent",
+          "discernible",
+          "manifest",
+          "unmistakable",
+          "patent"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "community": [
+          "community"
+        ],
+        "popularity": [
+          "popularity"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "post": [
+          "post",
+          "station",
+          "office",
+          "place",
+          "position"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {
+        "FavoriteCount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The unique identifier for the user who last edited this post is NULL.",
+      "template_pattern": "The unique identifier for the user who last edited this post is NULL.",
+      "primary_data_fields": [
+        "LastEditorUserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Last Editor User Id for this record is the numeric identifier [LASTEDITORUSERID], signifying the individual responsible.",
+        "Associated with this entry, the numeric identifier [LASTEDITORUSERID] serves as the Last Editor User Id, indicating who is responsible.",
+        "This entry's Last Editor User Id is the number [LASTEDITORUSERID], which designates the specific person accountable.",
+        "In this record, the Last Editor User Id corresponds to numeric identifier [LASTEDITORUSERID], denoting the responsible individual.",
+        "The numeric identifier [LASTEDITORUSERID], listed as the Last Editor User Id, identifies the particular individual behind this entry.",
+        "For this entry, the Last Editor User Id equals the numeric identifier [LASTEDITORUSERID], pointing to the responsible party.",
+        "The responsible party is indicated by the Last Editor User Id, which is the numeric identifier [LASTEDITORUSERID] in this case.",
+        "Here, the Last Editor User Id is recorded as the numeric identifier [LASTEDITORUSERID], marking the specific individual responsible.",
+        "The entry shows a Last Editor User Id of the numeric identifier [LASTEDITORUSERID], revealing who is accountable.",
+        "Numeric identifier [LASTEDITORUSERID], functioning as the Last Editor User Id, signals the specific individual responsible for this entry.",
+        "This record’s responsible individual is identified by the Last Editor User Id, namely the numeric identifier [LASTEDITORUSERID].",
+        "The Last Editor User Id attached to this entry is the numeric identifier [LASTEDITORUSERID], indicating the person responsible.",
+        "As the Last Editor User Id, the numeric identifier [LASTEDITORUSERID] designates the exact individual responsible for this entry.",
+        "In this data set, the numeric identifier [LASTEDITORUSERID] is presented as the Last Editor User Id, denoting the responsible individual.",
+        "The specific individual responsible is reflected by the Last Editor User Id, which equals numeric identifier [LASTEDITORUSERID]."
+      ],
+      "counter_variations": [
+        "According to the record, the Last Editor User Id for this post is recorded as null.",
+        "The data field Last Editor User Id, which denotes the identifier of the most recent contributor, currently holds the value null.",
+        "In this report, the Last Editor User Id appears as null, indicating that no user has been logged for the latest edit.",
+        "Because the most recent modification lacks an associated user, the Last Editor User Id is set to null.",
+        "Null is the present content of the Last Editor User Id field for the post under review.",
+        "The system logs show that the Last Editor User Id equals null, reflecting an unidentified editor.",
+        "For this article, the Last Editor User Id returns null, signifying an absent reference to a specific user.",
+        "The value null populates the Last Editor User Id column in the dataset representing this post.",
+        "When querying the dataset, the Last Editor User Id yields null, meaning the editor could not be determined.",
+        "Given the latest edit was performed without user attribution, the Last Editor User Id is null.",
+        "The report indicates a null entry for the Last Editor User Id associated with the current post.",
+        "A null designation appears in the Last Editor User Id field, denoting that the editor identity is not captured.",
+        "The Last Editor User Id is presently null, as the most recent edit lacks a traceable user identifier.",
+        "Within the metadata, the Last Editor User Id holds the value null, reflecting an unspecified editor.",
+        "The audit trail records a null for the Last Editor User Id, implying that the last modification was not linked to a user."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "last": [
+          "last",
+          "final",
+          "concluding",
+          "terminal"
+        ],
+        "user": [
+          "user"
+        ],
+        "edited": [
+          "edited",
+          "edit",
+          "emended"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "post": [
+          "post",
+          "station",
+          "office",
+          "position"
+        ]
+      },
+      "field_data_types": {
+        "LastEditorUserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The last edit date for the post is NULL, leaving the timing of recent updates unclear.",
+      "template_pattern": "The last edit date for the post is NULL, leaving the timing of recent updates unclear.",
+      "primary_data_fields": [
+        "LastEditDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Recorded as [LASTEDITDATE], the Last Edit Date marks the exact instant when the entry was last updated.",
+        "The entry’s most recent modification is signaled by the Last Edit Date, which is logged as [LASTEDITDATE].",
+        "At [LASTEDITDATE], the Last Edit Date reflects the precise point of the entry’s latest change.",
+        "The precise timestamp of the entry’s latest edit, [LASTEDITDATE], is captured in the Last Edit Date.",
+        "According to the Last Edit Date—[LASTEDITDATE]—the entry was most recently altered at that exact moment.",
+        "The Last Edit Date, set to [LASTEDITDATE], denotes when the entry underwent its most recent modification.",
+        "When the entry was last edited, it was at [LASTEDITDATE], as indicated by the Last Edit Date.",
+        "The timestamp [LASTEDITDATE], shown in the Last Edit Date, identifies the exact moment of the entry’s latest edit.",
+        "In the report, the Last Edit Date ([LASTEDITDATE]) specifies the precise time the entry was most recently modified.",
+        "The most recent change to the entry occurred at [LASTEDITDATE], a fact recorded in the Last Edit Date.",
+        "By noting [LASTEDITDATE], the Last Edit Date conveys the exact instant of the entry’s latest alteration.",
+        "The Last Edit Date, bearing the value [LASTEDITDATE], points to the precise moment when the entry was last updated.",
+        "At the moment marked [LASTEDITDATE], the entry was most recently edited, as captured by the Last Edit Date.",
+        "The entry’s latest modification time, [LASTEDITDATE], is recorded under the Last Edit Date.",
+        "Through the Last Edit Date ([LASTEDITDATE]), one can pinpoint the exact time the entry underwent its most recent edit."
+      ],
+      "counter_variations": [
+        "Because the Last Edit Date for the post is null, the exact timing of recent revisions cannot be determined.",
+        "The post’s Last Edit Date registers as null, rendering the chronology of its latest updates ambiguous.",
+        "Since the Last Edit Date appears as null, analysts are left without a clear indication of when the most recent edits occurred.",
+        "With the Last Edit Date marked null, the temporal sequence of the post’s recent modifications remains obscure.",
+        "Given that the Last Edit Date is null, the precise moment of the latest changes to the post is indeterminate.",
+        "The fact that the Last Edit Date shows null means the timing of the post’s recent amendments is not discernible.",
+        "Owing to a null value in the Last Edit Date, the schedule of the post’s newest edits is shrouded in uncertainty.",
+        "When the Last Edit Date is recorded as null, the chronology of the post’s recent updates becomes vague.",
+        "A null entry for the Last Edit Date leaves the exact point of the post’s latest alterations unclear.",
+        "Because the Last Edit Date returns null, the professional report cannot pinpoint when the post was most recently edited.",
+        "The presence of null in the Last Edit Date field obscures the timeline of recent changes to the post.",
+        "If the Last Edit Date is null, the report lacks a definitive reference for the timing of the post’s latest edits.",
+        "Since the Last Edit Date returns a null value, the schedule of recent modifications to the post cannot be ascertained.",
+        "The Last Edit Date being null conceals the precise moment at which the post underwent its most recent updates.",
+        "Given a null reading in the Last Edit Date, the exact timing of the post’s recent revisions remains indeterminate."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "edit": [
+          "edit"
+        ],
+        "last": [
+          "last",
+          "final",
+          "end",
+          "conclusion",
+          "concluding",
+          "lastly"
+        ],
+        "timing": [
+          "timing"
+        ],
+        "updates": [
+          "updates"
+        ],
+        "unclear": [
+          "unclear",
+          "indecipherable"
+        ],
+        "post": [
+          "post",
+          "station",
+          "mail",
+          "office",
+          "position"
+        ],
+        "leaving": [
+          "leaving",
+          "going"
+        ]
+      },
+      "field_data_types": {
+        "LastEditDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Community Owned Date for the user-generated post is NULL.",
+      "template_pattern": "The Community Owned Date for the user-generated post is NULL.",
+      "primary_data_fields": [
+        "CommunityOwnedDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Community Owned Date was logged as [COMMUNITYOWNEDDATE], indicating the exact acquisition moment recorded in the report.",
+        "In the report, the Community Owned Date is noted as [COMMUNITYOWNEDDATE], marking the precise time of acquisition.",
+        "We captured the Community Owned Date at [COMMUNITYOWNEDDATE], which reflects the exact moment the asset was acquired, as shown in the report.",
+        "Recorded in the report, the Community Owned Date reads [COMMUNITYOWNEDDATE], denoting the precise acquisition timestamp.",
+        "The timestamp [COMMUNITYOWNEDDATE] was entered for the Community Owned Date, signifying the exact moment of acquisition in the report.",
+        "As documented in the report, the Community Owned Date equals [COMMUNITYOWNEDDATE], capturing the precise acquisition instant.",
+        "The report registers the Community Owned Date as [COMMUNITYOWNEDDATE], reflecting the exact point of acquisition.",
+        "According to the report, the Community Owned Date was set to [COMMUNITYOWNEDDATE], marking the precise moment the asset was obtained.",
+        "The precise acquisition moment is expressed by the Community Owned Date, recorded at [COMMUNITYOWNEDDATE] in the report.",
+        "In the data report, we have the Community Owned Date listed as [COMMUNITYOWNEDDATE], denoting the exact time of acquisition.",
+        "The Community Owned Date, captured as [COMMUNITYOWNEDDATE], indicates the exact acquisition instant according to the report.",
+        "As per the report, the Community Owned Date shows [COMMUNITYOWNEDDATE], reflecting the precise moment of acquisition.",
+        "The exact acquisition timestamp, [COMMUNITYOWNEDDATE], is stored under Community Owned Date in the report.",
+        "Within the report, the Community Owned Date is logged at [COMMUNITYOWNEDDATE], signifying the precise moment the asset was acquired.",
+        "The report records the Community Owned Date as [COMMUNITYOWNEDDATE], highlighting the exact time of acquisition."
+      ],
+      "counter_variations": [
+        "For the user-generated post, the Community Owned Date registers as null.",
+        "The Community Owned Date of the user-generated post remains null.",
+        "Null is the current value of the Community Owned Date associated with the user-generated post.",
+        "In the dataset, the Community Owned Date pertaining to the user-generated post is recorded as null.",
+        "The user-generated post’s Community Owned Date currently holds a null value.",
+        "A null entry characterizes the Community Owned Date for the user-generated post.",
+        "Regarding the user-generated post, the Community Owned Date is presently null.",
+        "The Community Owned Date linked to the user-generated post shows null.",
+        "Data indicate that the Community Owned Date for the user-generated post is null.",
+        "Within the report, the Community Owned Date assigned to the user-generated post appears as null.",
+        "According to the latest extraction, the Community Owned Date for the user-generated post is null.",
+        "The Community Owned Date, as it relates to the user-generated post, is null.",
+        "Null constitutes the value of the Community Owned Date for the user-generated post.",
+        "For the user-generated post, the Community Owned Date is set to null.",
+        "The Community Owned Date concerning the user-generated post is null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "owned": [
+          "owned"
+        ],
+        "community": [
+          "community"
+        ],
+        "generated": [
+          "generated"
+        ],
+        "user": [
+          "user"
+        ],
+        "post": [
+          "post",
+          "station",
+          "billet",
+          "office",
+          "position"
+        ]
+      },
+      "field_data_types": {
+        "CommunityOwnedDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post is a root post, indicated by a Parent Identifier of NULL.",
+      "template_pattern": "The post is a root post, indicated by a Parent Identifier of NULL.",
+      "primary_data_fields": [
+        "ParentId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A higher‑level entity is linked to the entry, as shown by a Parent Id of [PARENTID], defining its hierarchical relationship.",
+        "The entry’s hierarchical relationship is established by linking it to a superior entity, indicated by a Parent Id of [PARENTID].",
+        "Because it has a Parent Id of [PARENTID], the entry connects to a higher‑level entity, thereby forming a hierarchy.",
+        "Linked to a higher‑level entity via a Parent Id of [PARENTID], the entry thereby gains a hierarchical position.",
+        "The presence of a Parent Id of [PARENTID] ties the entry to a superior entity, establishing its place in the hierarchy.",
+        "Through a Parent Id of [PARENTID], the entry is associated with a higher‑level entity, which creates its hierarchical link.",
+        "A Parent Id of [PARENTID] signifies that the entry is attached to a higher‑level entity, confirming its hierarchical relationship.",
+        "By virtue of a Parent Id of [PARENTID], the entry is connected to a higher‑level entity, setting up its hierarchical structure.",
+        "The entry is attached to a higher‑level entity, as a Parent Id of [PARENTID] indicates, thereby forming a hierarchical relationship.",
+        "With a Parent Id of [PARENTID], the entry links upward to a higher‑level entity, establishing its hierarchical context.",
+        "The hierarchical relationship is defined by the entry's link to a higher‑level entity, marked by a Parent Id of [PARENTID].",
+        "A Parent Id of [PARENTID] links the entry to a higher‑level entity, thus creating its hierarchical connection.",
+        "Because the entry carries a Parent Id of [PARENTID], it is tied to a higher‑level entity, establishing hierarchy.",
+        "The entry’s connection to a higher‑level entity—evidenced by a Parent Id of [PARENTID]—sets up its hierarchical relationship.",
+        "Through the Parent Id of [PARENTID], the entry is bound to a higher‑level entity, which establishes its place in the hierarchy."
+      ],
+      "counter_variations": [
+        "This entry is identified as a root post, given that its Parent Id is null.",
+        "Because the Parent Id equals null, the post functions as a root-level record.",
+        "A root post is indicated by the fact that the Parent Id field contains null.",
+        "When the Parent Id is set to null, the system treats the post as a root item.",
+        "The designation of this post as a root originates from its Parent Id being null.",
+        "Since the Parent Id registers as null, the post is classified as a root post.",
+        "The post assumes root status, as evidenced by a null value in the Parent Id column.",
+        "Root posts are those whose Parent Id appears as null, which is the case here.",
+        "In this dataset, the post is a root because its Parent Id holds the value null.",
+        "A null Parent Id signals that the post occupies the root position in the hierarchy.",
+        "The hierarchical root is signaled by a null entry in the Parent Id field for this post.",
+        "This post's root classification derives from its Parent Id being null.",
+        "Observing a null Parent Id, the report marks the post as a root element.",
+        "The presence of null in the Parent Id attribute designates the post as a root record.",
+        "Because the Parent Id contains null, the post is recognized as the root of the thread."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "post": [
+          "post",
+          "position",
+          "office",
+          "station",
+          "place"
+        ],
+        "parent": [
+          "parent"
+        ],
+        "root": [
+          "root",
+          "ancestor",
+          "origin",
+          "antecedent",
+          "stem",
+          "base"
+        ],
+        "indicated": [
+          "indicated",
+          "suggest",
+          "signal",
+          "point",
+          "designate",
+          "show"
+        ]
+      },
+      "field_data_types": {
+        "ParentId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post remains active as its closed date is currently NULL.",
+      "template_pattern": "The post remains active as its closed date is currently NULL.",
+      "primary_data_fields": [
+        "ClosedDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The report states that the Closed Date was logged as [CLOSEDDATE], marking the exact instant of completion.",
+        "As detailed in the report, the Closed Date appears as [CLOSEDDATE], signifying the precise time of finalization.",
+        "According to the report, the precise moment of finalization is captured by the Closed Date entry of [CLOSEDDATE].",
+        "The Closed Date, recorded as [CLOSEDDATE], indicates the exact point of closure per the report.",
+        "In the report, the Closed Date is noted as [CLOSEDDATE], denoting the specific moment when the process was finalized.",
+        "The report reveals that the Closed Date was set to [CLOSEDDATE], pinpointing the exact time of finalization.",
+        "Per the report, the Closed Date reads [CLOSEDDATE], reflecting the precise instant of completion.",
+        "The exact moment of finalization is documented by the Closed Date of [CLOSEDDATE], according to the report.",
+        "As the report indicates, the Closed Date shows [CLOSEDDATE], marking the precise time of closure.",
+        "The report documents the Closed Date as [CLOSEDDATE], which represents the exact moment the case was finalized.",
+        "According to the report, the timestamp for the Closed Date is [CLOSEDDATE], denoting the precise finalization point.",
+        "The Closed Date, shown as [CLOSEDDATE], signals the exact moment of finalization in the report.",
+        "In the report, the recorded Closed Date of [CLOSEDDATE] indicates precisely when the process was concluded.",
+        "The report confirms that the Closed Date was logged at [CLOSEDDATE], marking the exact time of final closure.",
+        "According to the report, the exact closure instant is reflected by the Closed Date entry [CLOSEDDATE]."
+      ],
+      "counter_variations": [
+        "Because the Closed Date is presently set to null, the post remains active.",
+        "The post stays active, given that its Closed Date currently registers as null.",
+        "As the Closed Date field currently contains null, the post is still considered active.",
+        "The post is maintained in an active state since its Closed Date has a null entry.",
+        "With the Closed Date recorded as null at this moment, the post continues to be active.",
+        "Since the Closed Date presently equals null, the post retains its active status.",
+        "The active status of the post persists because the Closed Date is, for now, null.",
+        "In the current dataset, the Closed Date shows null, thereby keeping the post active.",
+        "The post's activation endures owing to a null value in its Closed Date.",
+        "Given that the Closed Date is null at this juncture, the post remains in an active condition.",
+        "The post is still flagged as active as its Closed Date reports null.",
+        "A null entry in the Closed Date ensures that the post stays active.",
+        "Because the Closed Date is presently null, the post continues to be listed as active.",
+        "The post's active designation is preserved by the fact that its Closed Date is null.",
+        "Although the Closed Date is currently null, the post remains active in the report."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "closed": [
+          "closed",
+          "close",
+          "shut"
+        ],
+        "active": [
+          "active",
+          "dynamic",
+          "participating"
+        ],
+        "remains": [
+          "remains"
+        ],
+        "post": [
+          "post",
+          "position",
+          "office",
+          "station"
+        ]
+      },
+      "field_data_types": {
+        "ClosedDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post was created by NULL as the owner display name is missing.",
+      "template_pattern": "The post was created by NULL as the owner display name is missing.",
+      "primary_data_fields": [
+        "OwnerDisplayName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the report, the Owner Display Name linked to this entry is [OWNERDISPLAYNAME], signifying the designated account holder.",
+        "The Owner Display Name for this entry appears as [OWNERDISPLAYNAME] in the report, denoting the assigned account holder.",
+        "In the report, it is noted that the Owner Display Name associated with this record equals [OWNERDISPLAYNAME], reflecting the appointed account holder.",
+        "[OWNERDISPLAYNAME] is listed as the Owner Display Name for this entry, as the report confirms, indicating the designated account holder.",
+        "The report identifies [OWNERDISPLAYNAME] as the Owner Display Name tied to this entry, thereby indicating the designated account holder.",
+        "As the report reveals, this entry’s Owner Display Name is [OWNERDISPLAYNAME], which mirrors the designated account holder.",
+        "The Owner Display Name recorded in the report for this entry is [OWNERDISPLAYNAME], demonstrating the designated account holder.",
+        "From the report we learn that the Owner Display Name attached to this entry equals [OWNERDISPLAYNAME], representing the designated account holder.",
+        "It is documented in the report that this entry’s Owner Display Name is [OWNERDISPLAYNAME], reflecting the designated account holder.",
+        "The report indicates that this entry’s Owner Display Name corresponds to [OWNERDISPLAYNAME], denoting the designated account holder.",
+        "According to the data report, the Owner Display Name associated with this entry reads [OWNERDISPLAYNAME], signifying the designated account holder.",
+        "The entry’s Owner Display Name, as shown in the report, is [OWNERDISPLAYNAME], which points to the designated account holder.",
+        "In this report, the Owner Display Name for the entry is identified as [OWNERDISPLAYNAME], highlighting the designated account holder.",
+        "The report states that the Owner Display Name linked to this entry is [OWNERDISPLAYNAME], confirming the designated account holder.",
+        "As indicated by the report, this entry’s Owner Display Name is [OWNERDISPLAYNAME], reflecting the designated account holder."
+      ],
+      "counter_variations": [
+        "Due to the Owner Display Name not being provided, the post was authored by null.",
+        "The post was authored by null, given that the Owner Display Name was not supplied.",
+        "Because the Owner Display Name is not recorded, null is listed as the creator of the post.",
+        "Null appears as the creator of the post, as the Owner Display Name has been omitted.",
+        "The post lists null as its creator because the Owner Display Name has been omitted.",
+        "Since the Owner Display Name was omitted, null is recorded as the author of the post.",
+        "Null is identified as the post's creator, the Owner Display Name having not been entered.",
+        "The post’s creation is attributed to null, the Owner Display Name not being entered in the system.",
+        "In the absence of an Owner Display Name entry, the system attributes the post to null.",
+        "The post was generated by null after the Owner Display Name failed to appear in the dataset.",
+        "Null is credited with creating the post, as the Owner Display Name field contains no value.",
+        "Given that the Owner Display Name field is empty, null is shown as the post's originator.",
+        "The post’s author field shows null because the Owner Display Name was left blank.",
+        "Because the Owner Display Name was left blank, null is recorded as the post’s creator.",
+        "Null is logged as the creator of the post, since the Owner Display Name was not supplied."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "display": [
+          "display",
+          "exhibit",
+          "show"
+        ],
+        "missing": [
+          "missing",
+          "absent",
+          "lacking"
+        ],
+        "created": [
+          "created"
+        ],
+        "post": [
+          "post",
+          "station",
+          "office",
+          "position"
+        ],
+        "owner": [
+          "owner",
+          "possessor",
+          "proprietor"
+        ]
+      },
+      "field_data_types": {
+        "OwnerDisplayName": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The last editor's display name for the recent update is NULL, highlighting a gap in tracking community contributions.",
+      "template_pattern": "The last editor's display name for the recent update is NULL, highlighting a gap in tracking community contributions.",
+      "primary_data_fields": [
+        "LastEditorDisplayName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Last Editor Display Name for the most recent revision is [LASTEDITORDISPLAYNAME], which reveals the person who performed the update.",
+        "[LASTEDITORDISPLAYNAME] is listed as the Last Editor Display Name on the latest revision, indicating who carried out the change.",
+        "For the newest revision, the Last Editor Display Name appears as [LASTEDITORDISPLAYNAME], denoting the responsible individual.",
+        "The most recent revision shows [LASTEDITORDISPLAYNAME] as the Last Editor Display Name, signifying the updater.",
+        "Indicating the updater, the Last Editor Display Name tied to the latest revision is [LASTEDITORDISPLAYNAME].",
+        "[LASTEDITORDISPLAYNAME] is recorded as the Last Editor Display Name in the most recent revision, reflecting the individual responsible for the edit.",
+        "In the latest revision, the Last Editor Display Name is [LASTEDITORDISPLAYNAME], pointing to the person who made the modification.",
+        "The Last Editor Display Name associated with the newest revision equals [LASTEDITORDISPLAYNAME], identifying the responsible party.",
+        "Showing who updated the file, the Last Editor Display Name for the most recent revision is [LASTEDITORDISPLAYNAME].",
+        "[LASTEDITORDISPLAYNAME] serves as the Last Editor Display Name for the most recent revision, highlighting the update's author.",
+        "The most recent revision’s Last Editor Display Name is [LASTEDITORDISPLAYNAME], marking the individual who executed the update.",
+        "As the Last Editor Display Name on the latest revision, [LASTEDITORDISPLAYNAME] indicates the person accountable for the change.",
+        "The latest revision lists [LASTEDITORDISPLAYNAME] under Last Editor Display Name, denoting the updater.",
+        "[LASTEDITORDISPLAYNAME] appears as the Last Editor Display Name in the most recent revision, signifying the contributor of the update.",
+        "The Last Editor Display Name for the most recent revision, [LASTEDITORDISPLAYNAME], identifies the individual who performed the update."
+      ],
+      "counter_variations": [
+        "The recent update records the Last Editor Display Name as null, thereby exposing a deficiency in monitoring community contributions.",
+        "In the latest revision, the Last Editor Display Name field is null, which underscores an omission in tracing community contributions.",
+        "Because the Last Editor Display Name is null for this recent update, a shortfall in capturing community contributions becomes evident.",
+        "Null appears as the value for the Last Editor Display Name in the recent update, revealing a lapse in documenting community contributions.",
+        "The recent update lists null for the Last Editor Display Name, highlighting an inadequacy in the audit of community contributions.",
+        "Given that the Last Editor Display Name is null in the recent update, the report points to a gap in the oversight of community contributions.",
+        "A null entry for the Last Editor Display Name accompanies the recent update, signaling a weakness in the tracking of community contributions.",
+        "The recent update’s Last Editor Display Name shows null, which brings to light a shortcoming in the logging of community contributions.",
+        "When the recent update is examined, the Last Editor Display Name registers null, indicating a flaw in the recording of community contributions.",
+        "Null is recorded as the Last Editor Display Name for the recent update, drawing attention to an insufficiency in monitoring community contributions.",
+        "The recent update’s data set reveals null under the Last Editor Display Name, exposing a gap in the management of community contributions.",
+        "Observing the recent update, one finds null in the Last Editor Display Name field, thereby emphasizing a deficit in the oversight of community contributions.",
+        "The Last Editor Display Name is marked as null in the recent update, which points to an interruption in the documentation of community contributions.",
+        "In the context of the recent update, the Last Editor Display Name holds a null value, highlighting an imperfection in tracking community contributions.",
+        "The recent update presents null for the Last Editor Display Name, underscoring a shortfall in the systematic capture of community contributions."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "display": [
+          "display",
+          "exhibit",
+          "presentation",
+          "show"
+        ],
+        "last": [
+          "last",
+          "final",
+          "finale",
+          "conclusion",
+          "end",
+          "finish"
+        ],
+        "community": [
+          "community"
+        ],
+        "contributions": [
+          "contributions"
+        ],
+        "editor": [
+          "editor"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "update": [
+          "update"
+        ]
+      },
+      "field_data_types": {
+        "LastEditorDisplayName": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

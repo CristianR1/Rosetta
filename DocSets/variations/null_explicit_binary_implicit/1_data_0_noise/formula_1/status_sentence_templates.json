@@ -1,0 +1,117 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "93daf28f72ac4e90": "statusId",
+    "c0be92ec7ffd437e": "status"
+  },
+  "templates": [
+    {
+      "original": "The race is completed and its statusId is 1.",
+      "template_pattern": "The race is completed and its statusId is [STATUSID].",
+      "primary_data_fields": [
+        "statusId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The race has been completed, and its statusId equals [STATUSID].",
+        "Completed, the race now carries a statusId of [STATUSID].",
+        "With the race finished, its statusId stands at [STATUSID].",
+        "A statusId of [STATUSID] is assigned to the race, which is completed.",
+        "The race is finished; its statusId reads [STATUSID].",
+        "Having completed the race, its statusId is [STATUSID].",
+        "The race, now complete, holds a statusId of [STATUSID].",
+        "StatusId equals [STATUSID] for the race, which is completed.",
+        "The race's statusId is [STATUSID], indicating completion.",
+        "Completion of the race corresponds to a statusId of [STATUSID].",
+        "The race is done, and its statusId registers as [STATUSID].",
+        "Once the race is completed, its statusId becomes [STATUSID].",
+        "The race's statusId, set at [STATUSID], reflects that it is completed.",
+        "A completed race bears a statusId of [STATUSID].",
+        "The race, completed, has a statusId of [STATUSID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "completed": [
+          "completed",
+          "accomplished",
+          "finished"
+        ],
+        "race": [
+          "race"
+        ]
+      },
+      "field_data_types": {
+        "statusId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The status of the Formula 1 race is Finished, indicating the event has reached its conclusion.",
+      "template_pattern": "The status of the Formula 1 race is [STATUS], indicating the event has reached its conclusion.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The status of the Formula 1 race reads [STATUS], showing that the event has come to an end.",
+        "[STATUS] is the status reported for the Formula 1 race, indicating the competition has concluded.",
+        "In the report, the Formula 1 race status is listed as [STATUS], meaning the event is now over.",
+        "The Formula 1 race has a status of [STATUS], which signals that the race has reached its conclusion.",
+        "According to the data, the status for the Formula 1 race is [STATUS], denoting that the event is complete.",
+        "[STATUS] appears as the status of the Formula 1 race, confirming that the competition has wrapped up.",
+        "The status indicated for the Formula 1 race is [STATUS], implying the event has been finalized.",
+        "For the Formula 1 race, the status is recorded as [STATUS], reflecting that the event has ended.",
+        "The report marks the Formula 1 race status as [STATUS], thereby showing that the race is concluded.",
+        "Status: [STATUS] for the Formula 1 race, which tells us the event has reached its end.",
+        "The Formula 1 race status, noted as [STATUS], conveys that the competition has come to a close.",
+        "As per the summary, the status of the Formula 1 race is [STATUS], meaning the event is now [STATUS].",
+        "[STATUS] is the listed status for the Formula 1 race, indicating that the event has terminated.",
+        "The data entry shows the status of the Formula 1 race as [STATUS], signifying the event’s conclusion.",
+        "With the status set to [STATUS], the Formula 1 race is recognized as having completed its run."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "expression",
+          "pattern"
+        ],
+        "reached": [
+          "reached"
+        ],
+        "conclusion": [
+          "conclusion",
+          "decision",
+          "termination",
+          "end",
+          "closing",
+          "finish"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "event": [
+          "event",
+          "outcome",
+          "result",
+          "consequence",
+          "effect"
+        ],
+        "indicating": [
+          "indicating"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

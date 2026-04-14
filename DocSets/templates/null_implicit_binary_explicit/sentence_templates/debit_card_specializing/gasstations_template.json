@@ -1,0 +1,28 @@
+{
+  "database": "debit_card_specializing",
+  "table": "gasstations",
+  "entry_index": 0,
+  "original_data": {
+    "GasStationID": "44",
+    "ChainID": "13",
+    "Country": "CZE",
+    "Segment": "Value for money"
+  },
+  "generated_sentences": [
+    "The gas station identified by GasStationID 44 has implemented a new system for managing debit card transactions efficiently. (Hash: f49fa67454434830)",
+    "The gas station chain identified by ChainID 13 has implemented new strategies to enhance customer experience and operational efficiency. (Hash: 98c3bee1dbe14fff)",
+    "Many gas stations are strategically located across CZE, reflecting the country's robust infrastructure for fuel distribution. (Hash: b71e5021713f4424)",
+    "In the gas station's segment, offering value for money is a key factor in attracting budget-conscious customers. (Hash: 7a1de7ba349046b9)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "f49fa67454434830": "GasStationID",
+    "98c3bee1dbe14fff": "ChainID",
+    "b71e5021713f4424": "Country",
+    "7a1de7ba349046b9": "Segment"
+  },
+  "timestamp": "2026-04-13 13:12:26"
+}

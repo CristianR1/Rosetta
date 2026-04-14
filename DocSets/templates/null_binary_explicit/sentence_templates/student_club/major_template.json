@@ -1,0 +1,28 @@
+{
+  "database": "student_club",
+  "table": "major",
+  "entry_index": 0,
+  "original_data": {
+    "major_id": "rec06DF6vZ1CyPKpc",
+    "major_name": "Outdoor Product Design and Development",
+    "department": "School of Applied Sciences, Technology and Education",
+    "college": "College of Agriculture and Applied Sciences"
+  },
+  "generated_sentences": [
+    "Each student club member's academic journey is uniquely identified by their major_id, like rec06DF6vZ1CyPKpc, connecting them to their study field. (Hash: 52607231c64b40f1)",
+    "Among the student club members, several are pursuing a major in Outdoor Product Design and Development, showcasing their diverse academic interests. (Hash: 575f7638acc14705)",
+    "Many student organization members are pursuing majors through the School of Applied Sciences, Technology and Education, reflecting diverse academic interests. (Hash: 84581ba5a8c64c0f)",
+    "The student organization is closely tied to the College of Agriculture and Applied Sciences, which offers their academic major. (Hash: db159fd96a7f4be3)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "52607231c64b40f1": "major_id",
+    "575f7638acc14705": "major_name",
+    "84581ba5a8c64c0f": "department",
+    "db159fd96a7f4be3": "college"
+  },
+  "timestamp": "2026-03-31 16:46:17"
+}

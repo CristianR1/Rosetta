@@ -1,0 +1,1484 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [
+    "booster"
+  ],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "8ec9d906a0ef4dda": "id",
+    "d81e520702ec4466": "baseSetSize",
+    "1115ffd3b21849fe": "block",
+    "e2939f8a9e5d4631": "code",
+    "7f2703fbc0b94256": "isFoilOnly",
+    "0c35de0f22f54617": "isForeignOnly",
+    "d7a167322ac2476d": "isNonFoilOnly",
+    "b7ee3425ffb4484f": "isOnlineOnly",
+    "41feecbd63144299": "isPartialPreview",
+    "10b6abbf408c4e0d": "keyruneCode",
+    "b2bd71814fcf4969": "mcmId",
+    "61da6425fcf44b99": "mcmIdExtras",
+    "698cbcd4524442d0": "mcmName",
+    "53d23ec210bb43fb": "mtgoCode",
+    "02dfd1a59fd54dbc": "name",
+    "0226c363ae3e4386": "parentCode",
+    "a733b315cb694820": "releaseDate",
+    "dac9e82403e94b72": "tcgplayerGroupId",
+    "852a7d6813e74b96": "totalSetSize",
+    "37bfaa6ef9d3420c": "type"
+  },
+  "templates": [
+    {
+      "original": "The id of the first trading card set is 1.",
+      "template_pattern": "The id of the first trading card set is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The id of the first trading card set is [ID].",
+        "[ID] is the id assigned to the first trading card set.",
+        "The first trading card set carries an id of [ID].",
+        "An id of [ID] belongs to the first trading card set.",
+        "In the dataset, the id for the first trading card set equals [ID].",
+        "The id designated to the first trading card set reads [ID].",
+        "For the first trading card set, the id is recorded as [ID].",
+        "According to the report, the id of the first trading card set is [ID].",
+        "The first trading card set’s id, as listed, is [ID].",
+        "The id, concerning the first trading card set, has the value [ID].",
+        "The first trading card set is identified by an id of [ID].",
+        "The id associated with the first trading card set is set to [ID].",
+        "As per the data, the id of the first trading card set equals [ID].",
+        "The id for the first trading card set has been noted as [ID].",
+        "The first trading card set’s assigned id is [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "deal"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "first": [
+          "first",
+          "inaugural",
+          "foremost"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The baseSetSize of this particular trading card game set is 383, showcasing an impressive variety of unique cards.",
+      "template_pattern": "The baseSetSize of this particular trading card game set is [BASESETSIZE], showcasing an impressive variety of unique cards.",
+      "primary_data_fields": [
+        "baseSetSize"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The baseSetSize of this particular trading card game set is [BASESETSIZE], showcasing an impressive variety of unique cards.",
+        "With a baseSetSize of [BASESETSIZE], this trading card game set highlights a remarkable assortment of distinct cards.",
+        "An impressive variety of unique cards is presented by this trading card game set, whose baseSetSize measures [BASESETSIZE].",
+        "The baseSetSize for this specific trading card game set stands at [BASESETSIZE], offering a notable selection of singular cards.",
+        "At [BASESETSIZE], the baseSetSize of this trading card game set underscores a diverse collection of one‑of‑a‑kind cards.",
+        "Featuring [BASESETSIZE] cards, the baseSetSize of this particular set evidences an impressive variety of unique cards.",
+        "For this trading card game set, the baseSetSize is [BASESETSIZE], demonstrating a broad spectrum of distinct cards.",
+        "A baseSetSize of [BASESETSIZE] characterizes this specific trading card game set, showcasing a wide variety of unique cards.",
+        "This particular trading card game set, with a baseSetSize of [BASESETSIZE], boasts an impressive assortment of unique cards.",
+        "The impressive variety of unique cards in this set is reflected by a baseSetSize of [BASESETSIZE].",
+        "By containing [BASESETSIZE] cards, the baseSetSize of this trading card game set highlights a notable variety of unique cards.",
+        "In this trading card game set, the baseSetSize reaches [BASESETSIZE], indicating an impressive range of distinct cards.",
+        "The set’s baseSetSize, recorded at [BASESETSIZE], illustrates an extensive selection of unique trading cards.",
+        "[BASESETSIZE] defines the baseSetSize of this particular trading card game set, revealing a substantial variety of unique cards.",
+        "An extensive variety of unique cards is evident, as the baseSetSize of this trading card game set totals [BASESETSIZE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "game": [
+          "game"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "particular": [
+          "particular",
+          "specific",
+          "special"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "cards": [
+          "cards"
+        ]
+      },
+      "field_data_types": {
+        "baseSetSize": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Core Set block offers a foundational experience for players exploring the thematic and strategic elements of trading card games.",
+      "template_pattern": "The [BLOCK] block offers a foundational experience for players exploring the thematic and strategic elements of trading card games.",
+      "primary_data_fields": [
+        "block"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [BLOCK] block provides a foundational experience to players delving into the thematic and strategic aspects of trading card games.",
+        "A foundational experience is offered by the [BLOCK] block for players who explore the thematic and strategic elements of trading card games.",
+        "For players investigating the thematic and strategic components of trading card games, the [BLOCK] block delivers a foundational experience.",
+        "Players exploring the thematic and strategic elements of trading card games receive a foundational experience from the [BLOCK] block.",
+        "By presenting a foundational experience, the [BLOCK] block supports players as they examine the thematic and strategic facets of trading card games.",
+        "The [BLOCK] block supplies a foundational experience for those players exploring the thematic and strategic dimensions of trading card games.",
+        "In order to explore the thematic and strategic elements of trading card games, players can rely on the [BLOCK] block for a foundational experience.",
+        "A foundational experience is provided by the [BLOCK] block for players navigating the thematic and strategic sides of trading card games.",
+        "The [BLOCK] block, aimed at players exploring the thematic and strategic elements of trading card games, offers a foundational experience.",
+        "To aid players in exploring the thematic and strategic aspects of trading card games, the [BLOCK] block presents a foundational experience.",
+        "Players who examine the thematic and strategic elements of trading card games are given a foundational experience by the [BLOCK] block.",
+        "The [BLOCK] block grants a foundational experience to players who are probing the thematic and strategic elements of trading card games.",
+        "For those players delving into the thematic and strategic elements of trading card games, the [BLOCK] block furnishes a foundational experience.",
+        "A foundational experience is granted by the [BLOCK] block to players exploring the thematic and strategic elements of trading card games.",
+        "By offering a foundational experience, the [BLOCK] block assists players in their exploration of the thematic and strategic elements of trading card games."
+      ],
+      "counter_variations": [
+        "In this professional data report, the block field is null, indicating that no categorical grouping has been assigned.",
+        "The block field is null within this professional data report, which denotes that no categorical grouping has been assigned.",
+        "Because the block field is null, this professional data report shows that no categorical grouping has been assigned.",
+        "This professional data report marks the block field as null, thereby signifying that no categorical grouping has been assigned.",
+        "Null appears in the block field of this professional data report, implying that no categorical grouping has been assigned.",
+        "Within the professional data report, the block field being null conveys that no categorical grouping has been assigned.",
+        "The professional data report records a null block field, reflecting that no categorical grouping has been assigned.",
+        "Observing a null value in the block field, the professional data report confirms that no categorical grouping has been assigned.",
+        "A null designation for the block field in this professional data report indicates that no categorical grouping has been assigned.",
+        "Since the block field is null, the professional data report reveals that no categorical grouping has been assigned.",
+        "The block field's null status, as presented in this professional data report, signals that no categorical grouping has been assigned.",
+        "In the context of this professional data report, the block field being null serves as an indication that no categorical grouping has been assigned.",
+        "The presence of null in the block field of this professional data report denotes that no categorical grouping has been assigned.",
+        "By marking the block field as null, this professional data report communicates that no categorical grouping has been assigned.",
+        "A null entry for the block field within this professional data report reveals that no categorical grouping has been assigned."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading"
+        ],
+        "offers": [
+          "offers",
+          "tender",
+          "bid",
+          "proffer"
+        ],
+        "exploring": [
+          "exploring"
+        ],
+        "strategic": [
+          "strategic"
+        ],
+        "elements": [
+          "elements"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "thematic": [
+          "thematic"
+        ],
+        "games": [
+          "games"
+        ]
+      },
+      "field_data_types": {
+        "block": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The 10E code is essential for collectors to identify and organize their trading card sets with precision.",
+      "template_pattern": "The [CODE] code is essential for collectors to identify and organize their trading card sets with precision.",
+      "primary_data_fields": [
+        "code"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors rely on the [CODE] code to pinpoint and arrange their trading card sets with precision.",
+        "With precision, the [CODE] code enables collectors to identify and organize their trading card sets.",
+        "The [CODE] code serves as a vital tool for collectors to catalog and sort their trading card sets accurately.",
+        "For collectors, the [CODE] code is indispensable in recognizing and structuring their trading card sets precisely.",
+        "Precision in managing trading card sets is achieved by collectors through the essential [CODE] code.",
+        "By using the [CODE] code, collectors can accurately identify and orderly arrange their trading card sets.",
+        "The [CODE] code, crucial for collectors, allows for precise identification and organization of their trading card sets.",
+        "Collectors can achieve exact sorting of their trading card sets thanks to the indispensable [CODE] code.",
+        "Through the [CODE] code, collectors are able to pinpoint and systematically organize their trading card sets with precision.",
+        "The essential [CODE] code empowers collectors to both identify and meticulously arrange their trading card sets.",
+        "To maintain precision, collectors utilize the [CODE] code for identifying and organizing their trading card sets.",
+        "The [CODE] code is a key resource that helps collectors accurately catalog and manage their trading card sets.",
+        "Collectors employ the [CODE] code to ensure precise identification and orderly arrangement of their trading card sets.",
+        "With the [CODE] code, the task of identifying and organizing trading card sets is performed by collectors with precision.",
+        "Precision in the identification and organization of trading card sets is facilitated for collectors by the [CODE] code."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "swap"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "essential": [
+          "essential",
+          "crucial",
+          "requisite",
+          "indispensable",
+          "necessary"
+        ],
+        "identify": [
+          "identify",
+          "distinguish",
+          "name"
+        ],
+        "sets": [
+          "sets"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "precision": [
+          "precision"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "code": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card set includes 0 foil cards, highlighting its focus on traditional finishes rather than reflective ones.",
+      "template_pattern": "The trading card set includes [ISFOILONLY] foil cards, highlighting its focus on traditional finishes rather than reflective ones.",
+      "primary_data_fields": [
+        "isFoilOnly"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card set features [ISFOILONLY] foil cards, underscoring its preference for traditional finishes over reflective ones.",
+        "The trading card set features [ISFOILONLY] foil cards, underscoring its emphasis on traditional finishes rather than reflective ones.",
+        "The trading card set includes [ISFOILONLY] foil cards, underscoring its emphasis on traditional finishes instead of reflective ones.",
+        "The trading card set features [ISFOILONLY] foil cards, emphasizing its emphasis on classic finishes rather than reflective ones.",
+        "This trading card collection features [ISFOILONLY] foil cards, underscoring its emphasis on classic finishes rather than reflective ones.",
+        "The trading card set includes [ISFOILONLY] foil cards, underscoring its preference for traditional finishes over reflective ones.",
+        "The trading card set features [ISFOILONLY] foil cards, emphasizing its preference for traditional finishes over reflective ones.",
+        "The trading card set includes [ISFOILONLY] foil cards, emphasizing its preference for traditional rather than reflective finishes.",
+        "This trading card set features [ISFOILONLY] foil cards, emphasizing its preference for classic finishes over reflective ones.",
+        "The trading card set includes [ISFOILONLY] foil cards, emphasizing its preference for traditional finishes over reflective ones.",
+        "The trading card set includes [ISFOILONLY] foil cards, underscoring its emphasis on traditional finishes instead of reflective ones.",
+        "The trading card set features [ISFOILONLY] foil cards, underscoring its emphasis on classic finishes rather than reflective ones.",
+        "The trading card set contains [ISFOILONLY] foil cards, emphasizing its focus on traditional finishes rather than reflective ones.",
+        "The trading card set includes [ISFOILONLY] foil cards, underscoring its emphasis on traditional finishes rather than reflective ones.",
+        "The trading card set features [ISFOILONLY] foil cards, emphasizing its preference for classic finishes over reflective ones."
+      ],
+      "counter_variations": [
+        "The trading card collection, registering a count of 0 foil cards, thereby underscores its prioritization of classic finishes rather than glossy, reflective alternatives.",
+        "The trading card set includes 0 foil cards, thereby signaling a deliberate preference for traditional finishes rather than reflective ones.",
+        "In the absence of foil cards, which are not specified, the trading card set underscores a focus on conventional finishes rather than glossy alternatives.",
+        "The collection of trading cards comprises 0 foil cards, thereby underscoring its commitment to conventional, non‑reflective finishes rather than glossy, foil variants.",
+        "By privileging traditional finishes over reflective ones, the trading card set is composed of zero foil cards, thereby indicating the complete absence of foil elements.",
+        "The trading card set, which comprises 0 foil cards, thereby exemplifies its dedication to classic rather than mirror‑like finishes.",
+        "Reflective finishes are deliberately omitted from the trading card set, which contains 0 foil cards in order to emphasize a traditional aesthetic.",
+        "By omitting any foil cards, the trading card set foregrounds its reliance on conventional finishes rather than on glossy, foil‑treated alternatives.",
+        "The trading card set contains no foil cards (0), thereby underscoring a deliberate emphasis on traditional finishes in lieu of reflective alternatives.",
+        "Traditional finishes are prioritized in the trading card set, which holds 0 foil cards, thereby foregoing reflective variants.",
+        "That the trading card set records foil cards as 0—signifying their absence—serves to underscore its deliberate preference for classic, non‑reflective finishes over glossy alternatives.",
+        "In this trading card set, the fact that 0 foil cards are present underscores a pronounced tilt toward traditional finishes rather than glossy ones.",
+        "The trading card set's absence of foil cards (0) serves as an indicator that the collection favors conventional, non‑reflective finishes over glossy, foil alternatives.",
+        "By featuring 0 foil cards, the trading card set underscores its preference for traditional, non‑shiny finishes rather than glossy alternatives.",
+        "The trading card set registers a NULL entry for foil cards, a definitive indication that it preferentially employs traditional finishes rather than reflective ones."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading"
+        ],
+        "ones": [
+          "ones"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "than": [
+          "than"
+        ],
+        "rather": [
+          "rather",
+          "preferably",
+          "instead",
+          "quite"
+        ],
+        "finishes": [
+          "finishes",
+          "finish",
+          "complete",
+          "ending",
+          "conclusion",
+          "finale"
+        ],
+        "reflective": [
+          "reflective",
+          "contemplative",
+          "meditative",
+          "ruminative",
+          "pensive"
+        ],
+        "traditional": [
+          "traditional"
+        ]
+      },
+      "field_data_types": {
+        "isFoilOnly": "bool"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card set is indicated by the value 0, meaning it is not exclusively available in foreign markets.",
+      "template_pattern": "The trading card set is indicated by the value [ISFOREIGNONLY], meaning it is not exclusively available in foreign markets.",
+      "primary_data_fields": [
+        "isForeignOnly"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the professional report, the is Foreign Only field records the value 1 as a binary indicator.",
+        "The value 1, a binary flag, is captured by the is Foreign Only field in the professional report.",
+        "In the professional report, the is Foreign Only field logs the value 1, serving as a binary indicator.",
+        "A binary indicator of value 1 is stored in the is Foreign Only field of the professional report.",
+        "The professional report’s is Foreign Only field marks the value 1, functioning as a binary indicator.",
+        "Recorded as a binary indicator, the value 1 appears in the is Foreign Only field of the professional report.",
+        "The is Foreign Only field, within the professional report, assigns the binary value 1.",
+        "In the professional report, the is Foreign Only field assigns the binary indicator value 1.",
+        "The binary indicator value 1 is logged in the is Foreign Only field of the professional report.",
+        "Within the professional report, the is Foreign Only field assigns a binary value of 1.",
+        "The professional report notes that the is Foreign Only field holds the binary value 1.",
+        "As a binary indicator, the value 1 is held by the is Foreign Only field in the professional report.",
+        "The is Foreign Only field records a binary indicator of 1 in the professional report.",
+        "In the professional report, a binary indicator of 1 is recorded by the is Foreign Only field.",
+        "The value 1, acting as a binary indicator, is stored in the is Foreign Only field of the professional report."
+      ],
+      "counter_variations": [
+        "The isForeignOnly attribute displays a value of 0, thereby indicating that the set is not confined exclusively to foreign markets.",
+        "A value of 0 in the isForeignOnly field denotes that the trading card set is not confined solely to foreign markets, thereby being available in additional regions.",
+        "Given that the isForeignOnly entry registers a value of 0, the set is consequently not sold exclusively in foreign markets.",
+        "The isForeignOnly parameter, assigned a value of 0, indicates that the cards are not limited exclusively to foreign markets.",
+        "When isForeignOnly equals 0, the collection is not confined exclusively to overseas markets.",
+        "The trading card set’s isForeignOnly flag is 0, thereby denoting that the set is accessible in markets beyond those classified as foreign.",
+        "Because the isForeignOnly field contains 0, the set is therefore not confined exclusively to foreign markets.",
+        "A reading of 0 in the isForeignOnly field denotes that the set is not marketed exclusively abroad, implying that its distribution is not confined solely to foreign markets.",
+        "The isForeignOnly designation of 0 signifies, consequently, that the cards are not confined exclusively to foreign markets.",
+        "When isForeignOnly is 0, it signifies that the set is not exclusively confined to foreign markets.",
+        "The assignment of the binary value 0 to isForeignOnly signifies that the set is not exclusive to overseas markets.",
+        "isForeignOnly = 0 reveals that the trading card set is not limited solely to foreign markets, thereby permitting domestic distribution.",
+        "The presence of 0 in the isForeignOnly column signifies that the set is not sold exclusively in foreign markets.",
+        "A value of 0 in isForeignOnly conveys that the set is not exclusive to foreign markets.",
+        "Since isForeignOnly equals 0, thereby indicating a non‑foreign‑only condition, the set is not confined exclusively to foreign markets."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "deal",
+          "swap"
+        ],
+        "markets": [
+          "markets",
+          "marketplaces",
+          "marts"
+        ],
+        "exclusively": [
+          "exclusively",
+          "only",
+          "solely"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "available": [
+          "available",
+          "usable",
+          "useable"
+        ],
+        "indicated": [
+          "indicated",
+          "signal",
+          "point",
+          "show",
+          "indicate"
+        ],
+        "foreign": [
+          "foreign",
+          "alien"
+        ],
+        "meaning": [
+          "meaning",
+          "significance",
+          "signification",
+          "import"
+        ]
+      },
+      "field_data_types": {
+        "isForeignOnly": "bool"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The value 0 indicates that the trading card set is exclusively composed of non-foil cards.",
+      "template_pattern": "The value [ISNONFOILONLY] indicates that the trading card set is exclusively composed of non-foil cards.",
+      "primary_data_fields": [
+        "isNonFoilOnly"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The professional data report lists the field Is Non Foil Only as 1, which matches the prescribed binary code.",
+        "In the professional data report, Is Non Foil Only is set to 1, consistent with the defined binary designation.",
+        "According to the professional data report, the field Is Non Foil Only bears the value 1, aligning with the specified binary setting.",
+        "Recorded as 1 in the professional data report, the field Is Non Foil Only conforms to the indicated binary designation.",
+        "The field Is Non Foil Only, noted as 1 in the professional data report, adheres to the established binary classification.",
+        "Within the professional data report, Is Non Foil Only appears with a value of 1, reflecting the intended binary designation.",
+        "In the professional data report, a 1 is entered for the field Is Non Foil Only, matching the binary specification.",
+        "The professional data report records a 1 for Is Non Foil Only, thereby satisfying the stipulated binary designation.",
+        "Is Non Foil Only is captured as 1 in the professional data report, in line with the prescribed binary code.",
+        "The professional data report documents the field Is Non Foil Only as having the value 1, which aligns with the binary requirement.",
+        "As shown in the professional data report, the Is Non Foil Only field is assigned the value 1, consistent with the binary designation.",
+        "A value of 1 for Is Non Foil Only is logged in the professional data report, adhering to the defined binary rule.",
+        "The professional data report indicates that Is Non Foil Only equals 1, complying with the specified binary designation.",
+        "In the professional data report, the entry for Is Non Foil Only reads 1, which corresponds to the binary designation set forth.",
+        "The field Is Non Foil Only is documented as 1 within the professional data report, aligning with the designated binary value."
+      ],
+      "counter_variations": [
+        "When the field contains the binary value 0, it denotes that the trading card set is classified as non‑foil only.",
+        "When the entry reads 0, it denotes that the trading‑card set is classified as non‑foil only, indicating the absence of foil variants.",
+        "The code 0 denotes that the trading card set is not confined to a foil‑only status.",
+        "In the event that the indicated value is 0, the trading card set is consequently classified as Non Foil Only.",
+        "If the field is set to 0, this indicates that the trading‑card set is classified as non‑foil only.",
+        "A reading of 0, therefore, unequivocally confirms that the trading‑card set is non‑foil only.",
+        "A value of 0 signifies that the trading card set is classified as Non‑Foil Only.",
+        "When the field contains the binary value 0, it signifies that the trading card set is composed solely of non‑foil cards.",
+        "When the field is set to 0, it denotes that the trading card set comprises exclusively non‑foil cards.",
+        "The indicator 0 denotes that the trading card set is non‑foil only, indicating the absence of any foil variants.",
+        "Given that the field value is 0, the trading card set is consequently identified as Non‑Foil Only.",
+        "A recorded value of 0 denotes that the trading card set consists exclusively of non‑foil cards.",
+        "The numeric value 0 denotes that the trading card set is classified as Non‑Foil Only.",
+        "When the binary value 0 is entered, it signifies that the trading‑card set comprises exclusively non‑foil cards.",
+        "A zero value signifies that the trading card set comprises exclusively non‑foil cards."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "deal"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "exclusively": [
+          "exclusively",
+          "only",
+          "solely"
+        ],
+        "card": [
+          "card",
+          "notice",
+          "posting",
+          "scorecard",
+          "placard"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "composed": [
+          "composed"
+        ],
+        "foil": [
+          "foil",
+          "thwart",
+          "frustrate",
+          "baffle",
+          "spoil"
+        ]
+      },
+      "field_data_types": {
+        "isNonFoilOnly": "bool"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card set has a value of 0, indicating it is not exclusively available for online purchase.",
+      "template_pattern": "The trading card set has a value of [ISONLINEONLY], indicating it is not exclusively available for online purchase.",
+      "primary_data_fields": [
+        "isOnlineOnly"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the professional data report, the is Online Only field records a value of 1.",
+        "The professional data report shows that the is Online Only field is set to 1.",
+        "In the professional data report, the is Online Only field appears as 1.",
+        "A value of 1 is assigned to the is Online Only field, as noted in the professional data report.",
+        "The professional data report indicates a 1 for the is Online Only field.",
+        "As per the professional data report, the is Online Only field has the numeric entry 1.",
+        "The is Online Only field holds the value 1, according to the professional data report.",
+        "Recorded in the professional data report, the is Online Only field equals 1.",
+        "The professional data report documents that the is Online Only field equals 1.",
+        "Within the professional data report, the is Online Only field is listed as 1.",
+        "The is Online Only field is documented as 1 in the professional data report.",
+        "In the professional data report, a 1 is listed for the is Online Only field.",
+        "The professional data report marks the is Online Only field with the value 1.",
+        "As the professional data report states, the is Online Only field is 1.",
+        "The is Online Only field, per the professional data report, registers a 1."
+      ],
+      "counter_variations": [
+        "The trading card set’s Online Only value equals 0, thereby indicating that the set is not obtainable solely through online purchase.",
+        "A value of 0 is recorded for the trading card set’s Is Online Only field, thereby signifying that the set is not sold exclusively through online channels.",
+        "For the trading card set, the Online Only metric registers a value of 0, which consequently denotes that the set is not limited exclusively to online acquisition.",
+        "The Online Only entry for this trading card set is recorded as 0, thereby indicating that the set may be purchased through channels beyond strictly online distribution.",
+        "Recorded as 0, the Online Only attribute of the trading card set signifies that the set is not confined exclusively to online acquisition, thereby indicating its availability through alternative channels.",
+        "A value of 0 in the is Online Only field indicates that the trading card set is not exclusively obtainable through online purchase.",
+        "The trading card set exhibits an is Online Only score of 0, thereby denoting that it is not limited exclusively to online acquisition.",
+        "Given that the is Online Only field is set to 0, it can be conclusively determined that the trading card set is not limited to exclusive online purchase.",
+        "The “Online Only” parameter, which governs online exclusivity, is assigned a value of 0 for this trading card set, thereby denoting that the set is not solely obtainable via online channels.",
+        "Given that the is Online Only value is 0, the trading card set is consequently not confined to acquisition exclusively via the internet.",
+        "The trading card set’s Online Only designation is 0, thereby signifying that the set is not confined exclusively to online sales.",
+        "An “Online Only” rating of 0 signifies that the trading card set can be obtained through non‑online avenues, indicating it is not confined to digital distribution channels.",
+        "The data indicate that the trading card set’s Online Only field is 0, thereby implying that the product is not exclusively an online‑only offering.",
+        "Because the Online Only figure registers a value of 0, the trading card set is consequently not exclusively obtainable through online purchase.",
+        "The Online Only flag for the trading card set is 0, thereby indicating that the set is not exclusive to online buying."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "swap"
+        ],
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "point",
+          "show",
+          "indicate"
+        ],
+        "purchase": [
+          "purchase",
+          "buy"
+        ],
+        "exclusively": [
+          "exclusively",
+          "only",
+          "solely"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "available": [
+          "available",
+          "usable"
+        ],
+        "online": [
+          "online"
+        ]
+      },
+      "field_data_types": {
+        "isOnlineOnly": "bool"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The isPartialPreview value is 0.",
+      "template_pattern": "The isPartialPreview value is [ISPARTIALPREVIEW].",
+      "primary_data_fields": [
+        "isPartialPreview"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Is Partial Preview indicator shows a value of 1, confirming that the displayed preview is only partial.",
+        "A value of 1 is recorded by the Is Partial Preview indicator, which verifies that the preview is partial.",
+        "Because the Is Partial Preview indicator registers 1, it indicates that the preview provided is partial.",
+        "The preview is identified as partial, as the Is Partial Preview indicator reports a value of 1.",
+        "With the Is Partial Preview indicator set to 1, the system confirms the preview is partial.",
+        "The Is Partial Preview field reports the numeric value 1, thereby signifying a partial preview.",
+        "Recording a 1, the Is Partial Preview indicator establishes that the current preview is partial.",
+        "The presence of a 1 in the Is Partial Preview indicator denotes that the preview is partial in nature.",
+        "By logging a value of 1, the Is Partial Preview indicator affirms the preview is only partial.",
+        "The Is Partial Preview metric returns 1, indicating that the preview shown is partial.",
+        "Since the Is Partial Preview indicator yields 1, it confirms the preview is a partial one.",
+        "The system flags the preview as partial because the Is Partial Preview indicator equals 1.",
+        "A 1 value from the Is Partial Preview indicator validates that the preview is partially displayed.",
+        "The Is Partial Preview reading of 1 demonstrates that the preview is not complete but partial.",
+        "When the Is Partial Preview indicator displays 1, it signals that the preview is partial."
+      ],
+      "counter_variations": [
+        "The isPartialPreview value is explicitly set to 0, thereby indicating the opposite state.",
+        "According to the report, the isPartialPreview field holds the value 0.",
+        "Within this report, the isPartialPreview setting is assigned the binary value 0.",
+        "The current isPartialPreview reading is 0, denoting that a partial preview is not indicated.",
+        "IsPartialPreview is presently set to the binary value 0.",
+        "The field isPartialPreview is set to 0, indicating a false or non‑partial preview state.",
+        "A value of 0 serves as the designated setting for the isPartialPreview field, indicating its inactive or false state.",
+        "The data indicate that the isPartialPreview field is currently set to 0.",
+        "The isPartialPreview metric, which denotes the presence of a partial preview, registers a binary value of 0, thereby indicating that no partial preview is present.",
+        "A binary value of 0 is explicitly assigned to isPartialPreview, thereby indicating that the preview is not partial.",
+        "At present, the IsPartialPreview field is recorded with a binary value of 0.",
+        "The isPartialPreview parameter is reported to hold the binary value 0, indicating that a partial preview is not active.",
+        "A value of 0, denoting a false or inactive state, is indicated for the isPartialPreview field.",
+        "The isPartialPreview entry, upon inspection, reports a binary value of 0, indicating that the partial‑preview flag is not active.",
+        "Within the confines of this dataset, the binary attribute isPartialPreview is explicitly assigned the value 0."
+      ],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "isPartialPreview": "bool"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The keyruneCode 10E is essential for identifying the unique game mechanics of this particular trading card set.",
+      "template_pattern": "The keyruneCode [KEYRUNECODE] is essential for identifying the unique game mechanics of this particular trading card set.",
+      "primary_data_fields": [
+        "keyruneCode"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Identifying the unique game mechanics of this specific trading card set hinges on the keyruneCode [KEYRUNECODE].",
+        "The keyruneCode [KEYRUNECODE] plays a crucial role in pinpointing the distinctive mechanics of this trading card set.",
+        "For this particular trading card set, the unique game mechanics can be identified through the essential keyruneCode [KEYRUNECODE].",
+        "It is the keyruneCode [KEYRUNECODE] that is indispensable for recognizing the singular game mechanics of this trading card set.",
+        "Recognizing the exclusive mechanics of this trading card set requires the keyruneCode [KEYRUNECODE].",
+        "The essential keyruneCode [KEYRUNECODE] enables the identification of this set’s unique game mechanics.",
+        "In order to identify the distinctive mechanics of this trading card set, one must rely on the keyruneCode [KEYRUNECODE].",
+        "The unique game mechanics of this particular trading card set are identified by means of the keyruneCode [KEYRUNECODE], which is essential.",
+        "To pinpoint the singular mechanics of this trading card set, the keyruneCode [KEYRUNECODE] is indispensable.",
+        "This specific trading card set’s unique game mechanics are uncovered through the essential keyruneCode [KEYRUNECODE].",
+        "The keyruneCode [KEYRUNECODE], being essential, facilitates the detection of the set’s unique game mechanics.",
+        "By employing the keyruneCode [KEYRUNECODE], analysts can identify the distinctive mechanics of this particular trading card set.",
+        "Essential for uncovering the unique mechanics of this trading card set, the keyruneCode [KEYRUNECODE] serves this purpose.",
+        "The unique mechanics of this particular trading card set are revealed thanks to the essential keyruneCode [KEYRUNECODE].",
+        "For the purpose of identifying this set’s singular game mechanics, the keyruneCode [KEYRUNECODE] is indispensable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "game": [
+          "game"
+        ],
+        "essential": [
+          "essential",
+          "crucial",
+          "requisite",
+          "indispensable",
+          "necessary"
+        ],
+        "particular": [
+          "particular",
+          "specific",
+          "special"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ],
+        "mechanics": [
+          "mechanics"
+        ],
+        "identifying": [
+          "identifying"
+        ]
+      },
+      "field_data_types": {
+        "keyruneCode": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card set with mcmId 74 has become a favorite among collectors for its unique selection of cards.",
+      "template_pattern": "The trading card set with mcmId [MCMID] has become a favorite among collectors for its unique selection of cards.",
+      "primary_data_fields": [
+        "mcmId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors now favor the trading card set identified by mcmId [MCMID] because of its distinctive card selection.",
+        "The trading card set bearing mcmId [MCMID] has risen to collector favorite status thanks to its unique assortment of cards.",
+        "With mcmId [MCMID], the trading card set is regarded as a collector's top pick due to its singular selection of cards.",
+        "Owing to its exceptional card lineup, the trading card set with mcmId [MCMID] is a favorite among collectors.",
+        "Among collectors, the trading card set marked mcmId [MCMID] enjoys popularity for its exclusive card selection.",
+        "The unique selection of cards in the set with mcmId [MCMID] has made it a collector‑favored series.",
+        "Because of its one‑of‑a‑kind card variety, the trading card set (mcmId [MCMID]) has become beloved by collectors.",
+        "Collectors have embraced the trading card set that carries mcmId [MCMID], drawn to its distinctive card range.",
+        "The trading card set, mcmId [MCMID], is now celebrated by collectors for its special selection of cards.",
+        "Due to its unique card lineup, the set with mcmId [MCMID] has secured a place as a collector favorite.",
+        "The set identified as mcmId [MCMID] is prized by collectors for offering a unique array of cards.",
+        "Thanks to its exclusive card selection, the trading card set bearing mcmId [MCMID] has turned into a collector favorite.",
+        "In the eyes of collectors, the trading card set with mcmId [MCMID] stands out because of its singular card assortment.",
+        "The trading card set (mcmId [MCMID]) has been elevated to a collector favourite thanks to its unique cards.",
+        "For its distinct selection of cards, the trading card set labeled mcmId [MCMID] has become a favorite among collectors."
+      ],
+      "counter_variations": [
+        "The analysis presently shows that the MCM Id is null, thereby precluding any identifier‑based categorization within this report.",
+        "Given that the MCM Id is null, the current assessment inevitably rules out any identifier‑based categorization in the report.",
+        "Since the MCM Id registers as null, the report is consequently unable to apply any identifier‑based categorization.",
+        "Our latest evaluation reveals a null value for the MCM Id, which in turn eliminates the possibility of any identifier‑based categorization in this document.",
+        "A null setting for the MCM Id, as indicated by the current analysis, blocks any identifier‑based categorization from being executed within this report.",
+        "The present data review indicates a null MCM Id, and as a result, no identifier‑based categorization can be performed in the report.",
+        "With the MCM Id being null, the analysis concludes that the report must forgo any identifier‑based categorization.",
+        "The current findings, highlighting a null MCM Id, inevitably preempt any identifier‑based categorization in the report.",
+        "Because the MCM Id appears as null, the report is forced to omit any identifier‑based categorization.",
+        "The assessment identifies a null condition for the MCM Id, consequently barring any identifier‑based categorization within this report.",
+        "In this analysis, the MCM Id is recorded as null, which consequently prevents any identifier‑based categorization from being applied in the report.",
+        "The report’s evaluation shows a null MCM Id, thereby disallowing any identifier‑based categorization.",
+        "Having a null value for the MCM Id, as the analysis indicates, means that the report cannot support any identifier‑based categorization.",
+        "The current analytic output flags the MCM Id as null, which automatically precludes any identifier‑based categorization in this report.",
+        "A null entry for the MCM Id, revealed by the present analysis, results in the exclusion of any identifier‑based categorization from the report."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "swap",
+          "deal"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "favorite": [
+          "favorite",
+          "preferred",
+          "favored",
+          "favourite"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "among": [
+          "among"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "selection": [
+          "selection",
+          "option",
+          "choice"
+        ]
+      },
+      "field_data_types": {
+        "mcmId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The unique identifier for organizing the trading card set is NULL.",
+      "template_pattern": "The unique identifier for organizing the trading card set is NULL.",
+      "primary_data_fields": [
+        "mcmIdExtras"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the comprehensive professional data report, the MCM ID Extras for this entry is [MCMIDEXTRAS], serving as a unique reference.",
+        "The entry’s MCM ID Extras, [MCMIDEXTRAS], functions as a distinctive identifier in the full professional data report.",
+        "A distinctive reference in the extensive professional data report is provided by the MCM ID Extras value [MCMIDEXTRAS] assigned to this record.",
+        "In the thorough professional data report, [MCMIDEXTRAS] is the MCM ID Extras that uniquely tags this entry.",
+        "This record carries the MCM ID Extras [MCMIDEXTRAS], which acts as a singular reference throughout the comprehensive professional data report.",
+        "Serving as a unique marker in the detailed professional data report, the MCM ID Extras assigned here is [MCMIDEXTRAS].",
+        "The comprehensive professional data report designates [MCMIDEXTRAS] as the MCM ID Extras, a distinctive reference for this entry.",
+        "For this entry, the MCM ID Extras—[MCMIDEXTRAS]—provides a special reference within the all‑encompassing professional data report.",
+        "Within the all‑inclusive professional data report, the MCM ID Extras of this item is [MCMIDEXTRAS], distinguishing it from others.",
+        "The MCM ID Extras [MCMIDEXTRAS] marks this entry as a distinctive reference in the extensive professional data report.",
+        "In the professional data report’s breadth, the MCM ID Extras assigned to this record is [MCMIDEXTRAS], acting as a unique reference point.",
+        "This entry is identified by the MCM ID Extras [MCMIDEXTRAS], which serves as a distinctive reference in the comprehensive professional data report.",
+        "A unique reference in the professional data report is the MCM ID Extras value [MCMIDEXTRAS] attached to this entry.",
+        "The professional data report assigns the MCM ID Extras [MCMIDEXTRAS] to this entry, establishing a distinctive reference.",
+        "By assigning the MCM ID Extras [MCMIDEXTRAS] to this record, the comprehensive professional data report provides a singular reference."
+      ],
+      "counter_variations": [
+        "In the dataset, the mcm Id Extras field designates the unique identifier for the trading card set as null.",
+        "The unique identifier assigned to the trading card collection is recorded as null within the mcm Id Extras column.",
+        "For organizational purposes, the mcm Id Extras entry that holds the trading card set's unique identifier currently contains null.",
+        "Null is the value populated in the mcm Id Extras attribute that serves as the unique identifier for the trading card set.",
+        "Within the professional report, the mcm Id Extras parameter that defines the set's unique identifier is set to null.",
+        "The trading card set’s unique identifier, as stored in the mcm Id Extras field, is indicated by null.",
+        "According to the data schema, the mcm Id Extras element that identifies the card set uniquely is assigned the value null.",
+        "The mcm Id Extras slot, which functions as the unique identifier for the trading card compilation, presently holds null.",
+        "Null appears as the content of the mcm Id Extras column that is intended to uniquely identify the trading card set.",
+        "In this report, the unique identifier for the trading card set is expressed via the mcm Id Extras field, whose value is null.",
+        "The mcm Id Extras designation, responsible for the unique identification of the trading card set, currently carries the null value.",
+        "As per the dataset specifications, the unique identifier for the card set is recorded in mcm Id Extras and is null.",
+        "The value null is assigned to the mcm Id Extras attribute that uniquely tags the trading card set.",
+        "Within the data table, the mcm Id Extras column that provides the unique identifier for the trading card set contains null.",
+        "The unique identifier for organizing the trading card set is stored as null in the mcm Id Extras field."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "organizing": [
+          "organizing"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ]
+      },
+      "field_data_types": {
+        "mcmIdExtras": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Tenth Edition trading card set, known as mcmName, plays a crucial role in categorizing collections for enthusiasts.",
+      "template_pattern": "The [MCMNAME] trading card set, known as mcmName, plays a crucial role in categorizing collections for enthusiasts.",
+      "primary_data_fields": [
+        "mcmName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [MCMNAME] trading card set—identified as mcmName—serves as a pivotal element in classifying collections for enthusiasts.",
+        "For enthusiasts, the [MCMNAME] trading card set, called mcmName, is a key factor in the categorisation of collections.",
+        "Categorising collections for enthusiasts is heavily dependent on the [MCMNAME] trading card set, known as mcmName.",
+        "The [MCMNAME] trading card set, mcmName, plays an essential part in how enthusiasts organise their collections.",
+        "Enthusiasts rely on the [MCMNAME] trading card set, referred to as mcmName, to categorise their collections effectively.",
+        "In the realm of collection categorisation, the [MCMNAME] trading card set (mcmName) holds a vital role for enthusiasts.",
+        "The [MCMNAME] trading card set, which bears the name mcmName, underpins the classification of collections for enthusiasts.",
+        "By categorising collections for enthusiasts, the [MCMNAME] trading card set—mcmName—fulfills a crucial function.",
+        "The categorisation of collectors' sets for enthusiasts is driven by the [MCMNAME] trading card set, known as mcmName.",
+        "For hobbyists, the [MCMNAME] trading card set, termed mcmName, is instrumental in sorting collections.",
+        "The [MCMNAME] trading card set, labelled mcmName, is central to the process of categorising collections for enthusiasts.",
+        "Collections for enthusiasts are organised thanks to the [MCMNAME] trading card set, known as mcmName.",
+        "As a cornerstone in classification, the [MCMNAME] trading card set—mcmName—serves enthusiasts’ collection needs.",
+        "The [MCMNAME] trading card set, carrying the identifier mcmName, plays a critical role in grouping collections for enthusiasts.",
+        "Enthusiasts’ collection categorisation hinges upon the [MCMNAME] trading card set, referred to as mcmName."
+      ],
+      "counter_variations": [
+        "In accordance with the formatting conventions that permeate this exhaustive report, the professional analysis documents the mcm name as null.",
+        "The comprehensive report’s formatting standards are mirrored by the professional analysis, which records the mcm name as null.",
+        "By adhering to the report’s established formatting conventions, the professional analysis notes that the mcm name is null.",
+        "Within the scope of this detailed report, the professional analysis registers the mcm name as null, thereby conforming to the prescribed formatting norms.",
+        "Consistent with the stylistic guidelines applied throughout the document, the professional analysis lists the mcm name as null.",
+        "The professional analysis, observing the report’s uniform formatting policy, designates the mcm name as null.",
+        "In the context of this all‑encompassing report, the professional analysis assigns a null value to the mcm name, in line with the adopted formatting conventions.",
+        "Observing the report’s formatting conventions, the professional analysis records the mcm name as null, a notation that upholds the document’s consistency.",
+        "The mcm name is recorded as null by the professional analysis, a choice that aligns with the formatting conventions that govern this extensive report.",
+        "Aligning with the formatting conventions that pervade the entire report, the professional analysis enters the mcm name as null.",
+        "The professional analysis, while adhering to the report’s formatting conventions, logs the mcm name as null.",
+        "Within this comprehensive report, the professional analysis captures the mcm name as null, thereby conforming to the established formatting guidelines.",
+        "Following the formatting standards set forth in this report, the professional analysis denotes the mcm name as null.",
+        "The professional analysis, respecting the report’s formatting conventions, marks the mcm name as null.",
+        "In keeping with the formatting conventions that underlie this comprehensive report, the professional analysis specifies the mcm name as null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading"
+        ],
+        "enthusiasts": [
+          "enthusiasts"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "categorizing": [
+          "categorizing"
+        ],
+        "known": [
+          "known"
+        ],
+        "plays": [
+          "plays"
+        ],
+        "role": [
+          "role",
+          "office",
+          "function"
+        ]
+      },
+      "field_data_types": {
+        "mcmName": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In Magic: The Gathering Online, the mtgoCode 10E represents a distinct set of cards for players to explore.",
+      "template_pattern": "In Magic: The Gathering Online, the mtgoCode [MTGOCODE] represents a distinct set of cards for players to explore.",
+      "primary_data_fields": [
+        "mtgoCode"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In Magic: The Gathering Online, the mtgoCode [MTGOCODE] represents a distinct set of cards for players to explore.",
+        "Within Magic: The Gathering Online, the mtgoCode [MTGOCODE] designates a unique collection of cards that players may investigate.",
+        "The mtgoCode [MTGOCODE], in Magic: The Gathering Online, denotes a separate assortment of cards available for player exploration.",
+        "Magic: The Gathering Online uses the mtgoCode [MTGOCODE] to identify a particular suite of cards for players to discover.",
+        "A distinct set of cards for player exploration is signified by the mtgoCode [MTGOCODE] in Magic: The Gathering Online.",
+        "In Magic: The Gathering Online, players encounter the mtgoCode [MTGOCODE], which marks a specific group of cards to explore.",
+        "The mtgoCode [MTGOCODE] is employed within Magic: The Gathering Online to represent a distinct card set for exploration by players.",
+        "Within Magic: The Gathering Online, the mtgoCode [MTGOCODE] serves as a label for a unique collection of cards that players can explore.",
+        "Players can explore a distinct set of cards identified by the mtgoCode [MTGOCODE] in Magic: The Gathering Online.",
+        "In Magic: The Gathering Online, the mtgoCode [MTGOCODE] functions as a marker for a particular suite of cards for player exploration.",
+        "The mtgoCode [MTGOCODE], as used in Magic: The Gathering Online, indicates a distinct assortment of cards for players to explore.",
+        "Magic: The Gathering Online assigns the mtgoCode [MTGOCODE] to a specific set of cards that players may explore.",
+        "A specific set of cards for players to explore is represented by the mtgoCode [MTGOCODE] in Magic: The Gathering Online.",
+        "In Magic: The Gathering Online, the mtgoCode [MTGOCODE] identifies a distinct collection of cards that players are invited to explore.",
+        "The mtgoCode [MTGOCODE] in Magic: The Gathering Online denotes a unique group of cards for player exploration."
+      ],
+      "counter_variations": [
+        "In the professional data report, the mtgo code is recorded as null, with no additional commentary, thereby ensuring uniformity among comparable entries.",
+        "The professional data report lists the mtgo code as null, omitting any further annotation and thereby preserving consistency across analogous records.",
+        "Within the professional data report, the mtgo code appears as null; no supplementary notes are provided, which maintains parity with other similar entries.",
+        "Consistently across akin entries, the professional data report designates the mtgo code as null, refraining from adding extra remarks.",
+        "The mtgo code, as documented in the professional data report, is set to null, and no further explanatory text is appended, upholding consistency among comparable items.",
+        "By noting the mtgo code as null without supplementary annotation, the professional data report sustains a uniform presentation across related entries.",
+        "In the context of a professional data report, the mtgo code is indicated as null, deliberately leaving out any additional commentary to keep entries aligned.",
+        "The professional data report records the mtgo code as null, eschewing extra notes and thereby maintaining a consistent pattern across similar data points.",
+        "As part of the professional data report, the mtgo code is marked null, with the omission of further description ensuring consistency among equivalent entries.",
+        "Within the professional data report, the mtgo code is denoted as null, and the absence of further annotation serves to preserve uniformity across comparable records.",
+        "The professional data report assigns the value null to the mtgo code, intentionally providing no further annotation, which upholds consistency across like entries.",
+        "In the professional data report, the mtgo code receives the designation null, and no additional commentary is offered, thereby sustaining consistent treatment of similar entries.",
+        "The mtgo code is captured as null in the professional data report, with the report deliberately avoiding extra annotation to ensure consistency across similar entries.",
+        "Through the professional data report, the mtgo code is presented as null, lacking any further note, which guarantees uniformity among parallel entries.",
+        "The professional data report asserts that the mtgo code is null, foregoing any supplementary annotation and thereby preserving consistent formatting across comparable records."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "gathering": [
+          "gathering",
+          "assembly",
+          "assemblage"
+        ],
+        "distinct": [
+          "distinct",
+          "distinguishable",
+          "discrete"
+        ],
+        "online": [
+          "online"
+        ],
+        "represents": [
+          "represents",
+          "constitutes",
+          "exemplifies",
+          "typifies"
+        ],
+        "explore": [
+          "explore",
+          "research"
+        ],
+        "magic": [
+          "magic"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "players": [
+          "players"
+        ]
+      },
+      "field_data_types": {
+        "mtgoCode": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Tenth Edition of this trading card set has become a favorite among collectors for its classic designs and unique features.",
+      "template_pattern": "The [NAME] of this trading card set has become a favorite among collectors for its classic designs and unique features.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors now regard the [NAME] of this trading card set as a favorite because of its classic designs and unique features.",
+        "The [NAME] of this trading card set is considered a favorite by collectors, thanks to its classic designs and unique features.",
+        "Among collectors, the [NAME] of this trading card set has risen to favorite status due to its classic designs and unique features.",
+        "Due to its classic designs and unique features, the [NAME] of this trading card set has earned the distinction of being a collector favorite.",
+        "A collector’s favorite, the [NAME] of this trading card set, is prized for its classic designs and unique features.",
+        "The [NAME] of this trading card set, celebrated for its classic designs and unique features, has become a favorite among collectors.",
+        "Because of its classic designs and unique features, collectors have embraced the [NAME] of this trading card set as a favorite.",
+        "The [NAME] of this trading card set enjoys favorite status among collectors, owing to its classic designs and unique features.",
+        "With classic designs and unique features, the [NAME] of this trading card set has secured a place as collectors’ favorite.",
+        "Collectors favor the [NAME] of this trading card set, drawn by its classic designs and unique features.",
+        "The [NAME] of this trading card set has been adopted as a favorite by collectors, thanks to its classic designs and unique features.",
+        "Owing to its classic designs and unique features, the [NAME] of this trading card set stands as a favorite among collectors.",
+        "Among the collector community, the [NAME] of this trading card set is a favored choice because of its classic designs and unique features.",
+        "The [NAME] of this trading card set, known for classic designs and unique features, has risen to become a collector favorite.",
+        "Collectors’ favorite status has been bestowed upon the [NAME] of this trading card set thanks to its classic designs and unique features."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "swap",
+          "deal"
+        ],
+        "classic": [
+          "classic",
+          "classical"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "favorite": [
+          "favorite",
+          "preferred",
+          "favored",
+          "favourite"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "features": [
+          "features"
+        ],
+        "among": [
+          "among"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Parent Code for this trading card set is NULL, indicating it doesn't currently belong to a larger group of related card sets.",
+      "template_pattern": "The Parent Code for this trading card set is NULL, indicating it doesn't currently belong to a larger group of related card sets.",
+      "primary_data_fields": [
+        "parentCode"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This entry’s parent code is [PARENTCODE], indicating its placement within the dataset’s defined hierarchical structure.",
+        "Assigned as the parent code for this record, [PARENTCODE] denotes its position in the designated hierarchy of the dataset.",
+        "The parent code [PARENTCODE] identifies this entry’s affiliation with the prescribed hierarchical framework of the dataset.",
+        "Within the dataset’s established hierarchy, this entry carries the parent code [PARENTCODE], reflecting its association.",
+        "[PARENTCODE] serves as the parent code for this entry, signalling its role in the dataset’s specified hierarchical model.",
+        "The designated hierarchical framework of the dataset links this entry to the parent code [PARENTCODE].",
+        "In the dataset’s hierarchical scheme, the parent code assigned to this item is [PARENTCODE], which marks its affiliation.",
+        "This record is linked to the parent code [PARENTCODE], a marker of its inclusion in the dataset’s hierarchical arrangement.",
+        "With [PARENTCODE] as its parent code, this entry is situated within the dataset’s defined hierarchy.",
+        "The entry’s affiliation to the dataset’s hierarchical structure is signified by the parent code [PARENTCODE].",
+        "By assigning the parent code [PARENTCODE] to this entry, we denote its location within the dataset’s hierarchical framework.",
+        "[PARENTCODE], the parent code for this entry, underscores its belonging to the designated hierarchy of the dataset.",
+        "Within the dataset’s hierarchy, the parent code [PARENTCODE] has been allocated to this entry, indicating its affiliation.",
+        "The parent code – [PARENTCODE] – reflects this entry’s position inside the dataset’s prescribed hierarchical system.",
+        "This entry’s placement in the dataset’s hierarchical framework is indicated by the parent code [PARENTCODE]."
+      ],
+      "counter_variations": [
+        "According to the report, the Parent Code assigned to this trading card set is null, signifying that it is not presently linked to any broader collection of related sets.",
+        "The trading card set’s Parent Code is null, which indicates that it presently does not belong to a larger group of associated card sets.",
+        "In this data file, the Parent Code for the trading card set appears as null, denoting its current lack of affiliation with any encompassing set series.",
+        "Because the Parent Code registers as null, this trading card set is recognized as standing alone without inclusion in a wider family of related sets.",
+        "This trading card set lists its Parent Code as null; consequently, it is understood to be independent of any larger ensemble of related card sets.",
+        "A null value in the Parent Code field reveals that the trading card set is not, at this time, part of a broader grouping of associated sets.",
+        "The dataset records a null Parent Code for this trading card set, thereby indicating that it does not currently reside within a larger network of related sets.",
+        "With the Parent Code set to null, the trading card set is identified as lacking membership in any larger collection of related card sets.",
+        "The presence of a null entry in the Parent Code column confirms that this trading card set remains unattached to a broader series of related sets.",
+        "Since the Parent Code is null, the trading card set is treated as an isolated entity, not belonging to any larger group of related card sets.",
+        "Null appears as the Parent Code for this trading card set, reflecting its status as not being part of a larger assemblage of related sets.",
+        "The report shows a null Parent Code, which conveys that the trading card set is currently not incorporated into any larger family of related sets.",
+        "Given that the Parent Code is null, the trading card set is classified as standing outside any broader grouping of related card sets.",
+        "A null designation in the Parent Code field indicates that this trading card set does not presently fall under a larger umbrella of related sets.",
+        "The trading card set’s Parent Code is recorded as null, denoting its current exclusion from any larger collection of related card sets."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading"
+        ],
+        "indicating": [
+          "indicating",
+          "suggest",
+          "signal",
+          "show",
+          "indicate"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "larger": [
+          "larger",
+          "bigger",
+          "big",
+          "large",
+          "great"
+        ],
+        "doesn": [
+          "doesn"
+        ],
+        "group": [
+          "group",
+          "grouping"
+        ],
+        "sets": [
+          "sets"
+        ]
+      },
+      "field_data_types": {
+        "parentCode": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card set became available to enthusiasts on its releaseDate, 2007-07-13, marking a significant moment in the game market.",
+      "template_pattern": "The trading card set became available to enthusiasts on its releaseDate, [RELEASEDATE], marking a significant moment in the game market.",
+      "primary_data_fields": [
+        "releaseDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On releaseDate, [RELEASEDATE], the trading card set was launched for enthusiasts, marking a watershed moment in the game market.",
+        "The trading card set hit the shelves for enthusiasts on releaseDate, [RELEASEDATE], signifying a major milestone in the gaming industry.",
+        "Enthusiasts gained access to the trading card set on releaseDate, [RELEASEDATE], an event that underscored a notable shift in the game market.",
+        "ReleaseDate, [RELEASEDATE], saw the trading card set become available to enthusiasts, highlighting a significant juncture in the market for games.",
+        "When releaseDate, [RELEASEDATE] arrived, the trading card set was made accessible to enthusiasts, denoting an important turn in the game market.",
+        "The availability of the trading card set to enthusiasts began on releaseDate, [RELEASEDATE], representing a key moment in the gaming market.",
+        "On releaseDate, [RELEASEDATE], enthusiasts could obtain the trading card set, a development that marked a crucial point in the game market.",
+        "The trading card set entered the market for enthusiasts on releaseDate, [RELEASEDATE], indicating a significant event in the gaming sector.",
+        "ReleaseDate, [RELEASEDATE], marked the debut of the trading card set for enthusiasts, a noteworthy milestone in the game market.",
+        "With releaseDate, [RELEASEDATE], the trading card set became obtainable by enthusiasts, signaling an important phase in the market for games.",
+        "Enthusiasts were presented with the trading card set on releaseDate, [RELEASEDATE], a moment that highlighted a major shift in the game market.",
+        "The trading card set was offered to enthusiasts on releaseDate, [RELEASEDATE], denoting a pivotal episode in the gaming market.",
+        "On the occasion of releaseDate, [RELEASEDATE], the trading card set reached enthusiasts, underscoring a significant development in the game market.",
+        "ReleaseDate, [RELEASEDATE], saw the trading card set become accessible for enthusiasts, reflecting a notable milestone in the gaming market.",
+        "When releaseDate, [RELEASEDATE] occurred, the trading card set was provided to enthusiasts, marking a critical point in the game market."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade"
+        ],
+        "enthusiasts": [
+          "enthusiasts"
+        ],
+        "became": [
+          "became"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "moment": [
+          "moment",
+          "second",
+          "minute",
+          "instant"
+        ],
+        "game": [
+          "game"
+        ],
+        "available": [
+          "available",
+          "usable"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "grade",
+          "note"
+        ]
+      },
+      "field_data_types": {
+        "releaseDate": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card set has been uniquely identified with the number 1 for streamlined inventory management.",
+      "template_pattern": "The trading card set has been uniquely identified with the number [TCGPLAYERGROUPID] for streamlined inventory management.",
+      "primary_data_fields": [
+        "tcgplayerGroupId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card set is assigned the unique identifier [TCGPLAYERGROUPID] to facilitate streamlined inventory management.",
+        "For efficient inventory control, the trading card set carries the distinct number [TCGPLAYERGROUPID].",
+        "Streamlined inventory management is achieved by uniquely tagging the trading card set with the number [TCGPLAYERGROUPID].",
+        "The number [TCGPLAYERGROUPID] uniquely marks the trading card set, simplifying inventory management.",
+        "To optimize inventory handling, the trading card set has been given the exclusive identifier [TCGPLAYERGROUPID].",
+        "Inventory management becomes streamlined when the trading card set is uniquely labeled as [TCGPLAYERGROUPID].",
+        "A unique designation of [TCGPLAYERGROUPID] has been applied to the trading card set to aid inventory management.",
+        "By assigning the trading card set the singular number [TCGPLAYERGROUPID], inventory processes are made more efficient.",
+        "The trading card set receives the unique code [TCGPLAYERGROUPID], enhancing streamlined inventory management.",
+        "For smoother inventory oversight, the trading card set is uniquely identified by the number [TCGPLAYERGROUPID].",
+        "The unique identifier [TCGPLAYERGROUPID] is attached to the trading card set to improve inventory management efficiency.",
+        "To simplify inventory tracking, the trading card set is marked with the exclusive number [TCGPLAYERGROUPID].",
+        "Inventory management is streamlined through the unique assignment of number [TCGPLAYERGROUPID] to the trading card set.",
+        "The trading card set, bearing the singular identifier [TCGPLAYERGROUPID], benefits from streamlined inventory control.",
+        "Assigning the trading card set the unique number [TCGPLAYERGROUPID] facilitates efficient inventory management."
+      ],
+      "counter_variations": [
+        "In the professional data report, the TCGPlayer Group Id is recorded as null, indicating that no group has been allocated.",
+        "Because the professional data report shows the TCGPlayer Group Id as null, it signals a lack of any group assignment.",
+        "The professional data report lists the TCGPlayer Group Id with the value null, thereby denoting that the entry is not linked to any group.",
+        "When examining the professional data report, one finds the TCGPlayer Group Id set to null, which reflects that the record carries no group designation.",
+        "Within the professional data report, the TCGPlayer Group Id appears as null, a marker that the item is not tied to a specific group.",
+        "Observing the professional data report reveals the TCGPlayer Group Id presented as null, underscoring the absence of an associated group.",
+        "The professional data report conveys the TCGPlayer Group Id as null, a clear indication that the grouping field remains unassigned.",
+        "In the context of the professional data report, the TCGPlayer Group Id displays null, signifying that the entity lacks a group affiliation.",
+        "A review of the professional data report shows the TCGPlayer Group Id rendered as null, which conveys that no grouping has been applied.",
+        "The professional data report documents the TCGPlayer Group Id with a null entry, thereby communicating that the record is not attached to any group.",
+        "According to the professional data report, the TCGPlayer Group Id holds the value null, reflecting that the grouping information is omitted.",
+        "The professional data report records the TCGPlayer Group Id as null, a notation that the item does not belong to any group.",
+        "Seeing the professional data report, one notes that the TCGPlayer Group Id is null, denoting an unassigned group status.",
+        "In the professional data report, the TCGPlayer Group Id is shown as null, which conveys that the record lacks a group assignment.",
+        "The professional data report presents the TCGPlayer Group Id as null, highlighting that there is no group linked to this entry."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "deal"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "streamlined": [
+          "streamlined",
+          "aerodynamic",
+          "flowing",
+          "sleek"
+        ],
+        "inventory": [
+          "inventory",
+          "stock",
+          "stocktaking"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "identified": [
+          "identified"
+        ]
+      },
+      "field_data_types": {
+        "tcgplayerGroupId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The totalSetSize of 508 cards in this trading card game set highlights its impressive scale and diverse collection.",
+      "template_pattern": "The totalSetSize of [TOTALSETSIZE] cards in this trading card game set highlights its impressive scale and diverse collection.",
+      "primary_data_fields": [
+        "totalSetSize"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The totalSetSize of [TOTALSETSIZE] cards in this trading card game set underscores its impressive scale and varied collection.",
+        "With a totalSetSize of [TOTALSETSIZE] cards, this trading card game set demonstrates a remarkable breadth and diverse lineup.",
+        "Highlighting both size and variety, the set’s totalSetSize of [TOTALSETSIZE] cards showcases its substantial scope.",
+        "A totalSetSize of [TOTALSETSIZE] cards characterizes this trading card game set as both extensive and richly varied.",
+        "This trading card game set, boasting a totalSetSize of [TOTALSETSIZE] cards, reflects an impressive magnitude and eclectic assortment.",
+        "The impressive magnitude and eclectic assortment of this set are evident from its totalSetSize of [TOTALSETSIZE] cards.",
+        "Featuring a totalSetSize of [TOTALSETSIZE] cards, the set reveals a notable scale and a wide‑ranging collection.",
+        "The set’s totalSetSize, amounting to [TOTALSETSIZE] cards, points to its considerable size and diverse roster.",
+        "By containing [TOTALSETSIZE] cards, the totalSetSize of this trading card game set signals a substantial and varied compilation.",
+        "The trading card game set’s totalSetSize of [TOTALSETSIZE] cards signals both a large scale and a broad variety.",
+        "With [TOTALSETSIZE] cards recorded as the totalSetSize, this set exemplifies significant scale and a multifaceted collection.",
+        "The totalSetSize—[TOTALSETSIZE] cards—makes this trading card game set stand out for its extensive reach and varied lineup.",
+        "This set’s totalSetSize of [TOTALSETSIZE] cards serves as evidence of its vast scale and heterogeneous selection.",
+        "A totalSetSize of [TOTALSETSIZE] cards illustrates the set’s expansive footprint and its rich diversity.",
+        "The presence of [TOTALSETSIZE] cards, noted as the totalSetSize, highlights the set’s impressive breadth and varied inventory."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "collection": [
+          "collection",
+          "compendium",
+          "aggregation",
+          "assemblage",
+          "accumulation"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "highlights": [
+          "highlights",
+          "spotlight",
+          "highlight",
+          "highlighting"
+        ],
+        "game": [
+          "game"
+        ],
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "scale": [
+          "scale"
+        ]
+      },
+      "field_data_types": {
+        "totalSetSize": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The new release of the trading card game focuses on a core set, offering players a foundational gameplay experience.",
+      "template_pattern": "The new release of the trading card game focuses on a [TYPE] set, offering players a foundational gameplay experience.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card game’s new release concentrates on a [TYPE] set, delivering a foundational gameplay experience to players.",
+        "A [TYPE] set is the focus of the new release of the trading card game, providing players with a foundational gameplay experience.",
+        "In its new release, the trading card game emphasizes a [TYPE] set and offers players a foundational gameplay experience.",
+        "Players receive a foundational gameplay experience as the new release of the trading card game centers on a [TYPE] set.",
+        "By highlighting a [TYPE] set, the new release of the trading card game grants players a foundational gameplay experience.",
+        "The new release of the trading card game spotlights a [TYPE] set, furnishing players with a foundational gameplay experience.",
+        "Focusing on a [TYPE] set, the new release of the trading card game supplies players a foundational gameplay experience.",
+        "Because the new release of the trading card game zeroes in on a [TYPE] set, players enjoy a foundational gameplay experience.",
+        "The new release of the trading card game targets a [TYPE] set, thereby presenting players with a foundational gameplay experience.",
+        "With its new release, the trading card game narrows in on a [TYPE] set and provides players a foundational gameplay experience.",
+        "Players are given a foundational gameplay experience as the new release of the trading card game concentrates on a [TYPE] set.",
+        "Emphasizing a [TYPE] set, the new release of the trading card game equips players with a foundational gameplay experience.",
+        "The new release of the trading card game focuses on a [TYPE] set, affording players a foundational gameplay experience.",
+        "A [TYPE] set underlies the new release of the trading card game, granting players a foundational gameplay experience.",
+        "The new release of the trading card game, centered on a [TYPE] set, delivers players a foundational gameplay experience."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "deal",
+          "swap"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "game": [
+          "game"
+        ],
+        "offering": [
+          "offering",
+          "tender",
+          "bid",
+          "offer"
+        ],
+        "players": [
+          "players",
+          "participants"
+        ],
+        "gameplay": [
+          "gameplay"
+        ],
+        "foundational": [
+          "foundational"
+        ],
+        "experience": [
+          "experience",
+          "have"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

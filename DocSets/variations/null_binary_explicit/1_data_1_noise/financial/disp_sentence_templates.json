@@ -1,0 +1,559 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "ee0fa1e824d646af": "disp_id",
+    "7c7c37bf224a4cb3": "client_id",
+    "19e7c392abf0472b": "account_id",
+    "bbeef42a93634fed": "type"
+  },
+  "templates": [
+    {
+      "original": "The account disposition record with the identifier 1 was reviewed to ensure proper access rights management.",
+      "template_pattern": "The account disposition record with the identifier [DISP_ID] was reviewed to ensure proper access rights management.",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "We examined the account disposition record bearing disp id [DISP_ID] to confirm proper management of access rights.",
+        "The account disposition record (disp id [DISP_ID]) underwent a review to verify that access rights are correctly administered.",
+        "A review of the account disposition record, disp id [DISP_ID], was performed to ensure access rights are managed properly.",
+        "To guarantee proper access rights management, the account disposition record identified by disp id [DISP_ID] was inspected.",
+        "Inspecting the account disposition record with disp id [DISP_ID] confirmed that access rights are being managed appropriately.",
+        "Proper access rights management was validated by reviewing the account disposition record that carries disp id [DISP_ID].",
+        "The account disposition record, which has disp id [DISP_ID], was scrutinized to make sure access rights are handled correctly.",
+        "Ensuring correct access rights, we reviewed the account disposition record marked disp id [DISP_ID].",
+        "A thorough check of the account disposition record (disp id [DISP_ID]) was carried out to uphold proper access rights management.",
+        "The account disposition record designated disp id [DISP_ID] underwent inspection for proper access rights administration.",
+        "To maintain appropriate access rights, the account disposition record with disp id [DISP_ID] was evaluated.",
+        "Reviewing the account disposition record, disp id [DISP_ID], served to assure proper management of access rights.",
+        "The audit of the account disposition record bearing disp id [DISP_ID] aimed to confirm correct access rights handling.",
+        "Access rights were verified by examining the account disposition record identified as disp id [DISP_ID].",
+        "We performed a review of the account disposition record (disp id [DISP_ID]) to ensure that access rights are managed properly."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "access": [
+          "access",
+          "admission",
+          "admittance"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "proper": [
+          "proper",
+          "right"
+        ],
+        "ensure": [
+          "ensure",
+          "assure",
+          "secure",
+          "guarantee"
+        ],
+        "reviewed": [
+          "reviewed"
+        ],
+        "account": [
+          "account",
+          "report",
+          "history",
+          "story",
+          "chronicle",
+          "explanation"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "record": [
+          "record",
+          "register",
+          "book"
+        ]
+      },
+      "field_data_types": {
+        "disp_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As financial systems evolve, maintaining a high standard of security is essential to protect sensitive data.",
+      "template_pattern": "As financial systems evolve, maintaining a high standard of security is essential to protect sensitive data.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "With financial systems continually evolving, it becomes vital to uphold robust security measures that safeguard sensitive data.",
+        "As monetary platforms advance, preserving a high level of security is crucial for protecting confidential information.",
+        "The evolution of banking networks demands that we maintain strong security standards to shield sensitive data.",
+        "When financial infrastructures change, ensuring top‑tier security remains essential to guard confidential data.",
+        "Given the ongoing transformation of financial systems, a high security standard must be kept to protect sensitive information.",
+        "As financial systems develop, safeguarding sensitive data requires maintaining an elevated security posture.",
+        "A high standard of security must be upheld as financial systems evolve, in order to protect sensitive data.",
+        "The progression of monetary systems makes the maintenance of rigorous security indispensable for shielding confidential data.",
+        "To protect sensitive information, it is imperative that robust security be sustained while financial systems evolve.",
+        "Financial system evolution calls for the preservation of strong security measures to defend sensitive data.",
+        "While financial platforms are advancing, keeping a high level of security is essential for the protection of confidential data.",
+        "As the landscape of financial systems shifts, ensuring superior security becomes a necessity to protect sensitive information.",
+        "Maintaining elevated security standards is a must as financial systems evolve, to safeguard sensitive data.",
+        "In the face of evolving financial infrastructures, protecting sensitive data hinges on upholding high security standards.",
+        "The continual evolution of financial systems obliges us to retain strong security practices that protect confidential data."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "security": [
+          "security",
+          "protection"
+        ],
+        "data": [
+          "data",
+          "information"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "essential": [
+          "essential",
+          "indispensable",
+          "crucial",
+          "necessary",
+          "requisite"
+        ],
+        "evolve": [
+          "evolve",
+          "develop"
+        ],
+        "systems": [
+          "systems"
+        ],
+        "protect": [
+          "protect"
+        ],
+        "maintaining": [
+          "maintaining"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The client with the unique identification number 1 has been granted OWNER rights to their financial services account.",
+      "template_pattern": "The client with the unique identification number [CLIENT_ID] has been granted OWNER rights to their financial services account.",
+      "primary_data_fields": [
+        "client_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "OWNER rights have been assigned to client id [CLIENT_ID] for the financial services account.",
+        "For the financial services account, client id [CLIENT_ID] received OWNER rights.",
+        "Client id [CLIENT_ID] was granted OWNER rights on the financial services account.",
+        "The financial services account now lists OWNER rights for client id [CLIENT_ID].",
+        "Having client id [CLIENT_ID], the user obtained OWNER rights to the financial services account.",
+        "OWNER rights were bestowed upon client id [CLIENT_ID] concerning the financial services account.",
+        "In the financial services account, OWNER rights are now attached to client id [CLIENT_ID].",
+        "Client id [CLIENT_ID], with OWNER rights, can access the financial services account.",
+        "As a result, client id [CLIENT_ID] has OWNER rights on the financial services account.",
+        "The system granted OWNER rights to client id [CLIENT_ID] for their financial services account.",
+        "Owner-level privileges, i.e., OWNER rights, have been given to client id [CLIENT_ID] for the financial services account.",
+        "Through the recent update, client id [CLIENT_ID] now holds OWNER rights on the financial services account.",
+        "Consequently, the financial services account reflects OWNER rights for client id [CLIENT_ID].",
+        "Client id [CLIENT_ID]'s access was elevated to OWNER rights within the financial services account.",
+        "After review, OWNER rights were applied to client id [CLIENT_ID] for the financial services account."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequaled",
+          "unequalled"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "identification": [
+          "identification",
+          "recognition",
+          "designation"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "services": [
+          "services"
+        ],
+        "granted": [
+          "granted"
+        ],
+        "account": [
+          "account",
+          "report",
+          "bill",
+          "history",
+          "accounting",
+          "explanation"
+        ]
+      },
+      "field_data_types": {
+        "client_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Regular audits are conducted to verify that all access rights align with company policies and regulations.",
+      "template_pattern": "Regular audits are conducted to verify that all access rights align with company policies and regulations.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Routine audits are performed to ensure that every access right conforms to company policies and regulations.",
+        "To confirm that all access privileges match corporate policies and regulatory requirements, regular audits are carried out.",
+        "All access rights are checked against company policies and regulations through regular audit procedures.",
+        "The organization conducts regular audits so that it can verify that each access right complies with internal policies and external regulations.",
+        "By means of regular audits, we validate that every access permission aligns with both company policy and applicable regulations.",
+        "Regular audits verify that all user access rights are consistent with the firm's policies and regulatory standards.",
+        "To ascertain alignment with company policies and regulations, regular audits are executed on all access rights.",
+        "Every access right is examined during regular audits to confirm conformity with corporate policies and legal regulations.",
+        "The company’s regular audit cycle checks that all access rights correspond to established policies and regulations.",
+        "Conducting regular audits enables verification that all access permissions adhere to the organization’s policies and regulatory guidelines.",
+        "Through regular audits, the firm ensures that each access right is in line with its policies and the relevant regulations.",
+        "All access rights are audited regularly to verify their alignment with company policies and regulatory requirements.",
+        "Regularly scheduled audits are used to confirm that every access right matches the company's policy framework and regulatory mandates.",
+        "To guarantee that access rights meet company policies and regulations, the firm carries out regular audits.",
+        "The process of regular auditing serves to validate that all access privileges are aligned with corporate policies and applicable regulations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "verify": [
+          "verify",
+          "affirm"
+        ],
+        "conducted": [
+          "conducted",
+          "guided",
+          "directed",
+          "led",
+          "behaved",
+          "dealt"
+        ],
+        "align": [
+          "align",
+          "coordinate",
+          "adjust",
+          "array",
+          "ordinate"
+        ],
+        "regular": [
+          "regular",
+          "steady",
+          "even"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "policies": [
+          "policies"
+        ],
+        "audits": [
+          "audits"
+        ],
+        "company": [
+          "company"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The financial account with identification number 1 requires review to ensure proper access rights are maintained.",
+      "template_pattern": "The financial account with identification number [ACCOUNT_ID] requires review to ensure proper access rights are maintained.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The financial account bearing account id [ACCOUNT_ID] must be reviewed to guarantee that proper access rights remain in effect.",
+        "A review is required for the financial account with account id [ACCOUNT_ID] to confirm that proper access rights are upheld.",
+        "To ensure proper access rights are maintained, the financial account identified by account id [ACCOUNT_ID] needs a review.",
+        "Proper access rights can only be preserved if the financial account, account id [ACCOUNT_ID], undergoes a review.",
+        "The financial account—account id [ACCOUNT_ID]—requires a review so that proper access rights are kept intact.",
+        "Reviewing the financial account with account id [ACCOUNT_ID] is necessary to maintain proper access rights.",
+        "In order to keep proper access rights intact, a review is mandated for the financial account having account id [ACCOUNT_ID].",
+        "The financial account that carries account id [ACCOUNT_ID] should be examined to ensure proper access rights stay maintained.",
+        "Ensuring proper access rights are upheld calls for a review of the financial account bearing account id [ACCOUNT_ID].",
+        "A review of the financial account, account id [ACCOUNT_ID], is essential to uphold proper access rights.",
+        "To preserve proper access rights, the financial account with account id [ACCOUNT_ID] must undergo review.",
+        "The financial account with account id [ACCOUNT_ID] is slated for review to verify that proper access rights continue to be maintained.",
+        "Maintaining proper access rights requires that the financial account, account id [ACCOUNT_ID], be reviewed.",
+        "The financial account (account id [ACCOUNT_ID]) needs to be reviewed to affirm that proper access rights are sustained.",
+        "A review of the financial account identified by account id [ACCOUNT_ID] is required to ensure proper access rights remain upheld."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "identification": [
+          "identification",
+          "recognition"
+        ],
+        "requires": [
+          "requires",
+          "necessitate",
+          "need",
+          "demand"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "proper": [
+          "proper",
+          "right"
+        ],
+        "ensure": [
+          "ensure",
+          "assure",
+          "guarantee",
+          "secure"
+        ],
+        "review": [
+          "review",
+          "reexamine",
+          "reexamination",
+          "reappraisal",
+          "reassessment",
+          "critique"
+        ],
+        "account": [
+          "account",
+          "report",
+          "explanation",
+          "history",
+          "chronicle"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Ensuring that the right individuals have the correct access levels is crucial for operational integrity.",
+      "template_pattern": "Ensuring that the right individuals have the correct access levels is crucial for operational integrity.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Guaranteeing the appropriate staff possess the proper access rights is essential to maintaining operational integrity.",
+        "It is vital for operational integrity that the correct people receive the right access levels.",
+        "Operational integrity depends on giving the right individuals the appropriate access permissions.",
+        "The integrity of operations hinges on ensuring that authorized personnel have suitable access levels.",
+        "To preserve operational integrity, we must make sure the proper users are granted the correct access rights.",
+        "Correct access levels for the right individuals are indispensable for operational integrity.",
+        "Maintaining operational integrity requires that only the correct users have the appropriate access levels.",
+        "Ensuring suitable access for the appropriate personnel is a key factor in operational integrity.",
+        "The operational integrity of the system rests on assigning the right access levels to the proper individuals.",
+        "For operational integrity, it is crucial that the correct individuals are assigned appropriate access privileges.",
+        "Operational integrity is safeguarded when the right people are given the correct access levels.",
+        "Providing the proper access levels to the right staff members is fundamental to operational integrity.",
+        "The correct allocation of access rights to appropriate personnel underpins operational integrity.",
+        "Operational integrity can only be achieved by ensuring that authorized individuals hold the proper access levels.",
+        "It is essential for operational integrity that access levels be correctly matched to the right individuals."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensuring": [
+          "ensuring"
+        ],
+        "operational": [
+          "operational",
+          "operating",
+          "functional",
+          "operable",
+          "usable",
+          "useable"
+        ],
+        "correct": [
+          "correct",
+          "adjust",
+          "rectify",
+          "redress",
+          "right",
+          "set"
+        ],
+        "integrity": [
+          "integrity",
+          "wholeness",
+          "unity"
+        ],
+        "right": [
+          "right",
+          "correct",
+          "proper"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "individuals": [
+          "individuals"
+        ],
+        "levels": [
+          "levels"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the financial services system, the account disposition is categorized as an OWNER, granting comprehensive management rights.",
+      "template_pattern": "In the financial services system, the account disposition is categorized as an [TYPE], granting comprehensive management rights.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the financial services system, the account disposition is labeled [TYPE], which provides comprehensive management rights.",
+        "The financial services system classifies the account disposition as [TYPE], thereby conferring comprehensive management rights.",
+        "As part of the financial services system, the account disposition receives the [TYPE] designation and thus obtains comprehensive management rights.",
+        "In the realm of financial services, the account disposition is assigned the [TYPE] type, granting comprehensive management rights.",
+        "The account disposition, under the financial services system, is marked [TYPE] and is given comprehensive management rights.",
+        "Financial services system rules define the account disposition as [TYPE], endowing it with comprehensive management rights.",
+        "By the financial services system, the account disposition is deemed [TYPE], which bestows comprehensive management rights.",
+        "According to the financial services system, the account disposition carries the [TYPE] label, allowing comprehensive management rights.",
+        "In the context of financial services, the account disposition is identified as [TYPE], providing comprehensive management rights.",
+        "The financial services system treats the account disposition as [TYPE], thereby allocating comprehensive management rights.",
+        "Under the financial services system, the account disposition takes the [TYPE] classification, conferring comprehensive management rights.",
+        "The account disposition is categorized as [TYPE] within the financial services system, and this grants comprehensive management rights.",
+        "Within the financial services framework, the account disposition bears the [TYPE] type, which grants comprehensive management rights.",
+        "As defined by the financial services system, the account disposition holds the [TYPE] status, granting comprehensive management rights.",
+        "The financial services system assigns the [TYPE] type to the account disposition, giving it comprehensive management rights."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "services": [
+          "services"
+        ],
+        "account": [
+          "account",
+          "report",
+          "bill",
+          "invoice"
+        ],
+        "system": [
+          "system",
+          "organisation",
+          "organization",
+          "scheme",
+          "arrangement"
+        ],
+        "granting": [
+          "granting"
+        ],
+        "comprehensive": [
+          "comprehensive"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This categorization supports efficient management and oversight in handling account activities.",
+      "template_pattern": "This categorization supports efficient management and oversight in handling account activities.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "By classifying these items, we enable streamlined management and supervision of account activities.",
+        "Efficient management and oversight of account activities are facilitated by this categorization.",
+        "This classification aids in the effective handling and monitoring of account activities.",
+        "With this categorization, account activities can be managed and overseen more efficiently.",
+        "The categorization provides support for the efficient administration and review of account activities.",
+        "Account activity handling becomes more efficient and better supervised thanks to this categorization.",
+        "Through this categorization, we achieve efficient management and oversight of account activities.",
+        "This grouping underpins swift management and vigilant oversight of account activities.",
+        "Effective management and oversight of account activities are reinforced by the categorization.",
+        "The categorization serves to streamline both the management and supervision of account activities.",
+        "By employing this categorization, we enhance the efficiency of managing and overseeing account activities.",
+        "Efficient oversight and management of account activities are supported by this classification.",
+        "This system of categorization bolsters the efficient handling and supervision of account activities.",
+        "The act of categorizing aids in managing account activities efficiently while providing oversight.",
+        "Management and oversight of account activities are made more efficient through this categorization."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "supports": [
+          "supports"
+        ],
+        "oversight": [
+          "oversight",
+          "supervision",
+          "superintendence"
+        ],
+        "handling": [
+          "handling",
+          "manipulation",
+          "treatment"
+        ],
+        "categorization": [
+          "categorization",
+          "sorting",
+          "classification",
+          "compartmentalisation",
+          "compartmentalization",
+          "categorisation"
+        ],
+        "efficient": [
+          "efficient",
+          "effective"
+        ],
+        "account": [
+          "account",
+          "report",
+          "bill",
+          "history",
+          "score",
+          "story"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "activities": [
+          "activities"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

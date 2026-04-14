@@ -1,0 +1,132 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "9d813222b4864207": "link_to_event",
+    "39b8eb5f2d88469d": "link_to_member"
+  },
+  "templates": [
+    {
+      "original": "To access details about the club event, please use this link_to_event: rec2N69DMcrqN9PJC.",
+      "template_pattern": "To access details about the club event, please use this link_to_event: [LINK_TO_EVENT].",
+      "primary_data_fields": [
+        "link_to_event"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For details on the club event, please follow the link to event: [LINK_TO_EVENT].",
+        "You can obtain information about the club event by using the link to event: [LINK_TO_EVENT].",
+        "The club event details are available via this link to event: [LINK_TO_EVENT].",
+        "Access the club event information through the link to event: [LINK_TO_EVENT].",
+        "If you need the club event specifics, refer to the link to event: [LINK_TO_EVENT].",
+        "Club event details may be retrieved by clicking the link to event: [LINK_TO_EVENT].",
+        "To view the club event particulars, use the following link to event: [LINK_TO_EVENT].",
+        "Details regarding the club event can be found at the link to event: [LINK_TO_EVENT].",
+        "The link to event—[LINK_TO_EVENT]—provides all club event information.",
+        "By selecting the link to event: [LINK_TO_EVENT], you will access club event details.",
+        "Should you wish to see the club event data, the link to event is: [LINK_TO_EVENT].",
+        "Club event information is accessible via the link to event: [LINK_TO_EVENT].",
+        "Utilize the link to event: [LINK_TO_EVENT] to retrieve club event details.",
+        "The club event can be explored through this link to event: [LINK_TO_EVENT].",
+        "For a full overview of the club event, consult the link to event: [LINK_TO_EVENT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "please": [
+          "please",
+          "delight"
+        ],
+        "about": [
+          "about",
+          "around",
+          "nearly",
+          "almost",
+          "near",
+          "approximately"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge"
+        ],
+        "details": [
+          "details"
+        ],
+        "event": [
+          "event"
+        ],
+        "access": [
+          "access",
+          "admittance",
+          "admission"
+        ]
+      },
+      "field_data_types": {
+        "link_to_event": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student's participation in club events was tracked using link_to_member recD078PnS3x2doBe.",
+      "template_pattern": "The student's participation in club events was tracked using link_to_member [LINK_TO_MEMBER].",
+      "primary_data_fields": [
+        "link_to_member"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Using the link to member [LINK_TO_MEMBER], we tracked the student's participation in club events.",
+        "The student's club event participation was recorded via link to member [LINK_TO_MEMBER].",
+        "Through link to member [LINK_TO_MEMBER], the student's involvement in club activities was monitored.",
+        "We monitored the student's participation in club events by employing link to member [LINK_TO_MEMBER].",
+        "Tracking the student's club event attendance was accomplished with link to member [LINK_TO_MEMBER].",
+        "The student's involvement in club events has been logged using link to member [LINK_TO_MEMBER].",
+        "By means of link to member [LINK_TO_MEMBER], the student's participation in club activities was captured.",
+        "Link to member [LINK_TO_MEMBER] served to track the student's engagement in club events.",
+        "The student's engagement in club events was documented through link to member [LINK_TO_MEMBER].",
+        "With link to member [LINK_TO_MEMBER], we captured data on the student's participation in club events.",
+        "The tracking of the student's club event participation utilized link to member [LINK_TO_MEMBER].",
+        "Using link to member [LINK_TO_MEMBER], the student's involvement in club events was systematically recorded.",
+        "Link to member [LINK_TO_MEMBER] was employed to monitor the student's participation in club events.",
+        "The student's club event involvement was logged via link to member [LINK_TO_MEMBER].",
+        "Through the use of link to member [LINK_TO_MEMBER], we tracked how the student participated in club events."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "using": [
+          "using"
+        ],
+        "participation": [
+          "participation",
+          "involvement",
+          "engagement"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "tracked": [
+          "tracked"
+        ],
+        "events": [
+          "events"
+        ]
+      },
+      "field_data_types": {
+        "link_to_member": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

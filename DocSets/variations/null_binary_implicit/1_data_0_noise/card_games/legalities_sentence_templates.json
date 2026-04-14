@@ -1,0 +1,275 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "2f8044e341404c06": "id",
+    "9141f09558534fa0": "format",
+    "429f7a1c6f204b51": "status",
+    "5a3517f8ae3a44ac": "uuid"
+  },
+  "templates": [
+    {
+      "original": "In the trading card game community, the commander format is widely celebrated for its unique blend of strategy and creativity.",
+      "template_pattern": "In the trading card game community, the [FORMAT] format is widely celebrated for its unique blend of strategy and creativity.",
+      "primary_data_fields": [
+        "format"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the trading card game community, enthusiasts widely praise the [FORMAT] format for its distinctive mix of strategy and creativity.",
+        "The [FORMAT] format enjoys broad acclaim across the trading card game community, celebrated for blending strategy with creativity.",
+        "Across the trading card game community, the [FORMAT] format is highly regarded for its singular combination of strategy and creativity.",
+        "In the realm of trading card game enthusiasts, the [FORMAT] format is lauded for its unique fusion of strategy and creativity.",
+        "Trading card game participants honor the [FORMAT] format, noting its exceptional mix of strategy and creativity.",
+        "The [FORMAT] format is frequently highlighted in the trading card game community for its rare pairing of strategy and creativity.",
+        "Among trading card game fans, the [FORMAT] format receives widespread recognition for merging strategy and creativity.",
+        "The trading card game community often commends the [FORMAT] format for its innovative blend of strategy and creativity.",
+        "Praise for the [FORMAT] format abounds within the trading card game community, especially for its distinctive strategy‑creativity combination.",
+        "Within the trading card game scene, the [FORMAT] format is celebrated for intertwining strategy and creativity.",
+        "The [FORMAT] format is celebrated by the trading card game community for its notable mix of strategy and creativity.",
+        "In trading card game circles, the [FORMAT] format stands out for its celebrated combination of strategy and creativity.",
+        "The trading card game community regards the [FORMAT] format as a celebrated example of strategy and creativity fused together.",
+        "Recognized throughout the trading card game community, the [FORMAT] format is praised for its strategy and creativity blend.",
+        "The [FORMAT] format, praised in the trading card game community, exemplifies a celebrated mix of strategy and creativity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "game": [
+          "game"
+        ],
+        "trading": [
+          "trading",
+          "trade",
+          "deal",
+          "swap"
+        ],
+        "creativity": [
+          "creativity",
+          "creativeness"
+        ],
+        "blend": [
+          "blend",
+          "mix",
+          "merge",
+          "combine",
+          "fuse",
+          "meld"
+        ],
+        "card": [
+          "card",
+          "bill",
+          "notice",
+          "scorecard",
+          "menu"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "celebrated": [
+          "celebrated",
+          "notable",
+          "renowned",
+          "famous",
+          "illustrious",
+          "storied"
+        ]
+      },
+      "field_data_types": {
+        "format": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the upcoming tournament, the new deck of trading cards is confirmed as Legal for play, much to the players' delight.",
+      "template_pattern": "In the upcoming tournament, the new deck of trading cards is confirmed as [STATUS] for play, much to the players' delight.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The new deck of trading cards has been confirmed as [STATUS] for play in the upcoming tournament, much to the players' delight.",
+        "In the upcoming tournament, officials have declared the new deck of trading cards [STATUS] for play, eliciting the players' delight.",
+        "[STATUS] status for the new deck of trading cards was granted for the upcoming tournament, causing the players' delight.",
+        "The upcoming tournament will feature the new deck of trading cards, now officially [STATUS] for play, to the players' delight.",
+        "Players' delight ensues as the new deck of trading cards receives [STATUS] approval for play in the upcoming tournament.",
+        "For the upcoming tournament, the new deck of trading cards is now recognized as [STATUS] for play, prompting the players' delight.",
+        "The new deck of trading cards is deemed [STATUS] for play in the upcoming tournament, bringing the players' delight.",
+        "In the upcoming tournament, the new deck of trading cards gains [STATUS] status for play, much to the players' delight.",
+        "[STATUS] clearance for the new deck of trading cards has been issued for the upcoming tournament, delighting the players.",
+        "The upcoming tournament sees the new deck of trading cards confirmed as [STATUS] for play, which delights the players.",
+        "With the upcoming tournament approaching, the new deck of trading cards is listed as [STATUS] for play, satisfying the players' delight.",
+        "The new deck of trading cards, now [STATUS] for play in the upcoming tournament, has sparked the players' delight.",
+        "During the upcoming tournament, the new deck of trading cards attains [STATUS] status for play, much to the players' delight.",
+        "The upcoming tournament confirms the new deck of trading cards as [STATUS] for play, much to the players' delight.",
+        "[STATUS] for play designation has been awarded to the new deck of trading cards in the upcoming tournament, eliciting the players' delight."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "confirmed": [
+          "confirmed"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "tournament": [
+          "tournament"
+        ],
+        "much": [
+          "much"
+        ],
+        "upcoming": [
+          "upcoming",
+          "forthcoming",
+          "approaching",
+          "coming"
+        ],
+        "deck": [
+          "deck",
+          "adorn",
+          "decorate",
+          "embellish",
+          "beautify",
+          "bedeck"
+        ],
+        "players": [
+          "players",
+          "participants"
+        ],
+        "play": [
+          "play",
+          "run",
+          "act",
+          "maneuver",
+          "turn"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card's tournament legality is uniquely identified by the uuid 5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c.",
+      "template_pattern": "The card's tournament legality is uniquely identified by the uuid [UUID].",
+      "primary_data_fields": [
+        "uuid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The tournament legality of the card is uniquely marked by the uuid [UUID].",
+        "Uniquely identified by uuid [UUID], the card's tournament legality is recorded.",
+        "The card’s tournament legality can be traced solely to uuid [UUID].",
+        "By means of uuid [UUID], the tournament legality of the card is uniquely defined.",
+        "uuid [UUID] uniquely identifies the card's tournament legality.",
+        "The card's eligibility for tournaments is uniquely linked to uuid [UUID].",
+        "Unique identification of the card's tournament legality is provided by uuid [UUID].",
+        "For the card, tournament legality is uniquely referenced by uuid [UUID].",
+        "The uuid [UUID] serves as the unique marker for the card's tournament legality.",
+        "Tournament legality for the card is uniquely tied to uuid [UUID].",
+        "The card's tournament legality is assigned a unique identifier: uuid [UUID].",
+        "Uniquely, the card's tournament legality is indicated by uuid [UUID].",
+        "The unique identifier uuid [UUID] denotes the card's tournament legality.",
+        "Through uuid [UUID], the card's tournament legality is uniquely recognized.",
+        "The tournament legality of the card is uniquely denoted by uuid [UUID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identified": [
+          "identified"
+        ],
+        "tournament": [
+          "tournament"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "card": [
+          "card"
+        ],
+        "legality": [
+          "legality"
+        ]
+      },
+      "field_data_types": {
+        "uuid": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Identifier assigned to this entry is 1, reflecting its unique position within the comprehensive professional data report.",
+      "template_pattern": "The record’s unique identifier, referred to as the id, is displayed as [ID] for verification and tracking purposes.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The record’s unique identifier, called the id, appears as [ID] for verification and tracking purposes.",
+        "Displayed as [ID] for verification and tracking, the id—this record’s unique identifier—is shown.",
+        "For verification and tracking, the system shows the record’s unique identifier, known as the id, as [ID].",
+        "The id, which serves as the record’s unique identifier, is presented in the form [ID] to facilitate verification and tracking.",
+        "To enable verification and tracking, the record’s unique identifier (the id) is rendered as [ID].",
+        "Verification and tracking are supported by showing the record’s unique identifier, the id, in the format [ID].",
+        "In order to verify and track, the id—acting as the record’s unique identifier—is displayed as [ID].",
+        "The system displays the record’s unique identifier, referred to as the id, in the form [ID] for purposes of verification and tracking.",
+        "As part of verification and tracking, the record’s unique identifier (the id) is shown as [ID].",
+        "For the sake of verification and tracking, [ID] is the displayed value of the record’s unique identifier, the id.",
+        "The record’s unique identifier, the id, is output as [ID] to support verification and tracking.",
+        "To support verification and tracking, the id—serving as the record’s unique identifier—is shown as [ID].",
+        "Verification and tracking rely on the record’s unique identifier, called the id, being displayed as [ID].",
+        "The value [ID] represents the record’s unique identifier, which is referred to as the id, for verification and tracking.",
+        "Showing the record’s unique identifier (the id) as [ID] fulfills verification and tracking requirements."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "verification": [
+          "verification",
+          "confirmation",
+          "substantiation",
+          "check"
+        ],
+        "referred": [
+          "referred"
+        ],
+        "displayed": [
+          "displayed"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequaled",
+          "unequalled",
+          "singular"
+        ],
+        "tracking": [
+          "tracking",
+          "trail",
+          "track"
+        ],
+        "purposes": [
+          "purposes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

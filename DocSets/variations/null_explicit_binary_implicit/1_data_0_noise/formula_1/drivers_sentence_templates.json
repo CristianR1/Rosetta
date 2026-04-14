@@ -1,0 +1,647 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "b1d436263ca44427": "driverId",
+    "8f25cb9eda3c4bfd": "driverRef",
+    "ec63ad129ee8454f": "number",
+    "bd8ede433d074a82": "code",
+    "34b842536e92485f": "forename",
+    "64da4a1069d5490c": "surname",
+    "90875bea425f4346": "dob",
+    "866ee051350e42fe": "nationality",
+    "8563ac3db1dc44ce": "url"
+  },
+  "templates": [
+    {
+      "original": "Each Formula 1 driver has a unique identifier that helps in organizing and accessing their biographical and career details.",
+      "template_pattern": "Each Formula [DRIVERID] driver has a unique identifier that helps in organizing and accessing their biographical and career details.",
+      "primary_data_fields": [
+        "driverId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each Formula [DRIVERID] driver is assigned a driverId that assists in organizing and accessing their biographical and career details.",
+        "A driverId is provided to every Formula [DRIVERID] driver, enabling the sorting and retrieval of their biographical and career details.",
+        "Every Formula [DRIVERID] driver possesses a driverId, which helps organize and access their biographical and career details.",
+        "The driverId of each Formula [DRIVERID] driver facilitates the organization and access of their biographical and career details.",
+        "Each Formula [DRIVERID] driver’s driverId supports the arrangement and retrieval of their biographical and career details.",
+        "A driverId, given to each Formula [DRIVERID] driver, aids in structuring and accessing their biographical and career details.",
+        "For every Formula [DRIVERID] driver, a driverId is used to streamline the organization and access of their biographical and career details.",
+        "Each Formula [DRIVERID] driver’s driverId provides a means to organize and retrieve their biographical and career details.",
+        "The unique driverId attached to each Formula [DRIVERID] driver assists in cataloguing and accessing their biographical and career details.",
+        "Each Formula [DRIVERID] driver receives a driverId that enables efficient organization and access to their biographical and career details.",
+        "A driverId, linked to each Formula [DRIVERID] driver, helps in arranging and retrieving their biographical and career details.",
+        "Each Formula [DRIVERID] driver’s driverId is instrumental in organizing and accessing their biographical and career details.",
+        "Through the driverId assigned to each Formula [DRIVERID] driver, their biographical and career details can be organized and accessed.",
+        "Each Formula [DRIVERID] driver’s driverId serves to facilitate the organization and retrieval of their biographical and career details.",
+        "The driverId for each Formula [DRIVERID] driver aids in the systematic organization and access of their biographical and career details."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organizing": [
+          "organizing"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ],
+        "accessing": [
+          "accessing"
+        ],
+        "their": [
+          "their"
+        ],
+        "helps": [
+          "helps"
+        ],
+        "biographical": [
+          "biographical",
+          "biographic"
+        ]
+      },
+      "field_data_types": {
+        "driverId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The driverRef for Lewis Hamilton in Formula 1 racing is simply known as hamilton.",
+      "template_pattern": "The driverRef for Lewis [DRIVERREF] in Formula 1 racing is simply known as [DRIVERREF].",
+      "primary_data_fields": [
+        "driverRef"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In Formula 1 racing, the driverRef assigned to Lewis [DRIVERREF] is simply [DRIVERREF].",
+        "Lewis Hamilton’s driverRef in Formula 1 is merely [DRIVERREF].",
+        "The driverRef for Lewis [DRIVERREF], within the context of Formula 1, is just [DRIVERREF].",
+        "For the Formula 1 driver Lewis [DRIVERREF], the driverRef appears as [DRIVERREF].",
+        "In the realm of Formula 1, Lewis Hamilton’s driverRef is known simply as [DRIVERREF].",
+        "The identifier driverRef linked to Lewis [DRIVERREF] in Formula 1 racing equals [DRIVERREF].",
+        "Within Formula 1, the driverRef that corresponds to Lewis [DRIVERREF] is [DRIVERREF].",
+        "Lewis [DRIVERREF], competing in Formula 1, carries the driverRef [DRIVERREF].",
+        "The driverRef designated for Lewis [DRIVERREF] in Formula 1 racing reads [DRIVERREF].",
+        "As far as Formula 1 is concerned, Lewis Hamilton’s driverRef is [DRIVERREF].",
+        "The Formula 1 driverRef for Lewis [DRIVERREF] is recorded as [DRIVERREF].",
+        "In the sport of Formula 1, the driverRef attached to Lewis [DRIVERREF] is simply [DRIVERREF].",
+        "The reference driverRef used for Lewis [DRIVERREF] in Formula 1 racing is [DRIVERREF].",
+        "For Lewis [DRIVERREF] in Formula 1, the driverRef is identified as [DRIVERREF].",
+        "In Formula 1 racing, the driverRef belonging to Lewis [DRIVERREF] is just [DRIVERREF]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "simply": [
+          "simply",
+          "only",
+          "plainly",
+          "merely",
+          "just"
+        ],
+        "racing": [
+          "racing"
+        ],
+        "known": [
+          "known"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ]
+      },
+      "field_data_types": {
+        "driverRef": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In Formula 1, driver number 44 is a unique identifier that tracks a racer's participation and career statistics.",
+      "template_pattern": "In Formula 1, driver number [NUMBER] is a unique identifier that tracks a racer's participation and career statistics.",
+      "primary_data_fields": [
+        "number"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within Formula 1, the driver bearing number [NUMBER] serves as a unique identifier that monitors a racer's participation and career statistics.",
+        "Driver number [NUMBER] in Formula 1 functions as a distinct identifier, recording both the racer’s involvement and career data.",
+        "In the realm of Formula 1, the identifier \"driver number [NUMBER] uniquely tracks a competitor’s participation and overall career statistics.",
+        "The unique identifier assigned to driver number [NUMBER] in Formula 1 tracks the racer’s participation as well as career statistics.",
+        "Formula 1 designates driver number [NUMBER] as a unique identifier that logs a racer's participation and career statistics.",
+        "A racer's participation and career statistics are tracked by the unique identifier known as driver number [NUMBER] in Formula 1.",
+        "In Formula 1, driver number [NUMBER] is employed as a unique identifier to follow a racer's participation and career statistics.",
+        "The unique identifier of driver number [NUMBER], used in Formula 1, captures both the racer’s participation and career statistics.",
+        "Driver number [NUMBER], within the Formula 1 series, acts as a unique identifier that records a racer’s participation and career statistics.",
+        "For Formula 1, driver number [NUMBER] serves as a distinctive identifier that monitors a racer's participation and career statistics.",
+        "A racer's participation and career statistics are monitored by driver number [NUMBER], the unique identifier in Formula 1.",
+        "In the context of Formula 1, the unique identifier driver number [NUMBER] tracks the participation and career statistics of a racer.",
+        "The identifier driver number [NUMBER], unique to Formula 1, tracks a racer's participation and career statistics.",
+        "Within the Formula 1 championship, driver number [NUMBER] is the unique identifier that logs a racer’s participation and career statistics.",
+        "Driver number [NUMBER] functions as a unique identifier in Formula 1, tracking a racer's participation and career statistics."
+      ],
+      "counter_variations": [
+        "The report demonstrates that the number field receives the value NULL, indicating an undefined identifier within the dataset.",
+        "According to the analysis, the number field is set to NULL, which conveys an indeterminate identifier in the data collection.",
+        "In this document, the number field has been assigned the value NULL, signifying that the identifier remains undefined across the dataset.",
+        "The findings reveal that the number field carries the value NULL, reflecting a lack of a defined identifier within the dataset.",
+        "Data presented show the number field populated with NULL, denoting an identifier that is not defined in the dataset.",
+        "The compiled statistics indicate the number field holds the value NULL, thereby representing an undefined identifier throughout the dataset.",
+        "Within the report, the number field is recorded as NULL, thereby communicating that the identifier is undefined in the dataset.",
+        "The analysis confirms that the number field bears the value NULL, embodying an identifier that remains undefined across the dataset.",
+        "Our evaluation notes that the number field is designated as NULL, which mirrors an undefined identifier inside the dataset.",
+        "The documentation specifies that the number field contains NULL, illustrating that the identifier lacks definition within the dataset.",
+        "From the perspective of the report, the number field is populated with the value NULL, which implies an undefined identifier in the dataset.",
+        "The assessment observes the number field assigned NULL, thereby indicating an identifier that is undefined throughout the dataset.",
+        "In the presented data, the number field is marked as NULL, a marker that signifies an undefined identifier within the dataset.",
+        "The summary states that the number field holds NULL, a condition that reflects an identifier not defined in the dataset.",
+        "According to the findings, the number field exhibits the value NULL, denoting an undefined identifier across the dataset."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "driver": [
+          "driver"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unparalleled",
+          "unequalled",
+          "singular"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "pattern",
+          "recipe"
+        ],
+        "participation": [
+          "participation",
+          "involvement",
+          "engagement"
+        ],
+        "tracks": [
+          "tracks"
+        ],
+        "career": [
+          "career",
+          "calling",
+          "vocation"
+        ],
+        "statistics": [
+          "statistics"
+        ],
+        "racer": [
+          "racer"
+        ]
+      },
+      "field_data_types": {
+        "number": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Lewis Hamilton is often identified by the code HAM in the world of Formula 1 racing.",
+      "template_pattern": "Lewis Hamilton is often identified by the code [CODE] in the world of Formula 1 racing.",
+      "primary_data_fields": [
+        "code"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In Formula 1 racing, Lewis Hamilton is frequently recognized by the code [CODE].",
+        "The code [CODE] commonly identifies Lewis Hamilton within the world of Formula 1 racing.",
+        "Lewis Hamilton, known in the Formula 1 racing arena by the code [CODE], is often referenced.",
+        "Often, the code [CODE] serves to denote Lewis Hamilton in the realm of Formula 1 racing.",
+        "Within the world of Formula 1 racing, the code [CODE] is a typical marker for Lewis Hamilton.",
+        "Lewis Hamilton is regularly linked to the code [CODE] across Formula 1 racing circles.",
+        "In the sphere of Formula 1 racing, the code [CODE] is frequently used to tag Lewis Hamilton.",
+        "The code [CODE], a standard identifier for Lewis Hamilton, appears often in Formula 1 racing contexts.",
+        "Frequently, Lewis Hamilton is labeled with the code [CODE] when discussing Formula 1 racing.",
+        "Across Formula 1 racing, the code [CODE] is often employed to signify Lewis Hamilton.",
+        "The world of Formula 1 racing often refers to Lewis Hamilton by the code [CODE].",
+        "By means of the code [CODE], Lewis Hamilton is commonly identified in Formula 1 racing.",
+        "In Formula 1 racing discourse, the code [CODE] typically points to Lewis Hamilton.",
+        "Lewis Hamilton’s presence in the world of Formula 1 racing is usually marked by the code [CODE].",
+        "The code [CODE] serves as a regular identifier for Lewis Hamilton in Formula 1 racing."
+      ],
+      "counter_variations": [
+        "Within the professional data report, the field code appears as NULL, signifying that an identifier has yet to be allocated.",
+        "The professional data report records the field code as NULL, thereby indicating that no identifier has been assigned at this stage.",
+        "In the professional data report, a NULL entry is logged for the field code, reflecting the absence of an assigned identifier thus far.",
+        "As documented in the professional data report, the field code is set to NULL, which denotes that an identifier remains unassigned at this point.",
+        "The professional data report lists the field code with the value NULL, implying that an identifier has not been designated yet.",
+        "Recorded in the professional data report, the field code holds the value NULL, meaning that no identifier has been allocated up to this stage.",
+        "According to the professional data report, the field code is marked NULL, a marker that no identifier has been provided at this juncture.",
+        "In the professional data report, the entry for the field code is NULL, indicating that an identifier is still pending assignment.",
+        "The field code, as shown in the professional data report, is recorded as NULL, which conveys that no identifier has been assigned at this time.",
+        "Within the professional data report, the field code is designated NULL, signifying the current lack of an assigned identifier.",
+        "The professional data report indicates that the field code carries the NULL value, denoting that an identifier has not yet been assigned.",
+        "As per the professional data report, the field code bears the value NULL, illustrating that no identifier has been allocated at this stage.",
+        "In the professional data report, the field code is captured as NULL, thereby reflecting that an identifier remains unassigned at this phase.",
+        "The professional data report documents the field code as NULL, a clear sign that no identifier has been assigned thus far.",
+        "Within the professional data report, a NULL designation is applied to the field code, indicating that an identifier has not been appointed at this point."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "racing": [
+          "racing",
+          "speed",
+          "rush"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "Earth"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ],
+        "often": [
+          "often",
+          "frequently"
+        ],
+        "identified": [
+          "identified"
+        ]
+      },
+      "field_data_types": {
+        "code": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Lewis, a renowned Formula 1 driver, has captivated fans worldwide with his exceptional skill and determination on the track.",
+      "template_pattern": "[FORENAME], a renowned Formula 1 driver, has captivated fans worldwide with his exceptional skill and determination on the track.",
+      "primary_data_fields": [
+        "forename"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "[FORENAME], a celebrated Formula 1 driver, has mesmerized fans worldwide through his outstanding skill and determination on the track.",
+        "Fans across the globe are enthralled by [FORENAME], the renowned Formula 1 driver, whose exceptional skill and resolve shine on the circuit.",
+        "The track bears witness to [FORENAME]’s remarkable skill and determination, captivating worldwide fans as a famed Formula 1 driver.",
+        "Renowned Formula 1 driver [FORENAME] has won over global audiences with his exceptional skill and steadfast determination on the track.",
+        "Across continents, audiences are drawn to [FORENAME], a distinguished Formula 1 driver, whose skill and determination on the track are nothing short of exceptional.",
+        "[FORENAME]’s extraordinary skill and determination on the circuit have earned him admiration from fans worldwide, marking him as a celebrated Formula 1 driver.",
+        "Worldwide fans have been captivated by the exceptional skill and determination [FORENAME] displays on the track, solidifying his status as a renowned Formula 1 driver.",
+        "The exceptional skill and determination exhibited by [FORENAME] on the track have drawn the attention of fans globally, underscoring his reputation as a celebrated Formula 1 driver.",
+        "As a renowned Formula 1 driver, [FORENAME]’s exceptional skill and determination on the track have captured the interest of fans worldwide.",
+        "Fans worldwide are captivated by the exceptional skill and determination [FORENAME] brings to the track, affirming his reputation as a celebrated Formula 1 driver.",
+        "Through his exceptional skill and determination on the circuit, [FORENAME], a renowned Formula 1 driver, has captured the admiration of fans around the world.",
+        "The global fanbase is enthralled by [FORENAME]’s exceptional skill and determination on the track, highlighting his standing as a celebrated Formula 1 driver.",
+        "[FORENAME], known for his exceptional skill and determination on the track, has become a worldwide fan favorite as a renowned Formula 1 driver.",
+        "Across the world, fans are drawn to the exceptional skill and determination [FORENAME] demonstrates on the track, cementing his status as a celebrated Formula 1 driver.",
+        "The track showcases [FORENAME] exceptional skill and determination, captivating fans worldwide and reinforcing his reputation as a renowned Formula 1 driver."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "captivated": [
+          "captivated",
+          "captured",
+          "entranced",
+          "enthralled",
+          "charmed",
+          "beguiled"
+        ],
+        "renowned": [
+          "renowned",
+          "illustrious",
+          "notable",
+          "celebrated",
+          "noted",
+          "famous"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ],
+        "track": [
+          "track",
+          "trail",
+          "course",
+          "path",
+          "rail"
+        ],
+        "worldwide": [
+          "worldwide",
+          "universal",
+          "global",
+          "planetary"
+        ],
+        "exceptional": [
+          "exceptional",
+          "special",
+          "surpassing",
+          "prodigious",
+          "exceeding"
+        ]
+      },
+      "field_data_types": {
+        "forename": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The surname Hamilton is synonymous with excellence and speed in the world of Formula 1 racing.",
+      "template_pattern": "The surname [SURNAME] is synonymous with excellence and speed in the world of Formula 1 racing.",
+      "primary_data_fields": [
+        "surname"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In Formula 1 racing, the surname [SURNAME] epitomizes both excellence and speed.",
+        "Excellence and speed are hallmarks of the surname [SURNAME] within the world of Formula 1.",
+        "The world of Formula 1 racing regards the surname [SURNAME] as a synonym for excellence and speed.",
+        "Within Formula 1, the surname [SURNAME] is linked to excellence and speed.",
+        "Synonymous with excellence and speed, the surname [SURNAME] dominates the Formula 1 racing scene.",
+        "The surname [SURNAME], in the realm of Formula 1 racing, represents excellence and speed.",
+        "Excellence and speed are inseparable from the surname [SURNAME] in Formula 1 racing.",
+        "In the arena of Formula 1 racing, the surname [SURNAME] is equated with excellence and speed.",
+        "The world of Formula 1 racing sees the surname [SURNAME] as a benchmark of excellence and speed.",
+        "The surname [SURNAME] has become a byword for excellence and speed in Formula 1 racing.",
+        "Within the global Formula 1 racing community, the surname [SURNAME] stands for excellence and speed.",
+        "Formula 1 racing treats the surname [SURNAME] as synonymous with excellence and speed.",
+        "The surname [SURNAME] is identified with excellence and speed throughout the Formula 1 racing world.",
+        "In the context of Formula 1 racing, excellence and speed are synonymous with the surname [SURNAME].",
+        "Excellence, speed, and the surname [SURNAME] are intertwined in the world of Formula 1 racing."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "speed": [
+          "speed",
+          "swiftness",
+          "fastness",
+          "velocity"
+        ],
+        "racing": [
+          "racing"
+        ],
+        "excellence": [
+          "excellence"
+        ],
+        "world": [
+          "world",
+          "Earth",
+          "earth",
+          "globe",
+          "humanity",
+          "humankind"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ],
+        "synonymous": [
+          "synonymous"
+        ]
+      },
+      "field_data_types": {
+        "surname": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 driver celebrated his birthday on 1985-01-07, marking another year since his dob.",
+      "template_pattern": "The Formula 1 driver celebrated his birthday on [DOB], marking another year since his dob.",
+      "primary_data_fields": [
+        "dob"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DOB], the Formula 1 driver celebrated his birthday, marking another year since his dob.",
+        "The Formula 1 driver celebrated his birthday on [DOB], thereby indicating another year since his dob.",
+        "Celebrating his birthday on [DOB], the Formula 1 driver marked another year since his dob.",
+        "Another year since his dob was marked when the Formula 1 driver celebrated his birthday on [DOB].",
+        "The birthday of the Formula 1 driver was observed on [DOB], signifying another year since his dob.",
+        "On the date [DOB], the Formula 1 driver observed his birthday, denoting an additional year since his dob.",
+        "The Formula 1 driver’s birthday was celebrated on [DOB], which notes another year since his dob.",
+        "By celebrating his birthday on [DOB], the Formula 1 driver highlighted another year since his dob.",
+        "The Formula 1 driver, on [DOB], marked another year since his dob by celebrating his birthday.",
+        "A celebration of the Formula 1 driver’s birthday took place on [DOB], marking another year since his dob.",
+        "With his birthday celebrated on [DOB], the Formula 1 driver added another year since his dob.",
+        "The Formula 1 driver’s birthday celebration on [DOB] indicates another year since his dob.",
+        "On [DOB], the Formula 1 driver’s birthday was celebrated, marking another year since his dob.",
+        "The event of the Formula 1 driver’s birthday on [DOB] signified another year since his dob.",
+        "Celebrated on [DOB], the Formula 1 driver’s birthday marks another year since his dob."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "grade",
+          "tag",
+          "grading",
+          "mark",
+          "score"
+        ],
+        "since": [
+          "since"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ],
+        "celebrated": [
+          "celebrated",
+          "illustrious",
+          "storied",
+          "notable",
+          "renowned",
+          "noted"
+        ],
+        "another": [
+          "another"
+        ],
+        "birthday": [
+          "birthday"
+        ]
+      },
+      "field_data_types": {
+        "dob": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many Formula 1 drivers come from a variety of nationalities, with several being notably British, adding to the sport's rich diversity.",
+      "template_pattern": "Many Formula 1 drivers come from a variety of nationalities, with several being notably [NATIONALITY], adding to the sport's rich diversity.",
+      "primary_data_fields": [
+        "nationality"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A large number of Formula 1 drivers hail from many different nationalities, and several are distinctly [NATIONALITY], which enhances the sport's considerable diversity.",
+        "Formula 1 features drivers of many nationalities, several of whom are distinctly [NATIONALITY], thereby contributing to the rich diversity of the sport.",
+        "The sport’s diversity is enriched by the fact that numerous Formula 1 drivers originate from various nationalities, among them a significant contingent of [NATIONALITY] racers.",
+        "Among the many nationalities represented in Formula 1, a handful of drivers stand out as [NATIONALITY], adding further depth to the sport’s diverse character.",
+        "Diverse nationalities populate the grid of Formula 1 drivers, and several are prominently [NATIONALITY], boosting the overall diversity of the competition.",
+        "It is evident that Formula 1 drivers come from a wide array of nationalities, with a notable [NATIONALITY] presence that augments the sport’s diversity.",
+        "A variety of nationalities is reflected in the roster of Formula 1 drivers, and the inclusion of several [NATIONALITY] competitors strengthens the sport’s vibrant diversity.",
+        "The presence of many nationalities among Formula 1 drivers, especially the notable [NATIONALITY] contingent, amplifies the sport’s inherent diversity.",
+        "Several [NATIONALITY] drivers are part of the broader mix of nationalities that characterize Formula 1, thereby enriching the sport’s diverse landscape.",
+        "Formula 1’s driver lineup spans numerous nationalities; among them, a noticeable number are [NATIONALITY], which further enhances the sport’s rich diversity.",
+        "With drivers drawn from many nationalities, Formula 1 includes several prominently [NATIONALITY] participants, contributing to its broad diversity.",
+        "The extensive range of nationalities represented by Formula 1 drivers, including a notable [NATIONALITY] segment, adds to the sport’s diverse fabric.",
+        "Among the many nationalities present in Formula 1, the [NATIONALITY] representation is especially significant, increasing the sport’s overall diversity.",
+        "The sport benefits from a spectrum of nationalities among its drivers, where several are distinctly [NATIONALITY], thereby expanding its rich diversity.",
+        "A multitude of nationalities is evident among Formula 1 drivers, and the notable [NATIONALITY] cohort further diversifies the sport."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "many": [
+          "many"
+        ],
+        "diversity": [
+          "diversity",
+          "variety"
+        ],
+        "variety": [
+          "variety",
+          "mixture",
+          "assortment",
+          "sort",
+          "kind",
+          "diversity"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ],
+        "nationalities": [
+          "nationalities"
+        ],
+        "adding": [
+          "adding"
+        ],
+        "drivers": [
+          "drivers"
+        ],
+        "being": [
+          "being",
+          "existence"
+        ]
+      },
+      "field_data_types": {
+        "nationality": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Fans and researchers can explore Lewis Hamilton's career and background in detail at http://en.wikipedia.org/wiki/Lewis_Hamilton.",
+      "template_pattern": "Fans and researchers can explore Lewis Hamilton's career and background in detail at [URL].",
+      "primary_data_fields": [
+        "url"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Fans and researchers can explore Lewis Hamilton’s career and background in detail at [URL].",
+        "Researchers as well as fans may delve into the full career and background of Lewis Hamilton via [URL].",
+        "The career and background of Lewis Hamilton are available for fans and researchers to examine in depth at [URL].",
+        "At [URL], fans and researchers are able to investigate Lewis Hamilton’s career and background thoroughly.",
+        "Lewis Hamilton’s complete career and background can be studied by fans and researchers through [URL].",
+        "For fans and researchers wishing to scrutinize Lewis Hamilton’s career and background, the URL [URL] provides detailed information.",
+        "Detailed information on Lewis Hamilton’s career and background is accessible to fans and researchers at [URL].",
+        "Fans and researchers looking to explore the intricacies of Lewis Hamilton’s career and background should visit [URL].",
+        "The site [URL] offers fans and researchers a detailed look at Lewis Hamilton’s career and background.",
+        "By visiting [URL], fans and researchers can obtain an in‑depth view of Lewis Hamilton’s career and background.",
+        "Lewis Hamilton’s career and background can be explored in detail by fans and researchers via the link [URL].",
+        "Fans and researchers have the opportunity to examine Lewis Hamilton’s career and background comprehensively at [URL].",
+        "Through [URL], fans and researchers are granted detailed access to Lewis Hamilton’s career and background.",
+        "If fans and researchers wish to study Lewis Hamilton’s career and background thoroughly, they should go to [URL].",
+        "The URL [URL] allows fans and researchers to explore Lewis Hamilton’s career and background in great detail."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "fans": [
+          "fans"
+        ],
+        "http": [
+          "http",
+          "HTTP"
+        ],
+        "detail": [
+          "detail",
+          "particular",
+          "point",
+          "item"
+        ],
+        "wiki": [
+          "wiki"
+        ],
+        "explore": [
+          "explore",
+          "research",
+          "search"
+        ],
+        "career": [
+          "career",
+          "calling",
+          "vocation"
+        ],
+        "wikipedia": [
+          "wikipedia"
+        ],
+        "researchers": [
+          "researchers"
+        ]
+      },
+      "field_data_types": {
+        "url": "url"
+      },
+      "is_static": false
+    }
+  ]
+}

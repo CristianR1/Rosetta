@@ -1,0 +1,362 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "d589c4bb608e448d": "Id",
+    "8d64f0e4bb0b4aaf": "CreationDate",
+    "ff15f0df4fe44722": "PostId",
+    "8ae64bc0d2f740a9": "RelatedPostId",
+    "c5cd121e1c0f4289": "LinkTypeId"
+  },
+  "templates": [
+    {
+      "original": "The Id 108 appears frequently in discussions about improving the tracking of relationships between posts in the programming community.",
+      "template_pattern": "The Id [ID] appears frequently in discussions about improving the tracking of relationships between posts in the programming community.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In many conversations about enhancing the tracking of relationships between posts, Id [ID] is mentioned frequently within the programming community.",
+        "The programming community often references Id [ID] when debating ways to improve post‑relationship tracking.",
+        "Frequent mentions of Id [ID] arise in discussions centered on better tracking of relationships between posts in the programming community.",
+        "Discussions aimed at improving the tracking of relationships between posts in the programming community commonly feature Id [ID].",
+        "Id [ID] appears often in the programming community’s dialogues about refining how relationships between posts are tracked.",
+        "When the programming community talks about upgrading post‑relationship tracking, Id [ID] is repeatedly brought up.",
+        "The tracking of relationships between posts is a hot topic in the programming community, with Id [ID] surfacing frequently in the debate.",
+        "Within the programming community, Id [ID] is repeatedly cited in talks about improving the tracking of relationships between posts.",
+        "Improving the tracking of relationships between posts is frequently discussed in the programming community, where Id [ID] often appears.",
+        "Id [ID] is a frequent point of reference in programming‑community discussions on enhancing post relationship tracking.",
+        "In the programming community, conversations about better tracking of relationships between posts frequently mention Id [ID].",
+        "The programming community’s frequent discussions on refining post relationship tracking routinely include Id [ID].",
+        "Id [ID] shows up often in the programming community’s discourse on improving how relationships between posts are tracked.",
+        "When improving the tracking of relationships between posts is on the agenda, the programming community often brings up Id [ID].",
+        "Frequently, Id [ID] is brought into programming community discussions about enhancing the tracking of relationships between posts."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "about": [
+          "about",
+          "nearly",
+          "almost",
+          "around",
+          "approximately",
+          "roughly"
+        ],
+        "frequently": [
+          "frequently",
+          "oftentimes",
+          "often"
+        ],
+        "between": [
+          "between"
+        ],
+        "community": [
+          "community"
+        ],
+        "improving": [
+          "improving"
+        ],
+        "appears": [
+          "appears"
+        ],
+        "discussions": [
+          "discussions"
+        ],
+        "posts": [
+          "posts"
+        ]
+      },
+      "field_data_types": {
+        "Id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post link was established on 2010-07-21 14:47:33.0, marking a new interaction in the programming community's timeline.",
+      "template_pattern": "The post link was established on [CREATIONDATE], marking a new interaction in the programming community's timeline.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Creation Date [CREATIONDATE] marks the moment the post link was set up, signaling a fresh interaction in the programming community timeline.",
+        "On [CREATIONDATE] (Creation Date), the post link came into existence, heralding a new engagement within the programming community’s chronology.",
+        "The post link was initiated at [CREATIONDATE], as recorded by Creation Date, ushering in another interaction on the programming community’s timeline.",
+        "At the timestamp Creation Date [CREATIONDATE], the post link was formed, denoting a novel exchange in the programming community’s history.",
+        "A post link was generated on [CREATIONDATE]—Creation Date—introducing a fresh interaction to the programming community’s timeline.",
+        "The establishment of the post link occurred at [CREATIONDATE] (Creation Date), marking an additional interaction in the programming community’s record.",
+        "Creation Date [CREATIONDATE] saw the post link become active, indicating a new point of interaction in the programming community timeline.",
+        "When the clock read [CREATIONDATE] (Creation Date), the post link was created, adding another interaction to the programming community’s timeline.",
+        "The post link’s creation, logged at Creation Date [CREATIONDATE], signals a fresh interaction within the programming community’s timeline.",
+        "At [CREATIONDATE], noted as Creation Date, the post link was established, contributing a new interaction to the programming community timeline.",
+        "Creation Date [CREATIONDATE] records the point when the post link was set up, marking a fresh engagement in the programming community’s timeline.",
+        "The post link became active on [CREATIONDATE], as captured by Creation Date, denoting a new interaction in the programming community’s timeline.",
+        "On the moment marked by Creation Date [CREATIONDATE], the post link was put in place, indicating another interaction in the programming community timeline.",
+        "The timestamp [CREATIONDATE] (Creation Date) corresponds to the establishment of the post link, heralding a fresh interaction within the programming community timeline.",
+        "At Creation Date [CREATIONDATE], the post link was launched, signifying a new interaction on the programming community’s timeline."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "link": [
+          "link",
+          "associate",
+          "connect",
+          "connection",
+          "nexus",
+          "tie",
+          "join"
+        ],
+        "community": [
+          "community"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "brand",
+          "grade"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "post": [
+          "post",
+          "position",
+          "station",
+          "office",
+          "place"
+        ],
+        "timeline": [
+          "timeline"
+        ],
+        "established": [
+          "established",
+          "constituted"
+        ],
+        "interaction": [
+          "interaction"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The discussion thread, identified uniquely by PostId 395, sparked a lively debate among developers about the latest coding techniques.",
+      "template_pattern": "The discussion thread, identified uniquely by PostId [POSTID], sparked a lively debate among developers about the latest coding techniques.",
+      "primary_data_fields": [
+        "PostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "PostId [POSTID] uniquely tags the discussion thread that ignited a spirited debate among developers over the latest coding techniques.",
+        "Identified by PostId [POSTID], the discussion thread sparked a vibrant conversation among developers regarding the latest coding techniques.",
+        "The discussion thread, bearing the unique identifier PostId [POSTID], provoked a lively exchange among developers about the latest coding techniques.",
+        "A lively debate among developers about the latest coding techniques was sparked by the discussion thread marked with PostId [POSTID].",
+        "With PostId [POSTID] as its unique label, the discussion thread set off an animated discussion among developers concerning the latest coding techniques.",
+        "The discussion thread, distinguished by PostId [POSTID], triggered a heated dialogue among developers on the latest coding techniques.",
+        "Developers engaged in a spirited debate about the latest coding techniques after the discussion thread, identified by PostId [POSTID], sparked it.",
+        "Because it carried the unique PostId [POSTID], the discussion thread sparked an energetic debate among developers about the latest coding techniques.",
+        "The thread of discussion, uniquely identified by PostId [POSTID], ignited a robust debate among developers concerning the latest coding techniques.",
+        "A robust exchange among developers on the latest coding techniques was ignited by the discussion thread that bears PostId [POSTID].",
+        "Marked with the unique PostId [POSTID], the discussion thread provoked an enthusiastic debate among developers about the latest coding techniques.",
+        "The discussion thread, with the unique identifier PostId [POSTID], set off a lively debate among developers concerning the latest coding techniques.",
+        "When the discussion thread was tagged with PostId [POSTID], it sparked a vigorous debate among developers about the latest coding techniques.",
+        "PostId [POSTID] uniquely designates the discussion thread that sparked a spirited debate among developers on the latest coding techniques.",
+        "The discussion thread, carrying the unique PostId [POSTID], catalyzed a lively debate among developers about the latest coding techniques."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "about": [
+          "about",
+          "nearly",
+          "almost",
+          "near",
+          "around",
+          "approximately"
+        ],
+        "techniques": [
+          "techniques"
+        ],
+        "developers": [
+          "developers"
+        ],
+        "debate": [
+          "debate",
+          "argument"
+        ],
+        "thread": [
+          "thread"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "lively": [
+          "lively",
+          "brisk"
+        ],
+        "among": [
+          "among"
+        ]
+      },
+      "field_data_types": {
+        "PostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The discussion thread you are reading links to an insightful contribution with the RelatedPostId 173, enhancing your understanding of the topic.",
+      "template_pattern": "The discussion thread you are reading links to an insightful contribution with the RelatedPostId [RELATEDPOSTID], enhancing your understanding of the topic.",
+      "primary_data_fields": [
+        "RelatedPostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "While you read this discussion thread, it connects you to an insightful contribution identified by RelatedPostId [RELATEDPOSTID], which deepens your grasp of the subject.",
+        "This discussion thread points to an insightful post bearing RelatedPostId [RELATEDPOSTID], thereby enriching your comprehension of the topic.",
+        "An insightful contribution with RelatedPostId [RELATEDPOSTID] is linked from the discussion thread you are currently viewing, boosting your understanding of the issue.",
+        "By following the link in the discussion thread, you reach an insightful contribution (RelatedPostId [RELATEDPOSTID]) that enhances your knowledge of the matter.",
+        "The thread you are perusing references an insightful entry marked RelatedPostId [RELATEDPOSTID], augmenting your insight into the topic.",
+        "Linked from the discussion thread you read is an insightful contribution carrying the RelatedPostId [RELATEDPOSTID], which improves your grasp of the subject.",
+        "As you browse this discussion thread, it directs you to an insightful contribution—RelatedPostId [RELATEDPOSTID]—helping to broaden your understanding of the topic.",
+        "The discussion thread you’re on links to an insightful contribution with the RelatedPostId [RELATEDPOSTID], consequently deepening your comprehension of the subject.",
+        "An insightful contribution (RelatedPostId [RELATEDPOSTID]) is accessible via the discussion thread you are reading, thereby enhancing your understanding of the topic.",
+        "Through the current discussion thread, you are guided to an insightful post labeled RelatedPostId [RELATEDPOSTID], which furthers your grasp of the matter.",
+        "The thread you’re viewing connects to an insightful contribution identified by RelatedPostId [RELATEDPOSTID], expanding your knowledge of the topic.",
+        "In this discussion thread, a link leads to an insightful contribution with RelatedPostId [RELATEDPOSTID], improving your understanding of the subject.",
+        "By means of the discussion thread you are reading, an insightful contribution bearing RelatedPostId [RELATEDPOSTID] is referenced, elevating your comprehension of the topic.",
+        "The discussion thread provides a link to an insightful contribution—RelatedPostId [RELATEDPOSTID]—thus enhancing your grasp of the issue.",
+        "An insightful contribution, marked with RelatedPostId [RELATEDPOSTID], is linked from the discussion thread you are reading, which deepens your understanding of the topic."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "understanding": [
+          "understanding",
+          "discernment"
+        ],
+        "insightful": [
+          "insightful"
+        ],
+        "reading": [
+          "reading",
+          "interpretation",
+          "study"
+        ],
+        "your": [
+          "your"
+        ],
+        "topic": [
+          "topic",
+          "matter",
+          "subject",
+          "issue",
+          "theme"
+        ],
+        "thread": [
+          "thread",
+          "string"
+        ],
+        "contribution": [
+          "contribution"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse"
+        ]
+      },
+      "field_data_types": {
+        "RelatedPostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the programming community platform, a Link Type Identifier of 1 signifies a direct response relationship between posts.",
+      "template_pattern": "In the programming community platform, a Link Type Identifier of [LINKTYPEID] signifies a direct response relationship between posts.",
+      "primary_data_fields": [
+        "LinkTypeId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the programming community platform, a Link Type Identifier of 1 indicates a direct response relationship between posts.",
+        "A Link Type Identifier of 1 denotes a direct response relationship between posts on the programming community platform.",
+        "On the programming community platform, the Link Type Identifier set to 1 represents a direct response relationship between posts.",
+        "The programming community platform uses a Link Type Identifier of 1 to signify a direct response relationship between posts.",
+        "A direct response relationship between posts is signaled by a Link Type Identifier of 1 in the programming community platform.",
+        "In the programming community platform, posts linked with a Link Type Identifier of 1 share a direct response relationship.",
+        "The presence of a Link Type Identifier of 1 in the programming community platform marks a direct response relationship between posts.",
+        "When a Link Type Identifier equals 1, the programming community platform treats the connection as a direct response relationship between posts.",
+        "Within the programming community platform, a Link Type Identifier of 1 serves to denote a direct response relationship between posts.",
+        "A direct response relationship between posts is identified by a Link Type Identifier of 1 on the programming community platform.",
+        "The programming community platform defines a Link Type Identifier of 1 as indicating a direct response relationship between posts.",
+        "Posts on the programming community platform that have a Link Type Identifier of 1 are considered to have a direct response relationship.",
+        "A Link Type Identifier of 1, within the programming community platform, conveys a direct response relationship between posts.",
+        "In the programming community platform, a Link Type Identifier of 1 functions as a marker for a direct response relationship between posts.",
+        "The link between posts is classified as a direct response relationship when the programming community platform assigns a Link Type Identifier of 1."
+      ],
+      "counter_variations": [
+        "Within the programming community platform, a Link Type Id set to 0 indicates that the two posts are connected by a direct response relationship, thereby denoting a reply‑oriented linkage.",
+        "Within the programming community platform, a Link Type Id equal to 0 signifies that posts are connected through a direct response relationship.",
+        "Within the programming community platform, a Link Type Id value of 0 is employed to denote a direct response relationship between posts.",
+        "On the programming community platform, direct response relationships between posts are indicated by a Link Type Id equal to 0, thereby denoting the absence of an explicit link type.",
+        "On the programming community platform, posts that are linked through a direct response relationship, thereby indicating a direct reply, are designated with a Link Type Id of 0.",
+        "Within the programming community platform, a direct response relationship between posts is denoted by a Link Type Id equal to 0, thereby signifying the immediate reply nature of the connection.",
+        "Within the programming community platform, the assignment of a Link Type Id value of 0, rather than any other identifier, denotes that the posts are connected through a direct response relationship.",
+        "In the programming community platform, a Link Type Id of 0 is assigned, thereby denoting that a post establishes a direct response relationship with another post.",
+        "Within the programming community platform, any pair of posts that directly answer one another is flagged by assigning a Link Type Id of 0 to the relationship.",
+        "Within the programming community platform, a Link Type Id equal to 0 functions as an explicit indicator that the associated posts share a direct response relationship.",
+        "A Link Type Id of 0 functions as the designated marker indicating a direct response relationship between posts within the programming community platform.",
+        "The programming community platform flags a direct response relationship between posts whose Link Type Id is explicitly set to 0, thereby denoting the absence of a defined link type.",
+        "In instances where a direct response relationship exists between posts, the programming community platform records the Link Type Id as the binary value 0.",
+        "Within the programming community platform, a Link Type Id of 0 is employed to denote that the associated posts maintain a direct response relationship.",
+        "The assignment of a Link Type Id equal to 0 within the programming community platform’s data schema unequivocally signifies that the two posts are connected through a direct response relationship."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "direct": [
+          "direct",
+          "guide",
+          "steer",
+          "lead",
+          "conduct",
+          "head"
+        ],
+        "response": [
+          "response",
+          "reply",
+          "answer",
+          "reaction"
+        ],
+        "between": [
+          "between"
+        ],
+        "community": [
+          "community"
+        ],
+        "relationship": [
+          "relationship"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "posts": [
+          "posts"
+        ]
+      },
+      "field_data_types": {
+        "LinkTypeId": "bool"
+      },
+      "is_static": false
+    }
+  ]
+}

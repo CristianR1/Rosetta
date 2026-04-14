@@ -1,0 +1,498 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "be93aaf8d1cd4210": "constructorStandingsId",
+    "0fd35d9d73aa44ed": "raceId",
+    "b1453980b24e4371": "constructorId",
+    "b462dd7ba9de4e5a": "points",
+    "92fcd18e9dc541c1": "position",
+    "90d0c851b9094649": "positionText",
+    "c695d3df25b94ed7": "wins"
+  },
+  "templates": [
+    {
+      "original": "The team with identifier 1 has consistently demonstrated top-tier performance in this season's Formula 1 championship standings.",
+      "template_pattern": "The team with identifier [CONSTRUCTORSTANDINGSID] has consistently demonstrated top-tier performance in this season's Formula [CONSTRUCTORSTANDINGSID] championship standings.",
+      "primary_data_fields": [
+        "constructorStandingsId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Identifier 1’s team has consistently delivered top‑tier performance throughout this season’s Formula [CONSTRUCTORSTANDINGSID] championship standings.",
+        "Throughout the current Formula [CONSTRUCTORSTANDINGSID] championship standings, the team bearing identifier [CONSTRUCTORSTANDINGSID] has shown consistently top‑tier performance.",
+        "In this season’s Formula [CONSTRUCTORSTANDINGSID] championship standings, the team with identifier [CONSTRUCTORSTANDINGSID] consistently exhibits top‑tier performance.",
+        "Top‑tier performance has been consistently demonstrated by the team identified as [CONSTRUCTORSTANDINGSID] in the present Formula [CONSTRUCTORSTANDINGSID] championship standings.",
+        "The current Formula [CONSTRUCTORSTANDINGSID] championship standings reveal that the team labelled [CONSTRUCTORSTANDINGSID] has consistently achieved top‑tier performance.",
+        "Consistently, the team marked with identifier [CONSTRUCTORSTANDINGSID] has performed at a top‑tier level in this season’s Formula [CONSTRUCTORSTANDINGSID] championship standings.",
+        "This season’s Formula [CONSTRUCTORSTANDINGSID] championship standings consistently reflect top‑tier performance from the team carrying identifier [CONSTRUCTORSTANDINGSID].",
+        "Across the present Formula [CONSTRUCTORSTANDINGSID] championship standings, the identifier‑1 team has repeatedly shown top‑tier performance.",
+        "The team designated as [CONSTRUCTORSTANDINGSID] has, without fail, delivered top‑tier performance in the ongoing Formula [CONSTRUCTORSTANDINGSID] championship standings.",
+        "In the ongoing Formula [CONSTRUCTORSTANDINGSID] championship standings this season, top‑tier performance is consistently exhibited by the team with identifier [CONSTRUCTORSTANDINGSID].",
+        "The identifier‑1 team has consistently attained top‑tier performance within this season’s Formula [CONSTRUCTORSTANDINGSID] championship standings.",
+        "Within the current Formula [CONSTRUCTORSTANDINGSID] championship rankings, the team bearing the identifier [CONSTRUCTORSTANDINGSID] has consistently posted top‑tier performance.",
+        "Consistent top‑tier performance characterises the team with identifier [CONSTRUCTORSTANDINGSID] in this season’s Formula [CONSTRUCTORSTANDINGSID] championship standings.",
+        "The present Formula [CONSTRUCTORSTANDINGSID] championship standings show that the team labeled [CONSTRUCTORSTANDINGSID] has consistently performed at a top‑tier level.",
+        "Across this season’s Formula [CONSTRUCTORSTANDINGSID] championship standings, the team identified by [CONSTRUCTORSTANDINGSID] has repeatedly demonstrated top‑tier performance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "standings": [
+          "standings",
+          "rankings",
+          "positions",
+          "placements"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "tier": [
+          "tier",
+          "level",
+          "grade"
+        ],
+        "demonstrated": [
+          "demonstrated",
+          "exhibit",
+          "prove",
+          "manifest",
+          "attest",
+          "establish"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour"
+        ]
+      },
+      "field_data_types": {
+        "constructorStandingsId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The championship standings shifted dramatically after raceId 18, altering the trajectory of the entire Formula 1 season.",
+      "template_pattern": "The championship standings shifted dramatically after raceId [RACEID], altering the trajectory of the entire Formula 1 season.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "After raceId [RACEID], the championship standings underwent a dramatic shift, reshaping the entire Formula 1 season’s trajectory.",
+        "The trajectory of the whole Formula 1 season was altered when raceId [RACEID] caused the championship standings to change dramatically.",
+        "Following raceId [RACEID], a dramatic reordering of the championship standings redirected the course of the Formula 1 season.",
+        "RaceId [RACEID] sparked a dramatic upheaval in the championship rankings, thereby redefining the season‑long Formula 1 storyline.",
+        "With raceId [RACEID], the championship leaderboard flipped dramatically, steering the Formula 1 season onto a new path.",
+        "A dramatic swing in the championship standings occurred after raceId [RACEID], consequently shifting the Formula 1 season’s direction.",
+        "The entire Formula 1 season’s direction was dramatically altered as raceId [RACEID] reshaped the championship standings.",
+        "After the conclusion of raceId [RACEID], the championship standings dramatically pivoted, changing the overall Formula 1 season trajectory.",
+        "RaceId [RACEID] triggered a dramatic realignment of the championship standings, which in turn redirected the Formula 1 season.",
+        "The championship standings experienced a dramatic turn after raceId [RACEID], thereby modifying the Formula 1 season’s overall course.",
+        "Following the events of raceId [RACEID], the championship leaderboard was dramatically reshaped, affecting the whole Formula 1 season.",
+        "A dramatic shift in the championship rankings was observed post‑raceId [RACEID], altering the Formula 1 season’s trajectory.",
+        "The Formula 1 season’s path was dramatically changed after raceId [RACEID] caused the championship standings to tumble.",
+        "After raceId [RACEID], the championship standings dramatically flipped, steering the entire Formula 1 season onto a different trajectory.",
+        "The season‑long Formula 1 narrative was dramatically redirected when raceId [RACEID] upheaved the championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "dramatically": [
+          "dramatically"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "trajectory": [
+          "trajectory"
+        ],
+        "altering": [
+          "altering"
+        ],
+        "after": [
+          "after",
+          "subsequently",
+          "afterward",
+          "afterwards",
+          "later"
+        ],
+        "shifted": [
+          "shifted",
+          "reposition",
+          "transfer",
+          "change",
+          "shift",
+          "switch"
+        ],
+        "entire": [
+          "entire",
+          "full",
+          "total",
+          "intact"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each Formula 1 team is identified by a unique number, with some teams proudly representing the iconic number 1 on their roster.",
+      "template_pattern": "Each Formula [CONSTRUCTORID] team is identified by a unique number, with some teams proudly representing the iconic number [CONSTRUCTORID] on their roster.",
+      "primary_data_fields": [
+        "constructorId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every Formula [CONSTRUCTORID] squad is assigned a unique constructor Id number, and certain teams showcase the iconic number [CONSTRUCTORID] on their lineup.",
+        "A distinct constructor Id number marks each Formula [CONSTRUCTORID] team, while a handful of entrants proudly display the iconic number [CONSTRUCTORID].",
+        "The unique constructor Id number identifies each Formula [CONSTRUCTORID] team, with some crews choosing to feature the iconic number [CONSTRUCTORID] on their roster.",
+        "Each Formula [CONSTRUCTORID] outfit receives its own unique constructor Id number; among them, a few proudly bear the iconic number [CONSTRUCTORID].",
+        "In Formula [CONSTRUCTORID], every team carries a unique constructor Id number, and some of those teams highlight the iconic number [CONSTRUCTORID] in their entries.",
+        "Assigned a unique constructor Id number, each Formula [CONSTRUCTORID] team may also present the iconic number [CONSTRUCTORID] on its roster.",
+        "A unique constructor Id number distinguishes each Formula [CONSTRUCTORID] team, and select teams honor the iconic number [CONSTRUCTORID] on their line‑up.",
+        "With a unique constructor Id number designating every Formula [CONSTRUCTORID] team, certain teams also showcase the iconic number [CONSTRUCTORID].",
+        "Each Formula [CONSTRUCTORID] team, identified by a unique constructor Id number, often proudly carries the iconic number [CONSTRUCTORID] on its roster.",
+        "Among Formula [CONSTRUCTORID] participants, a unique constructor Id number tags each team, and some teams opt to display the iconic number [CONSTRUCTORID].",
+        "Each Formula [CONSTRUCTORID] entrant is marked by a unique constructor Id number, and a few of them proudly sport the iconic number [CONSTRUCTORID].",
+        "The unique constructor Id number serves to identify every Formula [CONSTRUCTORID] team, while some teams proudly exhibit the iconic number [CONSTRUCTORID].",
+        "Every Formula [CONSTRUCTORID] team bears a unique constructor Id number, with several teams electing to showcase the iconic number [CONSTRUCTORID].",
+        "A unique constructor Id number is assigned to each Formula [CONSTRUCTORID] team, and in some cases the iconic number [CONSTRUCTORID] appears on their roster.",
+        "Each Formula [CONSTRUCTORID] team carries a unique constructor Id number; some of those teams prominently feature the iconic number [CONSTRUCTORID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "each": [
+          "each"
+        ],
+        "iconic": [
+          "iconic"
+        ],
+        "roster": [
+          "roster",
+          "roll"
+        ],
+        "proudly": [
+          "proudly"
+        ],
+        "representing": [
+          "representing"
+        ],
+        "teams": [
+          "teams"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "constructorId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 team concluded the championship season with a total of 14 points, reflecting their overall performance and standings.",
+      "template_pattern": "The Formula 1 team concluded the championship season with a total of [POINTS] points, reflecting their overall performance and standings.",
+      "primary_data_fields": [
+        "points"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Formula 1 team wrapped up the championship season with [POINTS] points, indicating their overall performance and ranking.",
+        "With a total of [POINTS] points, the Formula 1 team finished the championship season, a figure that mirrors their overall standing.",
+        "A total of [POINTS] points capped the Formula 1 team's championship season, demonstrating their overall performance and position.",
+        "The championship season was concluded by the Formula 1 team, who amassed [POINTS] points, reflecting their overall results and standings.",
+        "Accumulating [POINTS] points, the Formula 1 team brought the championship season to a close, which showcases their overall performance.",
+        "In the championship season, the Formula 1 team secured [POINTS] points, a total that reveals their overall standing and performance.",
+        "The Formula 1 team's championship season ended with [POINTS] points, a number that illustrates their overall results.",
+        "By earning [POINTS] points, the Formula 1 team completed the championship season, underscoring their overall performance and rank.",
+        "[POINTS] points were recorded by the Formula 1 team as the championship season concluded, reflecting their overall standings.",
+        "The final tally of [POINTS] points marked the end of the Formula 1 team's championship season, indicating their overall performance.",
+        "As the championship season closed, the Formula 1 team logged [POINTS] points, which mirrors their overall performance and standing.",
+        "The championship season saw the Formula 1 team finish with [POINTS] points, a total that signals their overall ranking.",
+        "With [POINTS] points, the Formula 1 team wrapped the championship season, a result that highlights their overall performance.",
+        "The Formula 1 team’s overall performance and standings are reflected by the [POINTS] points they accumulated by the end of the championship season.",
+        "Ending the championship season, the Formula 1 team amassed [POINTS] points, a figure that represents their overall performance and placement."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "standings": [
+          "standings"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern"
+        ],
+        "concluded": [
+          "concluded",
+          "ended",
+          "terminated"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "overall": [
+          "overall"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "their": [
+          "their"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ]
+      },
+      "field_data_types": {
+        "points": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team proudly secured the number 1 spot in the Formula 1 championship standings this season.",
+      "template_pattern": "The team proudly secured the number [POSITION] spot in the Formula [POSITION] championship standings this season.",
+      "primary_data_fields": [
+        "position"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team proudly secured position [POSITION] in the Formula [POSITION] championship standings this season.",
+        "Position [POSITION] was clinched by the team with pride in the Formula [POSITION] championship standings for this season.",
+        "In this season’s Formula [POSITION] championship standings, the team proudly attained position [POSITION].",
+        "The Formula [POSITION] championship standings this season show the team at position [POSITION], a result they secured proudly.",
+        "With pride, the team captured position [POSITION] in the Formula [POSITION] championship standings this season.",
+        "Position [POSITION] in the Formula [POSITION] championship standings this season was earned by the team, who did so proudly.",
+        "For this season, the team’s proud effort placed them in position [POSITION] of the Formula [POSITION] championship standings.",
+        "In the Formula [POSITION] championship standings this season, the team’s proud performance secured position [POSITION].",
+        "The team’s proud achievement this season placed them at position [POSITION] in the Formula [POSITION] championship standings.",
+        "Position [POSITION] in the Formula [POSITION] championship standings this season was proudly secured by the team.",
+        "This season’s Formula [POSITION] championship standings list the team at position [POSITION], a spot they secured with pride.",
+        "The team, proud of their effort, secured position [POSITION] in the Formula [POSITION] championship standings for this season.",
+        "Proudly, the team took position [POSITION] in the Formula [POSITION] championship standings this season.",
+        "In the Formula [POSITION] championship standings for this season, position [POSITION] was proudly taken by the team.",
+        "The team’s proud accomplishment this season resulted in position [POSITION] in the Formula [POSITION] championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "proudly": [
+          "proudly"
+        ],
+        "secured": [
+          "secured",
+          "secure",
+          "fasten",
+          "ensure"
+        ],
+        "spot": [
+          "spot",
+          "blemish",
+          "stain",
+          "smudge",
+          "fleck",
+          "place"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "season": [
+          "season",
+          "flavour",
+          "flavor"
+        ],
+        "standings": [
+          "standings",
+          "rankings",
+          "positions",
+          "placements"
+        ]
+      },
+      "field_data_types": {
+        "position": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 team currently holds the number 1 position in the championship standings.",
+      "template_pattern": "The Formula [POSITIONTEXT] team currently holds the number [POSITIONTEXT] position in the championship standings.",
+      "primary_data_fields": [
+        "positionText"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "At present, the Formula [POSITIONTEXT] team occupies the number [POSITIONTEXT] position in the championship standings.",
+        "The championship standings list the Formula [POSITIONTEXT] team at the number [POSITIONTEXT] spot currently.",
+        "Right now, the Formula [POSITIONTEXT] team is positioned at number [POSITIONTEXT] in the championship leaderboard.",
+        "In the latest standings, the Formula [POSITIONTEXT] team leads with the number [POSITIONTEXT] position.",
+        "The number [POSITIONTEXT] position in the championship table is currently held by the Formula [POSITIONTEXT] team.",
+        "As of now, the Formula [POSITIONTEXT] team sits atop the championship standings with the number [POSITIONTEXT] ranking.",
+        "Presently, the Formula [POSITIONTEXT] team commands the number [POSITIONTEXT] place in the championship rankings.",
+        "The Formula [POSITIONTEXT] team currently enjoys the number [POSITIONTEXT] slot in the championship standings.",
+        "At this moment, the Formula [POSITIONTEXT] team tops the championship standings, occupying the number [POSITIONTEXT] position.",
+        "In the current championship leaderboard, the Formula [POSITIONTEXT] team holds the number [POSITIONTEXT] position.",
+        "The Formula [POSITIONTEXT] team is presently ranked first, holding the number [POSITIONTEXT] position in the standings.",
+        "Currently, the number [POSITIONTEXT] position in the championship standings belongs to the Formula [POSITIONTEXT] team.",
+        "The championship leaderboard now shows the Formula [POSITIONTEXT] team in the number [POSITIONTEXT] position.",
+        "Holding the number [POSITIONTEXT] spot, the Formula [POSITIONTEXT] team leads the championship standings at present.",
+        "The Formula [POSITIONTEXT] team presently occupies the number [POSITIONTEXT] position in the championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "holds": [
+          "holds",
+          "keep",
+          "retain",
+          "maintain",
+          "have",
+          "contain"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "standings": [
+          "standings",
+          "rankings",
+          "positions",
+          "ratings",
+          "placements"
+        ]
+      },
+      "field_data_types": {
+        "positionText": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "One Formula 1 team managed to secure just 1 race victory during the championship season.",
+      "template_pattern": "One Formula [WINS] team managed to secure just [WINS] race victory during the championship season.",
+      "primary_data_fields": [
+        "wins"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Only a single Formula [WINS] team succeeded in securing just [WINS] race victory throughout the championship season.",
+        "Throughout the championship season, just [WINS] race victory was achieved by one Formula [WINS] team.",
+        "A lone Formula [WINS] team managed to claim just [WINS] race victory during the championship season.",
+        "During the championship season, only a Formula [WINS] team secured just [WINS] race victory.",
+        "The championship season saw merely a Formula [WINS] team capture just [WINS] race victory.",
+        "One Formula [WINS] team, and no other, managed to earn just [WINS] race victory across the championship season.",
+        "In the course of the championship season, a single Formula [WINS] team clinched just [WINS] race victory.",
+        "One Formula [WINS] outfit managed to lock down just [WINS] race victory over the championship season.",
+        "Throughout the whole championship season, a Formula [WINS] team captured just [WINS] race victory.",
+        "The season’s championship featured a Formula [WINS] team that secured just [WINS] race victory.",
+        "Just [WINS] race victory was recorded by a lone Formula [WINS] team during the championship season.",
+        "Across the championship season, a solitary Formula [WINS] team managed to obtain just [WINS] race victory.",
+        "Only a lone Formula [WINS] team could achieve just [WINS] race victory in the championship season.",
+        "During the entire championship season, a Formula [WINS] team recorded just [WINS] race victory.",
+        "One Formula [WINS] team alone managed to secure just [WINS] race victory throughout the championship season."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "secure": [
+          "secure",
+          "ensure",
+          "assure",
+          "guarantee",
+          "safe",
+          "dependable"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "victory": [
+          "victory",
+          "triumph"
+        ],
+        "during": [
+          "during"
+        ],
+        "race": [
+          "race"
+        ],
+        "managed": [
+          "managed",
+          "oversee",
+          "supervise",
+          "handle",
+          "manage",
+          "superintend"
+        ],
+        "team": [
+          "team"
+        ]
+      },
+      "field_data_types": {
+        "wins": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

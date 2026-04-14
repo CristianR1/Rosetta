@@ -1,0 +1,562 @@
+{
+  "document_context": "government data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "2797c784edb14c41": "hero_id",
+    "c60ae56ecdd847b7": "attribute_value",
+    "ad8b70312d1c437c": "attribute_id"
+  },
+  "templates": [
+    {
+      "original": "Superhero number 1 possesses extraordinary abilities that set them apart from the rest.",
+      "template_pattern": "Superhero number [HERO_ID] possesses extraordinary abilities that set them apart from the rest.",
+      "primary_data_fields": [
+        "hero_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Hero id [HERO_ID] exhibits extraordinary abilities that distinguish it from all others.",
+        "The extraordinary abilities of hero id [HERO_ID] set this individual apart from the rest.",
+        "With extraordinary abilities, hero id [HERO_ID] stands out from the rest.",
+        "Extraordinary abilities are possessed by hero id [HERO_ID], separating it from the rest.",
+        "Among all, hero id [HERO_ID]’s extraordinary abilities make it unique.",
+        "Hero id [HERO_ID], endowed with extraordinary abilities, is set apart from the rest.",
+        "Because of its extraordinary abilities, hero id [HERO_ID] differs from the rest.",
+        "The rest is eclipsed by the extraordinary abilities of hero id [HERO_ID].",
+        "Hero id [HERO_ID]’s extraordinary abilities cause it to be distinct from the rest.",
+        "Apart from the rest, hero id [HERO_ID] boasts extraordinary abilities.",
+        "Extraordinary abilities characterize hero id [HERO_ID], separating it from the rest.",
+        "Hero id [HERO_ID] is distinguished from the rest by its extraordinary abilities.",
+        "Set apart from the rest, hero id [HERO_ID] possesses extraordinary abilities.",
+        "Due to its extraordinary abilities, hero id [HERO_ID] is unlike the rest.",
+        "The rest cannot match the extraordinary abilities held by hero id [HERO_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "them": [
+          "them"
+        ],
+        "extraordinary": [
+          "extraordinary"
+        ],
+        "apart": [
+          "apart",
+          "aside"
+        ],
+        "possesses": [
+          "possesses"
+        ],
+        "rest": [
+          "rest",
+          "remainder",
+          "residue"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "abilities": [
+          "abilities"
+        ]
+      },
+      "field_data_types": {
+        "hero_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the bustling city, whispers of a new hero began to spread among the citizens.",
+      "template_pattern": "In the bustling city, whispers of a new hero began to spread among the citizens.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Amid the bustling city, rumors of a new hero started to circulate among its residents.",
+        "The citizens of the bustling city began hearing whispers about a new hero.",
+        "Whispers about a new hero spread throughout the bustling city’s population.",
+        "In a bustling urban center, talk of a new hero was gradually disseminated among the populace.",
+        "Among the city’s inhabitants, the buzz of a new hero took hold in the bustling metropolis.",
+        "A new hero’s name was whispered across the bustling city, reaching its citizens.",
+        "The spread of whispers concerning a new hero was observed in the bustling city’s citizenry.",
+        "Within the bustling city, the rumor of a new hero began to permeate among the people.",
+        "Citizens in the bustling city started to hear about a new hero as whispers circulated.",
+        "The bustling city’s residents found whispers of a new hero spreading among them.",
+        "As the bustling city thrummed, talk of a new hero started to diffuse among its people.",
+        "In the bustling city, a new hero’s legend was quietly passing from citizen to citizen.",
+        "The rumor of a new hero was being transmitted among the populace of the bustling city.",
+        "Across the bustling city, whispers regarding a new hero began to disseminate among citizens.",
+        "Among the people of the bustling city, whispers of a new hero began to spread."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "spread": [
+          "spread",
+          "distribute",
+          "disseminate",
+          "propagate",
+          "diffuse",
+          "broadcast"
+        ],
+        "hero": [
+          "hero",
+          "Hero",
+          "champion"
+        ],
+        "city": [
+          "city",
+          "metropolis"
+        ],
+        "citizens": [
+          "citizens"
+        ],
+        "bustling": [
+          "bustling"
+        ],
+        "whispers": [
+          "whispers"
+        ],
+        "began": [
+          "began"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Superhero A possesses the unique power of invisibility, which is identified with the number 1 among their various abilities.",
+      "template_pattern": "Superhero A possesses the unique power of invisibility, which is identified with the number [ATTRIBUTE_ID] among their various abilities.",
+      "primary_data_fields": [
+        "attribute_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Superhero A’s attribute id for the unique invisibility ability is recorded as [ATTRIBUTE_ID] among all his powers.",
+        "The attribute id assigned to Superhero A’s singular power of invisibility equals [ATTRIBUTE_ID] within his range of abilities.",
+        "In the roster of Superhero A’s capabilities, the invisibility skill carries the attribute id [ATTRIBUTE_ID].",
+        "Among Superhero A’s many talents, the invisibility power is marked with attribute id [ATTRIBUTE_ID].",
+        "Attribute id [ATTRIBUTE_ID] designates the one‑of‑a‑kind invisibility power held by Superhero A.",
+        "Superhero A is equipped with invisibility, which bears the attribute id [ATTRIBUTE_ID] among his diverse abilities.",
+        "The unique power of invisibility that Superhero A possesses is identified by attribute id [ATTRIBUTE_ID] in his ability list.",
+        "Within Superhero A’s portfolio of powers, the invisibility feature is labeled attribute id [ATTRIBUTE_ID].",
+        "Invisibility, the distinctive ability of Superhero A, is assigned attribute id [ATTRIBUTE_ID] across his various skills.",
+        "Superhero A’s invisibility, a singular power, is referenced by attribute id [ATTRIBUTE_ID] in the government report.",
+        "The attribute id [ATTRIBUTE_ID] is used to denote Superhero A’s exclusive invisibility power among his other abilities.",
+        "For Superhero A, the exclusive invisibility capability carries attribute id [ATTRIBUTE_ID] amidst his multiple powers.",
+        "In the official data, Superhero A’s invisibility ability is indicated by attribute id [ATTRIBUTE_ID] among his assorted talents.",
+        "Superhero A’s only invisibility power is catalogued under attribute id [ATTRIBUTE_ID] in the list of his abilities.",
+        "The invisibility power, uniquely held by Superhero A, is marked with attribute id [ATTRIBUTE_ID] in his ability inventory."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "which": [
+          "which"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "their": [
+          "their"
+        ],
+        "possesses": [
+          "possesses"
+        ],
+        "invisibility": [
+          "invisibility"
+        ],
+        "power": [
+          "power",
+          "ability",
+          "might",
+          "force",
+          "office"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "attribute_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As the sun set, the silhouette of a figure soaring across the sky captured everyone's attention.",
+      "template_pattern": "As the sun set, the silhouette of a figure soaring across the sky captured everyone's attention.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "When the sun dipped below the horizon, a figure’s silhouette soaring across the sky drew everyone's attention.",
+        "The silhouette of a soaring figure against the setting sun captured the attention of all observers.",
+        "As daylight faded, everyone’s focus was seized by the outline of a figure gliding across the heavens.",
+        "During sunset, the sky‑borne silhouette of a figure commanded the notice of every onlooker.",
+        "With the sun setting, the profile of a figure flying overhead attracted the gaze of the entire audience.",
+        "Everyone’s attention was captured by the twilight silhouette of a figure soaring through the firmament.",
+        "In the waning light of the sun, a figure’s shadow across the sky held the full attention of the crowd.",
+        "The setting sun illuminated a soaring figure’s silhouette, which seized the attention of all present.",
+        "As the sun sank, the airborne outline of a person drew the collective focus of everyone.",
+        "The attention of every observer was drawn to the silhouette of a figure gliding across the dusk‑colored sky.",
+        "While the sun was setting, a figure’s skyward silhouette commanded the interest of the entire populace.",
+        "The dusk‑lit silhouette of a soaring individual captured the attention of all.",
+        "All eyes turned to the silhouette of a figure flying across the sky as the sun went down.",
+        "When twilight arrived, the soaring figure’s outline across the heavens attracted everyone's notice.",
+        "The silhouette of a figure soaring in the evening sky seized the attention of each onlooker as the sun set."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "captured": [
+          "captured"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "figure": [
+          "figure",
+          "image",
+          "picture",
+          "digit",
+          "number",
+          "shape"
+        ],
+        "attention": [
+          "attention",
+          "care"
+        ],
+        "everyone": [
+          "everyone"
+        ],
+        "soaring": [
+          "soaring",
+          "towering",
+          "lofty"
+        ],
+        "silhouette": [
+          "silhouette"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "People gathered on rooftops, looking up in amazement at the spectacle above.",
+      "template_pattern": "People gathered on rooftops, looking up in amazement at the spectacle above.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Crowds assembled on the rooftops, gazing upward in awe at the spectacle above.",
+        "On the roof tops, people gathered, their eyes fixed upward in amazement at the overhead display.",
+        "The spectacle above drew the eyes of gathered onlookers who stood on rooftops, looking up in astonishment.",
+        "Roofs were occupied by citizens who, in wonder, stared up at the dazzling scene overhead.",
+        "People on the rooftops, gathered together, turned their heads skyward, amazed by the view above.",
+        "With amazement, the assembled crowd on the roof tops looked up at the extraordinary spectacle overhead.",
+        "The rooftop gathering watched the spectacle above, eyes lifted in astonishment.",
+        "As the event unfolded above, residents on the rooftops gathered and gazed upward in awe.",
+        "The scene above captured the attention of people who had congregated on rooftops, looking up in wonder.",
+        "On rooftops, a crowd amassed, directing their gaze upward at the remarkable display overhead.",
+        "The awe‑filled onlookers, gathered atop the roofs, stared up at the spectacle above.",
+        "Looking up in amazement, the assembled people on the roof tops observed the extraordinary show overhead.",
+        "The spectacular sight above was watched by people who had gathered on rooftops, eyes fixed upward.",
+        "Roof‑top crowds, in astonishment, lifted their eyes to the impressive spectacle above.",
+        "The gathering of people on the rooftops resulted in a collective upward stare at the awe‑inspiring display overhead."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "above": [
+          "above"
+        ],
+        "gathered": [
+          "gathered",
+          "amassed",
+          "collected",
+          "assembled",
+          "accumulated",
+          "garnered"
+        ],
+        "looking": [
+          "looking"
+        ],
+        "people": [
+          "people",
+          "masses"
+        ],
+        "amazement": [
+          "amazement",
+          "astonishment"
+        ],
+        "rooftops": [
+          "rooftops"
+        ],
+        "spectacle": [
+          "spectacle"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The superhero known for his agility has an attribute_value of 80, showcasing his exceptional speed and nimbleness in combat.",
+      "template_pattern": "The superhero known for his agility has an attribute_value of [ATTRIBUTE_VALUE], showcasing his exceptional speed and nimbleness in combat.",
+      "primary_data_fields": [
+        "attribute_value"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The agile superhero possesses an attribute value of [ATTRIBUTE_VALUE], demonstrating his remarkable quickness and dexterity during combat.",
+        "An attribute value of [ATTRIBUTE_VALUE] is recorded for the superhero celebrated for his agility, highlighting his outstanding speed and nimbleness in battle.",
+        "With an attribute value of [ATTRIBUTE_VALUE], the superhero known for his agility exhibits extraordinary swiftness and flexibility in fighting.",
+        "The superhero famed for agility carries an attribute value of [ATTRIBUTE_VALUE], reflecting his superior rapidity and lithe movements on the battlefield.",
+        "In combat, the agility‑renowned superhero shows an attribute value of [ATTRIBUTE_VALUE], underscoring his exceptional velocity and suppleness.",
+        "An attribute value of [ATTRIBUTE_VALUE] is assigned to the hero whose agility defines him, illustrating his impressive speed and nimbleness in engagements.",
+        "Displaying a [ATTRIBUTE_VALUE] attribute value, the superhero admired for agility proves his high‑speed and agile prowess in warfare.",
+        "The superhero, noted for his agility, has an attribute value of [ATTRIBUTE_VALUE], which signals his notable quickness and agile maneuvering in combat.",
+        "A [ATTRIBUTE_VALUE] attribute value marks the superhero known for agility, emphasizing his fast and supple performance during fights.",
+        "Because of his agility, the superhero holds an attribute value of [ATTRIBUTE_VALUE], showcasing his swift and flexible combat style.",
+        "The agility‑focused superhero is credited with an attribute value of [ATTRIBUTE_VALUE], indicating his exceptional rapidity and nimbleness on the front lines.",
+        "An attribute value of [ATTRIBUTE_VALUE] characterizes the superhero whose agility stands out, highlighting his fast and agile capabilities in battle.",
+        "With a recorded attribute value of [ATTRIBUTE_VALUE], the superhero celebrated for agility demonstrates high speed and nimble tactics while fighting.",
+        "The superhero, distinguished by his agility, registers an attribute value of [ATTRIBUTE_VALUE], reflecting his superior speed and dexterous combat moves.",
+        "Having an attribute value of [ATTRIBUTE_VALUE], the agility‑renowned superhero reveals his remarkable quickness and lithe agility in combat."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "combat": [
+          "combat",
+          "battle",
+          "fight"
+        ],
+        "nimbleness": [
+          "nimbleness",
+          "agility"
+        ],
+        "exceptional": [
+          "exceptional",
+          "special",
+          "prodigious",
+          "surpassing",
+          "exceeding"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "speed": [
+          "speed",
+          "velocity",
+          "swiftness",
+          "fastness",
+          "rush",
+          "race"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "known": [
+          "known"
+        ],
+        "agility": [
+          "agility",
+          "nimbleness"
+        ]
+      },
+      "field_data_types": {
+        "attribute_value": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Legends spoke of a guardian who could move with the swiftness of the wind, ensuring justice was served.",
+      "template_pattern": "Legends spoke of a guardian who could move with the swiftness of the wind, ensuring justice was served.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to legend, a guardian capable of moving as swiftly as the wind ensured that justice was administered.",
+        "A guardian, said to travel with the speed of the wind, was credited in folklore with guaranteeing justice.",
+        "Legends recount a wind‑fast guardian who made certain that justice was carried out.",
+        "The myths describe a protector who could dart like the wind, thereby securing the delivery of justice.",
+        "It is told in legends that justice was upheld by a guardian who moved with wind‑like swiftness.",
+        "In traditional accounts, a guardian—moving at the velocity of the wind—ensured justice was served.",
+        "Justice was said to be served by a guardian whose rapid, wind‑borne movement was legendary.",
+        "A guardian, famed for moving as fast as the wind, is said to have guaranteed the administration of justice.",
+        "The stories speak of a swift‑as‑the‑wind guardian who made sure justice was fulfilled.",
+        "According to the folklore, justice was upheld by a guardian whose speed matched that of the wind.",
+        "A wind‑speed guardian, as legends claim, ensured that justice was executed.",
+        "It is recorded in legend that a guardian with the agility of the wind ensured justice was performed.",
+        "Legends indicate that justice was served by a guardian who could move with the quickness of the wind.",
+        "The narrative tells of a guardian, moving like the wind, who guaranteed the proper serving of justice.",
+        "Justice was assured by a guardian, described in legends as moving as swiftly as the wind."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "legends": [
+          "legends"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "swiftness": [
+          "swiftness",
+          "speed"
+        ],
+        "guardian": [
+          "guardian",
+          "defender",
+          "protector"
+        ],
+        "spoke": [
+          "spoke"
+        ],
+        "justice": [
+          "justice",
+          "justness"
+        ],
+        "served": [
+          "served"
+        ],
+        "move": [
+          "move"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "This guardian became a symbol of hope, inspiring others to strive for greatness.",
+      "template_pattern": "This guardian became a symbol of hope, inspiring others to strive for greatness.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This guardian turned into a beacon of hope, urging people to aim for greatness.",
+        "A symbol of hope was forged by this guardian, prompting others to pursue excellence.",
+        "By becoming a hopeful emblem, the guardian inspired others to reach for greatness.",
+        "The guardian's rise as a hopeful icon has motivated many to strive toward greatness.",
+        "Through its transformation into a hope‑filled symbol, the guardian encouraged others to seek greatness.",
+        "Others are driven to pursue greatness thanks to the guardian's new status as a symbol of hope.",
+        "Having become a hopeful emblem, the guardian spurs others on to achieve greatness.",
+        "The emergence of this guardian as a hope symbol has galvanized people to chase greatness.",
+        "As a newly minted symbol of hope, the guardian fuels others' aspirations for greatness.",
+        "This guardian's evolution into a hopeful sign now inspires others to aim for greatness.",
+        "Because it has become a symbol of hope, the guardian prompts others to strive for greatness.",
+        "The guardian, now a beacon of hope, incites others to pursue greatness.",
+        "With its new role as a hope emblem, the guardian motivates others toward greatness.",
+        "The transformation of this guardian into a hopeful icon has encouraged many to seek greatness.",
+        "By serving as a symbol of hope, the guardian inspires others to reach for greatness."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "greatness": [
+          "greatness",
+          "grandness",
+          "immensity",
+          "vastness",
+          "enormousness"
+        ],
+        "guardian": [
+          "guardian",
+          "defender",
+          "protector"
+        ],
+        "inspiring": [
+          "inspiring"
+        ],
+        "became": [
+          "became"
+        ],
+        "others": [
+          "others"
+        ],
+        "hope": [
+          "hope",
+          "desire",
+          "trust",
+          "promise"
+        ],
+        "strive": [
+          "strive",
+          "reach",
+          "strain",
+          "endeavour",
+          "endeavor"
+        ],
+        "symbol": [
+          "symbol"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Shadows of doubt were dispelled by tales of bravery and the promise of protection.",
+      "template_pattern": "Shadows of doubt were dispelled by tales of bravery and the promise of protection.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Tales of bravery and the assurance of protection banished the shadows of doubt.",
+        "The shadows of doubt were driven away by heroic stories and a guarantee of safety.",
+        "By recounting courageous deeds and pledging protection, doubt’s shadows faded.",
+        "Doubt’s dark clouds lifted when bravery narratives and promised safeguards were presented.",
+        "The promise of protection, together with brave tales, dispelled lingering doubts.",
+        "With heroic accounts and assurances of safety, the shadows of uncertainty were cleared.",
+        "Courageous stories and a commitment to protect erased the lingering doubts.",
+        "Shadows of doubt vanished as tales of valor and the pledge of protection took hold.",
+        "The narrative of bravery, coupled with a protective promise, chased away doubt’s shadows.",
+        "Through stories of heroism and a promise of security, doubt’s shadows were eliminated.",
+        "The promise of protection and accounts of bravery drove the shadows of doubt aside.",
+        "When bravery was recounted and protection promised, the doubts’ shadows dissipated.",
+        "Doubt’s shadows were swept aside by the combination of brave narratives and protective vows.",
+        "By offering heroic examples and a guarantee of safety, the shadows of doubt were removed.",
+        "The combination of valorous tales and a pledge of protection dispelled all shadows of doubt."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "bravery": [
+          "bravery",
+          "courage",
+          "fearlessness"
+        ],
+        "protection": [
+          "protection",
+          "aegis",
+          "security",
+          "shelter"
+        ],
+        "dispelled": [
+          "dispelled"
+        ],
+        "promise": [
+          "promise"
+        ],
+        "shadows": [
+          "shadows"
+        ],
+        "tales": [
+          "tales"
+        ],
+        "doubt": [
+          "doubt",
+          "question",
+          "uncertainty",
+          "dubiety"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

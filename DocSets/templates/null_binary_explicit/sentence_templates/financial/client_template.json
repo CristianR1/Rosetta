@@ -1,0 +1,28 @@
+{
+  "database": "financial",
+  "table": "client",
+  "entry_index": 0,
+  "original_data": {
+    "client_id": "1",
+    "gender": "F",
+    "birth_date": "1970-12-13",
+    "district_id": "18"
+  },
+  "generated_sentences": [
+    "Customer number 1 has been successfully verified and their account information is up to date. (Hash: bf10ea4f94ba446d)",
+    "The customer's gender identity is indicated as F, which helps in analyzing demographic trends for personalized financial services. (Hash: ec5f4694068c43b5)",
+    "The customer, born on 1970-12-13, benefits from tailored financial services that consider age-related needs and preferences. (Hash: f9b7d546d4004143)",
+    "The district_id 18 is crucial for managing the accounts of schools within its designated educational region. (Hash: 88a256b50dfa4c59)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "bf10ea4f94ba446d": "client_id",
+    "ec5f4694068c43b5": "gender",
+    "f9b7d546d4004143": "birth_date",
+    "88a256b50dfa4c59": "district_id"
+  },
+  "timestamp": "2026-03-31 16:38:54"
+}

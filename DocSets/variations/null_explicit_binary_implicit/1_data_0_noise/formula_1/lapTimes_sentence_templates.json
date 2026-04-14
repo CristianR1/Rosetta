@@ -1,0 +1,402 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "0faacd378d3a43f9": "raceId",
+    "6ad84fd2839043e1": "driverId",
+    "1a892a6708a74f4f": "lap",
+    "563d8a41038745f9": "position",
+    "f08d5dd895294462": "time",
+    "a0de3376f2504cfb": "milliseconds"
+  },
+  "templates": [
+    {
+      "original": "The raceId 2 marks an exciting event where drivers showcased exceptional skills on the Formula 1 circuit.",
+      "template_pattern": "The raceId [RACEID] marks an exciting event where drivers showcased exceptional skills on the Formula 1 circuit.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The raceId [RACEID] highlights a thrilling competition where drivers displayed remarkable skill on the Formula 1 circuit.",
+        "In the raceId [RACEID] event, drivers exhibited extraordinary abilities on the Formula 1 circuit, making it an exciting showcase.",
+        "An exciting affair was marked by the raceId [RACEID], as drivers showcased exceptional skill on the Formula 1 circuit.",
+        "Drivers’ exceptional skills were on full display during the raceId [RACEID], an electrifying event on the Formula 1 circuit.",
+        "The raceId [RACEID] served as a spectacular stage for drivers to demonstrate superior talent on the Formula 1 circuit.",
+        "On the Formula 1 circuit, the raceId [RACEID] saw drivers performing with exceptional skill, creating an exciting atmosphere.",
+        "The excitement of the raceId [RACEID] stemmed from drivers’ outstanding performances on the Formula 1 circuit.",
+        "With the raceId [RACEID], an exhilarating contest unfolded as drivers showcased top‑notch abilities on the Formula 1 circuit.",
+        "An electrifying scene emerged in the raceId [RACEID], where drivers proved their exceptional skill on the Formula 1 circuit.",
+        "The raceId [RACEID] competition became a showcase of driver excellence on the Formula 1 circuit, delivering excitement.",
+        "Drivers’ remarkable prowess was highlighted in the raceId [RACEID], an exciting race on the Formula 1 circuit.",
+        "In the raceId [RACEID], the Formula 1 circuit witnessed an exciting event as drivers displayed exceptional skill.",
+        "The excitement of the Formula 1 circuit was captured by the raceId [RACEID], where drivers exhibited outstanding abilities.",
+        "The raceId [RACEID] marked an exhilarating showdown, with drivers demonstrating exceptional skill on the Formula 1 circuit.",
+        "An exciting event unfolded in the raceId [RACEID], featuring drivers who showcased exceptional talent on the Formula 1 circuit."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "expression",
+          "pattern"
+        ],
+        "exciting": [
+          "exciting"
+        ],
+        "drivers": [
+          "drivers"
+        ],
+        "showcased": [
+          "showcased"
+        ],
+        "skills": [
+          "skills"
+        ],
+        "marks": [
+          "marks"
+        ],
+        "event": [
+          "event",
+          "outcome",
+          "result",
+          "consequence",
+          "effect",
+          "upshot"
+        ],
+        "where": [
+          "where"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each Formula 1 driver has a unique identifier that links them to their lap time records.",
+      "template_pattern": "Each Formula [DRIVERID] driver has a unique identifier that links them to their lap time records.",
+      "primary_data_fields": [
+        "driverId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every Formula [DRIVERID] driver possesses a driver Id that connects them with their lap time records.",
+        "A driver Id uniquely ties each Formula [DRIVERID] competitor to that competitor's lap time records.",
+        "The lap time records of each Formula [DRIVERID] driver are linked via their driver Id.",
+        "Each Formula [DRIVERID] participant is assigned a driver Id, which maps to their lap time records.",
+        "Linking lap time records to drivers, the driver Id serves each Formula [DRIVERID] racer uniquely.",
+        "For every Formula [DRIVERID] driver, a driver Id exists that associates the driver with their lap time records.",
+        "A driver Id, unique to each Formula [DRIVERID] driver, binds the driver to his or her lap time records.",
+        "Lap time records are associated with each Formula [DRIVERID] driver through a unique driver Id.",
+        "Each Formula [DRIVERID] driver's lap time records can be traced back via the driver Id assigned to that driver.",
+        "Through a driver Id, every Formula [DRIVERID] driver is connected to their respective lap time records.",
+        "The driver Id of each Formula [DRIVERID] driver links that driver to the driver’s lap time records.",
+        "Each Formula [DRIVERID] driver’s unique driver Id serves as the bridge to their lap time records.",
+        "By means of a driver Id, each Formula [DRIVERID] competitor is linked to the competitor’s lap time records.",
+        "A unique driver Id for each Formula [DRIVERID] driver provides the connection to the driver’s lap time records.",
+        "Each Formula [DRIVERID] driver is given a driver Id that maps the driver to their lap time records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "driver": [
+          "driver"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unparalleled",
+          "unequalled",
+          "singular"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "expression",
+          "pattern"
+        ],
+        "them": [
+          "them"
+        ],
+        "records": [
+          "records"
+        ],
+        "their": [
+          "their"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "links": [
+          "links"
+        ]
+      },
+      "field_data_types": {
+        "driverId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The lap number serves as a crucial indicator of the sequence in which a driver completes laps during a Formula 1 race.",
+      "template_pattern": "The lap number serves as a crucial indicator of the sequence in which a driver completes laps during a Formula [LAP] race.",
+      "primary_data_fields": [
+        "lap"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In a Formula [LAP] race, the lap number acts as a vital marker of the order in which a driver finishes each lap.",
+        "The sequence of a driver’s completed laps in a Formula [LAP] race is indicated by the crucial lap number.",
+        "During a Formula [LAP] competition, the lap number functions as an essential sign of the driver’s lap‑completion order.",
+        "A driver’s lap‑completion order in a Formula [LAP] event is signaled by the important lap number.",
+        "The lap number, a key indicator, reveals the sequence of laps a driver completes during a Formula [LAP] race.",
+        "For a Formula [LAP] race, the lap number provides a critical cue about the order in which a driver completes laps.",
+        "In the context of Formula [LAP], the lap number serves to identify the precise sequence of a driver’s lap completions.",
+        "The crucial lap number denotes the order of lap completions by a driver in a Formula [LAP] race.",
+        "Within a Formula [LAP] race, the lap number is used as an important indicator of how a driver progresses through laps.",
+        "A driver’s progression through laps in a Formula [LAP] race is tracked by the essential lap number.",
+        "The lap number, acting as a pivotal indicator, maps the sequence of laps a driver finishes during a Formula [LAP] race.",
+        "During Formula [LAP] racing, the lap number highlights the order in which each lap is completed by a driver.",
+        "The order of lap completions by a driver in a Formula [LAP] race is reflected in the significant lap number.",
+        "In Formula [LAP] events, the lap number is employed as a critical gauge of the sequence in which a driver completes laps.",
+        "A driver’s lap‑completion sequence in a Formula [LAP] race is captured by the indispensable lap number."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "expression",
+          "pattern"
+        ],
+        "sequence": [
+          "sequence",
+          "succession"
+        ],
+        "serves": [
+          "serves"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "which": [
+          "which"
+        ],
+        "laps": [
+          "laps"
+        ],
+        "during": [
+          "during"
+        ]
+      },
+      "field_data_types": {
+        "lap": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the race, the driver managed to secure the 10 position by the end of that particular lap.",
+      "template_pattern": "During the race, the driver managed to secure the [POSITION] position by the end of that particular lap.",
+      "primary_data_fields": [
+        "position"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "While the race was underway, the driver succeeded in attaining the [POSITION] position by the conclusion of that particular lap.",
+        "By the end of that particular lap, the driver had secured the [POSITION] position during the race.",
+        "The [POSITION] position was achieved by the driver by the close of that particular lap in the race.",
+        "In the course of the race, the driver managed to clinch the [POSITION] position as that particular lap finished.",
+        "As the race progressed, the driver managed to lock in the [POSITION] position by the time that particular lap ended.",
+        "At the finish of that particular lap, the driver had obtained the [POSITION] position during the race.",
+        "During the competition, the driver captured the [POSITION] position by the conclusion of that particular lap.",
+        "By the time that particular lap was completed, the driver had earned the [POSITION] position in the race.",
+        "The driver, during the race, secured the [POSITION] position by the end of that particular lap.",
+        "That particular lap ended with the driver having secured the [POSITION] position during the race.",
+        "Throughout the race, the driver was able to lock the [POSITION] position by that particular lap’s end.",
+        "By the closing moment of that particular lap, the driver obtained the [POSITION] position while the race continued.",
+        "In that race, the driver achieved the [POSITION] position by the conclusion of that particular lap.",
+        "The driver’s effort during the race resulted in securing the [POSITION] position by the end of that particular lap.",
+        "With the race ongoing, the driver managed to reach the [POSITION] position by the time that particular lap finished."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "driver": [
+          "driver"
+        ],
+        "particular": [
+          "particular",
+          "specific",
+          "special"
+        ],
+        "secure": [
+          "secure",
+          "procure",
+          "safe",
+          "inviolable",
+          "assure",
+          "ensure"
+        ],
+        "managed": [
+          "managed"
+        ],
+        "race": [
+          "race",
+          "speed",
+          "rush",
+          "hasten",
+          "run"
+        ],
+        "during": [
+          "during"
+        ]
+      },
+      "field_data_types": {
+        "position": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the final lap, the driver impressively clocked a time of 1:52.965, showcasing their remarkable speed and precision.",
+      "template_pattern": "During the final lap, the driver impressively clocked a time of [TIME], showcasing their remarkable speed and precision.",
+      "primary_data_fields": [
+        "time"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the final lap, the driver recorded a time of [TIME], demonstrating remarkable speed and precision.",
+        "The driver, during the final lap, clocked a time of [TIME] and showcased remarkable speed and precision.",
+        "A time of [TIME] was achieved by the driver in the final lap, highlighting remarkable speed and precision.",
+        "Remarkable speed and precision were displayed by the driver when a time of [TIME] was logged in the final lap.",
+        "During the final lap the driver impressively logged a time of [TIME], evidencing remarkable speed and precision.",
+        "The final lap saw the driver clock a time of [TIME], underscoring their remarkable speed and precision.",
+        "With a time of [TIME] recorded in the final lap, the driver exhibited remarkable speed and precision.",
+        "In the final lap, a time of [TIME] was clocked by the driver, illustrating remarkable speed and precision.",
+        "The driver’s remarkable speed and precision shone through as they posted a time of [TIME] in the final lap.",
+        "A time of [TIME], captured during the final lap, highlighted the driver’s remarkable speed and precision.",
+        "During the final lap, the driver achieved a time of [TIME], reflecting remarkable speed and precision.",
+        "The final lap produced a time of [TIME] for the driver, confirming their remarkable speed and precision.",
+        "By the end of the final lap, the driver had recorded a time of [TIME], showcasing remarkable speed and precision.",
+        "The driver’s time of [TIME], set in the final lap, demonstrated remarkable speed and precision.",
+        "In the final lap, the driver managed a time of [TIME], affirming remarkable speed and precision."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "showcasing": [
+          "showcasing"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "speed": [
+          "speed",
+          "velocity",
+          "swiftness"
+        ],
+        "their": [
+          "their"
+        ],
+        "clocked": [
+          "clocked"
+        ],
+        "final": [
+          "final",
+          "last",
+          "concluding",
+          "terminal",
+          "net"
+        ],
+        "remarkable": [
+          "remarkable",
+          "noteworthy",
+          "singular"
+        ],
+        "during": [
+          "during"
+        ]
+      },
+      "field_data_types": {
+        "time": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the thrilling Formula 1 race, one driver's impressive lap was timed at exactly 112965 milliseconds.",
+      "template_pattern": "During the thrilling Formula 1 race, one driver's impressive lap was timed at exactly [MILLISECONDS] milliseconds.",
+      "primary_data_fields": [
+        "milliseconds"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the exhilarating Formula 1 event, a driver recorded a lap time of precisely [MILLISECONDS] milliseconds.",
+        "Exactly [MILLISECONDS] milliseconds marked the impressive lap of a driver during the thrilling Formula 1 race.",
+        "The thrilling Formula 1 race saw a driver’s lap measured at an exact [MILLISECONDS] milliseconds.",
+        "During the high‑octane Formula 1 competition, one driver completed a lap in exactly [MILLISECONDS] milliseconds.",
+        "A lap time of [MILLISECONDS] milliseconds was logged for a driver amid the exciting Formula 1 race.",
+        "In the midst of the electrifying Formula 1 showdown, a driver’s lap was timed at precisely [MILLISECONDS] milliseconds.",
+        "The lap of a driver, during the gripping Formula 1 race, was recorded at exactly [MILLISECONDS] milliseconds.",
+        "Precisely [MILLISECONDS] milliseconds were recorded for a driver’s lap in the thrilling Formula 1 race.",
+        "While the Formula 1 race roared on, a driver achieved a lap time of exactly [MILLISECONDS] milliseconds.",
+        "The exciting Formula 1 contest featured a driver whose lap was measured at exactly [MILLISECONDS] milliseconds.",
+        "A driver’s remarkable lap was timed at exactly [MILLISECONDS] milliseconds during the pulse‑pounding Formula 1 race.",
+        "During the pulse‑pounding Formula 1 race, the lap of one driver was logged at precisely [MILLISECONDS] milliseconds.",
+        "In the thrilling Formula 1 race, an impressive lap by a driver was clocked at exactly [MILLISECONDS] milliseconds.",
+        "The Formula 1 race, full of thrills, produced a driver’s lap time of exactly [MILLISECONDS] milliseconds.",
+        "Exactly [MILLISECONDS] milliseconds is the recorded time for a driver’s impressive lap in the thrilling Formula 1 race."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "exactly": [
+          "exactly",
+          "precisely",
+          "just"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "expression",
+          "pattern"
+        ],
+        "timed": [
+          "timed"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "during": [
+          "during"
+        ],
+        "impressive": [
+          "impressive"
+        ]
+      },
+      "field_data_types": {
+        "milliseconds": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

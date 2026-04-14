@@ -1,0 +1,160 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "9814dccbce744ad6": "year",
+    "4563972c79ed4ef1": "url"
+  },
+  "templates": [
+    {
+      "original": "The inaugural Formula 1 championship season took place in 1950, marking the beginning of a new era in motorsport.",
+      "template_pattern": "The inaugural Formula 1 championship season took place in [YEAR], marking the beginning of a new era in motorsport.",
+      "primary_data_fields": [
+        "year"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The first Formula 1 championship season unfolded in [YEAR], ushering in a fresh era for motorsport.",
+        "In [YEAR], the inaugural Formula 1 championship season commenced, signaling the start of a new motorsport epoch.",
+        "A new era in motorsport was heralded by the inaugural Formula 1 championship season, which took place in [YEAR].",
+        "The motorsport world entered a new era when the inaugural Formula 1 championship season was held in [YEAR].",
+        "[YEAR] saw the launch of the inaugural Formula 1 championship season, marking the dawn of a novel motorsport age.",
+        "Marking the beginning of a new era in motorsport, the inaugural Formula 1 championship season occurred in [YEAR].",
+        "The inaugural Formula 1 championship season, occurring in [YEAR], signified the onset of a fresh motorsport era.",
+        "With the inaugural Formula 1 championship season taking place in [YEAR], motorsport entered a new epoch.",
+        "The start of a new motorsport era was set by the inaugural Formula 1 championship season in [YEAR].",
+        "In [YEAR], the inaugural Formula 1 championship season was staged, heralding a new chapter for motorsport.",
+        "The debut Formula 1 championship season happened in [YEAR], announcing the advent of a new motorsport era.",
+        "By holding the inaugural Formula 1 championship season in [YEAR], the sport of motorsport began a new era.",
+        "The inaugural Formula 1 championship season was conducted in [YEAR], ushering a brand‑new era for motorsport.",
+        "A brand‑new era in motorsport was initiated when the inaugural Formula 1 championship season took place in [YEAR].",
+        "The year [YEAR] marked the inaugural Formula 1 championship season, kicking off a fresh era in motorsport."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "grading",
+          "label",
+          "note",
+          "mark",
+          "tag"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "inaugural": [
+          "inaugural",
+          "first",
+          "maiden"
+        ],
+        "beginning": [
+          "beginning",
+          "outset",
+          "start",
+          "commencement",
+          "origin",
+          "source"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "pattern",
+          "convention"
+        ],
+        "season": [
+          "season",
+          "temper",
+          "flavor",
+          "flavour",
+          "mollify"
+        ],
+        "motorsport": [
+          "motorsport"
+        ],
+        "took": [
+          "took"
+        ]
+      },
+      "field_data_types": {
+        "year": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "For more details on the 1950 Formula 1 racing season, you can visit http://en.wikipedia.org/wiki/1950_Formula_One_season.",
+      "template_pattern": "For more details on the 1950 Formula 1 racing season, you can visit [URL].",
+      "primary_data_fields": [
+        "url"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For more details on the 1950 Formula 1 racing season, you can visit [URL].",
+        "To obtain additional information about the 1950 Formula 1 racing season, please refer to [URL].",
+        "More details regarding the 1950 Formula 1 racing season can be found at [URL].",
+        "If you need further insight into the 1950 Formula 1 racing season, consult [URL].",
+        "The 1950 Formula 1 racing season is described in greater depth on [URL].",
+        "Visit [URL] for a comprehensive overview of the 1950 Formula 1 racing season.",
+        "For a detailed account of the 1950 Formula 1 racing season, see [URL].",
+        "Further information on the 1950 Formula 1 racing season is available through [URL].",
+        "You may access [URL] to explore the 1950 Formula 1 racing season in detail.",
+        "The 1950 Formula 1 racing season details are accessible via [URL].",
+        "For an in‑depth look at the 1950 Formula 1 racing season, refer to [URL].",
+        "Additional data concerning the 1950 Formula 1 racing season can be retrieved from [URL].",
+        "A thorough description of the 1950 Formula 1 racing season is located at [URL].",
+        "Should you require more particulars on the 1950 Formula 1 racing season, navigate to [URL].",
+        "Information on the 1950 Formula 1 racing season may be obtained by visiting [URL]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "racing": [
+          "racing",
+          "race",
+          "speed",
+          "run"
+        ],
+        "wiki": [
+          "wiki"
+        ],
+        "more": [
+          "more"
+        ],
+        "http": [
+          "http",
+          "HTTP"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "pattern",
+          "convention"
+        ],
+        "details": [
+          "details"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour",
+          "temper"
+        ],
+        "visit": [
+          "visit",
+          "inspect",
+          "call",
+          "see"
+        ]
+      },
+      "field_data_types": {
+        "url": "url"
+      },
+      "is_static": false
+    }
+  ]
+}

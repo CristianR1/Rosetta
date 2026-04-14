@@ -1,0 +1,785 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "bdc35dc1b98f4348": "account_id",
+    "2af5362521394b74": "district_id",
+    "b1fd80119dd74e05": "frequency",
+    "70a5f0ae22e54180": "date"
+  },
+  "templates": [
+    {
+      "original": "The bank account with the unique identifier 1 is scheduled for review this week.",
+      "template_pattern": "The bank account with the unique identifier [ACCOUNT_ID] is scheduled for review this week.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This week, the bank account bearing account id [ACCOUNT_ID] is slated for review.",
+        "Review of the bank account with account id [ACCOUNT_ID] has been planned for this week.",
+        "The bank account that carries account id [ACCOUNT_ID] will undergo review this week.",
+        "A review is set for the bank account identified by account id [ACCOUNT_ID] this week.",
+        "This week, auditors will examine the bank account listed under account id [ACCOUNT_ID].",
+        "The bank account featuring account id [ACCOUNT_ID] is due for a review this week.",
+        "Scheduled for review this week is the bank account with account id [ACCOUNT_ID].",
+        "The bank account, account id [ACCOUNT_ID], is earmarked for review this week.",
+        "The agenda for this week includes reviewing the bank account holding account id [ACCOUNT_ID].",
+        "The bank account assigned account id [ACCOUNT_ID] is slated to be reviewed this week.",
+        "Review of the bank account (account id [ACCOUNT_ID]) is on the schedule for this week.",
+        "For this week, the bank account carrying account id [ACCOUNT_ID] is set to be examined.",
+        "The bank account that has account id [ACCOUNT_ID] is planned for review this week.",
+        "This week, the review process will target the bank account with account id [ACCOUNT_ID].",
+        "The bank account, which bears account id [ACCOUNT_ID], is scheduled for a review this week."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "week": [
+          "week",
+          "workweek"
+        ],
+        "scheduled": [
+          "scheduled"
+        ],
+        "review": [
+          "review",
+          "inspection",
+          "reexamination",
+          "reassessment",
+          "reappraisal",
+          "revaluation",
+          "critique"
+        ],
+        "account": [
+          "account",
+          "explanation",
+          "invoice",
+          "history",
+          "report"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This review process, moreover, is a part of routine checks that ensure all accounts are compliant with current regulations.",
+      "template_pattern": "This review process, moreover, is a part of routine checks that ensure all accounts are compliant with current regulations.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, this review process forms one of the routine checks that verify every account's compliance with present regulations.",
+        "This review process, in addition, belongs to the regular inspections that guarantee all accounts meet current regulatory standards.",
+        "As part of the standard audit procedures, the review process also ensures that all accounts adhere to the latest regulations.",
+        "The review process is, furthermore, included in routine examinations designed to confirm that every account complies with existing regulations.",
+        "Routine checks incorporate this review process, which serves to certify that all accounts are in line with current regulations.",
+        "All accounts are kept compliant with present regulations through this review process, a component of the regular checks.",
+        "This review process, besides its other functions, is embedded in the periodic checks that assure compliance of all accounts with current regulations.",
+        "In the suite of routine verifications, the review process plays a role in making sure every account follows up‑to‑date regulatory requirements.",
+        "By being part of the regular audit cycle, the review process helps ensure that all accounts conform to the prevailing regulations.",
+        "The regular checks that maintain account compliance with current regulations include, among other things, this review process.",
+        "This review process, moreover, is incorporated into the standard checks that validate that each account complies with the current regulatory framework.",
+        "As a component of routine oversight, the review process also guarantees that all accounts satisfy existing regulatory mandates.",
+        "The review process, added to the routine inspections, works to confirm that every account aligns with current regulations.",
+        "In addition, the review process forms a segment of the regular checks intended to verify account compliance with present regulations.",
+        "Ensuring all accounts meet today's regulatory standards is part of the routine checks, which include this review process."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "routine": [
+          "routine",
+          "procedure",
+          "subroutine"
+        ],
+        "part": [
+          "part",
+          "portion",
+          "component",
+          "constituent",
+          "share",
+          "section"
+        ],
+        "checks": [
+          "checks"
+        ],
+        "compliant": [
+          "compliant"
+        ],
+        "moreover": [
+          "moreover",
+          "furthermore"
+        ],
+        "ensure": [
+          "ensure",
+          "guarantee",
+          "assure",
+          "secure",
+          "ascertain"
+        ],
+        "process": [
+          "process",
+          "operation",
+          "procedure",
+          "action",
+          "work"
+        ],
+        "review": [
+          "review",
+          "inspection",
+          "reexamination",
+          "critique",
+          "survey",
+          "reassessment"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the financial system, district_id 18 is crucial for managing the bank account details of its associated educational institutions.",
+      "template_pattern": "In the financial system, district_id [DISTRICT_ID] is crucial for managing the bank account details of its associated educational institutions.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the financial system, district id [DISTRICT_ID] plays a vital role in handling the bank account information of its linked educational institutions.",
+        "The bank account details of the educational institutions tied to district id [DISTRICT_ID] are managed thanks to its essential position in the financial system.",
+        "In the realm of finance, district id [DISTRICT_ID] is indispensable for overseeing the banking data of its associated schools.",
+        "Managing the bank account records of its affiliated educational institutions hinges on district id [DISTRICT_ID] within the financial system.",
+        "District id [DISTRICT_ID], a key component of the financial system, oversees the bank account details for its related schools.",
+        "Because of its importance in the financial system, district id [DISTRICT_ID] controls the banking information of its connected educational institutions.",
+        "The financial system relies on district id [DISTRICT_ID] to supervise the bank account particulars of its associated schools.",
+        "For the financial system, the management of bank account data belonging to the educational institutions linked to district id [DISTRICT_ID] is critical.",
+        "It is district id [DISTRICT_ID] that, in the financial system, ensures the proper handling of bank account details for its associated educational institutions.",
+        "In the context of finance, the responsibility for the bank account information of district id [DISTRICT_ID]’s educational institutions falls to this crucial identifier.",
+        "The crucial function of district id [DISTRICT_ID] in the financial system is to administer the bank account details of its linked schools.",
+        "Within financial operations, district id [DISTRICT_ID] is the pivotal element for administering the banking records of its associated educational bodies.",
+        "The bank account details of the schools associated with district id [DISTRICT_ID] are managed under the auspices of the financial system, where the district id is essential.",
+        "As a cornerstone of the financial system, district id [DISTRICT_ID] handles the banking data of its affiliated educational institutions.",
+        "The financial system designates district id [DISTRICT_ID] as the primary manager of bank account information for its connected schools."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "institutions": [
+          "institutions"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "details": [
+          "details"
+        ],
+        "system": [
+          "system",
+          "scheme",
+          "arrangement",
+          "organisation",
+          "organization"
+        ],
+        "account": [
+          "account",
+          "invoice",
+          "bill",
+          "report"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The district's financial health, therefore, is pivotal to maintaining smooth operational procedures for these institutions.",
+      "template_pattern": "The district's financial health, therefore, is pivotal to maintaining smooth operational procedures for these institutions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consequently, the district’s fiscal condition is essential for keeping the institutions’ operations running smoothly.",
+        "The smooth functioning of these institutions hinges on the district’s financial health, so it is a key factor.",
+        "As a result, the district’s economic standing proves vital to the seamless operation of these entities.",
+        "Ensuring uninterrupted procedures at these institutions depends critically on the district’s financial health.",
+        "The district’s fiscal health, therefore, serves as a cornerstone for maintaining smooth operational processes within these institutions.",
+        "Smooth operational procedures for these institutions are contingent upon the district’s financial wellbeing, making it pivotal.",
+        "Hence, the district’s financial condition is crucial to preserving the efficient operation of these institutions.",
+        "The efficient running of these institutions is reliant on the district’s sound financial health, which is therefore pivotal.",
+        "To keep the institutions’ operations smooth, the district must maintain a robust financial health.",
+        "The district’s economic health, consequently, plays a decisive role in sustaining seamless procedures for these institutions.",
+        "Maintaining smooth operational workflows in these institutions requires the district’s financial health to be pivotal.",
+        "Therefore, the district’s fiscal soundness is a key element in ensuring the institutions operate without hitches.",
+        "The operational smoothness of these institutions is directly linked to the district’s vital financial health.",
+        "Because of its importance, the district’s financial wellbeing underpins the smooth functioning of these institutions.",
+        "The district’s sound fiscal standing is indispensable for the uninterrupted operation of these institutions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "maintaining": [
+          "maintaining",
+          "keep",
+          "conserve",
+          "sustain",
+          "uphold",
+          "preserve"
+        ],
+        "institutions": [
+          "institutions"
+        ],
+        "procedures": [
+          "procedures"
+        ],
+        "health": [
+          "health",
+          "wellness"
+        ],
+        "these": [
+          "these"
+        ],
+        "operational": [
+          "operational",
+          "functional",
+          "operable",
+          "usable"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "district": [
+          "district",
+          "zone",
+          "territory",
+          "dominion"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, the account's transaction activity is characterized by a frequency of POPLATEK MESICNE, indicating consistent customer engagement each month.",
+      "template_pattern": "Additionally, the account's transaction activity is characterized by a frequency of [FREQUENCY], indicating consistent customer engagement each month.",
+      "primary_data_fields": [
+        "frequency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the account’s transaction activity shows a frequency of [FREQUENCY], reflecting steady customer engagement every month.",
+        "The transaction activity of the account is marked by a frequency of [FREQUENCY], which signals consistent monthly customer involvement.",
+        "In addition, a frequency of [FREQUENCY] characterizes the account’s transaction activity, indicating that customers engage regularly each month.",
+        "Consistent monthly customer engagement is evident as the account’s transaction activity carries a frequency of [FREQUENCY].",
+        "A frequency of [FREQUENCY] defines the account’s transaction activity, demonstrating ongoing customer participation each month.",
+        "The account’s transaction activity is defined by a frequency of [FREQUENCY], denoting continuous engagement from customers on a monthly basis.",
+        "With a frequency of [FREQUENCY], the account’s transaction activity reveals that customers remain engaged month after month.",
+        "The presence of a frequency of [FREQUENCY] in the account’s transaction activity points to reliable customer engagement every month.",
+        "Each month, the account’s transaction activity exhibits a frequency of [FREQUENCY], showing consistent customer involvement.",
+        "The account’s transaction activity, characterized by a frequency of [FREQUENCY], implies regular customer engagement on a monthly schedule.",
+        "Demonstrating steady monthly involvement, the account’s transaction activity bears a frequency of [FREQUENCY].",
+        "A frequency of [FREQUENCY] is evident in the account’s transaction activity, suggesting that customers stay engaged each month.",
+        "The transaction activity for the account is associated with a frequency of [FREQUENCY], indicating ongoing monthly customer interaction.",
+        "Monthly customer engagement is highlighted by the account’s transaction activity, which has a frequency of [FREQUENCY].",
+        "Because the account’s transaction activity has a frequency of [FREQUENCY], we can infer consistent engagement from customers each month."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "month": [
+          "month"
+        ],
+        "consistent": [
+          "consistent",
+          "uniform",
+          "coherent",
+          "logical"
+        ],
+        "engagement": [
+          "engagement",
+          "participation",
+          "involvement",
+          "appointment"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "characterized": [
+          "characterized"
+        ],
+        "indicating": [
+          "indicating"
+        ]
+      },
+      "field_data_types": {
+        "frequency": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such regular activity, in turn, reflects a stable financial interaction between the account holders and the bank.",
+      "template_pattern": "Such regular activity, in turn, reflects a stable financial interaction between the account holders and the bank.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In turn, this consistent activity demonstrates a steady financial relationship between the bank and its account holders.",
+        "A stable financial interaction between account holders and the bank is reflected by such regular activity.",
+        "The bank’s regular engagement with account holders signals a stable financial interaction.",
+        "Because the activity is regular, it indicates a stable financial exchange between the account holders and the bank.",
+        "Such consistent activity, consequently, mirrors a stable financial link between the bank and its customers.",
+        "A stable financial interaction between the bank and its account holders is evidenced by this regular activity.",
+        "This regular activity, in effect, denotes a stable financial relationship between the account holders and the bank.",
+        "Regular activity serves as an indicator of a stable financial interaction between the bank and its account holders.",
+        "The stable financial interaction between account holders and the bank is reflected through such regular activity.",
+        "Through this regular activity, a stable financial interaction between the bank and its account holders is manifested.",
+        "Such ongoing activity, consequently, points to a stable financial relationship between account holders and the bank.",
+        "A steady financial exchange between the bank and its account holders is mirrored by the regular activity described.",
+        "The regularity of this activity underscores a stable financial interaction between the account holders and the bank.",
+        "Because the activity occurs regularly, it reveals a stable financial link between the bank and its account holders.",
+        "This consistent activity, in turn, signals a stable financial interaction between the bank and its account holders."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "stable": [
+          "stable",
+          "unchanging",
+          "static"
+        ],
+        "reflects": [
+          "reflects"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "regular": [
+          "regular",
+          "steady",
+          "even"
+        ],
+        "turn": [
+          "turn",
+          "twist",
+          "bend",
+          "reverse"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "such": [
+          "such"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The bank account was initially established on 1995-03-24, marking the beginning of a long financial journey.",
+      "template_pattern": "The bank account was initially established on [DATE], marking the beginning of a long financial journey.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE] the bank account was first opened, commencing a lengthy financial journey.",
+        "The bank account originated on [DATE], launching a prolonged financial odyssey.",
+        "A long financial journey began when the bank account was initially set up on [DATE].",
+        "It was on [DATE] that the bank account came into existence, signaling the start of an enduring financial saga.",
+        "The inception of the bank account on [DATE] marked the onset of an extensive financial trek.",
+        "Established initially on [DATE], the bank account started a protracted financial adventure.",
+        "With its creation dated [DATE], the bank account embarked on a long‑term financial path.",
+        "The bank account’s first establishment date, [DATE], heralded the beginning of a sustained financial voyage.",
+        "Beginning on [DATE], the bank account was set up, initiating a lengthy financial progression.",
+        "On the date [DATE], the bank account was inaugurated, kicking off a long financial expedition.",
+        "The bank account’s initial foundation occurred on [DATE], paving the way for a protracted financial journey.",
+        "Starting from [DATE], the bank account was launched, marking the commencement of an extended financial course.",
+        "The date [DATE] saw the bank account’s first establishment, ushering in a prolonged financial narrative.",
+        "When the bank account was first created on [DATE], it set off a long‑lasting financial trajectory.",
+        "The bank account, established on [DATE], signified the launch of an enduring financial expedition."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "note",
+          "mark",
+          "grading"
+        ],
+        "bank": [
+          "bank"
+        ],
+        "initially": [
+          "initially"
+        ],
+        "journey": [
+          "journey",
+          "travel"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "long": [
+          "long"
+        ],
+        "established": [
+          "established",
+          "conventional"
+        ],
+        "account": [
+          "account",
+          "report",
+          "history",
+          "chronicle"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Over the years, consequently, the account has witnessed numerous changes in the financial landscape.",
+      "template_pattern": "Over the years, consequently, the account has witnessed numerous changes in the financial landscape.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Through the years, consequently, the account has observed countless changes in the financial landscape.",
+        "As a result of the passage of time, the account has seen numerous alterations to the financial terrain.",
+        "Over time, the financial landscape has undergone many changes, which the account has consequently recorded.",
+        "Numerous transformations in the financial environment have been witnessed by the account over the years, consequently.",
+        "The account, over the years, has consequently experienced a great number of shifts in the financial landscape.",
+        "Consequently, after years of operation, the account reflects many changes in the financial sector.",
+        "Across years, the account has, as a result, observed a plethora of changes within the financial landscape.",
+        "Many changes in the financial landscape have been noted by the account over the years, thus.",
+        "Having spanned several years, the account consequently registers numerous modifications to the financial environment.",
+        "The financial landscape has evolved repeatedly, and the account has consequently witnessed these changes over time.",
+        "Over the years, the account has, therefore, seen a multitude of shifts in the financial terrain.",
+        "Consequent to years of activity, the account has documented countless alterations in the financial landscape.",
+        "Through years of operation, the account has consequently recorded a great deal of change in the financial environment.",
+        "Various changes in the financial landscape have been observed by the account over time, consequently.",
+        "In the course of years, the account has, as a result, witnessed numerous transformations of the financial landscape."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "witnessed": [
+          "witnessed"
+        ],
+        "changes": [
+          "changes"
+        ],
+        "over": [
+          "over"
+        ],
+        "consequently": [
+          "consequently",
+          "therefore",
+          "accordingly"
+        ],
+        "years": [
+          "years"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "numerous": [
+          "numerous"
+        ],
+        "landscape": [
+          "landscape"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "It has, furthermore, adapted to evolving customer needs and technological advancements.",
+      "template_pattern": "It has, furthermore, adapted to evolving customer needs and technological advancements.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, it has adapted to shifting customer demands and ongoing technological progress.",
+        "It has also aligned itself with evolving client needs as well as recent tech advancements.",
+        "Additionally, the system has responded to changing customer requirements and new technological developments.",
+        "Adaptation to dynamic customer needs and emerging technological innovations has been achieved by it, further.",
+        "The organization has, in addition, adjusted to the evolving needs of customers and to advances in technology.",
+        "It has further adapted to the evolving demands of its clientele and to the latest technological breakthroughs.",
+        "Beyond that, adaptation to shifting consumer expectations and to contemporary tech advancements has taken place.",
+        "The entity has, moreover, conformed to changing customer requirements and to current technological progress.",
+        "It has, additionally, evolved in step with dynamic client needs and modern technological improvements.",
+        "Responding to evolving customer needs and the latest tech advancements, it has also adapted.",
+        "Adaptation to both the fluid needs of customers and the rapid pace of technological advancement has been accomplished by it.",
+        "Furthermore, it has modified its approach to meet the changing demands of customers and the surge in technological innovation.",
+        "In addition, the firm has tailored itself to the evolving requirements of its customers and to ongoing tech advances.",
+        "It has, likewise, adjusted to the shifting expectations of customers and to the continual evolution of technology.",
+        "The company has further aligned its operations with the evolving needs of clients and with emerging technological progress."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "adapted": [
+          "adapted",
+          "altered"
+        ],
+        "technological": [
+          "technological",
+          "technical"
+        ],
+        "advancements": [
+          "advancements"
+        ],
+        "needs": [
+          "needs"
+        ],
+        "evolving": [
+          "evolving"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The account's longevity is a testament to its reliability and the trust placed in it by its owners.",
+      "template_pattern": "The account's longevity is a testament to its reliability and the trust placed in it by its owners.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The long life of the account demonstrates both its reliability and the confidence its owners have placed in it.",
+        "A testament to its dependability and the owners' trust, the account has endured over time.",
+        "Its enduring existence proves how reliable the account is and how much trust its owners bestow upon it.",
+        "Because the account has lasted so long, it serves as evidence of its reliability and the trust given by its owners.",
+        "The account’s sustained longevity reflects its reliability and the trust that owners invest in it.",
+        "Reliability and owner confidence are evident in the account’s impressive span of years.",
+        "That the account remains active for so many years testifies to its dependability and the trust its owners place in it.",
+        "The account’s extended duration stands as proof of both its trustworthiness and the confidence its owners have in it.",
+        "With its prolonged existence, the account showcases reliability and the trust owners have placed upon it.",
+        "Its longevity, a clear indicator of reliability, also mirrors the trust owners have vested in the account.",
+        "The fact that the account endures over time underscores its reliability and the trust its owners assign to it.",
+        "As the account continues to persist, it evidences its dependable nature and the trust entrusted by its owners.",
+        "The enduring nature of the account serves as a hallmark of reliability and the confidence placed in it by owners.",
+        "Because it has lasted so long, the account confirms its reliability and the trust owners place within it.",
+        "The account’s lasting presence attests to its reliability and the trust its owners have placed in it."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "testament": [
+          "testament",
+          "will"
+        ],
+        "placed": [
+          "placed",
+          "set",
+          "situated",
+          "located",
+          "put"
+        ],
+        "trust": [
+          "trust",
+          "reliance",
+          "confidence",
+          "faith"
+        ],
+        "owners": [
+          "owners"
+        ],
+        "longevity": [
+          "longevity",
+          "seniority"
+        ],
+        "reliability": [
+          "reliability",
+          "dependability"
+        ],
+        "account": [
+          "account",
+          "explanation",
+          "report",
+          "invoice",
+          "bill",
+          "history"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "As financial frameworks evolve, thus, the account continues to be a crucial asset.",
+      "template_pattern": "As financial frameworks evolve, thus, the account continues to be a crucial asset.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "With financial frameworks changing, the account still serves as an essential asset.",
+        "As the financial structures develop, the account remains a vital resource.",
+        "The account continues to be a key asset, especially as financial frameworks evolve.",
+        "Since financial frameworks are evolving, the account persists as a critical asset.",
+        "Evolving financial frameworks mean the account stays a crucial asset.",
+        "While financial frameworks undergo transformation, the account retains its importance as an asset.",
+        "The account, amidst evolving financial frameworks, continues to function as a pivotal asset.",
+        "Given the evolution of financial frameworks, the account is still regarded as a crucial asset.",
+        "As financial frameworks shift, the account remains indispensable.",
+        "The evolution of financial frameworks does not diminish the account's status as a crucial asset.",
+        "Because financial frameworks are in flux, the account continues to act as a vital asset.",
+        "Even as financial frameworks progress, the account stays a significant asset.",
+        "The account's role as a crucial asset endures while financial frameworks evolve.",
+        "Financial framework changes aside, the account still constitutes a key asset.",
+        "In the context of evolving financial frameworks, the account persists as an essential asset."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "frameworks": [
+          "frameworks"
+        ],
+        "thus": [
+          "thus",
+          "hence",
+          "therefore"
+        ],
+        "asset": [
+          "asset"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "evolve": [
+          "evolve",
+          "develop"
+        ],
+        "continues": [
+          "continues"
+        ],
+        "account": [
+          "account",
+          "report"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Finally, its history is a narrative of growth, adaptation, and enduring presence in the financial sector.",
+      "template_pattern": "Finally, its history is a narrative of growth, adaptation, and enduring presence in the financial sector.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the end, its past unfolds as a tale of expansion, flexibility, and a lasting foothold in finance.",
+        "Ultimately, the record of its existence reads like a chronicle of growth, adaptation, and sustained presence within the financial industry.",
+        "The final chapter of its history portrays a story of development, adjustment, and enduring influence in the financial sector.",
+        "At last, one can describe its history as a narrative of progression, resilience, and persistent presence in the world of finance.",
+        "Its history, when viewed finally, emerges as a saga of growth, adaptation, and a continual role in the financial arena.",
+        "Concluding, the institution’s past can be seen as an account of expansion, adaptability, and an ongoing presence in the financial field.",
+        "The culmination of its history tells of growth, adaptation, and an enduring position within the finance sector.",
+        "Finally, we observe that its historical trajectory is a story of growth, adaptation, and a lasting presence in financial services.",
+        "In summary, its history stands as a narrative of development, flexibility, and a permanent footprint in the financial market.",
+        "The end result shows its history as a chronicle of growth, adaptation, and an enduring presence across the financial sector.",
+        "Ultimately, one finds its past described as a tale of expansion, adjustment, and an unbroken presence in the finance industry.",
+        "Its historical record, at last, reads like a narrative of growth, adaptation, and a steadfast presence within the financial realm.",
+        "To conclude, the story of its history is one of growth, adaptability, and a lasting presence in the financial world.",
+        "Finally, the chronology of its existence depicts growth, adaptation, and a persistent presence in the financial sector.",
+        "The final view of its history presents a narrative of expansion, adaptation, and enduring presence in finance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "finally": [
+          "finally",
+          "lastly",
+          "ultimately",
+          "eventually"
+        ],
+        "adaptation": [
+          "adaptation",
+          "adaption",
+          "adjustment"
+        ],
+        "presence": [
+          "presence"
+        ],
+        "narrative": [
+          "narrative",
+          "narration",
+          "story"
+        ],
+        "history": [
+          "history",
+          "chronicle",
+          "account"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "growth": [
+          "growth",
+          "development",
+          "increment",
+          "emergence",
+          "outgrowth",
+          "increase"
+        ],
+        "enduring": [
+          "enduring",
+          "abiding",
+          "imperishable"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

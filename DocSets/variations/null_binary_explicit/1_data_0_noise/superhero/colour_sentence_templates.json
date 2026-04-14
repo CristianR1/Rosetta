@@ -1,0 +1,157 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "38a564a63c2443bd": "id",
+    "bfee9970de704c25": "colour"
+  },
+  "templates": [
+    {
+      "original": "In the superhero world, color entry 1 represents the vibrant hue of a hero's iconic cape.",
+      "template_pattern": "In the superhero world, color entry [ID] represents the vibrant hue of a hero's iconic cape.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the superhero world, color entry [ID] denotes the vibrant hue of a hero's iconic cape.",
+        "The vibrant hue of a hero's iconic cape is represented by color entry [ID] in the superhero world.",
+        "In the superhero world, the vibrant hue of a hero's iconic cape is signified by color entry [ID].",
+        "Color entry [ID], in the superhero world, stands for the vibrant hue of a hero's iconic cape.",
+        "Among the superhero world’s data, color entry [ID] corresponds to the vibrant hue of a hero's iconic cape.",
+        "The superhero world assigns color entry [ID] to the vibrant hue of a hero's iconic cape.",
+        "For the vibrant hue of a hero's iconic cape, the superhero world uses color entry [ID].",
+        "In the superhero world, color entry [ID] serves as the indicator of the vibrant hue of a hero's iconic cape.",
+        "The vibrant hue of a hero's iconic cape is captured by color entry [ID] within the superhero world.",
+        "Within the superhero world, the vibrant hue of a hero's iconic cape is labeled as color entry [ID].",
+        "Color entry [ID] is employed in the superhero world to denote the vibrant hue of a hero's iconic cape.",
+        "In the superhero world, the vibrant hue of a hero's iconic cape is identified as color entry [ID].",
+        "The superhero world designates color entry [ID] for the vibrant hue of a hero's iconic cape.",
+        "A hero's iconic cape exhibits the vibrant hue recorded as color entry [ID] in the superhero world.",
+        "In the superhero world, the vibrant hue of a hero's iconic cape is marked by color entry [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ],
+        "color": [
+          "color",
+          "coloring",
+          "colour",
+          "coloration",
+          "colouration"
+        ],
+        "represents": [
+          "represents",
+          "constitutes",
+          "symbolizes",
+          "symbolises",
+          "exemplifies",
+          "presents"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "Earth"
+        ],
+        "entry": [
+          "entry",
+          "entrance",
+          "introduction",
+          "ingress"
+        ],
+        "vibrant": [
+          "vibrant"
+        ],
+        "hero": [
+          "hero",
+          "champion",
+          "paladin"
+        ],
+        "cape": [
+          "cape"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's unique appearance is accentuated by having No Colour in their skin, eyes, and hair, adding to their mystique.",
+      "template_pattern": "The superhero's unique appearance is accentuated by having [COLOUR] in their skin, eyes, and hair, adding to their mystique.",
+      "primary_data_fields": [
+        "colour"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's distinct appearance is emphasized through [COLOUR] on skin, eyes, and hair, contributing to their mystique.",
+        "[COLOUR] on skin, eyes, and hair accentuates the hero’s unique look, adding an air of mystique.",
+        "By displaying [COLOUR] in skin, eyes, and hair, the superhero’s singular appearance gains an extra layer of mystique.",
+        "The unique visual of the superhero is amplified by [COLOUR] across skin, eyes, and hair, which enhances their mystique.",
+        "With [COLOUR] present in skin, eyes, and hair, the superhero’s singular appearance becomes even more mystifying.",
+        "[COLOUR] in the hero’s skin, eyes, and hair serves to accentuate a unique appearance, further enriching the mystique.",
+        "The hero’s singular look, marked by [COLOUR] on skin, eyes, and hair, is heightened, adding to the mystique.",
+        "Featuring [COLOUR] on skin, eyes, and hair, the superhero’s unique appearance is magnified, lending additional mystique.",
+        "The presence of [COLOUR] in skin, eyes, and hair accentuates the superhero’s distinctive appearance, deepening the mystique.",
+        "A unique appearance is underscored by [COLOUR] in skin, eyes, and hair, which amplifies the superhero’s mystique.",
+        "[COLOUR] on skin, eyes, and hair underscores the superhero’s one‑of‑a‑kind look, enhancing the sense of mystique.",
+        "The superhero’s one‑of‑a‑kind visual is highlighted by [COLOUR] in skin, eyes, and hair, thereby increasing the mystique.",
+        "By lacking colour—[COLOUR]—in skin, eyes, and hair, the superhero’s unique look is emphasized, adding mystique.",
+        "The lack of colour, specifically [COLOUR], across skin, eyes, and hair accentuates the hero’s unique appearance and enriches the mystique.",
+        "[COLOUR] across the superhero’s skin, eyes, and hair accentuates a singular appearance, contributing further to the mystique."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "adding": [
+          "adding",
+          "add",
+          "sum",
+          "total",
+          "tally",
+          "append"
+        ],
+        "accentuated": [
+          "accentuated",
+          "emphasized",
+          "stressed",
+          "accented"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "skin": [
+          "skin",
+          "cutis",
+          "tegument",
+          "hide",
+          "pelt"
+        ],
+        "hair": [
+          "hair"
+        ],
+        "appearance": [
+          "appearance"
+        ],
+        "their": [
+          "their"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ]
+      },
+      "field_data_types": {
+        "colour": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

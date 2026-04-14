@@ -1,0 +1,493 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "e1f9c6f380144ffb": "Id",
+    "6b256d8daeba4bbe": "PostId",
+    "9ad4197cc1df4598": "Score",
+    "332a0ceb99ea4a5c": "Text",
+    "97f07ec15d044732": "CreationDate",
+    "513d27bf6d3242a8": "UserId",
+    "aa59e84a72564198": "UserDisplayName"
+  },
+  "templates": [
+    {
+      "original": "The lively discussion on PostId 3 has sparked an engaging conversation among community members about the latest updates.",
+      "template_pattern": "The lively discussion on PostId [POSTID] has sparked an engaging conversation among community members about the latest updates.",
+      "primary_data_fields": [
+        "PostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A vibrant debate surrounding PostId [POSTID] ignited a lively dialogue among community members regarding the latest updates.",
+        "Community members have begun an engaging talk about the latest updates after the spirited discussion on PostId [POSTID].",
+        "The energetic exchange concerning PostId [POSTID] triggered an animated conversation among community members about the latest updates.",
+        "An enthusiastic discussion on PostId [POSTID] has set off a compelling conversation among community members about the latest updates.",
+        "Because of the lively discussion on PostId [POSTID], community members are now holding an engaging conversation about the latest updates.",
+        "The latest updates have become the focus of an engaging discussion among community members, sparked by the lively talk on PostId [POSTID].",
+        "An engaging conversation among community members about the latest updates was sparked by the lively discussion on PostId [POSTID].",
+        "Following the spirited discussion on PostId [POSTID], community members engaged in a lively conversation about the latest updates.",
+        "The lively discussion on PostId [POSTID] has prompted community members to converse engagingly about the latest updates.",
+        "Community members are currently engaging in a vibrant conversation about the latest updates, a result of the lively discussion on PostId [POSTID].",
+        "Sparked by the lively discussion on PostId [POSTID], an engaging dialogue has emerged among community members concerning the latest updates.",
+        "An animated conversation about the latest updates is now underway among community members, thanks to the lively discussion on PostId [POSTID].",
+        "The lively discussion on PostId [POSTID] gave rise to an engaging discussion among community members regarding the latest updates.",
+        "Thanks to the lively discussion on PostId [POSTID], community members have started an engaging conversation about the latest updates.",
+        "An engaging conversation about the latest updates among community members was ignited by the lively discussion on PostId [POSTID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "members": [
+          "members"
+        ],
+        "conversation": [
+          "conversation"
+        ],
+        "lively": [
+          "lively",
+          "brisk"
+        ],
+        "updates": [
+          "updates"
+        ],
+        "sparked": [
+          "sparked"
+        ],
+        "about": [
+          "about",
+          "approximately",
+          "nearly",
+          "roughly",
+          "virtually",
+          "around"
+        ],
+        "among": [
+          "among"
+        ],
+        "engaging": [
+          "engaging"
+        ]
+      },
+      "field_data_types": {
+        "PostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The recent comments on the community post received a Score of 5, indicating they were overwhelmingly negative in sentiment.",
+      "template_pattern": "The recent comments on the community post received a Score of [SCORE], indicating they were overwhelmingly negative in sentiment.",
+      "primary_data_fields": [
+        "Score"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A Score of [SCORE] was assigned to the recent comments on the community post, indicating they were overwhelmingly negative in sentiment.",
+        "The recent remarks posted on the community forum received a Score of [SCORE], which shows they carried an overwhelmingly negative sentiment.",
+        "Overwhelmingly negative sentiment was reflected in the recent comments on the community post that earned a Score of [SCORE].",
+        "Recent community‑post comments garnered a Score of [SCORE], signaling an overwhelmingly negative tone.",
+        "The community post’s latest comments were given a Score of [SCORE], demonstrating that their sentiment was overwhelmingly negative.",
+        "A Score of [SCORE] can be seen attached to the recent comments on the community post, pointing to an overwhelmingly negative sentiment.",
+        "Those recent comments on the community post attracted a Score of [SCORE], indicating an overwhelmingly negative emotional tilt.",
+        "With a Score of [SCORE], the recent comments on the community post were marked as having an overwhelmingly negative sentiment.",
+        "The sentiment of the recent community‑post remarks was overwhelmingly negative, as reflected by a Score of [SCORE].",
+        "A Score of [SCORE] was recorded for the recent comments on the community post, denoting an overwhelmingly negative sentiment.",
+        "Recent comments on the community post earned a Score of [SCORE], revealing that their sentiment was overwhelmingly negative.",
+        "The recent community post comments received a Score of [SCORE], which implies an overwhelmingly negative sentiment.",
+        "Assigning a Score of [SCORE] to the recent comments on the community post underscores their overwhelmingly negative sentiment.",
+        "The recent comments on the community post were rated with a Score of [SCORE], indicating an overwhelmingly negative sentiment.",
+        "A Score of [SCORE] was given to the recent comments on the community post, highlighting that their sentiment was overwhelmingly negative."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "post": [
+          "post",
+          "position",
+          "office",
+          "station",
+          "billet",
+          "mail"
+        ],
+        "negative": [
+          "negative",
+          "damaging",
+          "minus",
+          "disconfirming"
+        ],
+        "overwhelmingly": [
+          "overwhelmingly",
+          "overpoweringly"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "comments": [
+          "comments"
+        ],
+        "received": [
+          "received"
+        ],
+        "sentiment": [
+          "sentiment",
+          "thought",
+          "view",
+          "opinion"
+        ]
+      },
+      "field_data_types": {
+        "Score": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the lively discussions of the programming community, one comment noted, \"Could be a poster child fo argumentative and subjective. At the least, need to define 'valuable'.\"",
+      "template_pattern": "In the lively discussions of the programming community, one comment noted, [TEXT]",
+      "primary_data_fields": [
+        "Text"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Text: Amid the vibrant chatter among programmers, a participant observed, [TEXT]",
+        "Text: Within the bustling programming forums, someone remarked, [TEXT]",
+        "Text: In the energetic debates of the coding community, a voice pointed out, [TEXT]",
+        "Text: The programming community's lively discussions yielded a comment stating, [TEXT]",
+        "Text: During the animated exchanges among developers, a remark was made: [TEXT]",
+        "Text: A comment surfaced in the spirited programming dialogues, noting, [TEXT]",
+        "Text: In the bustling tech talk circles, one contributor wrote, [TEXT]",
+        "Text: The fervent programming discussions produced a note that said, [TEXT]",
+        "Text: Among the dynamic talks in the coding community, a participant said, [TEXT]",
+        "Text: A lively thread in the programmer forum featured a comment: [TEXT]",
+        "Text: In the animated dialogues of software developers, one remark highlighted, [TEXT]",
+        "Text: The tech community's vigorous debates included the observation, [TEXT]",
+        "Text: While the programming community engaged in spirited discourse, a user noted, [TEXT]",
+        "Text: In the enthusiastic exchanges among coders, a comment was recorded stating, [TEXT]",
+        "Text: The heated programming discussions brought forth a comment that read, [TEXT]"
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "discussions": [
+          "discussions"
+        ],
+        "lively": [
+          "lively",
+          "merry",
+          "brisk"
+        ],
+        "programming": [
+          "programming",
+          "programme"
+        ],
+        "comment": [
+          "comment",
+          "remark",
+          "commentary"
+        ],
+        "community": [
+          "community"
+        ],
+        "noted": [
+          "noted",
+          "celebrated",
+          "notable",
+          "renowned",
+          "famous",
+          "illustrious"
+        ]
+      },
+      "field_data_types": {
+        "Text": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The comment was posted on the community platform on 2010-07-19 19:15:52.0, marking its CreationDate.",
+      "template_pattern": "The comment was posted on the community platform on [CREATIONDATE], marking its CreationDate.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [CREATIONDATE], the comment appeared on the community platform, establishing its CreationDate.",
+        "The community platform recorded the comment at [CREATIONDATE], thereby setting the CreationDate.",
+        "A comment was added to the community platform on [CREATIONDATE], which defines its CreationDate.",
+        "At [CREATIONDATE], the comment was uploaded to the community platform, marking the CreationDate.",
+        "The CreationDate is indicated by the comment’s posting on the community platform on [CREATIONDATE].",
+        "Posted to the community platform at [CREATIONDATE], the comment establishes its CreationDate.",
+        "The community platform shows that the comment was posted on [CREATIONDATE], which serves as the CreationDate.",
+        "When the comment went live on the community platform on [CREATIONDATE], it set the CreationDate.",
+        "The comment’s CreationDate is recorded as [CREATIONDATE] on the community platform.",
+        "On the community platform, the comment was logged at [CREATIONDATE], marking its CreationDate.",
+        "The timestamp [CREATIONDATE] indicates when the comment was posted on the community platform, defining the CreationDate.",
+        "Having been posted on the community platform on [CREATIONDATE], the comment fixes its CreationDate.",
+        "The comment entered the community platform at [CREATIONDATE], thereby establishing the CreationDate.",
+        "At the moment [CREATIONDATE], the comment appeared on the community platform, marking the CreationDate.",
+        "The community platform timestamped the comment on [CREATIONDATE], which denotes its CreationDate."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "score",
+          "scoring",
+          "brand",
+          "mark",
+          "tag"
+        ],
+        "posted": [
+          "posted"
+        ],
+        "comment": [
+          "comment",
+          "commentary",
+          "input",
+          "remark",
+          "gloss",
+          "notice"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "community": [
+          "community"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "UserId 13 consistently shares insightful programming tips and actively participates in discussions on the community platform.",
+      "template_pattern": "UserId [USERID] consistently shares insightful programming tips and actively participates in discussions on the community platform.",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consistently, UserId [USERID] shares insightful programming tips while actively participating in discussions on the community platform.",
+        "Insightful programming tips are regularly shared by UserId [USERID], who also engages actively in community platform discussions.",
+        "On the community platform, UserId [USERID] frequently contributes insightful programming tips and joins discussions with enthusiasm.",
+        "UserId [USERID] is a regular source of insightful programming tips and participates actively in the community platform's discussions.",
+        "The community platform sees UserId [USERID] consistently posting insightful programming tips and taking part in active discussions.",
+        "With steady contributions of insightful programming tips, UserId [USERID] also partakes actively in community platform dialogues.",
+        "UserId [USERID] consistently provides insightful programming tips and is actively involved in discussions on the community platform.",
+        "Discussions on the community platform benefit from UserId [USERID]’s regular sharing of insightful programming tips and active participation.",
+        "Regularly, UserId [USERID] shares insightful programming tips and engages actively in community platform conversations.",
+        "Insightful programming tips are shared on a continual basis by UserId [USERID], who also participates actively in community platform discussions.",
+        "The community platform’s discussions are enriched by UserId [USERID], who consistently offers insightful programming tips and takes an active part.",
+        "UserId [USERID]’s contributions include ongoing insightful programming tips and active involvement in community platform discussions.",
+        "By consistently sharing insightful programming tips, UserId [USERID] also plays an active role in community platform discussions.",
+        "Active participation in community platform discussions and steady sharing of insightful programming tips are hallmarks of UserId [USERID].",
+        "UserId [USERID] continuously provides insightful programming tips while actively joining discussions on the community platform."
+      ],
+      "counter_variations": [
+        "User Id not specified remains an active contributor, regularly publishing advanced technical analyses and engaging thoughtfully with peers across the platform.",
+        "The User Id, not specified, still designates an active contributor who habitually publishes advanced technical analyses and engages peers with considered discourse across the platform.",
+        "Even though the User Id remains unspecified, the person persists as an active contributor, regularly issuing advanced technical analyses and engaging in thoughtful dialogue with fellow users on the platform.",
+        "With the User Id not available, the record still reflects an active contributor who consistently delivers advanced technical analyses and participates in insightful exchanges with peers across the platform.",
+        "With the User Id not specified, the profile nonetheless represents an active contributor, frequently publishing sophisticated technical analyses and engaging thoughtfully with platform peers.",
+        "Although the User Id is unknown, the account continues to function as an active contributor, habitually publishing advanced technical analyses and engaging in thoughtful interactions with peers throughout the platform.",
+        "The lack of a User Id, not specified, does not impede the user's role as an active contributor, who regularly produces advanced technical analyses and engages in considered discussions with peers across the platform.",
+        "Despite the User Id being unspecified, the entity remains an active contributor, routinely authoring advanced technical analyses and engaging thoughtfully with other platform members.",
+        "When the User Id is not specified, the system still credits the individual as an active contributor, who regularly publishes advanced technical analyses and engages in thoughtful discourse with peers on the platform.",
+        "In cases where the User Id is not available, the person is still regarded as an active contributor, consistently delivering advanced technical analyses and interacting thoughtfully with peers across the platform.",
+        "The User Id, though unknown, continues to be associated with an active contributor who habitually disseminates advanced technical analyses and engages peers thoughtfully throughout the platform.",
+        "Even with the User Id unspecified, the record shows an active contributor who regularly issues advanced technical analyses and partakes in thoughtful engagement with fellow platform users.",
+        "With a User Id not specified, the profile nevertheless depicts an active contributor, frequently publishing advanced technical analyses and engaging with peers in a thoughtful manner across the platform.",
+        "If the User Id is not specified, the individual nonetheless remains an active contributor, regularly delivering advanced technical analyses and engaging thoughtfully with platform peers.",
+        "The absence of a User Id, not specified, does not alter the status of the user as an active contributor, who consistently publishes advanced technical analyses and engages in thoughtful interaction with peers throughout the platform."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "actively": [
+          "actively"
+        ],
+        "discussions": [
+          "discussions"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ],
+        "programming": [
+          "programming",
+          "program",
+          "programme",
+          "scheduling"
+        ],
+        "participates": [
+          "participates"
+        ],
+        "shares": [
+          "shares"
+        ],
+        "tips": [
+          "tips"
+        ],
+        "insightful": [
+          "insightful"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The user's display name has not been provided for their interactions within the programming community.",
+      "template_pattern": "The user's display name has not been provided for their interactions within the programming community.",
+      "primary_data_fields": [
+        "UserDisplayName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The User Display Name for the participant is [USERDISPLAYNAME], mirroring the identifier employed throughout the technology data report analysis.",
+        "Assigned to the participant, the User Display Name is [USERDISPLAYNAME], which reflects the identifier used across the technology data report analysis.",
+        "In the technology data report analysis, the identifier used is [USERDISPLAYNAME], appearing as the User Display Name assigned to the participant.",
+        "The participant’s User Display Name, [USERDISPLAYNAME], corresponds to the identifier referenced throughout the technology data report analysis.",
+        "Throughout the technology data report analysis, the identifier appears as [USERDISPLAYNAME], which serves as the User Display Name for the participant.",
+        "User Display Name assigned to the participant: [USERDISPLAYNAME], indicating the identifier utilized in the technology data report analysis.",
+        "The identifier used in the technology data report analysis is [USERDISPLAYNAME], and it is set as the User Display Name for the participant.",
+        "For the participant, the User Display Name is [USERDISPLAYNAME], reflecting the identifier that runs through the technology data report analysis.",
+        "The User Display Name, [USERDISPLAYNAME], has been allocated to the participant, echoing the identifier employed throughout the technology data report analysis.",
+        "Throughout the technology data report analysis, the participant’s identifier—[USERDISPLAYNAME]—serves as the User Display Name.",
+        "The participant receives the User Display Name [USERDISPLAYNAME], which mirrors the identifier used in the technology data report analysis.",
+        "In the context of the technology data report analysis, [USERDISPLAYNAME] is the identifier that constitutes the User Display Name assigned to the participant.",
+        "The User Display Name given to the participant, [USERDISPLAYNAME], reflects the identifier that runs across the technology data report analysis.",
+        "[USERDISPLAYNAME] functions as the User Display Name for the participant, echoing the identifier throughout the technology data report analysis.",
+        "The identifier used throughout the technology data report analysis, [USERDISPLAYNAME], is designated as the User Display Name for the participant."
+      ],
+      "counter_variations": [
+        "The User Display Name is recorded as na, meaning that no display name was supplied for the individual’s interactions within the programming community.",
+        "Because the User Display Name appears as na, the participant’s identifier remains absent in all programming‑community engagements.",
+        "In the data set, the User Display Name field is marked na, signifying that the user’s display name was not provided for their activities in the programming community.",
+        "The report indicates a na entry for User Display Name, reflecting the omission of a display name in the user’s programming‑community contributions.",
+        "Given that the User Display Name is listed as na, the system lacks a display name for this person’s participation across the programming community.",
+        "A na value populates the User Display Name column, denoting that the user’s display name was not furnished for their programming‑community interactions.",
+        "The dataset shows User Display Name = na, which conveys that the user’s display name is missing from their programming‑community engagements.",
+        "Since the User Display Name is denoted as na, the individual’s display identifier is unavailable for any programming‑community activity.",
+        "The entry for User Display Name reads na, indicating that the user’s display name has not been supplied for use within the programming community.",
+        "User Display Name is captured as na, thereby reflecting the absence of a provided display name for the user’s programming‑community involvement.",
+        "The system records a na status for User Display Name, meaning the user’s display name remains unspecified in their programming‑community interactions.",
+        "Within the report, User Display Name is assigned the value na, which signals that no display name was given for the user’s participation in the programming community.",
+        "A na designation appears in the User Display Name field, denoting that the user’s display name is not available for their programming‑community contributions.",
+        "The data indicates that User Display Name equals na, signifying the lack of a provided display name for the individual’s programming‑community activities.",
+        "User Display Name holds the value na, thereby confirming that the display name was not furnished for the user’s engagements within the programming community."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "user": [
+          "user"
+        ],
+        "provided": [
+          "provided",
+          "furnished",
+          "supplied",
+          "offered",
+          "rendered"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "interactions": [
+          "interactions"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "their": [
+          "their"
+        ],
+        "display": [
+          "display",
+          "exhibit",
+          "show",
+          "presentation",
+          "expose"
+        ],
+        "community": [
+          "community"
+        ]
+      },
+      "field_data_types": {
+        "UserDisplayName": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The report assigns the Id 1 to the primary technology asset, indicating its initial entry within the hierarchical inventory system.",
+      "template_pattern": "In the technology data report, each device is uniquely identified by its Id, which appears here as [ID] for reference.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the technology data report, the Id uniquely tags each device, shown here as [ID] for reference.",
+        "Each device in the technology data report is marked with a unique Id, displayed as [ID] for reference.",
+        "The technology data report lists a unique Id for every device, which is presented here as [ID] for reference.",
+        "A unique Id, appearing as [ID] for reference, identifies each device in the technology data report.",
+        "For reference, [ID] is the unique Id that distinguishes each device in the technology data report.",
+        "In the technology data report, every device carries a distinct Id, indicated here by [ID] for reference.",
+        "The Id that uniquely identifies each device is provided in the technology data report as [ID] for reference.",
+        "Reference: [ID]—the unique Id assigned to each device in the technology data report.",
+        "Each device's unique Id, shown as [ID] for reference, is recorded in the technology data report.",
+        "The technology data report assigns a unique Id to each device, which you can see here as [ID] for reference.",
+        "Here, [ID] serves as the unique Id that the technology data report uses to identify each device.",
+        "In the technology data report, a unique Id—displayed as [ID] for reference—identifies every device.",
+        "Every device is uniquely identified by its Id in the technology data report, with the Id appearing as [ID] for reference.",
+        "The unique Id for each device, presented as [ID] for reference, is part of the technology data report.",
+        "Within the technology data report, each device's Id is unique and is shown here as [ID] for reference."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identified": [
+          "identified"
+        ],
+        "report": [
+          "report",
+          "study",
+          "account",
+          "paper"
+        ],
+        "here": [
+          "here"
+        ],
+        "data": [
+          "data",
+          "information"
+        ],
+        "appears": [
+          "appears"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "source",
+          "mention",
+          "acknowledgment",
+          "credit"
+        ],
+        "uniquely": [
+          "uniquely",
+          "unambiguously"
+        ],
+        "which": [
+          "which"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

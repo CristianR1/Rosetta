@@ -1,0 +1,389 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4a6606d23086459d": "statusId",
+    "25072fc467164c7c": "status"
+  },
+  "templates": [
+    {
+      "original": "The atmosphere at the race was electrifying, with fans eagerly anticipating the outcome.",
+      "template_pattern": "The atmosphere at the race was electrifying, with fans eagerly anticipating the outcome.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The race’s atmosphere crackled with electricity, and fans waited anxiously for the result.",
+        "Fans, brimming with anticipation, felt the electrifying vibe that pervaded the race.",
+        "An electrifying ambience enveloped the event, while the audience eagerly looked toward the outcome.",
+        "The outcome was eagerly awaited by spectators amid the race’s charged atmosphere.",
+        "With the race humming with electric tension, fans watched expectantly for the final result.",
+        "The charged atmosphere at the event had fans keenly anticipating how it would end.",
+        "Anticipation ran high among the crowd as the race’s atmosphere sparked with excitement.",
+        "Electrifying energy filled the race venue, prompting fans to anticipate the conclusion with eagerness.",
+        "The race was set against an electrifying backdrop, and the fans were poised in eager anticipation of the finish.",
+        "Fans eagerly anticipated the result, their excitement amplified by the race’s electrifying setting.",
+        "In an atmosphere charged with electricity, the audience awaited the race outcome with keen anticipation.",
+        "The electrifying mood at the race stirred fans, who looked forward to the outcome with enthusiasm.",
+        "Amid the race’s electric atmosphere, spectators were poised, eagerly expecting the final verdict.",
+        "The event’s electrifying aura spurred fans to anticipate the outcome with heightened eagerness.",
+        "While the race exuded an electric ambiance, fans held their breath in eager anticipation of the result."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "fans": [
+          "fans"
+        ],
+        "atmosphere": [
+          "atmosphere",
+          "air",
+          "ambiance",
+          "ambience"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush"
+        ],
+        "anticipating": [
+          "anticipating"
+        ],
+        "eagerly": [
+          "eagerly"
+        ],
+        "outcome": [
+          "outcome",
+          "result",
+          "consequence",
+          "effect",
+          "upshot"
+        ],
+        "electrifying": [
+          "electrifying",
+          "thrilling"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Moreover, the completion status of the recent Formula 1 race was marked with a 1, indicating it was a significant event for analysis.",
+      "template_pattern": "Moreover, the completion status of the recent Formula [STATUSID] race was marked with a [STATUSID], indicating it was a significant event for analysis.",
+      "primary_data_fields": [
+        "statusId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the statusId for the recent Formula [STATUSID] race was assigned a value of [STATUSID], indicating that the event holds analytical importance.",
+        "In addition, a statusId of [STATUSID] was applied to the recent Formula [STATUSID] race, signifying its significance for analysis.",
+        "The recent Formula [STATUSID] race received a statusId marked as [STATUSID], which underscores its relevance for analytical review.",
+        "A statusId of [STATUSID] was recorded for the recent Formula [STATUSID] race, denoting that the event is a key subject for analysis.",
+        "Furthermore, analysts noted that the recent Formula [STATUSID] race carries a statusId of [STATUSID], reflecting its importance in the study.",
+        "The recent Formula [STATUSID] race’s statusId was set to [STATUSID], highlighting the event as a notable case for analysis.",
+        "With a statusId of [STATUSID], the recent Formula [STATUSID] race is identified as a significant occurrence for analytical purposes.",
+        "The recent Formula [STATUSID] race was flagged with a statusId equal to [STATUSID], indicating its analytical relevance.",
+        "Assigned a statusId of [STATUSID], the recent Formula [STATUSID] race emerges as an important event for analysis.",
+        "By marking the recent Formula [STATUSID] race with a statusId of [STATUSID], researchers emphasize its significance for analysis.",
+        "The recent Formula [STATUSID] race carries a statusId of [STATUSID], which points to its importance in analytical work.",
+        "A statusId of [STATUSID] designates the recent Formula [STATUSID] race as a noteworthy event for analysis.",
+        "For the recent Formula [STATUSID] race, a statusId of [STATUSID] was noted, signifying its analytical significance.",
+        "The recent Formula [STATUSID] race’s statusId, set at [STATUSID], signals that the event is crucial for analysis.",
+        "Marking the recent Formula [STATUSID] race with a statusId of [STATUSID] conveys its importance for analytical examination."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "race": [
+          "race"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "moreover": [
+          "moreover",
+          "furthermore"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "recipe",
+          "rule",
+          "pattern",
+          "convention"
+        ],
+        "completion": [
+          "completion",
+          "culmination",
+          "closing"
+        ]
+      },
+      "field_data_types": {
+        "statusId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Consequently, analysts and enthusiasts are now delving into the details, eager to understand the implications of this result for future races.",
+      "template_pattern": "Consequently, analysts and enthusiasts are now delving into the details, eager to understand the implications of this result for future races.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As a result, analysts and enthusiasts are now scrutinizing the details, keen to grasp what this outcome means for upcoming races.",
+        "Therefore, both analysts and fans have begun to pore over the particulars, eager to interpret the implications of this finding for future competitions.",
+        "Consequently, the analyst community together with enthusiasts is diving into the specifics, hoping to decode the significance of this result for races to come.",
+        "In light of the finding, analysts and aficionados are delving into the minutiae, anxious to assess how this outcome will affect subsequent races.",
+        "Following the release, analysts and enthusiasts alike are examining every detail, intent on understanding the ramifications of this result for the next races.",
+        "Thus, the details are being probed by analysts and enthusiasts, who are eager to comprehend what this result portends for future race events.",
+        "Because of this result, the analytical crowd and race enthusiasts are now immersing themselves in the data, striving to discern its implications for upcoming contests.",
+        "Accordingly, analysts together with enthusiasts have turned their attention to the finer points, seeking to grasp the impact of this outcome on future races.",
+        "The result has prompted analysts and enthusiasts to dig into the specifics, intent on uncovering what it means for races ahead.",
+        "With the result in hand, both analysts and enthusiasts are now combing through the details, looking to interpret its significance for forthcoming races.",
+        "In response, analysts and enthusiasts are plunging into the particulars, hoping to figure out how this result will shape future racing events.",
+        "The recent outcome has led analysts and enthusiasts to examine the details closely, aiming to understand its consequences for upcoming races.",
+        "Now, analysts and enthusiasts are immersing themselves in the granular data, eager to see what this result implies for future races.",
+        "Having seen the result, analysts and enthusiasts are sifting through the specifics, intent on deciphering the effect on races to follow.",
+        "As a consequence, the details are being explored by analysts and enthusiasts, who are keen to determine the implications of this outcome for future races."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "analysts": [
+          "analysts"
+        ],
+        "enthusiasts": [
+          "enthusiasts"
+        ],
+        "eager": [
+          "eager"
+        ],
+        "implications": [
+          "implications"
+        ],
+        "into": [
+          "into"
+        ],
+        "delving": [
+          "delving"
+        ],
+        "consequently": [
+          "consequently",
+          "therefore",
+          "accordingly"
+        ],
+        "future": [
+          "future",
+          "hereafter"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Meanwhile, the crowd began to disperse, their excitement still palpable in the cool evening air.",
+      "template_pattern": "Meanwhile, the crowd began to disperse, their excitement still palpable in the cool evening air.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As the crowd started to thin out, their excitement lingered in the crisp evening air.",
+        "The crowd was beginning to disperse, yet their enthusiasm remained tangible in the cool night breeze.",
+        "While the audience gradually scattered, the electric buzz could still be felt in the chilled evening atmosphere.",
+        "Although the gathering started to break up, a palpable excitement still hung in the cool dusk.",
+        "The dispersal of the crowd commenced, but the excitement stayed perceptible amid the cool evening air.",
+        "In the cool evening air, the crowd's excitement stayed palpable even as they began to scatter.",
+        "The crowd, beginning to disperse, left behind a lingering excitement that filled the cool night air.",
+        "Even as the crowd thinned, the palpable excitement persisted in the fresh evening atmosphere.",
+        "The excitement remained tangible in the cool twilight as the crowd started to disperse.",
+        "While the crowd was moving apart, the cool evening air still carried their palpable excitement.",
+        "As the audience broke up, a palpable sense of excitement lingered in the cool night air.",
+        "The cool evening air held the crowd's still‑palpable excitement while they started to disperse.",
+        "Though the crowd began to scatter, their excitement was still felt in the crisp evening atmosphere.",
+        "The gathering began to dissolve, yet the excitement remained evident in the cool air of the evening.",
+        "In the chill of the evening, the crowd's excitement stayed palpable as they gradually dispersed."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "meanwhile": [
+          "meanwhile",
+          "meantime"
+        ],
+        "palpable": [
+          "palpable",
+          "tangible"
+        ],
+        "crowd": [
+          "crowd"
+        ],
+        "excitement": [
+          "excitement",
+          "exhilaration",
+          "fervor",
+          "fervour"
+        ],
+        "evening": [
+          "evening"
+        ],
+        "still": [
+          "still",
+          "yet",
+          "nevertheless",
+          "however",
+          "nonetheless",
+          "notwithstanding"
+        ],
+        "their": [
+          "their"
+        ],
+        "began": [
+          "began"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the Formula 1 race status is currently Finished, indicating that the event has reached its conclusion successfully.",
+      "template_pattern": "Furthermore, the Formula 1 race status is currently [STATUS], indicating that the event has reached its conclusion successfully.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the Formula 1 race status currently reads [STATUS], showing that the event has been successfully completed.",
+        "In addition, the status of the Formula 1 race is listed as [STATUS], which means the competition concluded without issues.",
+        "The Formula 1 race status is presently [STATUS], indicating a successful wrap‑up of the event.",
+        "Additionally, a [STATUS] status now applies to the Formula 1 race, signifying that the event has ended successfully.",
+        "It should be noted that the Formula 1 race status is [STATUS] at this time, reflecting the event’s successful conclusion.",
+        "The current status for the Formula 1 race is [STATUS], denoting that the event reached its end successfully.",
+        "As a result, the Formula 1 race holds a [STATUS] status, confirming that the competition has successfully come to a close.",
+        "The Formula 1 race’s status has been set to [STATUS], which confirms the event’s successful termination.",
+        "With the Formula 1 race status marked as [STATUS], we can infer that the event concluded successfully.",
+        "Presently, the status of the Formula 1 race reads [STATUS], indicating that the event has been brought to a successful close.",
+        "The event’s status for the Formula 1 race is currently [STATUS], implying a successful finalization.",
+        "A [STATUS] status is now recorded for the Formula 1 race, demonstrating that the competition ended successfully.",
+        "The Formula 1 race status, at this moment, is [STATUS], which signals a successful completion of the event.",
+        "Because the Formula 1 race status is [STATUS], the event is understood to have concluded successfully.",
+        "The status of the Formula 1 race is currently [STATUS], thereby indicating the event’s successful conclusion."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "successfully": [
+          "successfully"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "conclusion": [
+          "conclusion",
+          "closing",
+          "end",
+          "finale",
+          "termination",
+          "finish"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "recipe",
+          "rule",
+          "pattern",
+          "convention"
+        ],
+        "reached": [
+          "reached"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As the sun set, the pit crew started packing up, their minds already on the next race.",
+      "template_pattern": "As the sun set, the pit crew started packing up, their minds already on the next race.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "When the sun dipped below the horizon, the pit crew began to pack their gear, already thinking about the upcoming race.",
+        "The pit crew started packing up as the sun set, their thoughts already fixed on the next race.",
+        "As dusk fell, the crew in the pit was already gathering their equipment, minds turned toward the forthcoming race.",
+        "With the sun going down, packing up was initiated by the pit crew, their focus already on the subsequent race.",
+        "The setting sun found the pit crew in the midst of packing, already preoccupied with the next competition.",
+        "While the sun was setting, the pit crew commenced packing, their attention already on the race that lay ahead.",
+        "The pit crew, at sunset, began to stow their tools, already contemplating the upcoming race.",
+        "As the day ended and the sun sank, the pit crew set about packing, their minds already on the following race.",
+        "Packing up was started by the pit crew as the sun set, with their thoughts already on the next race.",
+        "The sun’s descent signaled the pit crew to start packing, their focus already fixed on the next race.",
+        "At the moment the sun disappeared, the pit crew initiated the packing process, already thinking of the impending race.",
+        "The pit crew, with the sun setting, commenced packing, already oriented toward the next race.",
+        "As twilight arrived, the pit crew began to pack up, already planning for the upcoming race.",
+        "With the sun lowering, the pit crew got to work packing, their minds already on the race to come.",
+        "The setting of the sun found the pit crew already packing up, their attention fixed on the next race."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "crew": [
+          "crew"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush",
+          "hasten",
+          "speed"
+        ],
+        "packing": [
+          "packing",
+          "pack",
+          "bundle",
+          "compact",
+          "tamp"
+        ],
+        "already": [
+          "already"
+        ],
+        "minds": [
+          "minds"
+        ],
+        "next": [
+          "next",
+          "following",
+          "succeeding"
+        ],
+        "started": [
+          "started"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

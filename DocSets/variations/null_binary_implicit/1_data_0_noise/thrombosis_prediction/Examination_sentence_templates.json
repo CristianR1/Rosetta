@@ -1,0 +1,1004 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "033ab1e6f3ee4328": "ID",
+    "944d9231b316404a": "Examination Date",
+    "07e633fe7b4f406e": "aCL IgG",
+    "46a29d58996542f6": "aCL IgM",
+    "abbde990230e4636": "ANA",
+    "c965d2372dba4dcd": "ANA Pattern",
+    "dc2ac303db7b4a75": "aCL IgA",
+    "74afadeb0e7641c7": "Diagnosis",
+    "6b67e02689154481": "KCT",
+    "a06485a6928346d3": "RVVT",
+    "3554f38903d34ac0": "LAC",
+    "48157160726840fc": "Symptoms",
+    "3b099b585e2742ab": "Thrombosis"
+  },
+  "templates": [
+    {
+      "original": "Patient ID 14872 was scheduled for a comprehensive review of their thrombosis risk factors and clinical assessments today.",
+      "template_pattern": "Patient ID [ID] was scheduled for a comprehensive review of their thrombosis risk factors and clinical assessments today.",
+      "primary_data_fields": [
+        "ID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Patient ID [ID] was slated to undergo a comprehensive review of their thrombosis risk factors and clinical assessments today.",
+        "Today, Patient ID [ID] has a comprehensive review scheduled for their thrombosis risk factors and clinical assessments.",
+        "A comprehensive review of thrombosis risk factors and clinical assessments for Patient ID [ID] is set for today.",
+        "The schedule for today includes a comprehensive review of Patient ID [ID]’s thrombosis risk factors and clinical assessments.",
+        "Patient ID [ID] will have their thrombosis risk factors and clinical assessments comprehensively reviewed today.",
+        "For Patient ID [ID], a comprehensive assessment of thrombosis risk factors and clinical assessments is planned today.",
+        "Today’s agenda lists a comprehensive review of thrombosis risk factors and clinical assessments for Patient ID [ID].",
+        "A comprehensive review of thrombosis risk factors and clinical assessments is scheduled today for Patient ID [ID].",
+        "Patient ID [ID]’s thrombosis risk factors and clinical assessments are set for a comprehensive review today.",
+        "The comprehensive review of thrombosis risk factors and clinical assessments for Patient ID [ID] takes place today.",
+        "Today, a comprehensive review will be performed on Patient ID [ID]’s thrombosis risk factors and clinical assessments.",
+        "Patient ID [ID] is booked for a comprehensive review of thrombosis risk factors and clinical assessments today.",
+        "A comprehensive review of thrombosis risk factors and clinical assessments has been arranged for Patient ID [ID] today.",
+        "On this day, Patient ID [ID] receives a comprehensive review of thrombosis risk factors and clinical assessments.",
+        "Patient ID [ID]’s appointment today includes a comprehensive review of thrombosis risk factors and clinical assessments."
+      ],
+      "counter_variations": [
+        "Although the patient ID not specified was still incorporated into today’s comprehensive health data review, it has triggered additional verification of the missing identifiers.",
+        "The inclusion of the patient ID not specified in today’s comprehensive health data review nevertheless necessitates further verification of the missing identifiers.",
+        "In today’s comprehensive health data review, the patient ID not specified was nevertheless included, prompting a subsequent verification of the missing identifiers.",
+        "Despite being not specified, the patient ID was incorporated into today’s comprehensive health data review, leading to further verification of the missing identifiers.",
+        "Because the patient ID not specified appeared in today’s comprehensive health data review, analysts are prompted to verify the missing identifiers further.",
+        "The patient ID not specified, though absent of specification, was nonetheless part of today’s comprehensive health data review, which has spurred additional verification of the missing identifiers.",
+        "While the patient ID not specified was incorporated into today’s comprehensive health data review, it has caused a need for further verification of the missing identifiers.",
+        "Today’s comprehensive health data review included the patient ID not specified, thereby prompting further verification of the missing identifiers.",
+        "The presence of the patient ID not specified in today’s comprehensive health data review has prompted a subsequent verification of the missing identifiers.",
+        "Even though the patient ID not specified was included in today’s comprehensive health data review, it has led to a demand for further verification of the missing identifiers.",
+        "The patient ID not specified was entered into today’s comprehensive health data review, which in turn prompted further verification of the missing identifiers.",
+        "Inclusion of the patient ID not specified within today’s comprehensive health data review resulted in the need for further verification of the missing identifiers.",
+        "By virtue of its inclusion in today’s comprehensive health data review, the patient ID not specified has prompted further verification of the missing identifiers.",
+        "The patient ID not specified, having been included in today’s comprehensive health data review, now requires further verification of the missing identifiers.",
+        "Following its inclusion in today’s comprehensive health data review, the patient ID not specified triggered further verification of the missing identifiers."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "risk": [
+          "risk",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy"
+        ],
+        "factors": [
+          "factors",
+          "components",
+          "elements",
+          "constituents",
+          "ingredients",
+          "agents"
+        ],
+        "clinical": [
+          "clinical"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "today": [
+          "today",
+          "now",
+          "nowadays"
+        ],
+        "assessments": [
+          "assessments"
+        ],
+        "their": [
+          "their"
+        ],
+        "comprehensive": [
+          "comprehensive"
+        ]
+      },
+      "field_data_types": {
+        "ID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The medical examination crucial for thrombosis prediction was conducted on the Examination Date, 1997-05-27.",
+      "template_pattern": "The medical examination crucial for thrombosis prediction was conducted on the Examination Date, [EXAMINATION DATE].",
+      "primary_data_fields": [
+        "Examination Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The medical examination vital for thrombosis prediction took place on the Examination Date, [EXAMINATION DATE].",
+        "On the Examination Date, [EXAMINATION DATE], a crucial medical examination for predicting thrombosis was carried out.",
+        "A key medical exam for thrombosis prediction was conducted on [EXAMINATION DATE], recorded as the Examination Date.",
+        "The Examination Date, [EXAMINATION DATE], marks when the essential medical examination for thrombosis prediction was performed.",
+        "Conducted on [EXAMINATION DATE], the medical examination important for thrombosis prediction corresponds to the Examination Date.",
+        "For thrombosis prediction, the necessary medical examination was executed on the Examination Date, [EXAMINATION DATE].",
+        "The essential thrombosis‑prediction medical examination was completed on the Examination Date, [EXAMINATION DATE].",
+        "On [EXAMINATION DATE], designated as the Examination Date, the critical medical examination for thrombosis prediction was done.",
+        "The medical exam that is crucial for predicting thrombosis was performed on the Examination Date, [EXAMINATION DATE].",
+        "Recorded as the Examination Date, [EXAMINATION DATE], the pivotal medical examination for thrombosis prediction was carried out.",
+        "The pivotal thrombosis‑prediction medical examination occurred on the Examination Date, [EXAMINATION DATE].",
+        "As of the Examination Date, [EXAMINATION DATE], the crucial medical examination for thrombosis prediction was executed.",
+        "The crucial medical examination for thrombosis prediction was administered on the Examination Date, [EXAMINATION DATE].",
+        "On the Examination Date, [EXAMINATION DATE], the vital medical examination for predicting thrombosis was performed.",
+        "The vital thrombosis‑prediction medical exam was conducted on the Examination Date, [EXAMINATION DATE]."
+      ],
+      "counter_variations": [
+        "Recorded on Examination Date, not specified, the comprehensive clinical assessment—crucial for diagnostic stratification—highlights a missing temporal entry.",
+        "Because the comprehensive clinical assessment, vital for diagnostic stratification, was entered on Examination Date, not specified, the report indicates an absent temporal datum.",
+        "The comprehensive clinical assessment, indispensable for diagnostic stratification, appears on Examination Date, not specified, thereby denoting a gap in the temporal record.",
+        "On Examination Date, not specified, the comprehensive clinical assessment—essential to diagnostic stratification—was documented, reflecting an omitted time stamp.",
+        "Reflecting a missing temporal entry, the comprehensive clinical assessment, key for diagnostic stratification, was logged on Examination Date, not specified.",
+        "The comprehensive clinical assessment, which underpins diagnostic stratification, was entered on Examination Date, not specified, exposing a lapse in the date field.",
+        "With Examination Date noted as not specified, the comprehensive clinical assessment, fundamental for diagnostic stratification, was recorded, signifying an absent temporal entry.",
+        "A missing temporal entry is evident as the comprehensive clinical assessment, essential for diagnostic stratification, was captured on Examination Date, not specified.",
+        "The comprehensive clinical assessment, crucial for diagnostic stratification, was captured on Examination Date, not specified, underscoring a void in the time component.",
+        "Because Examination Date is not specified, the comprehensive clinical assessment—necessary for diagnostic stratification—remains without a recorded temporal value.",
+        "The comprehensive clinical assessment, indispensable for diagnostic stratification, was logged on Examination Date, not specified, indicating a missing date entry.",
+        "Not specified on Examination Date, the comprehensive clinical assessment, pivotal for diagnostic stratification, reveals a temporal omission in the dataset.",
+        "The comprehensive clinical assessment, essential for diagnostic stratification, shows a missing temporal entry by being recorded on Examination Date, not specified.",
+        "On Examination Date, not specified, the comprehensive clinical assessment—integral to diagnostic stratification—was noted, thereby highlighting an absent time stamp.",
+        "Due to the Examination Date being not specified, the comprehensive clinical assessment, vital for diagnostic stratification, lacks a recorded temporal value."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "medical": [
+          "medical"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "prediction": [
+          "prediction",
+          "forecasting",
+          "anticipation"
+        ],
+        "conducted": [
+          "conducted"
+        ]
+      },
+      "field_data_types": {
+        "Examination Date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The test results showed that the aCL IgG level was 1.30, indicating the presence of specific antibodies in the blood.",
+      "template_pattern": "The test results showed that the aCL IgG level was [ACL IGG], indicating the presence of specific antibodies in the blood.",
+      "primary_data_fields": [
+        "aCL IgG"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The test results indicated that the aCL IgG level measured [ACL IGG], signifying the presence of specific antibodies in the blood.",
+        "A level of [ACL IGG] for aCL IgG was found in the test results, confirming that specific antibodies are present in the blood.",
+        "Results from the assay revealed an aCL IgG concentration of [ACL IGG], which points to specific antibodies circulating in the blood.",
+        "The laboratory report showed aCL IgG at [ACL IGG], denoting that specific antibodies exist in the blood.",
+        "With the test indicating an aCL IgG value of [ACL IGG], one can infer the presence of specific antibodies in the blood.",
+        "An aCL IgG reading of [ACL IGG] was observed, and this implies that specific antibodies are in the blood.",
+        "The analysis documented that the aCL IgG measurement was [ACL IGG], suggesting the blood contains specific antibodies.",
+        "Finding an aCL IgG level of [ACL IGG], the results confirm that specific antibodies are present within the blood.",
+        "A [ACL IGG] aCL IgG result was recorded, which reflects the existence of specific antibodies in the blood.",
+        "The data reveal an aCL IgG of [ACL IGG], indicating that the blood harbors specific antibodies.",
+        "From the test, an aCL IgG concentration of [ACL IGG] was obtained, demonstrating the presence of specific antibodies in the blood.",
+        "The aCL IgG measurement came back at [ACL IGG], which means specific antibodies are found in the blood.",
+        "A reported aCL IgG level of [ACL IGG] points to the presence of specific antibodies in the blood.",
+        "The clinical test showed aCL IgG at [ACL IGG], implying that specific antibodies are present in the blood.",
+        "Seeing an aCL IgG value of [ACL IGG] in the results suggests that specific antibodies exist in the blood."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "level": [
+          "level",
+          "degree",
+          "stratum",
+          "tier",
+          "grade",
+          "layer"
+        ],
+        "antibodies": [
+          "antibodies"
+        ],
+        "blood": [
+          "blood"
+        ],
+        "showed": [
+          "showed"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "results": [
+          "results"
+        ],
+        "test": [
+          "test",
+          "trial",
+          "exam",
+          "examination",
+          "quiz"
+        ]
+      },
+      "field_data_types": {
+        "aCL IgG": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the examination, the patient's aCL IgM level was noted to be 1.60, warranting further assessment for thrombosis risk.",
+      "template_pattern": "During the examination, the patient's aCL IgM level was noted to be [ACL IGM], warranting further assessment for thrombosis risk.",
+      "primary_data_fields": [
+        "aCL IgM"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "While the exam was underway, clinicians recorded the patient’s aCL IgM level at [ACL IGM], indicating the need for additional thrombosis risk evaluation.",
+        "The patient's aCL IgM measured [ACL IGM] during the assessment, prompting further investigation of thrombosis risk.",
+        "In the course of the examination, the aCL IgM value of [ACL IGM] was observed in the patient, which calls for a deeper look at thrombosis risk.",
+        "A measurement of [ACL IGM] for the patient’s aCL IgM was documented during the exam, suggesting that thrombosis risk should be reassessed.",
+        "During the clinical review, the aCL IgM reading came back as [ACL IGM] for the patient, warranting a more thorough thrombosis risk assessment.",
+        "The exam revealed a patient aCL IgM level of [ACL IGM], thus further assessment of thrombosis risk is warranted.",
+        "Upon examination, the patient’s aCL IgM was noted at [ACL IGM], leading clinicians to pursue additional thrombosis risk evaluation.",
+        "The aCL IgM result of [ACL IGM] was recorded during the patient’s examination, and it necessitates further thrombosis risk analysis.",
+        "While evaluating the patient, a [ACL IGM] aCL IgM level was identified, which requires more extensive assessment of thrombosis risk.",
+        "The clinician observed a [ACL IGM] aCL IgM during the exam, indicating that thrombosis risk should be further assessed.",
+        "In the examination, the patient’s aCL IgM was documented as [ACL IGM], prompting a follow‑up evaluation of thrombosis risk.",
+        "A [ACL IGM] aCL IgM measurement was noted in the patient during the exam, urging additional assessment of thrombosis risk.",
+        "During the patient’s assessment, the aCL IgM reading stood at [ACL IGM], calling for further evaluation of thrombosis risk.",
+        "The examination showed a patient aCL IgM level of [ACL IGM], which warrants further scrutiny of thrombosis risk.",
+        "When the exam was performed, the patient’s aCL IgM level was recorded as [ACL IGM], suggesting the need for continued thrombosis risk assessment."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "warranting": [
+          "warranting"
+        ],
+        "level": [
+          "level",
+          "degree",
+          "stratum",
+          "story",
+          "floor",
+          "tier"
+        ],
+        "during": [
+          "during"
+        ],
+        "risk": [
+          "risk",
+          "chance",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "assessment": [
+          "assessment",
+          "appraisal",
+          "judgment",
+          "judgement"
+        ],
+        "further": [
+          "further"
+        ],
+        "noted": [
+          "noted",
+          "celebrated",
+          "notable",
+          "renowned",
+          "famous",
+          "illustrious"
+        ]
+      },
+      "field_data_types": {
+        "aCL IgM": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's ANA level was recorded at 256, suggesting a need for further evaluation in the context of thrombosis prediction.",
+      "template_pattern": "The patient's ANA level was recorded at [ANA], suggesting a need for further evaluation in the context of thrombosis prediction.",
+      "primary_data_fields": [
+        "ANA"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's ANA level was logged at [ANA], implying that further assessment is advisable for thrombosis prediction.",
+        "A measurement of ANA at [ANA] was noted for the patient, indicating the need for additional evaluation concerning thrombosis prediction.",
+        "Recorded at [ANA], the patient's ANA result suggests that further work‑up should be considered in the setting of thrombosis prediction.",
+        "The ANA value of [ANA], as captured for the patient, points toward a requirement for more extensive evaluation for thrombosis prediction.",
+        "For this patient, an ANA reading of [ANA] was entered, signaling that further diagnostic review is warranted in relation to thrombosis prediction.",
+        "An ANA level of [ANA] was documented for the patient, which raises the recommendation for supplementary evaluation within the thrombosis prediction context.",
+        "The patient’s ANA test returned a value of [ANA], prompting the suggestion of additional assessment for predicting thrombosis.",
+        "With the ANA result at [ANA], clinicians should consider further evaluation of the patient for thrombosis prediction.",
+        "A recorded ANA of [ANA] in this patient suggests that more thorough evaluation is needed when assessing thrombosis prediction.",
+        "The patient's ANA was measured at [ANA], leading to the recommendation of further evaluation for thrombosis prediction.",
+        "Having a [ANA] ANA level recorded for the patient, the report advises extra evaluation in the realm of thrombosis prediction.",
+        "The ANA measurement, standing at [ANA] for this patient, signals that further assessment is appropriate for thrombosis prediction.",
+        "In this case, the patient's ANA reading of [ANA] indicates a need for additional evaluation concerning the prediction of thrombosis.",
+        "An ANA value of [ANA] was observed in the patient, which suggests pursuing further evaluation in the context of thrombosis prediction.",
+        "The patient's recorded ANA of [ANA] points to the necessity of a deeper evaluation when considering thrombosis prediction."
+      ],
+      "counter_variations": [
+        "Because the ANA result was not specified, clinicians are prompted to order supplementary serological assays while reviewing the patient’s autoimmune profile.",
+        "The ANA finding being unspecified leads physicians to contemplate additional serological testing as they assess the patient’s autoimmune status.",
+        "Given that the ANA outcome is not available, the care team must consider further serologic investigations in the context of the patient’s autoimmune evaluation.",
+        "When the ANA value is unknown, practitioners often pursue extra serology panels while concurrently appraising the patient’s autoimmune characteristics.",
+        "Since the ANA result remained not specified, clinicians are advised to pursue further serological work‑up as part of the patient’s autoimmune profile analysis.",
+        "In cases where the ANA measurement is unspecified, physicians typically extend serological testing while they scrutinize the patient’s overall autoimmune landscape.",
+        "Because the ANA data were not specified, the diagnostic team is inclined to incorporate further serology examinations as they map the patient’s autoimmune profile.",
+        "The ANA parameter being not available triggers clinicians to consider supplementary serological assays while they examine the patient’s autoimmune status.",
+        "When the ANA outcome is unknown, the health‑care provider must weigh the need for additional serology testing in the broader assessment of the patient’s autoimmune features.",
+        "Due to the ANA result being not specified, the clinician’s workflow includes ordering extra serological panels while evaluating the patient’s autoimmune profile.",
+        "If the ANA finding is unspecified, it prompts the treating team to seek further serologic investigations as part of the patient’s autoimmune evaluation.",
+        "The lack of an unspecified ANA result leads to the recommendation that clinicians perform additional serology testing while they appraise the patient’s autoimmune characteristics.",
+        "Since the ANA outcome was not specified, the medical team is urged to pursue further serological analysis in parallel with the patient’s autoimmune profile review.",
+        "When the ANA test result is not available, physicians are prompted to add serological assays to their work‑up while they assess the patient’s autoimmune condition.",
+        "Because the ANA result was not specified, clinicians are prompted to order supplementary serological assays while they assess the patient’s autoimmune profile."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "recorded": [
+          "recorded",
+          "entered",
+          "registered",
+          "taped"
+        ],
+        "level": [
+          "level",
+          "degree",
+          "tier",
+          "grade",
+          "plane",
+          "layer"
+        ],
+        "suggesting": [
+          "suggesting"
+        ],
+        "evaluation": [
+          "evaluation",
+          "rating",
+          "valuation"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "context": [
+          "context",
+          "setting",
+          "circumstance"
+        ],
+        "prediction": [
+          "prediction",
+          "foretelling",
+          "prevision",
+          "anticipation",
+          "forecasting",
+          "prognostication"
+        ],
+        "need": [
+          "need",
+          "want",
+          "demand"
+        ]
+      },
+      "field_data_types": {
+        "ANA": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The ANA Pattern identified as P in the patient's blood test suggests a closer evaluation for potential autoimmune disorders.",
+      "template_pattern": "The ANA Pattern identified as [ANA PATTERN] in the patient's blood test suggests a closer evaluation for potential autoimmune disorders.",
+      "primary_data_fields": [
+        "ANA Pattern"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A closer evaluation for potential autoimmune disorders is suggested by the ANA Pattern identified as [ANA PATTERN] in the patient's blood test.",
+        "The presence of ANA Pattern [ANA PATTERN] in the patient's blood test indicates that a more detailed assessment for potential autoimmune disorders is warranted.",
+        "Because the patient's blood test shows ANA Pattern [ANA PATTERN], clinicians should consider a thorough evaluation for potential autoimmune disorders.",
+        "Finding ANA Pattern [ANA PATTERN] in the patient's blood test prompts a recommendation for a closer evaluation of potential autoimmune disorders.",
+        "The patient's blood test, revealing ANA Pattern [ANA PATTERN], suggests undertaking a more exhaustive evaluation for potential autoimmune disorders.",
+        "Detection of ANA Pattern [ANA PATTERN] within the patient's blood test leads to the suggestion of a closer evaluation for potential autoimmune disorders.",
+        "Given that the patient's blood test identifies ANA Pattern [ANA PATTERN], a closer assessment for potential autoimmune disorders is advised.",
+        "ANA Pattern [ANA PATTERN], as identified in the patient's blood test, calls for a more in‑depth evaluation of potential autoimmune disorders.",
+        "The identification of ANA Pattern [ANA PATTERN] in the patient's blood test underscores the need for a closer evaluation of potential autoimmune disorders.",
+        "A closer look at potential autoimmune disorders is recommended when the patient's blood test shows ANA Pattern [ANA PATTERN].",
+        "When ANA Pattern [ANA PATTERN] appears in the patient's blood test, it suggests a more comprehensive evaluation for potential autoimmune disorders.",
+        "The patient's blood test indicating ANA Pattern [ANA PATTERN] warrants a closer evaluation for potential autoimmune disorders.",
+        "Seeing ANA Pattern [ANA PATTERN] in the patient's blood test should trigger a recommendation for a closer evaluation of potential autoimmune disorders.",
+        "If the patient's blood test reveals ANA Pattern [ANA PATTERN], clinicians are urged to conduct a closer evaluation for potential autoimmune disorders.",
+        "The detection of ANA Pattern [ANA PATTERN] in the patient's blood test implies that a closer evaluation for potential autoimmune disorders is appropriate."
+      ],
+      "counter_variations": [
+        "The ANA Pattern result is not specified, thereby implying that an additional serological evaluation might be necessary to elucidate possible autoimmune activity.",
+        "Because the ANA Pattern result is unspecified, clinicians may need to pursue further serological testing to determine any underlying autoimmune processes.",
+        "Given that the ANA Pattern result remains not specified, a more comprehensive serological work‑up could be warranted to clarify potential autoimmune involvement.",
+        "The ANA Pattern result is unknown, which prompts consideration of supplementary serological assessments to investigate suspected autoimmune phenomena.",
+        "Since the ANA Pattern result is not available, it may be prudent to order further serological studies to assess for latent autoimmune activity.",
+        "With the ANA Pattern result being unspecified, physicians are advised to contemplate additional serological examination to resolve uncertainties regarding autoimmune status.",
+        "The ANA Pattern result is not specified, and this absence suggests that further serological analysis may be required to delineate any autoimmune propensity.",
+        "Because the ANA Pattern result is not specified, the laboratory report recommends pursuing extra serological investigations to ascertain possible autoimmune involvement.",
+        "The ANA Pattern result remains unspecified, thereby signaling that extended serological assessment could be essential for identifying any autoimmune activity.",
+        "When the ANA Pattern result is not specified, it often leads to the recommendation of further serological testing to uncover potential autoimmune processes.",
+        "The ANA Pattern result is unknown, which may necessitate additional serological evaluation to clarify any underlying autoimmune condition.",
+        "Since the ANA Pattern result is not available, a more detailed serological work‑up may be required to assess for possible autoimmune activity.",
+        "With the ANA Pattern result being not specified, clinicians might consider ordering further serological examinations to resolve questions about autoimmune involvement.",
+        "The ANA Pattern result is unspecified, prompting the need for supplementary serological assessment to determine any latent autoimmune activity.",
+        "Because the ANA Pattern result is not specified, clinicians may need to order additional serological testing to elucidate any underlying autoimmune processes."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "disorders": [
+          "disorders"
+        ],
+        "blood": [
+          "blood",
+          "lineage",
+          "descent",
+          "pedigree",
+          "ancestry",
+          "bloodline"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "evaluation": [
+          "evaluation",
+          "rating",
+          "valuation"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "autoimmune": [
+          "autoimmune"
+        ],
+        "test": [
+          "test",
+          "quiz",
+          "trial",
+          "examination",
+          "exam",
+          "tryout"
+        ],
+        "potential": [
+          "potential",
+          "possible",
+          "likely"
+        ]
+      },
+      "field_data_types": {
+        "ANA Pattern": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The diagnosis revealed MCTD, AMI, highlighting the need for careful monitoring of thrombosis risk.",
+      "template_pattern": "The diagnosis revealed [DIAGNOSIS], highlighting the need for careful monitoring of thrombosis risk.",
+      "primary_data_fields": [
+        "Diagnosis"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Diagnosis identified [DIAGNOSIS], underscoring the importance of vigilant thrombosis risk monitoring.",
+        "The findings from the Diagnosis show [DIAGNOSIS], and call attention to the necessity of careful thrombosis risk surveillance.",
+        "[DIAGNOSIS] were uncovered by the Diagnosis, emphasizing that thrombosis risk must be closely watched.",
+        "A Diagnosis result of [DIAGNOSIS] points to the need for meticulous monitoring of thrombosis risk.",
+        "Revealed by the Diagnosis are [DIAGNOSIS], highlighting why thrombosis risk requires careful observation.",
+        "With the Diagnosis indicating [DIAGNOSIS], clinicians should prioritize diligent thrombosis risk monitoring.",
+        "The Diagnosis reports [DIAGNOSIS], prompting heightened attention to careful thrombosis risk oversight.",
+        "[DIAGNOSIS] emerge in the Diagnosis, signalling that thrombosis risk should be monitored carefully.",
+        "From the Diagnosis, [DIAGNOSIS] are noted, stressing the imperative of careful thrombosis risk monitoring.",
+        "The Diagnosis has uncovered [DIAGNOSIS], thereby stressing careful monitoring of thrombosis risk.",
+        "[DIAGNOSIS] appear in the Diagnosis, which highlights the requirement for vigilant thrombosis risk tracking.",
+        "According to the Diagnosis, [DIAGNOSIS] are present, making careful thrombosis risk monitoring essential.",
+        "The Diagnosis outcome of [DIAGNOSIS] draws attention to the need for meticulous thrombosis risk surveillance.",
+        "Identified by the Diagnosis are [DIAGNOSIS], and this underscores the necessity of careful thrombosis risk monitoring.",
+        "Through the Diagnosis, [DIAGNOSIS] were found, indicating that thrombosis risk must be monitored carefully."
+      ],
+      "counter_variations": [
+        "Because the Diagnosis is not specified, clinicians must depend on additional assessment and a comprehensive evaluation to inform therapeutic decisions.",
+        "The Diagnosis remains unspecified; therefore, healthcare providers are compelled to perform further assessment and an exhaustive evaluation to guide treatment choices.",
+        "With the Diagnosis not available, clinicians are required to rely on supplementary assessment and a thorough evaluation in order to steer therapeutic decision‑making.",
+        "Since the Diagnosis is unknown, practitioners must turn to extended assessment and a detailed evaluation to shape therapeutic strategies.",
+        "When the Diagnosis is not specified, it obliges clinicians to seek further assessment and conduct a comprehensive evaluation to direct therapeutic planning.",
+        "Given that the Diagnosis is unspecified, clinicians must employ additional assessment and a systematic evaluation to underpin therapeutic choices.",
+        "The Diagnosis being not specified compels healthcare professionals to resort to further assessment and an extensive evaluation for guiding therapeutic decisions.",
+        "If the Diagnosis is unknown, clinicians are forced to hinge their therapeutic decisions upon further assessment and a rigorous evaluation.",
+        "When the Diagnosis remains unspecified, clinicians must draw upon additional assessment and a full‑scale evaluation to inform therapeutic choices.",
+        "Since the Diagnosis is not specified, clinicians must rely on subsequent assessment and a thorough, systematic evaluation to guide therapeutic decision‑making.",
+        "Because the Diagnosis is not specified, clinicians are compelled to base therapeutic decisions on additional assessment and a thorough evaluation.",
+        "The Diagnosis remains unspecified; consequently, healthcare providers must depend on extended assessment and comprehensive evaluation to inform treatment choices.",
+        "With the Diagnosis not available, clinicians are required to employ further assessment and detailed evaluation as the foundation for therapeutic decision‑making.",
+        "Since the Diagnosis is unknown, medical staff must lean on supplemental assessment and a holistic evaluation to guide therapeutic strategies.",
+        "The Diagnosis, being not specified, obliges clinicians to rely upon additional assessment together with a comprehensive evaluation when determining therapeutic actions."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "careful": [
+          "careful",
+          "heedful",
+          "measured",
+          "deliberate"
+        ],
+        "risk": [
+          "risk",
+          "chance",
+          "jeopardy",
+          "peril",
+          "hazard",
+          "danger"
+        ],
+        "revealed": [
+          "revealed"
+        ],
+        "need": [
+          "need",
+          "require",
+          "necessitate",
+          "demand",
+          "want"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "monitoring": [
+          "monitoring"
+        ]
+      },
+      "field_data_types": {
+        "Diagnosis": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Kaolin Clotting Time for the patient's examination is not available.",
+      "template_pattern": "The Kaolin Clotting Time for the patient's examination is [KCT].",
+      "primary_data_fields": [
+        "KCT"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The KCT result for the current patient assessment is recorded as [KCT], indicating that the measurement was not documented in the report.",
+        "Recorded as [KCT], the KCT result for the current patient assessment indicates that the measurement was not documented in the report.",
+        "For the current patient assessment, the KCT result is recorded as [KCT], which shows that the measurement was not documented in the report.",
+        "The KCT outcome for the current patient assessment appears as [KCT], signifying that the measurement was not documented in the report.",
+        "In the current patient assessment, the KCT result appears recorded as [KCT], reflecting that the measurement was not documented in the report.",
+        "A dash [KCT] is entered for the KCT result of the current patient assessment, denoting that the measurement was not documented in the report.",
+        "The KCT finding for the current patient assessment has been logged as [KCT], meaning that the measurement was not documented in the report.",
+        "Since the KCT result for the current patient assessment is recorded as [KCT], it indicates that the measurement was not documented in the report.",
+        "The KCT value for the current patient assessment is shown as [KCT], implying that the measurement was not documented in the report.",
+        "Documented as [KCT], the KCT result for the current patient assessment reveals that the measurement was not documented in the report.",
+        "For the current patient assessment, a KCT result of [KCT] was recorded, indicating that the measurement was not documented in the report.",
+        "The KCT reading for the current patient assessment is entered as [KCT], which signifies that the measurement was not documented in the report.",
+        "A [KCT] was entered for the KCT result of the current patient assessment, indicating that the measurement was not documented in the report.",
+        "The KCT assessment for the current patient assessment is listed as [KCT], showing that the measurement was not documented in the report.",
+        "Recorded as [KCT], the KCT outcome for the current patient assessment points to the fact that the measurement was not documented in the report."
+      ],
+      "counter_variations": [
+        "The K C T result for the patient's examination is not available.",
+        "For this patient's examination, the K C T is not available.",
+        "The examination's K C T value remains not available.",
+        "It has been determined that the K C T pertaining to the patient's exam is not available.",
+        "Not available is the K C T associated with the patient's examination.",
+        "Due to incomplete data, the K C T for the patient's examination is not available.",
+        "The patient's examination lacks a K C T, which is not available at this time.",
+        "In the report, the K C T for the patient's examination is recorded as not available.",
+        "A K C T reading for the patient's examination could not be provided and is not available.",
+        "The current status of the K C T for the patient's examination is not available.",
+        "Because the K C T for this patient's examination could not be measured, it is not available.",
+        "The patient's examination indicates that the K C T is not available.",
+        "Absent from the dataset, the K C T for the patient's examination is not available.",
+        "The K C T, as related to the patient's examination, is not available.",
+        "No K C T value is present for the patient's examination; it is not available."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "available": [
+          "available",
+          "usable",
+          "useable"
+        ],
+        "kaolin": [
+          "kaolin"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "clotting": [
+          "clotting",
+          "coagulation"
+        ]
+      },
+      "field_data_types": {
+        "KCT": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Russell Viper Venom Time result is not available for this examination.",
+      "template_pattern": "The Russell Viper Venom Time result is [RVVT] for this examination.",
+      "primary_data_fields": [
+        "RVVT"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "RVVT is recorded as [RVVT], showing that the result is not available in this assessment.",
+        "The RVVT measurement was reported as [RVVT], which means the result is not available in this assessment.",
+        "In this assessment, the RVVT value is listed as [RVVT], indicating the result is not available.",
+        "A dash ([RVVT]) is the reported RVVT, signifying that the result is not available in this assessment.",
+        "Reported RVVT: [RVVT], denoting that the result is not available in this assessment.",
+        "The result for RVVT appears as [RVVT], reflecting that it is not available in this assessment.",
+        "RVVT measurement: [RVVT], which indicates the result is not available in this assessment.",
+        "As per the assessment, RVVT is shown as [RVVT], meaning the result is not available.",
+        "The assessment notes the RVVT as [RVVT], implying that the result is not available.",
+        "For RVVT, the reported figure is [RVVT], suggesting the result is not available in this assessment.",
+        "The RVVT entry is [RVVT], indicating that the result is not available in this assessment.",
+        "RVVT has been logged as [RVVT], confirming that the result is not available in this assessment.",
+        "In the report, RVVT is given as [RVVT], denoting the result is not available in this assessment.",
+        "The RVVT reading is [RVVT], which signals that the result is not available in this assessment.",
+        "According to the assessment, RVVT is [RVVT], indicating the result is not available."
+      ],
+      "counter_variations": [
+        "The RVVT result for this examination is not available.",
+        "For this examination, the RVVT outcome is not available.",
+        "The result of the RVVT, pertaining to this examination, is not available.",
+        "Not available is the RVVT result for the current examination.",
+        "In the context of this examination, the RVVT measurement remains not available.",
+        "This examination’s RVVT finding is not available at present.",
+        "The RVVT value expected for this examination is not available.",
+        "Due to data constraints, the RVVT result for this examination is not available.",
+        "The RVVT reading associated with this examination is not available.",
+        "Regarding this examination, the RVVT outcome is currently not available.",
+        "The RVVT test result for this examination cannot be provided as it is not available.",
+        "Because the RVVT data for this examination is not available, no result can be reported.",
+        "The RVVT analysis for this examination yields a not available result.",
+        "For the present examination, the RVVT result is classified as not available.",
+        "The examination lacks an available RVVT result, rendering it not available."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "result": [
+          "result",
+          "outcome",
+          "effect",
+          "consequence",
+          "upshot"
+        ],
+        "viper": [
+          "viper"
+        ],
+        "available": [
+          "available",
+          "usable",
+          "useable"
+        ],
+        "venom": [
+          "venom",
+          "malice",
+          "spite",
+          "spitefulness",
+          "maliciousness"
+        ],
+        "russell": [
+          "russell",
+          "Russell"
+        ]
+      },
+      "field_data_types": {
+        "RVVT": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's Lactic Acid Concentration, or LAC, was noted as -, raising concerns during the medical assessment.",
+      "template_pattern": "The patient's Lactic Acid Concentration, or LAC, was noted as [LAC], raising concerns during the medical assessment.",
+      "primary_data_fields": [
+        "LAC"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the medical assessment, the patient’s Lactic Acid Concentration, known as LAC, was documented as [LAC], raising concern.",
+        "The Lactic Acid Concentration (LAC) for the patient was recorded as [LAC] in the medical assessment, prompting worry.",
+        "In the course of the medical assessment, clinicians noted the patient’s Lactic Acid Concentration—LAC—as [LAC], which caused alarm.",
+        "The medical assessment revealed a Lactic Acid Concentration, or LAC, of [LAC], concerning the patient’s condition.",
+        "A value of [LAC] was observed for the patient’s Lactic Acid Concentration (LAC) during the medical assessment, leading to apprehension.",
+        "During evaluation, the patient’s Lactic Acid Concentration, abbreviated LAC, was listed as [LAC], sparking concern.",
+        "The medical assessment flagged the patient’s Lactic Acid Concentration, called LAC, as [LAC], which raised issues.",
+        "Clinicians, in the medical assessment, identified the patient’s Lactic Acid Concentration (LAC) as [LAC], causing concern.",
+        "The patient’s Lactic Acid Concentration, or LAC, appeared as [LAC] in the medical assessment, prompting worry.",
+        "In the medical assessment, the Lactic Acid Concentration (LAC) for the patient was marked as [LAC], eliciting concern.",
+        "The assessment noted a Lactic Acid Concentration, referred to as LAC, of [LAC] for the patient, raising alarm.",
+        "During the clinical review, the patient’s Lactic Acid Concentration—LAC—was entered as [LAC], which was concerning.",
+        "The medical assessment indicated the patient’s Lactic Acid Concentration, known as LAC, at [LAC], prompting concern.",
+        "A dash ([LAC]) was entered for the patient’s Lactic Acid Concentration (LAC) in the medical assessment, raising issues.",
+        "The patient’s Lactic Acid Concentration, labeled LAC, was recorded as [LAC] during the medical assessment, causing concern."
+      ],
+      "counter_variations": [
+        "During the clinical assessment, the patient's Lactic Acid Concentration (LAC) was documented as not specified, necessitating a cautious interpretive approach.",
+        "The Lactic Acid Concentration, identified by the abbreviation LAC, was entered as not specified for the patient, thereby requiring careful consideration in the evaluation.",
+        "In this case report, the patient's LAC value—Lactic Acid Concentration—appears as not specified, which calls for circumspect analysis during the clinical review.",
+        "Because the Lactic Acid Concentration (LAC) for the patient is recorded as not specified, clinicians must exercise prudence when interpreting the data.",
+        "The patient's LAC (Lactic Acid Concentration) is listed as not specified, a circumstance that demands guarded interpretation in the therapeutic context.",
+        "When reviewing the chart, one finds that the Lactic Acid Concentration, abbreviated LAC, is not specified, prompting a measured appraisal in the diagnostic process.",
+        "Given that the LAC—Lactic Acid Concentration—was captured as not specified, the healthcare team should adopt a vigilant stance in its clinical interpretation.",
+        "The record indicates the patient's Lactic Acid Concentration (LAC) as not specified, a detail that obliges a judicious evaluation by the treating physicians.",
+        "In the data set, the LAC (Lactic Acid Concentration) field contains the entry not specified, thereby urging a careful interpretive strategy during patient assessment.",
+        "The documentation shows the patient's Lactic Acid Concentration, coded as LAC, is not specified, which compels clinicians to proceed with heightened caution.",
+        "For this patient, the LAC (Lactic Acid Concentration) entry is not specified, a fact that necessitates a circumspect review in the clinical decision‑making process.",
+        "The clinical note records the Lactic Acid Concentration—LAC—as not specified, and this omission warrants a prudent interpretation of the laboratory profile.",
+        "In the patient's laboratory summary, the LAC (Lactic Acid Concentration) appears as not specified, thus requiring a careful and nuanced analysis by the care team.",
+        "The Lactic Acid Concentration, referred to as LAC, has been entered as not specified, prompting a restrained and thoughtful evaluation during the clinical examination.",
+        "Observed in the health record, the patient's LAC (Lactic Acid Concentration) is not specified, a situation that calls for meticulous interpretation within the overall assessment."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "raising": [
+          "raising",
+          "rearing"
+        ],
+        "during": [
+          "during"
+        ],
+        "acid": [
+          "acid",
+          "acidic",
+          "caustic",
+          "acrid",
+          "acerbic",
+          "acidulous"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "assessment": [
+          "assessment",
+          "appraisal",
+          "judgment",
+          "judgement"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "concerns": [
+          "concerns",
+          "care",
+          "interest",
+          "business"
+        ],
+        "lactic": [
+          "lactic"
+        ]
+      },
+      "field_data_types": {
+        "LAC": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The presence of AMI among the Symptoms observed during the examination is crucial for predicting the risk of thrombosis.",
+      "template_pattern": "The presence of [SYMPTOMS] among the Symptoms observed during the examination is crucial for predicting the risk of thrombosis.",
+      "primary_data_fields": [
+        "Symptoms"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Among the Symptoms observed during the examination, the presence of [SYMPTOMS] is crucial for predicting the risk of thrombosis.",
+        "Predicting the risk of thrombosis hinges on the presence of [SYMPTOMS] among the Symptoms observed during the examination.",
+        "The risk of thrombosis can be forecasted only when the presence of [SYMPTOMS] among the Symptoms observed during the examination is acknowledged as essential.",
+        "A key determinant for predicting thrombosis risk is the presence of [SYMPTOMS] among the Symptoms observed during the examination.",
+        "For accurate thrombosis risk prediction, clinicians must note the presence of [SYMPTOMS] among the Symptoms observed during the examination.",
+        "The examination’s finding of [SYMPTOMS] within the Symptoms makes predicting the risk of thrombosis especially important.",
+        "When [SYMPTOMS] appears among the Symptoms observed during the examination, it becomes a pivotal factor for predicting the risk of thrombosis.",
+        "The presence of [SYMPTOMS] among the Symptoms recorded in the examination is indispensable for forecasting the risk of thrombosis.",
+        "Clinicians rely on the presence of [SYMPTOMS] among the Symptoms observed during the examination to predict the risk of thrombosis.",
+        "Identifying [SYMPTOMS] among the Symptoms during the examination is vital for estimating the risk of thrombosis.",
+        "The ability to predict the risk of thrombosis rests on detecting the presence of [SYMPTOMS] among the Symptoms observed during the examination.",
+        "Because the presence of [SYMPTOMS] among the Symptoms observed during the examination is critical, it strongly influences thrombosis risk prediction.",
+        "Risk assessment for thrombosis demands recognition of the presence of [SYMPTOMS] among the Symptoms observed during the examination.",
+        "The presence of [SYMPTOMS] among the Symptoms captured during the examination serves as a cornerstone for predicting the risk of thrombosis.",
+        "Accurate prediction of the risk of thrombosis depends on the presence of [SYMPTOMS] among the Symptoms noted during the examination."
+      ],
+      "counter_variations": [
+        "Because the clinical assessment documented Symptoms as not specified, the capacity to link the observed manifestations with plausible diagnoses is consequently diminished.",
+        "In the clinical assessment, Symptoms were recorded as unspecified, which restricts the clinician’s ability to associate presenting signs with possible diagnostic conclusions.",
+        "The clinical assessment noted that Symptoms are not available, thereby curtailing the potential to correlate the patient's presenting features with likely diagnoses.",
+        "Having logged Symptoms as unknown in the clinical assessment, the report consequently hampers any effort to match presenting characteristics to prospective diagnoses.",
+        "When the clinical assessment entered Symptoms as not specified, it consequently limited the feasibility of aligning observed symptoms with candidate diagnoses.",
+        "Symptoms were entered as unspecified in the clinical assessment, a fact that narrows the opportunity to map presenting clinical features to potential diagnostic outcomes.",
+        "The clinical assessment, which listed Symptoms as not available, consequently impedes the process of correlating the patient's presenting manifestations with probable diagnoses.",
+        "By recording Symptoms as unknown, the clinical assessment effectively reduces the ability to associate presenting findings with conceivable diagnostic possibilities.",
+        "Since the clinical assessment captured Symptoms as not specified, the subsequent analysis struggles to correlate presenting features with appropriate diagnostic considerations.",
+        "The clinical assessment’s designation of Symptoms as unspecified inherently limits the capacity to connect observed presenting traits with potential diagnoses.",
+        "With Symptoms marked as not available in the clinical assessment, the scope for correlating presenting clinical signs with plausible diagnoses becomes substantially constrained.",
+        "The clinical assessment’s entry of Symptoms as unknown serves to restrict the analytical linkage between presenting features and likely diagnostic conclusions.",
+        "Because Symptoms were logged as not specified in the clinical assessment, the ability to draw correlations between observed presentations and potential diagnoses is markedly weakened.",
+        "The clinical assessment’s reporting of Symptoms as unspecified hampers the effort to align presenting data with candidate diagnostic hypotheses.",
+        "Having noted Symptoms as not available, the clinical assessment consequently diminishes the prospect of correlating presenting characteristics with probable diagnoses."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "predicting": [
+          "predicting"
+        ],
+        "risk": [
+          "risk",
+          "chance",
+          "jeopardy",
+          "peril",
+          "hazard",
+          "danger"
+        ],
+        "during": [
+          "during"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "observed": [
+          "observed",
+          "discovered",
+          "ascertained",
+          "detected",
+          "found"
+        ],
+        "among": [
+          "among"
+        ],
+        "presence": [
+          "presence"
+        ]
+      },
+      "field_data_types": {
+        "Symptoms": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Recent clinical analysis indicates that the prevalence of thrombosis increased to [THROMBOSIS] cases per 100,000 population this year.",
+      "template_pattern": "Recent clinical analysis indicates that the prevalence of thrombosis increased to [THROMBOSIS] cases per 100,000 population this year.",
+      "primary_data_fields": [
+        "Thrombosis"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the latest clinical analysis, this year’s prevalence of thrombosis rose to [THROMBOSIS] cases per 100,000 population.",
+        "The prevalence of thrombosis was found to have climbed to [THROMBOSIS] cases per 100,000 population this year, as recent clinical analysis shows.",
+        "A recent clinical analysis reveals that this year's thrombosis prevalence reached [THROMBOSIS] cases per 100,000 population.",
+        "This year, clinical analysis indicates a rise in thrombosis prevalence to [THROMBOSIS] cases per 100,000 population.",
+        "Clinical investigators recently reported that thrombosis prevalence has increased to [THROMBOSIS] cases per 100,000 population for the current year.",
+        "The latest clinical review points to a growth in thrombosis prevalence, now at [THROMBOSIS] cases per 100,000 population this year.",
+        "Data from a recent clinical analysis demonstrate that thrombosis prevalence escalated to [THROMBOSIS] cases per 100,000 population in the present year.",
+        "In this year's report, clinical analysis shows the prevalence of thrombosis climbing to [THROMBOSIS] cases per 100,000 population.",
+        "Recent clinical findings suggest that thrombosis prevalence has risen to [THROMBOSIS] cases per 100,000 population this year.",
+        "The current year's thrombosis prevalence, according to recent clinical analysis, has risen to [THROMBOSIS] cases per 100,000 population.",
+        "A recent clinical study indicates that the prevalence of thrombosis this year has increased to [THROMBOSIS] cases per 100,000 population.",
+        "Based on recent clinical analysis, the prevalence of thrombosis jumped to [THROMBOSIS] cases per 100,000 population this year.",
+        "This year's clinical analysis reports that thrombosis prevalence has risen to [THROMBOSIS] cases per 100,000 population.",
+        "According to recent clinical data, the prevalence of thrombosis this year escalated to [THROMBOSIS] cases per 100,000 population.",
+        "Recent clinical analysis finds that the prevalence of thrombosis grew to [THROMBOSIS] cases per 100,000 population during this year."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "population": [
+          "population",
+          "universe"
+        ],
+        "prevalence": [
+          "prevalence"
+        ],
+        "cases": [
+          "cases"
+        ],
+        "increased": [
+          "increased"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "thrombosis": [
+          "thrombosis"
+        ],
+        "recent": [
+          "recent"
+        ],
+        "clinical": [
+          "clinical"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The aCL IgA assay does not reveal the presence of antibodies, indicating a negative result within the evaluated clinical parameters.",
+      "template_pattern": "The patient's aCL IgA level was measured at [ACL IGA] IU/mL, indicating a moderate risk for antiphospholipid syndrome.",
+      "primary_data_fields": [
+        "aCL IgA"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The aCL IgA concentration in the patient measured [ACL IGA] IU/mL, which points to a moderate risk of antiphospholipid syndrome.",
+        "A measurement of [ACL IGA] IU/mL for the patient's aCL IgA indicates a moderate risk for antiphospholipid syndrome.",
+        "At [ACL IGA] IU/mL, the patient’s aCL IgA level suggests a moderate risk of antiphospholipid syndrome.",
+        "The patient's aCL IgA was found to be [ACL IGA] IU/mL, indicating a moderate risk for antiphospholipid syndrome.",
+        "With an aCL IgA value of [ACL IGA] IU/mL, the patient faces a moderate risk of antiphospholipid syndrome.",
+        "Testing revealed the patient's aCL IgA at [ACL IGA] IU/mL, signifying a moderate risk for antiphospholipid syndrome.",
+        "A result of [ACL IGA] IU/mL for the aCL IgA assay places the patient at moderate risk of antiphospholipid syndrome.",
+        "The aCL IgA level, recorded at [ACL IGA] IU/mL, points toward a moderate risk for antiphospholipid syndrome in this patient.",
+        "Given the aCL IgA measurement of [ACL IGA] IU/mL, the patient is assessed to have a moderate risk of antiphospholipid syndrome.",
+        "The patient’s aCL IgA reading of [ACL IGA] IU/mL indicates a moderate risk for antiphospholipid syndrome.",
+        "An aCL IgA concentration of [ACL IGA] IU/mL was observed, implying a moderate risk of antiphospholipid syndrome for the patient.",
+        "Because the aCL IgA level equals [ACL IGA] IU/mL, the patient carries a moderate risk for antiphospholipid syndrome.",
+        "The laboratory reported the patient’s aCL IgA at [ACL IGA] IU/mL, which suggests a moderate risk of antiphospholipid syndrome.",
+        "A moderate risk for antiphospholipid syndrome is indicated by the patient’s aCL IgA level of [ACL IGA] IU/mL.",
+        "The measured aCL IgA of [ACL IGA] IU/mL in the patient denotes a moderate risk for antiphospholipid syndrome."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "risk": [
+          "risk",
+          "hazard",
+          "danger",
+          "jeopardy",
+          "peril",
+          "chance"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "syndrome": [
+          "syndrome"
+        ],
+        "antiphospholipid": [
+          "antiphospholipid"
+        ],
+        "measured": [
+          "measured",
+          "calculated",
+          "deliberate",
+          "careful"
+        ],
+        "moderate": [
+          "moderate",
+          "restrained",
+          "tame",
+          "temperate",
+          "centrist"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "level": [
+          "level",
+          "stage",
+          "plane",
+          "stratum",
+          "tier",
+          "layer"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

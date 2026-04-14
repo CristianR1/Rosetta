@@ -1,0 +1,281 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "e3490415b52a42ea": "client_id",
+    "f05b65f1d76d4708": "gender",
+    "7d627c7a771f4f6a": "birth_date",
+    "bbf43f56a78041e8": "district_id"
+  },
+  "templates": [
+    {
+      "original": "The financial report assigns each transaction to the corresponding client id, shown here as [CLIENT_ID] for reference.",
+      "template_pattern": "The financial report assigns each transaction to the corresponding client id, shown here as [CLIENT_ID] for reference.",
+      "primary_data_fields": [
+        "client_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the financial report, each transaction is linked to the matching client id, shown here as [CLIENT_ID] for reference.",
+        "Every transaction listed in the financial report receives its corresponding client id, displayed as [CLIENT_ID] for reference.",
+        "The financial report maps each transaction to the appropriate client id, which appears as [CLIENT_ID] for reference.",
+        "Each entry in the financial report assigns a client id to the transaction, presented here as [CLIENT_ID] for reference.",
+        "For reference, the financial report ties every transaction to its client id, indicated as [CLIENT_ID].",
+        "A client id, shown as [CLIENT_ID], is attached to each transaction within the financial report for reference.",
+        "Within the financial report, each transaction is paired with its client id, noted here as [CLIENT_ID] for reference.",
+        "The financial report designates a client id for every transaction, illustrated as [CLIENT_ID] for reference.",
+        "Each transaction in the financial report is associated with a client id, presented as [CLIENT_ID] for reference.",
+        "For reference, the client id [CLIENT_ID] is assigned to each transaction in the financial report.",
+        "The financial report assigns a client id to each transaction, with the identifier shown as [CLIENT_ID] for reference.",
+        "In this financial report, every transaction receives a client id, displayed as [CLIENT_ID] for reference.",
+        "Each transaction receives its client id, shown as [CLIENT_ID], within the financial report for reference.",
+        "The client id, shown as [CLIENT_ID], is linked to each transaction by the financial report for reference.",
+        "Within the financial report, a client id is allocated to each transaction, and it appears here as [CLIENT_ID] for reference."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "client": [
+          "client",
+          "customer"
+        ],
+        "assigns": [
+          "assigns"
+        ],
+        "corresponding": [
+          "corresponding",
+          "comparable",
+          "like"
+        ],
+        "shown": [
+          "shown"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "here": [
+          "here"
+        ],
+        "reference": [
+          "reference",
+          "source",
+          "citation",
+          "quotation",
+          "acknowledgment"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The customer, identified with the gender F, helps us tailor our financial services to better suit female demographic trends.",
+      "template_pattern": "The customer, identified with the gender [GENDER], helps us tailor our financial services to better suit female demographic trends.",
+      "primary_data_fields": [
+        "gender"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Identified with the gender [GENDER], the customer assists us in adapting our financial services to align with female demographic trends.",
+        "Our financial services are better aligned with female demographic trends thanks to the customer, who is identified with the gender [GENDER].",
+        "Because the customer is marked with the gender [GENDER], we can fine‑tune our financial services to meet female demographic trends.",
+        "The customer’s gender [GENDER] identification enables us to customize financial services for the female demographic trends.",
+        "Through the customer’s gender [GENDER] label, we are able to shape our financial services around female demographic trends.",
+        "With a gender [GENDER] designation, the customer helps tailor our financial services to reflect female demographic trends.",
+        "Our ability to adjust financial services to female demographic trends is driven by the customer, identified with the gender [GENDER].",
+        "The customer, bearing the gender [GENDER], guides us in refining financial services for female demographic trends.",
+        "Financial services are tailored to female demographic trends by the customer who carries the gender [GENDER] identification.",
+        "By noting the gender [GENDER] of the customer, we can modify our financial services to suit female demographic trends.",
+        "The gender [GENDER] tag on the customer allows us to personalize financial services in line with female demographic trends.",
+        "Because the customer holds the gender [GENDER] classification, we can adapt our financial services to the female demographic trends.",
+        "Our financial services are shaped by the customer’s gender [GENDER] status to better match female demographic trends.",
+        "The presence of gender [GENDER] in the customer's profile helps us align financial services with female demographic trends.",
+        "Recognizing the gender [GENDER] of the customer enables us to adjust financial services toward female demographic trends."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "demographic": [
+          "demographic"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "services": [
+          "services"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "trends": [
+          "trends"
+        ],
+        "suit": [
+          "suit",
+          "befit",
+          "fit",
+          "accommodate",
+          "become"
+        ],
+        "tailor": [
+          "tailor",
+          "sew",
+          "cut"
+        ]
+      },
+      "field_data_types": {
+        "gender": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On December 13, 1970, a significant birth_date, the customer entered the world, shaping personalized financial services over time.",
+      "template_pattern": "On [BIRTH_DATE], a significant birth_date, the customer entered the world, shaping personalized financial services over time.",
+      "primary_data_fields": [
+        "birth_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Born on [BIRTH_DATE], with birth date recorded, the customer arrived, later influencing personalized financial services.",
+        "The customer's birth date is [BIRTH_DATE]; from that moment they entered the world and have since molded personalized financial services.",
+        "On [BIRTH_DATE], the customer’s birth date marked their entry into the world, eventually shaping personalized financial services.",
+        "[BIRTH_DATE] marks the birth date of the customer, who then began a life that would shape personalized financial services over time.",
+        "Having a birth date of [BIRTH_DATE], the customer entered the world and progressively influenced personalized financial services.",
+        "The world welcomed the customer on [BIRTH_DATE], their birth date, and over the years they have shaped personalized financial services.",
+        "With a birth date of [BIRTH_DATE], the customer came into existence, later contributing to the evolution of personalized financial services.",
+        "[BIRTH_DATE], the customer's birth date, signaled their arrival, and subsequently they have shaped personalized financial services.",
+        "The arrival of the customer on [BIRTH_DATE]—birth date—set in motion a career that would shape personalized financial services.",
+        "On the date [BIRTH_DATE], noted as the birth date, the customer entered life, gradually influencing personalized financial services.",
+        "The customer’s entry into the world occurred on [BIRTH_DATE], their birth date, and they have since shaped personalized financial services.",
+        "Having entered the world on [BIRTH_DATE], the customer's birth date, they have over time shaped personalized financial services.",
+        "[BIRTH_DATE] serves as the birth date of the customer, whose presence has been shaping personalized financial services ever since.",
+        "The birth date of the customer, [BIRTH_DATE], marks when they entered the world and began shaping personalized financial services.",
+        "From the birth date of [BIRTH_DATE], the customer emerged, later molding personalized financial services through the years."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "Earth",
+          "earth"
+        ],
+        "services": [
+          "services"
+        ],
+        "over": [
+          "over"
+        ],
+        "december": [
+          "december",
+          "Dec",
+          "December"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "personalized": [
+          "personalized",
+          "personalised"
+        ]
+      },
+      "field_data_types": {
+        "birth_date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The educational services for district_id 18 have been thoroughly reviewed to ensure all schools receive appropriate financial support.",
+      "template_pattern": "The educational services for district_id [DISTRICT_ID] have been thoroughly reviewed to ensure all schools receive appropriate financial support.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "All schools have been confirmed to receive appropriate financial support after a thorough review of the educational services for district id [DISTRICT_ID].",
+        "A comprehensive review of the educational services for district id [DISTRICT_ID] was completed to guarantee that every school gets appropriate financial support.",
+        "To ensure appropriate financial support for every school, the educational services for district id [DISTRICT_ID] underwent a meticulous review.",
+        "The educational services for district id [DISTRICT_ID] have undergone an exhaustive review, securing appropriate financial support for all schools.",
+        "Ensuring that all schools obtain appropriate financial support, officials thoroughly reviewed the educational services for district id [DISTRICT_ID].",
+        "After a detailed examination of the educational services for district id [DISTRICT_ID], it was confirmed that each school will receive appropriate financial support.",
+        "The district id [DISTRICT_ID] educational services were carefully inspected to make certain that all schools are provided with appropriate financial support.",
+        "A meticulous assessment of the educational services for district id [DISTRICT_ID] was performed so that every school receives appropriate financial support.",
+        "To guarantee appropriate financial support for all schools, a thorough review of the educational services for district id [DISTRICT_ID] was conducted.",
+        "The thorough review of district id [DISTRICT_ID] educational services ensures that each school receives appropriate financial support.",
+        "All schools are set to receive appropriate financial support following a comprehensive review of the educational services for district id [DISTRICT_ID].",
+        "A detailed review of the educational services for district id [DISTRICT_ID] has been carried out to confirm appropriate financial support for every school.",
+        "Ensuring proper financial backing for each school, the educational services of district id [DISTRICT_ID] have been extensively examined.",
+        "The educational services belonging to district id [DISTRICT_ID] have been rigorously reviewed to secure appropriate financial support for all schools.",
+        "By thoroughly reviewing the educational services for district id [DISTRICT_ID], authorities have ensured that every school obtains appropriate financial support."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensure": [
+          "ensure",
+          "assure",
+          "guarantee",
+          "secure"
+        ],
+        "services": [
+          "services"
+        ],
+        "receive": [
+          "receive",
+          "obtain",
+          "get"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "appropriate": [
+          "appropriate",
+          "earmark",
+          "reserve"
+        ],
+        "support": [
+          "support",
+          "back",
+          "backing",
+          "endorse",
+          "underpin",
+          "reinforcement"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

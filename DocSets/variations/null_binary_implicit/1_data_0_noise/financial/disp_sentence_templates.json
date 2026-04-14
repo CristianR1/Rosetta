@@ -1,0 +1,278 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6a5511865dcb4afb": "disp_id",
+    "3b2585f034eb46fd": "client_id",
+    "ce3d086bb44e4007": "account_id",
+    "6d2d4310fe9c49d5": "type"
+  },
+  "templates": [
+    {
+      "original": "The financial report confirms that the client id [CLIENT_ID] is associated with a portfolio exceeding one million dollars in assets.",
+      "template_pattern": "The financial report confirms that the client id [CLIENT_ID] is associated with a portfolio exceeding one million dollars in assets.",
+      "primary_data_fields": [
+        "client_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The financial report verifies that client id [CLIENT_ID] holds a portfolio worth more than one million dollars.",
+        "According to the financial report, client id [CLIENT_ID] is linked to assets exceeding one million dollars.",
+        "It is confirmed in the financial report that client id [CLIENT_ID] possesses a portfolio surpassing one million dollars.",
+        "The financial report shows that the portfolio of client id [CLIENT_ID] tops one million dollars in value.",
+        "Client id [CLIENT_ID] is associated with a portfolio over one million dollars, as stated in the financial report.",
+        "In the financial report, it is noted that client id [CLIENT_ID] has assets exceeding one million dollars.",
+        "The financial report indicates that client id [CLIENT_ID] controls a portfolio greater than one million dollars.",
+        "As per the financial report, the portfolio tied to client id [CLIENT_ID] exceeds one million dollars.",
+        "The financial report confirms that a portfolio belonging to client id [CLIENT_ID] is above one million dollars.",
+        "Client id [CLIENT_ID] appears in the financial report with a portfolio value over one million dollars.",
+        "According to the financial report, the assets of client id [CLIENT_ID] are more than one million dollars.",
+        "The financial report records that client id [CLIENT_ID] maintains a portfolio exceeding one million dollars.",
+        "A portfolio exceeding one million dollars is linked to client id [CLIENT_ID] in the financial report.",
+        "In the financial report, client id [CLIENT_ID] is shown to have a portfolio greater than one million dollars.",
+        "The financial report reveals that client id [CLIENT_ID] holds assets surpassing one million dollars."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "exceeding": [
+          "exceeding",
+          "surpassing"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "portfolio": [
+          "portfolio"
+        ],
+        "million": [
+          "million"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "dollars": [
+          "dollars"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "As the OWNER of the account, Maria has full control over its management and decision-making processes.",
+      "template_pattern": "As the [TYPE] of the account, Maria has full control over its management and decision-making processes.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "As the [TYPE] of the account, Maria possesses full control over its management and decision-making processes.",
+        "Maria, acting as the [TYPE] of the account, has full control over its management and decision-making processes.",
+        "The account’s [TYPE] is Maria, who holds full control over its management and decision-making processes.",
+        "Full control over its management and decision-making processes belongs to Maria as the [TYPE] of the account.",
+        "Being the [TYPE] of the account, Maria exercises full control over its management and decision-making processes.",
+        "The [TYPE] title for the account is held by Maria, granting her full control over its management and decision-making processes.",
+        "Maria is designated as the [TYPE] of the account and therefore has full control over its management and decision-making processes.",
+        "Full control over its management and decision-making processes is granted to Maria, the [TYPE] of the account.",
+        "As the [TYPE], Maria controls the account with full control over its management and decision-making processes.",
+        "The account’s management and decision-making processes are under Maria’s full control because she is the [TYPE].",
+        "Maria, the [TYPE] of the account, retains full control over its management and decision-making processes.",
+        "With the [TYPE] role, Maria commands full control over its management and decision-making processes.",
+        "The [TYPE] of the account, namely Maria, wields full control over its management and decision-making processes.",
+        "Because Maria is the [TYPE], she enjoys full control over its management and decision-making processes.",
+        "Full control over its management and decision-making processes is Maria’s, given her status as the [TYPE] of the account."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "management": [
+          "management",
+          "direction"
+        ],
+        "over": [
+          "over",
+          "ended",
+          "concluded",
+          "complete",
+          "terminated"
+        ],
+        "maria": [
+          "maria"
+        ],
+        "processes": [
+          "processes"
+        ],
+        "making": [
+          "making"
+        ],
+        "control": [
+          "control",
+          "restraint",
+          "command",
+          "check",
+          "mastery",
+          "dominance"
+        ],
+        "account": [
+          "account",
+          "explanation",
+          "report",
+          "accounting"
+        ],
+        "decision": [
+          "decision",
+          "determination",
+          "conclusion"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account id, designated as 1, signifies an active primary account within the financial data report, confirming its operational status.",
+      "template_pattern": "The transaction summary references the account id [ACCOUNT_ID] to ensure accurate tracking of all financial activities for the period.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To guarantee precise monitoring of every financial activity during the period, the transaction summary cites the account id [ACCOUNT_ID].",
+        "The account id [ACCOUNT_ID] is referenced in the transaction summary to provide accurate tracking of all financial activities for the period.",
+        "Accurate tracking of all period financial activities is achieved by the transaction summary referencing the account id [ACCOUNT_ID].",
+        "In the transaction summary, the account id [ACCOUNT_ID] is mentioned to ensure the period’s financial activities are tracked accurately.",
+        "Ensuring precise tracking of the period’s financial activities, the transaction summary points to the account id [ACCOUNT_ID].",
+        "The transaction summary, by referencing the account id [ACCOUNT_ID], secures accurate monitoring of all financial activities for the period.",
+        "For the period’s financial activities to be tracked accurately, the account id [ACCOUNT_ID] is included in the transaction summary.",
+        "Referencing the account id [ACCOUNT_ID], the transaction summary enables exact tracking of all financial activities within the period.",
+        "All financial activities for the period are accurately tracked because the transaction summary references the account id [ACCOUNT_ID].",
+        "The account id [ACCOUNT_ID] appears in the transaction summary, ensuring that every financial activity for the period is tracked accurately.",
+        "By mentioning the account id [ACCOUNT_ID] in the transaction summary, accurate tracking of the period’s financial activities is ensured.",
+        "Accurate period‑wide tracking of financial activities is provided when the transaction summary cites the account id [ACCOUNT_ID].",
+        "The transaction summary’s reference to the account id [ACCOUNT_ID] guarantees precise monitoring of all financial activities for the period.",
+        "To maintain exact tracking of all financial activities during the period, the account id [ACCOUNT_ID] is referenced in the transaction summary.",
+        "Including the account id [ACCOUNT_ID] in the transaction summary ensures that every financial activity for the period is tracked accurately."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensure": [
+          "ensure",
+          "guarantee",
+          "secure",
+          "ascertain",
+          "assure"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "accurate": [
+          "accurate",
+          "precise",
+          "exact"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "references": [
+          "references"
+        ],
+        "summary": [
+          "summary"
+        ],
+        "account": [
+          "account",
+          "report",
+          "chronicle",
+          "explanation",
+          "history"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The disp id assigned to this financial entity is 1, indicating its unique designation within the consolidated reporting framework.",
+      "template_pattern": "The report highlights the disp id [DISP_ID] as the reference number for tracking each transaction’s financial summary.",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The report emphasizes that the disp id [DISP_ID] serves as the reference number for tracking the financial summary of each transaction.",
+        "Highlighted in the report, the disp id [DISP_ID] functions as the reference number used to monitor every transaction’s financial summary.",
+        "In the financial report, the disp id [DISP_ID] is identified as the reference number for overseeing each transaction’s summary of finances.",
+        "Each transaction’s financial summary is tracked using the disp id [DISP_ID], which the report cites as the reference number.",
+        "The document points out the disp id [DISP_ID] as the reference number to trace the financial summary of every transaction.",
+        "According to the report, the disp id [DISP_ID] acts as the reference number for following each transaction’s financial summary.",
+        "The disp id [DISP_ID] is highlighted in the report as the reference number for monitoring the financial summary of each transaction.",
+        "For tracking the financial summary of each transaction, the report designates the disp id [DISP_ID] as the reference number.",
+        "The report designates the disp id [DISP_ID] as the reference number used to track each transaction’s financial summary.",
+        "As noted in the report, the disp id [DISP_ID] functions as the reference number for tracing the financial summary of each transaction.",
+        "The financial summary of each transaction can be tracked via the disp id [DISP_ID], which the report flags as the reference number.",
+        "In the report, the disp id [DISP_ID] is presented as the reference number for following the financial summary of each transaction.",
+        "The report marks the disp id [DISP_ID] as the reference number used for tracking the financial summary of each transaction.",
+        "Using the disp id [DISP_ID] as the reference number, the report tracks the financial summary for every transaction.",
+        "The disp id [DISP_ID] is cited in the report as the reference number to monitor each transaction’s financial summary."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "mention",
+          "source",
+          "quotation"
+        ],
+        "summary": [
+          "summary"
+        ],
+        "tracking": [
+          "tracking",
+          "track"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "disp": [
+          "disp"
+        ],
+        "highlights": [
+          "highlights"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

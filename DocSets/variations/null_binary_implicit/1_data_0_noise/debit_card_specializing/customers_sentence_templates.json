@@ -1,0 +1,194 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "b9d6255e0eb24c65": "CustomerID",
+    "8f0584b4620d43f3": "Segment",
+    "43616a01e5144af6": "Currency"
+  },
+  "templates": [
+    {
+      "original": "CustomerID 3 recently made a purchase using their debit card, adding another transaction to their growing history.",
+      "template_pattern": "CustomerID [CUSTOMERID] recently made a purchase using their debit card, adding another transaction to their growing history.",
+      "primary_data_fields": [
+        "CustomerID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "CustomerID [CUSTOMERID] recently made a purchase using their debit card, adding another transaction to their growing history.",
+        "A purchase was completed by CustomerID [CUSTOMERID] with their debit card, which adds another transaction to their growing history.",
+        "Using a debit card, CustomerID [CUSTOMERID] recently bought something, thereby adding another transaction to their growing history.",
+        "Another transaction has been recorded in the growing history of CustomerID [CUSTOMERID] after they used their debit card for a purchase.",
+        "CustomerID [CUSTOMERID]’s recent debit‑card purchase contributes another transaction to their growing history.",
+        "Through their debit card, CustomerID [CUSTOMERID] made a purchase, increasing their growing history with another transaction.",
+        "The growing history of CustomerID [CUSTOMERID] now includes another transaction following a recent debit‑card purchase.",
+        "CustomerID [CUSTOMERID], via debit card, completed a purchase that adds another transaction to their growing history.",
+        "A recent purchase made with a debit card by CustomerID [CUSTOMERID] results in another transaction being added to their growing history.",
+        "Another transaction was added to CustomerID [CUSTOMERID]’s growing history after they bought something using their debit card.",
+        "CustomerID [CUSTOMERID] has just used their debit card to buy an item, thereby adding another transaction to their growing history.",
+        "By using a debit card, CustomerID [CUSTOMERID] recently executed a purchase, which appends another transaction to their growing history.",
+        "The latest debit‑card purchase by CustomerID [CUSTOMERID] introduces another transaction into their growing history.",
+        "CustomerID [CUSTOMERID]’s purchase, made with a debit card, adds another transaction to the growing history they are building.",
+        "Through a debit card, CustomerID [CUSTOMERID] recently performed a purchase, contributing another transaction to their growing history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "adding": [
+          "adding"
+        ],
+        "recently": [
+          "recently",
+          "lately",
+          "latterly"
+        ],
+        "another": [
+          "another"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "growing": [
+          "growing"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "using": [
+          "using"
+        ],
+        "debit": [
+          "debit"
+        ]
+      },
+      "field_data_types": {
+        "CustomerID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The SME Segment focuses on small and medium enterprises, allowing targeted marketing and analysis of their transaction behaviors.",
+      "template_pattern": "The [SEGMENT] Segment focuses on small and medium enterprises, allowing targeted marketing and analysis of their transaction behaviors.",
+      "primary_data_fields": [
+        "Segment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [SEGMENT] Segment concentrates on small and medium enterprises, enabling targeted marketing and the analysis of their transaction behaviors.",
+        "Targeted marketing and analysis of transaction behaviors are facilitated by the [SEGMENT] Segment, which focuses on small and medium enterprises.",
+        "Focusing on small and medium enterprises, the [SEGMENT] Segment permits targeted marketing and the examination of their transaction behaviors.",
+        "Small and medium enterprises are the focus of the [SEGMENT] Segment, allowing for targeted marketing and a review of their transaction behaviors.",
+        "By concentrating on small and medium enterprises, the [SEGMENT] Segment makes possible targeted marketing and analysis of their transaction behaviors.",
+        "The [SEGMENT] Segment's focus on small and medium enterprises allows targeted marketing and the analysis of their transaction behaviors.",
+        "Targeted marketing and transaction‑behavior analysis become possible thanks to the [SEGMENT] Segment’s focus on small and medium enterprises.",
+        "With its emphasis on small and medium enterprises, the [SEGMENT] Segment enables targeted marketing and the study of their transaction behaviors.",
+        "The [SEGMENT] Segment, aimed at small and medium enterprises, provides the capability for targeted marketing and analysis of their transaction behaviors.",
+        "Targeted marketing and the analysis of transaction behaviors are enabled by the [SEGMENT] Segment’s focus on small and medium enterprises.",
+        "Because the [SEGMENT] Segment concentrates on small and medium enterprises, targeted marketing and analysis of their transaction behaviors are allowed.",
+        "The [SEGMENT] Segment directs its attention to small and medium enterprises, thereby allowing targeted marketing and analysis of their transaction behaviors.",
+        "Targeted marketing and the analysis of their transaction behaviors are allowed through the [SEGMENT] Segment’s focus on small and medium enterprises.",
+        "By directing its focus toward small and medium enterprises, the [SEGMENT] Segment permits targeted marketing and analysis of their transaction behaviors.",
+        "The [SEGMENT] Segment’s emphasis on small and medium enterprises facilitates targeted marketing and analysis of their transaction behaviors."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "targeted": [
+          "targeted"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "behaviors": [
+          "behaviors",
+          "doings"
+        ],
+        "medium": [
+          "medium",
+          "average",
+          "intermediate"
+        ],
+        "enterprises": [
+          "enterprises"
+        ],
+        "allowing": [
+          "allowing"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "Segment": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The debit card transaction was completed using EUR, highlighting the importance of this currency in customer financial interactions.",
+      "template_pattern": "The debit card transaction was completed using [CURRENCY], highlighting the importance of this currency in customer financial interactions.",
+      "primary_data_fields": [
+        "Currency"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The debit‑card transaction was finalized with [CURRENCY], underscoring the role of Currency in customer financial interactions.",
+        "Using [CURRENCY], the debit card transaction was completed, which highlights the significance of Currency for customers' financial dealings.",
+        "[CURRENCY] was the Currency employed in the completed debit card transaction, emphasizing Currency's importance in client financial activity.",
+        "The completed debit card transaction utilized [CURRENCY], drawing attention to how vital Currency is in customer financial interactions.",
+        "In this debit card transaction, [CURRENCY] was used, showcasing the critical nature of Currency within customer finance.",
+        "[CURRENCY] served as the Currency for the finished debit card transaction, pointing out its relevance in customers' financial exchanges.",
+        "The debit card transaction, completed with [CURRENCY], illustrates the pivotal role of Currency in the financial interactions of customers.",
+        "By employing [CURRENCY], the debit card transaction was concluded, highlighting the essential place of Currency in client financial interactions.",
+        "The transaction on the debit card was wrapped up using [CURRENCY], bringing focus to the importance of Currency for customer finance.",
+        "With [CURRENCY], the debit card transaction reached completion, emphasizing Currency's key position in customer financial dealings.",
+        "[CURRENCY] acted as the Currency in the finalized debit card transaction, underlining its importance to customers' financial interactions.",
+        "The finalized debit card transaction employed [CURRENCY], signaling the significance of Currency in the financial exchanges of customers.",
+        "Completing the debit card transaction with [CURRENCY] draws attention to Currency's crucial role in customer financial activity.",
+        "[CURRENCY] was applied as Currency in the completed debit card transaction, stressing its importance in client financial interactions.",
+        "The debit card transaction was sealed using [CURRENCY], highlighting how central Currency is to customers' financial interactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "importance": [
+          "importance"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "card": [
+          "card"
+        ],
+        "using": [
+          "using"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "interactions": [
+          "interactions"
+        ]
+      },
+      "field_data_types": {
+        "Currency": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

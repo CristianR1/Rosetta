@@ -1,0 +1,277 @@
+{
+  "document_context": "business data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6bf53927fdbc440e": "GasStationID",
+    "4a9551742cac4866": "ChainID",
+    "b7c51b442aaa4c27": "Country",
+    "688a6d0d6b7e4c96": "Segment"
+  },
+  "templates": [
+    {
+      "original": "The GasStationID 44 is crucial for managing debit card transactions at that specific fuel station.",
+      "template_pattern": "The GasStationID [GASSTATIONID] is crucial for managing debit card transactions at that specific fuel station.",
+      "primary_data_fields": [
+        "GasStationID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Managing debit card transactions at that particular fuel station hinges on the GasStationID [GASSTATIONID].",
+        "The GasStationID [GASSTATIONID] plays a vital role in handling debit card transactions for this fuel station.",
+        "Debit card processing at the designated fuel station is dependent upon GasStationID [GASSTATIONID].",
+        "For that specific fuel station, the GasStationID [GASSTATIONID] is essential to the administration of debit card transactions.",
+        "It is the GasStationID [GASSTATIONID] that ensures proper management of debit card transactions at the referenced fuel station.",
+        "At the mentioned fuel station, debit card transactions are overseen through GasStationID [GASSTATIONID].",
+        "The critical element for debit card transaction control at this fuel station is GasStationID [GASSTATIONID].",
+        "Debit card transaction handling at that fuel station relies on the GasStationID [GASSTATIONID].",
+        "GasStationID [GASSTATIONID] is the key identifier for managing debit card transactions at the specified fuel station.",
+        "In the context of that fuel station, the GasStationID [GASSTATIONID] is indispensable for debit card transaction management.",
+        "The proper management of debit card transactions at the fuel station in question is facilitated by GasStationID [GASSTATIONID].",
+        "For overseeing debit card transactions at the particular fuel station, the GasStationID [GASSTATIONID] is required.",
+        "Debit card transaction oversight at this fuel station cannot be performed without GasStationID [GASSTATIONID].",
+        "The GasStationID [GASSTATIONID] serves as the cornerstone for handling debit card transactions at the targeted fuel station.",
+        "At the specific fuel station, the management of debit card transactions depends on GasStationID [GASSTATIONID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "station": [
+          "station",
+          "post"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "fuel": [
+          "fuel"
+        ],
+        "managing": [
+          "managing",
+          "overseeing",
+          "supervising",
+          "handling",
+          "dealing"
+        ]
+      },
+      "field_data_types": {
+        "GasStationID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The gas station chain with ChainID 13 has seen a significant increase in customer loyalty over the past year.",
+      "template_pattern": "The gas station chain with ChainID [CHAINID] has seen a significant increase in customer loyalty over the past year.",
+      "primary_data_fields": [
+        "ChainID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Over the past year, the gas station chain bearing ChainID [CHAINID] has experienced a marked rise in customer loyalty.",
+        "Customer loyalty has grown substantially for the gas station chain identified by ChainID [CHAINID] during the last year.",
+        "A notable boost in customer loyalty has been recorded for the gas station chain with ChainID [CHAINID] over the previous year.",
+        "During the past twelve months, the gas station chain that carries ChainID [CHAINID] has seen its customer loyalty increase dramatically.",
+        "The gas station chain, ChainID [CHAINID], has witnessed a considerable improvement in customer loyalty throughout the past year.",
+        "In the last year, a significant surge in customer loyalty was observed for the gas station chain possessing ChainID [CHAINID].",
+        "Customer loyalty has risen sharply for the gas station chain designated ChainID [CHAINID] over the course of the past year.",
+        "Across the previous year, the gas station chain bearing the identifier ChainID [CHAINID] has reported a substantial climb in customer loyalty.",
+        "A pronounced increase in customer loyalty has been noted for the gas station chain with ChainID [CHAINID] over the past year.",
+        "The past year has brought a sizable uptick in customer loyalty to the gas station chain that holds ChainID [CHAINID].",
+        "For the gas station chain marked with ChainID [CHAINID], customer loyalty has grown markedly during the last year.",
+        "Over the last twelve months, the gas station chain carrying ChainID [CHAINID] has experienced a significant boost in customer loyalty.",
+        "A strong rise in customer loyalty was recorded for the gas station chain, ChainID [CHAINID], throughout the previous year.",
+        "The gas station chain identified as ChainID [CHAINID] has seen its customer loyalty rise considerably over the past year.",
+        "During the past year, the chain of gas stations with ChainID [CHAINID] reported a notable increase in customer loyalty."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "station": [
+          "station",
+          "post"
+        ],
+        "loyalty": [
+          "loyalty",
+          "dedication",
+          "allegiance",
+          "commitment"
+        ],
+        "past": [
+          "past",
+          "preceding"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "seen": [
+          "seen"
+        ],
+        "chain": [
+          "chain",
+          "string"
+        ],
+        "over": [
+          "over",
+          "concluded",
+          "ended",
+          "terminated",
+          "complete"
+        ],
+        "increase": [
+          "increase",
+          "addition",
+          "growth",
+          "increment",
+          "gain"
+        ]
+      },
+      "field_data_types": {
+        "ChainID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The gas station network's expansion in CZE highlights its strategic importance in the region's overall fuel distribution.",
+      "template_pattern": "The gas station network's expansion in [COUNTRY] highlights its strategic importance in the region's overall fuel distribution.",
+      "primary_data_fields": [
+        "Country"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The expansion of the gas station network in [COUNTRY] underscores its strategic role in the region's total fuel distribution.",
+        "In [COUNTRY], the gas station network's growth emphasizes its strategic significance for overall fuel distribution across the region.",
+        "The region's overall fuel distribution is strategically bolstered by the gas station network's expansion in [COUNTRY].",
+        "Strategic importance in regional fuel distribution is highlighted by the gas station network's expansion in [COUNTRY].",
+        "The gas station network expands in [COUNTRY], highlighting its strategic value for the region's fuel distribution as a whole.",
+        "Highlighting its strategic relevance, the gas station network's expansion in [COUNTRY] impacts the region's entire fuel distribution.",
+        "The expansion of the gas station network within [COUNTRY] points to its strategic importance for the region's comprehensive fuel distribution.",
+        "By expanding in [COUNTRY], the gas station network demonstrates its strategic significance for the region's overall fuel distribution.",
+        "The gas station network's growth in [COUNTRY] serves as a clear indicator of its strategic role in the region's fuel distribution system.",
+        "In the region's fuel distribution framework, the gas station network's expansion in [COUNTRY] is a strategic highlight.",
+        "The strategic importance of the gas station network in the region's fuel distribution is highlighted by its expansion in [COUNTRY].",
+        "[COUNTRY] sees the gas station network's expansion, which underscores its strategic importance for the region's total fuel distribution.",
+        "The region's overall fuel distribution gains strategic advantage from the gas station network's expansion in [COUNTRY].",
+        "With its expansion in [COUNTRY], the gas station network accentuates its strategic importance to the region's fuel distribution.",
+        "The strategic role of the gas station network in the region's fuel distribution is emphasized by its expansion in [COUNTRY]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "station": [
+          "station",
+          "place",
+          "post"
+        ],
+        "overall": [
+          "overall"
+        ],
+        "network": [
+          "network",
+          "web",
+          "mesh"
+        ],
+        "highlights": [
+          "highlights",
+          "highlight"
+        ],
+        "strategic": [
+          "strategic"
+        ],
+        "importance": [
+          "importance"
+        ],
+        "expansion": [
+          "expansion",
+          "enlargement"
+        ],
+        "distribution": [
+          "distribution"
+        ]
+      },
+      "field_data_types": {
+        "Country": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Segment focuses on offering Value for money, attracting customers who prioritize affordable and efficient service at the gas station.",
+      "template_pattern": "The Segment focuses on offering [SEGMENT], attracting customers who prioritize affordable and efficient service at the gas station.",
+      "primary_data_fields": [
+        "Segment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Segment emphasizes [SEGMENT], drawing in customers who value affordable and efficient service at the gas station.",
+        "Focusing on [SEGMENT], the Segment targets patrons who seek affordable and efficient service at the gas station.",
+        "Affordable and efficient service at the gas station is prioritized by the Segment, which focuses on [SEGMENT].",
+        "With a focus on [SEGMENT], the Segment appeals to buyers who prefer affordable and efficient service at the gas station.",
+        "The Segment is oriented toward [SEGMENT], capturing the interest of those who prioritize affordable and efficient service at the gas station.",
+        "By offering [SEGMENT], the Segment lures customers who place importance on affordable and efficient service at the gas station.",
+        "[SEGMENT] is the core of the Segment, which engages consumers seeking affordable and efficient service at the gas station.",
+        "The Segment, centered on [SEGMENT], draws customers who prioritize affordable and efficient service at the gas station.",
+        "Emphasizing [SEGMENT], the Segment attracts clientele that values affordable and efficient service at the gas station.",
+        "The Segment’s focus on [SEGMENT] pulls in shoppers who favor affordable and efficient service at the gas station.",
+        "Targeting those who value affordable and efficient service at the gas station, the Segment highlights [SEGMENT].",
+        "For customers who prioritize affordable and efficient service at the gas station, the Segment showcases [SEGMENT].",
+        "The Segment, which stresses [SEGMENT], is designed to appeal to patrons seeking affordable and efficient service at the gas station.",
+        "By centering on [SEGMENT], the Segment reaches out to consumers who look for affordable and efficient service at the gas station.",
+        "[SEGMENT] drives the Segment, attracting individuals who prioritize affordable and efficient service at the gas station."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "station": [
+          "station",
+          "post"
+        ],
+        "service": [
+          "service"
+        ],
+        "offering": [
+          "offering",
+          "tender",
+          "bid",
+          "offer"
+        ],
+        "customers": [
+          "customers"
+        ],
+        "affordable": [
+          "affordable"
+        ],
+        "attracting": [
+          "attracting"
+        ],
+        "prioritize": [
+          "prioritize",
+          "prioritise"
+        ],
+        "focuses": [
+          "focuses"
+        ]
+      },
+      "field_data_types": {
+        "Segment": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

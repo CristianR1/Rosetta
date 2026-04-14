@@ -1,0 +1,270 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "e0c180e7c4b644bf": "id",
+    "9b21a18da67344f6": "date",
+    "07564801199c4b4d": "text",
+    "21150095b80a4c21": "uuid"
+  },
+  "templates": [
+    {
+      "original": "The ruling with the identifier 1 provides a crucial clarification for the game's complex interactions.",
+      "template_pattern": "The ruling with the identifier [ID] provides a crucial clarification for the game's complex interactions.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A crucial clarification for the game's complex interactions is offered by the ruling that carries identifier [ID].",
+        "With identifier [ID], the ruling delivers an essential clarification regarding the game's intricate interactions.",
+        "The ruling, identified as [ID], supplies a vital clarification for the game's complex interactions.",
+        "Providing a key clarification for the game's complex interactions, the ruling bears identifier [ID].",
+        "Identifier [ID] marks the ruling that clarifies, in a crucial way, the game's complex interactions.",
+        "The game's complex interactions receive a pivotal clarification from the ruling whose identifier is [ID].",
+        "By means of identifier [ID], the ruling furnishes an important clarification for the game's complex interactions.",
+        "A crucial clarification for the game's complex interactions is provided through the ruling with identifier [ID].",
+        "The ruling, with identifier [ID], serves to elucidate the game's complex interactions in a critical manner.",
+        "Through identifier [ID], the ruling offers a significant clarification concerning the game's complex interactions.",
+        "The game's complex interactions are clarified in a crucial way by the ruling carrying identifier [ID].",
+        "Having identifier [ID], the ruling contributes a vital clarification to the game's complex interactions.",
+        "In the context of the game's complex interactions, the ruling (identifier [ID]) supplies a crucial clarification.",
+        "The ruling identified as [ID] provides an essential clarification for the game's complex interactions.",
+        "A pivotal clarification for the game's complex interactions comes from the ruling with identifier [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "game": [
+          "game"
+        ],
+        "provides": [
+          "provides",
+          "furnishes",
+          "offers",
+          "supplies"
+        ],
+        "clarification": [
+          "clarification",
+          "elucidation"
+        ],
+        "ruling": [
+          "ruling",
+          "decree",
+          "rule",
+          "reign"
+        ],
+        "interactions": [
+          "interactions",
+          "engagements",
+          "exchanges",
+          "collaborations",
+          "communications",
+          "contacts"
+        ],
+        "complex": [
+          "complex",
+          "composite"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The ruling for the trading card game card was officially issued on 2007-07-15, marking an important update in game regulations.",
+      "template_pattern": "The ruling for the trading card game card was officially issued on [DATE], marking an important update in game regulations.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE], the ruling for the trading card game card was officially released, representing a significant update to game regulations.",
+        "The official issuance of the ruling for the trading card game card occurred on [DATE], marking a notable change in the game's regulatory framework.",
+        "A crucial amendment to game regulations was signaled when the ruling for the trading card game card was formally issued on [DATE].",
+        "The trading card game card's ruling received official issuance on [DATE], thereby updating the game's regulations in an important way.",
+        "With the official issuance on [DATE], the ruling concerning the trading card game card introduced an important regulatory update.",
+        "On the date [DATE], officials issued the ruling for the trading card game card, which constitutes a key update to game regulations.",
+        "The ruling that governs the trading card game card was formally issued on [DATE], marking an essential update to the regulation of the game.",
+        "An important update to game regulations came on [DATE] when the ruling for the trading card game card was officially promulgated.",
+        "The official release of the ruling for the trading card game card happened on [DATE], signifying a major regulatory revision.",
+        "On [DATE], the governing body officially issued the ruling for the trading card game card, effecting an important regulatory change.",
+        "The trading card game card's ruling was officially issued on [DATE], denoting a significant update in the game's regulatory landscape.",
+        "A pivotal regulatory update was made on [DATE] as the ruling for the trading card game card was formally released.",
+        "The issuance of the ruling for the trading card game card, officially dated [DATE], marks a noteworthy amendment to game regulations.",
+        "Officially dated [DATE], the ruling for the trading card game card represents an important update to the game's regulations.",
+        "When the ruling for the trading card game card was officially issued on [DATE], it introduced a key update to the regulations governing the game."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade"
+        ],
+        "issued": [
+          "issued",
+          "publish",
+          "release"
+        ],
+        "game": [
+          "game"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "brand",
+          "grade"
+        ],
+        "important": [
+          "important",
+          "crucial",
+          "significant"
+        ],
+        "ruling": [
+          "ruling",
+          "decree",
+          "rule"
+        ],
+        "regulations": [
+          "regulations"
+        ],
+        "update": [
+          "update"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the heat of the game, remember that you draw the card when Bandage resolves, not when the damage is actually prevented.",
+      "template_pattern": "In the heat of the game, remember that [TEXT]",
+      "primary_data_fields": [
+        "text"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the heat of the game, remember that [TEXT]",
+        "During a heated match, keep in mind [TEXT]",
+        "When the game intensifies, be sure to [TEXT].",
+        "Amidst the game's heat, remember to [TEXT].",
+        "Amid the intensity of the match, keep in mind that [TEXT]",
+        "While the competition burns bright, note that [TEXT]",
+        "In a scorching game scenario, recall that [TEXT]",
+        "As the match heats up, ensure [TEXT]",
+        "text: Amid the game's intensity, keep in mind that [TEXT]",
+        "When the gameplay reaches a peak, remember to [TEXT]",
+        "Amid the intensity of the game, be sure to keep in mind that [TEXT].",
+        "While the game is ablaze, the correct timing is to [TEXT].",
+        "Across the heated battlefield, [TEXT]",
+        "In the blaze of competition, be aware that [TEXT]",
+        "When the action reaches its hottest point, [TEXT]"
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "remember": [
+          "remember",
+          "recall",
+          "recollect"
+        ],
+        "game": [
+          "game"
+        ],
+        "heat": [
+          "heat",
+          "warmth",
+          "heating"
+        ]
+      },
+      "field_data_types": {
+        "text": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Every time a game player questions a rule, they might refer to ruling 6d268c95-c176-5766-9a46-c14f739aba1c for clarity.",
+      "template_pattern": "Every time a game player questions a rule, they might refer to ruling [UUID] for clarity.",
+      "primary_data_fields": [
+        "uuid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Whenever a player challenges a rule, they may consult the ruling [UUID] for clarification.",
+        "If a game participant questions a regulation, the ruling [UUID] can be referenced for clarity.",
+        "Should a player raise a rule inquiry, they are likely to look up ruling [UUID] for guidance.",
+        "The ruling [UUID] is often cited for clarity whenever a game player doubts a rule.",
+        "In cases where a player doubts a rule, the appropriate reference is ruling [UUID].",
+        "When a rule is questioned by a player, ruling [UUID] may be consulted to provide clarity.",
+        "A game player who questions a rule might turn to ruling [UUID] for clear interpretation.",
+        "For clarity, a player questioning a rule can refer to the ruling [UUID].",
+        "The reference ruling [UUID] is used for clarification whenever a player doubts a rule.",
+        "Whenever a rule is challenged, the player may check ruling [UUID] for clarification.",
+        "If a player raises a question about a rule, the clarification can be found in ruling [UUID].",
+        "Players who question a rule are advised to consult ruling [UUID] for clarity.",
+        "In the event that a game player questions a rule, ruling [UUID] serves as the clarification source.",
+        "The ruling [UUID] provides clarity and is typically referenced when a player questions a rule.",
+        "When a rule is under scrutiny by a player, the appropriate clarification is the ruling [UUID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "actor",
+          "participant"
+        ],
+        "every": [
+          "every"
+        ],
+        "clarity": [
+          "clarity",
+          "lucidity",
+          "clearness",
+          "lucidness"
+        ],
+        "game": [
+          "game"
+        ],
+        "questions": [
+          "questions",
+          "queries",
+          "inquiries",
+          "enquiries"
+        ],
+        "rule": [
+          "rule",
+          "regulation",
+          "decree",
+          "principle",
+          "convention"
+        ],
+        "ruling": [
+          "ruling",
+          "decree",
+          "reign",
+          "rule"
+        ],
+        "might": [
+          "might",
+          "power"
+        ]
+      },
+      "field_data_types": {
+        "uuid": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

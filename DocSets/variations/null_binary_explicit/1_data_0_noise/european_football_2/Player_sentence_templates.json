@@ -1,0 +1,502 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "588665962c4840f8": "id",
+    "d48a8f52d6ef41fc": "player_api_id",
+    "5f8295efd44f4032": "player_name",
+    "88b9331d4867460d": "player_fifa_api_id",
+    "e25893d190ff43f7": "birthday",
+    "18f7167039a641ff": "height",
+    "e04ef4751cec4522": "weight"
+  },
+  "templates": [
+    {
+      "original": "The football player with the unique identifier 1 has achieved remarkable milestones in his career.",
+      "template_pattern": "The football player with the unique identifier [ID] has achieved remarkable milestones in his career.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football player identified as id [ID] has reached impressive milestones throughout his career.",
+        "Remarkable career milestones have been achieved by the footballer bearing id [ID].",
+        "In his career, the football athlete with id [ID] has accomplished notable milestones.",
+        "Id [ID], the football player, has marked his career with extraordinary achievements.",
+        "Throughout his professional journey, the football player carrying id [ID] has attained significant milestones.",
+        "Notable milestones characterize the career of the football player known as id [ID].",
+        "The career of the football player, id [ID], is highlighted by remarkable milestones.",
+        "With id [ID], the footballer has secured impressive milestones in his career.",
+        "Significant milestones have been recorded in the career of the football player id [ID].",
+        "The football player id [ID], throughout his career, has realized remarkable milestones.",
+        "Achievements of a remarkable nature have been amassed by the football player id [ID] during his career.",
+        "Throughout his tenure, the football player bearing id [ID] has earned notable career milestones.",
+        "The football athlete, id [ID], has accomplished extraordinary milestones over the course of his career.",
+        "In his professional life, the football player with id [ID] has amassed impressive milestones.",
+        "Remarkable milestones have been attained by id [ID], the football player, over his career."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "actor",
+          "participant"
+        ],
+        "career": [
+          "career",
+          "vocation"
+        ],
+        "remarkable": [
+          "remarkable",
+          "singular",
+          "noteworthy"
+        ],
+        "football": [
+          "football"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "achieved": [
+          "achieved",
+          "reach",
+          "attain",
+          "accomplish",
+          "achieve"
+        ],
+        "milestones": [
+          "milestones"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The player with player_api_id 505942 has shown remarkable progress throughout his football career in Europe.",
+      "template_pattern": "The player with player_api_id [PLAYER_API_ID] has shown remarkable progress throughout his football career in Europe.",
+      "primary_data_fields": [
+        "player_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Throughout his European football career, the player bearing player api id [PLAYER_API_ID] has demonstrated remarkable progress.",
+        "Remarkable progress has been displayed by the player whose player api id is [PLAYER_API_ID] during his football tenure across Europe.",
+        "In Europe, the football journey of the player with player api id [PLAYER_API_ID] reveals significant advancement.",
+        "The football career of the player identified by player api id [PLAYER_API_ID] in Europe has shown impressive development.",
+        "Across his European football career, player api id [PLAYER_API_ID] has made notable strides.",
+        "Notable improvement characterizes the European football career of the player holding player api id [PLAYER_API_ID].",
+        "The player, player api id [PLAYER_API_ID], has achieved considerable progress throughout his football career in Europe.",
+        "During his football years in Europe, the athlete with player api id [PLAYER_API_ID] has exhibited extraordinary growth.",
+        "Significant advancement has marked the European football career of the player with player api id [PLAYER_API_ID].",
+        "The European football path of the player bearing player api id [PLAYER_API_ID] is distinguished by remarkable progress.",
+        "With player api id [PLAYER_API_ID], the footballer has progressed impressively over his career across Europe.",
+        "Throughout his career in European football, the player possessing player api id [PLAYER_API_ID] has shown outstanding development.",
+        "The career of the footballer whose player api id is [PLAYER_API_ID] has been marked by remarkable progress throughout Europe.",
+        "In Europe’s football arena, the player featuring player api id [PLAYER_API_ID] has consistently advanced.",
+        "Remarkable advancement has been recorded for the player with player api id [PLAYER_API_ID] throughout his European football career."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "actor",
+          "participant"
+        ],
+        "career": [
+          "career",
+          "vocation"
+        ],
+        "progress": [
+          "progress",
+          "advance",
+          "advancement",
+          "progression"
+        ],
+        "remarkable": [
+          "remarkable",
+          "singular",
+          "noteworthy"
+        ],
+        "football": [
+          "football"
+        ],
+        "shown": [
+          "shown",
+          "demonstrate",
+          "indicate",
+          "exhibit",
+          "present",
+          "show"
+        ],
+        "throughout": [
+          "throughout"
+        ],
+        "europe": [
+          "europe",
+          "Europe"
+        ]
+      },
+      "field_data_types": {
+        "player_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Aaron Appindangoye is renowned for his skillful performances on the European football stage, earning admiration from fans and analysts alike.",
+      "template_pattern": "[PLAYER_NAME] is renowned for his skillful performances on the European football stage, earning admiration from fans and analysts alike.",
+      "primary_data_fields": [
+        "player_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Player name [PLAYER_NAME] is celebrated for his deft displays on the European football scene, garnering praise from both fans and analysts.",
+        "Renowned across the European football arena, player name [PLAYER_NAME] delivers skillful performances that win the admiration of fans and analysts alike.",
+        "The skillful exploits of player name [PLAYER_NAME] on Europe's football stage have earned him widespread respect from supporters and pundits.",
+        "Across the European football circuit, player name [PLAYER_NAME] is famed for his adept play, attracting acclaim from fans as well as analysts.",
+        "Fans and analysts alike admire the masterful showings of player name [PLAYER_NAME] on the European football stage, where he is widely revered.",
+        "On the European football stage, player name [PLAYER_NAME]’s proficient performances have secured admiration from both fans and analysts.",
+        "Admiration from fans and analysts is bestowed upon player name [PLAYER_NAME] for his skillful displays in European football.",
+        "In European football, the talented player name [PLAYER_NAME] consistently earns the respect of supporters and analysts through his performances.",
+        "Player name [PLAYER_NAME] has become a household name in European football, thanks to his skillful outings that win over fans and analysts.",
+        "Through his adept play on Europe's football fields, player name [PLAYER_NAME] draws praise from fans and analysts alike.",
+        "Both fans and analysts hold player name [PLAYER_NAME] in high regard for his proficient performances across the European football landscape.",
+        "European football audiences and analysts alike commend player name [PLAYER_NAME] for his skillful contributions on the pitch.",
+        "The European football stage has seen player name [PLAYER_NAME]’s expert performances, which have earned him admiration from fans and analysts.",
+        "Player name [PLAYER_NAME]’s impressive displays on European football grounds have attracted the admiration of both fans and analysts.",
+        "Recognised throughout Europe for his adept footballing, player name [PLAYER_NAME] gains the esteem of fans and analysts alike."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "skillful": [
+          "skillful",
+          "adept",
+          "practiced",
+          "skilful",
+          "expert",
+          "proficient"
+        ],
+        "performances": [
+          "performances"
+        ],
+        "football": [
+          "football"
+        ],
+        "earning": [
+          "earning",
+          "gain"
+        ],
+        "fans": [
+          "fans",
+          "fan",
+          "buff",
+          "devotee"
+        ],
+        "alike": [
+          "alike",
+          "similar",
+          "like"
+        ],
+        "analysts": [
+          "analysts"
+        ],
+        "stage": [
+          "stage",
+          "level",
+          "phase",
+          "point",
+          "degree"
+        ]
+      },
+      "field_data_types": {
+        "player_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The player with the player_fifa_api_id 218353 has shown remarkable skill on the international football stage.",
+      "template_pattern": "The player with the player_fifa_api_id [PLAYER_FIFA_API_ID] has shown remarkable skill on the international football stage.",
+      "primary_data_fields": [
+        "player_fifa_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The player with the player fifa api id [PLAYER_FIFA_API_ID] has demonstrated exceptional talent on the global football arena.",
+        "Remarkable skill on the international football stage has been exhibited by the player bearing the player fifa api id [PLAYER_FIFA_API_ID].",
+        "With the player fifa api id [PLAYER_FIFA_API_ID], the athlete has displayed outstanding ability across the worldwide football scene.",
+        "On the world football stage, the player identified by player fifa api id [PLAYER_FIFA_API_ID] showcased remarkable prowess.",
+        "The individual carrying player fifa api id [PLAYER_FIFA_API_ID] has shown impressive skill in international football competitions.",
+        "Exceptional football skill on the international stage is evident in the performance of the player whose player fifa api id is [PLAYER_FIFA_API_ID].",
+        "Having the player fifa api id [PLAYER_FIFA_API_ID], this player has proven his remarkable competence on the global football platform.",
+        "International football has witnessed the remarkable skill of the player marked with player fifa api id [PLAYER_FIFA_API_ID].",
+        "The player, tagged with player fifa api id [PLAYER_FIFA_API_ID], has manifested notable expertise on the international football stage.",
+        "Across the international football arena, the player bearing player fifa api id [PLAYER_FIFA_API_ID] has displayed remarkable skill.",
+        "It is the player with player fifa api id [PLAYER_FIFA_API_ID] who has shown extraordinary ability on the worldwide football stage.",
+        "Remarkable ability on the international football stage has been shown by the player who holds player fifa api id [PLAYER_FIFA_API_ID].",
+        "The athlete, whose player fifa api id is [PLAYER_FIFA_API_ID], has exhibited remarkable skill on the global football stage.",
+        "On the international football platform, the player possessing player fifa api id [PLAYER_FIFA_API_ID] demonstrated impressive skill.",
+        "The player with player fifa api id [PLAYER_FIFA_API_ID] has proven his exceptional skill on the world football stage."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "actor",
+          "participant"
+        ],
+        "remarkable": [
+          "remarkable",
+          "singular",
+          "noteworthy"
+        ],
+        "football": [
+          "football"
+        ],
+        "skill": [
+          "skill"
+        ],
+        "stage": [
+          "stage",
+          "level",
+          "phase",
+          "degree",
+          "point"
+        ],
+        "international": [
+          "international"
+        ],
+        "shown": [
+          "shown"
+        ]
+      },
+      "field_data_types": {
+        "player_fifa_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football player celebrated his unique birthday on 1992-02-29 00:00:00, marking a leap year birth.",
+      "template_pattern": "The football player celebrated his unique birthday on [BIRTHDAY], marking a leap year birth.",
+      "primary_data_fields": [
+        "birthday"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football player celebrated his unique birthday on [BIRTHDAY], marking a leap year birth.",
+        "On [BIRTHDAY], the football player observed his distinctive birthday, highlighting that he was born in a leap year.",
+        "His birthday, which fell on [BIRTHDAY], was celebrated by the football player as a rare leap‑year occasion.",
+        "A leap year birth was underscored when the football player marked his birthday on [BIRTHDAY].",
+        "Celebrating his one‑of‑a‑kind birthday, the football player chose the date [BIRTHDAY], a day that occurs only in leap years.",
+        "The football player’s birthday on [BIRTHDAY] was commemorated, emphasizing its status as a leap year birth.",
+        "Because his birthday fell on [BIRTHDAY], the football player highlighted the rarity of a leap year birth.",
+        "A leap‑year birth was noted as the football player celebrated his birthday on [BIRTHDAY].",
+        "His birthday, celebrated on [BIRTHDAY], served as a reminder that he was born in a leap year.",
+        "The date [BIRTHDAY] marked the football player’s birthday, a unique leap year occurrence that he celebrated.",
+        "By honoring his birthday on [BIRTHDAY], the football player drew attention to his leap year birth.",
+        "The football player’s unique birthday, occurring on [BIRTHDAY], was observed as a leap year milestone.",
+        "On the leap day [BIRTHDAY], the football player celebrated his birthday, underscoring its rarity.",
+        "His birthday was celebrated on [BIRTHDAY], a leap year date, by the football player.",
+        "A leap year birth was highlighted when the football player marked his birthday on [BIRTHDAY]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "actor",
+          "participant"
+        ],
+        "football": [
+          "football"
+        ],
+        "celebrated": [
+          "celebrated",
+          "famed",
+          "storied",
+          "notable",
+          "illustrious",
+          "noted"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "brand",
+          "grade"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "leap": [
+          "leap",
+          "bounce",
+          "jump",
+          "bound",
+          "spring"
+        ],
+        "birth": [
+          "birth",
+          "nativity",
+          "parturition"
+        ]
+      },
+      "field_data_types": {
+        "birthday": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Standing at a height of 182 centimeters, the player's physical presence is notable on the football field.",
+      "template_pattern": "Standing at a height of [HEIGHT] centimeters, the player's physical presence is notable on the football field.",
+      "primary_data_fields": [
+        "height"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "With a height of [HEIGHT] centimeters, the player's physical presence stands out on the football field.",
+        "The player's physical presence is striking on the football field, given his height of [HEIGHT] centimeters.",
+        "At a height of [HEIGHT] centimeters, the player commands a notable physical presence on the football field.",
+        "A height of [HEIGHT] centimeters endows the player with a notable physical presence on the football field.",
+        "Because the player measures a height of [HEIGHT] centimeters, his physical presence is prominent on the football field.",
+        "On the football field, the player's physical presence is noteworthy, thanks to his height of [HEIGHT] centimeters.",
+        "The player's height of [HEIGHT] centimeters makes his physical presence on the football field particularly notable.",
+        "Standing tall at a height of [HEIGHT] centimeters, the player exhibits a notable physical presence on the football field.",
+        "Due to his height of [HEIGHT] centimeters, the player’s physical presence is significant on the football field.",
+        "A physical presence that is notable on the football field stems from the player's height of [HEIGHT] centimeters.",
+        "The football field sees a notable physical presence from the player, who has a height of [HEIGHT] centimeters.",
+        "Given his height of [HEIGHT] centimeters, the player's physical presence becomes notable on the football field.",
+        "On the football field, a height of [HEIGHT] centimeters gives the player a markedly notable physical presence.",
+        "The player's physical presence is markedly notable on the football field, as he stands at a height of [HEIGHT] centimeters.",
+        "With his height of [HEIGHT] centimeters, the player’s physical presence on the football field is unmistakably notable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "participant",
+          "actor"
+        ],
+        "centimeters": [
+          "centimeters"
+        ],
+        "football": [
+          "football"
+        ],
+        "presence": [
+          "presence",
+          "bearing"
+        ],
+        "field": [
+          "field",
+          "domain",
+          "area",
+          "study",
+          "sphere",
+          "subject"
+        ],
+        "notable": [
+          "notable",
+          "noteworthy",
+          "famed",
+          "celebrated",
+          "illustrious",
+          "noted"
+        ],
+        "standing": [
+          "standing"
+        ],
+        "physical": [
+          "physical"
+        ]
+      },
+      "field_data_types": {
+        "height": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football player's weight of 187 kilograms significantly contributes to his robust presence on the field.",
+      "template_pattern": "The football player's weight of [WEIGHT] kilograms significantly contributes to his robust presence on the field.",
+      "primary_data_fields": [
+        "weight"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football player's weight of [WEIGHT] kilograms greatly enhances his commanding presence on the field.",
+        "A commanding presence on the field is largely driven by the football player's weight of [WEIGHT] kilograms.",
+        "With a weight of [WEIGHT] kilograms, the football player projects a powerful presence on the field.",
+        "The football player's robust presence on the field is significantly bolstered by his weight of [WEIGHT] kilograms.",
+        "Because his weight of [WEIGHT] kilograms is considerable, the football player enjoys a strong field presence.",
+        "On the field, the football player's weight of [WEIGHT] kilograms substantially contributes to his imposing presence.",
+        "The football player's weight of [WEIGHT] kilograms serves as a key factor in his solid presence during games.",
+        "A solid on‑field presence results from the football player's weight of [WEIGHT] kilograms.",
+        "The football player's weight of [WEIGHT] kilograms markedly influences the vigor of his field presence.",
+        "Thanks to his weight of [WEIGHT] kilograms, the football player maintains a formidable presence on the pitch.",
+        "His weight of [WEIGHT] kilograms, recorded for the football player, markedly adds to his dominant field presence.",
+        "The football player's [WEIGHT]-kilogram weight underpins his robust presence on the field.",
+        "By virtue of a weight of [WEIGHT] kilograms, the football player achieves a powerful presence on the field.",
+        "The football player's weight of [WEIGHT] kilograms is a major contributor to his commanding on‑field demeanor.",
+        "A weight of [WEIGHT] kilograms gives the football player a pronounced presence on the field."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "actor",
+          "participant",
+          "musician",
+          "instrumentalist"
+        ],
+        "robust": [
+          "robust",
+          "rich"
+        ],
+        "contributes": [
+          "contributes"
+        ],
+        "football": [
+          "football"
+        ],
+        "presence": [
+          "presence",
+          "bearing"
+        ],
+        "field": [
+          "field",
+          "domain",
+          "area",
+          "discipline",
+          "sphere",
+          "subject"
+        ],
+        "significantly": [
+          "significantly"
+        ],
+        "kilograms": [
+          "kilograms"
+        ]
+      },
+      "field_data_types": {
+        "weight": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

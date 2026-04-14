@@ -1,0 +1,464 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "5c7991071d6b4b35": "income_id",
+    "50cff4710acc48d6": "date_received",
+    "9f8c9ff234bf4f4b": "amount",
+    "4c62f8e226fc4437": "source",
+    "4135c3e2cfe54c25": "notes",
+    "ea8231333e474ab8": "link_to_member"
+  },
+  "templates": [
+    {
+      "original": "The student organization efficiently tracks its revenue sources with the unique income_id rec0s9ZrO15zhzUeE.",
+      "template_pattern": "The student organization efficiently tracks its revenue sources with the unique income_id [INCOME_ID].",
+      "primary_data_fields": [
+        "income_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Using the unique income id [INCOME_ID], the student organization efficiently monitors its revenue streams.",
+        "The student organization monitors its revenue streams efficiently, employing the unique income id [INCOME_ID].",
+        "With the distinct income id [INCOME_ID], the student organization tracks its revenue sources in an efficient manner.",
+        "Revenue sources are efficiently tracked by the student organization using the unique income id [INCOME_ID].",
+        "Efficient tracking of revenue sources is achieved by the student organization through the unique income id [INCOME_ID].",
+        "By means of the unique income id [INCOME_ID], the student organization efficiently records its revenue sources.",
+        "The student organization, using the unique income id [INCOME_ID], efficiently tracks its sources of revenue.",
+        "Employing the unique income id [INCOME_ID], the student organization efficiently follows its revenue sources.",
+        "Revenue sources are recorded efficiently by the student organization with the unique income id [INCOME_ID].",
+        "The unique income id [INCOME_ID] allows the student organization to efficiently track its revenue sources.",
+        "Through the unique income id [INCOME_ID], the student organization efficiently monitors all revenue sources.",
+        "Efficient monitoring of its revenue sources is performed by the student organization using the unique income id [INCOME_ID].",
+        "The student organization’s efficient tracking of revenue sources relies on the unique income id [INCOME_ID].",
+        "With the unique income id [INCOME_ID], the student organization efficiently oversees its revenue sources.",
+        "Using the unique income id [INCOME_ID], the student organization efficiently keeps tabs on its revenue sources."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "organisation",
+          "system",
+          "establishment",
+          "administration"
+        ],
+        "tracks": [
+          "tracks",
+          "rails"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "revenue": [
+          "revenue",
+          "receipts"
+        ],
+        "sources": [
+          "sources"
+        ],
+        "efficiently": [
+          "efficiently",
+          "expeditiously"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ]
+      },
+      "field_data_types": {
+        "income_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization officially recorded the club's revenue on 2019-10-17, marking a key date in their financial timeline.",
+      "template_pattern": "The student organization officially recorded the club's revenue on [DATE_RECEIVED], marking a key date in their financial timeline.",
+      "primary_data_fields": [
+        "date_received"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization formally logged the club's revenue on [DATE_RECEIVED], signifying a pivotal moment in their financial timeline.",
+        "On [DATE_RECEIVED], the student organization officially entered the club's revenue, marking an important date on their fiscal record.",
+        "The club's revenue was officially recorded by the student organization on [DATE_RECEIVED], denoting a key point in their financial chronology.",
+        "By documenting the club's revenue on [DATE_RECEIVED], the student organization highlighted a crucial date in their monetary history.",
+        "The student organization captured the club's revenue on [DATE_RECEIVED], which serves as a noteworthy milestone in their financial timeline.",
+        "On the date [DATE_RECEIVED], the student organization formally recorded the club's revenue, underscoring a significant point in their fiscal timeline.",
+        "Recording the club's revenue on [DATE_RECEIVED], the student organization marked a landmark date in their financial chronology.",
+        "The club's revenue was entered into the records by the student organization on [DATE_RECEIVED], marking a salient date in their financial timeline.",
+        "With the official recording of the club's revenue on [DATE_RECEIVED], the student organization established a key date in their financial history.",
+        "The student organization logged the club's revenue on [DATE_RECEIVED], thereby designating a critical point in their financial timeline.",
+        "On [DATE_RECEIVED], the student organization documented the club's revenue, creating a notable marker in their fiscal timeline.",
+        "By officially noting the club's revenue on [DATE_RECEIVED], the student organization set a significant date in their financial chronology.",
+        "The club's revenue was formally recorded on [DATE_RECEIVED] by the student organization, marking an essential date in their financial timeline.",
+        "Through its official entry of the club's revenue on [DATE_RECEIVED], the student organization highlighted a key moment in their financial timeline.",
+        "The student organization, on [DATE_RECEIVED], officially captured the club's revenue, establishing a pivotal date in their financial timeline."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "establishment",
+          "organisation",
+          "administration"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "revenue": [
+          "revenue"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "nightclub",
+          "guild"
+        ],
+        "marking": [
+          "marking",
+          "grading",
+          "scoring",
+          "mark",
+          "grade",
+          "score"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "their": [
+          "their"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "date_received": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organizations managed to generate a total dollar amount of 50 from various revenue sources this year.",
+      "template_pattern": "The student organizations managed to generate a total dollar amount of [AMOUNT] from various revenue sources this year.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This year, student organizations generated a total dollar amount of [AMOUNT] from various revenue sources.",
+        "A total dollar amount of [AMOUNT] was generated by student organizations from various revenue sources this year.",
+        "From various revenue sources, student organizations managed to produce a total dollar amount of [AMOUNT] during the current year.",
+        "In the present year, student organizations succeeded in securing a total dollar amount of [AMOUNT] through diverse revenue streams.",
+        "The total dollar amount of [AMOUNT] came from various revenue sources, thanks to the efforts of student organizations this year.",
+        "Student organizations, drawing on various revenue sources, amassed a total dollar amount of [AMOUNT] this year.",
+        "Through multiple revenue channels, a total dollar amount of [AMOUNT] was achieved by student organizations in this year.",
+        "This year’s total dollar amount of [AMOUNT] was the result of student organizations tapping into various revenue sources.",
+        "By leveraging various revenue sources, student organizations attained a total dollar amount of [AMOUNT] for the year.",
+        "A total dollar amount of [AMOUNT], sourced from various revenue streams, was produced by student organizations this year.",
+        "Student organizations have, over the course of this year, generated a total dollar amount of [AMOUNT] from a range of revenue sources.",
+        "The total dollar amount of [AMOUNT] was obtained this year by student organizations via various revenue sources.",
+        "Utilizing various revenue sources, student organizations secured a total dollar amount of [AMOUNT] during the year.",
+        "In this year, the total dollar amount of [AMOUNT] was generated by student organizations through assorted revenue sources.",
+        "Various revenue sources yielded a total dollar amount of [AMOUNT] when student organizations compiled them this year."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "dollar": [
+          "dollar"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "organizations": [
+          "organizations"
+        ],
+        "generate": [
+          "generate",
+          "render",
+          "engender",
+          "yield"
+        ],
+        "revenue": [
+          "revenue",
+          "receipts"
+        ],
+        "sources": [
+          "sources",
+          "references",
+          "origins"
+        ],
+        "managed": [
+          "managed",
+          "oversee",
+          "supervise",
+          "superintend",
+          "handle",
+          "deal"
+        ],
+        "various": [
+          "various",
+          "assorted",
+          "diverse",
+          "several"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The source of funding for many student organizations often includes Dues collected from members.",
+      "template_pattern": "The source of funding for many student organizations often includes [SOURCE] collected from members.",
+      "primary_data_fields": [
+        "source"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Often, the source of funding for many student organizations includes [SOURCE] collected from members.",
+        "For many student organizations, the source of funding often includes [SOURCE] collected from members.",
+        "The source of funding for many student organizations often includes [SOURCE] collected from members, as is typical.",
+        "In many student organizations, the source of funding frequently includes [SOURCE] collected from members.",
+        "[SOURCE] collected from members are commonly part of the source of funding for many student organizations.",
+        "The source of funding for many student organizations commonly includes [SOURCE] collected from members.",
+        "Among many student organizations, the source of funding often includes [SOURCE] collected from members.",
+        "Often, [SOURCE] collected from members comprise a portion of the source of funding for many student organizations.",
+        "The source of funding, for many student organizations, often includes [SOURCE] collected from members.",
+        "For many student organizations the source of funding typically includes [SOURCE] collected from members.",
+        "Many student organizations rely on a source of funding that often includes [SOURCE] collected from members.",
+        "A source of funding for many student organizations often includes [SOURCE] collected from members.",
+        "Often, the source of funding that many student organizations use includes [SOURCE] collected from members.",
+        "The source of funding for many student organizations, often, includes [SOURCE] collected from members.",
+        "[SOURCE] collected from members are often included in the source of funding for many student organizations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "includes": [
+          "includes"
+        ],
+        "many": [
+          "many"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "organizations": [
+          "organizations"
+        ],
+        "funding": [
+          "funding",
+          "financing",
+          "backing"
+        ],
+        "collected": [
+          "collected",
+          "gathered",
+          "gather",
+          "collect",
+          "compile",
+          "accumulate"
+        ],
+        "often": [
+          "often",
+          "oftentimes",
+          "frequently"
+        ],
+        "members": [
+          "members",
+          "member"
+        ]
+      },
+      "field_data_types": {
+        "source": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The additional details regarding the receipt of funds for the student organization are NULL.",
+      "template_pattern": "The additional details regarding the receipt of funds for the student organization are NULL.",
+      "primary_data_fields": [
+        "notes"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The notes field shows [NOTES], highlighting the initiative’s successful acquisition of external support for event expenses.",
+        "In the notes field, [NOTES], reflecting the initiative’s successful acquisition of external support for event expenses.",
+        "[NOTES] appear in the notes field, underscoring the initiative’s successful acquisition of external support for event expenses.",
+        "The notes field records [NOTES], indicating the initiative’s successful acquisition of external support for event expenses.",
+        "Within the notes field, [NOTES], pointing to the initiative’s successful acquisition of external support for event expenses.",
+        "[NOTES] are captured in the notes field, demonstrating the initiative’s successful acquisition of external support for event expenses.",
+        "The notes field reveals [NOTES], confirming the initiative’s successful acquisition of external support for event expenses.",
+        "Noted in the notes field are [NOTES], which reflect the initiative’s successful acquisition of external support for event expenses.",
+        "The notes field indicates that [NOTES], thereby showing the initiative’s successful acquisition of external support for event expenses.",
+        "By means of the notes field, [NOTES], mirroring the initiative’s successful acquisition of external support for event expenses.",
+        "[NOTES] are documented in the notes field, illustrating the initiative’s successful acquisition of external support for event expenses.",
+        "The notes field points to [NOTES], signaling the initiative’s successful acquisition of external support for event expenses.",
+        "In the notes field you’ll find [NOTES], which evidence the initiative’s successful acquisition of external support for event expenses.",
+        "[NOTES] are reflected in the notes field, evidencing the initiative’s successful acquisition of external support for event expenses.",
+        "The notes field captures [NOTES], confirming the initiative’s successful acquisition of external support for event expenses."
+      ],
+      "counter_variations": [
+        "The supplementary information concerning the receipt of funds by the student organization is null.",
+        "In relation to the student organization’s fund intake, the additional details are null.",
+        "Null is the status of the further particulars regarding how the student organization received its funds.",
+        "Regarding the student organization’s monetary receipt, the extra details remain null.",
+        "The extra data on the student organization’s fund acquisition is, as of now, null.",
+        "Because the student organization’s funding receipt lacks further description, the notes are null.",
+        "The added particulars about the student organization’s fund reception are currently null.",
+        "For the student organization’s fund receipt, the ancillary details are null.",
+        "The student organization’s fund acquisition details, beyond what is already recorded, are null.",
+        "Although the student organization has received funds, the supplementary notes concerning that receipt are null.",
+        "The detailed commentary on the student organization’s receipt of funds stands null.",
+        "Concerning the student organization’s funding inflow, the additional information is null.",
+        "The student organization’s fund receipt is documented, but the extra details are null.",
+        "In the report, the field describing further specifics of the student organization’s fund receipt is null.",
+        "The extended description of how the student organization obtained its funds is null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "establishment",
+          "organisation",
+          "administration",
+          "formation"
+        ],
+        "funds": [
+          "funds",
+          "finances"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "details": [
+          "details"
+        ],
+        "regarding": [
+          "regarding",
+          "consider",
+          "regard"
+        ],
+        "receipt": [
+          "receipt"
+        ],
+        "additional": [
+          "additional",
+          "extra"
+        ]
+      },
+      "field_data_types": {
+        "notes": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The link_to_member reccW7q1KkhSKZsea plays a crucial role in tracking student engagement in the organization's events.",
+      "template_pattern": "The link_to_member [LINK_TO_MEMBER] plays a crucial role in tracking student engagement in the organization's events.",
+      "primary_data_fields": [
+        "link_to_member"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In monitoring student participation at the organization’s events, the link to member [LINK_TO_MEMBER] serves a vital function.",
+        "The organization’s events rely on the link to member [LINK_TO_MEMBER] to effectively track student engagement.",
+        "Student engagement in the organization’s events is tracked thanks to the essential contribution of the link to member [LINK_TO_MEMBER].",
+        "A pivotal part of observing student involvement in the organization’s events is played by the link to member [LINK_TO_MEMBER].",
+        "Through the link to member [LINK_TO_MEMBER], the organization’s events can accurately monitor student engagement.",
+        "The link to member [LINK_TO_MEMBER] is instrumental in recording student engagement across the organization’s events.",
+        "Recording student engagement during the organization’s events hinges on the link to member [LINK_TO_MEMBER].",
+        "For tracking student engagement in the organization’s events, the link to member [LINK_TO_MEMBER] plays an indispensable role.",
+        "Student engagement within the organization’s events is captured by the link to member [LINK_TO_MEMBER], which holds a critical position.",
+        "The link to member [LINK_TO_MEMBER], a key element, facilitates the tracking of student engagement in the organization’s events.",
+        "Tracking how students engage in the organization’s events is made possible by the link to member [LINK_TO_MEMBER].",
+        "By using the link to member [LINK_TO_MEMBER], the organization’s events can systematically follow student engagement.",
+        "The organization’s events depend on the link to member [LINK_TO_MEMBER] to monitor student engagement effectively.",
+        "Student engagement in the organization’s events is systematically tracked through the link to member [LINK_TO_MEMBER].",
+        "With the link to member [LINK_TO_MEMBER], the organization’s events are able to trace student engagement accurately."
+      ],
+      "counter_variations": [
+        "Because the link to member is presently set to null, the system struggles to match participants with their corresponding organizational profiles.",
+        "The system’s capacity to bind participants to their respective organizational profiles is impeded by the link to member, which remains null.",
+        "When the link to member holds the value null, the platform cannot reliably associate participants with their organizational profiles.",
+        "A null setting for the link to member obstructs the system’s ability to align participants with the appropriate organizational profiles.",
+        "The inability of the system to link participants to their organizational profiles stems from the link to member being null.",
+        "Since the link to member is null, the system fails to connect participants with their designated organizational profiles.",
+        "The presence of null in the link to member compromises the system’s function of pairing participants with their organizational profiles.",
+        "With the link to member assigned null, the system is hampered in its effort to associate participants with their respective organizational profiles.",
+        "The system’s effectiveness at matching participants to organizational profiles is diminished because the link to member is null.",
+        "A null link to member prevents the system from accurately associating participants with their organizational profiles.",
+        "Because the link to member currently equals null, the system cannot properly map participants onto their organizational profiles.",
+        "The system’s attempt to associate participants with their organizational profiles is thwarted by a null value in the link to member.",
+        "When the link to member is null, the capability of the system to tie participants to their organizational profiles is significantly reduced.",
+        "The null condition of the link to member hinders the system’s proficiency in linking participants with their respective organizational profiles.",
+        "Owing to the link to member being null, the system experiences difficulty in pairing participants with their organizational profiles."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "organisation",
+          "system",
+          "establishment",
+          "administration",
+          "formation"
+        ],
+        "events": [
+          "events"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "engagement": [
+          "engagement",
+          "involvement",
+          "participation"
+        ],
+        "plays": [
+          "plays"
+        ],
+        "role": [
+          "role",
+          "function",
+          "office"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ]
+      },
+      "field_data_types": {
+        "link_to_member": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

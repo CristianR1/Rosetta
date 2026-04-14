@@ -1,0 +1,29 @@
+{
+  "database": "codebase_community",
+  "table": "badges",
+  "entry_index": 0,
+  "original_data": {
+    "Id": "1",
+    "UserId": "5",
+    "Name": "Teacher",
+    "Date": "2010-07-19 19:39:07.0"
+  },
+  "generated_sentences": [
+    "The badge with the identifier 1 was awarded to the first user who reached the milestone. (Hash: b582c70622f74001)",
+    "UserId 5 recently earned a new badge for contributing insightful programming solutions to the community platform. (Hash: 0b7f7f4e73fd4d38)",
+    "Earning the Teacher badge on the platform was a significant milestone, recognizing her dedication to sharing knowledge with others. (Hash: 692d9d2971ea4ffd)",
+    "On the evening of 2010-07-19 19:39:07.0, the Date marked a moment of achievement as the user earned their badge. (Hash: 7c1ab17890964dc4)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "0b7f7f4e73fd4d38": "UserId",
+    "692d9d2971ea4ffd": "Name",
+    "7c1ab17890964dc4": "Date",
+    "b582c70622f74001": "Id"
+  },
+  "timestamp": "2026-03-31 16:26:31",
+  "narrative": []
+}

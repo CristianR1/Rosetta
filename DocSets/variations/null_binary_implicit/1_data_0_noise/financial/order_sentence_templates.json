@@ -1,0 +1,423 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "36802705be1a482c": "order_id",
+    "7d5bf84f62b14aa9": "account_id",
+    "2fee4740b70e49fd": "bank_to",
+    "1fb7b94f328a407d": "account_to",
+    "a7acd23341f54ef7": "amount",
+    "97f161f5235d4090": "k_symbol"
+  },
+  "templates": [
+    {
+      "original": "The banking service order with order_id 29401 was processed successfully, ensuring seamless management of the transaction request.",
+      "template_pattern": "The banking service order with order_id [ORDER_ID] was processed successfully, ensuring seamless management of the transaction request.",
+      "primary_data_fields": [
+        "order_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The banking service order with order id [ORDER_ID] was processed successfully, ensuring seamless management of the transaction request.",
+        "Processing of the banking service order bearing order id [ORDER_ID] completed successfully, guaranteeing smooth handling of the transaction request.",
+        "With order id [ORDER_ID], the banking service order was successfully processed, providing seamless administration of the transaction request.",
+        "The transaction request was handled seamlessly after the banking service order with order id [ORDER_ID] was processed successfully.",
+        "Successful processing of the banking service order (order id [ORDER_ID]) ensured the transaction request was managed without friction.",
+        "After the banking service order, order id [ORDER_ID], was processed successfully, the transaction request received seamless management.",
+        "The banking service order—order id [ORDER_ID]—has been processed with success, delivering smooth management of the transaction request.",
+        "By successfully processing the banking service order that carries order id [ORDER_ID], seamless management of the transaction request was achieved.",
+        "Order id [ORDER_ID] on the banking service order was processed successfully, resulting in flawless handling of the transaction request.",
+        "The transaction request benefitted from seamless management once the banking service order with order id [ORDER_ID] was processed successfully.",
+        "Having processed the banking service order identified by order id [ORDER_ID], we ensured the transaction request was managed seamlessly.",
+        "The banking service order (order id [ORDER_ID]) underwent successful processing, which guaranteed seamless administration of the transaction request.",
+        "A successful processing of the banking service order, order id [ORDER_ID], secured smooth management of the transaction request.",
+        "Once order id [ORDER_ID] was successfully processed in the banking service order, the transaction request was managed seamlessly.",
+        "The banking service order’s successful processing, featuring order id [ORDER_ID], ensured the transaction request was handled with seamless management."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "order": [
+          "order",
+          "range",
+          "edict",
+          "fiat",
+          "grade",
+          "rank"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "seamless": [
+          "seamless"
+        ],
+        "banking": [
+          "banking",
+          "bank"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "request": [
+          "request",
+          "petition"
+        ],
+        "successfully": [
+          "successfully"
+        ]
+      },
+      "field_data_types": {
+        "order_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The service request was successfully directed to bank_to YZ for further processing.",
+      "template_pattern": "The service request was successfully directed to bank_to [BANK_TO] for further processing.",
+      "primary_data_fields": [
+        "bank_to"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The service request was successfully routed to bank to [BANK_TO] for further processing.",
+        "Bank to [BANK_TO] successfully received the service request for further processing.",
+        "For further processing, the service request was successfully sent to bank to [BANK_TO].",
+        "A successful direction of the service request to bank to [BANK_TO] was completed for further processing.",
+        "The system successfully forwarded the service request to bank to [BANK_TO], where it will be processed further.",
+        "Successfully, the service request reached bank to [BANK_TO] for additional processing.",
+        "Further processing awaits the service request that was successfully directed to bank to [BANK_TO].",
+        "Bank to [BANK_TO] was the successful destination of the service request for subsequent processing.",
+        "The service request, having been successfully directed, arrived at bank to [BANK_TO] for further processing.",
+        "After successful routing, the service request landed at bank to [BANK_TO] for continued processing.",
+        "To continue processing, the service request was successfully transferred to bank to [BANK_TO].",
+        "The service request has been successfully channeled to bank to [BANK_TO] for the next processing steps.",
+        "Successful direction sent the service request to bank to [BANK_TO] for further processing.",
+        "For the next phase of processing, the service request was successfully delivered to bank to [BANK_TO].",
+        "Bank to [BANK_TO] successfully handled the incoming service request for further processing."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "successfully": [
+          "successfully"
+        ],
+        "processing": [
+          "processing",
+          "process"
+        ],
+        "request": [
+          "request",
+          "petition"
+        ],
+        "directed": [
+          "directed"
+        ],
+        "service": [
+          "service"
+        ],
+        "further": [
+          "further",
+          "advance",
+          "promote",
+          "foster",
+          "encourage",
+          "boost"
+        ]
+      },
+      "field_data_types": {
+        "bank_to": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The funds were transferred successfully to account_to 87144583, ensuring the transaction was completed without any issues.",
+      "template_pattern": "The funds were transferred successfully to account_to [ACCOUNT_TO], ensuring the transaction was completed without any issues.",
+      "primary_data_fields": [
+        "account_to"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The funds were transferred successfully to account to [ACCOUNT_TO], ensuring the transaction was completed without any issues.",
+        "Successfully, the funds reached account to [ACCOUNT_TO], and the transaction concluded with no problems.",
+        "A successful transfer of the funds was made to account to [ACCOUNT_TO], completing the transaction flawlessly.",
+        "The transaction was completed without any issues after the funds were transferred successfully to account to [ACCOUNT_TO].",
+        "Funds arrived at account to [ACCOUNT_TO] without difficulty, confirming a successful transaction.",
+        "Without any problems, the funds were moved successfully to account to [ACCOUNT_TO], finalizing the transaction.",
+        "The successful transfer placed the funds into account to [ACCOUNT_TO], and the transaction ended issue‑free.",
+        "Account to [ACCOUNT_TO] received the funds in a successful transfer, guaranteeing the transaction’s smooth completion.",
+        "By transferring the funds successfully to account to [ACCOUNT_TO], the transaction was wrapped up with zero issues.",
+        "The funds have been successfully transferred to account to [ACCOUNT_TO], which ensured the transaction proceeded without problems.",
+        "A smooth, successful transfer sent the funds to account to [ACCOUNT_TO], leaving the transaction completely issue‑free.",
+        "After the funds were successfully transferred to account to [ACCOUNT_TO], the transaction concluded without any complications.",
+        "The transaction closed without issues once the funds were successfully moved to account to [ACCOUNT_TO].",
+        "Successful fund transfer to account to [ACCOUNT_TO] ensured the transaction finished without any problems.",
+        "With the funds transferred successfully to account to [ACCOUNT_TO], the transaction was completed flawlessly."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction"
+        ],
+        "funds": [
+          "funds",
+          "finances"
+        ],
+        "transferred": [
+          "transferred"
+        ],
+        "without": [
+          "without"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "successfully": [
+          "successfully"
+        ],
+        "completed": [
+          "completed",
+          "accomplished",
+          "realised",
+          "realized"
+        ],
+        "issues": [
+          "issues"
+        ]
+      },
+      "field_data_types": {
+        "account_to": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each service order processed today involved an amount of 2452, reflecting the substantial financial activity managed by the bank.",
+      "template_pattern": "Each service order processed today involved an amount of [AMOUNT], reflecting the substantial financial activity managed by the bank.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each service order processed today involved an amount of [AMOUNT], reflecting the substantial financial activity managed by the bank.",
+        "Each service order processed today comprised an amount of [AMOUNT], indicating the considerable financial throughput overseen by the bank.",
+        "An amount of [AMOUNT] was tied to every service order processed today, showcasing the bank's extensive financial handling.",
+        "The bank managed a substantial financial flow today, with each service order processed involving an amount of [AMOUNT].",
+        "Processed today, each service order carried an amount of [AMOUNT], underscoring the bank's significant financial activity.",
+        "An amount of [AMOUNT] was recorded for each service order processed today, reflecting the bank's large‑scale financial operations.",
+        "Today's processing of each service order included an amount of [AMOUNT], highlighting the considerable financial activity under the bank's management.",
+        "Each service order, processed today, featured an amount of [AMOUNT], demonstrating the bank's substantial financial handling.",
+        "Each service order processed today involved an amount of [AMOUNT], mirroring the sizable financial activity managed by the bank.",
+        "For every service order processed today, the bank recorded an amount of [AMOUNT], reflecting its heavy financial activity.",
+        "An amount of [AMOUNT] accompanied each service order processed today, illustrating the extensive financial activity managed by the bank.",
+        "Each service order that was processed today carried an amount of [AMOUNT], a testament to the bank's substantial financial throughput.",
+        "The bank managed an amount of [AMOUNT] within each service order processed today, mirroring the sizable financial activity.",
+        "Processed today, each service order involved an amount of [AMOUNT], signifying the bank's considerable financial activity.",
+        "Each service order processed today had an amount of [AMOUNT] attached, reflecting the bank's significant financial operations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "order": [
+          "order",
+          "dictate",
+          "edict",
+          "prescribe",
+          "regulate",
+          "decree"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "managed": [
+          "managed",
+          "supervise",
+          "handle",
+          "oversee",
+          "superintend",
+          "manage"
+        ],
+        "today": [
+          "today",
+          "now"
+        ],
+        "reflecting": [
+          "reflecting",
+          "reflect",
+          "contemplate",
+          "ponder",
+          "meditate",
+          "muse"
+        ],
+        "bank": [
+          "bank",
+          "trust"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "substantial": [
+          "substantial",
+          "significant",
+          "substantive",
+          "material",
+          "solid",
+          "strong"
+        ]
+      },
+      "field_data_types": {
+        "amount": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The transaction was identified by the k_symbol SIPO, ensuring accurate tracking of the requested banking service.",
+      "template_pattern": "The transaction was identified by the k_symbol [K_SYMBOL], ensuring accurate tracking of the requested banking service.",
+      "primary_data_fields": [
+        "k_symbol"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Identified by the k symbol [K_SYMBOL], the transaction guarantees precise monitoring of the requested banking service.",
+        "The k symbol [K_SYMBOL] flagged the transaction, allowing for exact tracking of the banking service that was requested.",
+        "Through the k symbol [K_SYMBOL], the transaction was marked, which secures accurate tracing of the requested banking service.",
+        "Accurate tracking of the requested banking service is achieved because the transaction was recognized via the k symbol [K_SYMBOL].",
+        "By using the k symbol [K_SYMBOL], the transaction is pinpointed, facilitating precise monitoring of the banking service requested.",
+        "The transaction, detected through the k symbol [K_SYMBOL], ensures the requested banking service is tracked accurately.",
+        "With the k symbol [K_SYMBOL], the transaction gets identified, thereby maintaining exact tracking of the requested banking service.",
+        "Thanks to the k symbol [K_SYMBOL], the transaction is logged, supporting accurate tracing of the banking service that was requested.",
+        "The transaction’s identification via the k symbol [K_SYMBOL] provides reliable monitoring of the requested banking service.",
+        "Through identification by the k symbol [K_SYMBOL], the transaction enables precise tracking of the banking service requested.",
+        "The k symbol [K_SYMBOL] identifies the transaction, which in turn ensures the requested banking service is tracked accurately.",
+        "Because the transaction is recognized by the k symbol [K_SYMBOL], the requested banking service can be tracked with accuracy.",
+        "The transaction, recognized via the k symbol [K_SYMBOL], allows for exact monitoring of the banking service requested.",
+        "Using the k symbol [K_SYMBOL], the transaction is captured, guaranteeing precise tracking of the requested banking service.",
+        "When the k symbol [K_SYMBOL] identifies the transaction, it secures accurate tracing of the banking service that was requested."
+      ],
+      "counter_variations": [
+        "According to the report, the k symbol remains not specified, thereby hindering the exact identification of the linked financial instrument.",
+        "The report notes that the k symbol is not specified, a circumstance that makes pinpointing the corresponding financial instrument particularly difficult.",
+        "Because the k symbol is not specified, the report highlights the resulting challenge in accurately identifying the related financial instrument.",
+        "In the report, the k symbol is not specified, complicating the precise determination of the associated financial instrument.",
+        "The report flags that the k symbol is not specified, which in turn obstructs the clear identification of the pertinent financial instrument.",
+        "Highlighted in the report is the fact that the k symbol is not specified, rendering the exact identification of the linked financial instrument arduous.",
+        "The report underscores that, with the k symbol not specified, the task of accurately identifying the associated financial instrument becomes convoluted.",
+        "The k symbol, not specified, is cited in the report as a factor that complicates the precise identification of the relevant financial instrument.",
+        "The report conveys that the k symbol is not specified, consequently impeding a definitive identification of the corresponding financial instrument.",
+        "As the report reveals, the k symbol remains not specified, which exacerbates the difficulty of pinpointing the associated financial instrument.",
+        "Within the report, it is stated that the k symbol is not specified, thereby complicating the precise identification of the related financial instrument.",
+        "The report documents that the k symbol is not specified, a condition that hampers the accurate identification of the linked financial instrument.",
+        "Owing to the k symbol being not specified, the report notes an increased complexity in identifying the exact financial instrument involved.",
+        "The report mentions that the k symbol is not specified, and this omission complicates the precise determination of the associated financial instrument.",
+        "Because the report finds the k symbol not specified, it becomes challenging to identify the exact financial instrument with certainty."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "requested": [
+          "requested"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "banking": [
+          "banking"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "tracking": [
+          "tracking"
+        ],
+        "service": [
+          "service"
+        ],
+        "accurate": [
+          "accurate",
+          "precise",
+          "exact"
+        ]
+      },
+      "field_data_types": {
+        "k_symbol": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account id 1 uniquely identifies the client’s financial portfolio within the consolidated report, ensuring precise tracking across all transactions.",
+      "template_pattern": "The transaction summary references the account id [ACCOUNT_ID] to ensure accurate tracking of all financial activities for the period.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction summary cites the account id [ACCOUNT_ID] to guarantee precise monitoring of every financial activity during the period.",
+        "To accurately track all financial actions for the period, the transaction summary references the account id [ACCOUNT_ID].",
+        "All financial activities for the period are accurately tracked by referencing the account id [ACCOUNT_ID] in the transaction summary.",
+        "In the transaction summary, the account id [ACCOUNT_ID] is mentioned to ensure thorough tracking of the period’s financial activities.",
+        "By mentioning the account id [ACCOUNT_ID], the transaction summary secures exact tracking of all financial operations for the period.",
+        "The period’s financial activities are monitored accurately because the transaction summary includes the account id [ACCOUNT_ID].",
+        "Referencing the account id [ACCOUNT_ID] in the transaction summary enables precise tracking of every financial activity for the period.",
+        "To maintain accurate tracking of all period financial activities, the transaction summary points to the account id [ACCOUNT_ID].",
+        "The transaction summary, by referencing the account id [ACCOUNT_ID], ensures that all financial activities for the period are tracked correctly.",
+        "Accurate monitoring of the period’s financial actions is achieved through the transaction summary’s reference to the account id [ACCOUNT_ID].",
+        "The account id [ACCOUNT_ID] is referenced in the transaction summary to provide exact tracking of all financial activities for the period.",
+        "For the period, the transaction summary uses the account id [ACCOUNT_ID] to guarantee precise tracking of all financial activity.",
+        "Ensuring accurate tracking of the period’s financial activities, the transaction summary cites the account id [ACCOUNT_ID].",
+        "The transaction summary’s reference to the account id [ACCOUNT_ID] guarantees precise monitoring of every financial transaction during the period.",
+        "By including the account id [ACCOUNT_ID], the transaction summary assures accurate tracking of all financial activities for the period."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensure": [
+          "ensure",
+          "guarantee",
+          "assure",
+          "ascertain"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "accurate": [
+          "accurate",
+          "precise",
+          "exact"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "references": [
+          "references"
+        ],
+        "summary": [
+          "summary"
+        ],
+        "account": [
+          "account",
+          "report",
+          "chronicle",
+          "explanation",
+          "history",
+          "invoice"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trail"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4a12b722800242b4": "ID",
+    "1bf668f62f544fd8": "SEX",
+    "465dffe9bac14203": "Birthday",
+    "10b4f4f7b0694eef": "Description",
+    "356297da7ca94e2c": "First Date",
+    "36f1492cc9bf4413": "Admission",
+    "01eefee922764519": "Diagnosis"
+  },
+  "templates": [
+    {
+      "original": "Patient ID 2110 has been assigned to help efficiently track and manage their thrombosis-related medical history.",
+      "template_pattern": "Patient ID [ID] has been assigned to help efficiently track and manage their thrombosis-related medical history.",
+      "primary_data_fields": [
+        "ID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Patient ID [ID] has been assigned to efficiently track and manage their thrombosis-related medical history.",
+        "To ensure efficient tracking and management of the thrombosis-related medical history, Patient ID [ID] has been assigned.",
+        "The assignment of Patient ID [ID] serves to streamline the tracking and handling of their thrombosis-related medical history.",
+        "Patient ID [ID] was designated for the purpose of efficiently recording and overseeing their thrombosis-related medical history.",
+        "By assigning Patient ID [ID], the system can efficiently monitor and organize the thrombosis-related medical history.",
+        "Efficient tracking and management of the thrombosis-related medical history is achieved through the assignment of Patient ID [ID].",
+        "For the goal of smooth tracking and administration of their thrombosis-related medical history, Patient ID [ID] has been allocated.",
+        "Patient ID [ID] is now linked to facilitate prompt tracking and control of the thrombosis-related medical history.",
+        "The health record system has appointed Patient ID [ID] to aid in the efficient tracking and management of their thrombosis-related medical history.",
+        "To aid in the swift tracking and handling of their thrombosis-related medical history, Patient ID [ID] has been assigned.",
+        "Assigning Patient ID [ID] enables effective monitoring and management of the thrombosis-related medical history.",
+        "Patient ID [ID]’s assignment is intended to support efficient tracking and oversight of their thrombosis-related medical history.",
+        "With Patient ID [ID] assigned, the thrombosis-related medical history can be tracked and managed efficiently.",
+        "The designation of Patient ID [ID] allows for the efficient tracking and administration of their thrombosis-related medical history.",
+        "Patient ID [ID] has been allocated to promote efficient tracking and management of the thrombosis-related medical history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "efficiently": [
+          "efficiently",
+          "expeditiously"
+        ],
+        "related": [
+          "related"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "help": [
+          "help",
+          "aid",
+          "assistance"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "their": [
+          "their"
+        ],
+        "track": [
+          "track"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ]
+      },
+      "field_data_types": {
+        "ID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "To ensure proper documentation, every detail is meticulously recorded.",
+      "template_pattern": "To ensure proper documentation, every detail is meticulously recorded.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "To guarantee accurate documentation, each piece of information is recorded with meticulous care.",
+        "Every detail is carefully logged to ensure proper documentation.",
+        "Proper documentation is achieved by meticulously recording all details.",
+        "In order to maintain thorough records, we meticulously document every detail.",
+        "All details are recorded painstakingly, ensuring the documentation is proper.",
+        "Ensuring proper documentation requires that each detail be captured meticulously.",
+        "Each piece of data is painstakingly entered so that the documentation remains proper.",
+        "To uphold correct documentation, meticulous recording of every detail is performed.",
+        "Meticulous recording of all details secures proper documentation.",
+        "We make certain the documentation is proper by recording every detail with exactness.",
+        "For proper documentation, every single detail is logged with great precision.",
+        "The act of meticulously documenting each detail ensures proper record‑keeping.",
+        "Ensuring the documentation is proper involves the careful recording of every detail.",
+        "Every detail is logged in a meticulous manner to maintain proper documentation.",
+        "To keep documentation accurate, we meticulously record each and every detail."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "meticulously": [
+          "meticulously"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "proper": [
+          "proper",
+          "right"
+        ],
+        "detail": [
+          "detail",
+          "point",
+          "particular",
+          "item"
+        ],
+        "documentation": [
+          "documentation"
+        ],
+        "every": [
+          "every"
+        ],
+        "ensure": [
+          "ensure",
+          "assure",
+          "guarantee",
+          "secure"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The patient's biological sex is recorded as F, which is crucial for assessing her risk of developing thrombosis.",
+      "template_pattern": "The patient's biological sex is recorded as [SEX], which is crucial for assessing her risk of developing thrombosis.",
+      "primary_data_fields": [
+        "SEX"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's SEX is recorded as [SEX], which is essential for evaluating her likelihood of developing thrombosis.",
+        "Recorded as [SEX], the patient's SEX plays a vital role in gauging her risk of thrombosis onset.",
+        "Because the patient's SEX is noted as [SEX], clinicians can accurately assess her potential for thrombosis.",
+        "The patient's SEX, documented as [SEX], is a key factor in determining her susceptibility to thrombosis.",
+        "With the SEX field marked as [SEX] for the patient, her risk of developing thrombosis can be properly appraised.",
+        "The fact that the patient's SEX is [SEX] makes it indispensable for estimating her thrombosis risk.",
+        "As the patient's SEX is entered as [SEX], it becomes crucial for measuring her chance of thrombosis.",
+        "Noting the patient's SEX as [SEX] is fundamental when assessing her probability of thrombosis.",
+        "Since the patient's SEX appears as [SEX], this information is critical to evaluate her thrombosis risk.",
+        "The patient's SEX, set to [SEX], serves as an important indicator for her risk of developing thrombosis.",
+        "Having the SEX recorded as [SEX] for the patient is essential for calculating her thrombosis risk.",
+        "The designation of [SEX] in the patient's SEX is pivotal for appraising her likelihood of thrombosis.",
+        "By recording the patient's SEX as [SEX], healthcare providers can better assess her thrombosis risk.",
+        "The patient's SEX being [SEX] is a crucial element in the assessment of her thrombosis development risk.",
+        "When the patient's SEX is logged as [SEX], it directly informs the assessment of her thrombosis risk."
+      ],
+      "counter_variations": [
+        "The patient's SEX is null, a fact that should be taken into account when interpreting gender‑specific clinical guidelines and therapeutic decisions.",
+        "Because the patient’s SEX is null, clinicians must weigh this information while applying gender‑specific clinical guidelines and therapeutic decisions.",
+        "In reviewing gender‑specific clinical guidelines and therapeutic decisions, one must note that the patient’s SEX is null.",
+        "When gender‑specific clinical guidelines and therapeutic decisions are being interpreted, the null value of the patient’s SEX cannot be ignored.",
+        "The null status of the patient’s SEX represents a crucial element to consider during the analysis of gender‑specific clinical guidelines and therapeutic decisions.",
+        "Given that the patient’s SEX is null, it becomes essential to incorporate this detail into any assessment of gender‑specific clinical guidelines and therapeutic decisions.",
+        "Interpreters of gender‑specific clinical guidelines and therapeutic decisions must acknowledge that the patient’s SEX is null.",
+        "While evaluating gender‑specific clinical guidelines and therapeutic decisions, the fact that the patient’s SEX is null must be factored into the decision‑making process.",
+        "The presence of a null value for the patient’s SEX mandates careful consideration when applying gender‑specific clinical guidelines and therapeutic decisions.",
+        "For accurate application of gender‑specific clinical guidelines and therapeutic decisions, the null designation of the patient’s SEX should be explicitly accounted for.",
+        "When the patient’s SEX is null, this particular datum should influence the interpretation of gender‑specific clinical guidelines and therapeutic decisions.",
+        "The null entry for the patient’s SEX constitutes a salient point that clinicians need to incorporate while reviewing gender‑specific clinical guidelines and therapeutic decisions.",
+        "Considering that the patient’s SEX is null, it is imperative to reflect this condition in the analysis of gender‑specific clinical guidelines and therapeutic decisions.",
+        "The fact that the patient’s SEX is null must be integrated into any deliberation concerning gender‑specific clinical guidelines and therapeutic decisions.",
+        "In the context of gender‑specific clinical guidelines and therapeutic decisions, the null value assigned to the patient’s SEX should be regarded as a pivotal consideration."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "developing": [
+          "developing"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "assessing": [
+          "assessing"
+        ],
+        "risk": [
+          "risk",
+          "danger",
+          "hazard",
+          "peril",
+          "chance",
+          "jeopardy"
+        ],
+        "which": [
+          "which"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ],
+        "biological": [
+          "biological",
+          "biologic"
+        ],
+        "patient": [
+          "patient"
+        ]
+      },
+      "field_data_types": {
+        "SEX": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each piece of information contributes to comprehensive patient care.",
+      "template_pattern": "Each piece of information contributes to comprehensive patient care.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every data point adds to comprehensive patient care.",
+        "Comprehensive patient care is enhanced by each piece of information.",
+        "Each bit of information helps build a thorough approach to patient care.",
+        "The totality of patient care benefits from every individual piece of information.",
+        "All information, piece by piece, contributes toward comprehensive patient care.",
+        "In patient care, each fragment of data plays a role in achieving comprehensiveness.",
+        "A comprehensive approach to patient care relies on each piece of information.",
+        "Patient care becomes comprehensive thanks to the contribution of each information piece.",
+        "Each individual datum supports the delivery of comprehensive patient care.",
+        "Through each piece of information, comprehensive patient care is achieved.",
+        "The accumulation of every information piece fuels comprehensive patient care.",
+        "Providing comprehensive patient care depends on the input of each piece of information.",
+        "Each piece of data contributes toward a full spectrum of patient care.",
+        "Comprehensive patient care is the result of contributions from every piece of information.",
+        "By adding each piece of information, we advance toward comprehensive patient care."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "comprehensive": [
+          "comprehensive"
+        ],
+        "contributes": [
+          "contributes"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "piece": [
+          "piece",
+          "part",
+          "bit",
+          "slice",
+          "patch"
+        ],
+        "information": [
+          "information",
+          "data"
+        ],
+        "care": [
+          "care",
+          "attention",
+          "concern",
+          "maintenance",
+          "upkeep",
+          "precaution"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Born on 1934-02-13, the patient's age is crucial for evaluating potential thrombosis risks accurately.",
+      "template_pattern": "Born on [BIRTHDAY], the patient's age is crucial for evaluating potential thrombosis risks accurately.",
+      "primary_data_fields": [
+        "Birthday"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's Birthday is [BIRTHDAY], making his age essential for precise assessment of possible thrombosis risk.",
+        "Given a Birthday of [BIRTHDAY], the patient's age becomes a key factor in accurately evaluating potential thrombosis hazards.",
+        "Accurate evaluation of possible thrombosis risk hinges on the patient's age, with a Birthday recorded as [BIRTHDAY].",
+        "Because the Birthday is [BIRTHDAY], the patient's age must be considered critical when assessing thrombosis risk accurately.",
+        "With a Birthday of [BIRTHDAY], clinicians regard the patient's age as vital for the exact appraisal of thrombosis possibilities.",
+        "The patient's age, anchored by a Birthday on [BIRTHDAY], is pivotal for a thorough and accurate thrombosis risk assessment.",
+        "For an accurate thrombosis risk evaluation, the patient's age—derived from a Birthday of [BIRTHDAY]—holds paramount importance.",
+        "Since the Birthday is [BIRTHDAY], the patient's age is indispensable for precisely gauging potential thrombosis risk.",
+        "In evaluating thrombosis risk with precision, the patient's age, based on a Birthday of [BIRTHDAY], is crucial.",
+        "The critical factor for accurate thrombosis risk appraisal is the patient's age, given the Birthday of [BIRTHDAY].",
+        "A Birthday of [BIRTHDAY] indicates the patient's age, which is fundamental for exact assessment of thrombosis susceptibility.",
+        "When the Birthday reads [BIRTHDAY], the patient's age becomes a cornerstone for accurate thrombosis risk analysis.",
+        "The patient's age, informed by a Birthday of [BIRTHDAY], is essential for the correct evaluation of potential thrombosis hazards.",
+        "Accurate thrombosis risk assessment relies heavily on the patient's age, with the Birthday noted as [BIRTHDAY].",
+        "Because the patient’s Birthday is [BIRTHDAY], his age plays a crucial role in precisely evaluating possible thrombosis risks."
+      ],
+      "counter_variations": [
+        "Because the patient’s Birthday is null, our capacity to evaluate age‑related risk factors in this healthcare analysis is constrained.",
+        "The fact that the patient’s Birthday is null hampers our ability to examine age‑related risk factors within the present healthcare assessment.",
+        "With the patient’s Birthday recorded as null, we encounter limitations in assessing age‑related risk factors in the current healthcare analysis.",
+        "Our evaluation of age‑related risk factors in the ongoing healthcare analysis is impeded by the patient’s Birthday being null.",
+        "Since the patient’s Birthday is null, the current healthcare analysis cannot fully appraise age‑related risk factors.",
+        "The patient’s Birthday being null restricts the thoroughness of age‑related risk factor assessment in the present healthcare analysis.",
+        "In this healthcare analysis, the null value for the patient’s Birthday curtails our ability to scrutinize age‑related risk factors.",
+        "The null entry for the patient’s Birthday limits the depth with which age‑related risk factors can be evaluated in the current healthcare analysis.",
+        "Owing to the patient’s Birthday being null, the present healthcare analysis suffers from an inability to properly assess age‑related risk factors.",
+        "The patient’s Birthday is null, thereby diminishing our competence to gauge age‑related risk factors in the ongoing healthcare analysis.",
+        "Because the patient’s Birthday is null, the current healthcare analysis lacks sufficient data to evaluate age‑related risk factors accurately.",
+        "The null status of the patient’s Birthday hampers a comprehensive assessment of age‑related risk factors in the present healthcare analysis.",
+        "In the current healthcare analysis, a null value for the patient’s Birthday curtails our ability to appraise age‑related risk factors.",
+        "The patient’s Birthday being null imposes a restriction on our capacity to analyze age‑related risk factors within this healthcare report.",
+        "With a null entry for the patient’s Birthday, the present healthcare analysis struggles to assess age‑related risk factors effectively."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "born": [
+          "born",
+          "delivered",
+          "innate",
+          "natural"
+        ],
+        "evaluating": [
+          "evaluating"
+        ],
+        "potential": [
+          "potential",
+          "possible"
+        ],
+        "risks": [
+          "risks"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "thrombosis": [
+          "thrombosis"
+        ],
+        "accurately": [
+          "accurately"
+        ]
+      },
+      "field_data_types": {
+        "Birthday": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With age being a significant factor, medical evaluations are thorough and ongoing.",
+      "template_pattern": "With age being a significant factor, medical evaluations are thorough and ongoing.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because age plays a major role, medical assessments are comprehensive and continuous.",
+        "Since aging is a key determinant, clinicians conduct exhaustive and ongoing evaluations.",
+        "With age as a crucial factor, thorough and sustained medical examinations are performed.",
+        "Age, being a significant influence, prompts detailed and perpetual health evaluations.",
+        "Given that age is an important factor, medical checks are both meticulous and ongoing.",
+        "As age significantly impacts health, providers ensure evaluations are exhaustive and continual.",
+        "The significant impact of age leads to medical assessments that are both thorough and ongoing.",
+        "Due to age's importance, healthcare professionals carry out comprehensive and ongoing evaluations.",
+        "Age’s significance means that medical examinations are carried out in a thorough and continuous manner.",
+        "In light of age being a major factor, ongoing and detailed medical evaluations are conducted.",
+        "Because the factor of age is substantial, the medical evaluation process is thorough and never‑ending.",
+        "With the considerable influence of age, physicians perform extensive and continuous assessments.",
+        "Age is a pivotal factor, thus medical evaluations remain both thorough and ongoing.",
+        "Recognizing age as a vital element, the healthcare system administers thorough, ongoing examinations.",
+        "The importance of age necessitates that medical evaluations be exhaustive and ongoing."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "medical": [
+          "medical"
+        ],
+        "evaluations": [
+          "evaluations"
+        ],
+        "being": [
+          "being",
+          "existence",
+          "organism"
+        ],
+        "ongoing": [
+          "ongoing"
+        ],
+        "thorough": [
+          "thorough",
+          "thoroughgoing",
+          "exhaustive"
+        ],
+        "factor": [
+          "factor",
+          "gene",
+          "ingredient",
+          "component",
+          "constituent",
+          "element"
+        ],
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The patient's Description was initially documented on 1994-02-14, marking the start of their recorded medical history.",
+      "template_pattern": "The patient's Description was initially documented on [DESCRIPTION], marking the start of their recorded medical history.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's Description was first entered on [DESCRIPTION], marking the commencement of their documented medical history.",
+        "On [DESCRIPTION], the patient's Description was initially recorded, indicating the start of their medical history archive.",
+        "Initially documented on [DESCRIPTION], the patient's Description signals the beginning of their recorded health record.",
+        "The first entry of the patient's Description occurred on [DESCRIPTION], denoting the launch of their medical history.",
+        "Recorded on [DESCRIPTION], the patient's Description marks the onset of their documented healthcare timeline.",
+        "The patient's Description was initially logged on [DESCRIPTION], which represents the inception of their medical record.",
+        "On [DESCRIPTION], the patient's Description was first noted, heralding the start of their recorded medical history.",
+        "The initial documentation of the patient's Description took place on [DESCRIPTION], signalling the beginning of their health history.",
+        "The patient's Description entered the system on [DESCRIPTION], establishing the foundation of their medical history.",
+        "First captured on [DESCRIPTION], the patient's Description denotes the commencement of their recorded health data.",
+        "The patient's Description was initially captured on [DESCRIPTION], thereby marking the start of their documented medical chronology.",
+        "On [DESCRIPTION], the patient's Description was first entered, indicating the opening of their medical history record.",
+        "The beginning of the patient's documented medical history is marked by the Description being recorded on [DESCRIPTION].",
+        "The patient's Description was first logged on [DESCRIPTION], which initiates their recorded medical history.",
+        "Initially, on [DESCRIPTION], the patient's Description was documented, signifying the start of their health record."
+      ],
+      "counter_variations": [
+        "Because the patient's Description is null, the record reveals that no narrative detail was supplied during the assessment.",
+        "The assessment notes that the patient's Description is null, thereby signifying the absence of any narrative detail at that moment.",
+        "At the time of assessment, the patient's Description is null, which implies that no descriptive narrative was entered.",
+        "Indicating that no narrative detail was provided at the time of assessment, the patient's Description is null.",
+        "The patient's Description is null, a condition that denotes a lack of narrative detail in the assessment record.",
+        "Since the patient's Description is null, the clinical report confirms that no narrative detail was recorded during the assessment.",
+        "In the assessment data, the patient's Description is null, reflecting that no narrative detail was furnished at that juncture.",
+        "The clinical entry shows the patient's Description is null, thereby communicating that no narrative detail was captured at assessment.",
+        "With the patient's Description marked as null, the documentation indicates that no narrative detail was offered at the assessment time.",
+        "The patient's Description is null, which conveys that at the moment of assessment no narrative detail was provided.",
+        "As noted in the assessment, the patient's Description is null, underscoring the omission of any narrative detail.",
+        "The record specifies that the patient's Description is null, meaning that no narrative detail was entered at the time of assessment.",
+        "During the assessment, the patient's Description is null, suggesting that no narrative detail was included.",
+        "The patient's Description is null, a designation that signals the non‑inclusion of narrative detail during the assessment.",
+        "Because the patient's Description is null, the assessment report lacks any narrative detail for that field."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "recorded": [
+          "recorded"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "initially": [
+          "initially"
+        ],
+        "marking": [
+          "marking",
+          "scoring",
+          "grading",
+          "grade",
+          "mark",
+          "tag"
+        ],
+        "documented": [
+          "documented",
+          "attested",
+          "authenticated"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "their": [
+          "their"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle",
+          "story"
+        ]
+      },
+      "field_data_types": {
+        "Description": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Over the years, many changes have been noted in the patient's health records.",
+      "template_pattern": "Over the years, many changes have been noted in the patient's health records.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Over the years, numerous alterations have been observed in the patient’s medical records.",
+        "The patient’s health files have shown many changes over time.",
+        "Throughout the years, clinicians have recorded a multitude of modifications in the patient’s charts.",
+        "Many variations in the patient’s health documentation have been noted across the years.",
+        "Over time, the patient’s records reveal several changes.",
+        "Several changes have been documented in the patient’s health records throughout the years.",
+        "The patient’s medical history displays a series of changes over the years.",
+        "In the course of years, the health records of the patient have reflected many alterations.",
+        "Many updates have been logged in the patient’s health files over the years.",
+        "Over the years, the patient’s charts have been marked by numerous changes.",
+        "Clinicians have observed a host of changes in the patient’s health records over time.",
+        "The patient’s health records have undergone many modifications over the years.",
+        "Over a span of years, the documentation for the patient shows many changes.",
+        "There have been many changes noted in the patient’s health records throughout the years.",
+        "Throughout the years, the patient’s health documentation has recorded numerous alterations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "changes": [
+          "changes"
+        ],
+        "noted": [
+          "noted",
+          "renowned",
+          "celebrated",
+          "famous",
+          "illustrious",
+          "notable"
+        ],
+        "health": [
+          "health",
+          "wellness"
+        ],
+        "over": [
+          "over"
+        ],
+        "records": [
+          "records"
+        ],
+        "years": [
+          "years"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "many": [
+          "many"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The patient first visited the hospital on 1993-02-10, marking an important date in their thrombosis treatment history.",
+      "template_pattern": "The patient first visited the hospital on [FIRST DATE], marking an important date in their thrombosis treatment history.",
+      "primary_data_fields": [
+        "First Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "First Date — [FIRST DATE], when the patient initially entered the hospital, represents a pivotal moment in their thrombosis treatment timeline.",
+        "The hospital admission on [FIRST DATE], recorded as the First Date, signified a key milestone in the patient’s thrombosis therapy history.",
+        "Marked as the First Date, [FIRST DATE] was the day the patient first came to the hospital, an important point in their thrombosis treatment record.",
+        "On [FIRST DATE], noted as the First Date, the patient made their inaugural hospital visit, a significant date in the chronology of their thrombosis care.",
+        "The patient’s First Date, [FIRST DATE], corresponds to their initial hospital encounter, a noteworthy episode in the progression of thrombosis treatment.",
+        "Recorded as the First Date, [FIRST DATE] saw the patient’s first hospital admission, marking an essential stage in their thrombosis treatment history.",
+        "In the patient’s record, the First Date of [FIRST DATE] indicates the initial hospital visit, a crucial moment for their thrombosis therapy.",
+        "The First Date—[FIRST DATE]—denotes when the patient first presented at the hospital, a landmark in their thrombosis treatment journey.",
+        "When the patient first arrived at the hospital on [FIRST DATE] (First Date), it became a significant date in the timeline of their thrombosis care.",
+        "The First Date, listed as [FIRST DATE], marks the patient’s first hospital attendance and stands out as an important point in their thrombosis treatment history.",
+        "As recorded under First Date, [FIRST DATE] marks the patient’s inaugural hospital visit, a pivotal date in their thrombosis treatment narrative.",
+        "The patient’s inaugural hospital entry on [FIRST DATE], captured as the First Date, is an essential date within their thrombosis treatment record.",
+        "Documented as the First Date, [FIRST DATE] reflects the patient’s first hospital contact, a notable milestone in their thrombosis therapy.",
+        "First Date: [FIRST DATE] – this marks the patient’s initial visit to the hospital and stands as an important date in their thrombosis treatment history.",
+        "The date [FIRST DATE], labeled as the First Date, records the patient’s first hospital encounter, a significant event in the course of their thrombosis treatment."
+      ],
+      "counter_variations": [
+        "The clinical record notes that the patient’s First Date is null, signifying that no initial appointment has been entered into the timeline.",
+        "In the healthcare dataset, the First Date for this patient appears as null, which indicates that an initial visit date has not been captured.",
+        "Because the First Date is null, the system reflects that the patient’s earliest scheduled encounter remains undocumented within the clinical chronology.",
+        "The patient’s First Date registers as null, thereby denoting the absence of a recorded opening appointment in the treatment timeline.",
+        "Within the electronic health record, the First Date field contains null, implying that the provenance of the first consultation is not logged.",
+        "Null is the value assigned to the patient’s First Date, revealing that the inaugural appointment date has not been documented in the timeline.",
+        "The dataset shows a null entry for the patient’s First Date, which conveys that no initial encounter date has been recorded.",
+        "As the First Date is recorded as null, it conveys that the patient’s first scheduled visit is missing from the clinical chronology.",
+        "The system flags the patient’s First Date as null, indicating that the earliest appointment date has not been entered into the record.",
+        "A null value populates the First Date column for this patient, meaning that the initial appointment remains undocumented in the timeline.",
+        "The patient’s First Date being null denotes that the earliest clinical encounter has yet to be logged in the dataset.",
+        "In the report, the First Date appears as null, reflecting that the patient’s initial appointment date has not been captured.",
+        "The clinical timeline lists a null for the patient’s First Date, signifying that no opening appointment has been entered.",
+        "Null appears in the First Date field for this patient, which signals that an initial visit date has not been recorded.",
+        "The First Date field for the patient is set to null, thereby indicating that the first appointment has not been documented within the clinical timeline."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "treatment": [
+          "treatment",
+          "intervention"
+        ],
+        "marking": [
+          "marking",
+          "scoring",
+          "grade",
+          "grading",
+          "label",
+          "marker"
+        ],
+        "important": [
+          "important",
+          "significant",
+          "crucial"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "their": [
+          "their"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "thrombosis": [
+          "thrombosis"
+        ],
+        "visited": [
+          "visited"
+        ]
+      },
+      "field_data_types": {
+        "First Date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This initial visit set the stage for a long-term healthcare relationship.",
+      "template_pattern": "This initial visit set the stage for a long-term healthcare relationship.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The first appointment laid the groundwork for a lasting healthcare partnership.",
+        "A long‑term medical relationship was primed by this introductory visit.",
+        "By this initial consult, the foundation for an enduring health‑care connection was established.",
+        "This debut visit paved the way for an ongoing health‑care alliance.",
+        "An enduring healthcare relationship began with the opening visit.",
+        "The stage for a sustained medical partnership was set during the first encounter.",
+        "With the initial check‑up, a long‑term health‑care bond was set in motion.",
+        "A lasting physician‑patient relationship was initiated by this first meeting.",
+        "The groundwork for a prolonged health‑care collaboration was laid during this initial visit.",
+        "This first consultation served to establish a long‑term healthcare rapport.",
+        "An ongoing health‑care liaison was sparked by the preliminary appointment.",
+        "Through the opening visit, the basis for a long‑standing medical relationship was created.",
+        "The initial encounter set up the framework for a durable health‑care partnership.",
+        "A long‑term healthcare connection was forged from this introductory session.",
+        "The first visit acted as the catalyst for a sustained health‑care relationship."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "healthcare": [
+          "healthcare"
+        ],
+        "initial": [
+          "initial"
+        ],
+        "visit": [
+          "visit",
+          "see",
+          "inspect"
+        ],
+        "relationship": [
+          "relationship",
+          "kinship"
+        ],
+        "long": [
+          "long",
+          "hanker",
+          "yearn"
+        ],
+        "stage": [
+          "stage",
+          "phase",
+          "level",
+          "degree"
+        ],
+        "term": [
+          "term"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The patient's Admission status was marked as +, indicating they were admitted for inpatient care.",
+      "template_pattern": "The patient's Admission status was marked as [ADMISSION], indicating they were admitted for inpatient care.",
+      "primary_data_fields": [
+        "Admission"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's Admission status displayed a [ADMISSION], which shows they were admitted for inpatient care.",
+        "Marked with a [ADMISSION], the patient's Admission status indicates inpatient care admission.",
+        "A [ADMISSION] was recorded in the patient's Admission status, signifying that they received inpatient care.",
+        "The patient’s Admission status, noted as [ADMISSION], denotes that they were placed in inpatient care.",
+        "Because the patient's Admission status is [ADMISSION], they were admitted for inpatient care.",
+        "The Admission status of the patient was set to [ADMISSION], reflecting an inpatient care admission.",
+        "With a [ADMISSION] shown in the patient's Admission status, it confirms their admission to inpatient care.",
+        "The patient's Admission status carries a [ADMISSION], meaning they entered inpatient care.",
+        "Since the Admission status for the patient reads [ADMISSION], they were admitted for inpatient care.",
+        "A [ADMISSION] in the Admission status indicates that the patient was admitted for inpatient care.",
+        "The record marks the patient's Admission status as [ADMISSION], indicating inpatient care admission.",
+        "Because the Admission status appears as [ADMISSION], the patient was placed under inpatient care.",
+        "The patient's Admission status, recorded as [ADMISSION], points to an inpatient care admission.",
+        "Seeing a [ADMISSION] in the Admission status, we understand the patient was admitted for inpatient care.",
+        "The Admission status shows a [ADMISSION] for the patient, which signals that they are receiving inpatient care."
+      ],
+      "counter_variations": [
+        "According to the comprehensive healthcare data report, the patient’s Admission is logged as null, and no additional commentary is provided.",
+        "The patient’s Admission appears as null in the comprehensive healthcare data report, with the record offering no further elaboration.",
+        "Within the comprehensive healthcare data report, the Admission for the patient is documented as null, lacking any subsequent clarification.",
+        "In the comprehensive healthcare data report, the Admission field for this patient is recorded as null, without any further exposition.",
+        "The comprehensive healthcare data report records the patient’s Admission as null, omitting any further detail.",
+        "Documented in the comprehensive healthcare data report, the patient’s Admission is noted as null, and no further explanation follows.",
+        "The patient’s Admission, as entered in the comprehensive healthcare data report, is designated null, with no additional narrative supplied.",
+        "As per the comprehensive healthcare data report, the Admission entry for the patient is set to null, without further elaboration.",
+        "The comprehensive healthcare data report indicates that the patient’s Admission is null, and it provides no supplementary commentary.",
+        "Recorded within the comprehensive healthcare data report, the Admission for the patient is null, with the documentation stopping there.",
+        "The Admission of the patient is listed as null in the comprehensive healthcare data report, leaving the entry without further explication.",
+        "In the comprehensive healthcare data report, the patient’s Admission is captured as null, and the entry contains no additional description.",
+        "The comprehensive healthcare data report shows the patient’s Admission as null, offering no further elucidation.",
+        "Within the comprehensive healthcare data report, the Admission associated with the patient is marked null, devoid of any further elaboration.",
+        "The patient’s Admission is entered as null in the comprehensive healthcare data report, and the record does not furnish any further detail."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "admitted": [
+          "admitted"
+        ],
+        "inpatient": [
+          "inpatient"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "care": [
+          "care",
+          "tutelage",
+          "aid",
+          "forethought",
+          "guardianship",
+          "precaution"
+        ]
+      },
+      "field_data_types": {
+        "Admission": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This step signified the beginning of intensive medical interventions.",
+      "template_pattern": "This step signified the beginning of intensive medical interventions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This action marked the onset of intensive medical interventions.",
+        "The commencement of intensive medical interventions was indicated by this step.",
+        "By taking this step, intensive medical interventions began.",
+        "Intensive medical interventions started with this step.",
+        "This step served as the catalyst for the launch of intensive medical interventions.",
+        "The initiation of intensive medical interventions was signaled by this step.",
+        "With this step, the intensive medical interventions were set in motion.",
+        "This measure heralded the start of intensive medical interventions.",
+        "The beginning of intensive medical interventions was ushered in by this step.",
+        "Through this step, intensive medical interventions were introduced.",
+        "This step triggered the commencement of intensive medical interventions.",
+        "Intensive medical interventions were commenced as a result of this step.",
+        "This stage denoted the launch of intensive medical interventions.",
+        "The onset of intensive medical interventions followed this step.",
+        "By implementing this step, the intensive medical interventions began."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "step": [
+          "step",
+          "footstep",
+          "stride",
+          "pace",
+          "tread"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "beginning": [
+          "beginning",
+          "commencement",
+          "origin",
+          "start",
+          "outset"
+        ],
+        "interventions": [
+          "interventions"
+        ],
+        "intensive": [
+          "intensive"
+        ],
+        "signified": [
+          "signified"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The diagnosis of RA susp. was crucial in assessing the patient's risk for developing thrombosis.",
+      "template_pattern": "The diagnosis of [DIAGNOSIS] was crucial in assessing the patient's risk for developing thrombosis.",
+      "primary_data_fields": [
+        "Diagnosis"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Diagnosis of [DIAGNOSIS] proved essential for evaluating the patient's risk of developing thrombosis.",
+        "Assessing the patient's likelihood of thrombosis hinged on the crucial Diagnosis of [DIAGNOSIS]",
+        "The patient's thrombosis risk assessment depended critically on a Diagnosis of [DIAGNOSIS]",
+        "A crucial Diagnosis of [DIAGNOSIS] enabled clinicians to gauge the patient's potential for thrombosis.",
+        "Evaluating the risk of thrombosis in the patient required the pivotal Diagnosis of [DIAGNOSIS]",
+        "It was the Diagnosis of [DIAGNOSIS] that played a vital role in appraising the patient's thrombosis risk.",
+        "With the Diagnosis of [DIAGNOSIS], practitioners could accurately assess the patient's susceptibility to thrombosis.",
+        "The patient's chance of developing thrombosis was thoroughly examined thanks to a key Diagnosis of [DIAGNOSIS]",
+        "Crucial to the patient's thrombosis risk appraisal was the Diagnosis of [DIAGNOSIS]",
+        "By establishing a Diagnosis of [DIAGNOSIS], doctors could determine the patient's thrombosis risk.",
+        "The Diagnosis of [DIAGNOSIS] served as the cornerstone for assessing the patient's risk of thrombosis.",
+        "In determining the patient's propensity for thrombosis, the Diagnosis of [DIAGNOSIS] was indispensable.",
+        "The patient's risk of thrombosis was assessed primarily through the essential Diagnosis of [DIAGNOSIS]",
+        "Through a pivotal Diagnosis of [DIAGNOSIS], clinicians assessed the likelihood of the patient developing thrombosis.",
+        "The essential Diagnosis of [DIAGNOSIS] underpinned the evaluation of the patient's thrombosis risk."
+      ],
+      "counter_variations": [
+        "Recorded as null, the Diagnosis reflects that at the moment of assessment no definitive clinical determination could be documented.",
+        "Because the Diagnosis was entered as null, the evaluators were unable to document a definitive clinical determination during the assessment.",
+        "The assessment notes that the Diagnosis is null, signifying the absence of a conclusive clinical determination at that time.",
+        "At the time of evaluation, the Diagnosis was logged as null, which indicates that a definitive clinical determination could not be recorded.",
+        "Null was the value assigned to the Diagnosis, denoting that no definitive clinical determination could be recorded during the assessment.",
+        "In this report, the Diagnosis appears as null, implying that a definitive clinical determination was not documentable at the assessment point.",
+        "The Diagnosis, marked as null, conveys that the clinicians could not document a definitive determination at the assessment moment.",
+        "Since the Diagnosis was captured as null, it communicates that a definitive clinical determination could not be documented at the time of assessment.",
+        "The clinical record lists the Diagnosis as null, thereby indicating that no definitive determination could be documented during assessment.",
+        "Having been recorded as null, the Diagnosis signals that a definitive clinical determination was unattainable at the assessment time.",
+        "The Diagnosis entry reads null, which denotes that a definitive clinical determination could not be documented when the assessment was performed.",
+        "When the assessment was conducted, the Diagnosis was entered as null, reflecting the inability to document a definitive clinical determination.",
+        "The value null assigned to the Diagnosis denotes that, at the assessment moment, no definitive clinical determination could be documented.",
+        "In the dataset, the Diagnosis is shown as null, indicating that a definitive clinical determination was not documented at the time of assessment.",
+        "The Diagnosis field contains the value null, indicating that a definitive clinical determination could not be documented during the assessment."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "developing": [
+          "developing"
+        ],
+        "assessing": [
+          "assessing"
+        ],
+        "risk": [
+          "risk",
+          "danger",
+          "hazard",
+          "jeopardy",
+          "chance"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "thrombosis": [
+          "thrombosis"
+        ]
+      },
+      "field_data_types": {
+        "Diagnosis": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Subsequent treatments were tailored to address and manage the identified risks.",
+      "template_pattern": "Subsequent treatments were tailored to address and manage the identified risks.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Later therapies were customized to mitigate and handle the identified risks.",
+        "The following interventions were specifically designed to tackle and control the recognized hazards.",
+        "To address and manage the identified risks, subsequent treatments were adapted accordingly.",
+        "Subsequent care plans were fine‑tuned to confront and oversee the identified risks.",
+        "In response to the identified risks, later treatments were shaped to both address and manage them.",
+        "Subsequent treatment protocols were fashioned to address and supervise the identified risks.",
+        "The next series of treatments was engineered to address and manage the risks that had been identified.",
+        "Addressing and managing the identified risks guided the tailoring of subsequent treatments.",
+        "Subsequent therapeutic measures were adjusted to both address and manage the identified risks.",
+        "To manage the identified risks, subsequent treatments were specifically tailored.",
+        "Following the risk identification, treatments were modified to address and control them.",
+        "The identified risks prompted the customization of subsequent treatments for both addressing and managing.",
+        "Subsequent interventions were shaped to address the identified risks and to manage them effectively.",
+        "Address and manage the identified risks: that was the purpose behind tailoring subsequent treatments.",
+        "After identifying the risks, the subsequent treatments were tailored to address and manage them."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "tailored": [
+          "tailored",
+          "bespoke"
+        ],
+        "address": [
+          "address",
+          "treat",
+          "handle",
+          "deal",
+          "cover"
+        ],
+        "risks": [
+          "risks"
+        ],
+        "treatments": [
+          "treatments"
+        ],
+        "manage": [
+          "manage",
+          "handle",
+          "supervise",
+          "oversee",
+          "deal"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "subsequent": [
+          "subsequent"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

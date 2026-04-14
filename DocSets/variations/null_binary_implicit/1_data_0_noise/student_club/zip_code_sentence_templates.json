@@ -1,0 +1,452 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "eaa907d2f9cc4486": "zip_code",
+    "b46081ef3bcd4abd": "type",
+    "2fdc53e848c3441f": "city",
+    "f366ffc451d04f40": "county",
+    "4a566140ff0d4932": "state",
+    "21c83cad319a4368": "short_state"
+  },
+  "templates": [
+    {
+      "original": "Many club members live in the area defined by the zip_code 501, which helps track their regional engagement.",
+      "template_pattern": "Many club members live in the area defined by the zip_code [ZIP_CODE], which helps track their regional engagement.",
+      "primary_data_fields": [
+        "zip_code"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A large number of club members reside within the region identified by zip code [ZIP_CODE], which aids in monitoring their local involvement.",
+        "The regional engagement of club members is tracked by noting that many of them live in the area covered by zip code [ZIP_CODE].",
+        "Club members who inhabit the zone marked by zip code [ZIP_CODE] are numerous, and this information helps assess their regional participation.",
+        "Many of the club’s members call the vicinity of zip code [ZIP_CODE] home, providing a metric for their community engagement.",
+        "The area defined by zip code [ZIP_CODE] houses numerous club members, thereby facilitating the measurement of their regional activity.",
+        "By living in the zone designated as zip code [ZIP_CODE], many club members contribute data that supports tracking of their local engagement.",
+        "Numerous club members are situated in the sector associated with zip code [ZIP_CODE], which serves to monitor their regional involvement.",
+        "The presence of many club members in the region of zip code [ZIP_CODE] allows for the tracking of their engagement at a local level.",
+        "Many club members dwell in the area corresponding to zip code [ZIP_CODE], a detail that assists in evaluating their regional participation.",
+        "Tracking regional engagement is made possible because a sizable portion of club members reside in the area labeled zip code [ZIP_CODE].",
+        "The fact that many club members live within zip code [ZIP_CODE] helps analysts track their involvement in the region.",
+        "Club members living in the vicinity defined by zip code [ZIP_CODE] are numerous, which aids in monitoring their regional engagement.",
+        "A significant number of club members occupy the locale specified by zip code [ZIP_CODE], thereby enabling the tracking of their local involvement.",
+        "Because many club members are located in the area identified as zip code [ZIP_CODE], their regional engagement can be effectively tracked.",
+        "The region marked by zip code [ZIP_CODE] contains many club members, providing a basis for tracking their engagement within the area."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "area": [
+          "area",
+          "region",
+          "sphere",
+          "field",
+          "arena",
+          "domain"
+        ],
+        "members": [
+          "members"
+        ],
+        "engagement": [
+          "engagement",
+          "involvement",
+          "participation",
+          "appointment",
+          "employment",
+          "booking"
+        ],
+        "regional": [
+          "regional"
+        ],
+        "which": [
+          "which"
+        ],
+        "club": [
+          "club",
+          "order",
+          "guild",
+          "clubhouse",
+          "society"
+        ],
+        "track": [
+          "track",
+          "course",
+          "trail",
+          "path",
+          "rail",
+          "racecourse"
+        ],
+        "live": [
+          "live",
+          "reside",
+          "dwell",
+          "inhabit",
+          "exist",
+          "survive"
+        ]
+      },
+      "field_data_types": {
+        "zip_code": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club members are located in an area with a ZIP code type classified as Unique.",
+      "template_pattern": "The student club members are located in an area with a ZIP code type classified as [TYPE].",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club members are situated in a region where the ZIP code type is classified as [TYPE].",
+        "Located within an area classified as [TYPE], the student club members have a ZIP code type.",
+        "A ZIP code type designated as [TYPE] marks the area in which the student club members reside.",
+        "In the zone with a ZIP code type labeled [TYPE], you will find the student club members.",
+        "The area featuring a ZIP code type called [TYPE] houses the student club members.",
+        "Student club members occupy a locality whose ZIP code type is identified as [TYPE].",
+        "An area with a ZIP code type described as [TYPE] is where the student club members are found.",
+        "The student club members are found in a region that has a ZIP code type classified as [TYPE].",
+        "Where the ZIP code type is [TYPE], the student club members are located.",
+        "The presence of the student club members corresponds to an area with a ZIP code type marked [TYPE].",
+        "In a location where the ZIP code type reads [TYPE], the student club members live.",
+        "A [TYPE] ZIP code type defines the area that contains the student club members.",
+        "The student club members belong to an area whose ZIP code type is [TYPE].",
+        "Within an area whose ZIP code type is classified as [TYPE], the student club members reside.",
+        "The student club members can be found in a region that possesses a ZIP code type labeled [TYPE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "located": [
+          "located",
+          "situated",
+          "placed",
+          "set"
+        ],
+        "area": [
+          "area",
+          "region",
+          "field",
+          "domain",
+          "sphere",
+          "arena"
+        ],
+        "members": [
+          "members"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "classified": [
+          "classified"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "society",
+          "order",
+          "lodge"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many members of the student club reside in Holtsville, providing a vibrant community within the broader organization.",
+      "template_pattern": "Many members of the student club reside in [CITY], providing a vibrant community within the broader organization.",
+      "primary_data_fields": [
+        "city"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A large portion of the student club’s members live in [CITY], creating a lively community inside the larger organization.",
+        "Many of the student club participants call [CITY] home, fostering a vibrant community throughout the wider group.",
+        "In [CITY], numerous student club members reside, contributing to a dynamic community within the broader organization.",
+        "The student club includes many members who reside in [CITY], thereby establishing a spirited community across the larger organization.",
+        "Residing in [CITY], a great many student club members help build a vibrant community inside the broader organization.",
+        "[CITY] is home to many members of the student club, which in turn nurtures a lively community within the larger organization.",
+        "Within the broader organization, a vibrant community is formed by many student club members who live in [CITY].",
+        "Many student club members are based in [CITY], providing the broader organization with a vibrant community.",
+        "The broader organization benefits from a vibrant community, thanks to the many student club members who reside in [CITY].",
+        "A vibrant community emerges within the larger organization as many student club members reside in [CITY].",
+        "Many members of the student club, living in [CITY], contribute to a lively community inside the broader organization.",
+        "Because many student club members live in [CITY], the broader organization enjoys a vibrant community.",
+        "The presence of numerous student club members in [CITY] supplies the broader organization with a dynamic community.",
+        "[CITY] hosts many student club members, which provides a vibrant community for the broader organization.",
+        "By residing in [CITY], many members of the student club create a vibrant community within the larger organization."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "members": [
+          "members"
+        ],
+        "organization": [
+          "organization",
+          "administration",
+          "establishment",
+          "formation",
+          "organisation",
+          "governance"
+        ],
+        "broader": [
+          "broader"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "vibrant": [
+          "vibrant",
+          "vivacious"
+        ],
+        "reside": [
+          "reside",
+          "occupy",
+          "domicile"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "providing": [
+          "providing"
+        ]
+      },
+      "field_data_types": {
+        "city": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many student club members come from Suffolk County, adding a layer of geographic diversity to the organization.",
+      "template_pattern": "Many student club members come from [COUNTY], adding a layer of geographic diversity to the organization.",
+      "primary_data_fields": [
+        "county"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A large number of student club members hail from [COUNTY], contributing geographic diversity to the organization.",
+        "[COUNTY] is the home of many student club members, which adds a layer of geographic diversity to the organization.",
+        "The organization gains geographic diversity because many of its student club members originate from [COUNTY].",
+        "Geographic diversity is enhanced in the organization by the many student club members who come from [COUNTY].",
+        "Many members of the student club, coming from [COUNTY], bring an extra element of geographic diversity to the organization.",
+        "With numerous student club members drawn from [COUNTY], the organization enjoys added geographic diversity.",
+        "The presence of many student club members from [COUNTY] injects geographic diversity into the organization.",
+        "Geographic diversity is bolstered in the organization through the many student club members that come from [COUNTY].",
+        "Because a sizable portion of student club members are from [COUNTY], the organization benefits from increased geographic diversity.",
+        "The organization’s geographic diversity is strengthened by the many student club members who originate from [COUNTY].",
+        "Many student club participants, who are from [COUNTY], add a layer of geographic diversity to the organization.",
+        "A significant contingent of student club members hails from [COUNTY], adding geographic diversity to the organization.",
+        "The organization experiences greater geographic diversity thanks to many student club members coming from [COUNTY].",
+        "By having many student club members from [COUNTY], the organization incorporates an additional layer of geographic diversity.",
+        "Geographic diversity within the organization is amplified by the many student club members that come from [COUNTY]."
+      ],
+      "counter_variations": [
+        "Although the county is not specified, the report nonetheless highlights the overarching geographic ambiguity inherent in the educational data.",
+        "The county remains unspecified, yet this omission underscores the broader spatial uncertainty reflected throughout the educational data report.",
+        "While the county is not available, the document still conveys the extensive geographic vagueness present in the educational data analysis.",
+        "The county, unknown in the dataset, nevertheless points to the larger issue of geographic indeterminacy within the educational data report.",
+        "Despite the county being not specified, the report captures the extensive uncertainty surrounding geographic identifiers in the educational data.",
+        "The report notes that the county is unspecified, which, in turn, mirrors the broader geographic ambiguity that pervades the educational data.",
+        "Given that the county is not specified, the educational data report nevertheless reveals a widespread lack of geographic precision.",
+        "The county is not available, and this gap nevertheless reflects the expansive geographic ambiguity embedded in the educational data report.",
+        "Although the county remains unknown, the educational data report still demonstrates the extensive ambiguity of geographic information.",
+        "Even though the county is not specified, the educational data report highlights the pervasive ambiguity of geographic delineations.",
+        "The county, being unspecified, nevertheless serves as an illustration of the larger geographic ambiguity found in the educational data report.",
+        "While the county is not specified, the document still underscores the considerable geographic indeterminacy present in the educational data.",
+        "The educational data report, noting the county as not specified, continues to reflect the widespread geographic ambiguity inherent in its findings.",
+        "Although the county is not specified, the educational data report nonetheless reveals a broader geographic ambiguity.",
+        "The educational data report highlights a wider geographic uncertainty, even though the county remains not specified."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "adding": [
+          "adding"
+        ],
+        "members": [
+          "members"
+        ],
+        "diversity": [
+          "diversity",
+          "variety"
+        ],
+        "organization": [
+          "organization",
+          "administration",
+          "establishment",
+          "formation",
+          "governance",
+          "arrangement"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "come": [
+          "come",
+          "arrive",
+          "occur"
+        ],
+        "layer": [
+          "layer",
+          "level",
+          "stratum"
+        ],
+        "geographic": [
+          "geographic",
+          "geographical"
+        ]
+      },
+      "field_data_types": {
+        "county": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organizations are predominantly located in New York, providing a vibrant network of clubs across the state.",
+      "template_pattern": "The student organizations are predominantly located in [STATE], providing a vibrant network of clubs across the state.",
+      "primary_data_fields": [
+        "state"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Student organizations are chiefly based in [STATE], creating a lively network of clubs throughout the state.",
+        "Across the state, a vibrant network of clubs is offered by student organizations that are primarily situated in [STATE].",
+        "Predominantly in [STATE], student organizations establish a dynamic club network that spans the state.",
+        "A dynamic network of clubs across the state is provided by student organizations mainly located in [STATE].",
+        "The majority of student organizations reside in [STATE], furnishing the state with a bustling club network.",
+        "In [STATE], most student organizations are found, delivering a vibrant network of clubs across the state.",
+        "Across the state, a vibrant club network originates from student organizations that are largely positioned in [STATE].",
+        "Student groups, largely situated in [STATE], supply the state with an energetic network of clubs.",
+        "A lively network of clubs across the state is supplied by student organizations, which are predominantly in [STATE].",
+        "The state enjoys a vigorous club network thanks to student organizations that are chiefly located in [STATE].",
+        "Primarily in [STATE], student bodies form a vibrant network of clubs that extends across the state.",
+        "Across the state, clubs thrive thanks to a vibrant network provided by student organizations based mainly in [STATE].",
+        "[STATE] hosts the bulk of student organizations, which in turn provide a vibrant club network throughout the state.",
+        "Student organizations that are predominantly located in [STATE] give the state a vibrant network of clubs.",
+        "Student organizations, mainly in [STATE], create a vibrant network of clubs that reaches across the state."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "located": [
+          "located",
+          "situated",
+          "placed"
+        ],
+        "predominantly": [
+          "predominantly",
+          "preponderantly"
+        ],
+        "clubs": [
+          "clubs",
+          "societies"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "vibrant": [
+          "vibrant",
+          "vivacious"
+        ],
+        "organizations": [
+          "organizations",
+          "organisations"
+        ],
+        "providing": [
+          "providing"
+        ]
+      },
+      "field_data_types": {
+        "state": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club members proudly display their affiliation with NY, using the short_state to represent their geographic location.",
+      "template_pattern": "The student club members proudly display their affiliation with [SHORT_STATE], using the short_state to represent their geographic location.",
+      "primary_data_fields": [
+        "short_state"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Student club members proudly showcase their [SHORT_STATE] affiliation, employing the short state as the marker of their geographic location.",
+        "With pride, the members of the student club display their connection to [SHORT_STATE] and use the short state to denote where they are located.",
+        "The affiliation with [SHORT_STATE] is prominently exhibited by student club members, who rely on the short state to indicate their geographic location.",
+        "Student club participants flaunt their [SHORT_STATE] ties, utilizing the short state to represent their geographic position.",
+        "Proudly, the student club’s members reveal their [SHORT_STATE] affiliation while applying the short state to signal their geographic location.",
+        "Their [SHORT_STATE] affiliation is proudly presented by student club members, who adopt the short state for geographic location identification.",
+        "Student club members, proud of their [SHORT_STATE] link, make use of the short state to signify their geographic location.",
+        "The short state is used by student club members to denote their geographic location as they proudly identify with [SHORT_STATE].",
+        "Affiliated with [SHORT_STATE], the student club members display this proudly and employ the short state to mark their geographic location.",
+        "Using the short state to indicate geographic location, student club members proudly proclaim their [SHORT_STATE] affiliation.",
+        "Student club members showcase their [SHORT_STATE] affiliation with pride, referencing the short state to define their geographic location.",
+        "The short state serves as the geographic location indicator for student club members who proudly display their [SHORT_STATE] affiliation.",
+        "Pridefully, the members of the student club exhibit their [SHORT_STATE] affiliation and rely on the short state to convey geographic location.",
+        "Student club participants openly display their [SHORT_STATE] affiliation, using the short state as the geographic location marker.",
+        "By employing the short state to show geographic location, student club members proudly assert their affiliation with [SHORT_STATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "members": [
+          "members"
+        ],
+        "affiliation": [
+          "affiliation",
+          "tie",
+          "association"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "geographic": [
+          "geographic",
+          "geographical"
+        ],
+        "represent": [
+          "represent",
+          "typify",
+          "symbolize",
+          "symbolise",
+          "exemplify",
+          "present"
+        ],
+        "proudly": [
+          "proudly"
+        ],
+        "using": [
+          "using"
+        ],
+        "location": [
+          "location",
+          "position",
+          "placement",
+          "localisation",
+          "localization"
+        ]
+      },
+      "field_data_types": {
+        "short_state": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

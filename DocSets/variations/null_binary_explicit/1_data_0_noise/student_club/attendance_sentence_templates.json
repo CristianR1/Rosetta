@@ -1,0 +1,148 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "1833097d0e31451f": "link_to_event",
+    "99a26007fbd64ed5": "link_to_member"
+  },
+  "templates": [
+    {
+      "original": "To access detailed information about the club event, please follow this link_to_event: rec2N69DMcrqN9PJC.",
+      "template_pattern": "To access detailed information about the club event, please follow this link_to_event: [LINK_TO_EVENT].",
+      "primary_data_fields": [
+        "link_to_event"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For detailed club‑event information, click the link to event: [LINK_TO_EVENT].",
+        "If you need the full details of the club event, the link to event is: [LINK_TO_EVENT].",
+        "Detailed information about the club event can be accessed via the link to event: [LINK_TO_EVENT].",
+        "Please use the link to event—[LINK_TO_EVENT]—to view comprehensive club‑event details.",
+        "Access comprehensive club event data by following the link to event: [LINK_TO_EVENT].",
+        "The link to event, [LINK_TO_EVENT], provides detailed information on the club event.",
+        "To view the club event’s full details, simply follow the link to event: [LINK_TO_EVENT].",
+        "You may obtain the detailed club‑event information through the link to event: [LINK_TO_EVENT].",
+        "By clicking the link to event ([LINK_TO_EVENT]), you will access detailed information about the club event.",
+        "For a complete overview of the club event, refer to the link to event: [LINK_TO_EVENT].",
+        "Detailed club event data is available via the link to event: [LINK_TO_EVENT].",
+        "Should you require more information on the club event, the link to event is [LINK_TO_EVENT].",
+        "The comprehensive details of the club event can be found at the link to event: [LINK_TO_EVENT].",
+        "Follow the link to event—[LINK_TO_EVENT]—to retrieve detailed club‑event information.",
+        "To obtain full information on the club event, please navigate to the link to event: [LINK_TO_EVENT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "detailed": [
+          "detailed",
+          "elaborate"
+        ],
+        "about": [
+          "about",
+          "nearly",
+          "almost",
+          "around",
+          "approximately",
+          "roughly"
+        ],
+        "please": [
+          "please"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "guild",
+          "clubhouse"
+        ],
+        "access": [
+          "access",
+          "admittance",
+          "admission"
+        ],
+        "information": [
+          "information",
+          "data"
+        ],
+        "follow": [
+          "follow",
+          "watch",
+          "observe",
+          "comply"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {
+        "link_to_event": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "At the last meeting, the attendance of each member, including link_to_member recD078PnS3x2doBe, was meticulously recorded.",
+      "template_pattern": "At the last meeting, the attendance of each member, including link_to_member [LINK_TO_MEMBER], was meticulously recorded.",
+      "primary_data_fields": [
+        "link_to_member"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the most recent meeting, we carefully logged the attendance of all members, including link to member [LINK_TO_MEMBER].",
+        "The attendance of each participant, link to member [LINK_TO_MEMBER] included, was recorded with great precision at the last meeting.",
+        "At the previous meeting, the presence of every member—such as link to member [LINK_TO_MEMBER]—was documented thoroughly.",
+        "In the last session, meticulous records were kept of each member's attendance, notably the entry for link to member [LINK_TO_MEMBER].",
+        "We captured the attendance of every member, including link to member [LINK_TO_MEMBER], with exacting detail during the final meeting.",
+        "The final meeting saw the attendance of all members, link to member [LINK_TO_MEMBER] among them, being recorded painstakingly.",
+        "During the latest meeting, attendance for each member—including link to member [LINK_TO_MEMBER]—was logged meticulously.",
+        "Each member’s attendance, specifically link to member [LINK_TO_MEMBER], was precisely recorded at the last gathering.",
+        "At the concluding meeting, we systematically documented the attendance of every member, including link to member [LINK_TO_MEMBER].",
+        "The attendance list from the last meeting, which comprised all members and link to member [LINK_TO_MEMBER], was recorded with meticulous care.",
+        "In the recent meeting, we recorded the attendance of each member, notably link to member [LINK_TO_MEMBER], in a highly detailed manner.",
+        "Meticulous recording of attendance for all members, including link to member [LINK_TO_MEMBER], took place at the last meeting.",
+        "At the previous session, the attendance of each participant—link to member [LINK_TO_MEMBER] included—was documented with exactness.",
+        "We methodically noted the attendance of every member, such as link to member [LINK_TO_MEMBER], during the last meeting.",
+        "The last meeting’s attendance, encompassing all members and specifically link to member [LINK_TO_MEMBER], was captured with meticulous precision."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "member": [
+          "member"
+        ],
+        "last": [
+          "last",
+          "final",
+          "terminal",
+          "concluding"
+        ],
+        "attendance": [
+          "attendance"
+        ],
+        "recorded": [
+          "recorded",
+          "record",
+          "register",
+          "enter"
+        ],
+        "meeting": [
+          "meeting"
+        ],
+        "including": [
+          "including"
+        ],
+        "meticulously": [
+          "meticulously"
+        ]
+      },
+      "field_data_types": {
+        "link_to_member": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

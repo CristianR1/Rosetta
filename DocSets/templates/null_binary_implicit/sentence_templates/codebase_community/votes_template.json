@@ -1,0 +1,34 @@
+{
+  "database": "codebase_community",
+  "table": "votes",
+  "entry_index": 0,
+  "original_data": {
+    "Id": "1",
+    "PostId": "3",
+    "VoteTypeId": "2",
+    "CreationDate": "2010-07-19",
+    "UserId": "NULL",
+    "BountyAmount": "NULL"
+  },
+  "generated_sentences": [
+    "Each vote cast for community content on the programming platform is uniquely identified, ensuring it is tracked and managed effectively. (Hash: b7d961a1e1a64061)",
+    "The PostId 3 has sparked interesting discussions among developers, showcasing the vibrant exchange of ideas on the platform. (Hash: d754d6eab52149c1)",
+    "The VoteTypeId of 2 typically indicates a downvote in the user-driven content rating system. (Hash: 22c318733a5c41a5)",
+    "On 2010-07-19, a user cast their vote on the programming community platform, marking a new entry in the CreationDate timeline. (Hash: a25b5778c4334710)",
+    "The unique identifier for this user is currently not available. (Hash: 4631627223604b90)",
+    "The bounty amount for this task has not been specified. (Hash: 9ffd13d1a82b4424)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "b7d961a1e1a64061": "Id",
+    "d754d6eab52149c1": "PostId",
+    "22c318733a5c41a5": "VoteTypeId",
+    "a25b5778c4334710": "CreationDate",
+    "4631627223604b90": "UserId",
+    "9ffd13d1a82b4424": "BountyAmount"
+  },
+  "timestamp": "2026-03-31 19:59:08"
+}

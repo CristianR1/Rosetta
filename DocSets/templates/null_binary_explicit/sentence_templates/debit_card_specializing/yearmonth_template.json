@@ -1,0 +1,25 @@
+{
+  "database": "debit_card_specializing",
+  "table": "yearmonth",
+  "entry_index": 0,
+  "original_data": {
+    "CustomerID": "5",
+    "Date": "201207",
+    "Consumption": "528.3"
+  },
+  "generated_sentences": [
+    "CustomerID 5 revealed interesting patterns in the analysis of debit card transactions, highlighting unique spending habits. (Hash: aee1845274f04de5)",
+    "The debit card transaction dated 201207 marked an important point for analyzing trends over specific reporting periods. (Hash: fbd9be607b744429)",
+    "During the reporting period, customer spending with debit cards reached a total of 528.30 in Consumption. (Hash: 7a90ea7935964abe)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "aee1845274f04de5": "CustomerID",
+    "fbd9be607b744429": "Date",
+    "7a90ea7935964abe": "Consumption"
+  },
+  "timestamp": "2026-03-31 16:29:50"
+}

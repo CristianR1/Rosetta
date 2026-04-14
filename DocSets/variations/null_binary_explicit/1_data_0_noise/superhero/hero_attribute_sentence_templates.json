@@ -1,0 +1,172 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "2797c784edb14c41": "hero_id",
+    "b3de927558684047": "attribute_id",
+    "c60ae56ecdd847b7": "attribute_value"
+  },
+  "templates": [
+    {
+      "original": "Superhero number 1 possesses extraordinary abilities that set them apart from the rest.",
+      "template_pattern": "Superhero number [HERO_ID] possesses extraordinary abilities that set them apart from the rest.",
+      "primary_data_fields": [
+        "hero_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Superhero number [HERO_ID] boasts extraordinary abilities that distinguish them from all others.",
+        "The extraordinary abilities of Superhero number [HERO_ID] set them apart from the rest.",
+        "Set apart from the rest by their extraordinary abilities, Superhero number [HERO_ID] stands out.",
+        "Extraordinary abilities characterize Superhero number [HERO_ID], separating them from their peers.",
+        "Superhero number [HERO_ID] is endowed with extraordinary abilities, which make them unique among the rest.",
+        "Among the group, Superhero number [HERO_ID]'s extraordinary abilities uniquely differentiate them.",
+        "Distinguishing themselves from the rest, Superhero number [HERO_ID] possesses extraordinary abilities.",
+        "It is Superhero number [HERO_ID]'s extraordinary abilities that separate them from the rest.",
+        "With extraordinary abilities, Superhero number [HERO_ID] rises above the rest.",
+        "Superhero number [HERO_ID]'s extraordinary abilities cause them to be set apart from the rest.",
+        "Because of their extraordinary abilities, Superhero number [HERO_ID] stands apart from the rest.",
+        "Extraordinary abilities are possessed by Superhero number [HERO_ID], placing them apart from the rest.",
+        "The rest cannot match Superhero number [HERO_ID], whose extraordinary abilities set them apart.",
+        "Through extraordinary abilities, Superhero number [HERO_ID] differentiates themselves from the rest.",
+        "Superhero number [HERO_ID], equipped with extraordinary abilities, is distinguished from the rest."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ],
+        "them": [
+          "them"
+        ],
+        "extraordinary": [
+          "extraordinary"
+        ],
+        "abilities": [
+          "abilities"
+        ],
+        "possesses": [
+          "possesses"
+        ],
+        "apart": [
+          "apart",
+          "isolated"
+        ],
+        "rest": [
+          "rest",
+          "ease",
+          "remain",
+          "stay",
+          "remainder",
+          "relief"
+        ]
+      },
+      "field_data_types": {
+        "hero_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The attribute_id is 1.",
+      "template_pattern": "The attribute_id is [ATTRIBUTE_ID].",
+      "primary_data_fields": [
+        "attribute_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The attribute id equals [ATTRIBUTE_ID].",
+        "Attribute id is set to [ATTRIBUTE_ID].",
+        "In this report, the attribute id registers as [ATTRIBUTE_ID].",
+        "The value assigned to attribute id is [ATTRIBUTE_ID].",
+        "Attribute id has a value of [ATTRIBUTE_ID].",
+        "It is noted that attribute id = [ATTRIBUTE_ID].",
+        "According to the data, attribute id stands at [ATTRIBUTE_ID].",
+        "The attribute id was recorded as [ATTRIBUTE_ID].",
+        "For this dataset, the attribute id reads [ATTRIBUTE_ID].",
+        "Attribute id: [ATTRIBUTE_ID].",
+        "The current attribute id figure is [ATTRIBUTE_ID].",
+        "As indicated, attribute id amounts to [ATTRIBUTE_ID].",
+        "The attribute id, according to the analysis, is [ATTRIBUTE_ID].",
+        "In the summary, attribute id appears as [ATTRIBUTE_ID].",
+        "Attribute id has been identified as [ATTRIBUTE_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "attribute_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero known for his agility has an attribute_value of 80, showcasing his exceptional speed and nimbleness in combat.",
+      "template_pattern": "The superhero known for his agility has an attribute_value of [ATTRIBUTE_VALUE], showcasing his exceptional speed and nimbleness in combat.",
+      "primary_data_fields": [
+        "attribute_value"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Known for his agility, the superhero records an attribute value of [ATTRIBUTE_VALUE], highlighting his outstanding speed and nimbleness during combat.",
+        "An attribute value of [ATTRIBUTE_VALUE] is assigned to the agile superhero, underscoring his remarkable speed and dexterity in battle.",
+        "The superhero, famed for agility, carries an attribute value of [ATTRIBUTE_VALUE], which demonstrates his superior speed and quickness in combat.",
+        "With an attribute value of [ATTRIBUTE_VALUE], the superhero celebrated for his agility exhibits exceptional speed and nimble maneuvering in fights.",
+        "Because of his agility, the superhero boasts an attribute value of [ATTRIBUTE_VALUE], reflecting his extraordinary speed and agility on the battlefield.",
+        "The attribute value of [ATTRIBUTE_VALUE] attributed to the agile superhero serves as proof of his high speed and nimbleness in combat.",
+        "In combat, the superhero known for agility shows an attribute value of [ATTRIBUTE_VALUE], a testament to his swift and supple movements.",
+        "Displaying remarkable speed and nimbleness, the agile superhero holds an attribute value of [ATTRIBUTE_VALUE].",
+        "An attribute value of [ATTRIBUTE_VALUE], linked to the superhero’s agility, indicates his exceptional quickness and flexibility in battle.",
+        "The superhero’s agility translates into an attribute value of [ATTRIBUTE_VALUE], evidencing his rapid and nimble performance during combat.",
+        "Due to his agility, the superhero achieves an attribute value of [ATTRIBUTE_VALUE], which highlights his fast and lithe combat style.",
+        "An attribute value of [ATTRIBUTE_VALUE] characterizes the superhero famed for agility, showcasing his speed and nimbleness on the battlefield.",
+        "The agile superhero possesses an attribute value of [ATTRIBUTE_VALUE], thereby illustrating his superior speed and dexterity in fights.",
+        "Reflecting his agility, the superhero’s attribute value of [ATTRIBUTE_VALUE] emphasizes his swift and agile combat abilities.",
+        "Through his agility, the superhero attains an attribute value of [ATTRIBUTE_VALUE], confirming his exceptional speed and nimbleness in combat."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "nimbleness": [
+          "nimbleness",
+          "agility"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "speed": [
+          "speed",
+          "swiftness",
+          "velocity"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "known": [
+          "known"
+        ],
+        "combat": [
+          "combat",
+          "fighting",
+          "battle",
+          "fight"
+        ],
+        "agility": [
+          "agility",
+          "nimbleness"
+        ],
+        "exceptional": [
+          "exceptional",
+          "surpassing",
+          "special",
+          "prodigious",
+          "exceeding"
+        ]
+      },
+      "field_data_types": {
+        "attribute_value": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

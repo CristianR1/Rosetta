@@ -1,0 +1,169 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "1e5a128fcd824809": "year",
+    "eba3b9b8a40f4a92": "url"
+  },
+  "templates": [
+    {
+      "original": "The inaugural Formula 1 championship season took place in 1950, marking the beginning of a prestigious motor racing era.",
+      "template_pattern": "The inaugural Formula 1 championship season took place in [YEAR], marking the beginning of a prestigious motor racing era.",
+      "primary_data_fields": [
+        "year"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In [YEAR], the first Formula 1 championship season was held, ushering in a distinguished era of motor racing.",
+        "The debut Formula 1 championship season occurred in the year [YEAR], signifying the launch of a celebrated motor‑sport age.",
+        "Marking the start of a renowned motor racing period, the inaugural Formula 1 championship season took place in [YEAR].",
+        "It was in [YEAR] that the inaugural Formula 1 championship season unfolded, heralding a prestigious era for motor racing.",
+        "The year [YEAR] saw the commencement of the first Formula 1 championship season, initiating a famed era of motor sport.",
+        "With the [YEAR] season, the maiden Formula 1 championship began, opening a celebrated chapter in motor racing history.",
+        "The inaugural Formula 1 championship season, which was conducted in [YEAR], marked the dawn of an esteemed motor‑racing epoch.",
+        "[YEAR] marked the launch of the first Formula 1 championship season, introducing a distinguished era of motor racing.",
+        "During the year [YEAR], the inaugural Formula 1 championship season was staged, signaling the birth of a prestigious motor‑racing era.",
+        "The first Formula 1 championship season was inaugurated in [YEAR], thereby commencing a celebrated period of motor racing.",
+        "In the year [YEAR], the debut Formula 1 championship season took place, heralding the onset of a distinguished motor racing era.",
+        "The commencement of the Formula 1 championship's inaugural season occurred in [YEAR], paving the way for a prestigious motor‑sport era.",
+        "When [YEAR] arrived, the inaugural Formula 1 championship season began, marking the emergence of a renowned motor racing age.",
+        "The [YEAR] inaugural Formula 1 championship season signified the start of a prestigious era in motor racing.",
+        "By [YEAR], the first Formula 1 championship season had been run, ushering in a celebrated era for motor racing."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "grade",
+          "grading",
+          "mark",
+          "score",
+          "label"
+        ],
+        "beginning": [
+          "beginning",
+          "commence",
+          "outset",
+          "commencement",
+          "start",
+          "kickoff"
+        ],
+        "racing": [
+          "racing",
+          "race",
+          "speed",
+          "rush",
+          "run",
+          "hasten"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "recipe",
+          "expression",
+          "pattern"
+        ],
+        "prestigious": [
+          "prestigious",
+          "esteemed",
+          "honored"
+        ],
+        "place": [
+          "place",
+          "site",
+          "spot",
+          "position",
+          "seat",
+          "station"
+        ],
+        "motor": [
+          "motor",
+          "drive"
+        ],
+        "inaugural": [
+          "inaugural",
+          "maiden",
+          "first"
+        ]
+      },
+      "field_data_types": {
+        "year": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "For more details about the inaugural season of Formula 1 racing in 1950, visit http://en.wikipedia.org/wiki/1950_Formula_One_season.",
+      "template_pattern": "For more details about the inaugural season of Formula 1 racing in 1950, visit [URL].",
+      "primary_data_fields": [
+        "url"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To learn more about the 1950 inaugural Formula 1 racing season, see [URL].",
+        "Additional information on the first Formula 1 season of 1950 can be found at [URL].",
+        "If you want further details regarding the 1950 debut season of Formula 1 racing, consult [URL].",
+        "More insight into the 1950 inaugural Formula 1 season is available via [URL].",
+        "For comprehensive coverage of the 1950 first Formula 1 racing season, visit [URL].",
+        "The 1950 launch of Formula 1 racing is detailed at [URL]; see it for more information.",
+        "Those seeking extra data on the 1950 inaugural Formula 1 season should refer to [URL].",
+        "Detailed information about the 1950 debut of Formula 1 racing can be accessed through [URL].",
+        "For a deeper look at the 1950 first Formula 1 season, follow the link [URL].",
+        "Information on the 1950 inaugural Formula 1 racing season is provided at [URL].",
+        "To obtain more facts concerning the 1950 initial Formula 1 season, go to [URL].",
+        "The inaugural 1950 Formula 1 racing season is described at [URL]; consult it for further details.",
+        "Should you require additional details about the 1950 first Formula 1 season, the URL [URL] will help.",
+        "For extra coverage of the 1950 Formula 1 racing debut, see [URL].",
+        "More particulars on the 1950 inaugural season of Formula 1 racing are available at [URL]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "racing": [
+          "racing",
+          "speed",
+          "race",
+          "rush"
+        ],
+        "more": [
+          "more"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "convention",
+          "expression",
+          "pattern"
+        ],
+        "http": [
+          "http",
+          "HTTP"
+        ],
+        "wikipedia": [
+          "wikipedia"
+        ],
+        "inaugural": [
+          "inaugural",
+          "first"
+        ],
+        "about": [
+          "about",
+          "approximately",
+          "roughly",
+          "nearly",
+          "around",
+          "almost"
+        ],
+        "wiki": [
+          "wiki"
+        ]
+      },
+      "field_data_types": {
+        "url": "url"
+      },
+      "is_static": false
+    }
+  ]
+}

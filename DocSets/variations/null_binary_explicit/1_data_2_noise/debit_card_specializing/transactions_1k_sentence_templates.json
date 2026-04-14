@@ -1,0 +1,1723 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6fb0301ced144dd0": "TransactionID",
+    "ff77507dcf90482b": "Date",
+    "d0d6820219e544a5": "Time",
+    "b37f0ab983d64a11": "CustomerID",
+    "bd1036cc3ac4461b": "CardID",
+    "a7ab1eb5e21646d8": "GasStationID",
+    "6b50a597f4514b34": "ProductID",
+    "69002c279e064c9f": "Amount",
+    "3da5484e2fcb46d6": "Price"
+  },
+  "templates": [
+    {
+      "original": "The transaction with the identifier 1 was successfully processed, ensuring accurate tracking in the purchase records.",
+      "template_pattern": "The transaction with the identifier [TRANSACTIONID] was successfully processed, ensuring accurate tracking in the purchase records.",
+      "primary_data_fields": [
+        "TransactionID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Transaction ID [TRANSACTIONID] was processed successfully, guaranteeing accurate tracking in the purchase records.",
+        "We successfully processed Transaction ID [TRANSACTIONID], which ensures the purchase records reflect accurate tracking.",
+        "The successful processing of Transaction ID [TRANSACTIONID] secures precise tracking within the purchase records.",
+        "By processing Transaction ID [TRANSACTIONID] successfully, the system maintains accurate tracking in the purchase records.",
+        "Accurate tracking in the purchase records is achieved after Transaction ID [TRANSACTIONID] is processed without error.",
+        "After a successful processing, Transaction ID [TRANSACTIONID] now appears with precise tracking in the purchase records.",
+        "Processing of Transaction ID [TRANSACTIONID] completed successfully, thereby preserving accurate tracking in the purchase records.",
+        "With Transaction ID [TRANSACTIONID] processed correctly, the purchase records now benefit from accurate tracking.",
+        "The purchase records contain accurate tracking thanks to the successful handling of Transaction ID [TRANSACTIONID].",
+        "Successful processing of Transaction ID [TRANSACTIONID] ensures the purchase records are tracked accurately.",
+        "Having processed Transaction ID [TRANSACTIONID] successfully, we guarantee accurate tracking in the purchase records.",
+        "Transaction ID [TRANSACTIONID]’s successful processing underpins accurate tracking within the purchase records.",
+        "Through the successful processing of Transaction ID [TRANSACTIONID], accurate tracking is maintained in the purchase records.",
+        "Accurate tracking in the purchase records results from the successful processing of Transaction ID [TRANSACTIONID].",
+        "When Transaction ID [TRANSACTIONID] is processed successfully, it ensures the purchase records are tracked accurately."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "purchase": [
+          "purchase",
+          "buy"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "tag",
+          "trail",
+          "trailing"
+        ],
+        "processed": [
+          "processed",
+          "treated",
+          "refined"
+        ],
+        "successfully": [
+          "successfully"
+        ],
+        "accurate": [
+          "accurate",
+          "exact",
+          "precise"
+        ],
+        "records": [
+          "records"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "ensuring": [
+          "ensuring"
+        ]
+      },
+      "field_data_types": {
+        "TransactionID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Furthermore, it was a busy day, with transactions flowing smoothly through the system.",
+      "template_pattern": "Furthermore, it was a busy day, with transactions flowing smoothly through the system.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the day proved hectic, as transactions moved seamlessly through the system.",
+        "In addition, it turned out to be a bustling day, with the system handling transactions without a hitch.",
+        "Additionally, the day was busy, and the system processed transactions smoothly.",
+        "Further, a high‑volume day unfolded, with transactions gliding effortlessly through the system.",
+        "On top of that, the day was full of activity, while transactions were routed smoothly through the system.",
+        "Besides, it was a busy day, and the system saw transactions flow without interruption.",
+        "Also, the day was characterized by heavy traffic, with transactions coursing smoothly through the system.",
+        "To add, the day was bustling, and the system facilitated a smooth flow of transactions.",
+        "What’s more, the day was busy, with transactions traveling smoothly across the system.",
+        "As a result, the day was quite active, and transactions were processed smoothly through the system.",
+        "The day, moreover, was busy, with a smooth passage of transactions through the system.",
+        "It was, furthermore, a busy day, and the system allowed transactions to flow smoothly.",
+        "Beyond that, the day was hectic, yet transactions moved through the system without any snag.",
+        "Alongside, a busy day unfolded, with the system ensuring transactions flowed smoothly.",
+        "In sum, the day was bustling, while transactions were smoothly transmitted through the system."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "smoothly": [
+          "smoothly"
+        ],
+        "flowing": [
+          "flowing"
+        ],
+        "busy": [
+          "busy",
+          "engaged"
+        ],
+        "system": [
+          "system",
+          "organisation",
+          "organization",
+          "arrangement"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "through": [
+          "through"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "proceedings"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "On the date 2012-08-24, a series of debit card transactions marked a significant day in the purchase activity record.",
+      "template_pattern": "On the date [DATE], a series of debit card transactions marked a significant day in the purchase activity record.",
+      "primary_data_fields": [
+        "Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On Date [DATE], a series of debit card transactions denoted a significant day in the purchase activity record.",
+        "Date [DATE] marked a significant day in the purchase activity record thanks to a wave of debit card transactions.",
+        "A significant day in the purchase activity record was highlighted on Date [DATE] by numerous debit card transactions.",
+        "The purchase activity record notes Date [DATE] as a significant day, driven by a burst of debit card transactions.",
+        "Date [DATE] saw a cluster of debit card transactions that signaled a significant day in the purchase activity record.",
+        "On Date [DATE], debit card transactions collectively created a significant day within the purchase activity record.",
+        "A notable day in the purchase activity record occurred on Date [DATE], courtesy of multiple debit card transactions.",
+        "Date [DATE] is recorded as a significant day in the purchase activity record, owing to a series of debit card transactions.",
+        "The date [DATE] (Date) featured a string of debit card transactions, marking a significant day in the purchase activity record.",
+        "Date [DATE] became a significant day in the purchase activity record as debit card transactions piled up.",
+        "On Date [DATE], the purchase activity record reflects a significant day triggered by several debit card transactions.",
+        "A flurry of debit card transactions on Date [DATE] signified a significant day in the purchase activity record.",
+        "Date [DATE] recorded a significant day in the purchase activity record, highlighted by a series of debit card transactions.",
+        "The purchase activity record identifies Date [DATE] as a significant day, thanks to numerous debit card transactions.",
+        "Date [DATE], with its cascade of debit card transactions, marked a significant day in the purchase activity record."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "purchase": [
+          "purchase",
+          "buy"
+        ],
+        "marked": [
+          "marked",
+          "tag",
+          "label",
+          "distinguish",
+          "grade",
+          "set"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "series": [
+          "series",
+          "serial"
+        ],
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ]
+      },
+      "field_data_types": {
+        "Date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each transaction, therefore, told a part of a larger story about consumer habits.",
+      "template_pattern": "Each transaction, therefore, told a part of a larger story about consumer habits.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consequently, each transaction revealed a fragment of a broader narrative about consumer habits.",
+        "Each transaction, therefore, contributed a piece to the larger story concerning consumer behavior.",
+        "Thus, every purchase added a segment to the extensive tale of consumer habits.",
+        "A larger story about consumer habits was illustrated by each transaction, accordingly.",
+        "In turn, each transaction offered a snippet of the wider narrative on consumer behavior.",
+        "Accordingly, each transaction supplied a part of the overarching story of consumer habits.",
+        "Each transaction, as a result, conveyed a slice of the expansive narrative about consumer habits.",
+        "The broader story of consumer habits was pieced together by each transaction, therefore.",
+        "By means of each transaction, a portion of the grander consumer‑behavior tale emerged.",
+        "Consequently, every single transaction added a fragment to the bigger picture of consumer habits.",
+        "Each transaction served to disclose a segment of the larger narrative concerning consumer habits.",
+        "Thus, each transaction illuminated a part of the extensive story on consumer behavior.",
+        "The overall story of consumer habits was built up from each transaction, which therefore told a part.",
+        "Accordingly, each individual transaction contributed a piece to the expansive story about consumer habits.",
+        "Each transaction, therefore, narrated a portion of the broader tale of consumer habits."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "story": [
+          "story",
+          "narrative",
+          "chronicle",
+          "account",
+          "history",
+          "report"
+        ],
+        "told": [
+          "told",
+          "tell",
+          "recount",
+          "narrate",
+          "state",
+          "recite"
+        ],
+        "therefore": [
+          "therefore",
+          "hence",
+          "consequently",
+          "thus"
+        ],
+        "about": [
+          "about",
+          "approximately",
+          "roughly",
+          "nearly",
+          "around",
+          "near"
+        ],
+        "consumer": [
+          "consumer"
+        ],
+        "larger": [
+          "larger",
+          "large",
+          "big",
+          "great",
+          "bigger"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "habits": [
+          "habits",
+          "wont"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "At precisely 09:41:00, the debit card transaction provided a key insight into the customer's morning purchasing behavior.",
+      "template_pattern": "At precisely [TIME], the debit card transaction provided a key insight into the customer's morning purchasing behavior.",
+      "primary_data_fields": [
+        "Time"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "At Time [TIME], the debit card transaction revealed a crucial clue about the customer's morning buying habits.",
+        "The debit card transaction, occurring at Time [TIME], offered a key insight into how the customer shopped that morning.",
+        "A pivotal observation of the customer's early‑day purchasing pattern emerged from the debit card transaction at Time [TIME].",
+        "Time [TIME] marked the moment when the debit card transaction supplied an important understanding of the customer's morning purchases.",
+        "When Time hit [TIME], the debit card transaction gave a significant glimpse into the customer's purchasing behavior for the morning.",
+        "The customer’s morning buying behavior was illuminated by the debit card transaction at Time [TIME].",
+        "At precisely Time [TIME], the debit card transaction furnished a valuable insight into the customer's morning spending.",
+        "A key insight into the customer's early‑day buying trends was provided by the debit card transaction at Time [TIME].",
+        "Time [TIME] saw the debit card transaction delivering essential information about the customer's morning purchasing habits.",
+        "Through the debit card transaction at Time [TIME], analysts gained a vital clue regarding the customer's morning shopping pattern.",
+        "The debit card transaction at Time [TIME] contributed a significant observation of the customer's morning purchase behavior.",
+        "At the exact moment of Time [TIME], the debit card transaction uncovered an important aspect of the customer's morning buying conduct.",
+        "Time [TIME]: the debit card transaction supplied a noteworthy insight into how the customer purchased items that morning.",
+        "By [TIME] (Time), the debit card transaction had already offered a key perspective on the customer's morning purchasing activity.",
+        "The debit card transaction, recorded at Time [TIME], revealed a crucial piece of information about the customer's morning buying behavior."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "into": [
+          "into"
+        ],
+        "insight": [
+          "insight",
+          "perceptiveness"
+        ],
+        "morning": [
+          "morning",
+          "forenoon",
+          "dawn",
+          "daybreak",
+          "sunrise"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "purchasing": [
+          "purchasing",
+          "buying"
+        ],
+        "provided": [
+          "provided"
+        ]
+      },
+      "field_data_types": {
+        "Time": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Consequently, the morning hours revealed a unique pattern in spending behavior.",
+      "template_pattern": "Consequently, the morning hours revealed a unique pattern in spending behavior.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As a result, the early hours of the day displayed an unusual spending pattern.",
+        "Consequently, spending behavior exhibited a distinctive pattern during the morning period.",
+        "The morning timeframe, consequently, uncovered a singular trend in expenditure habits.",
+        "A unique pattern in spending behavior was revealed by the morning hours, consequently.",
+        "In the mornings, a distinct spending pattern emerged, leading to this observation.",
+        "Therefore, the day's early hours highlighted an atypical expenditure pattern.",
+        "The early part of the day showed a one‑of‑a‑kind spending behavior pattern, consequently.",
+        "Consequently, analysts noted that morning hours manifested a unique spending trend.",
+        "A singular spending pattern was uncovered during the morning period, as a consequence.",
+        "The morning sessions, consequently, brought to light an unusual pattern in spending habits.",
+        "Hence, during the morning hours, a distinctive expenditure pattern became evident.",
+        "The unique pattern in spending behavior was identified in the morning hours, consequently.",
+        "As a consequence, the dawn hours revealed a novel pattern of consumer spending.",
+        "Morning hours, consequently, exposed an exceptional pattern in how money was spent.",
+        "Resultantly, the early hours of the day presented a unique spending behavior pattern."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "singular",
+          "unequaled"
+        ],
+        "revealed": [
+          "revealed"
+        ],
+        "hours": [
+          "hours"
+        ],
+        "pattern": [
+          "pattern",
+          "model",
+          "design",
+          "shape",
+          "blueprint",
+          "formula"
+        ],
+        "morning": [
+          "morning",
+          "dawn",
+          "daybreak",
+          "sunrise",
+          "forenoon"
+        ],
+        "behavior": [
+          "behavior",
+          "behaviour",
+          "conduct",
+          "demeanor",
+          "demeanour"
+        ],
+        "consequently": [
+          "consequently",
+          "accordingly",
+          "therefore"
+        ],
+        "spending": [
+          "spending",
+          "outlay",
+          "disbursal",
+          "disbursement",
+          "outgo",
+          "expenditure"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "CustomerID 31543 provides a way to track and analyze individual debit card transactions within a larger set of transaction records.",
+      "template_pattern": "CustomerID [CUSTOMERID] provides a way to track and analyze individual debit card transactions within a larger set of transaction records.",
+      "primary_data_fields": [
+        "CustomerID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "CustomerID [CUSTOMERID] offers a method to monitor and evaluate each debit card transaction amid a broader collection of records.",
+        "Through CustomerID [CUSTOMERID], analysts can trace and assess individual debit card activities within an extensive transaction dataset.",
+        "A larger set of transaction records can be examined for specific debit card actions thanks to CustomerID [CUSTOMERID].",
+        "Individual debit card transactions are tracked and analyzed within the wider record pool by using CustomerID [CUSTOMERID].",
+        "With CustomerID [CUSTOMERID], one can follow and scrutinize every debit card transaction inside a massive ledger of records.",
+        "CustomerID [CUSTOMERID] serves as a tool to observe and interpret single debit card transactions among a comprehensive set of records.",
+        "By employing CustomerID [CUSTOMERID], it becomes possible to chart and review each debit card transaction in the context of a larger record base.",
+        "The presence of CustomerID [CUSTOMERID] enables the identification and analysis of individual debit card transactions within an extensive record set.",
+        "Utilizing CustomerID [CUSTOMERID], you can pinpoint and study specific debit card transactions amid a broader compilation of transaction logs.",
+        "CustomerID [CUSTOMERID] facilitates the tracing and examination of singular debit card transactions inside a wide array of records.",
+        "Through the use of CustomerID [CUSTOMERID], individual debit card transactions can be followed and evaluated within a larger repository of records.",
+        "CustomerID [CUSTOMERID] provides the capability to follow and dissect each debit card transaction within an expansive collection of transaction entries.",
+        "In a massive set of transaction records, CustomerID [CUSTOMERID] allows for the tracking and analysis of each debit card transaction.",
+        "The field CustomerID [CUSTOMERID] makes it possible to monitor and interpret individual debit card transactions amidst a larger dataset of records.",
+        "By referencing CustomerID [CUSTOMERID], one can trace and analyze single debit card transactions within a comprehensive group of transaction records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "track": [
+          "track",
+          "trail",
+          "path",
+          "course"
+        ],
+        "card": [
+          "card",
+          "scorecard",
+          "notice"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "analyze": [
+          "analyze",
+          "analyse",
+          "examine",
+          "study",
+          "dissect"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "proceedings"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "larger": [
+          "larger",
+          "bigger"
+        ]
+      },
+      "field_data_types": {
+        "CustomerID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This customer was just one of many contributing to the overall data set.",
+      "template_pattern": "This customer was just one of many contributing to the overall data set.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This customer was one of many who contributed to the overall data set.",
+        "Among the numerous contributors, this client represented just a single entry to the full data set.",
+        "The overall data set received input from this customer, who was merely one of a large group.",
+        "One of the many participants, this customer added to the comprehensive data set.",
+        "In the aggregate data set, this client was only one among countless contributors.",
+        "This client, a solitary member of a broader pool, helped build the entire data set.",
+        "Contributing to the total data set, this customer was simply one of many.",
+        "The overall data set was bolstered by this customer, one among a multitude of contributors.",
+        "As one of numerous contributors, this customer fed data into the complete set.",
+        "Only a single piece of the larger puzzle, this client contributed to the overall data set.",
+        "One among many, this customer supplied information to the entire data set.",
+        "The full data set includes input from this customer, who was just one of many.",
+        "Among countless contributors, this client added its data to the overall set.",
+        "This customer formed part of the many that collectively populated the overall data set.",
+        "In the context of the overall data set, this client was merely one of a host of contributors."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "data": [
+          "data"
+        ],
+        "just": [
+          "just",
+          "fair",
+          "equitable",
+          "only",
+          "merely",
+          "simply"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "contributing": [
+          "contributing"
+        ],
+        "many": [
+          "many"
+        ],
+        "overall": [
+          "overall"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, the CardID 486621 was crucial in analyzing the spending patterns of customers using their debit cards.",
+      "template_pattern": "Additionally, the CardID [CARDID] was crucial in analyzing the spending patterns of customers using their debit cards.",
+      "primary_data_fields": [
+        "CardID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, CardID [CARDID] played a vital role in examining customers’ debit‑card spending habits.",
+        "In addition, the analysis of debit‑card purchase behavior relied heavily on CardID [CARDID].",
+        "CardID [CARDID] proved essential for the study of how customers spend with their debit cards, additionally.",
+        "The spending patterns of debit‑card users were effectively analyzed thanks to CardID [CARDID], as an extra point.",
+        "Additionally, researchers depended on CardID [CARDID] to dissect the expenditure trends of debit‑card holders.",
+        "CardID [CARDID] was a key element in the assessment of debit‑card consumer spending, moreover.",
+        "To analyze customers’ debit‑card spending trends, CardID [CARDID] was indispensable, additionally.",
+        "The crucial data point CardID [CARDID] facilitated the evaluation of debit‑card transaction patterns, in addition.",
+        "An extra factor, CardID [CARDID], was instrumental in probing the spending habits of debit‑card users.",
+        "By using CardID [CARDID], analysts could effectively chart the spending behavior of customers with debit cards, additionally.",
+        "The analysis of debit‑card expenditure patterns hinged on CardID [CARDID], as an additional note.",
+        "CardID [CARDID] served as a pivotal reference when scrutinizing how customers spend via their debit cards, moreover.",
+        "In the study of debit‑card consumer spending, CardID [CARDID] was indispensable, additionally.",
+        "Additionally, the evaluation of debit‑card spending trends was made possible by CardID [CARDID].",
+        "The key identifier CardID [CARDID] underpinned the analysis of customers’ debit‑card spending patterns, moreover."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "patterns": [
+          "patterns"
+        ],
+        "analyzing": [
+          "analyzing"
+        ],
+        "using": [
+          "using"
+        ],
+        "additionally": [
+          "additionally"
+        ]
+      },
+      "field_data_types": {
+        "CardID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Analyzing the card data, therefore, helped identify trends across periods.",
+      "template_pattern": "Analyzing the card data, therefore, helped identify trends across periods.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "By analyzing the card data, we were able to pinpoint trends over various periods.",
+        "The analysis of card data consequently revealed trends across different timeframes.",
+        "Trends across periods were identified through the examination of card data.",
+        "Examining the card data helped us uncover period‑to‑period trends.",
+        "As a result of scrutinizing the card data, trends spanning multiple periods emerged.",
+        "Card data analysis enabled the detection of trends throughout the observed periods.",
+        "Through the review of card data, we discerned trends that occurred across successive periods.",
+        "The identification of trends across periods was facilitated by analyzing the card data.",
+        "Analyzing the card data, therefore, assisted in spotting trends over the various periods.",
+        "By scrutinizing card data, trends across different periods became apparent.",
+        "The card data, when analyzed, helped highlight trends throughout the reporting periods.",
+        "Trends across periods were uncovered as a direct outcome of analyzing the card data.",
+        "Upon analyzing the card data, we identified trends that spanned multiple periods.",
+        "The process of analyzing card data contributed to recognizing trends across time periods.",
+        "Through detailed analysis of the card data, trends across periods were successfully identified."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identify": [
+          "identify",
+          "name",
+          "distinguish"
+        ],
+        "periods": [
+          "periods"
+        ],
+        "data": [
+          "data",
+          "information"
+        ],
+        "card": [
+          "card"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "analyzing": [
+          "analyzing"
+        ],
+        "trends": [
+          "trends"
+        ],
+        "therefore": [
+          "therefore",
+          "hence",
+          "consequently",
+          "thus"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the debit card transaction from GasStationID 3704 was seamlessly integrated into the customer's purchase history for further analysis.",
+      "template_pattern": "Furthermore, the debit card transaction from GasStationID [GASSTATIONID] was seamlessly integrated into the customer's purchase history for further analysis.",
+      "primary_data_fields": [
+        "GasStationID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the debit‑card purchase at GasStationID [GASSTATIONID] has been smoothly added to the customer’s purchase history for subsequent analysis.",
+        "The transaction made with a debit card at GasStationID [GASSTATIONID] was effortlessly incorporated into the client’s buying record for later review.",
+        "In addition, the debit card activity from GasStationID [GASSTATIONID] was integrated without friction into the shopper’s purchase log for further examination.",
+        "A debit card charge originating at GasStationID [GASSTATIONID] was seamlessly merged into the customer’s transaction archive for additional analysis.",
+        "The customer’s purchase history now includes the debit card transaction from GasStationID [GASSTATIONID], having been integrated flawlessly for further study.",
+        "Debit‑card spending at GasStationID [GASSTATIONID] has been quietly embedded into the client’s purchase history, ready for subsequent analysis.",
+        "For further analysis, the debit card transaction from GasStationID [GASSTATIONID] has been incorporated smoothly into the buyer’s purchase record.",
+        "The debit card purchase recorded at GasStationID [GASSTATIONID] was automatically folded into the customer’s purchase history to enable later analysis.",
+        "Seamlessly, the debit‑card transaction from GasStationID [GASSTATIONID] was added to the client’s purchase history for subsequent analytical work.",
+        "The purchase history of the customer now reflects the debit card transaction from GasStationID [GASSTATIONID], which was integrated effortlessly for further analysis.",
+        "By integrating the debit card transaction from GasStationID [GASSTATIONID] into the customer’s purchase history, analysts can now examine it more easily.",
+        "The debit‑card transaction originating at GasStationID [GASSTATIONID] has been incorporated into the shopper’s purchase history in a seamless manner for further analysis.",
+        "As part of the ongoing analysis, the debit card transaction at GasStationID [GASSTATIONID] was merged smoothly into the client’s purchase history.",
+        "The customer’s record now contains the debit card transaction from GasStationID [GASSTATIONID], integrated seamlessly for later analytical purposes.",
+        "Integrated without disruption, the debit‑card transaction from GasStationID [GASSTATIONID] now appears in the customer’s purchase history for further analysis."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "into": [
+          "into"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "purchase": [
+          "purchase",
+          "buy"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "integrated": [
+          "integrated",
+          "unified",
+          "incorporated",
+          "merged"
+        ],
+        "analysis": [
+          "analysis"
+        ]
+      },
+      "field_data_types": {
+        "GasStationID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each location, in essence, added a layer of detail to the purchasing map.",
+      "template_pattern": "Each location, in essence, added a layer of detail to the purchasing map.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In effect, every site contributed an additional layer of detail to the purchasing map.",
+        "The purchasing map was enriched with another level of detail by each location.",
+        "By adding a detail layer, each location essentially enhanced the purchasing map.",
+        "Each site, essentially, appended a new detail layer onto the purchasing map.",
+        "With each location's input, the purchasing map gained an extra layer of detail.",
+        "An extra stratum of detail was added to the purchasing map by every location.",
+        "Essentially, each location supplied a further layer of detail for the purchasing map.",
+        "The purchasing map acquired an additional detail layer thanks to each location.",
+        "Each location, in essence, contributed a further detail tier to the purchasing map.",
+        "Adding a layer of detail to the purchasing map was a function of each location.",
+        "The purchasing map's detail was deepened by the contribution of each location.",
+        "By virtue of each location, the purchasing map obtained another layer of detail.",
+        "Each site effectively layered more detail onto the purchasing map.",
+        "A further detail layer was incorporated into the purchasing map by each location.",
+        "In sum, every location added another slice of detail to the purchasing map."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "location": [
+          "location",
+          "placement",
+          "position",
+          "localization"
+        ],
+        "essence": [
+          "essence",
+          "core",
+          "center",
+          "centre",
+          "substance",
+          "kernel"
+        ],
+        "added": [
+          "added"
+        ],
+        "purchasing": [
+          "purchasing",
+          "buying",
+          "purchase"
+        ],
+        "detail": [
+          "detail",
+          "particular",
+          "item",
+          "point"
+        ],
+        "layer": [
+          "layer",
+          "stratum",
+          "bed",
+          "level"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The product purchased using a debit card had a ProductID of 2, ensuring precise tracking within transaction records.",
+      "template_pattern": "The product purchased using a debit card had a ProductID of [PRODUCTID], ensuring precise tracking within transaction records.",
+      "primary_data_fields": [
+        "ProductID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Using a debit card, the purchased product had a ProductID of [PRODUCTID], which allowed precise tracking in the transaction records.",
+        "The transaction records precisely track the product, purchased with a debit card, that has a ProductID of [PRODUCTID].",
+        "A product with a ProductID of [PRODUCTID] was bought via debit card, ensuring accurate tracking within the transaction logs.",
+        "Because it was bought with a debit card, the product—identified by a ProductID of [PRODUCTID]—was tracked exactly in the transaction records.",
+        "The debit‑card purchase of the product, which has a ProductID of [PRODUCTID], guarantees exact tracking in the transaction database.",
+        "Precise tracking in the transaction records is achieved for the product (ProductID of [PRODUCTID]) that was purchased using a debit card.",
+        "The product, having a ProductID of [PRODUCTID], was acquired through a debit card, which ensures its precise traceability in transaction records.",
+        "Through a debit‑card payment, the product with a ProductID of [PRODUCTID] was obtained, allowing for exact monitoring in the transaction records.",
+        "The transaction logs can precisely follow the product (ProductID of [PRODUCTID]) that was bought using a debit card.",
+        "By using a debit card, the buyer secured a product with a ProductID of [PRODUCTID], facilitating accurate tracking in the transaction records.",
+        "The product bought with a debit card, identified by a ProductID of [PRODUCTID], is precisely tracked within the transaction records.",
+        "Accurate tracking within transaction records is ensured for the product (ProductID of [PRODUCTID]) purchased via debit card.",
+        "A debit‑card purchase resulted in a product bearing a ProductID of [PRODUCTID], which is meticulously recorded in transaction logs.",
+        "The product bearing a ProductID of [PRODUCTID], bought using a debit card, is logged with exact precision in the transaction records.",
+        "Because the product (ProductID of [PRODUCTID]) was purchased with a debit card, its movement is precisely traced in the transaction records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "product": [
+          "product",
+          "merchandise",
+          "ware"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "precise": [
+          "precise",
+          "exact",
+          "accurate"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trailing",
+          "trail"
+        ],
+        "purchased": [
+          "purchased"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "using": [
+          "using"
+        ]
+      },
+      "field_data_types": {
+        "ProductID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Accurate product tracking, in turn, allowed for better inventory management.",
+      "template_pattern": "Accurate product tracking, in turn, allowed for better inventory management.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Precise monitoring of products subsequently facilitated improved inventory control.",
+        "Because product tracking was accurate, inventory management became more effective.",
+        "The exact tracking of merchandise, consequently, enhanced the handling of inventory.",
+        "Better inventory oversight resulted from the accurate tracking of items.",
+        "Accurate product monitoring, therefore, led to superior inventory management.",
+        "With precise product tracking, the company achieved more efficient inventory management.",
+        "Improved inventory management was made possible by the accurate tracking of products.",
+        "Thanks to exact product tracking, inventory control saw notable improvement.",
+        "By tracking products accurately, the organization was able to manage its inventory better.",
+        "Accurate tracking of goods, in turn, enabled a higher standard of inventory management.",
+        "The meticulous tracking of products helped to upgrade inventory management practices.",
+        "As a result of precise product tracking, inventory management improved considerably.",
+        "Inventory management benefitted from the exactness of product tracking.",
+        "Through accurate monitoring of items, the firm achieved better control over inventory.",
+        "Precise product tracking ultimately contributed to more effective inventory management."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "product": [
+          "product",
+          "merchandise",
+          "ware"
+        ],
+        "allowed": [
+          "allowed",
+          "permit",
+          "grant",
+          "admit",
+          "let"
+        ],
+        "turn": [
+          "turn",
+          "become",
+          "reverse"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trail",
+          "trailing"
+        ],
+        "accurate": [
+          "accurate",
+          "exact",
+          "precise"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "better": [
+          "better",
+          "good",
+          "well",
+          "effective",
+          "beneficial",
+          "advantageously"
+        ],
+        "inventory": [
+          "inventory",
+          "stock",
+          "stocktaking"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Amount of 28 reflects a typical debit card transaction, offering a glimpse into the pattern of customer spending.",
+      "template_pattern": "The Amount of [AMOUNT] reflects a typical debit card transaction, offering a glimpse into the pattern of customer spending.",
+      "primary_data_fields": [
+        "Amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Amount of [AMOUNT] mirrors a standard debit‑card purchase, providing insight into customers’ spending habits.",
+        "A typical debit card transaction is reflected by the Amount of [AMOUNT], which sheds light on the pattern of customer expenditure.",
+        "Reflecting a usual debit‑card spend, the Amount of [AMOUNT] offers a window into how customers allocate their money.",
+        "With the Amount of [AMOUNT], one can see a representative debit‑card transaction that illustrates the overall spending pattern of customers.",
+        "The Amount of [AMOUNT] serves as an example of a regular debit‑card purchase, revealing the underlying trend in consumer spending.",
+        "Seen in the Amount of [AMOUNT] is a commonplace debit‑card transaction, giving a glimpse of the typical customer spending pattern.",
+        "By examining the Amount of [AMOUNT], analysts observe a conventional debit‑card transaction that hints at the broader spending behavior of customers.",
+        "The Amount of [AMOUNT], indicative of a normal debit‑card purchase, provides a snapshot of the customer spending pattern.",
+        "Through the Amount of [AMOUNT], a typical debit‑card transaction is highlighted, exposing the general trend in how customers spend.",
+        "A regular debit‑card spend is captured by the Amount of [AMOUNT], which in turn offers a peek into the pattern of customer expenditures.",
+        "The Amount of [AMOUNT] portrays a standard debit‑card transaction, thereby granting a view into the recurring spending pattern of customers.",
+        "Illustrating a typical debit‑card purchase, the Amount of [AMOUNT] grants insight into the overall pattern of how customers spend.",
+        "The Amount of [AMOUNT], reflecting a common debit‑card transaction, helps reveal the typical customer spending pattern.",
+        "When looking at the Amount of [AMOUNT], one sees a representative debit‑card transaction that provides a glimpse into consumer spending trends.",
+        "The Amount of [AMOUNT] is a proxy for a usual debit‑card transaction, offering a brief look at the pattern of customer spending."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reflects": [
+          "reflects"
+        ],
+        "card": [
+          "card"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "glimpse": [
+          "glimpse",
+          "glance"
+        ],
+        "into": [
+          "into"
+        ],
+        "pattern": [
+          "pattern",
+          "model",
+          "design",
+          "form",
+          "shape",
+          "blueprint"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "typical": [
+          "typical"
+        ]
+      },
+      "field_data_types": {
+        "Amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These contributions often, therefore, added up to a significant portion of the daily total.",
+      "template_pattern": "These contributions often, therefore, added up to a significant portion of the daily total.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Frequently, these inputs consequently comprised a substantial share of the day's total.",
+        "As a result, the contributions regularly accounted for a notable fraction of the daily aggregate.",
+        "These deposits, typically, made up a large part of the total for the day.",
+        "Consequently, a considerable proportion of the daily total was contributed by these amounts.",
+        "Often, these entries thus represented a significant portion of the day's overall sum.",
+        "A sizable share of the day's total was regularly formed by these contributions, hence.",
+        "These payments, frequently, added up to a notable part of the daily total, therefore.",
+        "The daily aggregate regularly included a substantial portion from these contributions, consequently.",
+        "As a consequence, these allocations typically constituted a large share of the day’s total.",
+        "Often enough, these figures thus accounted for a considerable proportion of the daily total.",
+        "These contributions, on many occasions, therefore made up a significant fraction of the day's total.",
+        "Consequently, a notable part of the daily total was derived from these frequent contributions.",
+        "Regularly, these amounts thus contributed a substantial share to the day's total.",
+        "A significant portion of the daily total was, as a result, formed by these recurring contributions.",
+        "These contributions, often, hence comprised a large share of the total for the day."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "contributions": [
+          "contributions"
+        ],
+        "these": [
+          "these"
+        ],
+        "daily": [
+          "daily"
+        ],
+        "therefore": [
+          "therefore",
+          "hence",
+          "consequently",
+          "thus"
+        ],
+        "added": [
+          "added"
+        ],
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "often": [
+          "often",
+          "frequently"
+        ],
+        "portion": [
+          "portion",
+          "percentage",
+          "parcel",
+          "part",
+          "share",
+          "component"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Price of 672.64 was marked as the total cost for a single transaction using a debit card.",
+      "template_pattern": "The Price of [PRICE] was marked as the total cost for a single transaction using a debit card.",
+      "primary_data_fields": [
+        "Price"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Price of [PRICE] was recorded as the total cost for a single transaction using a debit card.",
+        "For a single transaction using a debit card, the total cost was shown as the Price of [PRICE].",
+        "In a single transaction with a debit card, the total cost appears as the Price of [PRICE].",
+        "Marked as the total cost, the Price of [PRICE] applies to a single transaction made with a debit card.",
+        "The total cost for a single transaction using a debit card is indicated by the Price of [PRICE].",
+        "According to the data, the Price of [PRICE] represents the total cost of a single transaction using a debit card.",
+        "A single transaction using a debit card carried a total cost equal to the Price of [PRICE].",
+        "The Price of [PRICE] serves as the total cost for a single transaction conducted via debit card.",
+        "When a debit card is used for a single transaction, the total cost is the Price of [PRICE].",
+        "The total cost for a single transaction performed with a debit card was set at the Price of [PRICE].",
+        "In the report, the Price of [PRICE] is listed as the total cost for a single transaction using a debit card.",
+        "For a single transaction processed with a debit card, the total cost is the Price of [PRICE].",
+        "The Price of [PRICE] denotes the total cost of a single transaction using a debit card.",
+        "A single transaction that utilizes a debit card has a total cost reflected by the Price of [PRICE].",
+        "The total cost for a single transaction, when paid by debit card, is captured as the Price of [PRICE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "cost": [
+          "cost",
+          "price"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "marked": [
+          "marked",
+          "pronounced",
+          "label",
+          "note",
+          "notice",
+          "brand"
+        ],
+        "using": [
+          "using"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "single": [
+          "single",
+          "unmarried",
+          "individual",
+          "one"
+        ]
+      },
+      "field_data_types": {
+        "Price": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "High-value transactions, therefore, stood out against a backdrop of smaller purchases.",
+      "template_pattern": "High-value transactions, therefore, stood out against a backdrop of smaller purchases.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consequently, the large‑value transactions were conspicuous amid numerous smaller purchases.",
+        "The smaller purchases formed a backdrop, making the high‑value transactions stand out.",
+        "High‑value deals, in contrast, shone through the sea of modest purchases.",
+        "Among the many minor purchases, the high‑value transactions distinguished themselves.",
+        "A backdrop of minor purchases highlighted the prominence of high‑value transactions.",
+        "Therefore, the sizable transactions emerged prominently against the surrounding smaller buys.",
+        "The prominence of high‑value transactions became evident when set against the flurry of smaller purchases.",
+        "Smaller purchases provided a setting where the high‑value transactions clearly stood out.",
+        "High‑value transactions, set against a myriad of lesser purchases, were noticeably prominent.",
+        "The array of low‑value purchases made the high‑value transactions stand out markedly.",
+        "Against a canvas of modest purchases, high‑value transactions caught attention.",
+        "Thus, the high‑value transactions were conspicuous compared with the numerous smaller purchases.",
+        "With smaller purchases as the background, high‑value transactions rose to prominence.",
+        "The high‑value transactions stood out vividly when juxtaposed with the smaller purchases.",
+        "In the context of many low‑value buys, the high‑value transactions were especially noticeable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "against": [
+          "against"
+        ],
+        "purchases": [
+          "purchases"
+        ],
+        "backdrop": [
+          "backdrop",
+          "background"
+        ],
+        "stood": [
+          "stood"
+        ],
+        "smaller": [
+          "smaller"
+        ],
+        "high": [
+          "high",
+          "eminent"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "therefore": [
+          "therefore",
+          "hence",
+          "consequently",
+          "thus"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Moreover, the patterns observed provided valuable insights for future strategies.",
+      "template_pattern": "Moreover, the patterns observed provided valuable insights for future strategies.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Additionally, the observed patterns yielded valuable insights for future strategies.",
+        "The patterns observed have supplied useful insights that will inform upcoming strategies, moreover.",
+        "Moreover, valuable insights for future strategies were derived from the patterns we observed.",
+        "In addition, the patterns we noted provided key insights useful for planning future strategies.",
+        "The observed patterns furnished essential insights, which can be applied to future strategic initiatives.",
+        "Future strategies will benefit from the valuable insights provided by the patterns observed, furthermore.",
+        "Beyond that, the patterns identified offered significant insights for upcoming strategic decisions.",
+        "Valuable insights for future strategies emerged from the patterns we observed, additionally.",
+        "The patterns observed contributed crucial insights that can guide future strategic approaches.",
+        "Moreover, insights of great value for future strategies were supplied by the observed patterns.",
+        "By observing these patterns, we gained important insights that will shape future strategies.",
+        "The insights gleaned from the observed patterns are valuable for formulating future strategies, further.",
+        "In addition, the patterns we have observed equip us with valuable insights for later strategic planning.",
+        "Future strategies are informed by the valuable insights derived from the observed patterns, moreover.",
+        "The observed patterns have been instrumental in providing useful insights for upcoming strategies, additionally."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "valuable": [
+          "valuable"
+        ],
+        "moreover": [
+          "moreover",
+          "furthermore"
+        ],
+        "strategies": [
+          "strategies"
+        ],
+        "insights": [
+          "insights"
+        ],
+        "patterns": [
+          "patterns"
+        ],
+        "observed": [
+          "observed",
+          "discovered",
+          "ascertained"
+        ],
+        "provided": [
+          "provided"
+        ],
+        "future": [
+          "future",
+          "hereafter"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Every transaction, big or small, played a crucial role in the overall analysis.",
+      "template_pattern": "Every transaction, big or small, played a crucial role in the overall analysis.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "All transactions, whether large or tiny, were essential to the comprehensive analysis.",
+        "The overall analysis depended on every transaction, big or small, as a vital component.",
+        "Whether big or small, each transaction contributed significantly to the total analysis.",
+        "A pivotal role in the overall analysis was played by every transaction, big or small.",
+        "In the full analysis, every transaction, regardless of size, played an indispensable part.",
+        "A crucial role in the overall analysis was fulfilled by each transaction, big or small.",
+        "Big and small transactions alike were key to the overarching analysis.",
+        "The comprehensive analysis hinged on each transaction, no matter how large or modest.",
+        "Each transaction, from the biggest to the smallest, was a critical element of the total analysis.",
+        "Every transaction, irrespective of its magnitude, was vital to the overall analytical outcome.",
+        "The overall analysis was shaped by every transaction, whether it was large or minute.",
+        "All transactions—big or small—had a significant impact on the complete analysis.",
+        "Whether the transaction was large or tiny, it played an essential role in the overall analysis.",
+        "In the aggregate analysis, every transaction, big or small, contributed a crucial function.",
+        "Every transaction, irrespective of size, performed a pivotal function within the overall analysis."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "small": [
+          "small",
+          "diminished",
+          "low",
+          "minor",
+          "minuscule",
+          "little"
+        ],
+        "played": [
+          "played"
+        ],
+        "every": [
+          "every"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part",
+          "office",
+          "purpose",
+          "character"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "overall": [
+          "overall"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The integration of data, consequently, was vital for tracking customer preferences.",
+      "template_pattern": "The integration of data, consequently, was vital for tracking customer preferences.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consequently, integrating data proved essential for monitoring customer preferences.",
+        "The data integration was, as a result, crucial for tracking client preferences.",
+        "Tracking customer preferences relied heavily on the vital integration of data.",
+        "Because data were integrated, the ability to track customer preferences became indispensable.",
+        "Data integration, therefore, played a key role in observing consumer preferences.",
+        "The integration of data, hence, was necessary to follow customer preference trends.",
+        "Monitoring client preferences was made possible by the essential integration of data.",
+        "As a consequence, the merging of data became critical for tracking customer preferences.",
+        "Customer preference tracking depended on the crucial integration of data.",
+        "Integrating data was indispensable, consequently enabling the tracking of customer preferences.",
+        "The vital integration of data allowed for the systematic tracking of consumer preferences.",
+        "Thus, the amalgamation of data proved vital for observing customer preferences.",
+        "For the purpose of tracking customer preferences, data integration was fundamentally important.",
+        "The act of integrating data, consequently, became a cornerstone for monitoring client preferences.",
+        "Tracking of customer preferences was contingent upon the essential integration of data."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "data": [
+          "data"
+        ],
+        "tracking": [
+          "tracking"
+        ],
+        "vital": [
+          "vital",
+          "critical"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "preferences": [
+          "preferences"
+        ],
+        "integration": [
+          "integration"
+        ],
+        "consequently": [
+          "consequently",
+          "therefore",
+          "accordingly"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "As the day progressed, the volume of transactions increased steadily.",
+      "template_pattern": "As the day progressed, the volume of transactions increased steadily.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As the day wore on, transaction volume rose steadily.",
+        "The volume of transactions grew steadily as the day advanced.",
+        "Throughout the day, there was a steady increase in the number of transactions.",
+        "As daylight faded, transaction volume continued its steady rise.",
+        "A steady rise in transaction volume occurred as the day progressed.",
+        "The day's progression saw transaction volume steadily climbing.",
+        "Transaction volume was steadily increasing as the day unfolded.",
+        "As time passed during the day, transactions steadily accumulated in volume.",
+        "Throughout the course of the day, the volume of transactions steadily escalated.",
+        "The volume of transactions steadily climbed while the day moved forward.",
+        "As the day continued, a steady uptick in transaction volume was observed.",
+        "With the day advancing, transaction volume experienced a steady increase.",
+        "The day’s progression brought about a consistent rise in transaction volume.",
+        "During the day, transaction volume rose in a steady manner.",
+        "A consistent, steady increase in the volume of transactions marked the day's progression."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "steadily": [
+          "steadily"
+        ],
+        "increased": [
+          "increased"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "proceedings"
+        ],
+        "volume": [
+          "volume",
+          "mass",
+          "bulk"
+        ],
+        "progressed": [
+          "progressed"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, the afternoon brought a different set of consumer behaviors into focus.",
+      "template_pattern": "Additionally, the afternoon brought a different set of consumer behaviors into focus.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the afternoon highlighted a distinct pattern of consumer behavior.",
+        "In the afternoon, a new group of consumer actions came into view, adding to the analysis.",
+        "The afternoon, furthermore, put a different array of consumer behaviors under the spotlight.",
+        "Additionally, a separate set of consumer behaviors was brought to focus during the afternoon.",
+        "During the afternoon, attention shifted to another collection of consumer behavior trends.",
+        "A different suite of consumer behaviors was emphasized in the afternoon, in addition.",
+        "The afternoon also cast light on a varied set of consumer habits.",
+        "The afternoon, in turn, uncovered a novel set of consumer behavior patterns.",
+        "In addition, the later part of the day brought a new assortment of consumer actions into focus.",
+        "The focus turned to a different group of consumer behaviors as the afternoon progressed.",
+        "As the afternoon unfolded, a distinct set of consumer behaviors was highlighted.",
+        "Moreover, the afternoon’s data drew attention to another set of consumer behaviors.",
+        "The afternoon, adding to earlier observations, showcased a different range of consumer behavior.",
+        "In the afternoon, a separate set of consumer behaviors was brought to the fore.",
+        "Additionally, attention in the afternoon shifted toward a different collection of consumer behaviors."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "different": [
+          "different",
+          "unlike",
+          "dissimilar"
+        ],
+        "brought": [
+          "brought"
+        ],
+        "into": [
+          "into"
+        ],
+        "behaviors": [
+          "behaviors"
+        ],
+        "focus": [
+          "focus",
+          "centre",
+          "center",
+          "direction",
+          "stress"
+        ],
+        "afternoon": [
+          "afternoon"
+        ],
+        "consumer": [
+          "consumer"
+        ],
+        "additionally": [
+          "additionally"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Evening transactions, likewise, showed a shift towards entertainment and leisure spending.",
+      "template_pattern": "Evening transactions, likewise, showed a shift towards entertainment and leisure spending.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the evening, purchases also reflected a move toward entertainment and leisure expenditures.",
+        "Evening spending, similarly, indicated a pivot to entertainment and leisure outlays.",
+        "A shift toward entertainment and leisure spending was observed in the night‑time transactions, too.",
+        "The dusk‑time transactions likewise demonstrated an increase in entertainment and leisure costs.",
+        "Likewise, evening transactions revealed a trend favoring entertainment and leisure purchases.",
+        "Entertainment and leisure expenses rose in the evening, as the transactions showed.",
+        "Evening transactions, in turn, pointed to a reallocation of funds into entertainment and leisure.",
+        "The data for evening purchases also highlighted a tilt toward entertainment and leisure spending.",
+        "A move toward entertainment and leisure spending was evident in the night‑time transactions as well.",
+        "Evening spending patterns, similarly, shifted in favor of entertainment and leisure.",
+        "The shift toward entertainment and leisure outlays was mirrored in the evening transactions.",
+        "Evening purchases, likewise, signaled a gravitation toward entertainment and leisure spending.",
+        "In the later hours, transactions showed a comparable drift toward entertainment and leisure expenses.",
+        "Entertainment and leisure spending became more prominent in the evening, as reflected by the transactions.",
+        "The evening transaction data also indicated a redirect toward entertainment and leisure expenditures."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "likewise": [
+          "likewise",
+          "similarly",
+          "also",
+          "too"
+        ],
+        "showed": [
+          "showed"
+        ],
+        "entertainment": [
+          "entertainment",
+          "amusement"
+        ],
+        "shift": [
+          "shift",
+          "transfer",
+          "displacement",
+          "transformation",
+          "change",
+          "switch"
+        ],
+        "evening": [
+          "evening"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "proceedings"
+        ],
+        "leisure": [
+          "leisure"
+        ],
+        "towards": [
+          "towards"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "By the end of the day, the compiled data painted a comprehensive picture of consumer activity.",
+      "template_pattern": "By the end of the day, the compiled data painted a comprehensive picture of consumer activity.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "At day's end, the compiled data offered a complete view of consumer activity.",
+        "By the close of business, a comprehensive picture of consumer activity emerged from the compiled data.",
+        "The compiled data, by the end of the day, painted an all‑encompassing portrait of consumer activity.",
+        "A full snapshot of consumer activity was revealed by the compiled data by day's end.",
+        "When the day concluded, the aggregated data illustrated a thorough depiction of consumer activity.",
+        "By the day's close, the collected data rendered a detailed image of consumer activity.",
+        "The compiled data, by day's end, provided a holistic view of consumer activity.",
+        "As the day wound down, the data compiled presented a comprehensive picture of consumer activity.",
+        "A comprehensive portrait of consumer activity was produced from the compiled data by the day's end.",
+        "By the end of the day, consumer activity was fully captured in the compiled data.",
+        "The compiled data, at day's end, portrayed an extensive overview of consumer activity.",
+        "At the close of the day, the aggregated data painted a thorough picture of consumer activity.",
+        "Consumer activity was depicted in a comprehensive manner by the compiled data by day's end.",
+        "By day's end, the collected data delivered a complete illustration of consumer activity.",
+        "The day’s end saw the compiled data mapping a detailed picture of consumer activity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "data": [
+          "data",
+          "information"
+        ],
+        "compiled": [
+          "compiled"
+        ],
+        "comprehensive": [
+          "comprehensive"
+        ],
+        "painted": [
+          "painted"
+        ],
+        "consumer": [
+          "consumer"
+        ],
+        "picture": [
+          "picture",
+          "image",
+          "photo",
+          "photograph",
+          "depiction",
+          "scene"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the detailed records offered a reliable source for forecasting future trends.",
+      "template_pattern": "Furthermore, the detailed records offered a reliable source for forecasting future trends.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the comprehensive data provided a dependable basis for predicting future trends.",
+        "In addition, these thorough records serve as a trustworthy source for forecasting upcoming patterns.",
+        "Also, the extensive logs constitute a reliable foundation for projecting future tendencies.",
+        "What’s more, a solid reference is offered by the detailed archives for anticipating future trends.",
+        "Besides, the granular documentation supplies a credible input for modeling upcoming movements.",
+        "As a further point, a reliable source for forecasting future trends is supplied by the meticulous records.",
+        "Additionally, the detailed records are used as a dependable tool to forecast future trends.",
+        "The detailed records, moreover, provide a trustworthy basis for future trend prediction.",
+        "A reliable source for projecting future trends is offered by the comprehensive records, further enhancing analysis.",
+        "The thorough data set functions as a solid reference for anticipating upcoming trends, further supporting forecasts.",
+        "Future trend forecasting is aided by the dependable information contained in the detailed records.",
+        "The extensive records, in addition, constitute a credible foundation for projecting future trends.",
+        "By virtue of their detail, the records furnish a reliable source for predicting future trends.",
+        "A trustworthy source for forecasting future trends is derived from the meticulous documentation, moreover.",
+        "In the report, the detailed records serve as a dependable basis for forecasting upcoming trends."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reliable": [
+          "reliable",
+          "dependable"
+        ],
+        "future": [
+          "future"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "offered": [
+          "offered"
+        ],
+        "trends": [
+          "trends"
+        ],
+        "forecasting": [
+          "forecasting"
+        ],
+        "records": [
+          "records"
+        ],
+        "source": [
+          "source",
+          "origin",
+          "reference",
+          "root"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Each entry in the transaction log, therefore, contributed to a deeper understanding of market dynamics.",
+      "template_pattern": "Each entry in the transaction log, therefore, contributed to a deeper understanding of market dynamics.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consequently, every record in the transaction log helped deepen our grasp of market dynamics.",
+        "Each transaction‑log entry, in turn, added to a richer comprehension of market dynamics.",
+        "A deeper insight into market dynamics was achieved thanks to each item logged in the transaction record.",
+        "By logging each entry, the transaction record enhanced our understanding of market dynamics.",
+        "The transaction log’s individual entries collectively sharpened our perception of market dynamics.",
+        "As a result, each line in the transaction log contributed toward a more nuanced view of market dynamics.",
+        "With every entry recorded, the transaction log fed into a more profound understanding of market dynamics.",
+        "Market dynamics became clearer because each transaction‑log entry supplied additional insight.",
+        "Each entry of the transaction log, therefore, served to broaden our knowledge of market dynamics.",
+        "The accumulation of entries in the transaction log fostered a deeper appreciation of market dynamics.",
+        "Through each logged transaction, the report advanced our comprehension of market dynamics.",
+        "Each recorded transaction added a layer to our understanding of the dynamics of the market.",
+        "A more thorough grasp of market dynamics resulted from every entry made in the transaction log.",
+        "Every single transaction‑log entry played a part in enhancing our insight into market dynamics.",
+        "By documenting each transaction, the log contributed significantly to a deeper awareness of market dynamics."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "entry": [
+          "entry",
+          "submission"
+        ],
+        "deeper": [
+          "deeper"
+        ],
+        "contributed": [
+          "contributed"
+        ],
+        "therefore": [
+          "therefore",
+          "hence",
+          "thus",
+          "consequently"
+        ],
+        "dynamics": [
+          "dynamics"
+        ],
+        "understanding": [
+          "understanding",
+          "apprehension",
+          "discernment",
+          "intellect",
+          "savvy"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

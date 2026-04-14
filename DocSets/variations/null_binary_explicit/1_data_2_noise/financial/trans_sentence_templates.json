@@ -1,0 +1,1793 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "61ddf0485e09451f": "account_id",
+    "f24aaf6159674202": "date",
+    "93b4dbdb43e641a8": "type",
+    "78f1a757b8fc4a5c": "operation",
+    "865f1dd222bf49b8": "amount",
+    "fa1c70e71b7a4cf6": "balance",
+    "649bdda0fbaf4850": "k_symbol",
+    "56165c7577c1427d": "bank",
+    "72d54672bc5c48cc": "account",
+    "ebead42db8764982": "trans_id"
+  },
+  "templates": [
+    {
+      "original": "As the day began, financial analysts gathered to review the latest reports.",
+      "template_pattern": "As the day began, financial analysts gathered to review the latest reports.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As dawn broke, finance analysts convened to examine the newest reports.",
+        "The day started with financial analysts assembling to go over the latest reports.",
+        "Financial analysts gathered at daybreak to review the most recent reports.",
+        "With the morning's onset, analysts in finance met to scrutinize the latest reports.",
+        "The latest reports were reviewed by financial analysts as the day began.",
+        "As the day commenced, the newest reports were examined by a group of financial analysts.",
+        "At the beginning of the day, finance analysts came together to assess the latest reports.",
+        "Financial analysts, as the day unfolded, convened to study the most recent reports.",
+        "The day’s start saw financial analysts assembling for a review of the latest reports.",
+        "While the day was just beginning, the latest reports were being reviewed by finance analysts.",
+        "In the early hours, a gathering of financial analysts set about evaluating the newest reports.",
+        "The latest reports, reviewed by financial analysts, marked the start of the day.",
+        "As the morning began, the finance analyst team met to analyze the newest reports.",
+        "When the day opened, financial analysts were convened to peruse the latest reports.",
+        "During the day’s opening, the most recent reports were examined by finance analysts."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reports": [
+          "reports"
+        ],
+        "latest": [
+          "latest",
+          "recent"
+        ],
+        "began": [
+          "began"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "review": [
+          "review",
+          "inspection",
+          "reexamination",
+          "recap",
+          "retrospect",
+          "revaluation"
+        ],
+        "gathered": [
+          "gathered",
+          "collected"
+        ],
+        "analysts": [
+          "analysts"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The financial account with the unique identifier 1 is essential for tracking and managing transactions.",
+      "template_pattern": "The financial account with the unique identifier [ACCOUNT_ID] is essential for tracking and managing transactions.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The financial account bearing account id [ACCOUNT_ID] is crucial for tracking and managing transactions.",
+        "Essential for tracking and managing transactions, the financial account with account id [ACCOUNT_ID] must be maintained.",
+        "Tracking and managing transactions relies on the financial account identified by account id [ACCOUNT_ID].",
+        "For monitoring and handling transactions, the financial account (account id [ACCOUNT_ID]) is indispensable.",
+        "The financial account, account id [ACCOUNT_ID], plays a vital role in tracking and managing transactions.",
+        "With account id [ACCOUNT_ID], the financial account becomes indispensable for tracking and managing transactions.",
+        "Tracking and managing transactions are dependent on the financial account that carries account id [ACCOUNT_ID].",
+        "The financial account that holds account id [ACCOUNT_ID] is necessary for tracking and managing transactions.",
+        "To track and manage transactions, one must use the financial account designated as account id [ACCOUNT_ID].",
+        "The financial account assigned account id [ACCOUNT_ID] serves as a key instrument for tracking and managing transactions.",
+        "For the purpose of tracking and managing transactions, the financial account having account id [ACCOUNT_ID] is essential.",
+        "Account id [ACCOUNT_ID] identifies the financial account that is essential for tracking and managing transactions.",
+        "The financial account, identified by account id [ACCOUNT_ID], is indispensable for tracking and managing transactions.",
+        "Tracking and managing transactions depend upon the financial account known as account id [ACCOUNT_ID].",
+        "Because it tracks and manages transactions, the financial account with account id [ACCOUNT_ID] is vital."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "tracking": [
+          "tracking",
+          "trailing",
+          "track",
+          "trail"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unequaled",
+          "unparalleled",
+          "singular"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings",
+          "proceedings"
+        ],
+        "managing": [
+          "managing"
+        ],
+        "essential": [
+          "essential",
+          "indispensable",
+          "requisite",
+          "crucial",
+          "necessary"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Discussions about improving transaction traceability were at the forefront of the meeting.",
+      "template_pattern": "Discussions about improving transaction traceability were at the forefront of the meeting.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The meeting placed discussions on enhancing transaction traceability front and center.",
+        "Improving transaction traceability was the main topic of conversation during the meeting.",
+        "At the meeting, the focus was on talks about boosting transaction traceability.",
+        "Conversations about better transaction traceability dominated the agenda of the meeting.",
+        "The forefront of the meeting was occupied by discussions aimed at improving transaction traceability.",
+        "Enhancing transaction traceability featured prominently in the meeting's discussions.",
+        "The meeting’s primary emphasis lay in dialogues concerning the improvement of transaction traceability.",
+        "Discussions centered on advancing transaction traceability took priority at the meeting.",
+        "The agenda’s highlight at the meeting comprised talks on refining transaction traceability.",
+        "Transaction traceability improvement was the leading subject of discussion at the meeting.",
+        "In the meeting, the spotlight fell on discussions about upgrading transaction traceability.",
+        "The core of the meeting revolved around dialogues on improving transaction traceability.",
+        "Talks concerning the enhancement of transaction traceability were positioned at the meeting’s forefront.",
+        "The meeting foregrounded discussions on how to improve transaction traceability.",
+        "Improving transaction traceability became the focal point of the meeting’s conversations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "discussions": [
+          "discussions"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "traceability": [
+          "traceability"
+        ],
+        "forefront": [
+          "forefront",
+          "vanguard",
+          "head"
+        ],
+        "meeting": [
+          "meeting"
+        ],
+        "improving": [
+          "improving"
+        ],
+        "about": [
+          "about",
+          "around",
+          "approximately",
+          "nearly",
+          "virtually",
+          "almost"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "On 1995-03-24, a significant financial transaction took place, adding to the chronological tapestry of payment histories.",
+      "template_pattern": "On [DATE], a significant financial transaction took place, adding to the chronological tapestry of payment histories.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Date [DATE] saw a major monetary transfer, contributing to the chronological tapestry of payment histories.",
+        "On [DATE], a noteworthy financial transaction occurred, enriching the timeline of payment records.",
+        "A substantial funds movement was recorded on [DATE], adding another thread to the historic sequence of payments.",
+        "The date [DATE] marks a significant payment event, which expands the chronological narrative of payment history.",
+        "[DATE] featured a notable financial exchange, thereby enhancing the chronological tapestry of payment histories.",
+        "A key monetary transaction took place on [DATE], further weaving into the timeline of payment records.",
+        "On [DATE], a prominent payment was executed, augmenting the chronological record of payment histories.",
+        "The day [DATE] witnessed a considerable financial transfer, contributing another layer to the historic payment timeline.",
+        "Date [DATE] recorded a significant funds transaction, which bolsters the chronological tapestry of payment histories.",
+        "A major financial transaction happened on [DATE], adding to the sequential chronicle of payment histories.",
+        "On [DATE], a noteworthy monetary exchange was logged, expanding the chronological tapestry of payment histories.",
+        "The date [DATE] saw a substantial payment event, enriching the ongoing timeline of payment histories.",
+        "[DATE] marked the occurrence of a significant funds movement, further weaving into the chronological payment record.",
+        "A significant financial transaction was carried out on [DATE], enhancing the chronological tapestry of payment histories.",
+        "On [DATE], a notable monetary transaction took place, adding another strand to the chronological narrative of payment histories."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "took": [
+          "took"
+        ],
+        "tapestry": [
+          "tapestry"
+        ],
+        "payment": [
+          "payment",
+          "defrayment",
+          "defrayal"
+        ],
+        "chronological": [
+          "chronological"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "place": [
+          "place",
+          "site",
+          "point",
+          "position",
+          "spot",
+          "space"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team considered historical data to forecast future financial trends.",
+      "template_pattern": "The team considered historical data to forecast future financial trends.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team analyzed past data to project upcoming financial trends.",
+        "Historical data were examined by the team to predict future financial trends.",
+        "To anticipate future financial trends, the team reviewed historical data.",
+        "By studying previous data, the team aimed to forecast forthcoming financial trends.",
+        "Future financial trends were forecasted using historical data, according to the team.",
+        "The team consulted historic records in order to forecast upcoming financial trends.",
+        "In order to predict future financial trends, the team considered past data.",
+        "Past financial data were taken into account by the team to forecast future trends.",
+        "The team relied on historical data for forecasting the next financial trends.",
+        "Forecasting future financial trends, the team turned to historical data.",
+        "Using historical data, the team set out to forecast upcoming financial trends.",
+        "The forecast of future financial trends was based on the team's review of historical data.",
+        "To project future financial trends, the team made use of past data.",
+        "Historical data served as the basis for the team's forecast of future financial trends.",
+        "The team's forecast of forthcoming financial trends was derived from examining historical data."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "historical": [
+          "historical",
+          "historic"
+        ],
+        "trends": [
+          "trends"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "future": [
+          "future"
+        ],
+        "forecast": [
+          "forecast",
+          "predict",
+          "foretell",
+          "prognosis",
+          "prognosticate",
+          "estimate"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "considered": [
+          "considered"
+        ],
+        "data": [
+          "data"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The recent financial summary included a PRIJEM, highlighting the importance of tracking each transaction type for accurate reporting.",
+      "template_pattern": "The recent financial summary included a [TYPE], highlighting the importance of tracking each transaction type for accurate reporting.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the latest financial summary, a [TYPE] was featured, emphasizing that each transaction type must be tracked for precise reporting.",
+        "The recent financial overview highlighted a [TYPE] and underscored the need to monitor every transaction type to ensure accurate reports.",
+        "A [TYPE] appeared in the newest financial summary, drawing attention to the importance of recording each transaction type for correct reporting.",
+        "Highlighted in the current financial summary was a [TYPE], which points out that tracking each transaction type is essential for reliable reporting.",
+        "The financial summary released recently included a [TYPE], stressing the necessity of following every transaction type for exact reporting.",
+        "Within the latest financial report, a [TYPE] was noted, reminding us to track each transaction type for faithful reporting.",
+        "A [TYPE] was incorporated into the recent financial summary, making clear that every transaction type should be logged for accurate reporting.",
+        "The most recent financial summary featured a [TYPE] and called attention to the critical role of tracking each transaction type for precise reporting.",
+        "In the fresh financial summary, a [TYPE] was presented, highlighting why each transaction type must be tracked for proper reporting.",
+        "The recent financial summary, which included a [TYPE], illustrates the importance of monitoring every transaction type for exact reporting.",
+        "A [TYPE] was part of the latest financial summary, reinforcing the need to keep track of each transaction type for accurate reporting.",
+        "The latest financial summary contains a [TYPE], thereby emphasizing that each transaction type should be tracked for reliable reporting.",
+        "Including a [TYPE], the recent financial summary stresses the significance of tracking each transaction type to achieve accurate reporting.",
+        "The financial summary released recently, which features a [TYPE], points out the necessity of tracking each transaction type for precise reporting.",
+        "A [TYPE] appears in the recent financial summary, underscoring the vital task of tracking each transaction type for correct reporting."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "each": [
+          "each"
+        ],
+        "reporting": [
+          "reporting"
+        ],
+        "included": [
+          "included"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Ensuring data accuracy was a key concern among the financial officers.",
+      "template_pattern": "Ensuring data accuracy was a key concern among the financial officers.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Financial officers placed a top priority on guaranteeing the accuracy of data.",
+        "The accuracy of data was a primary worry for the financial officers.",
+        "Among the finance executives, ensuring precise data was a major concern.",
+        "Data accuracy was regarded as a critical issue by the financial officers.",
+        "For the financial officers, safeguarding data accuracy stood out as a key focus.",
+        "Ensuring that data remained accurate was a central concern among the finance officials.",
+        "The financial officers considered data precision to be of utmost importance.",
+        "A chief concern for the financial officers was the maintenance of accurate data.",
+        "Accurate data was a pivotal matter for the finance officers.",
+        "The finance team’s chief worry centered on keeping data accurate.",
+        "Among the financial officers, the need to verify data accuracy was paramount.",
+        "Ensuring the correctness of data ranked high on the financial officers' agenda.",
+        "Data precision was highlighted as a significant issue by the financial officers.",
+        "The financial officers' main preoccupation involved guaranteeing data accuracy.",
+        "Keeping data accurate was a priority that the financial officers emphasized."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "officers": [
+          "officers"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "concern": [
+          "concern",
+          "care",
+          "interest",
+          "business"
+        ],
+        "accuracy": [
+          "accuracy",
+          "truth"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "among": [
+          "among"
+        ],
+        "data": [
+          "data"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The operation recorded was VKLAD, indicating a financial transaction categorized as VKLAD within the records.",
+      "template_pattern": "The operation recorded was [OPERATION], indicating a financial transaction categorized as [OPERATION] within the records.",
+      "primary_data_fields": [
+        "operation"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The operation logged is [OPERATION], signifying a financial transaction classified as [OPERATION] in the records.",
+        "Recorded as [OPERATION], the operation denotes a financial transaction that falls under the [OPERATION] category in the documentation.",
+        "In the records, the operation appears as [OPERATION], which points to a financial transaction of type [OPERATION].",
+        "A financial transaction labeled [OPERATION] is reflected by the operation entry, which is recorded as [OPERATION].",
+        "The operation, noted as [OPERATION], indicates that the transaction is a VKLAD‑type financial entry in the archives.",
+        "[OPERATION] is the value shown for the operation, meaning the transaction is categorized as [OPERATION] within the records.",
+        "Within the documentation, the operation is marked [OPERATION], denoting a financial transaction categorized as [OPERATION].",
+        "The operation’s entry reads [OPERATION], thereby identifying the transaction as a [OPERATION] financial action in the logs.",
+        "As per the records, the operation is designated [OPERATION], representing a financial transaction of the [OPERATION] category.",
+        "The operation recorded [OPERATION], which identifies the transaction as a VKLAD‑type entry in the system.",
+        "Noted in the files, the operation carries the code [OPERATION], indicating a financial transaction categorized as [OPERATION].",
+        "The operation was entered as [OPERATION], confirming that the transaction belongs to the [OPERATION] financial category.",
+        "[OPERATION] appears as the operation value, implying a financial transaction classified under [OPERATION] in the records.",
+        "The operation, set to [OPERATION], signals a financial transaction that is classified as [OPERATION] in the archive.",
+        "In the ledger, the operation is listed as [OPERATION], which signals a financial transaction of the [OPERATION] category."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "records": [
+          "records"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "categorized": [
+          "categorized",
+          "categorised"
+        ]
+      },
+      "field_data_types": {
+        "operation": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Strategies for categorizing transactions were debated thoroughly.",
+      "template_pattern": "Strategies for categorizing transactions were debated thoroughly.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The approaches to classifying transactions were examined in great detail.",
+        "Extensive debate surrounded the methods for sorting transactions.",
+        "The tactics for transaction categorization were rigorously discussed.",
+        "Strategies for grouping transactions were scrutinized thoroughly.",
+        "In depth, the frameworks for segmenting transactions were deliberated.",
+        "A comprehensive discussion took place regarding plans for categorizing transactions.",
+        "Various schemes for classifying transactions were debated extensively.",
+        "Thoroughly, the best approaches to transaction sorting were argued over.",
+        "There was a detailed debate on methods for categorizing transactions.",
+        "The approaches to segmenting transactions underwent rigorous discussion.",
+        "A prolonged debate concerned strategies for transaction classification.",
+        "The debate over how to sort transactions was conducted with exhaustive thoroughness.",
+        "With meticulous scrutiny, different tactics for grouping transactions were evaluated.",
+        "A thorough deliberation focused on frameworks for categorizing transactions.",
+        "The discussion centered on assorted methods for classifying transactions, examined in depth."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategies": [
+          "strategies"
+        ],
+        "debated": [
+          "debated"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "thoroughly": [
+          "thoroughly",
+          "exhaustively",
+          "soundly"
+        ],
+        "categorizing": [
+          "categorizing"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Each transaction recorded in the history reflects a total monetary amount of 1000, highlighting the financial activity of customer accounts.",
+      "template_pattern": "Each transaction recorded in the history reflects a total monetary amount of [AMOUNT], highlighting the financial activity of customer accounts.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The history logs show that each transaction carries a total monetary amount of [AMOUNT], underscoring the financial activity of customer accounts.",
+        "A total monetary amount of [AMOUNT] is reflected in every transaction recorded in the history, emphasizing the financial activity of customer accounts.",
+        "Every transaction documented in the history amounts to a total monetary amount of [AMOUNT], highlighting the financial activity of customer accounts.",
+        "In the transaction history, each entry records a total monetary amount of [AMOUNT], drawing attention to the financial activity of customer accounts.",
+        "The financial activity of customer accounts is illustrated by each history‑recorded transaction, each showing a total monetary amount of [AMOUNT].",
+        "Each recorded transaction in the history demonstrates a total monetary amount of [AMOUNT], thereby spotlighting the financial activity of customer accounts.",
+        "Highlighting the financial activity of customer accounts, each transaction in the history reports a total monetary amount of [AMOUNT].",
+        "With a total monetary amount of [AMOUNT], every transaction captured in the history points to the financial activity of customer accounts.",
+        "The total monetary amount of [AMOUNT] appears in each transaction logged in the history, signaling the financial activity of customer accounts.",
+        "Customer accounts’ financial activity is evident as each history entry records a total monetary amount of [AMOUNT].",
+        "Each transaction, as logged in the history, reflects a total monetary amount of [AMOUNT] and thus highlights the financial activity of customer accounts.",
+        "Reflecting a total monetary amount of [AMOUNT], each transaction in the history underscores the financial activity of customer accounts.",
+        "The history’s transaction records each bear a total monetary amount of [AMOUNT], which highlights the financial activity of customer accounts.",
+        "Showing a total monetary amount of [AMOUNT], each transaction recorded in the history brings attention to the financial activity of customer accounts.",
+        "Financial activity of customer accounts is highlighted by the total monetary amount of [AMOUNT] that appears in every transaction recorded in the history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "reflects": [
+          "reflects"
+        ],
+        "each": [
+          "each"
+        ],
+        "monetary": [
+          "monetary",
+          "pecuniary"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "history": [
+          "history",
+          "chronicle",
+          "account",
+          "story"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The consistency of financial activities provided insights into customer behavior.",
+      "template_pattern": "The consistency of financial activities provided insights into customer behavior.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consistent financial activity revealed patterns in customer behavior.",
+        "Insights into customer behavior were derived from the steadiness of financial transactions.",
+        "Because the financial activities were consistent, we gained insight into how customers act.",
+        "The steady nature of financial operations supplied valuable understanding of client behavior.",
+        "By maintaining consistent financial activity, analysts uncovered clues about customer conduct.",
+        "Customer behavior became clearer thanks to the uniformity of financial dealings.",
+        "Uniform financial activity offered a window into the habits of customers.",
+        "The regularity of monetary actions provided us with insights regarding consumer behavior.",
+        "From the consistent financial activity, we extracted information on customer behavior.",
+        "Insights into how customers behave stem from the consistent pattern of financial activities.",
+        "The constancy of financial transactions gave us a better grasp of customer behavior.",
+        "Due to the reliable nature of financial activities, we could infer details about customer conduct.",
+        "The predictable flow of financial operations yielded insights into consumer behavior.",
+        "Observing the steady financial activity allowed us to understand customer behavior more fully.",
+        "Customer behavior insights emerged from the consistent execution of financial activities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "into": [
+          "into"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "behavior": [
+          "behavior",
+          "deportment",
+          "demeanour",
+          "demeanor",
+          "conduct",
+          "behaviour"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "insights": [
+          "insights"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "provided": [
+          "provided"
+        ],
+        "consistency": [
+          "consistency"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "After settling all recent transactions, the account holder's balance stands at 1000.",
+      "template_pattern": "After settling all recent transactions, the account holder's balance stands at [BALANCE].",
+      "primary_data_fields": [
+        "balance"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Once all recent transactions have been cleared, the account holder’s balance is [BALANCE].",
+        "After the recent transactions were settled, the balance of the account holder stands at [BALANCE].",
+        "With the latest transactions finalized, the account holder now reports a balance of [BALANCE].",
+        "Having settled every recent transaction, the account holder’s balance totals [BALANCE].",
+        "Following the completion of all recent transactions, the balance for the account holder amounts to [BALANCE].",
+        "The account holder’s balance reaches [BALANCE] once all recent transactions are settled.",
+        "After clearing all recent transactions, the balance recorded for the account holder is [BALANCE].",
+        "All recent transactions settled, the account holder now shows a balance of [BALANCE].",
+        "Upon finalizing the recent transactions, the account holder’s balance stands at [BALANCE].",
+        "The balance of the account holder stands at [BALANCE] once all recent transactions have been settled.",
+        "After the recent transactions are resolved, the account holder’s balance reads [BALANCE].",
+        "Once the recent transactions are completed, the account holder’s balance equals [BALANCE].",
+        "With all recent transactions settled, the balance for the account holder sits at [BALANCE].",
+        "Consequently, after settling every recent transaction, the account holder’s balance is [BALANCE].",
+        "Therefore, after settling all recent transactions, the account holder’s balance stands at [BALANCE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "stands": [
+          "stands"
+        ],
+        "after": [
+          "after"
+        ],
+        "settling": [
+          "settling",
+          "subsiding"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ],
+        "holder": [
+          "holder",
+          "bearer"
+        ]
+      },
+      "field_data_types": {
+        "balance": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Financial analysts emphasized the importance of maintaining accurate figures.",
+      "template_pattern": "Financial analysts emphasized the importance of maintaining accurate figures.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Financial analysts stressed the need to keep figures accurate.",
+        "The importance of preserving precise numbers was highlighted by financial analysts.",
+        "Financial analysts underscored how vital it is to maintain accurate data.",
+        "Accurate figures must be maintained, according to financial analysts.",
+        "Emphasizing the significance of exact numbers, financial analysts warned against errors.",
+        "Financial analysts pointed out that keeping data exact is essential.",
+        "The necessity of accurate figures was emphasized by financial analysts.",
+        "It is crucial, financial analysts say, to retain precise financial figures.",
+        "Financial analysts called attention to the critical role of exact numbers.",
+        "Maintaining precise figures, financial analysts argue, is of utmost importance.",
+        "According to financial analysts, the preservation of accurate numbers is paramount.",
+        "Financial analysts have highlighted the importance of ensuring figures remain accurate.",
+        "The need for accurate figures was stressed by financial analysts in their report.",
+        "Financial analysts note that accurate data maintenance is essential.",
+        "Keeping figures accurate, financial analysts assert, is a key priority."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "maintaining": [
+          "maintaining",
+          "keeping",
+          "conserving",
+          "sustaining",
+          "upholding",
+          "preserving"
+        ],
+        "emphasized": [
+          "emphasized",
+          "stressed",
+          "underscored",
+          "accentuated"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "accurate": [
+          "accurate",
+          "precise",
+          "exact"
+        ],
+        "analysts": [
+          "analysts"
+        ],
+        "figures": [
+          "figures"
+        ],
+        "importance": [
+          "importance"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "For this financial transaction, the key symbol is NULL, which affects tracking and categorization.",
+      "template_pattern": "For this financial transaction, the key symbol is [K_SYMBOL], which affects tracking and categorization.",
+      "primary_data_fields": [
+        "k_symbol"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In this financial data report, the k symbol is [K_SYMBOL], which shapes the way the transaction is tracked and categorized in the system.",
+        "The k symbol [K_SYMBOL], used in this financial data report, determines how the system tracks and classifies the transaction.",
+        "For the financial data report at hand, [K_SYMBOL] serves as the k symbol, affecting transaction tracking and categorization within the system.",
+        "This financial data report assigns [K_SYMBOL] as the k symbol, thereby influencing the system’s tracking and categorization of the transaction.",
+        "Within the system, the transaction is tracked and categorized based on the k symbol [K_SYMBOL], as noted in the financial data report.",
+        "The financial data report indicates that the k symbol is [K_SYMBOL], which in turn guides how the transaction is recorded and sorted in the system.",
+        "Because the k symbol is [K_SYMBOL] in this financial data report, the system’s handling of transaction tracking and categorization is impacted.",
+        "[K_SYMBOL], designated as the k symbol for this financial data report, directs the manner in which the transaction is tracked and classified within the system.",
+        "In the context of the financial data report, the k symbol being [K_SYMBOL] influences the system’s approach to tracking and categorizing the transaction.",
+        "The transaction’s tracking and categorization in the system are shaped by the k symbol [K_SYMBOL], as specified in the financial data report.",
+        "This financial data report sets [K_SYMBOL] as the k symbol, thereby affecting how the transaction is monitored and grouped inside the system.",
+        "With [K_SYMBOL] identified as the k symbol for this financial data report, the system’s process for tracking and categorizing the transaction is altered.",
+        "The k symbol, [K_SYMBOL], is applied in this financial data report, influencing the system’s method of tracking and categorizing the transaction.",
+        "As noted in the financial data report, the k symbol [K_SYMBOL] determines the way the transaction is tracked and categorized within the system.",
+        "By assigning [K_SYMBOL] as the k symbol in this financial data report, the system’s tracking and classification of the transaction are impacted."
+      ],
+      "counter_variations": [
+        "In the context of this financial transaction, the k symbol is null, a condition that influences tracking and categorization.",
+        "The k symbol, set to null for this financial transaction, impacts the processes of tracking and categorization.",
+        "Because the k symbol is null in this financial transaction, tracking and categorization are affected.",
+        "This financial transaction features a k symbol of null, thereby altering tracking and categorization.",
+        "With the k symbol designated as null for the financial transaction at hand, tracking and categorization become compromised.",
+        "Null appears as the k symbol in this financial transaction, consequently modifying tracking and categorization.",
+        "For the financial transaction under review, the k symbol assumes a null value, which in turn affects tracking and categorization.",
+        "The presence of a null k symbol in this financial transaction exerts influence over tracking and categorization.",
+        "In this financial transaction, a null assignment to the k symbol disrupts standard tracking and categorization.",
+        "When the k symbol is null in the financial transaction, the resulting effect touches tracking and categorization.",
+        "The financial transaction’s k symbol is null, a factor that reshapes tracking and categorization procedures.",
+        "Tracking and categorization are impacted because the k symbol for this financial transaction is null.",
+        "As the financial transaction records a null k symbol, the downstream effect is seen on tracking and categorization.",
+        "A null value for the k symbol in this financial transaction propagates changes to tracking and categorization.",
+        "The assignment of null to the k symbol within the financial transaction influences both tracking and categorization."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "affects": [
+          "affects"
+        ],
+        "symbol": [
+          "symbol"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "categorization": [
+          "categorization",
+          "classification",
+          "compartmentalization",
+          "categorisation"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "which": [
+          "which"
+        ]
+      },
+      "field_data_types": {
+        "k_symbol": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The implications of missing data were a topic of significant discussion.",
+      "template_pattern": "The implications of missing data were a topic of significant discussion.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The ramifications of absent data sparked extensive debate.",
+        "Significant discussion centered on the consequences of incomplete data.",
+        "In the report, analysts heavily debated the impact of missing data.",
+        "The impact of missing data became a focal point of considerable talk.",
+        "Considerable conversation revolved around the implications of data gaps.",
+        "Missing data's implications were subject to vigorous discussion.",
+        "The topic of missing data's effects generated notable discourse.",
+        "Extensive dialogue was devoted to the consequences of absent data.",
+        "The report highlighted a substantial debate over the implications of missing information.",
+        "Debates over the ramifications of incomplete data dominated the discussion.",
+        "The implications arising from missing data attracted significant attention in the conversation.",
+        "Conversations in the financial review heavily emphasized the effects of missing data.",
+        "A thorough discussion ensued regarding the implications of data omissions.",
+        "The subject of missing data's implications was debated at length.",
+        "Analysts engaged in a pronounced discussion about the consequences of missing data."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "topic": [
+          "topic",
+          "subject",
+          "matter",
+          "theme"
+        ],
+        "implications": [
+          "implications"
+        ],
+        "discussion": [
+          "discussion",
+          "treatment",
+          "discourse"
+        ],
+        "missing": [
+          "missing",
+          "absent",
+          "lacking"
+        ],
+        "data": [
+          "data"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The transaction record shows that the financial institution involved is NULL.",
+      "template_pattern": "The transaction record shows that the financial institution involved is [BANK].",
+      "primary_data_fields": [
+        "bank"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the financial data report, the bank is [BANK], which serves as the institution processing the transactions.",
+        "The institution that processes the transactions, identified as [BANK], appears as the bank in the financial data report.",
+        "In the financial data report, [BANK] is listed under the bank field, denoting the entity that manages the transactions.",
+        "[BANK], noted as the bank in the financial data report, indicates the party responsible for handling the transactions.",
+        "Listed as the bank within the financial data report, [BANK] signals the organization that carries out the transactions.",
+        "The bank entry in the financial data report reads [BANK], pointing to the institution that oversees the transactions.",
+        "Within the financial data report, the bank is recorded as [BANK], signifying the entity that executes the transactions.",
+        "[BANK] is the bank cited in the financial data report, reflecting the institution that administers the transactions.",
+        "The financial data report names [BANK] as the bank, thereby identifying the institution that conducts the transactions.",
+        "Identified as [BANK], the bank in the financial data report denotes the organization handling the transactions.",
+        "The bank shown in the financial data report—[BANK]—marks the institution responsible for processing the transactions.",
+        "[BANK] appears as the bank in the financial data report, indicating the entity that manages transaction processing.",
+        "In the financial data report, the bank field lists [BANK], which designates the institution overseeing the transactions.",
+        "The institution that handles the transactions is [BANK], as indicated by the bank entry in the financial data report.",
+        "The bank: [BANK], as recorded in the financial data report, signifies the organization that processes the transactions."
+      ],
+      "counter_variations": [
+        "According to the transaction record, the bank field is recorded as null.",
+        "The audit of the transaction log reveals that the bank entry contains the value null.",
+        "In the compiled transaction data, the bank attribute is set to null.",
+        "Reviewing the transaction details shows the bank designation to be null.",
+        "The transaction register indicates that the bank column holds a null value.",
+        "Evidence from the transaction file points to the bank parameter being null.",
+        "Upon examination, the transaction file lists the bank component as null.",
+        "The transaction snapshot specifies that the bank identifier is null.",
+        "Data extracted from the transaction indicates a null entry for the bank field.",
+        "The transaction dossier notes that the bank information is null.",
+        "Analysis of the transaction reveals a null status for the bank attribute.",
+        "The transaction archive documents that the bank entry is null.",
+        "From the transaction perspective, the bank variable appears as null.",
+        "The transaction ledger marks the bank element with the value null.",
+        "Inspection of the transaction record confirms that the bank data point is null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction"
+        ],
+        "shows": [
+          "shows",
+          "indicates",
+          "demonstrates",
+          "presents",
+          "displays",
+          "exhibits"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "involved": [
+          "involved",
+          "tangled",
+          "convoluted",
+          "knotty"
+        ],
+        "institution": [
+          "institution",
+          "establishment",
+          "foundation",
+          "creation"
+        ]
+      },
+      "field_data_types": {
+        "bank": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "A plan was developed to address potential data gaps in future records.",
+      "template_pattern": "A plan was developed to address potential data gaps in future records.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A strategy was formulated to bridge possible data gaps in upcoming records.",
+        "We devised a plan aimed at mitigating potential gaps in future data records.",
+        "To tackle anticipated data gaps in forthcoming records, a plan was created.",
+        "The team developed a plan to fill prospective gaps in later records.",
+        "A plan has been crafted to address expected data deficiencies in subsequent records.",
+        "In order to remedy potential data gaps in future records, we designed a plan.",
+        "Addressing possible gaps in upcoming data records, a plan was put together.",
+        "The organization instituted a plan to confront potential data gaps in forthcoming records.",
+        "To prevent data gaps in future records, a comprehensive plan was established.",
+        "A proactive plan was set up to handle anticipated gaps in later data records.",
+        "Our department prepared a plan for closing potential gaps in upcoming records.",
+        "A plan was instituted to manage expected data gaps in subsequent records.",
+        "To ensure completeness of future records, we developed a plan targeting possible data gaps.",
+        "The creation of a plan aimed at filling future data gaps was undertaken.",
+        "A detailed plan was organized to address likely gaps in forthcoming records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "gaps": [
+          "gaps"
+        ],
+        "plan": [
+          "plan",
+          "program",
+          "programme",
+          "design",
+          "project"
+        ],
+        "records": [
+          "records"
+        ],
+        "address": [
+          "address",
+          "handle",
+          "deal",
+          "treat",
+          "cover",
+          "reference"
+        ],
+        "developed": [
+          "developed"
+        ],
+        "future": [
+          "future"
+        ],
+        "potential": [
+          "potential",
+          "possible"
+        ],
+        "data": [
+          "data"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The financial account associated with the customer has a unique identifier of NULL.",
+      "template_pattern": "The financial account associated with the customer has a unique identifier of [ACCOUNT].",
+      "primary_data_fields": [
+        "account"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The account used for this financial report bears the numeric code [ACCOUNT], signifying its distinct classification in the system.",
+        "Identified by numeric code [ACCOUNT], the account for this financial report holds a unique classification within the system.",
+        "Within the system, the account associated with this financial report is marked by the numeric code [ACCOUNT], reflecting its unique classification.",
+        "This financial report’s account is tagged with numeric code [ACCOUNT], indicating its exclusive classification in the system.",
+        "Carrying the numeric code [ACCOUNT], the account designated for the financial report demonstrates a unique classification within the system.",
+        "The numeric code [ACCOUNT] identifies the account assigned to this financial report, highlighting its singular classification in the system.",
+        "For this financial report, the account is recognized by numeric code [ACCOUNT], which denotes its unique classification throughout the system.",
+        "In the system, the account linked to this financial report is distinguished by the numeric code [ACCOUNT], reflecting its unique classification.",
+        "The account, earmarked for this financial report, carries numeric code [ACCOUNT] and thus possesses a unique classification within the system.",
+        "With numeric code [ACCOUNT], the account for this financial report is classified uniquely in the system.",
+        "This financial report references an account that is identified by numeric code [ACCOUNT], underscoring its unique classification inside the system.",
+        "The account—identified by numeric code [ACCOUNT]—for this financial report showcases its unique classification within the system.",
+        "Numeric code [ACCOUNT] marks the account designated for this financial report, signifying its exclusive classification in the system.",
+        "By bearing numeric code [ACCOUNT], the account attached to this financial report reflects a unique classification within the system.",
+        "The system assigns the numeric code [ACCOUNT] to the account used in this financial report, indicating its unique classification."
+      ],
+      "counter_variations": [
+        "The financial account linked to the customer possesses a unique identifier of NULL.",
+        "A unique identifier of NULL is assigned to the financial account that belongs to the customer.",
+        "For the customer's financial account, the unique identifier is recorded as NULL.",
+        "The customer's financial account carries the unique identifier NULL.",
+        "In the report, the financial account associated with the customer is shown with a unique identifier of NULL.",
+        "The unique identifier NULL appears on the financial account tied to this customer.",
+        "The financial account, which is tied to the customer, has its unique identifier set to NULL.",
+        "The financial account associated with the customer has a unique identifier of NULL.",
+        "According to the financial data, the account for this customer bears the unique identifier NULL.",
+        "The customer's financial account is identified by the unique code NULL.",
+        "A unique code of NULL designates the financial account belonging to the customer.",
+        "The financial account of the customer, as listed, contains a unique identifier of NULL.",
+        "Within the data set, the customer's financial account registers a unique identifier of NULL.",
+        "The unique identifier assigned to the customer's financial account reads NULL.",
+        "The financial account, associated with the customer, reports its unique identifier as NULL."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "associated": [
+          "associated"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unequaled",
+          "unparalleled",
+          "singular"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ]
+      },
+      "field_data_types": {
+        "account": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Team members proposed new methods for data verification and validation.",
+      "template_pattern": "Team members proposed new methods for data verification and validation.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team members suggested fresh approaches to verify and validate data.",
+        "New techniques for data verification and validation were put forward by the team members.",
+        "In the financial report, the staff put forward novel methods for checking and confirming data.",
+        "Team members put forth innovative procedures for data verification and validation.",
+        "Innovative data verification and validation methods were proposed by the team members.",
+        "The group introduced new ways to verify and validate the data.",
+        "Proposals for new data verification and validation methods came from the team members.",
+        "Team members have recommended novel strategies for validating and verifying data.",
+        "New methods for data verification and validation were suggested by the team members.",
+        "The team put forward fresh methods to both verify and validate the data.",
+        "Fresh approaches to data verification and validation were presented by the team members.",
+        "Team members advocated for new verification and validation techniques for the data.",
+        "In the financial data report, the team proposed new methods to verify and validate information.",
+        "The staff proposed novel methods for verifying and validating data.",
+        "New verification and validation methods for the data were proposed by team members."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "validation": [
+          "validation",
+          "substantiation",
+          "proof"
+        ],
+        "methods": [
+          "methods"
+        ],
+        "verification": [
+          "verification",
+          "confirmation",
+          "substantiation",
+          "check"
+        ],
+        "proposed": [
+          "proposed"
+        ],
+        "members": [
+          "members"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "data": [
+          "data",
+          "information"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "As the meeting concluded, participants felt optimistic about the proposed changes.",
+      "template_pattern": "As the meeting concluded, participants felt optimistic about the proposed changes.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "When the meeting ended, the attendees were hopeful regarding the suggested revisions.",
+        "The proposed changes left participants feeling optimistic as the session drew to a close.",
+        "Optimism about the suggested modifications filled the participants once the meeting wrapped up.",
+        "As the session concluded, optimism about the proposed changes was felt by the participants.",
+        "The meeting's conclusion saw participants expressing confidence in the planned alterations.",
+        "Participants left the meeting feeling upbeat about the intended changes.",
+        "With the meeting finished, the group remained positive about the proposed adjustments.",
+        "The end of the meeting brought a sense of optimism among participants toward the suggested changes.",
+        "After the gathering wrapped up, the attendees were sanguine about the upcoming changes.",
+        "The participants, after the meeting's close, were optimistic about the proposed reforms.",
+        "Concluding the meeting, participants expressed a hopeful outlook on the proposed changes.",
+        "As the conference wound down, the participants felt an optimistic stance toward the suggested changes.",
+        "The proposed changes inspired optimism in the participants as the meeting came to an end.",
+        "When the meeting was over, the attendees held an optimistic view of the planned changes.",
+        "Optimistic feelings about the proposed changes were evident among participants at the close of the meeting."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "concluded": [
+          "concluded",
+          "ended",
+          "terminated"
+        ],
+        "participants": [
+          "participants"
+        ],
+        "meeting": [
+          "meeting"
+        ],
+        "changes": [
+          "changes"
+        ],
+        "proposed": [
+          "proposed"
+        ],
+        "optimistic": [
+          "optimistic",
+          "affirmative"
+        ],
+        "about": [
+          "about",
+          "around",
+          "roughly",
+          "virtually",
+          "near",
+          "approximately"
+        ],
+        "felt": [
+          "felt"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The focus on improving transaction management continued into the afternoon session.",
+      "template_pattern": "The focus on improving transaction management continued into the afternoon session.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The emphasis on enhancing transaction management carried on through the afternoon session.",
+        "Throughout the afternoon session, the team kept its focus on bettering transaction management.",
+        "Improving transaction management remained the focal point as the afternoon session progressed.",
+        "The afternoon session saw a continued concentration on refining transaction management.",
+        "Transaction management improvement was still the priority during the afternoon session.",
+        "A sustained focus on upgrading transaction management persisted into the afternoon session.",
+        "The focus on improving transaction management was maintained into the afternoon session.",
+        "Into the afternoon session, attention to better transaction management continued unabated.",
+        "The afternoon session continued to prioritize the enhancement of transaction management.",
+        "Improving transaction management stayed at the forefront throughout the afternoon session.",
+        "The concentration on advancing transaction management was carried forward into the afternoon session.",
+        "During the afternoon session, emphasis on improving transaction management persisted.",
+        "The drive to improve transaction management extended into the afternoon session.",
+        "The afternoon period kept its focus on refining transaction management.",
+        "Transaction management improvement remained a central focus as the afternoon session unfolded."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "management": [
+          "management",
+          "direction"
+        ],
+        "session": [
+          "session",
+          "sitting"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "into": [
+          "into"
+        ],
+        "improving": [
+          "improving"
+        ],
+        "focus": [
+          "focus",
+          "center",
+          "centre",
+          "stress"
+        ],
+        "afternoon": [
+          "afternoon"
+        ],
+        "continued": [
+          "continued"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Thoughts turned to how new technologies might aid in financial record-keeping.",
+      "template_pattern": "Thoughts turned to how new technologies might aid in financial record-keeping.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The mind drifted toward considering how emerging tech could assist in accounting records.",
+        "We began pondering the ways cutting‑edge technology may support financial bookkeeping.",
+        "Consideration shifted to the potential of new technologies to improve financial record‑keeping.",
+        "Attention was redirected toward how novel tech might enhance the management of financial data.",
+        "One's thoughts moved to the role that recent technological advances could play in bookkeeping.",
+        "The focus turned to exploring how modern tech can aid in maintaining financial records.",
+        "It was contemplated whether innovative technologies would help streamline financial record‑keeping.",
+        "Reflecting on the issue, we asked how fresh tech solutions might benefit accounting archives.",
+        "The discussion pivoted to the capacity of new technology to assist in financial documentation.",
+        "How newly developed technologies could bolster financial record‑keeping entered our thoughts.",
+        "A consideration arose about the usefulness of up‑to‑date tech for keeping financial records.",
+        "The conversation shifted toward the possibility that advanced tech would aid financial bookkeeping.",
+        "Thoughts gravitated toward the impact that recent tech innovations may have on record‑keeping.",
+        "It was thought that cutting‑edge technology might improve the handling of financial records.",
+        "The team contemplated the benefits that emerging technology could bring to financial record‑keeping."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "might": [
+          "might",
+          "power"
+        ],
+        "keeping": [
+          "keeping",
+          "holding"
+        ],
+        "technologies": [
+          "technologies"
+        ],
+        "turned": [
+          "turned"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "record": [
+          "record",
+          "register",
+          "book",
+          "enter"
+        ],
+        "thoughts": [
+          "thoughts"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Some attendees suggested implementing machine learning algorithms.",
+      "template_pattern": "Some attendees suggested implementing machine learning algorithms.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Several participants recommended adopting machine‑learning algorithms.",
+        "A few attendees proposed that machine learning algorithms be implemented.",
+        "Machine learning algorithms were suggested for implementation by some attendees.",
+        "Some of the audience put forward the idea of deploying machine learning algorithms.",
+        "Certain attendees advocated implementing machine‑learning algorithms.",
+        "It was suggested by some attendees to implement machine learning algorithms.",
+        "A subset of participants urged the use of machine‑learning algorithms.",
+        "Several members of the meeting recommended implementing machine learning algorithms.",
+        "Implementing machine learning algorithms was proposed by a number of attendees.",
+        "Some conference goers suggested the deployment of machine learning algorithms.",
+        "The suggestion to implement machine‑learning algorithms came from some attendees.",
+        "Certain participants called for the implementation of machine learning algorithms.",
+        "A group of attendees put forward implementing machine‑learning algorithms.",
+        "There were suggestions from some attendees to implement machine learning algorithms.",
+        "Some attendees voiced the recommendation to implement machine learning algorithms."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "attendees": [
+          "attendees"
+        ],
+        "algorithms": [
+          "algorithms"
+        ],
+        "implementing": [
+          "implementing"
+        ],
+        "some": [
+          "some"
+        ],
+        "machine": [
+          "machine"
+        ],
+        "learning": [
+          "learning",
+          "study"
+        ],
+        "suggested": [
+          "suggested"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Others debated the merits of traditional methods versus modern advancements.",
+      "template_pattern": "Others debated the merits of traditional methods versus modern advancements.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Some analysts weighed the benefits of conventional approaches against contemporary innovations.",
+        "The merits of classic techniques versus newer developments were debated by others.",
+        "Others compared the value of traditional methods with modern advances in a discussion.",
+        "In the report, other participants argued over the strengths of old‑school methods versus current advancements.",
+        "A debate arose among others concerning the advantages of time‑tested practices versus cutting‑edge progress.",
+        "Others engaged in a discussion on whether traditional methods or modern advancements offered greater merit.",
+        "The comparison of traditional methods to modern advancements sparked debate among other stakeholders.",
+        "Other parties contested the relative merits of established techniques versus recent innovations.",
+        "There was a contest of opinions among others about the merits of conventional methods versus modern advancements.",
+        "Others examined the pros of traditional approaches versus those of modern developments.",
+        "The merits of traditional methods versus modern advancements were the subject of debate among others.",
+        "While reviewing data, others debated whether classic methods or modern advancements were more beneficial.",
+        "Other contributors argued the case for traditional methods against that for modern advancements.",
+        "The discussion among others centered on the relative value of traditional versus modern techniques.",
+        "Others deliberated on the strengths of established practices compared with modern advancements."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "methods": [
+          "methods"
+        ],
+        "debated": [
+          "debated"
+        ],
+        "others": [
+          "others"
+        ],
+        "advancements": [
+          "advancements"
+        ],
+        "versus": [
+          "versus"
+        ],
+        "modern": [
+          "modern",
+          "new",
+          "advanced"
+        ],
+        "merits": [
+          "merits"
+        ],
+        "traditional": [
+          "traditional"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The discussion moved towards potential policy changes.",
+      "template_pattern": "The discussion moved towards potential policy changes.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The conversation shifted to possible policy revisions.",
+        "Potential policy changes became the focus of the discussion.",
+        "The dialogue turned toward envisaged policy modifications.",
+        "Discussion points gravitated toward prospective policy adjustments.",
+        "Attention in the discussion moved onto likely policy reforms.",
+        "The talk veered into considerations of upcoming policy shifts.",
+        "Potential policy alterations were brought into the discussion.",
+        "The meeting's discourse began to address possible policy changes.",
+        "A pivot toward potential policy amendments was evident in the discussion.",
+        "The discussion increasingly centered on prospective policy updates.",
+        "Policy change prospects started to dominate the conversation.",
+        "The dialogue was directed toward potential revisions of policy.",
+        "Potential policy reforms entered the scope of the discussion.",
+        "The discussion redirected its focus toward likely policy changes.",
+        "Consideration of possible policy modifications was introduced into the discussion."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "towards": [
+          "towards"
+        ],
+        "policy": [
+          "policy"
+        ],
+        "potential": [
+          "potential",
+          "potentiality",
+          "possible"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse",
+          "treatment"
+        ],
+        "changes": [
+          "changes"
+        ],
+        "moved": [
+          "moved",
+          "stirred",
+          "touched",
+          "affected"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Considerations were made for the impact on customer experience.",
+      "template_pattern": "Considerations were made for the impact on customer experience.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The impact on customer experience was taken into account.",
+        "We factored in how it would affect the customer experience.",
+        "Considerations regarding the effect on customer experience were incorporated.",
+        "The potential influence on customer experience was considered.",
+        "In assessing the impact on customer experience, appropriate considerations were applied.",
+        "Attention was given to the impact on the customer experience.",
+        "The team evaluated the consequences for customer experience.",
+        "Taking the customer experience impact into consideration, we proceeded.",
+        "Deliberations were made concerning the effect on customer experience.",
+        "The effect on customer experience prompted careful consideration.",
+        "We weighed the implications for the customer experience.",
+        "Accounting for the impact on customer experience, considerations were made.",
+        "The analysis included the impact on customer experience.",
+        "Customer experience impact was one of the factors we considered.",
+        "Consideration was given to how it would affect the customer experience."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "made": [
+          "made",
+          "produce",
+          "earn",
+          "attain",
+          "gain",
+          "create"
+        ],
+        "impact": [
+          "impact",
+          "affect",
+          "impingement"
+        ],
+        "experience": [
+          "experience",
+          "receive"
+        ],
+        "considerations": [
+          "considerations"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "By the end of the day, a consensus was reached on several key issues.",
+      "template_pattern": "By the end of the day, a consensus was reached on several key issues.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "By day's close, the team had settled on a consensus regarding several pivotal issues.",
+        "At the end of the trading day, an agreement was finally reached on a number of critical points.",
+        "When the day concluded, participants arrived at a unified stance on multiple key matters.",
+        "The day's end saw a consensus form concerning several important issues.",
+        "By the close of business, several core issues had been agreed upon by all parties.",
+        "By sundown, the group secured a consensus on a handful of essential topics.",
+        "At the close of the day, a collective agreement emerged on several major issues.",
+        "When the day wrapped up, the parties reached a common understanding on key concerns.",
+        "By the time the day was over, consensus had been achieved on a series of key items.",
+        "As the day ended, stakeholders aligned on several crucial issues.",
+        "The final hours of the day produced a consensus on multiple significant points.",
+        "By the day's end, an accord was established concerning several pivotal matters.",
+        "When the day finished, the team converged on a consensus about several core issues.",
+        "At day's end, a shared resolution was reached on a number of key topics.",
+        "By the end of the business day, consensus was attained on several essential issues."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reached": [
+          "reached",
+          "achieved",
+          "attained",
+          "gained",
+          "accomplished"
+        ],
+        "issues": [
+          "issues",
+          "topics",
+          "matters",
+          "subjects"
+        ],
+        "several": [
+          "several",
+          "various"
+        ],
+        "consensus": [
+          "consensus"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The team agreed to pilot new procedures in the coming quarter.",
+      "template_pattern": "The team agreed to pilot new procedures in the coming quarter.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team consented to trial the new procedures during the upcoming quarter.",
+        "In the next quarter, the team will pilot the new procedures they have agreed upon.",
+        "New procedures are set to be piloted by the team in the coming quarter.",
+        "Having agreed, the team plans to test the new procedures in the forthcoming quarter.",
+        "The upcoming quarter will see the team implement a pilot of the new procedures.",
+        "Agreement was reached for the team to pilot the new procedures in the next quarter.",
+        "The team has decided to launch a pilot of the new procedures in the approaching quarter.",
+        "Accordingly, the team will trial the new procedures in the coming quarter.",
+        "The new procedures will be piloted by the team during the forthcoming quarter, as agreed.",
+        "With consensus, the team will experiment with the new procedures in the next quarter.",
+        "In the coming quarter, a pilot of the new procedures will be undertaken by the team.",
+        "The team agreed, and will therefore pilot the new procedures in the upcoming quarter.",
+        "During the next quarter, the team is set to test the newly introduced procedures.",
+        "The decision to pilot the new procedures in the coming quarter was approved by the team.",
+        "As the next quarter approaches, the team will commence a pilot of the new procedures."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "quarter": [
+          "quarter",
+          "fourth"
+        ],
+        "procedures": [
+          "procedures"
+        ],
+        "coming": [
+          "coming",
+          "upcoming",
+          "forthcoming",
+          "approaching",
+          "advent"
+        ],
+        "agreed": [
+          "agreed"
+        ],
+        "pilot": [
+          "pilot"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "With renewed enthusiasm, they prepared for the challenges ahead.",
+      "template_pattern": "With renewed enthusiasm, they prepared for the challenges ahead.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Energized by fresh optimism, they readied themselves for the forthcoming challenges.",
+        "The team, now invigorated, set about preparing for the obstacles that lie ahead.",
+        "With a revived zeal, preparations were undertaken by them for the challenges ahead.",
+        "They approached the upcoming challenges with renewed vigor, preparing diligently.",
+        "Renewed enthusiasm spurred them to gear up for the pending challenges.",
+        "Prepared for the future hurdles, they moved forward with a revitalized spirit.",
+        "The upcoming challenges were met with their freshly renewed enthusiasm and careful preparation.",
+        "Fuelled by a new burst of enthusiasm, they began to ready themselves for the challenges ahead.",
+        "Their preparation for the impending challenges was driven by a renewed sense of enthusiasm.",
+        "Armed with renewed zeal, they organized their approach to the challenges ahead.",
+        "The challenges ahead prompted them, with restored enthusiasm, to prepare thoroughly.",
+        "Having regained enthusiasm, they set the stage for tackling the forthcoming challenges.",
+        "They readied for the challenges ahead, their enthusiasm renewed and palpable.",
+        "A resurgence of enthusiasm led them to prepare for the upcoming challenges.",
+        "Their preparation for the challenges ahead was underpinned by a fresh wave of enthusiasm."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "challenges": [
+          "challenges"
+        ],
+        "renewed": [
+          "renewed"
+        ],
+        "prepared": [
+          "prepared",
+          "ready",
+          "set"
+        ],
+        "enthusiasm": [
+          "enthusiasm",
+          "exuberance"
+        ],
+        "ahead": [
+          "ahead",
+          "forward",
+          "forwards",
+          "onward",
+          "onwards"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The financial report indicates that the trans id is 1, signifying the initial transaction within the current accounting period.",
+      "template_pattern": "The transaction was successfully recorded under the trans id [TRANS_ID], confirming its inclusion in the financial report.",
+      "primary_data_fields": [
+        "trans_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "We have logged the transaction under the trans id [TRANS_ID] and verified its presence in the financial report.",
+        "The financial report now includes the transaction, which was recorded under the trans id [TRANS_ID] without issue.",
+        "Under the trans id [TRANS_ID], the transaction was entered successfully, confirming its appearance in the financial report.",
+        "A successful entry of the transaction under the trans id [TRANS_ID] confirms its inclusion in the financial report.",
+        "Recording the transaction under the trans id [TRANS_ID] was successful, and it is now reflected in the financial report.",
+        "The transaction, recorded under the trans id [TRANS_ID], has been confirmed as part of the financial report.",
+        "In the financial report, the transaction appears because it was recorded under the trans id [TRANS_ID] with success.",
+        "Successfully, the transaction was captured under the trans id [TRANS_ID], confirming its addition to the financial report.",
+        "The system logged the transaction under the trans id [TRANS_ID], thereby confirming its inclusion in the financial report.",
+        "Having been recorded under the trans id [TRANS_ID], the transaction is now confirmed in the financial report.",
+        "The trans id [TRANS_ID] now holds a successfully recorded transaction, which is included in the financial report.",
+        "We confirm that the transaction, entered under the trans id [TRANS_ID], is part of the financial report.",
+        "By recording the transaction under the trans id [TRANS_ID], we have ensured its presence in the financial report.",
+        "The transaction’s successful recording under the trans id [TRANS_ID] validates its inclusion in the financial report.",
+        "Under the trans id [TRANS_ID] the transaction was logged, confirming that it appears in the financial report."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "under": [
+          "under",
+          "below"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "confirming": [
+          "confirming",
+          "verifying",
+          "substantiating",
+          "validating"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "trans": [
+          "trans"
+        ],
+        "inclusion": [
+          "inclusion"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "f49a8a63dae24947": "Id",
+    "76716e90680a4e4d": "TagName",
+    "9916db92dd02468c": "Count",
+    "25a2e0a0a93e47fa": "ExcerptPostId",
+    "a5f340c96a444402": "WikiPostId"
+  },
+  "templates": [
+    {
+      "original": "The tag labeled with the number 1 is often used to categorize beginner-friendly programming discussions.",
+      "template_pattern": "The tag labeled with the number [ID] is often used to categorize beginner-friendly programming discussions.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The tag marked as number [ID] frequently serves to classify beginner‑friendly programming discussions.",
+        "Often, the tag bearing the number [ID] is employed to sort beginner‑friendly programming discussions.",
+        "Beginner‑friendly programming discussions are commonly categorized using the tag labeled number [ID].",
+        "To group beginner‑friendly programming discussions, the tag with the number [ID] is regularly utilized.",
+        "The tag that carries the number [ID] is often applied for categorizing beginner‑friendly programming discussions.",
+        "In most cases, the tag identified by the number [ID] helps categorize beginner‑friendly programming discussions.",
+        "Categorization of beginner‑friendly programming discussions often relies on the tag with number [ID].",
+        "The tag with number [ID] is commonly used to organize beginner‑friendly programming discussions.",
+        "For sorting beginner‑friendly programming discussions, the tag labeled number [ID] is typically used.",
+        "Beginner‑friendly programming discussions are usually placed under the tag that shows the number [ID].",
+        "The tag, which shows the number [ID], is habitually used to group beginner‑friendly programming discussions.",
+        "Frequently, the tag with the number [ID] functions as a label for beginner‑friendly programming discussions.",
+        "To label beginner‑friendly programming discussions, the tag bearing the number [ID] is often chosen.",
+        "The tag bearing the number [ID] commonly categorizes beginner‑friendly programming discussions.",
+        "Using the tag marked number [ID], one often categorizes beginner‑friendly programming discussions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "friendly": [
+          "friendly",
+          "favorable"
+        ],
+        "categorize": [
+          "categorize",
+          "classify",
+          "group",
+          "sort",
+          "organize",
+          "arrange"
+        ],
+        "labeled": [
+          "labeled",
+          "label",
+          "labelled",
+          "tag",
+          "tagged",
+          "mark"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "discussions": [
+          "discussions"
+        ],
+        "used": [
+          "used",
+          "utilized",
+          "employed",
+          "applied"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "beginner": [
+          "beginner",
+          "novice",
+          "tyro",
+          "initiate"
+        ]
+      },
+      "field_data_types": {
+        "Id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On the programming community platform, the TagName \"bayesian\" helps users find discussions related to Bayesian statistical methods easily.",
+      "template_pattern": "On the programming community platform, the TagName [TAGNAME] helps users find discussions related to Bayesian statistical methods easily.",
+      "primary_data_fields": [
+        "TagName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On the programming community platform, the TagName [TAGNAME] enables users to locate discussions about [TAGNAME] statistical methods with ease.",
+        "Users can easily discover discussions on [TAGNAME] statistical methods on the programming community platform thanks to the TagName [TAGNAME].",
+        "The TagName [TAGNAME] on the programming community platform assists users in quickly finding discussions related to [TAGNAME] statistical methods.",
+        "With the TagName [TAGNAME], the programming community platform allows users to effortlessly find discussions concerning [TAGNAME] statistical methods.",
+        "Discussions pertaining to [TAGNAME] statistical methods are readily found by users on the programming community platform via the TagName [TAGNAME].",
+        "By using the TagName [TAGNAME], users on the programming community platform are able to easily locate discussions about [TAGNAME] statistical methods.",
+        "On the programming community platform, the TagName [TAGNAME] is used to help users easily uncover discussions that involve [TAGNAME] statistical methods.",
+        "The programming community platform’s TagName [TAGNAME] aids users in swiftly finding discussions linked to [TAGNAME] statistical methods.",
+        "Users seeking discussions on [TAGNAME] statistical methods can easily do so on the programming community platform through the TagName [TAGNAME].",
+        "Through the TagName [TAGNAME], the programming community platform simplifies the process for users to find discussions related to [TAGNAME] statistical methods.",
+        "The TagName [TAGNAME] provides a straightforward way for users on the programming community platform to find discussions about [TAGNAME] statistical methods.",
+        "On the programming community platform, discussions about [TAGNAME] statistical methods become easily searchable for users thanks to the TagName [TAGNAME].",
+        "Thanks to the TagName [TAGNAME], users on the programming community platform can quickly access discussions concerning [TAGNAME] statistical methods.",
+        "The programming community platform leverages the TagName [TAGNAME] to make it easy for users to locate discussions on [TAGNAME] statistical methods.",
+        "With the help of the TagName [TAGNAME], users on the programming community platform find discussions related to [TAGNAME] statistical methods without difficulty."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "easily": [
+          "easily"
+        ],
+        "statistical": [
+          "statistical"
+        ],
+        "community": [
+          "community"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "users": [
+          "users"
+        ],
+        "helps": [
+          "helps",
+          "aid",
+          "assist",
+          "facilitate",
+          "serve"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "discussions": [
+          "discussions"
+        ]
+      },
+      "field_data_types": {
+        "TagName": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The topic tag has been included in 1342 posts, highlighting its significant popularity within the programming community platform.",
+      "template_pattern": "The topic tag has been included in [COUNT] posts, highlighting its significant popularity within the programming community platform.",
+      "primary_data_fields": [
+        "Count"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The topic tag appears in [COUNT] posts, underscoring its strong popularity on the programming community platform.",
+        "In [COUNT] posts, the topic tag has been used, which highlights its considerable popularity within the programming community platform.",
+        "With [COUNT] posts featuring the topic tag, its notable popularity across the programming community platform becomes evident.",
+        "A total of [COUNT] posts include the topic tag, reflecting its significant appeal on the programming community platform.",
+        "The programming community platform shows the topic tag in [COUNT] posts, pointing to its high level of popularity.",
+        "Having been added to [COUNT] posts, the topic tag demonstrates substantial popularity throughout the programming community platform.",
+        "Across the programming community platform, [COUNT] posts contain the topic tag, indicating its pronounced popularity.",
+        "The presence of the topic tag in [COUNT] posts highlights its remarkable popularity within the programming community platform.",
+        "Because the topic tag is found in [COUNT] posts, its considerable popularity on the programming community platform is emphasized.",
+        "The topic tag, featured in [COUNT] posts, signals its strong popularity across the programming community platform.",
+        "Within the programming community platform, [COUNT] posts incorporate the topic tag, showcasing its notable popularity.",
+        "By appearing in [COUNT] posts, the topic tag signals a high degree of popularity on the programming community platform.",
+        "The topic tag’s inclusion in [COUNT] posts serves as evidence of its significant popularity within the programming community platform.",
+        "On the programming community platform, the topic tag has been included in [COUNT] posts, illustrating its widespread popularity.",
+        "Seeing the topic tag in [COUNT] posts underscores its considerable popularity throughout the programming community platform."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "within": [
+          "within",
+          "inside"
+        ],
+        "community": [
+          "community"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "included": [
+          "included"
+        ],
+        "topic": [
+          "topic",
+          "subject",
+          "theme"
+        ],
+        "posts": [
+          "posts"
+        ],
+        "popularity": [
+          "popularity"
+        ],
+        "programming": [
+          "programming"
+        ]
+      },
+      "field_data_types": {
+        "Count": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The ExcerptPostId 20258 has been assigned to the latest user-generated summary on the platform.",
+      "template_pattern": "The ExcerptPostId [EXCERPTPOSTID] has been assigned to the latest user-generated summary on the platform.",
+      "primary_data_fields": [
+        "ExcerptPostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The platform has linked ExcerptPostId [EXCERPTPOSTID] with its newest user‑generated summary.",
+        "ExcerptPostId [EXCERPTPOSTID] was attached to the most recent user‑created summary on the platform.",
+        "On the platform, the latest user‑generated summary now includes ExcerptPostId [EXCERPTPOSTID].",
+        "Assignment of ExcerptPostId [EXCERPTPOSTID] to the newest user‑generated summary on the platform is complete.",
+        "The newest user‑generated summary on the platform receives ExcerptPostId [EXCERPTPOSTID].",
+        "ExcerptPostId [EXCERPTPOSTID] has been tied to the latest user‑generated summary available on the platform.",
+        "The platform’s most recent user‑generated summary is now associated with ExcerptPostId [EXCERPTPOSTID].",
+        "As of now, ExcerptPostId [EXCERPTPOSTID] is assigned to the latest user‑generated summary on the platform.",
+        "The latest user‑generated summary on the platform was given ExcerptPostId [EXCERPTPOSTID].",
+        "ExcerptPostId [EXCERPTPOSTID], linked to the platform’s newest user‑generated summary, reflects the latest assignment.",
+        "By assigning ExcerptPostId [EXCERPTPOSTID], the platform connects it to its latest user‑generated summary.",
+        "The platform connects ExcerptPostId [EXCERPTPOSTID] to the most recent user‑generated summary.",
+        "ExcerptPostId [EXCERPTPOSTID] now belongs to the latest user‑generated summary on the platform.",
+        "The recent user‑generated summary on the platform has been mapped to ExcerptPostId [EXCERPTPOSTID].",
+        "With ExcerptPostId [EXCERPTPOSTID], the platform designates the newest user‑generated summary."
+      ],
+      "counter_variations": [
+        "Because the Excerpt Post Id registers as null, the system infers that this technology data report entry lacks an attached excerpt reference.",
+        "The technology data report entry shows a null Excerpt Post Id, which signals that no excerpt reference has been linked.",
+        "A null value for the Excerpt Post Id denotes that this entry in the technology data report does not have an associated excerpt reference.",
+        "Observing that the Excerpt Post Id is null, one can conclude that the technology data report entry contains no excerpt reference attachment.",
+        "In this technology data report entry, the Excerpt Post Id appears as null, indicating the absence of any attached excerpt reference.",
+        "The presence of null in the Excerpt Post Id field reveals that the technology data report entry has not been furnished with an excerpt reference.",
+        "When the Excerpt Post Id returns null, it conveys that the corresponding technology data report entry lacks an excerpt reference attachment.",
+        "Null is the current state of the Excerpt Post Id, thereby implying that the technology data report entry does not carry an excerpt reference.",
+        "Since the Excerpt Post Id is recorded as null, the technology data report entry is understood to have no excerpt reference attached.",
+        "The Excerpt Post Id being null serves as an indicator that this technology data report entry has no excerpt reference linked to it.",
+        "A technology data report entry with a null Excerpt Post Id signals that no excerpt reference has been affixed.",
+        "The fact that the Excerpt Post Id equals null communicates that the technology data report entry lacks an attached excerpt reference.",
+        "With the Excerpt Post Id set to null, the system interprets the technology data report entry as missing an excerpt reference attachment.",
+        "The null status of the Excerpt Post Id conveys that the technology data report entry does not contain any excerpt reference.",
+        "Given that the Excerpt Post Id is null, it follows that this technology data report entry has not been associated with an excerpt reference."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "generated": [
+          "generated"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "user": [
+          "user"
+        ],
+        "summary": [
+          "summary",
+          "compact",
+          "succinct"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "latest": [
+          "latest",
+          "recent"
+        ]
+      },
+      "field_data_types": {
+        "ExcerptPostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The WikiPostId 20257 is crucial for users looking to access specific collaborative content on the programming community platform.",
+      "template_pattern": "The WikiPostId [WIKIPOSTID] is crucial for users looking to access specific collaborative content on the programming community platform.",
+      "primary_data_fields": [
+        "WikiPostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For users seeking particular collaborative material on the programming community platform, WikiPostId [WIKIPOSTID] is essential.",
+        "Accessing the targeted collaborative content on the programming community platform hinges on WikiPostId [WIKIPOSTID].",
+        "The programming community platform’s specific collaborative content can only be reached through WikiPostId [WIKIPOSTID], a vital reference for users.",
+        "If you want to retrieve particular collaborative posts on the programming community platform, you must rely on WikiPostId [WIKIPOSTID].",
+        "WikiPostId [WIKIPOSTID] serves as a key identifier for users aiming to locate specific collaborative content within the programming community platform.",
+        "Specific collaborative material on the programming community platform is made accessible to users via the crucial WikiPostId [WIKIPOSTID].",
+        "Users looking for designated collaborative content on the programming community platform find WikiPostId [WIKIPOSTID] indispensable.",
+        "The essential WikiPostId [WIKIPOSTID] enables users to pinpoint exact collaborative content on the programming community platform.",
+        "To obtain particular collaborative content on the programming community platform, users depend on the crucial WikiPostId [WIKIPOSTID].",
+        "On the programming community platform, the ability to access specific collaborative material rests on WikiPostId [WIKIPOSTID], which is vital for users.",
+        "For those searching the programming community platform for specific collaborative posts, WikiPostId [WIKIPOSTID] is a must‑have reference.",
+        "The programming community platform’s specific collaborative content is reachable only through the indispensable WikiPostId [WIKIPOSTID].",
+        "Users who need to locate particular collaborative content on the programming community platform should use WikiPostId [WIKIPOSTID].",
+        "Access to targeted collaborative material on the programming community platform is granted by the crucial WikiPostId [WIKIPOSTID].",
+        "By employing WikiPostId [WIKIPOSTID], users can efficiently access the exact collaborative content they need on the programming community platform."
+      ],
+      "counter_variations": [
+        "Within the technology data report, the Wiki Post Id is presently assigned the value null, signifying that no particular collaborative entry is being referenced.",
+        "The technology data report reveals that the Wiki Post Id, now set to null, conveys the absence of any specific collaborative entry at this moment.",
+        "Because the Wiki Post Id is currently null, the technology data report indicates that no distinct collaborative entry is being pointed to.",
+        "In the context of the technology data report, a null setting for the Wiki Post Id denotes that no dedicated collaborative entry is referenced.",
+        "The technology data report documents that the Wiki Post Id, being null, implies the lack of a specific collaborative entry in the current view.",
+        "When the Wiki Post Id holds the value null, the technology data report interprets this as an indication that no particular collaborative entry is cited.",
+        "A null assignment to the Wiki Post Id within the technology data report signals that there is no specific collaborative entry presently linked.",
+        "Given that the Wiki Post Id is null, the technology data report effectively communicates that no distinct collaborative entry is referenced.",
+        "The technology data report, noting a null Wiki Post Id, conveys that no specific collaborative entry is currently being referenced.",
+        "Since the Wiki Post Id is null, the technology data report asserts that no particular collaborative entry is being addressed.",
+        "The presence of null in the Wiki Post Id field of the technology data report denotes that no specific collaborative entry is referenced at this time.",
+        "In the technology data report, a null Wiki Post Id indicates that the system does not presently reference any specific collaborative entry.",
+        "Because the Wiki Post Id reads null, the technology data report reflects that no distinct collaborative entry is being cited.",
+        "The technology data report, with the Wiki Post Id configured as null, signifies that no particular collaborative entry is currently referenced.",
+        "When the Wiki Post Id appears as null in the technology data report, it conveys that no specific collaborative entry is being referenced."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "looking": [
+          "looking"
+        ],
+        "community": [
+          "community"
+        ],
+        "content": [
+          "content",
+          "subject",
+          "substance"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "access": [
+          "access",
+          "admittance"
+        ],
+        "users": [
+          "users"
+        ]
+      },
+      "field_data_types": {
+        "WikiPostId": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

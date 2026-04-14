@@ -1,0 +1,1747 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "819355a93a924a8d": "member_id",
+    "242e679221f747f4": "first_name",
+    "7e99d08728124519": "last_name",
+    "2f6ed9f77725458b": "email",
+    "3170a9a38980471e": "position",
+    "b524efb7ffad4709": "t_shirt_size",
+    "c03ceec0538f434b": "phone",
+    "f8eb861c242e49c2": "zip",
+    "8b45f36138e24ba9": "link_to_major"
+  },
+  "templates": [
+    {
+      "original": "The member_id rec1x5zBFIqoOuPW8 is assigned to a student in the club for tracking their membership records.",
+      "template_pattern": "The member_id [MEMBER_ID] is assigned to a student in the club for tracking their membership records.",
+      "primary_data_fields": [
+        "member_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The club assigns member id [MEMBER_ID] to a student for tracking their membership records.",
+        "Member id [MEMBER_ID] is attached to a student in the club to monitor their membership records.",
+        "A student in the club receives member id [MEMBER_ID] for the purpose of tracking membership records.",
+        "For tracking membership records, the club links member id [MEMBER_ID] with a student.",
+        "The student’s membership records are tracked using member id [MEMBER_ID] in the club.",
+        "In the club, a student is designated member id [MEMBER_ID] to keep tabs on their membership records.",
+        "Member id [MEMBER_ID] has been assigned to a student within the club to facilitate membership record tracking.",
+        "To monitor membership records, the club assigns member id [MEMBER_ID] to a student.",
+        "A student is given member id [MEMBER_ID] by the club for the purpose of tracking their membership records.",
+        "The club uses member id [MEMBER_ID] to associate a student with their membership records.",
+        "Through member id [MEMBER_ID], a student in the club can have their membership records tracked.",
+        "For the sake of tracking membership records, member id [MEMBER_ID] is allocated to a student in the club.",
+        "The club’s student is paired with member id [MEMBER_ID] to manage their membership records.",
+        "Member id [MEMBER_ID] serves as the identifier for a student in the club, enabling membership record tracking.",
+        "By assigning member id [MEMBER_ID] to a student, the club can track their membership records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "membership": [
+          "membership"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "records": [
+          "records"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "tracking": [
+          "tracking"
+        ],
+        "their": [
+          "their"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild"
+        ]
+      },
+      "field_data_types": {
+        "member_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Meanwhile, a sense of excitement fills the air as new members join and contribute their unique perspectives.",
+      "template_pattern": "Meanwhile, a sense of excitement fills the air as new members join and contribute their unique perspectives.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A buzz of anticipation spreads through the room as fresh participants arrive and share their distinct viewpoints.",
+        "Excitement permeates the atmosphere while newcomers come aboard, offering their individual insights.",
+        "The air is charged with enthusiasm as new members enlist and bring their unique perspectives.",
+        "Meanwhile, an eager feeling fills the space, with new entrants joining and contributing their singular viewpoints.",
+        "As fresh members join and add their distinct ideas, a palpable excitement swirls around us.",
+        "The environment becomes electric with anticipation as newcomers sign up and present their original viewpoints.",
+        "While new participants are added, the surrounding air is infused with a sense of excitement from their unique contributions.",
+        "A sense of thrill envelops the setting as new members integrate and provide their particular perspectives.",
+        "Excitement fills the air, concurrent with the arrival of new members who contribute their unique viewpoints.",
+        "With the inclusion of fresh members offering distinct perspectives, the atmosphere is tinged with excitement.",
+        "The air buzzes with excitement as new contributors join, each bringing a unique point of view.",
+        "Meanwhile, excitement permeates the surroundings as additional members come aboard and share their singular insights.",
+        "As new participants enter and present their individual perspectives, a wave of excitement spreads throughout the area.",
+        "Fresh members joining and adding their unique viewpoints cause the air to thrum with excitement.",
+        "While the team expands with newcomers contributing distinct ideas, a feeling of excitement fills the environment."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "fills": [
+          "fills"
+        ],
+        "meanwhile": [
+          "meanwhile",
+          "meantime"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "their": [
+          "their"
+        ],
+        "excitement": [
+          "excitement",
+          "exhilaration",
+          "fervor",
+          "fervour"
+        ],
+        "contribute": [
+          "contribute",
+          "bring",
+          "add",
+          "give",
+          "bestow",
+          "impart"
+        ],
+        "join": [
+          "join",
+          "link",
+          "connect",
+          "unite",
+          "conjoin"
+        ],
+        "members": [
+          "members"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, Angela, whose first_name is prominently listed, actively participates in all the student club meetings and events.",
+      "template_pattern": "Furthermore, [FIRST_NAME], whose first_name is prominently listed, actively participates in all the student club meetings and events.",
+      "primary_data_fields": [
+        "first_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, [FIRST_NAME], whose first name is prominently listed, takes part in all the student club meetings and events.",
+        "In addition, [FIRST_NAME]—her first name shown prominently—actively engages in all the student club meetings and events.",
+        "[FIRST_NAME], with her first name prominently displayed, consistently participates in all the student club meetings and events, as well.",
+        "All the student club meetings and events see active involvement from [FIRST_NAME], whose first name is prominently listed.",
+        "[FIRST_NAME], whose first name is prominently listed, is a regular participant in all the student club meetings and events.",
+        "The first name of [FIRST_NAME] is prominently listed, and she regularly joins all the student club meetings and events.",
+        "Beyond that, [FIRST_NAME]—first name prominently listed—contributes actively to all the student club meetings and events.",
+        "All the student club meetings and events are attended by [FIRST_NAME], whose first name appears prominently.",
+        "[FIRST_NAME]'s first name is prominently listed, and she consistently takes part in all the student club meetings and events.",
+        "It should be noted that [FIRST_NAME], with her first name prominently listed, participates actively in all the student club meetings and events.",
+        "All the student club meetings and events benefit from [FIRST_NAME]’s active participation, given that her first name is prominently listed.",
+        "[FIRST_NAME], whose first name appears prominently, is involved in all the student club meetings and events.",
+        "With her first name prominently listed, [FIRST_NAME] engages actively in all the student club meetings and events.",
+        "All the student club meetings and events receive [FIRST_NAME]’s active involvement, as her first name is prominently listed.",
+        "Furthermore, [FIRST_NAME], whose first name is prominently listed, joins in all the student club meetings and events."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "participates": [
+          "participates"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "whose": [
+          "whose"
+        ],
+        "prominently": [
+          "prominently",
+          "conspicuously"
+        ],
+        "listed": [
+          "listed"
+        ],
+        "meetings": [
+          "meetings"
+        ],
+        "events": [
+          "events"
+        ]
+      },
+      "field_data_types": {
+        "first_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Additionally, the club often organizes engaging workshops to enhance student skills and teamwork.",
+      "template_pattern": "Additionally, the club often organizes engaging workshops to enhance student skills and teamwork.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the club frequently holds lively workshops aimed at boosting students' abilities and collaborative skills.",
+        "In addition, engaging workshops are regularly organized by the club to improve student competencies and teamwork.",
+        "The club also arranges interactive sessions that help develop students' skills and foster teamwork.",
+        "To enhance both skill sets and teamwork, the club often conducts captivating workshops for students.",
+        "Additionally, students benefit from the club's frequent, engaging workshops designed to sharpen their abilities and promote collaboration.",
+        "The club regularly plans stimulating workshops, which serve to advance student skill levels and cooperative work.",
+        "Engaging workshops, often organized by the club, aim to enrich students' capabilities and teamwork.",
+        "As part of its program, the club routinely offers dynamic workshops that enhance student skills and teamwork.",
+        "Frequently, the club sets up compelling workshops intended to upgrade student abilities and strengthen team dynamics.",
+        "The club's regular, engaging workshops are intended to boost both student proficiency and collaborative effort.",
+        "To foster skill development and teamwork, the club consistently runs attractive workshops for students.",
+        "Also, the club's frequent workshops provide an engaging way to improve student skills and teamwork.",
+        "By organizing lively workshops, the club works to elevate student competencies and teamwork.",
+        "The club often provides engaging workshops, which are aimed at enhancing both student skills and collaborative abilities.",
+        "Additionally, through its regularly scheduled workshops, the club seeks to sharpen student skills and encourage teamwork."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "additionally": [
+          "additionally"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "workshops": [
+          "workshops"
+        ],
+        "skills": [
+          "skills"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "organizes": [
+          "organizes"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ],
+        "teamwork": [
+          "teamwork"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Recently, the student club welcomed a new member, whose last_name is Sanders, to their growing list of enthusiastic participants.",
+      "template_pattern": "Recently, the student club welcomed a new member, whose last_name is [LAST_NAME], to their growing list of enthusiastic participants.",
+      "primary_data_fields": [
+        "last_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Recently, the student club added a new member whose last name is [LAST_NAME] to its growing list of enthusiastic participants.",
+        "A new member with the last name [LAST_NAME] was recently welcomed by the student club into its growing list of enthusiastic participants.",
+        "The student club, recently expanding its roster, has welcomed a new member whose last name is [LAST_NAME] among the enthusiastic participants.",
+        "Recently, the growing list of enthusiastic participants in the student club grew by one new member, whose last name is [LAST_NAME].",
+        "The student club's growing list of enthusiastic participants recently received a new member, the last name [LAST_NAME].",
+        "A new member, whose last name is [LAST_NAME], has been added recently to the student club's growing list of enthusiastic participants.",
+        "Recently, the student club welcomed a new member; the last name [LAST_NAME] joins the growing list of enthusiastic participants.",
+        "The last name [LAST_NAME] was recently welcomed as a new member of the student club, augmenting its growing list of enthusiastic participants.",
+        "In recent weeks, the student club incorporated a new member—last name [LAST_NAME]—into its growing list of enthusiastic participants.",
+        "Recent additions to the student club's growing list of enthusiastic participants include a new member whose last name is [LAST_NAME].",
+        "The student club, in recent times, has expanded its growing list of enthusiastic participants by welcoming a new member with the last name [LAST_NAME].",
+        "A new member bearing the last name [LAST_NAME] has recently been welcomed by the student club, bolstering its growing list of enthusiastic participants.",
+        "Recently, the student club's growing list of enthusiastic participants welcomed a new member, identified by the last name [LAST_NAME].",
+        "The student club recently grew its roster of enthusiastic participants by adding a new member whose last name is [LAST_NAME].",
+        "By welcoming a new member whose last name is [LAST_NAME], the student club recently expanded its growing list of enthusiastic participants."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recently": [
+          "recently",
+          "lately"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "list": [
+          "list"
+        ],
+        "participants": [
+          "participants"
+        ],
+        "welcomed": [
+          "welcomed"
+        ],
+        "whose": [
+          "whose"
+        ],
+        "growing": [
+          "growing"
+        ],
+        "enthusiastic": [
+          "enthusiastic"
+        ]
+      },
+      "field_data_types": {
+        "last_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Members gather in the common room to discuss upcoming initiatives and share ideas.",
+      "template_pattern": "Members gather in the common room to discuss upcoming initiatives and share ideas.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the common room, members convene to talk about forthcoming initiatives and exchange ideas.",
+        "The common room hosts a gathering of members who discuss upcoming initiatives and share their ideas.",
+        "Upcoming initiatives are discussed and ideas are shared as members meet in the common room.",
+        "Members assemble in the common room, where they deliberate on future initiatives and circulate ideas.",
+        "A meeting of members takes place in the common room to review upcoming initiatives and brainstorm ideas.",
+        "In the common room, the members' discussion centers on upcoming initiatives while ideas are exchanged.",
+        "The common room sees members gathering to explore upcoming initiatives and to contribute ideas.",
+        "As members gather in the common room, they outline forthcoming initiatives and trade ideas.",
+        "Discussions of upcoming initiatives and idea sharing occur when members meet in the common room.",
+        "Within the common room, members come together to examine upcoming initiatives and to swap ideas.",
+        "The upcoming initiatives are examined and ideas are shared during the members' gathering in the common room.",
+        "Members meet in the common room, discussing upcoming initiatives and offering ideas to one another.",
+        "In the common room, a group of members gathers, focusing on upcoming initiatives and exchanging ideas.",
+        "The common room becomes the venue where members discuss forthcoming initiatives and disseminate ideas.",
+        "As a collective, members assemble in the common room to discuss upcoming initiatives and to share ideas."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "room": [
+          "room"
+        ],
+        "ideas": [
+          "ideas"
+        ],
+        "discuss": [
+          "discuss"
+        ],
+        "initiatives": [
+          "initiatives"
+        ],
+        "common": [
+          "common",
+          "usual"
+        ],
+        "share": [
+          "share",
+          "percentage",
+          "portion",
+          "parcel",
+          "part",
+          "contribution"
+        ],
+        "upcoming": [
+          "upcoming",
+          "forthcoming",
+          "approaching",
+          "coming"
+        ],
+        "members": [
+          "members"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "For any questions or updates regarding club activities, feel free to reach out to Angela at angela.sanders@lpu.edu.",
+      "template_pattern": "For any questions or updates regarding club activities, feel free to reach out to Angela at [EMAIL].",
+      "primary_data_fields": [
+        "email"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For any questions or updates regarding club activities, feel free to reach out to Angela at [EMAIL].",
+        "Should you have any inquiries or need to share updates about club activities, you may contact Angela via [EMAIL].",
+        "Any questions or updates concerning club activities can be directed to Angela at [EMAIL].",
+        "If you require information or wish to provide updates on club activities, please email Angela at [EMAIL].",
+        "For queries or updates related to club activities, Angela is available at [EMAIL].",
+        "Reach out to Angela at [EMAIL] for any questions or updates about club activities.",
+        "Angela can be contacted at [EMAIL] for all questions or updates regarding club activities.",
+        "Should there be any questions or updates concerning club activities, you are encouraged to email Angela at [EMAIL].",
+        "Contact Angela via [EMAIL] if you have any questions or updates on club activities.",
+        "All inquiries and updates about club activities should be sent to Angela at [EMAIL].",
+        "To discuss club activities or share updates, please get in touch with Angela at [EMAIL].",
+        "For any club‑activity related questions or updates, Angela can be reached at [EMAIL].",
+        "If you have questions or updates regarding club activities, feel free to write to Angela at [EMAIL].",
+        "Angela is the point of contact for all club activity questions and updates; email her at [EMAIL].",
+        "Should you need to ask a question or provide an update about club activities, Angela’s email is [EMAIL]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "feel": [
+          "feel",
+          "sense",
+          "experience"
+        ],
+        "regarding": [
+          "regarding"
+        ],
+        "updates": [
+          "updates"
+        ],
+        "reach": [
+          "reach",
+          "contact",
+          "attain",
+          "achieve",
+          "stretch",
+          "grasp"
+        ],
+        "free": [
+          "free",
+          "gratis",
+          "costless",
+          "complimentary",
+          "exempt"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge"
+        ],
+        "questions": [
+          "questions"
+        ]
+      },
+      "field_data_types": {
+        "email": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Moreover, the club has a vibrant calendar, filled with activities that cater to diverse interests.",
+      "template_pattern": "Moreover, the club has a vibrant calendar, filled with activities that cater to diverse interests.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Additionally, the club maintains a lively schedule packed with events that appeal to a wide range of interests.",
+        "Moreover, the club’s calendar is vibrant, featuring numerous activities that serve the varied interests of its members.",
+        "In addition, a dynamic program of events, designed for diverse interests, characterizes the club’s bustling calendar.",
+        "Furthermore, a robust timetable full of activities catering to many different interests is offered by the club.",
+        "Besides, the club provides a colorful agenda filled with pursuits that meet a spectrum of interests.",
+        "Also, the club boasts a spirited calendar, wherein each activity is tailored to accommodate varied interests.",
+        "What's more, the club’s calendar is filled with programs that address diverse interests, remaining energetic and engaging.",
+        "Beyond that, the club’s schedule brims with a variety of events that satisfy a broad array of interests.",
+        "Additionally, the club’s vibrant roster of activities is specifically arranged to serve a multitude of interests.",
+        "Moreover, a lively calendar, replete with events catering to heterogeneous interests, is a hallmark of the club.",
+        "In addition, the club’s active agenda, packed with activities for all sorts of interests, underscores its vibrant nature.",
+        "Besides, the club’s dynamic timetable includes numerous pursuits that appeal to diverse interests.",
+        "Also, the club’s schedule, vibrant and full of activities, is crafted to meet the varied interests of its participants.",
+        "What's more, with a bustling calendar full of events that cater to many different interests, the club stands out.",
+        "A vibrant calendar, filled with activities that cater to diverse interests, is maintained by the club."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "club": [
+          "club",
+          "lodge",
+          "society",
+          "guild",
+          "order"
+        ],
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "moreover": [
+          "moreover",
+          "furthermore"
+        ],
+        "interests": [
+          "interests"
+        ],
+        "cater": [
+          "cater",
+          "supply",
+          "provide"
+        ],
+        "vibrant": [
+          "vibrant",
+          "vivacious"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "calendar": [
+          "calendar"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the student organization, each member plays a crucial role in shaping its direction and success.",
+      "template_pattern": "In the student organization, each [POSITION] plays a crucial role in shaping its direction and success.",
+      "primary_data_fields": [
+        "position"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each [POSITION] of the student organization contributes critically to directing its course and achieving success.",
+        "The direction and success of the student organization are shaped by the essential role each [POSITION] plays.",
+        "Each [POSITION] of the student organization contributes indispensably to directing its course and achieving success.",
+        "By each [POSITION]’s indispensable involvement, the student organization’s trajectory and triumph are determined.",
+        "The student organization’s progress and outcomes depend on the pivotal contributions of every [POSITION].",
+        "Every [POSITION], in the student organization, assumes a key position in molding its direction and success.",
+        "Shaping the organization’s direction and success is a responsibility shared by each student organization [POSITION].",
+        "The student organization’s direction and success are molded through the crucial role performed by each [POSITION].",
+        "In the student organization, it is each [POSITION] who plays a fundamental role in guiding its course and success.",
+        "A crucial part in defining the student organization’s path and achievements is played by every [POSITION].",
+        "Within the student organization, every [POSITION] contributes critically to directing its path and achieving success.",
+        "The direction and success of the student organization are driven by the essential role each [POSITION] fulfills.",
+        "Through their vital involvement, [POSITION] of the student organization shape both its direction and its success.",
+        "The student organization owes its direction and success to the indispensable role assumed by each [POSITION].",
+        "Every [POSITION]’s crucial contribution helps to steer the student organization toward its intended direction and success."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "direction": [
+          "direction",
+          "instruction",
+          "guidance",
+          "way",
+          "steering",
+          "counsel"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "establishment",
+          "administration",
+          "system"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part",
+          "office"
+        ],
+        "success": [
+          "success"
+        ],
+        "plays": [
+          "plays"
+        ]
+      },
+      "field_data_types": {
+        "position": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Leadership roles rotate regularly to encourage participation from all members.",
+      "template_pattern": "Leadership roles rotate regularly to encourage participation from all members.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The leadership positions are rotated on a regular basis to foster involvement of every member.",
+        "Regular rotation of leadership roles promotes participation among all members.",
+        "To boost involvement from each member, leadership duties are switched regularly.",
+        "All members are encouraged to take part because leadership roles change routinely.",
+        "Leadership responsibilities are periodically reassigned, encouraging every member’s participation.",
+        "By rotating leadership roles consistently, we aim to involve all members.",
+        "Participation from all members is encouraged through the regular swapping of leadership positions.",
+        "The group rotates its leadership roles frequently, ensuring everyone can participate.",
+        "Regularly rotating who leads helps to motivate participation from each member.",
+        "Leadership roles are cyclically rotated, which serves to engage all members.",
+        "To ensure every member can join in, leadership duties are rotated at regular intervals.",
+        "The frequent turnover of leadership positions is intended to promote full-member participation.",
+        "All members are invited to participate as leadership roles are rotated on a set schedule.",
+        "A systematic rotation of leadership roles encourages involvement from the entire membership.",
+        "Participation across the whole group is fostered by the regular changeover of leadership roles."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "participation": [
+          "participation",
+          "engagement",
+          "involvement"
+        ],
+        "encourage": [
+          "encourage",
+          "further",
+          "advance",
+          "promote",
+          "boost"
+        ],
+        "roles": [
+          "roles"
+        ],
+        "leadership": [
+          "leadership",
+          "leading"
+        ],
+        "regularly": [
+          "regularly"
+        ],
+        "rotate": [
+          "rotate",
+          "revolve"
+        ],
+        "members": [
+          "members"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "When ordering the club's t-shirts, Alex requested a t_shirt_size of Medium to ensure the perfect fit.",
+      "template_pattern": "When ordering the club's t-shirts, Alex requested a t_shirt_size of [T_SHIRT_SIZE] to ensure the perfect fit.",
+      "primary_data_fields": [
+        "t_shirt_size"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "While placing the order for the club's t‑shirts, Alex chose a t shirt size of [T_SHIRT_SIZE] to guarantee an ideal fit.",
+        "Alex specified a t shirt size of [T_SHIRT_SIZE] when ordering the club's t‑shirts, aiming for a perfect fit.",
+        "To achieve the perfect fit, a t shirt size of [T_SHIRT_SIZE] was requested by Alex during the club's t‑shirt order.",
+        "When the club's t‑shirts were being ordered, Alex requested a [T_SHIRT_SIZE] t shirt size to ensure they fit perfectly.",
+        "In the process of ordering the club's t‑shirts, Alex selected a t shirt size of [T_SHIRT_SIZE] to secure the right fit.",
+        "A [T_SHIRT_SIZE] t shirt size was requested by Alex as part of the club's t‑shirt order to obtain a flawless fit.",
+        "Alex, ordering the club's t‑shirts, asked for a t shirt size of [T_SHIRT_SIZE] so the garments would fit perfectly.",
+        "To make sure the shirts fit just right, Alex ordered the club's t‑shirts with a t shirt size set to [T_SHIRT_SIZE].",
+        "During the club's t‑shirt procurement, Alex indicated a t shirt size of [T_SHIRT_SIZE] to assure an optimal fit.",
+        "The club's t‑shirts were ordered with a t shirt size of [T_SHIRT_SIZE] at Alex's request, guaranteeing a perfect fit.",
+        "Alex requested a [T_SHIRT_SIZE] t shirt size while ordering the club's t‑shirts, seeking the perfect fit.",
+        "For a perfect fit, Alex chose a t shirt size of [T_SHIRT_SIZE] when placing the order for the club's t‑shirts.",
+        "As part of the club's t‑shirt order, Alex requested a [T_SHIRT_SIZE] t shirt size to ensure the garments fit perfectly.",
+        "When ordering the club's t‑shirts, a request from Alex specified a t shirt size of [T_SHIRT_SIZE] for an ideal fit.",
+        "To ensure the shirts fit perfectly, a [T_SHIRT_SIZE] t shirt size was ordered by Alex for the club's t‑shirts."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "when": [
+          "when"
+        ],
+        "alex": [
+          "alex"
+        ],
+        "ensure": [
+          "ensure",
+          "guarantee",
+          "assure",
+          "secure"
+        ],
+        "ordering": [
+          "ordering"
+        ],
+        "requested": [
+          "requested"
+        ],
+        "shirts": [
+          "shirts"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "perfect": [
+          "perfect",
+          "complete",
+          "utter",
+          "consummate",
+          "pure",
+          "unadulterated"
+        ]
+      },
+      "field_data_types": {
+        "t_shirt_size": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The custom t-shirts are a symbol of unity and pride among the members.",
+      "template_pattern": "The custom t-shirts are a symbol of unity and pride among the members.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Among the members, the custom t‑shirts serve as a symbol of unity and pride.",
+        "A symbol of unity and pride, the custom t‑shirts are worn by the members.",
+        "The members view their custom t‑shirts as an emblem of both unity and pride.",
+        "Custom t‑shirts represent unity and pride within the membership.",
+        "Unity and pride are embodied in the custom t‑shirts that the members wear.",
+        "The custom t‑shirts are regarded as a badge of pride and unity among members.",
+        "For the members, the custom t‑shirts function as a sign of solidarity and pride.",
+        "A sign of cohesion and pride, the custom t‑shirts circulate among the members.",
+        "Among the group, the custom t‑shirts symbolize shared pride and unity.",
+        "The custom t‑shirts have become an icon of unity and pride for the members.",
+        "Members consider the custom t‑shirts to be a representation of unity and pride.",
+        "Worn by members, the custom t‑shirts act as a token of unity and pride.",
+        "The custom t‑shirts, worn by members, stand as a testament to unity and pride.",
+        "In the members' community, custom t‑shirts denote unity and pride.",
+        "Custom t‑shirts are seen by members as a unifying and prideful symbol."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "unity": [
+          "unity",
+          "oneness",
+          "wholeness"
+        ],
+        "custom": [
+          "custom",
+          "tradition",
+          "usage"
+        ],
+        "shirts": [
+          "shirts"
+        ],
+        "pride": [
+          "pride"
+        ],
+        "members": [
+          "members"
+        ],
+        "symbol": [
+          "symbol"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "For updates on club activities and events, you can reach the student organization member at (651) 928-4507.",
+      "template_pattern": "For updates on club activities and events, you can reach the student organization member at [PHONE].",
+      "primary_data_fields": [
+        "phone"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "If you need updates on club activities and events, call the student organization member at [PHONE].",
+        "Updates about club activities and events are available by reaching the student organization member at [PHONE].",
+        "To stay informed on club activities and events, you may contact the student organization member via [PHONE].",
+        "The student organization member can be reached at [PHONE] for any club activity or event updates.",
+        "For any news on club activities and events, get in touch with the student organization member at [PHONE].",
+        "You can obtain club activity and event updates by dialing the student organization member at [PHONE].",
+        "Club activity and event information is provided when you call the student organization member at [PHONE].",
+        "Should you require updates on club activities and events, the student organization member is reachable at [PHONE].",
+        "Reach the student organization member at [PHONE] to receive updates on club activities and events.",
+        "For club activity and event updates, the student organization member can be contacted at [PHONE].",
+        "Contact the student organization member at [PHONE] for the latest updates on club activities and events.",
+        "The latest club activities and events can be learned by calling the student organization member at [PHONE].",
+        "When you want updates on club activities and events, phone the student organization member at [PHONE].",
+        "Updates on club activities and events are available by reaching the student organization member at [PHONE].",
+        "To get the newest club activity and event information, you may reach the student organization member at [PHONE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "updates": [
+          "updates"
+        ],
+        "reach": [
+          "reach",
+          "range",
+          "contact",
+          "attain",
+          "achieve",
+          "stretch"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "establishment",
+          "administration",
+          "system",
+          "governance"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "events": [
+          "events"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild"
+        ]
+      },
+      "field_data_types": {
+        "phone": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Communication is key, and therefore, the club ensures everyone is informed and involved.",
+      "template_pattern": "Communication is key, and therefore, the club ensures everyone is informed and involved.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because communication is essential, the club guarantees that all members stay informed and engaged.",
+        "Communication being paramount, the club makes certain everyone is both informed and involved.",
+        "The club, recognizing that communication is key, ensures all participants are kept informed and involved.",
+        "As communication is vital, the club secures the informed and active participation of every member.",
+        "With communication at the core, the club assures that everyone receives information and takes part.",
+        "Since effective communication matters, the club takes steps to keep each individual informed and involved.",
+        "Communication is critical; consequently, the club works to keep all members informed and involved.",
+        "The assurance that everyone is informed and involved stems from the club’s emphasis on communication as a key factor.",
+        "By treating communication as fundamental, the club guarantees each person is both informed and involved.",
+        "The club’s policy, which holds communication as key, results in all members being kept informed and involved.",
+        "All members are kept informed and involved because the club prioritizes communication.",
+        "Ensuring everyone is informed and involved is the club’s response to the importance of communication.",
+        "Communication, being the cornerstone, leads the club to maintain an informed and involved membership.",
+        "The club maintains informed and involved participants, given that communication is indispensable.",
+        "Because the club views communication as paramount, it ensures that every individual stays informed and involved."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "communication": [
+          "communication"
+        ],
+        "therefore": [
+          "therefore",
+          "hence",
+          "consequently",
+          "thus"
+        ],
+        "ensures": [
+          "ensures",
+          "guarantees",
+          "assures",
+          "secures"
+        ],
+        "involved": [
+          "involved",
+          "convoluted",
+          "knotty",
+          "Byzantine",
+          "tangled",
+          "tortuous"
+        ],
+        "everyone": [
+          "everyone"
+        ],
+        "informed": [
+          "informed"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Many students from the 55108 zip area have joined the club, enriching its demographic diversity.",
+      "template_pattern": "Many students from the [ZIP] zip area have joined the club, enriching its demographic diversity.",
+      "primary_data_fields": [
+        "zip"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Many students residing in the [ZIP] zip area have become members of the club, thereby enhancing its demographic diversity.",
+        "The club’s demographic diversity has been enriched by the influx of numerous students from the [ZIP] zip area.",
+        "A large number of students from the [ZIP] zip area joined the club, adding to its demographic diversity.",
+        "Students from the [ZIP] zip area have recently joined the club, contributing to a more diverse demographic profile.",
+        "The enrollment of many students from the [ZIP] zip area has bolstered the club’s demographic diversity.",
+        "By joining the club, many students hailing from the [ZIP] zip area are expanding its demographic diversity.",
+        "The club sees its demographic diversity grow as many students from the [ZIP] zip area become members.",
+        "With many students from the [ZIP] zip area now in the club, its demographic diversity is being enriched.",
+        "Numerous students from the [ZIP] zip area have entered the club, which in turn broadens its demographic diversity.",
+        "The demographic diversity of the club has been strengthened thanks to the many students from the [ZIP] zip area who have joined.",
+        "Joining the club, many students from the [ZIP] zip area have helped to diversify its demographic makeup.",
+        "Because many students from the [ZIP] zip area have joined, the club’s demographic diversity has increased.",
+        "The club’s demographic diversity benefits from the addition of many students from the [ZIP] zip area.",
+        "Through the recent addition of many students from the [ZIP] zip area, the club enjoys a richer demographic diversity.",
+        "The influx of many students from the [ZIP] zip area into the club has expanded its demographic diversity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "many": [
+          "many"
+        ],
+        "students": [
+          "students"
+        ],
+        "enriching": [
+          "enriching"
+        ],
+        "diversity": [
+          "diversity",
+          "variety"
+        ],
+        "demographic": [
+          "demographic"
+        ],
+        "area": [
+          "area",
+          "field",
+          "region",
+          "domain",
+          "sphere",
+          "arena"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "order"
+        ],
+        "joined": [
+          "joined",
+          "coupled",
+          "linked",
+          "united"
+        ]
+      },
+      "field_data_types": {
+        "zip": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Indeed, diversity within the club fosters creativity and broadens the scope of discussions.",
+      "template_pattern": "Indeed, diversity within the club fosters creativity and broadens the scope of discussions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Certainly, the club’s diversity sparks creativity and expands the range of its discussions.",
+        "Diversity inside the club cultivates inventive thinking while widening the breadth of conversations.",
+        "The club’s varied membership encourages creative ideas and enlarges the scope of dialogue.",
+        "Creativity is nurtured and discussion topics broadened thanks to the club’s internal diversity.",
+        "Thanks to the club’s diversity, creativity flourishes and the spectrum of discussions widens.",
+        "Within the club, a diverse roster fuels imagination and extends the limits of debate.",
+        "The breadth of discussions is amplified and creativity boosted by the club’s diverse composition.",
+        "A heterogeneous club environment promotes creative output and broadens conversational horizons.",
+        "When the club embraces diversity, it fosters creativity and widens the scope of its discussions.",
+        "The club's diversity serves to foster creativity and to broaden the range of its discussions.",
+        "Creative thinking is fostered and the discussion scope broadened by the diversity present in the club.",
+        "In the club, diversity acts as a catalyst for creativity and expands the arena of discourse.",
+        "Diversity within the club is a driver of creativity and a factor that broadens discussion scope.",
+        "By virtue of its diverse membership, the club encourages creativity and enlarges the scope of dialogue.",
+        "The club’s internal diversity not only fuels creativity but also extends the scope of its discussions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "discussions": [
+          "discussions"
+        ],
+        "indeed": [
+          "indeed"
+        ],
+        "fosters": [
+          "fosters"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "broadens": [
+          "broadens"
+        ],
+        "creativity": [
+          "creativity",
+          "creativeness"
+        ],
+        "scope": [
+          "scope",
+          "range",
+          "reach",
+          "ambit"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Notably, Sarah's involvement in the student club provided a valuable link_to_major with recxK3MHQFbR9J5uO, enriching her academic experience.",
+      "template_pattern": "Notably, Sarah's involvement in the student club provided a valuable link_to_major with [LINK_TO_MAJOR], enriching her academic experience.",
+      "primary_data_fields": [
+        "link_to_major"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Notably, Sarah's involvement in the student club offered a valuable link to major with [LINK_TO_MAJOR], thereby enriching her academic experience.",
+        "Sarah's participation in the student club notably provided a valuable link to major with [LINK_TO_MAJOR], enhancing her academic experience.",
+        "A valuable link to major with [LINK_TO_MAJOR] was supplied by Sarah's engagement in the student club, which noticeably enriched her academic experience.",
+        "Through her role in the student club, Sarah created a valuable link to major with [LINK_TO_MAJOR], a factor that enriched her academic experience.",
+        "The student club involvement of Sarah furnished a valuable link to major with [LINK_TO_MAJOR], consequently enriching her academic experience.",
+        "By being active in the student club, Sarah secured a valuable link to major with [LINK_TO_MAJOR], thus enhancing her academic experience.",
+        "A valuable link to major with [LINK_TO_MAJOR] stemmed from Sarah's involvement in the student club, enriching her academic experience.",
+        "Sarah's contribution to the student club resulted in a valuable link to major with [LINK_TO_MAJOR], which in turn enriched her academic experience.",
+        "Thanks to her participation in the student club, Sarah obtained a valuable link to major with [LINK_TO_MAJOR], enriching her academic experience.",
+        "The valuable link to major with [LINK_TO_MAJOR] was provided by Sarah's involvement in the student club, thereby enriching her academic experience.",
+        "With Sarah's involvement in the student club, a valuable link to major with [LINK_TO_MAJOR] was created, enriching her academic experience.",
+        "Sarah's engagement in the student club produced a valuable link to major with [LINK_TO_MAJOR], which enriched her academic experience.",
+        "Because Sarah was involved in the student club, a valuable link to major with [LINK_TO_MAJOR] emerged, enriching her academic experience.",
+        "The student club's connection with Sarah yielded a valuable link to major with [LINK_TO_MAJOR], enriching her academic experience.",
+        "A valuable link to major with [LINK_TO_MAJOR] was generated through Sarah's involvement in the student club, enriching her academic experience."
+      ],
+      "counter_variations": [
+        "While the curriculum overview cites a prospective pathway, the link to major is logged as null, thereby rendering the alignment unspecified.",
+        "The curriculum overview, which references a prospective pathway, records the link to major as null, leaving the alignment unspecified.",
+        "Even though a prospective pathway is mentioned in the curriculum overview, the link to major appears as null, so the alignment remains unspecified.",
+        "In the curriculum overview’s mention of a prospective pathway, the link to major is marked null, resulting in an unspecified alignment.",
+        "Because the curriculum overview notes a prospective pathway, yet the link to major is set to null, the alignment is left unspecified.",
+        "Although the curriculum overview points to a prospective pathway, the link to major has been entered as null, causing the alignment to stay unspecified.",
+        "The prospective pathway noted in the curriculum overview coincides with a link to major that is recorded as null, which leaves the alignment unspecified.",
+        "With the curriculum overview indicating a prospective pathway, the link to major is captured as null, and consequently the alignment is unspecified.",
+        "Despite the curriculum overview’s reference to a prospective pathway, the link to major is stored as null, leaving the alignment unspecified.",
+        "The curriculum overview mentions a prospective pathway; however, the link to major is listed as null, producing an unspecified alignment.",
+        "As the curriculum overview highlights a prospective pathway, the link to major is entered as null, thereby the alignment remains unspecified.",
+        "Though the curriculum overview includes a prospective pathway, the link to major shows null, which leaves the alignment unspecified.",
+        "In the report’s curriculum overview, a prospective pathway is cited, yet the link to major is recorded as null, resulting in an unspecified alignment.",
+        "The presence of a prospective pathway in the curriculum overview does not prevent the link to major from being null, thus the alignment stays unspecified.",
+        "While the curriculum overview references a prospective pathway, the link to major is documented as null, leaving the alignment unspecified."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "notably": [
+          "notably"
+        ],
+        "sarah": [
+          "sarah",
+          "Sarah"
+        ],
+        "experience": [
+          "experience",
+          "feel",
+          "live"
+        ],
+        "enriching": [
+          "enriching"
+        ],
+        "valuable": [
+          "valuable"
+        ],
+        "involvement": [
+          "involvement",
+          "participation",
+          "engagement",
+          "interest"
+        ],
+        "provided": [
+          "provided"
+        ]
+      },
+      "field_data_types": {
+        "link_to_major": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Through the club, members gain insights and experiences that complement their studies.",
+      "template_pattern": "Through the club, members gain insights and experiences that complement their studies.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Members acquire insights and experiences through the club that complement their studies.",
+        "Insights and experiences complementing their studies are gained by members via the club.",
+        "Through club involvement, members gain insights and experiences which complement their academic work.",
+        "The club provides members with insights and experiences that serve to complement their studies.",
+        "By being part of the club, members obtain insights and experiences that complement their studies.",
+        "Insights and experiences that complement members' studies are obtained through the club.",
+        "Members, through the club, receive insights and experiences that complement their studies.",
+        "Complementing their studies, members gain insights and experiences through club activities.",
+        "Through participation in the club, members secure insights and experiences that complement their studies.",
+        "Insights and experiences, acquired via the club, complement the members' studies.",
+        "The club enables members to gain insights and experiences which complement their studies.",
+        "Members gain, through the club, insights and experiences that complement their studies.",
+        "Via the club, members are provided with insights and experiences that complement their studies.",
+        "Insights and experiences that complement the studies of members are gained through the club.",
+        "Through the club's offerings, members obtain insights and experiences that complement their studies."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "complement": [
+          "complement",
+          "accompaniment"
+        ],
+        "studies": [
+          "studies"
+        ],
+        "their": [
+          "their"
+        ],
+        "gain": [
+          "gain",
+          "derive",
+          "earn",
+          "acquire",
+          "attain",
+          "win"
+        ],
+        "experiences": [
+          "experiences"
+        ],
+        "insights": [
+          "insights"
+        ],
+        "members": [
+          "members"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The club hosts regular social events to strengthen camaraderie among its members.",
+      "template_pattern": "The club hosts regular social events to strengthen camaraderie among its members.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The club regularly organizes social gatherings to boost camaraderie among its members.",
+        "Regular social events are hosted by the club to strengthen the bond between members.",
+        "To foster fellowship, the club holds frequent social functions for its members.",
+        "By arranging periodic social activities, the club aims to enhance camaraderie within its membership.",
+        "The club’s members enjoy regular social events designed to reinforce their sense of camaraderie.",
+        "Social events are routinely scheduled by the club to cultivate camaraderie among its members.",
+        "In order to deepen member connections, the club conducts regular social gatherings.",
+        "With the goal of strengthening camaraderie, the club periodically hosts social functions for its members.",
+        "The club’s regular social gatherings serve to solidify camaraderie among its members.",
+        "To promote fellowship, the club frequently arranges social events for its membership.",
+        "Camaraderie among members is bolstered through the club’s regular social activities.",
+        "By holding regular social events, the club works to reinforce the camaraderie of its members.",
+        "The club, aiming to enhance member rapport, regularly hosts social gatherings.",
+        "Regularly scheduled social functions by the club help to fortify camaraderie among its members.",
+        "To nurture a sense of togetherness, the club organizes periodic social events for its members."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "social": [
+          "social",
+          "sociable",
+          "societal"
+        ],
+        "strengthen": [
+          "strengthen",
+          "fortify",
+          "tone"
+        ],
+        "camaraderie": [
+          "camaraderie",
+          "comradeship",
+          "comradery"
+        ],
+        "regular": [
+          "regular",
+          "even",
+          "steady"
+        ],
+        "events": [
+          "events"
+        ],
+        "members": [
+          "members"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, volunteering opportunities are also available, allowing students to give back to the community.",
+      "template_pattern": "Additionally, volunteering opportunities are also available, allowing students to give back to the community.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, volunteering opportunities are offered, permitting students to give back to the community.",
+        "In addition, students can give back to the community by taking advantage of the available volunteering opportunities.",
+        "Also, there are volunteering opportunities available, which allow students to contribute back to the community.",
+        "Volunteering opportunities are likewise provided, enabling students to return something to the community.",
+        "As a further option, students are able to give back to the community through the volunteering opportunities that exist.",
+        "Besides, the institution makes volunteering opportunities accessible, so students may give back to the community.",
+        "The availability of volunteering opportunities also grants students the chance to give back to the community.",
+        "Students are given the chance to give back to the community via the volunteering opportunities that are also on offer.",
+        "Volunteering opportunities, which are also available, empower students to give back to the community.",
+        "An additional benefit is that volunteering opportunities are present, allowing students to contribute to the community.",
+        "By means of the available volunteering opportunities, students can also give back to the community.",
+        "The school provides volunteering opportunities as well, facilitating student contributions back to the community.",
+        "Giving back to the community is possible for students through the volunteering opportunities that are additionally available.",
+        "In a further development, volunteering opportunities are accessible, granting students the ability to give back to the community.",
+        "Students may also give back to the community thanks to the volunteering opportunities that are offered."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "additionally": [
+          "additionally"
+        ],
+        "give": [
+          "give",
+          "impart",
+          "grant",
+          "render",
+          "contribute",
+          "present"
+        ],
+        "community": [
+          "community"
+        ],
+        "students": [
+          "students"
+        ],
+        "back": [
+          "back",
+          "rear",
+          "spine",
+          "backbone",
+          "support",
+          "backward"
+        ],
+        "volunteering": [
+          "volunteering"
+        ],
+        "also": [
+          "also",
+          "besides",
+          "likewise",
+          "too"
+        ],
+        "opportunities": [
+          "opportunities"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Members are encouraged to propose new projects that align with their interests.",
+      "template_pattern": "Members are encouraged to propose new projects that align with their interests.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Members are urged to submit fresh projects that correspond to their personal interests.",
+        "Participants should feel invited to suggest new initiatives that match their own interests.",
+        "The organization encourages its members to put forward novel projects aligned with what they are interested in.",
+        "New projects reflecting members' interests are welcome, and members are encouraged to propose them.",
+        "It is recommended that members propose new projects that are in line with their individual interests.",
+        "Members may be motivated to pitch innovative projects that suit their personal interests.",
+        "Proposals for new projects that fit members' interests are actively solicited from all members.",
+        "The committee advises members to bring forward fresh projects that align with their own interests.",
+        "Members are invited to bring new, interest‑aligned projects to the table.",
+        "You are encouraged, as a member, to propose new projects that correspond with your interests.",
+        "The suggestion of new projects matching members' interests is strongly encouraged.",
+        "Members should consider proposing novel projects that reflect their personal interests.",
+        "Propose new projects that align with your interests, members are encouraged to do so.",
+        "The program calls on members to present fresh projects that are consistent with their interests.",
+        "It is encouraged that members put forward new initiatives that correspond to what they find interesting."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "propose": [
+          "propose",
+          "offer",
+          "suggest"
+        ],
+        "their": [
+          "their"
+        ],
+        "encouraged": [
+          "encouraged"
+        ],
+        "interests": [
+          "interests"
+        ],
+        "align": [
+          "align",
+          "adjust",
+          "coordinate"
+        ],
+        "members": [
+          "members"
+        ],
+        "projects": [
+          "projects"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the club's leadership is always open to feedback and suggestions from its members.",
+      "template_pattern": "Furthermore, the club's leadership is always open to feedback and suggestions from its members.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the club’s leaders constantly welcome input and ideas from members.",
+        "The leadership of the club remains receptive to members’ feedback and recommendations, and it does so at all times.",
+        "Members’ suggestions and critiques are always received with openness by the club’s leadership.",
+        "In addition, the club’s management is perpetually ready to consider feedback and proposals from its members.",
+        "Feedback and suggestions from members are consistently embraced by the club’s leadership.",
+        "The club’s governing body keeps an open door for member input and advice at every opportunity.",
+        "Additionally, the leadership team of the club stays eager to listen to members’ comments and suggestions.",
+        "The club’s leadership is habitually amenable to receiving members’ feedback and ideas.",
+        "Member feedback and suggestions are perpetually welcomed by the club’s leadership.",
+        "The club’s executives are always inclined to accept suggestions and feedback from their members.",
+        "Always open to members’ input, the club’s leadership encourages feedback and proposals.",
+        "The club’s leadership, without exception, welcomes suggestions and feedback from its members.",
+        "Feedback and ideas offered by members are always taken into consideration by the club’s leadership.",
+        "At all times, the club’s leadership embraces members’ recommendations and critiques.",
+        "The leadership of the club is continuously receptive to suggestions and feedback from its members."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "suggestions": [
+          "suggestions"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "always": [
+          "always",
+          "invariably",
+          "constantly",
+          "perpetually"
+        ],
+        "open": [
+          "open",
+          "clear",
+          "unfastened",
+          "undefended",
+          "exposed",
+          "overt"
+        ],
+        "feedback": [
+          "feedback"
+        ],
+        "leadership": [
+          "leadership"
+        ],
+        "members": [
+          "members"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Collaborative projects often lead to innovative solutions and lasting friendships.",
+      "template_pattern": "Collaborative projects often lead to innovative solutions and lasting friendships.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "When students collaborate on projects, they frequently generate innovative solutions and forge lasting friendships.",
+        "Innovative solutions and enduring friendships often arise from collaborative projects.",
+        "Collaborative projects are known to produce both pioneering solutions and long‑term friendships.",
+        "By working together on projects, participants commonly develop cutting‑edge solutions and build lasting bonds.",
+        "The result of collaborative projects is often the emergence of novel solutions alongside durable friendships.",
+        "Projects that involve collaboration typically yield inventive solutions and sustain lasting friendships.",
+        "Through collaborative projects, innovative outcomes and lasting friendships are often cultivated.",
+        "Collaborative endeavors frequently give rise to forward‑thinking solutions and enduring friendships.",
+        "In many cases, joint projects lead to breakthrough solutions as well as friendships that endure.",
+        "Innovative solutions and lasting friendships result from the collaborative nature of many projects.",
+        "When projects are undertaken collaboratively, they usually spark novel solutions and nurture long‑lasting friendships.",
+        "The collaborative aspect of projects often spurs inventive solutions and the formation of lasting friendships.",
+        "With collaborative projects, both fresh solutions and enduring friendships tend to develop.",
+        "Collaborative project work commonly produces pioneering solutions and preserves lasting friendships.",
+        "By engaging in collaborative projects, teams often achieve innovative solutions and maintain lasting friendships."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "collaborative": [
+          "collaborative"
+        ],
+        "friendships": [
+          "friendships"
+        ],
+        "innovative": [
+          "innovative",
+          "advanced",
+          "groundbreaking",
+          "modern"
+        ],
+        "often": [
+          "often",
+          "oftentimes",
+          "frequently"
+        ],
+        "lasting": [
+          "lasting",
+          "durable",
+          "persistent",
+          "permanent"
+        ],
+        "lead": [
+          "lead",
+          "guide",
+          "head",
+          "conduct",
+          "steer",
+          "direct"
+        ],
+        "solutions": [
+          "solutions"
+        ],
+        "projects": [
+          "projects"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Moreover, social media platforms are utilized to keep members engaged and informed.",
+      "template_pattern": "Moreover, social media platforms are utilized to keep members engaged and informed.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Additionally, members are kept engaged and informed through the use of social media platforms.",
+        "Social media platforms serve to maintain member engagement and provide information.",
+        "To keep members both engaged and informed, social media platforms are employed.",
+        "By employing social media platforms, organizations ensure members stay engaged and well‑informed.",
+        "The engagement and information of members are sustained via social media platforms.",
+        "Moreover, social media is leveraged to keep members engaged and up‑to‑date.",
+        "Members remain engaged and informed thanks to the utilization of social media platforms.",
+        "Through the deployment of social media platforms, member engagement and awareness are maintained.",
+        "Social media platforms are harnessed to ensure that members stay both engaged and informed.",
+        "Engaging and informing members is achieved by means of social media platforms.",
+        "The use of social media platforms helps to keep members engaged while also keeping them informed.",
+        "In addition, social media platforms are applied to sustain member engagement and knowledge.",
+        "By means of social media platforms, members are continuously engaged and kept informed.",
+        "Social media platforms function to preserve both engagement and information flow among members.",
+        "To maintain engagement and keep members informed, social media platforms are utilized."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "utilized": [
+          "utilized"
+        ],
+        "social": [
+          "social",
+          "societal"
+        ],
+        "keep": [
+          "keep",
+          "maintain",
+          "preserve",
+          "retain",
+          "save",
+          "continue"
+        ],
+        "moreover": [
+          "moreover",
+          "furthermore"
+        ],
+        "platforms": [
+          "platforms"
+        ],
+        "media": [
+          "media"
+        ],
+        "informed": [
+          "informed"
+        ],
+        "engaged": [
+          "engaged",
+          "occupied",
+          "busy"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The club's mission is to provide a supportive environment for personal and professional growth.",
+      "template_pattern": "The club's mission is to provide a supportive environment for personal and professional growth.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The club aims to create a nurturing setting that fosters both personal and professional development.",
+        "Providing a supportive atmosphere for individual and career growth is the mission of the club.",
+        "To encourage personal and professional advancement, the club’s purpose is to offer a supportive environment.",
+        "A supportive environment for personal and professional growth is what the club strives to provide.",
+        "The mission of the club is to supply a helpful milieu that promotes personal and professional progression.",
+        "By offering a supportive setting, the club seeks to nurture personal and professional growth.",
+        "The club’s objective centers on delivering an encouraging environment for both personal and professional development.",
+        "In order to facilitate personal and professional growth, the club dedicates itself to providing a supportive environment.",
+        "A core aim of the club is the provision of a supportive arena for personal as well as professional advancement.",
+        "To foster personal and professional growth, the club commits to establishing a supportive environment.",
+        "The club is committed to furnishing a supportive environment that underpins personal and professional development.",
+        "Supporting personal and professional growth through a conducive environment constitutes the club’s mission.",
+        "With the goal of personal and professional development, the club offers a supportive environment.",
+        "The club’s purpose is to maintain a supportive atmosphere that enables both personal and professional growth.",
+        "A supportive environment for personal and professional growth is provided as part of the club’s mission."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "order",
+          "lodge"
+        ],
+        "professional": [
+          "professional",
+          "master"
+        ],
+        "provide": [
+          "provide",
+          "supply",
+          "furnish",
+          "render",
+          "offer"
+        ],
+        "mission": [
+          "mission",
+          "commission",
+          "charge"
+        ],
+        "personal": [
+          "personal"
+        ],
+        "growth": [
+          "growth",
+          "increase",
+          "development",
+          "maturation",
+          "outgrowth",
+          "increment"
+        ],
+        "environment": [
+          "environment",
+          "surroundings",
+          "environs"
+        ],
+        "supportive": [
+          "supportive"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Members celebrate each other's achievements and milestones together.",
+      "template_pattern": "Members celebrate each other's achievements and milestones together.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Together, members honor one another’s accomplishments and milestones.",
+        "The achievements and milestones of each member are celebrated collectively.",
+        "Members jointly applaud each other's successes and key milestones.",
+        "In unison, the group acknowledges the accomplishments and milestones of its members.",
+        "Each member’s achievements and milestones are celebrated side by side by the community.",
+        "The community comes together to celebrate the milestones and achievements of its members.",
+        "Celebrations of one another’s achievements and milestones occur among members as a shared practice.",
+        "Members regularly gather to recognize each other's milestones and achievements.",
+        "The successes and milestones of members are honored together by all.",
+        "As a collective, members commemorate each other's achievements and milestones.",
+        "Together, the group celebrates the milestones and achievements that each member reaches.",
+        "Each member’s milestones and achievements are jointly celebrated by the whole group.",
+        "The team celebrates one another’s achievements and milestones in a collaborative manner.",
+        "In a shared setting, members celebrate each other's milestones and achievements.",
+        "The achievements and milestones of each member are collectively celebrated by their peers."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "other": [
+          "other"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "milestones": [
+          "milestones"
+        ],
+        "achievements": [
+          "achievements"
+        ],
+        "together": [
+          "together",
+          "unitedly"
+        ],
+        "celebrate": [
+          "celebrate",
+          "observe",
+          "fete"
+        ],
+        "members": [
+          "members"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Consequently, the student club continues to thrive, thanks to the dedication and enthusiasm of its members.",
+      "template_pattern": "Consequently, the student club continues to thrive, thanks to the dedication and enthusiasm of its members.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As a result, the student club keeps flourishing because of its members' dedication and enthusiasm.",
+        "The dedication and enthusiasm of its members ensure that the student club remains vibrant, consequently.",
+        "Thanks to the members’ commitment and zeal, the student club continues to prosper.",
+        "Because its members are dedicated and enthusiastic, the student club persists in thriving.",
+        "The thriving of the student club is sustained by the dedication and enthusiasm of its members.",
+        "Owing to the fervor and dedication of its participants, the club for students continues to grow.",
+        "In light of the members’ steadfast dedication and lively enthusiasm, the student club stays successful.",
+        "The continued success of the student club can be attributed to the passionate commitment of its members.",
+        "With the members’ zeal and dedication, the student club still flourishes.",
+        "The student club’s ongoing vitality is thanks to the enthusiastic and dedicated contributions of its members.",
+        "Due to the members’ enthusiastic dedication, the student club persists in thriving.",
+        "The club for students thrives, propelled by the dedication and enthusiasm of its members.",
+        "Because of the members’ dedication and spirited enthusiasm, the student club maintains its thriving status.",
+        "The thriving condition of the student club results from the committed and enthusiastic efforts of its members.",
+        "Owing to the unwavering dedication and enthusiasm of its members, the student club continues to thrive."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "thanks": [
+          "thanks"
+        ],
+        "enthusiasm": [
+          "enthusiasm",
+          "ebullience",
+          "exuberance"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "dedication": [
+          "dedication",
+          "commitment",
+          "loyalty",
+          "allegiance"
+        ],
+        "consequently": [
+          "consequently",
+          "therefore"
+        ],
+        "thrive": [
+          "thrive",
+          "expand",
+          "boom",
+          "prosper",
+          "flourish"
+        ],
+        "continues": [
+          "continues"
+        ],
+        "members": [
+          "members"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "2ce41146ee2a4a04": "id",
+    "f5908f20472e4d8f": "alignment"
+  },
+  "templates": [
+    {
+      "original": "The id for this moral alignment classification is 1.",
+      "template_pattern": "The id for this moral alignment classification is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The id for this moral alignment classification is [ID].",
+        "This moral alignment classification’s id equals [ID].",
+        "Assigned the value [ID], the id of this moral alignment classification.",
+        "The identifier for this moral alignment classification is [ID].",
+        "For this moral alignment classification, the id is set to [ID].",
+        "[ID] is the id associated with this moral alignment classification.",
+        "This moral alignment classification has an id of [ID].",
+        "The id linked to this moral alignment classification reads [ID].",
+        "In this moral alignment classification, the id is [ID].",
+        "The moral alignment classification’s id stands at [ID].",
+        "Here, the id for this moral alignment classification is [ID].",
+        "The id pertaining to this moral alignment classification amounts to [ID].",
+        "With this moral alignment classification, the id is recorded as [ID].",
+        "The id, for this moral alignment classification, equals [ID].",
+        "This moral alignment classification carries the id [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "moral": [
+          "moral",
+          "lesson"
+        ],
+        "classification": [
+          "classification",
+          "categorization",
+          "categorisation"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The hero's alignment was firmly set as Good, ensuring that justice and compassion guided every decision and action they took.",
+      "template_pattern": "The hero's alignment was firmly set as [ALIGNMENT], ensuring that justice and compassion guided every decision and action they took.",
+      "primary_data_fields": [
+        "alignment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The hero's alignment was firmly set as [ALIGNMENT], ensuring that justice and compassion guided every decision and action they took.",
+        "Because the hero's alignment was fixed at [ALIGNMENT], justice and compassion steered all of their choices and deeds.",
+        "With the hero's alignment locked in as [ALIGNMENT], each decision and action was directed by justice and compassion.",
+        "Since the hero's alignment remained [ALIGNMENT], every move they made was governed by justice and compassion.",
+        "The hero's alignment, established as [ALIGNMENT], caused justice and compassion to shape each decision and act.",
+        "Given that the hero's alignment was [ALIGNMENT], justice and compassion influenced all of their decisions and actions.",
+        "When the hero's alignment was set to [ALIGNMENT], justice and compassion directed every choice and behavior they exhibited.",
+        "By defining the hero's alignment as [ALIGNMENT], justice and compassion became the driving force behind each decision and action.",
+        "In the report, the hero's alignment appears as [ALIGNMENT], which meant that justice and compassion ruled every decision and deed.",
+        "As the hero's alignment was designated [ALIGNMENT], all of their decisions and actions were guided by justice and compassion.",
+        "The hero's alignment, marked [ALIGNMENT], ensured that justice and compassion oversaw every decision and act they performed.",
+        "Because the hero's alignment was recorded as [ALIGNMENT], justice and compassion dictated each of their choices and actions.",
+        "With [ALIGNMENT] set as the hero's alignment, justice and compassion consistently guided every decision and action they undertook.",
+        "When [ALIGNMENT] was assigned to the hero's alignment, it guaranteed that justice and compassion shaped all decisions and actions.",
+        "The hero's alignment being [ALIGNMENT] meant that justice and compassion directed every single decision and action they took."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensuring": [
+          "ensuring"
+        ],
+        "every": [
+          "every"
+        ],
+        "took": [
+          "took",
+          "acquire",
+          "conduct",
+          "get"
+        ],
+        "firmly": [
+          "firmly",
+          "securely",
+          "steadfastly",
+          "unwaveringly"
+        ],
+        "action": [
+          "action",
+          "activity"
+        ],
+        "hero": [
+          "hero",
+          "champion"
+        ],
+        "justice": [
+          "justice",
+          "Justice"
+        ],
+        "guided": [
+          "guided"
+        ]
+      },
+      "field_data_types": {
+        "alignment": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

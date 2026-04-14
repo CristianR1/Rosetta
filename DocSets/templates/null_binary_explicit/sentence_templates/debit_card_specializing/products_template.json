@@ -1,0 +1,22 @@
+{
+  "database": "debit_card_specializing",
+  "table": "products",
+  "entry_index": 0,
+  "original_data": {
+    "ProductID": "1",
+    "Description": "Rucní zadání"
+  },
+  "generated_sentences": [
+    "In the transaction log, the product with the unique identifier 1 was purchased using a debit card. (Hash: df7b67776bbd41b5)",
+    "The Description highlights Rucní zadání as a unique feature of our products, ensuring customers understand their manual input options. (Hash: fc608db66d1a4d14)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "df7b67776bbd41b5": "ProductID",
+    "f1824ee7b84b4ebb": "Description"
+  },
+  "timestamp": "2026-03-31 16:29:24"
+}

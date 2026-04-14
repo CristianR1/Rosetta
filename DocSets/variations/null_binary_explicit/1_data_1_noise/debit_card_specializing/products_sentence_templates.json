@@ -1,0 +1,263 @@
+{
+  "document_context": "manufacturing data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "df7b67776bbd41b5": "ProductID",
+    "f1824ee7b84b4ebb": "Description"
+  },
+  "templates": [
+    {
+      "original": "In the transaction log, the product with the unique identifier 1 was purchased using a debit card.",
+      "template_pattern": "In the transaction log, the product with the unique identifier [PRODUCTID] was purchased using a debit card.",
+      "primary_data_fields": [
+        "ProductID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the transaction log, Product ID [PRODUCTID] was purchased using a debit card.",
+        "According to the transaction log, a debit card was used to buy Product ID [PRODUCTID].",
+        "Product ID [PRODUCTID] was bought via a debit card, as shown in the transaction log.",
+        "The transaction log records that Product ID [PRODUCTID] was acquired with a debit card.",
+        "Using a debit card, the transaction log indicates a purchase of Product ID [PRODUCTID].",
+        "A debit card facilitated the acquisition of Product ID [PRODUCTID], per the transaction log.",
+        "In the transaction log, a debit card secured the purchase of Product ID [PRODUCTID].",
+        "Product ID [PRODUCTID] was obtained through a debit card, documented in the transaction log.",
+        "The transaction log shows Product ID [PRODUCTID] was procured by means of a debit card.",
+        "Via a debit card, Product ID [PRODUCTID] was purchased, according to the transaction log.",
+        "Transaction log entry: Product ID [PRODUCTID] purchased with a debit card.",
+        "A debit card was employed to purchase Product ID [PRODUCTID], as recorded in the transaction log.",
+        "The purchase of Product ID [PRODUCTID], made with a debit card, appears in the transaction log.",
+        "Within the transaction log, Product ID [PRODUCTID] was bought using a debit card.",
+        "Product ID [PRODUCTID]’s acquisition via debit card is noted in the transaction log."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "unequaled",
+          "singular"
+        ],
+        "purchased": [
+          "purchased"
+        ],
+        "product": [
+          "product",
+          "merchandise",
+          "ware"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "using": [
+          "using"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ]
+      },
+      "field_data_types": {
+        "ProductID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This transaction marked a significant milestone in the customer's shopping experience.",
+      "template_pattern": "This transaction marked a significant milestone in the customer's shopping experience.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The purchase represented a major breakthrough in the buyer’s shopping journey.",
+        "In the customer's shopping experience, this transaction served as a notable landmark.",
+        "This sale constituted a pivotal point for the client’s purchasing experience.",
+        "A significant milestone in the shopper’s experience was signaled by this transaction.",
+        "Marking an important step, the transaction advanced the customer's shopping experience.",
+        "The customer's shopping experience reached a key milestone with this transaction.",
+        "This transaction was identified as a critical milestone within the buyer’s shopping process.",
+        "For the client, the purchase acted as a substantial marker in their shopping experience.",
+        "A landmark achievement in the shopper’s experience was achieved through this transaction.",
+        "The transaction, acting as a notable milestone, reshaped the customer's shopping experience.",
+        "Within the customer's shopping journey, this transaction marked a decisive turning point.",
+        "This deal highlighted a significant milestone in the consumer’s buying experience.",
+        "The customer's shopping experience was punctuated by this transaction as a major milestone.",
+        "By this transaction, a key milestone was set in the buyer’s shopping narrative.",
+        "The purchase introduced a noteworthy milestone into the client’s shopping experience."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "shopping": [
+          "shopping"
+        ],
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "experience": [
+          "experience"
+        ],
+        "milestone": [
+          "milestone",
+          "milepost"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Description of the products and services highlights the Rucní zadání option for customers seeking detailed, manual input guidance.",
+      "template_pattern": "The Description of the products and services highlights the [DESCRIPTION] option for customers seeking detailed, manual input guidance.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Description of the products and services underscores the [DESCRIPTION] option for customers seeking detailed, manual input guidance.",
+        "In the Description, the products and services section spotlights the [DESCRIPTION] alternative for customers who need detailed, manual input guidance.",
+        "Customers looking for detailed, manual input guidance will find the [DESCRIPTION] choice highlighted in the Description of the products and services.",
+        "Highlighted within the Description of the products and services is the [DESCRIPTION] option, aimed at customers seeking detailed, manual input guidance.",
+        "The products and services Description emphasizes the [DESCRIPTION] feature for customers desiring detailed, manual input guidance.",
+        "For customers seeking detailed, manual input guidance, the Description of the products and services draws attention to the [DESCRIPTION] option.",
+        "The [DESCRIPTION] option is prominently featured in the Description of the products and services for customers who require detailed, manual input guidance.",
+        "Within the Description of the products and services, the [DESCRIPTION] alternative is highlighted for customers seeking detailed, manual input guidance.",
+        "Customers who need detailed, manual input guidance are directed to the [DESCRIPTION] option, as highlighted in the Description of the products and services.",
+        "The Description of the products and services points out the [DESCRIPTION] option for customers looking for detailed, manual input guidance.",
+        "In the products and services Description, the [DESCRIPTION] choice is accentuated for customers seeking detailed, manual input guidance.",
+        "The [DESCRIPTION] option receives emphasis in the Description of the products and services, catering to customers seeking detailed, manual input guidance.",
+        "For those customers seeking detailed, manual input guidance, the Description of the products and services highlights the [DESCRIPTION] option.",
+        "The Description of the products and services brings the [DESCRIPTION] option to the fore for customers who want detailed, manual input guidance.",
+        "Highlighted in the Description of the products and services is the [DESCRIPTION] option, intended for customers seeking detailed, manual input guidance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "input": [
+          "input",
+          "remark",
+          "comment"
+        ],
+        "detailed": [
+          "detailed",
+          "elaborate",
+          "elaborated"
+        ],
+        "highlights": [
+          "highlights"
+        ],
+        "services": [
+          "services"
+        ],
+        "customers": [
+          "customers"
+        ],
+        "option": [
+          "option",
+          "alternative",
+          "selection",
+          "choice",
+          "pick"
+        ],
+        "guidance": [
+          "guidance",
+          "counsel",
+          "direction",
+          "counseling",
+          "counselling"
+        ],
+        "seeking": [
+          "seeking"
+        ]
+      },
+      "field_data_types": {
+        "Description": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "By offering diverse options, we continue to enhance user satisfaction and engagement.",
+      "template_pattern": "By offering diverse options, we continue to enhance user satisfaction and engagement.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Offering a range of choices, we keep boosting user satisfaction and engagement.",
+        "By providing varied alternatives, user satisfaction and engagement are continually improved.",
+        "We enhance both satisfaction and engagement among users through the provision of diverse options.",
+        "Diverse options are being offered, which sustains the rise in user satisfaction and engagement.",
+        "Through the supply of multiple choices, we persistently elevate user satisfaction and engagement.",
+        "User satisfaction and engagement are further enhanced as we present an assortment of options.",
+        "Presenting a wide variety of options allows us to continually increase user satisfaction and engagement.",
+        "As we deliver varied selections, we maintain growth in user satisfaction and engagement.",
+        "The continual offering of diverse alternatives drives higher user satisfaction and engagement.",
+        "By introducing multiple options, we consistently improve both user satisfaction and engagement.",
+        "User satisfaction and engagement are steadily heightened thanks to our diverse option offerings.",
+        "With an array of choices at hand, we sustain the uplift of user satisfaction and engagement.",
+        "The provision of diverse options keeps user satisfaction and engagement on an upward trajectory.",
+        "We persist in raising user satisfaction and engagement by supplying a broad spectrum of options.",
+        "Through offering varied options, user satisfaction and engagement are perpetually enhanced."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "options": [
+          "options"
+        ],
+        "continue": [
+          "continue",
+          "proceed",
+          "extend"
+        ],
+        "engagement": [
+          "engagement",
+          "involvement",
+          "participation",
+          "appointment"
+        ],
+        "offering": [
+          "offering",
+          "offer",
+          "bid",
+          "tender"
+        ],
+        "user": [
+          "user"
+        ],
+        "satisfaction": [
+          "satisfaction",
+          "gratification"
+        ],
+        "enhance": [
+          "enhance",
+          "raise",
+          "heighten"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

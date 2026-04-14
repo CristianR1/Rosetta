@@ -1,0 +1,281 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "1833097d0e31451f": "link_to_event",
+    "99a26007fbd64ed5": "link_to_member"
+  },
+  "templates": [
+    {
+      "original": "The student club was buzzing with excitement as members gathered for another engaging session.",
+      "template_pattern": "The student club was buzzing with excitement as members gathered for another engaging session.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Excitement filled the student club as members convened for yet another lively session.",
+        "The student club buzzed with enthusiasm while its members assembled for an engaging meeting.",
+        "As members gathered for another captivating session, the student club was humming with excitement.",
+        "Another spirited session drew the members together, causing the student club to buzz with anticipation.",
+        "The atmosphere in the student club crackled with excitement as the members met for a new interactive session.",
+        "With members converging for a fresh engaging session, the student club resonated with lively excitement.",
+        "A fresh engaging session brought the members together, and the student club rang with excitement.",
+        "The student club was alive with excitement as members gathered for an additional engaging gathering.",
+        "As the student club prepared for another engaging session, excitement surged among the assembled members.",
+        "Members assembled for another engaging session, and the student club buzzed with palpable excitement.",
+        "The buzz of excitement echoed through the student club when members gathered for a further engaging session.",
+        "For another engaging session, the student club swarmed with members, all buzzing with excitement.",
+        "The student club, abuzz with excitement, welcomed members gathering for yet another engaging session.",
+        "Gathering for another engaging session, the members filled the student club with a buzzing excitement.",
+        "Excitement rippled through the student club as members came together for an additional engaging session."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "engaging": [
+          "engaging"
+        ],
+        "buzzing": [
+          "buzzing",
+          "abuzz"
+        ],
+        "members": [
+          "members"
+        ],
+        "excitement": [
+          "excitement",
+          "fervor",
+          "fervour",
+          "exhilaration"
+        ],
+        "gathered": [
+          "gathered",
+          "collected"
+        ],
+        "session": [
+          "session",
+          "sitting"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "another": [
+          "another"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "To access detailed information about the club event, please follow this link_to_event: rec2N69DMcrqN9PJC.",
+      "template_pattern": "To access detailed information about the club event, please follow this link_to_event: [LINK_TO_EVENT].",
+      "primary_data_fields": [
+        "link_to_event"
+      ],
+      "foreign_data_fields": [],
+      "variations": [],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "please": [
+          "please",
+          "delight"
+        ],
+        "access": [
+          "access",
+          "entree",
+          "admission",
+          "accession",
+          "approach",
+          "admittance"
+        ],
+        "information": [
+          "information",
+          "info",
+          "entropy",
+          "data"
+        ],
+        "follow": [
+          "follow",
+          "succeed",
+          "accompany",
+          "postdate",
+          "come",
+          "surveil",
+          "watch"
+        ],
+        "detailed": [
+          "detailed",
+          "elaborated",
+          "elaborate",
+          "detail"
+        ],
+        "club": [
+          "club",
+          "nine",
+          "nightspot",
+          "bludgeon",
+          "lodge",
+          "society",
+          "cabaret"
+        ],
+        "event": [
+          "event",
+          "effect",
+          "result",
+          "issue",
+          "outcome",
+          "upshot",
+          "case"
+        ],
+        "about": [
+          "about",
+          "astir",
+          "some",
+          "around",
+          "approximately",
+          "almost"
+        ]
+      },
+      "field_data_types": {
+        "link_to_event": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "After the event, participants lingered, discussing their favorite moments and plans for future meetings.",
+      "template_pattern": "After the event, participants lingered, discussing their favorite moments and plans for future meetings.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "favorite": [
+          "favorite",
+          "dearie",
+          "favourite",
+          "preferent",
+          "favored",
+          "ducky"
+        ],
+        "discussing": [
+          "discussing",
+          "discourse",
+          "discuss"
+        ],
+        "moments": [
+          "moments",
+          "moment",
+          "second",
+          "bit",
+          "minute",
+          "import"
+        ],
+        "participants": [
+          "participants",
+          "participant",
+          "player"
+        ],
+        "plans": [
+          "plans",
+          "program",
+          "plan",
+          "contrive",
+          "programme",
+          "project"
+        ],
+        "their": [
+          "their"
+        ],
+        "future": [
+          "future",
+          "succeeding",
+          "futurity",
+          "hereafter",
+          "next"
+        ],
+        "after": [
+          "after",
+          "later",
+          "afterwards",
+          "afterward",
+          "subsequently"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "At the last meeting, the attendance of each member, including link_to_member recD078PnS3x2doBe, was meticulously recorded.",
+      "template_pattern": "At the last meeting, the attendance of each member, including link_to_member [LINK_TO_MEMBER], was meticulously recorded.",
+      "primary_data_fields": [
+        "link_to_member"
+      ],
+      "foreign_data_fields": [],
+      "variations": [],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "attendance": [
+          "attendance",
+          "attending"
+        ],
+        "last": [
+          "last",
+          "end",
+          "close",
+          "net",
+          "lowest",
+          "utmost",
+          "endure"
+        ],
+        "meeting": [
+          "meeting",
+          "encounter",
+          "receive",
+          "satisfy",
+          "play",
+          "fulfil",
+          "fulfill"
+        ],
+        "member": [
+          "member",
+          "phallus",
+          "appendage",
+          "extremity",
+          "penis"
+        ],
+        "including": [
+          "including",
+          "include",
+          "admit"
+        ],
+        "recorded": [
+          "recorded",
+          "read",
+          "tape",
+          "register",
+          "commemorate",
+          "enter",
+          "memorialize"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "meticulously": [
+          "meticulously"
+        ]
+      },
+      "field_data_types": {
+        "link_to_member": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

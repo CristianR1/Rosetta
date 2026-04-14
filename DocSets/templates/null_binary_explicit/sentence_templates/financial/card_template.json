@@ -1,0 +1,28 @@
+{
+  "database": "financial",
+  "table": "card",
+  "entry_index": 0,
+  "original_data": {
+    "card_id": "1",
+    "disp_id": "9",
+    "type": "gold",
+    "issued": "1998-10-16"
+  },
+  "generated_sentences": [
+    "The credit card ending in 1234 has been assigned the unique identifier 1 to streamline transaction tracking. (Hash: 6932cbf0ee7e4b03)",
+    "The transaction was easily identified by its unique disp_id, which was listed as 9. (Hash: 3eda267f41e84fe6)",
+    "The new credit card offers exclusive benefits as it falls under the gold type, attracting premium users. (Hash: 87d4a10d725a4725)",
+    "The credit card was issued on 1998-10-16, marking the beginning of its validity period. (Hash: 0ccaca4deb50434f)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "6932cbf0ee7e4b03": "card_id",
+    "3eda267f41e84fe6": "disp_id",
+    "87d4a10d725a4725": "type",
+    "0ccaca4deb50434f": "issued"
+  },
+  "timestamp": "2026-03-31 16:38:41"
+}

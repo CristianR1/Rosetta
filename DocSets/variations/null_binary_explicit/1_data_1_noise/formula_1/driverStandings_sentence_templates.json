@@ -1,0 +1,885 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "0f11f10b6f024316": "driverStandingsId",
+    "253421f2aaa1441e": "raceId",
+    "5051e1f02b2f474a": "driverId",
+    "32c5414496ab4f47": "points",
+    "83ab801f9f66411c": "position",
+    "bf836f98c4154518": "positionText",
+    "02e0cfa51ffe4815": "wins"
+  },
+  "templates": [
+    {
+      "original": "Every Formula 1 driver receives a unique identification number used to track their performance throughout the championship.",
+      "template_pattern": "Every Formula [DRIVERID] driver receives a unique identification number used to track their performance throughout the championship.",
+      "primary_data_fields": [
+        "driverId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each Formula [DRIVERID] driver is assigned a unique driver Id that tracks their performance for the entire championship.",
+        "A unique driver Id is given to every Formula [DRIVERID] driver to monitor their results throughout the season.",
+        "Throughout the championship, the performance of each Formula [DRIVERID] driver is followed by a distinct driver Id.",
+        "Every Formula [DRIVERID] competitor receives a singular driver Id, which is used to follow their performance across the series.",
+        "To keep tabs on their results during the championship, each Formula [DRIVERID] driver is allocated a unique driver Id.",
+        "The championship employs a specific driver Id for every Formula [DRIVERID] driver to record their performance.",
+        "By assigning a unique driver Id to each Formula [DRIVERID] driver, officials can trace their performance over the whole season.",
+        "For the duration of the championship, a distinct driver Id is attached to every Formula [DRIVERID] driver to log their performance.",
+        "Each Formula [DRIVERID] driver’s performance is tracked through a dedicated driver Id throughout the championship.",
+        "A dedicated driver Id, unique to each Formula [DRIVERID] driver, is utilized to monitor performance across the entire championship.",
+        "The performance of all Formula [DRIVERID] drivers is monitored via a unique driver Id assigned to each for the championship.",
+        "Throughout the season, a unique driver Id accompanies every Formula [DRIVERID] driver, enabling performance tracking.",
+        "Officials assign a singular driver Id to each Formula [DRIVERID] driver, allowing their performance to be followed throughout the championship.",
+        "A unique driver Id, linked to each Formula [DRIVERID] driver, serves to track their results for the whole championship.",
+        "To follow a driver’s performance during the championship, each Formula [DRIVERID] participant receives a unique driver Id."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "every": [
+          "every"
+        ],
+        "performance": [
+          "performance",
+          "operation",
+          "execution",
+          "functioning"
+        ],
+        "receives": [
+          "receives"
+        ],
+        "their": [
+          "their"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern"
+        ],
+        "championship": [
+          "championship"
+        ],
+        "throughout": [
+          "throughout"
+        ]
+      },
+      "field_data_types": {
+        "driverId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Competition is fierce as drivers vie for the coveted top spot.",
+      "template_pattern": "Competition is fierce as drivers vie for the coveted top spot.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The race for the prized leading position is marked by intense competition among drivers.",
+        "Drivers are locked in a cutthroat battle to secure the coveted top spot.",
+        "A fierce contest unfolds as drivers vie for the highly sought-after number one position.",
+        "The coveted top spot drives intense rivalry among the competitors.",
+        "Intense competition grips the field as drivers chase the prized premier place.",
+        "The coveted leading position fuels a stiff struggle among the drivers.",
+        "Drivers contend fiercely for the sought-after top ranking.",
+        "The battle for the prized first place is fierce, with drivers competing relentlessly.",
+        "A heated contest sees drivers competing for the coveted top slot.",
+        "The top spot, highly coveted, incites fierce competition among drivers.",
+        "Drivers are engaged in a vigorous fight to claim the prized leading spot.",
+        "Fierce rivalry erupts as drivers aim for the coveted number one position.",
+        "The coveted premier place triggers an intense scramble among the drivers.",
+        "Competition is cutthroat as drivers pursue the sought-after top spot.",
+        "The highly prized top position is the focus of fierce competition among drivers."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "competition": [
+          "competition",
+          "contention",
+          "rivalry",
+          "contest"
+        ],
+        "fierce": [
+          "fierce",
+          "ferocious",
+          "vehement",
+          "cutthroat"
+        ],
+        "drivers": [
+          "drivers"
+        ],
+        "coveted": [
+          "coveted",
+          "desired"
+        ],
+        "spot": [
+          "spot",
+          "position",
+          "point",
+          "place",
+          "post"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The unique identifier for the driver's standings in the Formula 1 championship is 1, highlighting their performance within the competition.",
+      "template_pattern": "The unique identifier for the driver's standings in the Formula [DRIVERSTANDINGSID] championship is [DRIVERSTANDINGSID], highlighting their performance within the competition.",
+      "primary_data_fields": [
+        "driverStandingsId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The driverStandingsId equal to [DRIVERSTANDINGSID] identifies the driver’s standings in the Formula [DRIVERSTANDINGSID] championship, emphasizing their performance.",
+        "A driverStandingsId of [DRIVERSTANDINGSID] marks the driver’s position in the Formula [DRIVERSTANDINGSID] championship and showcases how they performed.",
+        "In the Formula [DRIVERSTANDINGSID] championship, the driver’s standings are referenced by driverStandingsId [DRIVERSTANDINGSID], which highlights their performance.",
+        "The driver’s standings in the Formula [DRIVERSTANDINGSID] championship are signified by driverStandingsId [DRIVERSTANDINGSID], drawing attention to their performance.",
+        "DriverStandingsId [DRIVERSTANDINGSID] serves as the unique key for the driver’s standings within the Formula [DRIVERSTANDINGSID] championship, underlining their performance.",
+        "Identified by driverStandingsId [DRIVERSTANDINGSID], the driver’s standings in the Formula [DRIVERSTANDINGSID] championship reflect their performance.",
+        "The unique driverStandingsId—1—points to the driver’s standings in the Formula [DRIVERSTANDINGSID] championship and underscores their performance.",
+        "For the Formula [DRIVERSTANDINGSID] championship, driverStandingsId [DRIVERSTANDINGSID] denotes the driver’s standings, highlighting how they performed.",
+        "By assigning driverStandingsId [DRIVERSTANDINGSID], the driver’s standings in the Formula [DRIVERSTANDINGSID] championship are highlighted, indicating their performance.",
+        "The driver’s standings in the Formula [DRIVERSTANDINGSID] championship are captured by driverStandingsId [DRIVERSTANDINGSID], which brings their performance into focus.",
+        "With driverStandingsId set to [DRIVERSTANDINGSID], the driver’s standings in the Formula [DRIVERSTANDINGSID] championship are marked, showcasing their performance.",
+        "DriverStandingsId [DRIVERSTANDINGSID] is the identifier for the driver’s standings in the Formula [DRIVERSTANDINGSID] championship, pointing out their performance.",
+        "The driver’s standings in the Formula [DRIVERSTANDINGSID] championship receive the identifier driverStandingsId [DRIVERSTANDINGSID], accentuating their performance.",
+        "Through driverStandingsId [DRIVERSTANDINGSID], the driver’s standings within the Formula [DRIVERSTANDINGSID] championship are identified, emphasizing their performance.",
+        "In the Formula [DRIVERSTANDINGSID] championship, the driver’s standings are assigned driverStandingsId [DRIVERSTANDINGSID], which highlights their performance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "competition": [
+          "competition",
+          "rivalry",
+          "contest",
+          "contention"
+        ],
+        "performance": [
+          "performance",
+          "execution",
+          "functioning",
+          "operation"
+        ],
+        "highlighting": [
+          "highlighting",
+          "spotlight"
+        ],
+        "their": [
+          "their"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "pattern",
+          "recipe",
+          "convention"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ]
+      },
+      "field_data_types": {
+        "driverStandingsId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Fans watched eagerly as the racers pushed their limits on the track.",
+      "template_pattern": "Fans watched eagerly as the racers pushed their limits on the track.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The spectators leaned forward, eagerly observing the racers as they tested the boundaries of the track.",
+        "Eager eyes of the fans followed the drivers while they stretched their limits on the circuit.",
+        "On the track, the racers pushed their limits, and the fans watched with anticipation.",
+        "With great enthusiasm, the audience watched the competitors push the track’s limits.",
+        "The track’s limits were being challenged by the racers, while the fans observed attentively.",
+        "Fans, full of anticipation, watched the athletes as they drove to the edge of the track’s capabilities.",
+        "As the racers strained their abilities on the circuit, the crowd watched eagerly.",
+        "The crowd’s eager gaze followed the racers as they pushed the limits of the track.",
+        "While the drivers tested the track’s extremes, the fans watched with keen interest.",
+        "Eagerly, the fans monitored the racers as they pushed their performance boundaries on the track.",
+        "The racers, pushing their limits on the circuit, were watched intently by the enthusiastic fans.",
+        "Observing the racers’ attempt to exceed the track’s limits, the fans waited with excitement.",
+        "On the racing line, competitors stretched their capabilities, and the audience watched anxiously.",
+        "The enthusiastic spectators watched as the drivers forced the track to its limits.",
+        "As the competitors pushed the track’s boundaries, the fans looked on with eager anticipation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "eagerly": [
+          "eagerly"
+        ],
+        "fans": [
+          "fans",
+          "devotees"
+        ],
+        "pushed": [
+          "pushed"
+        ],
+        "their": [
+          "their"
+        ],
+        "limits": [
+          "limits"
+        ],
+        "watched": [
+          "watched"
+        ],
+        "racers": [
+          "racers"
+        ],
+        "track": [
+          "track",
+          "path",
+          "course",
+          "trail",
+          "rail",
+          "racetrack"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The excitement reached its peak during the Formula 1 season as raceId 18 marked a pivotal moment in the championship.",
+      "template_pattern": "The excitement reached its peak during the Formula 1 season as raceId [RACEID] marked a pivotal moment in the championship.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The excitement peaked during the Formula 1 season when raceId [RACEID] became a turning point in the championship.",
+        "During the Formula 1 season, the championship saw its excitement reach a high point as raceId [RACEID] marked a pivotal moment.",
+        "A surge of excitement hit its zenith in the Formula 1 season, with raceId [RACEID] signalling a crucial juncture in the championship.",
+        "The championship's excitement climbed to its apex in the Formula 1 season, highlighted by raceId [RACEID].",
+        "In the Formula 1 season, excitement attained its maximum as raceId [RACEID] served as a key moment for the championship.",
+        "The Formula 1 season witnessed excitement hitting its summit, raceId [RACEID] being the defining episode of the championship.",
+        "RaceId [RACEID], during the Formula 1 season, marked a decisive point that pushed the championship's excitement to its peak.",
+        "The peak of excitement was reached in the championship during the Formula 1 season when raceId [RACEID] occurred.",
+        "As the Formula 1 season unfolded, raceId [RACEID] emerged as a pivotal event, driving the championship's excitement to its highest level.",
+        "The championship’s excitement surged to its highest level in the Formula 1 season, thanks to raceId [RACEID].",
+        "During the Formula 1 season, the excitement of the championship culminated with raceId [RACEID] as a critical turning point.",
+        "The excitement of the championship rose to its climax in the Formula 1 season, with raceId [RACEID] marking a vital moment.",
+        "In the course of the Formula 1 season, raceId [RACEID] was the moment that propelled the championship’s excitement to its peak.",
+        "The Formula 1 season saw the championship’s excitement soar, peaking when raceId [RACEID] took place.",
+        "When raceId [RACEID] happened during the Formula 1 season, the championship experienced its utmost excitement."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "during": [
+          "during"
+        ],
+        "moment": [
+          "moment",
+          "second",
+          "minute",
+          "instant"
+        ],
+        "excitement": [
+          "excitement",
+          "fervor",
+          "fervour",
+          "exhilaration"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "pivotal": [
+          "pivotal"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern",
+          "recipe"
+        ],
+        "peak": [
+          "peak",
+          "top",
+          "point",
+          "height",
+          "extremum",
+          "crest"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour",
+          "temper"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The tension in the air was palpable as the championship progressed.",
+      "template_pattern": "The tension in the air was palpable as the championship progressed.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As the championship advanced, the atmosphere grew thick with palpable tension.",
+        "The progression of the championship made the tension in the air unmistakably palpable.",
+        "Palpable tension hung in the air while the championship moved forward.",
+        "While the championship was progressing, one could feel a tangible tension in the surroundings.",
+        "The air was charged with a palpable tension as the championship continued its course.",
+        "During the championship's progression, the tension in the environment was clearly felt.",
+        "A noticeable tension pervaded the air as the championship proceeded.",
+        "The championship's forward march left the air heavy with an evident tension.",
+        "As the competition unfolded, the tension in the air became palpably intense.",
+        "The air's tension was palpable throughout the championship's advancement.",
+        "In the midst of the championship's development, the tension in the air could be felt distinctly.",
+        "The advancing championship rendered the surrounding air palpably tense.",
+        "Throughout the championship's progression, a palpable tension lingered in the air.",
+        "The tension that filled the air was palpable as the championship moved onward.",
+        "As the championship progressed, the surrounding atmosphere was thick with palpable tension."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "progressed": [
+          "progressed"
+        ],
+        "palpable": [
+          "palpable",
+          "tangible"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "tension": [
+          "tension",
+          "stress",
+          "tenseness"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "During the intense Formula 1 race, the driver skillfully earned 10 points, boosting his standing in the championship rankings.",
+      "template_pattern": "During the intense Formula 1 race, the driver skillfully earned [POINTS] points, boosting his standing in the championship rankings.",
+      "primary_data_fields": [
+        "points"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the intense Formula 1 race, the driver deftly secured [POINTS] points, elevating his position in the championship rankings.",
+        "The championship rankings were boosted when, during the intense Formula 1 race, the driver skillfully amassed [POINTS] points.",
+        "In the heat of the intense Formula 1 race, the driver managed to earn [POINTS] points, thereby improving his standing in the championship rankings.",
+        "Thanks to a skillful drive in the intense Formula 1 race, [POINTS] points were added to his total, lifting his rank in the championship standings.",
+        "While the intense Formula 1 race raged on, the driver captured [POINTS] points, which raised his place in the championship rankings.",
+        "The driver’s adept performance in the intense Formula 1 race resulted in [POINTS] points, pushing his championship ranking higher.",
+        "As the intense Formula 1 race unfolded, [POINTS] points were earned by the driver, augmenting his standing within the championship rankings.",
+        "By navigating the intense Formula 1 race with expertise, the driver collected [POINTS] points and consequently advanced his position in the championship rankings.",
+        "The intense Formula 1 race saw the driver accumulate [POINTS] points, a gain that boosted his rank in the championship standings.",
+        "With a skillful maneuvering during the intense Formula 1 race, the driver secured [POINTS] points, thereby enhancing his placement in the championship rankings.",
+        "During the intense Formula 1 race, [POINTS] points were skillfully obtained by the driver, improving his standing in the championship rankings.",
+        "The driver, executing a proficient run in the intense Formula 1 race, earned [POINTS] points and saw his championship ranking rise.",
+        "Owing to his skill in the intense Formula 1 race, the driver added [POINTS] points, which lifted his position in the championship rankings.",
+        "In the midst of the intense Formula 1 race, the driver’s adept effort netted [POINTS] points, pushing his championship ranking upward.",
+        "The intense Formula 1 race produced a result where the driver secured [POINTS] points, consequently boosting his standing in the championship rankings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "during": [
+          "during"
+        ],
+        "standing": [
+          "standing"
+        ],
+        "earned": [
+          "earned"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern",
+          "recipe"
+        ],
+        "boosting": [
+          "boosting"
+        ],
+        "intense": [
+          "intense",
+          "acute"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ]
+      },
+      "field_data_types": {
+        "points": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Spectators held their breath, witnessing remarkable displays of skill and strategy.",
+      "template_pattern": "Spectators held their breath, witnessing remarkable displays of skill and strategy.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Spectators paused their breathing as they watched the impressive feats of skill and strategy.",
+        "The audience held their breath while observing the outstanding displays of skill and strategy.",
+        "Holding their breath, the onlookers witnessed remarkable demonstrations of skill and strategy.",
+        "Remarkable skill and strategic play were observed by spectators who literally held their breath.",
+        "Spectators, breathless, took in the extraordinary displays of skill and strategy.",
+        "While spectators held their breath, they witnessed the notable showcases of skill and strategy.",
+        "Breath held, the crowd observed the striking exhibitions of skill and strategy.",
+        "The breath of the spectators was held as they took in the remarkable skill and strategic maneuvers.",
+        "Spectators, with breath suspended, bore witness to the impressive skill and strategy on display.",
+        "Observing the remarkable skill and strategic tactics, the audience held their breath.",
+        "The audience’s breath was caught as they watched the exceptional displays of skill and strategy.",
+        "Spectators, breath in check, watched the notable performances of skill and strategy unfold.",
+        "With their breath held, the spectators observed the remarkable exhibitions of skill and strategy.",
+        "The remarkable displays of skill and strategy were seen by spectators who kept their breath.",
+        "Spectators, breath held, bore witness to the impressive demonstrations of skill and strategy."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "breath": [
+          "breath"
+        ],
+        "witnessing": [
+          "witnessing"
+        ],
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "held": [
+          "held"
+        ],
+        "their": [
+          "their"
+        ],
+        "displays": [
+          "displays"
+        ],
+        "spectators": [
+          "spectators"
+        ],
+        "remarkable": [
+          "remarkable",
+          "noteworthy",
+          "singular"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "This season, one driver managed to secure a 1 victory in the Formula 1 championship.",
+      "template_pattern": "This season, one driver managed to secure a [WINS] victory in the Formula [WINS] championship.",
+      "primary_data_fields": [
+        "wins"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During this season, a single driver clinched a solitary [WINS] win in the Formula [WINS] championship.",
+        "In the Formula [WINS] championship this year, one driver managed to achieve [WINS] win.",
+        "A lone competitor captured [WINS] win in the Formula [WINS] championship throughout the current season.",
+        "This season saw one driver lock in [WINS] win within the Formula [WINS] championship.",
+        "Within the Formula [WINS] championship, only one driver recorded a [WINS] win this season.",
+        "One driver was able to obtain a [WINS] win in the Formula [WINS] championship during the present season.",
+        "Across the current season, a solitary driver secured a [WINS] win in the Formula [WINS] championship.",
+        "The Formula [WINS] championship this season featured a single driver who earned [WINS] win.",
+        "In the ongoing season, [WINS] win was secured by just one driver in the Formula [WINS] championship.",
+        "A single driver managed to notch a [WINS] win in the Formula [WINS] championship this season.",
+        "Throughout this season, only one driver achieved a [WINS] win in the Formula [WINS] championship.",
+        "The current Formula [WINS] championship season produced a lone driver with [WINS] win.",
+        "One driver captured a [WINS] win in the Formula [WINS] championship during the season at hand.",
+        "During the present season, a solitary driver attained a [WINS] win in the Formula [WINS] championship.",
+        "In this season’s Formula [WINS] championship, a lone driver secured a [WINS] win."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "managed": [
+          "managed"
+        ],
+        "victory": [
+          "victory",
+          "triumph"
+        ],
+        "secure": [
+          "secure",
+          "safe",
+          "dependable",
+          "strong"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "season": [
+          "season",
+          "harden",
+          "temper"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern",
+          "recipe"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ]
+      },
+      "field_data_types": {
+        "wins": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The outcome of each race seemed to hang in the balance until the very end.",
+      "template_pattern": "The outcome of each race seemed to hang in the balance until the very end.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each race's result appeared to teeter on the edge right up to the finish.",
+        "The outcome of every race remained in suspense until the very last moment.",
+        "Until the final seconds, the result of each race hung precariously in the balance.",
+        "It seemed that the conclusion of each race stayed undecided until the end.",
+        "The finish of each race kept the outcome poised on a knife‑edge through to the close.",
+        "Throughout the entire event, each race's outcome was balanced on a thin line until the end.",
+        "The final outcome of every race was left hanging in the balance up to the very end.",
+        "Until the concluding moment, the result of each race was effectively on hold.",
+        "Each race's ending remained uncertain, poised in the balance right through to the finish.",
+        "The balance of each race's outcome was maintained until the very end.",
+        "Up to the last instant, the outcome of each race lingered in a state of uncertainty.",
+        "The result of every race seemed to dangle in limbo until the final second.",
+        "It was as if the outcome of each race stayed in equilibrium until the very end.",
+        "The conclusion of each race hung in the balance, persisting until the finish line.",
+        "Until the ultimate moment, each race's outcome appeared to be hanging in the balance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "very": [
+          "very",
+          "really"
+        ],
+        "hang": [
+          "hang",
+          "cling"
+        ],
+        "until": [
+          "until"
+        ],
+        "balance": [
+          "balance",
+          "equilibrium",
+          "counterbalance",
+          "counterweight",
+          "equipoise",
+          "poise"
+        ],
+        "outcome": [
+          "outcome",
+          "effect",
+          "result",
+          "issue",
+          "resultant",
+          "upshot"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "seemed": [
+          "seemed"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The driver currently holds position 1 in the Formula 1 championship standings.",
+      "template_pattern": "The driver currently holds position [POSITION] in the Formula [POSITION] championship standings.",
+      "primary_data_fields": [
+        "position"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "At present, the driver occupies position [POSITION] in the Formula [POSITION] championship standings.",
+        "Position [POSITION] in the Formula [POSITION] championship standings is currently held by the driver.",
+        "The driver is presently in position [POSITION] of the Formula [POSITION] championship standings.",
+        "In the Formula [POSITION] championship standings, the driver presently holds position [POSITION].",
+        "Currently, position [POSITION] of the Formula [POSITION] championship standings belongs to the driver.",
+        "The driver leads the Formula [POSITION] championship standings, sitting in position [POSITION].",
+        "Position [POSITION] in the Formula [POSITION] championship standings is occupied by the driver at this time.",
+        "As of now, the driver commands position [POSITION] in the Formula [POSITION] championship standings.",
+        "The Formula [POSITION] championship standings show the driver at position [POSITION] currently.",
+        "In the current Formula [POSITION] championship standings, the driver is in position [POSITION].",
+        "Position [POSITION] of the Formula [POSITION] championship standings is held by the driver right now.",
+        "The driver currently ranks at position [POSITION] in the Formula [POSITION] championship standings.",
+        "Within the Formula [POSITION] championship standings, the driver presently occupies position [POSITION].",
+        "At this moment, the driver maintains position [POSITION] in the Formula [POSITION] championship standings.",
+        "The driver’s current standing is position [POSITION] in the Formula [POSITION] championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "holds": [
+          "holds",
+          "has"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "pattern",
+          "convention"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "standings": [
+          "standings",
+          "standing"
+        ]
+      },
+      "field_data_types": {
+        "position": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With each passing race, the stakes grew higher, intensifying the competition.",
+      "template_pattern": "With each passing race, the stakes grew higher, intensifying the competition.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As every race unfolded, the stakes rose, making the competition more intense.",
+        "Each subsequent race raised the stakes, thereby heightening the level of competition.",
+        "The competition was intensified as the stakes climbed with every new race.",
+        "With each new race, stakes increased, which amplified the competitive pressure.",
+        "As races progressed, the stakes escalated, sharpening the rivalry.",
+        "The stakes grew higher race by race, boosting the intensity of the contest.",
+        "By the time each race passed, the stakes had risen, intensifying the competition.",
+        "Each race that passed elevated the stakes, consequently intensifying the competition.",
+        "The competition became fiercer as the stakes rose with each successive race.",
+        "With every race completed, the stakes rose, and the competition grew more intense.",
+        "The stakes were heightened with each race, leading to a more intense competition.",
+        "As the series of races continued, the stakes climbed, intensifying the competitive environment.",
+        "Each progressing race lifted the stakes, thereby sharpening the competition.",
+        "The rising stakes, observed after each race, amplified the intensity of the competition.",
+        "As each race went by, the stakes increased, intensifying the competitive dynamics."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "competition": [
+          "competition",
+          "rivalry",
+          "contest"
+        ],
+        "intensifying": [
+          "intensifying"
+        ],
+        "stakes": [
+          "stakes"
+        ],
+        "grew": [
+          "grew"
+        ],
+        "passing": [
+          "passing"
+        ],
+        "higher": [
+          "higher"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "race": [
+          "race"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "In the championship standings, the Formula 1 driver constantly holds the prestigious position of 1.",
+      "template_pattern": "In the championship standings, the Formula [POSITIONTEXT] driver constantly holds the prestigious position of [POSITIONTEXT].",
+      "primary_data_fields": [
+        "positionText"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the championship standings, the Formula [POSITIONTEXT] driver consistently occupies the distinguished position Text of [POSITIONTEXT].",
+        "The Formula [POSITIONTEXT] driver perpetually maintains the elite position Text numbered [POSITIONTEXT] in the championship leaderboard.",
+        "In the championship table, the position Text of [POSITIONTEXT] is continuously held by the Formula [POSITIONTEXT] driver.",
+        "Across the championship rankings, the Formula [POSITIONTEXT] driver repeatedly secures the coveted position Text of [POSITIONTEXT].",
+        "The prestigious position Text of [POSITIONTEXT] remains constantly assigned to the Formula [POSITIONTEXT] driver in the championship standings.",
+        "Holding the honored position Text of [POSITIONTEXT], the Formula [POSITIONTEXT] driver stays unchanged in the championship ranking.",
+        "In the championship hierarchy, the Formula [POSITIONTEXT] driver is ever‑present in the prominent position Text of [POSITIONTEXT].",
+        "The Formula [POSITIONTEXT] driver, in the championship standings, is always listed at the revered position Text of [POSITIONTEXT].",
+        "Consistently, the championship leaderboard shows the Formula [POSITIONTEXT] driver at the prized position Text of [POSITIONTEXT].",
+        "At the top of the championship standings, the Formula [POSITIONTEXT] driver forever occupies the respected position Text of [POSITIONTEXT].",
+        "The championship standings repeatedly reflect the Formula [POSITIONTEXT] driver’s hold on the distinguished position Text of [POSITIONTEXT].",
+        "Within the championship rankings, the position Text of [POSITIONTEXT] is repeatedly recorded for the Formula [POSITIONTEXT] driver.",
+        "The Formula [POSITIONTEXT] driver continually appears in the championship table at the notable position Text of [POSITIONTEXT].",
+        "Ever present in the championship leaderboard, the Formula [POSITIONTEXT] driver retains the acclaimed position Text of [POSITIONTEXT].",
+        "In the championship standings, the position Text of [POSITIONTEXT] is invariably occupied by the Formula [POSITIONTEXT] driver."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "holds": [
+          "holds",
+          "retains",
+          "maintains",
+          "contains",
+          "supports",
+          "has"
+        ],
+        "prestigious": [
+          "prestigious",
+          "esteemed",
+          "honored"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "pattern",
+          "recipe",
+          "convention"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "constantly": [
+          "constantly",
+          "always",
+          "invariably",
+          "perpetually",
+          "incessantly"
+        ],
+        "standings": [
+          "standings"
+        ]
+      },
+      "field_data_types": {
+        "positionText": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The season concluded with fans eagerly anticipating the next chapter in this exhilarating sport.",
+      "template_pattern": "The season concluded with fans eagerly anticipating the next chapter in this exhilarating sport.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The season wrapped up, leaving fans keenly awaiting the upcoming chapter of this thrilling sport.",
+        "Fans, filled with anticipation, look forward to the next phase of this exhilarating sport as the season comes to a close.",
+        "With the season now finished, excitement builds among supporters for the sport’s forthcoming chapter.",
+        "The conclusion of the season has sparked eager anticipation among fans for the next installment of this exciting sport.",
+        "As the season ends, the audience is eagerly poised for the next chapter in this high‑octane sport.",
+        "The sport’s exhilarating chapter ahead is being eagerly awaited by fans now that the season has concluded.",
+        "Having reached its finale, the season leaves supporters eagerly looking ahead to the sport’s next segment.",
+        "The final whistle of the season has set fans' expectations high for the upcoming chapter of this thrilling sport.",
+        "Fans are eagerly anticipating the next chapter of this exhilarating sport following the season’s conclusion.",
+        "The season’s close has prompted enthusiastic fans to anticipate the sport’s next exciting phase.",
+        "Upon the season’s end, the fanbase is poised with anticipation for the forthcoming chapter of this dynamic sport.",
+        "The concluding season has ignited fan eagerness for what lies ahead in this exhilarating sport.",
+        "As the season wraps, supporters are looking forward with excitement to the next chapter of this high‑energy sport.",
+        "The end of the season leaves fans looking ahead, eagerly awaiting the upcoming chapter of this exhilarating sport.",
+        "With the season completed, anticipation runs high among fans for the sport’s next exhilarating chapter."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "eagerly": [
+          "eagerly"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "sport": [
+          "sport",
+          "play"
+        ],
+        "anticipating": [
+          "anticipating"
+        ],
+        "exhilarating": [
+          "exhilarating",
+          "stimulating"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour",
+          "temper"
+        ],
+        "concluded": [
+          "concluded",
+          "terminated",
+          "ended"
+        ],
+        "chapter": [
+          "chapter"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

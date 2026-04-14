@@ -1,0 +1,164 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4a3a7ae6a2b040fa": "id",
+    "29d5ada27afe48be": "power_name"
+  },
+  "templates": [
+    {
+      "original": "The superhero's power, Agility, allowed her to move with unmatched speed and grace, evading every obstacle in her path.",
+      "template_pattern": "The superhero's power, [POWER_NAME], allowed her to move with unmatched speed and grace, evading every obstacle in her path.",
+      "primary_data_fields": [
+        "power_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "[POWER_NAME], the superhero’s power, enabled her to glide with unrivaled speed and elegance, sidestepping each obstacle that lay before her.",
+        "Thanks to the superhero’s power called [POWER_NAME], she could travel at unparalleled speed and poise, dodging every barrier on her route.",
+        "With [POWER_NAME] as her power, the superhero moved at unmatched rapidity and grace, avoiding all impediments in her way.",
+        "The superhero leveraged her power, [POWER_NAME], to navigate with extraordinary swiftness and grace, bypassing each obstacle encountered.",
+        "Empowered by [POWER_NAME], the superhero traversed her course with unmatched speed and grace, steering clear of every hindrance.",
+        "Because of the power named [POWER_NAME], the superhero was able to move with unrivaled speed and elegance, evading all obstacles ahead.",
+        "[POWER_NAME], serving as the superhero’s power, granted her the ability to move with exceptional speed and grace, while she evaded each obstacle in her path.",
+        "The superhero’s [POWER_NAME] power permitted her to advance with unparalleled speed and poise, eluding every barrier she faced.",
+        "Through her power—[POWER_NAME]—the superhero achieved movement marked by unmatched speed and grace, dodging all obstacles along the way.",
+        "Her power, [POWER_NAME], gave the superhero the capacity to move with incomparable speed and grace, evading each obstacle she encountered.",
+        "Utilizing the power [POWER_NAME], the superhero glided with unmatched speed and elegance, sidestepping every obstacle in her path.",
+        "The superhero, equipped with the power [POWER_NAME], moved with extraordinary speed and grace, evading all obstacles that stood before her.",
+        "[POWER_NAME], as the superhero’s power, allowed her to proceed with unmatched speed and grace, evading every obstacle along her route.",
+        "With the power named [POWER_NAME], the superhero could travel at unrivaled speed and grace, avoiding each obstacle in her path.",
+        "The superhero’s ability, [POWER_NAME], facilitated movement at unmatched speed and grace, letting her evade every obstacle in her way."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "allowed": [
+          "allowed",
+          "let",
+          "admit",
+          "tolerate",
+          "permit",
+          "grant"
+        ],
+        "unmatched": [
+          "unmatched",
+          "unrivaled",
+          "unrivalled",
+          "peerless",
+          "matchless",
+          "nonpareil"
+        ],
+        "evading": [
+          "evading"
+        ],
+        "every": [
+          "every"
+        ],
+        "obstacle": [
+          "obstacle",
+          "obstruction"
+        ],
+        "speed": [
+          "speed",
+          "swiftness",
+          "velocity",
+          "rush",
+          "hurry",
+          "fastness"
+        ],
+        "move": [
+          "move",
+          "motivate",
+          "proceed",
+          "run",
+          "affect",
+          "travel"
+        ],
+        "grace": [
+          "grace",
+          "goodwill",
+          "blessing",
+          "seemliness",
+          "thanksgiving"
+        ]
+      },
+      "field_data_types": {
+        "power_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The id value assigned to this entity is 1, serving as its unique reference within the professional data report framework.",
+      "template_pattern": "The record’s unique identifier, the ID, appears as [ID] in the report summary for quick reference.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the report summary, the record’s unique identifier—the ID—shows up as [ID] for quick reference.",
+        "The ID, which uniquely identifies the record, is displayed as [ID] in the report summary for easy reference.",
+        "For rapid reference, the report summary lists the record’s unique ID as [ID].",
+        "Appearing as [ID] in the report summary, the record’s unique identifier (the ID) provides a quick reference.",
+        "The report summary presents the record’s unique identifier, the ID, in the form of [ID] for swift reference.",
+        "Quickly referenced, the ID of the record appears as [ID] within the report summary.",
+        "Within the report summary, you’ll find the record’s unique identifier—the ID—shown as [ID] for prompt reference.",
+        "The unique identifier of the record, known as the ID, is rendered as [ID] in the report summary for convenient reference.",
+        "For convenient quick reference, the report summary contains the ID displayed as [ID] for the record’s unique identifier.",
+        "The record’s ID, its unique identifier, appears in the report summary as [ID] to facilitate quick reference.",
+        "In the summary of the report, the record’s unique ID is presented as [ID] for fast reference.",
+        "The report summary features the record’s unique identifier—the ID—listed as [ID] for immediate reference.",
+        "As a quick reference point, the ID (the record’s unique identifier) shows up as [ID] in the report summary.",
+        "The report summary includes the record’s unique identifier, the ID, which appears as [ID] for swift reference.",
+        "For fast referencing, the unique identifier of the record (the ID) is shown as [ID] in the report summary."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "record": [
+          "record",
+          "register"
+        ],
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "composition"
+        ],
+        "appears": [
+          "appears",
+          "seems",
+          "looks"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "mention",
+          "source",
+          "quotation"
+        ],
+        "summary": [
+          "summary"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unparalleled",
+          "unequaled",
+          "singular"
+        ],
+        "quick": [
+          "quick",
+          "speedy",
+          "spry",
+          "nimble",
+          "prompt",
+          "fast"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

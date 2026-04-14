@@ -1,0 +1,1496 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "65f69cdf58e2443c": "id",
+    "421bd31732a3425c": "flavorText",
+    "d5af34723dbd42ba": "language",
+    "67c9e8536537400b": "multiverseid",
+    "c86fa4e61e2946e1": "name",
+    "167921f7a06947fc": "text",
+    "66222505bd9e40d8": "type",
+    "3752216f8f04491a": "uuid"
+  },
+  "templates": [
+    {
+      "original": "The trading card's international version with identification number 1 is now available in multiple languages.",
+      "template_pattern": "The trading card's international version with identification number [ID] is now available in multiple languages.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card’s international version, bearing identification number [ID], is now offered in multiple languages.",
+        "International version of the trading card with identification number [ID] has become available across multiple languages.",
+        "Now accessible in multiple languages, the trading card’s international edition carries identification number [ID].",
+        "Multiple languages now feature the trading card’s international version identified by number [ID].",
+        "The international edition of the trading card, identified as number [ID], is presently released in multiple languages.",
+        "With identification number [ID], the trading card’s international version is currently released in multiple languages.",
+        "Available in multiple languages, the trading card’s international version (identification number [ID]) has just been launched.",
+        "The trading card’s international version, marked by identification number [ID], is presently obtainable in multiple languages.",
+        "Identification number [ID] designates the trading card’s international version, which is now accessible in multiple languages.",
+        "Now in multiple languages, the international version of the trading card carries identification number [ID].",
+        "The trading card’s international edition, holding identification number [ID], is now distributed in multiple languages.",
+        "Multiple languages now include the trading card’s international version, which bears identification number [ID].",
+        "The international version of the trading card, with identification number [ID], is currently available across multiple languages.",
+        "Released in multiple languages, the trading card’s international version (identification number [ID]) is now on the market.",
+        "Identification number [ID] identifies the trading card’s international version, now offered in multiple languages."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "available": [
+          "available",
+          "usable",
+          "useable"
+        ],
+        "trading": [
+          "trading",
+          "trade",
+          "deal",
+          "swap"
+        ],
+        "version": [
+          "version",
+          "edition",
+          "variant",
+          "variation",
+          "rendering"
+        ],
+        "multiple": [
+          "multiple"
+        ],
+        "languages": [
+          "languages"
+        ],
+        "identification": [
+          "identification",
+          "recognition",
+          "designation"
+        ],
+        "international": [
+          "international"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Collectors from around the world have shown great interest in these cards.",
+      "template_pattern": "Collectors from around the world have shown great interest in these cards.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors worldwide have expressed strong enthusiasm for these cards.",
+        "These cards have attracted considerable interest from collectors across the globe.",
+        "Across the world, collectors have shown a high level of interest in these cards.",
+        "A notable degree of interest in these cards has been demonstrated by collectors from all continents.",
+        "Interest in these cards is being keenly displayed by collectors worldwide.",
+        "Collectors from various countries have manifested significant interest in these cards.",
+        "The cards have garnered substantial attention among international collectors.",
+        "International collectors have displayed pronounced interest in these cards.",
+        "These cards have elicited great interest among collectors worldwide.",
+        "Great interest in these cards has been reported by collectors around the globe.",
+        "From numerous global collectors, a strong interest in these cards has emerged.",
+        "These cards are attracting notable interest from collectors worldwide.",
+        "Collectors throughout the world are showing marked enthusiasm for these cards.",
+        "As a result, collectors from around the world have taken a keen interest in these cards.",
+        "The level of interest shown by worldwide collectors in these cards is considerable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "interest": [
+          "interest",
+          "concern",
+          "stake",
+          "involvement",
+          "pursuit"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "Earth",
+          "earth"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "these": [
+          "these"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "shown": [
+          "shown"
+        ],
+        "around": [
+          "around",
+          "approximately",
+          "roughly",
+          "about"
+        ],
+        "great": [
+          "great",
+          "large",
+          "big",
+          "outstanding",
+          "capital"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The card's flavorText reads, \"Es ist der Wille aller, und meine Hand, die ihn ausführt,\" adding depth to its mysterious allure.",
+      "template_pattern": "The card's flavorText reads, [FLAVORTEXT] adding depth to its mysterious allure.",
+      "primary_data_fields": [
+        "flavorText"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card's flavorText reads, [FLAVORTEXT] adding depth to its mysterious allure.",
+        "According to the card’s flavorText, [FLAVORTEXT] which deepens the card’s enigmatic charm.",
+        "The phrase found in the card’s flavorText—[FLAVORTEXT]—enhances its mysterious appeal.",
+        "In the card’s flavorText one can see [FLAVORTEXT] providing extra layers to its mystique.",
+        "[FLAVORTEXT] is quoted in the card’s flavorText, thereby enriching its enigmatic allure.",
+        "The card’s flavorText contains the line [FLAVORTEXT] which contributes to its mysterious attractiveness.",
+        "By featuring [FLAVORTEXT] in its flavorText, the card gains additional depth to its intrigue.",
+        "The mysterious allure of the card is amplified as its flavorText reads [FLAVORTEXT].",
+        "With the flavorText stating [FLAVORTEXT] the card’s enigmatic quality is further pronounced.",
+        "The card’s flavorText, which says [FLAVORTEXT] adds a layer of depth to its mystic charm.",
+        "A deeper sense of mystery is introduced by the card’s flavorText: [FLAVORTEXT].",
+        "The inclusion of [FLAVORTEXT] in the card’s flavorText enhances its enigmatic allure.",
+        "As the card’s flavorText declares, [FLAVORTEXT] the overall mystique is strengthened.",
+        "The card’s flavorText, reading [FLAVORTEXT] imparts additional depth to its mysterious appeal.",
+        "Through its flavorText—[FLAVORTEXT]—the card acquires a richer, more mysterious aura."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reads": [
+          "reads"
+        ],
+        "depth": [
+          "depth",
+          "profundity"
+        ],
+        "card": [
+          "card"
+        ],
+        "allure": [
+          "allure"
+        ],
+        "adding": [
+          "adding"
+        ],
+        "mysterious": [
+          "mysterious",
+          "cryptic",
+          "inscrutable",
+          "secret",
+          "mystifying",
+          "occult"
+        ]
+      },
+      "field_data_types": {
+        "flavorText": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This enigmatic passage has sparked much discussion among enthusiasts.",
+      "template_pattern": "This enigmatic passage has sparked much discussion among enthusiasts.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Among enthusiasts, this enigmatic passage has ignited considerable discussion.",
+        "Considerable discussion among enthusiasts has been sparked by this enigmatic passage.",
+        "This puzzling passage has provoked extensive debate within the community of enthusiasts.",
+        "Enthusiasts have engaged in vigorous discussion because of this mysterious passage.",
+        "The mysterious passage has generated a great deal of conversation among enthusiasts.",
+        "A great deal of discussion among enthusiasts stems from this enigmatic passage.",
+        "This cryptic passage has set off widespread talk among enthusiasts.",
+        "Within the circle of enthusiasts, the enigmatic passage has stirred much dialogue.",
+        "Much discussion has arisen among enthusiasts as a result of this puzzling passage.",
+        "The enigmatic passage, noted by enthusiasts, has prompted abundant discussion.",
+        "Enthusiasts are actively debating this mysterious passage.",
+        "This obscure passage has led to significant discussion among enthusiasts.",
+        "The passage’s enigmatic nature has catalyzed extensive discussion among enthusiasts.",
+        "Among the enthusiast community, extensive discussion has been triggered by this enigmatic passage.",
+        "This baffling passage has sparked a lively exchange among enthusiasts."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "sparked": [
+          "sparked"
+        ],
+        "enigmatic": [
+          "enigmatic",
+          "puzzling"
+        ],
+        "enthusiasts": [
+          "enthusiasts"
+        ],
+        "passage": [
+          "passage"
+        ],
+        "much": [
+          "much"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse"
+        ],
+        "among": [
+          "among"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The trading card is printed in German, making it a unique addition for collectors who appreciate foreign languages.",
+      "template_pattern": "The trading card is printed in [LANGUAGE], making it a unique addition for collectors who appreciate foreign languages.",
+      "primary_data_fields": [
+        "language"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card, printed in [LANGUAGE], serves as a unique addition for collectors who value foreign languages.",
+        "Because it is printed in [LANGUAGE], the trading card becomes a distinctive item for collectors appreciative of foreign languages.",
+        "A unique addition for collectors who cherish foreign languages, the trading card is produced in [LANGUAGE].",
+        "Collectors who admire foreign languages will find the [LANGUAGE]‑printed trading card a singular addition.",
+        "The [LANGUAGE] printing of this trading card makes it a one‑of‑a‑kind addition for those collectors who appreciate foreign languages.",
+        "As a trading card printed in [LANGUAGE], it provides a rare addition for collectors who are fond of foreign languages.",
+        "For collectors who love foreign languages, the trading card’s [LANGUAGE] print renders it an exceptional addition.",
+        "The trading card’s [LANGUAGE] language print creates a unique offering for collectors who appreciate foreign languages.",
+        "With its [LANGUAGE] text, the trading card stands out as a special addition for collectors who enjoy foreign languages.",
+        "Being printed in [LANGUAGE], the trading card represents a unique addition for collectors who value foreign languages.",
+        "This trading card, featuring [LANGUAGE] language printing, is a distinctive addition for collectors who appreciate foreign languages.",
+        "A collector who values foreign languages will consider the [LANGUAGE]‑printed trading card a unique addition.",
+        "The [LANGUAGE]‑language version of the trading card adds a unique element for collectors who cherish foreign languages.",
+        "By printing the trading card in [LANGUAGE], it becomes a singular addition for collectors who admire foreign languages.",
+        "The trading card, with [LANGUAGE] printing, offers a unique addition for collectors who have an appreciation for foreign languages."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "notice",
+          "scorecard",
+          "posting"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequalled",
+          "unequaled"
+        ],
+        "addition": [
+          "addition",
+          "accession",
+          "summation",
+          "increase",
+          "plus"
+        ],
+        "trading": [
+          "trading",
+          "trade"
+        ],
+        "printed": [
+          "printed"
+        ],
+        "foreign": [
+          "foreign",
+          "alien"
+        ],
+        "languages": [
+          "languages"
+        ],
+        "appreciate": [
+          "appreciate",
+          "value",
+          "treasure",
+          "prize"
+        ]
+      },
+      "field_data_types": {
+        "language": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many collectors enjoy the challenge of deciphering its mysterious inscription.",
+      "template_pattern": "Many collectors enjoy the challenge of deciphering its mysterious inscription.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A large number of collectors relish the task of interpreting its enigmatic inscription.",
+        "The mysterious inscription presents a challenge that many collectors find enjoyable to decode.",
+        "Many collectors take pleasure in tackling the puzzle of its cryptic lettering.",
+        "The cryptic inscription is a challenge that delights numerous collectors.",
+        "For many collectors, deciphering the obscure inscription is an enjoyable challenge.",
+        "Numerous collectors are drawn to the intrigue of decoding its mysterious script.",
+        "The enigmatic inscription offers a challenge that many collectors appreciate.",
+        "Many collectors enjoy solving the riddle of its mysterious inscription.",
+        "The mysterious inscription, which many collectors find challenging, is enjoyed when deciphered.",
+        "Deciphering its puzzling inscription is a source of enjoyment for many collectors.",
+        "Many collectors savor the difficulty of interpreting its secretive inscription.",
+        "The secretive inscription provides a challenge that many collectors love to unravel.",
+        "Enthusiastic collectors often delight in the task of unlocking its mysterious inscription.",
+        "The challenge of interpreting its obscure inscription is cherished by many collectors.",
+        "Its mysterious inscription, a puzzle many collectors relish, invites careful decoding."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "deciphering": [
+          "deciphering"
+        ],
+        "enjoy": [
+          "enjoy",
+          "savor",
+          "savour",
+          "relish",
+          "delight"
+        ],
+        "many": [
+          "many"
+        ],
+        "challenge": [
+          "challenge",
+          "dispute"
+        ],
+        "inscription": [
+          "inscription",
+          "lettering"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "mysterious": [
+          "mysterious",
+          "mystifying",
+          "cryptic",
+          "cryptical",
+          "inscrutable",
+          "secret"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The card in question is identified by the multiverseid 148411, allowing collectors to easily reference it.",
+      "template_pattern": "The card in question is identified by the multiverseid [MULTIVERSEID], allowing collectors to easily reference it.",
+      "primary_data_fields": [
+        "multiverseid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors can readily reference the card, which is designated by multiverseid [MULTIVERSEID].",
+        "The card is marked with multiverseid [MULTIVERSEID], making it simple for collectors to locate.",
+        "With multiverseid [MULTIVERSEID] assigned to the card, collectors are able to reference it effortlessly.",
+        "Identified by multiverseid [MULTIVERSEID], the card provides collectors an easy reference point.",
+        "The card's identification number, multiverseid [MULTIVERSEID], facilitates quick reference for collectors.",
+        "Because the card bears multiverseid [MULTIVERSEID], collectors can swiftly reference it.",
+        "Multiverseid [MULTIVERSEID] identifies the card, thereby granting collectors easy reference access.",
+        "In the report, the card is linked to multiverseid [MULTIVERSEID], enabling collectors to reference it with ease.",
+        "The presence of multiverseid [MULTIVERSEID] on the card allows collectors to reference it conveniently.",
+        "For collectors, the card's multiverseid [MULTIVERSEID] serves as a straightforward reference.",
+        "Reference to the card is simplified for collectors through its multiverseid [MULTIVERSEID].",
+        "By assigning multiverseid [MULTIVERSEID] to the card, we ensure collectors can reference it without difficulty.",
+        "The card, associated with multiverseid [MULTIVERSEID], can be easily referenced by collectors.",
+        "Collectors find it easy to reference the card, thanks to its multiverseid [MULTIVERSEID] designation.",
+        "Through the multiverseid [MULTIVERSEID] tag, the card is readily referenced by collectors."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "question": [
+          "question",
+          "enquiry",
+          "query",
+          "inquiry"
+        ],
+        "allowing": [
+          "allowing"
+        ],
+        "easily": [
+          "easily"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "mention",
+          "source",
+          "quotation",
+          "acknowledgment"
+        ]
+      },
+      "field_data_types": {
+        "multiverseid": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With its specific identification, tracking its history becomes simpler.",
+      "template_pattern": "With its specific identification, tracking its history becomes simpler.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Having a unique identifier makes tracing its history easier.",
+        "Because it possesses a precise ID, monitoring its past becomes more straightforward.",
+        "The presence of a specific identification simplifies the task of tracking its history.",
+        "Tracking its chronology is facilitated by its distinct tag.",
+        "When its particular ID is known, following its record is less complex.",
+        "Its exact identification allows for a simpler review of its background.",
+        "A specific identifier streamlines the process of auditing its history.",
+        "By assigning a unique identifier, the effort required to trace its history is reduced.",
+        "The history of the item can be followed more easily thanks to its specific identification.",
+        "With a precise ID in place, the task of monitoring its history becomes easier.",
+        "Its distinct tag renders the tracking of its history more manageable.",
+        "Simplified history tracking results from the item’s specific identification.",
+        "Because the item has an exact identification, reviewing its past is less burdensome.",
+        "The act of tracing its history is made simpler by the presence of a unique identifier.",
+        "Having a particular identification, one finds it simpler to track its history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "becomes": [
+          "becomes"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "simpler": [
+          "simpler"
+        ],
+        "history": [
+          "history",
+          "chronicle",
+          "account"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "identification": [
+          "identification",
+          "recognition",
+          "designation"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The card known internationally as Ausgewählter der Ahnfrau is sought after by collectors for its unique abilities.",
+      "template_pattern": "The card known internationally as [NAME] is sought after by collectors for its unique abilities.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors prize the internationally recognized card [NAME] for its unique abilities.",
+        "The internationally known card [NAME] is highly coveted by collectors because of its unique abilities.",
+        "Owing to its unique abilities, collectors actively pursue the card known worldwide as [NAME].",
+        "With its unique abilities, the card [NAME], recognized across borders, attracts collector demand.",
+        "The card [NAME], famed internationally, draws collector interest due to its unique abilities.",
+        "Because of its unique abilities, the globally identified card [NAME] is sought after by collectors.",
+        "Collectors seek out the card [NAME], which enjoys international recognition, for its unique abilities.",
+        "Internationally referred to as [NAME], the card is pursued by collectors for its unique abilities.",
+        "The card, known internationally as [NAME], commands collector attention thanks to its unique abilities.",
+        "Due to its unique abilities, the internationally known card [NAME] has become a collector favorite.",
+        "The unique abilities of the internationally recognized card [NAME] make it a target for collectors.",
+        "Collectors are drawn to the card [NAME], internationally known, because of its unique abilities.",
+        "As a result of its unique abilities, the card [NAME], known worldwide, is highly pursued by collectors.",
+        "The card [NAME], bearing international renown, is coveted by collectors for its unique abilities.",
+        "International fame attaches to the card [NAME], which collectors chase for its unique abilities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "sought": [
+          "sought"
+        ],
+        "card": [
+          "card"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "singular",
+          "unequaled"
+        ],
+        "abilities": [
+          "abilities"
+        ],
+        "known": [
+          "known"
+        ],
+        "after": [
+          "after"
+        ],
+        "internationally": [
+          "internationally"
+        ],
+        "collectors": [
+          "collectors"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This card holds a special place in many collections due to its rarity.",
+      "template_pattern": "This card holds a special place in many collections due to its rarity.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This card occupies a prized spot in numerous collections because it is rare.",
+        "Owing to its scarcity, many collections give this card a special status.",
+        "Because of its rarity, the card is highly valued across a wide range of collections.",
+        "In many collections, this card enjoys a distinguished position due to its rarity.",
+        "A special place is held by this card in countless collections as a result of its rarity.",
+        "The rarity of this card grants it a notable place within many collectors' sets.",
+        "Many collections regard this card as special, thanks to its uncommon nature.",
+        "Due to its scarce availability, this card is placed prominently in a great many collections.",
+        "This card, rare as it is, secures a unique spot in numerous collections.",
+        "Across a multitude of collections, the card’s rarity secures it a distinguished role.",
+        "The card’s uncommonness causes it to occupy a valued position in many collections.",
+        "Because it is rare, this card is allotted a special place in a large number of collections.",
+        "In a vast array of collections, this card is set apart thanks to its rarity.",
+        "The rarity of the card ensures its special standing in many collections.",
+        "Many collections feature this card prominently, owing to its rarity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rarity": [
+          "rarity",
+          "infrequency",
+          "rareness",
+          "oddity",
+          "peculiarity"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "place": [
+          "place",
+          "position",
+          "spot",
+          "post",
+          "space",
+          "site"
+        ],
+        "special": [
+          "special",
+          "particular",
+          "especial",
+          "exceptional",
+          "peculiar"
+        ],
+        "many": [
+          "many"
+        ],
+        "collections": [
+          "collections"
+        ],
+        "holds": [
+          "holds"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The card's foreign text ruling clearly states: Erstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.), defining its unique gameplay ability.",
+      "template_pattern": "The card's foreign text ruling clearly states: [TEXT], defining its unique gameplay ability.",
+      "primary_data_fields": [
+        "text"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the card's foreign text ruling, it explicitly reads: [TEXT], thereby defining its distinctive gameplay ability.",
+        "The foreign text ruling on the card plainly declares: [TEXT], which specifies its unique gameplay ability.",
+        "In the card's foreign text ruling, the statement reads: [TEXT], establishing its one‑of‑a‑kind gameplay ability.",
+        "Stated in the foreign text ruling of the card is: [TEXT], defining its singular gameplay ability.",
+        "The card’s foreign text ruling unequivocally states: [TEXT], which delineates its unique gameplay ability.",
+        "Within the foreign text ruling, the card specifies: [TEXT], outlining its exclusive gameplay ability.",
+        "The foreign text ruling attached to the card reads clearly: [TEXT], thereby describing its distinct gameplay ability.",
+        "As per the card's foreign text ruling, the following is declared: [TEXT], indicating its unique gameplay ability.",
+        "The foreign text ruling of the card mentions: [TEXT], which defines its particular gameplay ability.",
+        "In the card's foreign text ruling, one finds the phrase: [TEXT], describing its unique gameplay ability.",
+        "According to the foreign text ruling on the card, it states: [TEXT], establishing its unique gameplay ability.",
+        "The card's foreign text ruling indicates: [TEXT], thereby defining its special gameplay ability.",
+        "Within the foreign text ruling, the card clearly notes: [TEXT], which outlines its unique gameplay ability.",
+        "The foreign text ruling, as printed on the card, declares: [TEXT], defining its singular gameplay ability.",
+        "From the card's foreign text ruling we learn: [TEXT], which specifies its unique gameplay ability."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ruling": [
+          "ruling",
+          "rule",
+          "decree"
+        ],
+        "card": [
+          "card",
+          "notice",
+          "scorecard"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "singular",
+          "unequaled",
+          "alone"
+        ],
+        "foreign": [
+          "foreign",
+          "alien"
+        ],
+        "ability": [
+          "ability",
+          "power"
+        ],
+        "defining": [
+          "defining",
+          "shaping"
+        ],
+        "states": [
+          "states"
+        ],
+        "gameplay": [
+          "gameplay"
+        ]
+      },
+      "field_data_types": {
+        "text": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such abilities provide strategic advantages during gameplay.",
+      "template_pattern": "Such abilities provide strategic advantages during gameplay.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "These capabilities grant players strategic benefits throughout the game.",
+        "Strategic advantages are conferred by such abilities during play.",
+        "Having these abilities offers a tactical edge in gameplay.",
+        "During gameplay, such skills provide a strategic upper hand.",
+        "A strategic advantage in the game is supplied by these abilities.",
+        "Consequently, these proficiencies deliver strategic benefits while the game unfolds.",
+        "Players obtain a tactical advantage thanks to these abilities during the match.",
+        "Such talents furnish a strategic edge throughout the playing session.",
+        "The presence of these abilities results in strategic benefits during gameplay.",
+        "In the course of the game, these competencies bestow a strategic advantage.",
+        "Strategic superiority is achieved through these abilities while playing.",
+        "Because of these abilities, players enjoy a strategic edge during the game.",
+        "These powers endow participants with strategic advantages throughout gameplay.",
+        "During any play session, such abilities yield a tactical advantage.",
+        "A strategic benefit during gameplay is provided by these capabilities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "abilities": [
+          "abilities"
+        ],
+        "such": [
+          "such"
+        ],
+        "during": [
+          "during"
+        ],
+        "strategic": [
+          "strategic"
+        ],
+        "gameplay": [
+          "gameplay"
+        ],
+        "provide": [
+          "provide",
+          "supply",
+          "furnish",
+          "offer",
+          "render"
+        ],
+        "advantages": [
+          "advantages"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The foreign type for this trading card is Kreatur — Mensch, Kleriker, highlighting its unique gameplay characteristics.",
+      "template_pattern": "The foreign type for this trading card is [TYPE], highlighting its unique gameplay characteristics.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For this trading card, the foreign type is [TYPE], which underscores its distinctive gameplay traits.",
+        "The trading card’s foreign type, [TYPE], highlights its singular gameplay characteristics.",
+        "Highlighting its unique gameplay characteristics, the foreign type for this trading card is [TYPE].",
+        "[TYPE] is listed as the foreign type of this trading card, emphasizing its special gameplay features.",
+        "This trading card features a foreign type of [TYPE], drawing attention to its unique gameplay aspects.",
+        "The foreign type assigned to this trading card—[TYPE]—serves to illustrate its distinctive gameplay qualities.",
+        "Unique gameplay characteristics are highlighted by the foreign type [TYPE] for this trading card.",
+        "In this trading card, the foreign type is identified as [TYPE], showcasing its one‑of‑a‑kind gameplay.",
+        "The foreign type, [TYPE], characterizes this trading card’s unique gameplay profile.",
+        "For this trading card, the foreign type designated as [TYPE] emphasizes its exclusive gameplay traits.",
+        "This trading card’s foreign type—[TYPE]—highlights the card’s unique gameplay characteristics.",
+        "By assigning the foreign type [TYPE] to this trading card, its unique gameplay characteristics are underscored.",
+        "The card’s foreign type, [TYPE], points to its distinctive gameplay characteristics.",
+        "[TYPE], the foreign type for this trading card, signals its unique gameplay attributes.",
+        "Through the foreign type [TYPE], this trading card exhibits unique gameplay characteristics."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "unequaled",
+          "singular"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "foreign": [
+          "foreign",
+          "alien",
+          "strange"
+        ],
+        "characteristics": [
+          "characteristics"
+        ],
+        "gameplay": [
+          "gameplay"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These characteristics make it a versatile choice for players.",
+      "template_pattern": "These characteristics make it a versatile choice for players.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because of these characteristics, it serves as a versatile option for players.",
+        "These traits render it a flexible choice for players.",
+        "A versatile selection for players is provided by these characteristics.",
+        "Thanks to its characteristics, players find it a versatile choice.",
+        "It is deemed a versatile choice for players owing to these characteristics.",
+        "These features make it an adaptable option for players.",
+        "Given these attributes, the item becomes a versatile choice for players.",
+        "Players consider it a versatile choice because of these characteristics.",
+        "The versatility of this choice for players stems from its characteristics.",
+        "Through these characteristics, it emerges as a versatile option for players.",
+        "These qualities confer versatility upon it as a player’s choice.",
+        "Owing to its traits, it stands out as a versatile choice for players.",
+        "A versatile choice for players is achieved through these characteristics.",
+        "These characteristics bestow versatility, making it a player‑friendly choice.",
+        "Versatility for players is provided by these characteristics, making it a suitable choice."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "make": [
+          "make",
+          "build",
+          "form",
+          "establish",
+          "construct",
+          "create"
+        ],
+        "players": [
+          "players",
+          "participants",
+          "actors"
+        ],
+        "these": [
+          "these"
+        ],
+        "choice": [
+          "choice",
+          "option",
+          "selection",
+          "alternative"
+        ],
+        "characteristics": [
+          "characteristics",
+          "features"
+        ],
+        "versatile": [
+          "versatile",
+          "various"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The trading card with the uuid 5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c is highly sought after for its unique international version.",
+      "template_pattern": "The trading card with the uuid [UUID] is highly sought after for its unique international version.",
+      "primary_data_fields": [
+        "uuid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card bearing uuid [UUID] is in high demand because of its unique international version.",
+        "Because of its unique international version, the trading card with uuid [UUID] commands great interest.",
+        "Collectors highly covet the trading card that carries uuid [UUID] due to its unique international version.",
+        "The unique international version makes the trading card identified by uuid [UUID] extremely sought after.",
+        "Highly sought after for its unique international version is the trading card with uuid [UUID].",
+        "With uuid [UUID], the trading card enjoys strong demand thanks to its unique international version.",
+        "Owing to its unique international version, the trading card that has uuid [UUID] is highly prized.",
+        "The trading card, uuid [UUID], is highly sought after for its unique international version.",
+        "Due to the card’s unique international version, the item with uuid [UUID] is in great demand.",
+        "The unique international version drives intense collector interest in the trading card bearing uuid [UUID].",
+        "Enthusiasts pursue the trading card featuring uuid [UUID] for its unique international version.",
+        "Because it possesses a unique international version, the trading card identified by uuid [UUID] is highly coveted.",
+        "The trading card that includes uuid [UUID] is especially sought after owing to its unique international version.",
+        "A strong market interest surrounds the trading card with uuid [UUID], thanks to its unique international version.",
+        "The presence of a unique international version makes the trading card, uuid [UUID], highly sought after."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "sought": [
+          "sought"
+        ],
+        "card": [
+          "card"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "unequaled",
+          "singular"
+        ],
+        "trading": [
+          "trading"
+        ],
+        "version": [
+          "version",
+          "edition",
+          "variant",
+          "variation",
+          "adaptation",
+          "translation"
+        ],
+        "highly": [
+          "highly",
+          "extremely"
+        ],
+        "after": [
+          "after",
+          "afterwards",
+          "afterward",
+          "later",
+          "subsequently"
+        ],
+        "international": [
+          "international"
+        ]
+      },
+      "field_data_types": {
+        "uuid": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Its popularity has only grown with time.",
+      "template_pattern": "Its popularity has only grown with time.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Over time, its popularity has continued to rise.",
+        "The popularity of it has steadily increased as the years have passed.",
+        "It has seen a consistent growth in popularity over the years.",
+        "As time progressed, its popularity only expanded.",
+        "Its popularity has been on an upward trajectory with the passage of time.",
+        "The passage of time has resulted in a further boost to its popularity.",
+        "With each passing year, its popularity has grown further.",
+        "Its popularity has escalated solely due to the elapsed time.",
+        "Time has only served to amplify its popularity.",
+        "The popularity of this item has grown exclusively over time.",
+        "A temporal increase has been observed in its popularity.",
+        "Its popularity has incrementally risen as time went on.",
+        "Over successive periods, the popularity of it has only heightened.",
+        "The longer the time span, the greater its popularity becomes.",
+        "Its popularity, having been measured, shows a continual rise with time."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "only": [
+          "only",
+          "just",
+          "solely",
+          "exclusively",
+          "merely",
+          "sole"
+        ],
+        "grown": [
+          "grown",
+          "mature"
+        ],
+        "popularity": [
+          "popularity"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "As more players discover the card's potential, demand continues to rise.",
+      "template_pattern": "As more players discover the card's potential, demand continues to rise.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "With each additional player uncovering the card’s potential, demand keeps climbing.",
+        "Demand is rising as an increasing number of players recognize the card’s potential.",
+        "As the card’s potential is discovered by more players, demand steadily grows.",
+        "The more players that realize the card’s potential, the higher the demand becomes.",
+        "Demand continues its upward trajectory while more players become aware of the card’s potential.",
+        "Because more players are seeing the card’s potential, demand persists in increasing.",
+        "An expanding pool of players identifying the card’s potential fuels a continued rise in demand.",
+        "As the card’s potential is recognized by a growing player base, demand escalates.",
+        "Demand keeps surging, driven by an ever‑larger number of players discovering the card’s potential.",
+        "The rise in demand persists as additional players uncover the card’s potential.",
+        "With a growing cohort of players spotting the card’s potential, demand remains on the rise.",
+        "Demand remains on an upward swing as more players come to appreciate the card’s potential.",
+        "The card’s potential, now being discovered by more players, propels demand upward.",
+        "As player awareness of the card’s potential expands, demand continues to climb.",
+        "A continual increase in demand is observed as more players explore the card’s potential."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "players": [
+          "players",
+          "actors",
+          "participants"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "rise": [
+          "rise",
+          "increase",
+          "growth",
+          "ascent",
+          "climb",
+          "boost"
+        ],
+        "continues": [
+          "continues"
+        ],
+        "more": [
+          "more"
+        ],
+        "discover": [
+          "discover",
+          "find",
+          "identify",
+          "detect",
+          "reveal",
+          "disclose"
+        ],
+        "demand": [
+          "demand",
+          "require",
+          "necessitate",
+          "need",
+          "exact"
+        ],
+        "potential": [
+          "potential",
+          "possible",
+          "potentiality",
+          "likely"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The card's multifaceted nature offers numerous possibilities for strategic gameplay.",
+      "template_pattern": "The card's multifaceted nature offers numerous possibilities for strategic gameplay.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card’s many facets provide a wealth of options for strategic play.",
+        "Numerous strategic gameplay possibilities stem from the card’s multifaceted character.",
+        "Because the card is multifaceted, it opens up countless strategic possibilities.",
+        "Strategic gameplay is enriched by the card’s diverse attributes, which present many options.",
+        "A myriad of strategic options is offered by the card’s complex nature.",
+        "The multifarious nature of the card supplies ample opportunities for strategic play.",
+        "With its multiple dimensions, the card grants extensive possibilities for strategic gaming.",
+        "Strategic play benefits from the card’s varied aspects, which afford numerous possibilities.",
+        "The card’s intricate design yields a broad range of strategic gameplay opportunities.",
+        "Owing to its multifaceted composition, the card enables many strategic possibilities.",
+        "Many strategic gameplay routes become available thanks to the card’s diverse nature.",
+        "The card, being multifaceted, furnishes abundant possibilities for strategic play.",
+        "Strategic gameplay possibilities are abundant because of the card’s many facets.",
+        "Through its complex, multifaceted nature, the card presents numerous strategic options.",
+        "The diverse characteristics of the card afford a multitude of strategic gameplay possibilities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "nature": [
+          "nature"
+        ],
+        "card": [
+          "card",
+          "notice",
+          "scorecard"
+        ],
+        "strategic": [
+          "strategic"
+        ],
+        "numerous": [
+          "numerous"
+        ],
+        "offers": [
+          "offers"
+        ],
+        "multifaceted": [
+          "multifaceted",
+          "multifarious",
+          "miscellaneous"
+        ],
+        "gameplay": [
+          "gameplay"
+        ],
+        "possibilities": [
+          "possibilities"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Enthusiasts often gather to exchange strategies and stories about their favorite cards.",
+      "template_pattern": "Enthusiasts often gather to exchange strategies and stories about their favorite cards.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Enthusiasts frequently meet to share tactics and anecdotes concerning their preferred cards.",
+        "Frequently, hobbyists convene in order to swap strategies and narratives about the cards they love.",
+        "Strategies and stories about their favorite cards are exchanged when devotees regularly gather.",
+        "In many cases, collectors assemble to discuss approaches and personal tales regarding their chosen cards.",
+        "Fans often come together to trade methods and recollections related to the cards they favor.",
+        "Regular gatherings of enthusiasts serve as venues for swapping tactics and recounting stories about their prized cards.",
+        "To exchange tactics and stories about their favorite cards, aficionados commonly meet.",
+        "The exchange of strategies and anecdotes about beloved cards occurs whenever enthusiasts meet.",
+        "Enthusiasts, on a regular basis, convene to discuss methods and share narratives about the cards they prefer.",
+        "In professional circles, hobbyists regularly assemble to trade approaches and tell stories about their favorite cards.",
+        "Strategies and anecdotes concerning preferred cards are shared during frequent gatherings of fans.",
+        "When devotees gather often, they swap tactics and recount experiences about the cards they like best.",
+        "Frequent meetings of collectors provide a setting for exchanging tactics and storytelling about their favorite cards.",
+        "To discuss methods and recount tales about their chosen cards, enthusiasts often convene.",
+        "The act of swapping strategies and stories about favored cards is a common reason for enthusiasts to gather."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "enthusiasts": [
+          "enthusiasts"
+        ],
+        "exchange": [
+          "exchange",
+          "interchange",
+          "substitution",
+          "switch",
+          "change",
+          "substitute"
+        ],
+        "strategies": [
+          "strategies"
+        ],
+        "stories": [
+          "stories"
+        ],
+        "favorite": [
+          "favorite",
+          "preferred",
+          "favored",
+          "favourite"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "gather": [
+          "gather",
+          "amass",
+          "accumulate",
+          "collect",
+          "assemble",
+          "garner"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The allure of foreign cards lies in their unique attributes and histories.",
+      "template_pattern": "The allure of foreign cards lies in their unique attributes and histories.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The attraction of overseas cards stems from their distinctive features and backstories.",
+        "Unique attributes and histories give foreign cards their compelling appeal.",
+        "Because of their singular characteristics and histories, foreign cards are especially alluring.",
+        "Foreign cards captivate due to the one‑of‑a‑kind traits and histories they possess.",
+        "The charm of foreign cards is rooted in their unique qualities and historical narratives.",
+        "Owing to their exclusive attributes and rich histories, foreign cards hold a special allure.",
+        "It is the distinctive features and pasts of foreign cards that create their appeal.",
+        "Foreign cards are admired for the uniqueness of their attributes and the depth of their histories.",
+        "With unique characteristics and storied pasts, foreign cards exude a notable allure.",
+        "The allure associated with foreign cards originates from their singular attributes and histories.",
+        "Thanks to their particular traits and historical backgrounds, foreign cards possess an enticing pull.",
+        "Foreign cards' appeal derives from the combination of their unique features and their histories.",
+        "Because foreign cards boast unique attributes and rich histories, they command considerable fascination.",
+        "The distinctive qualities and historical records of foreign cards underpin their allure.",
+        "In the realm of foreign cards, the blend of unique attributes and histories fuels their attractiveness."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "unequaled",
+          "singular"
+        ],
+        "lies": [
+          "lies"
+        ],
+        "foreign": [
+          "foreign",
+          "alien"
+        ],
+        "allure": [
+          "allure",
+          "allurement"
+        ],
+        "histories": [
+          "histories"
+        ],
+        "attributes": [
+          "attributes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Many players enjoy customizing their decks with international versions.",
+      "template_pattern": "Many players enjoy customizing their decks with international versions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Numerous players relish personalising their decks with international editions.",
+        "A large number of players take pleasure in tailoring their decks using foreign versions.",
+        "Many gamers are keen on customizing their decks through international variants.",
+        "International versions are employed by many players to customise their decks.",
+        "Many players enjoy modifying their decks by incorporating overseas editions.",
+        "Customising decks with international versions is a favorite activity among numerous players.",
+        "Players, many of them, appreciate adapting their decks with global releases.",
+        "The practice of using international versions to customise decks is enjoyed by many players.",
+        "Across the board, many players favour deck personalization via international editions.",
+        "Many players find satisfaction in altering their decks with foreign variants.",
+        "Decks are often customised with international versions by a large cohort of players.",
+        "Many players opt to personalise their decks using international releases.",
+        "International editions are commonly used by many players to tailor their decks.",
+        "A substantial group of players enjoys deck customization through overseas versions.",
+        "Many players love to adapt their decks by employing international versions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "versions": [
+          "versions"
+        ],
+        "their": [
+          "their"
+        ],
+        "players": [
+          "players"
+        ],
+        "customizing": [
+          "customizing"
+        ],
+        "enjoy": [
+          "enjoy",
+          "savor",
+          "relish",
+          "savour",
+          "delight",
+          "love"
+        ],
+        "decks": [
+          "decks"
+        ],
+        "many": [
+          "many"
+        ],
+        "international": [
+          "international"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The card's appeal is further enhanced by its cultural significance.",
+      "template_pattern": "The card's appeal is further enhanced by its cultural significance.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card’s attractiveness is amplified by its cultural significance.",
+        "Owing to its cultural relevance, the card’s appeal receives an additional boost.",
+        "Its cultural significance further augments the appeal of the card.",
+        "The appeal of the card is heightened, thanks to its cultural importance.",
+        "Because of its cultural significance, the card enjoys a greater level of appeal.",
+        "The card’s appeal is bolstered further by the cultural weight it carries.",
+        "Cultural significance contributes to an extra increase in the card’s attractiveness.",
+        "The card gains added appeal through its cultural relevance.",
+        "With its cultural significance, the card’s appeal is further enhanced.",
+        "The cultural importance of the card serves to elevate its overall appeal.",
+        "Enhanced by its cultural significance, the card’s allure becomes even stronger.",
+        "The card’s allure is further intensified by the cultural significance it holds.",
+        "Given its cultural relevance, the card experiences an additional rise in appeal.",
+        "The card’s appeal is further reinforced by the cultural value it embodies.",
+        "By virtue of its cultural significance, the card’s appeal is further amplified."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "notice",
+          "scorecard"
+        ],
+        "significance": [
+          "significance",
+          "import",
+          "meaning",
+          "implication"
+        ],
+        "cultural": [
+          "cultural",
+          "ethnic"
+        ],
+        "appeal": [
+          "appeal",
+          "attract",
+          "charm",
+          "solicitation",
+          "entreaty"
+        ],
+        "enhanced": [
+          "enhanced"
+        ],
+        "further": [
+          "further",
+          "foster",
+          "boost",
+          "encourage",
+          "advance",
+          "promote"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Collectors often seek out cards from different regions to complete their collections.",
+      "template_pattern": "Collectors often seek out cards from different regions to complete their collections.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors frequently hunt for cards originating from various regions to finish their collections.",
+        "Cards from different regions are often pursued by collectors aiming to complete their collections.",
+        "To complete their collections, collectors commonly seek cards from multiple regions.",
+        "Often, collectors look for regionally diverse cards to round out their collections.",
+        "Region-specific cards are regularly sought out by collectors who wish to finalize their collections.",
+        "Collectors regularly target cards from distinct regions as part of their effort to complete their collections.",
+        "In order to finish their collections, collectors commonly pursue cards that come from different regions.",
+        "Cards from varied regions are frequently obtained by collectors seeking to complete their collections.",
+        "To achieve a complete collection, collectors often search for cards across different regions.",
+        "Collectors often aim to complete their collections by acquiring cards from multiple regions.",
+        "The quest to complete their collections leads collectors to often seek cards from diverse regions.",
+        "Cards hailing from different regions are often collected by those aiming to complete their collections.",
+        "Collectors, in their pursuit of completeness, often hunt for cards from various regions.",
+        "To round out their collections, collectors regularly look for cards sourced from different regions.",
+        "Different-region cards are frequently chased by collectors intent on completing their collections."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "different": [
+          "different",
+          "unlike",
+          "dissimilar"
+        ],
+        "cards": [
+          "cards"
+        ],
+        "regions": [
+          "regions"
+        ],
+        "complete": [
+          "complete",
+          "pure",
+          "perfect",
+          "thoroughgoing",
+          "accomplished",
+          "concluded"
+        ],
+        "collections": [
+          "collections"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Each card tells a story, capturing the imagination of those who hold it.",
+      "template_pattern": "Each card tells a story, capturing the imagination of those who hold it.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every card narrates a tale, sparking the imagination of anyone who holds it.",
+        "A story is conveyed by each card, engaging the imagination of its holder.",
+        "The imagination of those who hold a card is captured as each card tells its story.",
+        "Each card, by telling a story, captivates the imagination of the person holding it.",
+        "For every card, a story unfolds and the holder’s imagination is ignited.",
+        "The story told by each card captures the imagination of the individual who possesses it.",
+        "Holding a card, one experiences a story that stimulates the imagination.",
+        "Each card’s narrative seizes the imagination of anyone who grasps it.",
+        "The imagination of the holder is captured when each card recounts its story.",
+        "A story is embedded in every card, drawing the imagination of the person who holds it.",
+        "When a card is held, its story captures the holder’s imagination.",
+        "The narrative of each card engages the imagination of those who have it in hand.",
+        "Each card conveys a story that awakens the imagination of its holder.",
+        "By presenting a story, each card enthralls the imagination of anyone who holds it.",
+        "The imagination of the cardholder is captured by the story each card tells."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "capturing": [
+          "capturing"
+        ],
+        "card": [
+          "card"
+        ],
+        "tells": [
+          "tells"
+        ],
+        "imagination": [
+          "imagination",
+          "imaginativeness"
+        ],
+        "those": [
+          "those"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "hold": [
+          "hold",
+          "maintain",
+          "retain",
+          "keep",
+          "contain",
+          "support"
+        ],
+        "story": [
+          "story",
+          "narrative",
+          "chronicle",
+          "account",
+          "history",
+          "report"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

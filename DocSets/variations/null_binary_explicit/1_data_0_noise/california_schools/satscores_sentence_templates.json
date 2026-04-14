@@ -1,0 +1,820 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "9eb06509b6514d03": "cds",
+    "b9f9e288e4454e7a": "rtype",
+    "9b9e0f080247418a": "sname",
+    "7b5274654a924d05": "dname",
+    "b56f2f1cb3364064": "cname",
+    "1e441e012b154bf7": "enroll12",
+    "760434882c614c2b": "NumTstTakr",
+    "1707e0d904094a99": "AvgScrRead",
+    "7c8469c5ebf54db0": "AvgScrMath",
+    "f360f4f893984129": "AvgScrWrite",
+    "3ce7e7d6905e4fbb": "NumGE1500"
+  },
+  "templates": [
+    {
+      "original": "The California Department of Education identifies the school with the unique cds code 01100170000000 for official records.",
+      "template_pattern": "The California Department of Education identifies the school with the unique cds code [CDS] for official records.",
+      "primary_data_fields": [
+        "cds"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The California Department of Education records the school bearing the unique cds code [CDS] for official documentation.",
+        "For official records, the school with the distinctive cds code [CDS] is identified by the California Department of Education.",
+        "The California Department of Education designates the institution that carries the exclusive cds code [CDS] for its official files.",
+        "Official documentation lists the school possessing the singular cds code [CDS] as identified by the California Department of Education.",
+        "The California Department of Education flags the school associated with the unique cds code [CDS] in its official records.",
+        "In its official records, the California Department of Education notes the school that holds the unique cds code [CDS].",
+        "The school, featuring the one‑of‑a‑kind cds code [CDS], is pinpointed by the California Department of Education for official purposes.",
+        "Official records are updated by the California Department of Education to include the school with the unique cds code [CDS].",
+        "The California Department of Education, for official record‑keeping, recognizes the school bearing the unique cds code [CDS].",
+        "To maintain official records, the California Department of Education has identified the school that carries the unique cds code [CDS].",
+        "The school with the unique cds code [CDS] is cataloged by the California Department of Education for official records.",
+        "For the sake of official documentation, the California Department of Education marks the school that possesses the unique cds code [CDS].",
+        "The California Department of Education logs the school containing the unique cds code [CDS] as part of its official records.",
+        "Official record‑keeping by the California Department of Education includes the school featuring the unique cds code [CDS].",
+        "The California Department of Education, in its official files, references the school having the unique cds code [CDS]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "school": [
+          "school",
+          "schooling",
+          "schoolhouse"
+        ],
+        "california": [
+          "california",
+          "California",
+          "CA",
+          "Golden State"
+        ],
+        "identifies": [
+          "identifies",
+          "discovers",
+          "distinguishes",
+          "names"
+        ],
+        "records": [
+          "records"
+        ],
+        "department": [
+          "department",
+          "section"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "singular",
+          "unequalled",
+          "unparalleled"
+        ],
+        "official": [
+          "official",
+          "functionary"
+        ]
+      },
+      "field_data_types": {
+        "cds": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The rtype for categorizing the nature of the SAT test scores for California public schools is labeled as D.",
+      "template_pattern": "The rtype for categorizing the nature of the SAT test scores for California public schools is labeled as [RTYPE].",
+      "primary_data_fields": [
+        "rtype"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The rtype assigned to categorize the nature of the SAT test scores for California public schools is [RTYPE].",
+        "For California public schools, the rtype that classifies the nature of SAT test scores is labeled [RTYPE].",
+        "[RTYPE] serves as the label for the rtype that groups the nature of SAT test scores in California public schools.",
+        "The rtype, which sorts the nature of SAT test scores for California public schools, carries the designation [RTYPE].",
+        "In the context of California public schools, the rtype used to delineate the nature of SAT test scores is marked as [RTYPE].",
+        "The nature of SAT test scores for California public schools is categorized under the rtype labeled [RTYPE].",
+        "Labelled [RTYPE], the rtype defines how the nature of SAT test scores for California public schools is categorized.",
+        "The rtype that classifies the nature of SAT test scores in California public schools has the label [RTYPE].",
+        "A [RTYPE] label identifies the rtype that categorizes the nature of SAT test scores for California public schools.",
+        "The rtype that determines the nature of SAT test scores for California public schools is designated [RTYPE].",
+        "Regarding California public schools, the rtype that organizes the nature of SAT test scores is identified as [RTYPE].",
+        "[RTYPE] is the code assigned to the rtype that categorizes the nature of SAT test scores for California public schools.",
+        "The rtype, tasked with categorizing the nature of SAT test scores for California public schools, is labeled [RTYPE].",
+        "For the SAT test scores of California public schools, the rtype that captures their nature bears the label [RTYPE].",
+        "The rtype used to label the nature of SAT test scores for California public schools is [RTYPE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "categorizing": [
+          "categorizing"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "scores": [
+          "scores",
+          "dozens",
+          "tons",
+          "piles",
+          "stacks",
+          "scads"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "test": [
+          "test",
+          "screen",
+          "examine",
+          "quiz",
+          "exam",
+          "trial"
+        ],
+        "nature": [
+          "nature"
+        ],
+        "labeled": [
+          "labeled",
+          "labelled",
+          "tagged"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ]
+      },
+      "field_data_types": {
+        "rtype": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The school name is listed as NULL in the California Department of Education records.",
+      "template_pattern": "The school name is listed as NULL in the California Department of Education records.",
+      "primary_data_fields": [
+        "sname"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The school name, [SNAME], enjoys recognition for its innovative curriculum and strong community partnerships within the district.",
+        "Recognized for its innovative curriculum and strong community partnerships in the district, the school name, [SNAME], stands out.",
+        "In the district, the school name, [SNAME], is celebrated for its innovative curriculum and robust community partnerships.",
+        "The school name, [SNAME], has earned acclaim for its innovative curriculum as well as its strong community partnerships across the district.",
+        "For its innovative curriculum and strong community partnerships, the school name, [SNAME], receives district‑wide acknowledgment.",
+        "Innovative curriculum and strong community partnerships have brought the school name, [SNAME], into the district’s spotlight.",
+        "Within the district, the school name, [SNAME], is noted for its innovative curriculum and strong community partnerships.",
+        "The district commends the school name, [SNAME], for its innovative curriculum and its strong community partnerships.",
+        "Praised for its innovative curriculum and strong community partnerships, the school name, [SNAME], is a district highlight.",
+        "The school name, [SNAME], is lauded in the district for both its innovative curriculum and its strong community partnerships.",
+        "Across the district, the school name, [SNAME], is distinguished by its innovative curriculum and strong community partnerships.",
+        "With an innovative curriculum and strong community partnerships, the school name, [SNAME], is recognized throughout the district.",
+        "The school name, [SNAME], garners district recognition thanks to its innovative curriculum and strong community partnerships.",
+        "Due to its innovative curriculum and strong community partnerships, the school name, [SNAME], is acknowledged in the district.",
+        "In district reports, the school name, [SNAME], is highlighted for its innovative curriculum and strong community partnerships."
+      ],
+      "counter_variations": [
+        "The school name appears as null in the California Department of Education records.",
+        "In the California Department of Education records, the school name is recorded as null.",
+        "According to the California Department of Education records, the school name is null.",
+        "The California Department of Education records list the school name as null.",
+        "The school name is entered as null within the California Department of Education records.",
+        "Within the California Department of Education records, the school name shows null.",
+        "The school name shows up as null in the California Department of Education records.",
+        "The California Department of Education records indicate the school name as null.",
+        "In the records of the California Department of Education, the school name is null.",
+        "The school name is marked null in the California Department of Education records.",
+        "The California Department of Education records have the school name set to null.",
+        "The school name is documented as null by the California Department of Education records.",
+        "The California Department of Education records reflect a null entry for the school name.",
+        "The school name carries a null value in the California Department of Education records.",
+        "The California Department of Education records cite the school name as null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "records": [
+          "records"
+        ],
+        "school": [
+          "school",
+          "schooling"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "department": [
+          "department"
+        ],
+        "listed": [
+          "listed"
+        ]
+      },
+      "field_data_types": {
+        "sname": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Alameda County Office of Education oversees various public schools, ensuring quality education and resources are available to all students.",
+      "template_pattern": "The [DNAME] oversees various public schools, ensuring quality education and resources are available to all students.",
+      "primary_data_fields": [
+        "dname"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [DNAME] oversees various public schools, ensuring that quality education and resources are available to all students.",
+        "Various public schools are overseen by the [DNAME], which guarantees quality education and resources for all students.",
+        "By overseeing various public schools, the [DNAME] makes certain that quality education and resources reach all students.",
+        "The [DNAME] is responsible for supervising various public schools and for providing quality education and resources to all students.",
+        "Ensuring quality education and resources for all students, the [DNAME] oversees various public schools.",
+        "Quality education and resources are secured for all students through the [DNAME]’s oversight of various public schools.",
+        "The oversight of various public schools by the [DNAME] guarantees quality education and resources for all students.",
+        "With the [DNAME] overseeing various public schools, quality education and resources become accessible to all students.",
+        "Overseeing various public schools, the [DNAME] ensures that all students have quality education and resources.",
+        "All students receive quality education and resources because the [DNAME] oversees various public schools.",
+        "The [DNAME], by supervising various public schools, provides quality education and resources to all students.",
+        "Through its oversight of various public schools, the [DNAME] assures quality education and resources for all students.",
+        "The jurisdiction of the [DNAME] over various public schools secures quality education and resources for all students.",
+        "By supervising various public schools, the [DNAME] helps guarantee quality education and resources for all students.",
+        "Various public schools fall under the [DNAME], which ensures quality education and resources are available to all students."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "schools": [
+          "schools"
+        ],
+        "available": [
+          "available",
+          "usable"
+        ],
+        "resources": [
+          "resources"
+        ],
+        "various": [
+          "various",
+          "diverse",
+          "assorted"
+        ],
+        "oversees": [
+          "oversees"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "quality": [
+          "quality",
+          "caliber",
+          "calibre",
+          "character",
+          "prime",
+          "select"
+        ],
+        "students": [
+          "students"
+        ]
+      },
+      "field_data_types": {
+        "dname": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The analysis of SAT test performance highlights the trends observed in Alameda, providing insights into student outcomes in California.",
+      "template_pattern": "The analysis of SAT test performance highlights the trends observed in [CNAME], providing insights into student outcomes in California.",
+      "primary_data_fields": [
+        "cname"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The SAT test performance analysis underscores the trends seen in [CNAME], offering insights into student outcomes across California.",
+        "An analysis of SAT performance highlights [CNAME]’s observed trends and yields insights into student outcomes throughout California.",
+        "In California, the study of SAT test results reveals [CNAME]’s trends and provides valuable insights into student outcomes.",
+        "Insights into student outcomes in California emerge from the analysis of SAT performance, which spotlights trends identified in [CNAME].",
+        "By examining SAT test performance, the analysis brings [CNAME]’s trends to light and furnishes insights on student outcomes in California.",
+        "The trends observed in [CNAME] are highlighted by the SAT performance analysis, delivering insights into California’s student outcomes.",
+        "Through the analysis of SAT test results, trends in [CNAME] are emphasized, granting insights into student outcomes within California.",
+        "Student outcomes in California are illuminated by insights drawn from the SAT performance analysis that highlights [CNAME]’s trends.",
+        "The SAT performance review accentuates [CNAME]’s trends and supplies insights regarding student outcomes throughout California.",
+        "Highlighting [CNAME]’s trends, the SAT analysis provides insights into student outcomes across the state of California.",
+        "Insights into California student outcomes stem from the SAT test performance analysis, which underscores trends observed in [CNAME].",
+        "The analysis of SAT results pinpoints [CNAME]’s trends and contributes insights about student outcomes in California.",
+        "From the SAT performance analysis, trends in [CNAME] are spotlighted, offering deeper insight into student outcomes across California.",
+        "[CNAME]’s trends are brought to the fore by the SAT analysis, which in turn offers insights into student outcomes throughout California.",
+        "Examining SAT test performance reveals [CNAME]’s trends and furnishes insights into student outcomes across California."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "observed": [
+          "observed",
+          "noted",
+          "noticed",
+          "detected",
+          "ascertained",
+          "discovered"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "providing": [
+          "providing"
+        ],
+        "highlights": [
+          "highlights"
+        ],
+        "outcomes": [
+          "outcomes"
+        ],
+        "test": [
+          "test",
+          "exam",
+          "examination",
+          "quiz",
+          "trial",
+          "screen"
+        ],
+        "performance": [
+          "performance"
+        ],
+        "into": [
+          "into"
+        ]
+      },
+      "field_data_types": {
+        "cname": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the 2012 academic year, enroll12 showed that 398 students were part of the California public school's community.",
+      "template_pattern": "In the 2012 academic year, enroll12 showed that [ENROLL12] students were part of the California public school's community.",
+      "primary_data_fields": [
+        "enroll12"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the 2012 academic year, enroll12 reported that [ENROLL12] students belonged to the California public school's community.",
+        "The 2012 academic year data from enroll12 indicate [ENROLL12] students were members of the California public school's community.",
+        "In 2012, throughout the academic year, enroll12 revealed a total of [ENROLL12] students in the California public school's community.",
+        "According to enroll12, the California public school's community comprised [ENROLL12] students in the 2012 academic year.",
+        "For the academic year 2012, enroll12 documented that [ENROLL12] students formed part of the California public school's community.",
+        "Enroll12 showed, in the 2012 academic year, that the California public school's community included [ENROLL12] students.",
+        "The California public school's community counted [ENROLL12] students, as enroll12 documented for the 2012 academic year.",
+        "In the academic year of 2012, enroll12 indicated [ENROLL12] students were part of the California public school's community.",
+        "Enroll12’s 2012 academic year figures state that [ENROLL12] students made up the California public school's community.",
+        "During 2012’s academic session, enroll12 found that [ENROLL12] students comprised the California public school's community.",
+        "The 2012 academic year data, according to enroll12, show [ENROLL12] students in the California public school's community.",
+        "As recorded by enroll12 for the 2012 academic year, [ENROLL12] students were included in the California public school's community.",
+        "Enroll12, referencing the 2012 academic year, identified [ENROLL12] students as members of the California public school's community.",
+        "In the year 2012, during the academic term, enroll12 reported that the California public school's community consisted of [ENROLL12] students.",
+        "The enroll12 report for the 2012 academic year states that [ENROLL12] students were part of the California public school's community."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "school": [
+          "school",
+          "schooling",
+          "schoolhouse"
+        ],
+        "california": [
+          "california",
+          "California",
+          "Golden State"
+        ],
+        "part": [
+          "part",
+          "constituent",
+          "portion",
+          "piece",
+          "component",
+          "section"
+        ],
+        "community": [
+          "community"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "showed": [
+          "showed",
+          "show",
+          "exhibit",
+          "indicate",
+          "present",
+          "demonstrate"
+        ],
+        "students": [
+          "students"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ]
+      },
+      "field_data_types": {
+        "enroll12": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "At the local California public school, the NumTstTakr for the SAT was recorded at 88.",
+      "template_pattern": "At the local California public school, the NumTstTakr for the SAT was recorded at [NUMTSTTAKR].",
+      "primary_data_fields": [
+        "NumTstTakr"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the local California public school, the NumTstTakr for the SAT registered a score of [NUMTSTTAKR].",
+        "The NumTstTakr for the SAT was logged at [NUMTSTTAKR] in a public school located in California.",
+        "At a California public school nearby, officials recorded the NumTstTakr for the SAT as [NUMTSTTAKR].",
+        "For the SAT, the NumTstTakr reached [NUMTSTTAKR] at the local public school in California.",
+        "The local California public school noted a NumTstTakr of [NUMTSTTAKR] for the SAT.",
+        "Recorded in a nearby California public school, the NumTstTakr for the SAT stood at [NUMTSTTAKR].",
+        "In a public school situated in California, the NumTstTakr for the SAT came in at [NUMTSTTAKR].",
+        "The SAT’s NumTstTakr was measured at [NUMTSTTAKR] at the local public school in California.",
+        "At the California public school in the area, the NumTstTakr for the SAT was [NUMTSTTAKR].",
+        "A local public school in California reported the NumTstTakr for the SAT as [NUMTSTTAKR].",
+        "The NumTstTakr for the SAT, observed at a local California public school, was [NUMTSTTAKR].",
+        "In the nearby California public school, the NumTstTakr for the SAT was captured at [NUMTSTTAKR].",
+        "The local public school in California documented an SAT NumTstTakr of [NUMTSTTAKR].",
+        "At a California public school close by, the NumTstTakr for the SAT was noted to be [NUMTSTTAKR].",
+        "The SAT NumTstTakr, recorded at [NUMTSTTAKR], came from the local public school in California."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "school": [
+          "school",
+          "schooling"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "local": [
+          "local"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "public": [
+          "public",
+          "populace"
+        ]
+      },
+      "field_data_types": {
+        "NumTstTakr": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The AvgScrRead of 418 reflects the average performance of students in California public schools on the SAT reading section.",
+      "template_pattern": "The AvgScrRead of [AVGSCRREAD] reflects the average performance of students in California public schools on the SAT reading section.",
+      "primary_data_fields": [
+        "AvgScrRead"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Avg Scr Read of [AVGSCRREAD] indicates the typical SAT reading results of students attending California public schools.",
+        "A score of [AVGSCRREAD] on the Avg Scr Read reflects how pupils in California’s public school system performed on the SAT reading section.",
+        "With an Avg Scr Read of [AVGSCRREAD], the average achievement of California public‑school learners on the SAT reading portion is shown.",
+        "The Avg Scr Read, recorded at [AVGSCRREAD], represents the mean SAT reading performance of students enrolled in California public schools.",
+        "For California public schools, the Avg Scr Read of [AVGSCRREAD] captures the average outcome on the SAT reading segment.",
+        "An Avg Scr Read value of [AVGSCRREAD] demonstrates the standard SAT reading score among California’s public‑school students.",
+        "The average SAT reading score, denoted as Avg Scr Read [AVGSCRREAD], mirrors the performance of learners in California public schools.",
+        "Avg Scr Read [AVGSCRREAD] reveals the typical SAT reading achievement of students studying in California’s public school network.",
+        "In California public schools, the Avg Scr Read of [AVGSCRREAD] signifies the mean result on the SAT reading component.",
+        "The figure [AVGSCRREAD] for Avg Scr Read portrays the average SAT reading performance of California public‑school students.",
+        "Avg Scr Read, at [AVGSCRREAD], conveys the average SAT reading outcome for students in California public schools.",
+        "Reflecting the SAT reading section, the Avg Scr Read of [AVGSCRREAD] denotes the average performance of California public‑school learners.",
+        "The Avg Scr Read reaching [AVGSCRREAD] illustrates the average SAT reading score among students in California’s public school system.",
+        "A [AVGSCRREAD] Avg Scr Read value illustrates how California public‑school students fare on the SAT reading section on average.",
+        "The Avg Scr Read of [AVGSCRREAD] serves as the benchmark for average SAT reading results of students in California public schools."
+      ],
+      "counter_variations": [
+        "The Avg Scr Read – the average screen reading metric – is presently shown as null, meaning there is no data for this period.",
+        "For this reporting interval, the average screen reading metric (Avg Scr Read) registers as null, indicating a lack of data.",
+        "Currently, the Avg Scr Read metric reports a value of null, signifying that no data are available for the period.",
+        "No data have been recorded for the period, so the average screen reading metric, Avg Scr Read, appears as null.",
+        "The period’s Avg Scr Read, the average screen reading metric, is listed as null, reflecting the absence of data.",
+        "As of now, the average screen reading metric—Avg Scr Read—shows null, denoting that data are not present for this timeframe.",
+        "The Avg Scr Read value for this period is null, which points to the fact that no data exist for the average screen reading metric.",
+        "During the current reporting window, the average screen reading metric (Avg Scr Read) is recorded as null, showing that data are not present.",
+        "In this timeframe, Avg Scr Read—the average screen reading metric—is marked as null, reflecting that there is no data.",
+        "The report lists the average screen reading metric, Avg Scr Read, as null for this period, indicating a data gap.",
+        "For the specified period, the Avg Scr Read metric registers null, denoting that no data have been captured.",
+        "Null is the value displayed for Avg Scr Read, the average screen reading metric, for this reporting period, meaning no data are recorded.",
+        "This period’s average screen reading metric, Avg Scr Read, returns null, which suggests that there is no data.",
+        "At present, the Avg Scr Read (average screen reading metric) shows a null result, indicating that no data exist for the interval.",
+        "The average screen reading metric, known as Avg Scr Read, currently yields null, signifying that data are lacking for this period."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "reflects": [
+          "reflects"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "reading": [
+          "reading",
+          "study",
+          "scan"
+        ],
+        "average": [
+          "average",
+          "norm",
+          "medium",
+          "mean"
+        ],
+        "schools": [
+          "schools",
+          "schoolhouses"
+        ],
+        "performance": [
+          "performance",
+          "execution",
+          "operation",
+          "functioning"
+        ],
+        "section": [
+          "section",
+          "segment",
+          "subdivision",
+          "part",
+          "division"
+        ],
+        "students": [
+          "students"
+        ]
+      },
+      "field_data_types": {
+        "AvgScrRead": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The AvgScrMath at the school is 418, indicating the students' average performance on the SAT math section.",
+      "template_pattern": "The AvgScrMath at the school is [AVGSCRMATH], indicating the students' average performance on the SAT math section.",
+      "primary_data_fields": [
+        "AvgScrMath"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The school's AvgScrMath stands at [AVGSCRMATH], reflecting the average SAT math score of its students.",
+        "With an AvgScrMath of [AVGSCRMATH], the school demonstrates its students' typical performance on the SAT math portion.",
+        "At the school, the AvgScrMath registers [AVGSCRMATH], which signals the average achievement of students on the SAT math section.",
+        "An AvgScrMath of [AVGSCRMATH] is recorded for the school, indicating how students perform on average in the SAT math segment.",
+        "The students' average SAT math result is captured by an AvgScrMath of [AVGSCRMATH] at the school.",
+        "For the school, the AvgScrMath equals [AVGSCRMATH], denoting the mean performance of students on the SAT math component.",
+        "A value of [AVGSCRMATH] for AvgScrMath at the school points to the average student performance on the SAT math section.",
+        "The AvgScrMath, measured at [AVGSCRMATH] for the school, reveals the typical SAT math score among its students.",
+        "In the school's data, AvgScrMath is [AVGSCRMATH], which reflects the average math section outcome for its students on the SAT.",
+        "The school’s AvgScrMath sits at [AVGSCRMATH], showing the average level of student achievement on the SAT math portion.",
+        "Recorded at [AVGSCRMATH], the school’s AvgScrMath indicates the average SAT math performance of its students.",
+        "The AvgScrMath of [AVGSCRMATH] for the school signals the average result that students obtain on the SAT math part.",
+        "At a level of [AVGSCRMATH], the school's AvgScrMath conveys the average SAT math section performance of its pupils.",
+        "The school reports an AvgScrMath of [AVGSCRMATH], denoting the average score its students achieve on the SAT math section.",
+        "With the AvgScrMath set at [AVGSCRMATH], the school illustrates the average performance of its students on the SAT math segment."
+      ],
+      "counter_variations": [
+        "Avg Scr Math is null, indicating that the educational data report provides no figures for this metric.",
+        "In the educational data report, the Avg Scr Math value appears as null, meaning no data were submitted for this indicator.",
+        "The report lists a null Avg Scr Math, signifying that this metric lacks reported data.",
+        "A null reading for Avg Scr Math is shown in the educational data report, reflecting the lack of data for this measure.",
+        "Within the educational data report, Avg Scr Math registers as null, which denotes that no observations were recorded for this metric.",
+        "The educational data report records Avg Scr Math as null, revealing that this metric has no available data.",
+        "Null is the status of Avg Scr Math in the educational data report, underscoring that no data were captured for this item.",
+        "The educational data report assigns a null value to Avg Scr Math, demonstrating that the metric was not reported.",
+        "Avg Scr Math comes up as null in the educational data report, suggesting that no data exist for this particular measure.",
+        "According to the educational data report, Avg Scr Math is null, pointing to the fact that the metric was not supplied with data.",
+        "The educational data report shows Avg Scr Math as null, highlighting that no data were reported for this statistic.",
+        "In the educational data report, Avg Scr Math holds a null value, indicating the absence of data for this metric.",
+        "Avg Scr Math appears as null in the educational data report, implying that no data were recorded for this indicator.",
+        "The educational data report lists Avg Scr Math with a null entry, meaning that this metric lacks any reported data.",
+        "A null designation is given to Avg Scr Math in the educational data report, confirming that no data were provided for this measure."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "school": [
+          "school"
+        ],
+        "average": [
+          "average",
+          "mean",
+          "median",
+          "norm",
+          "medium"
+        ],
+        "performance": [
+          "performance"
+        ],
+        "math": [
+          "math",
+          "mathematics"
+        ],
+        "students": [
+          "students",
+          "pupils",
+          "scholars"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "section": [
+          "section",
+          "segment",
+          "subdivision",
+          "part",
+          "division"
+        ]
+      },
+      "field_data_types": {
+        "AvgScrMath": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In California public schools, the AvgScrWrite on the SAT test's writing section stands at 417, reflecting students' proficiency.",
+      "template_pattern": "In California public schools, the AvgScrWrite on the SAT test's writing section stands at [AVGSCRWRITE], reflecting students' proficiency.",
+      "primary_data_fields": [
+        "AvgScrWrite"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In California public schools, the AvgScrWrite for the SAT writing section is [AVGSCRWRITE], indicating students’ proficiency.",
+        "The SAT writing section’s AvgScrWrite in California’s public schools stands at [AVGSCRWRITE], reflecting how proficient the students are.",
+        "California public schools report an AvgScrWrite of [AVGSCRWRITE] on the SAT writing portion, a sign of student proficiency.",
+        "With an AvgScrWrite of [AVGSCRWRITE], the SAT writing component in California public schools demonstrates student proficiency.",
+        "Students in California public schools achieve a [AVGSCRWRITE] AvgScrWrite on the SAT writing section, showing their proficiency.",
+        "A [AVGSCRWRITE] AvgScrWrite on the SAT writing part marks the proficiency level of students in California public schools.",
+        "In the state of California, public schools’ SAT writing AvgScrWrite registers at [AVGSCRWRITE], mirroring student proficiency.",
+        "The AvgScrWrite of [AVGSCRWRITE] recorded on the SAT writing section underscores the proficiency of California public‑school students.",
+        "California’s public schools have an AvgScrWrite of [AVGSCRWRITE] for the SAT writing segment, reflecting student proficiency.",
+        "Reflecting student proficiency, the SAT writing section’s AvgScrWrite in California public schools totals [AVGSCRWRITE].",
+        "For the SAT writing component, California public schools show an AvgScrWrite of [AVGSCRWRITE], indicating proficient learners.",
+        "The SAT writing AvgScrWrite in California public schools is [AVGSCRWRITE], which points to students’ proficiency.",
+        "In California’s public schools, a [AVGSCRWRITE] AvgScrWrite on the SAT writing portion signals strong student proficiency.",
+        "Student proficiency is evident as the AvgScrWrite reaches [AVGSCRWRITE] on the SAT writing section within California public schools.",
+        "The SAT writing section records an AvgScrWrite of [AVGSCRWRITE] in California public schools, reflecting the proficiency of its students."
+      ],
+      "counter_variations": [
+        "The Avg Scr Write for this cohort appears as null, showing that the metric lacks data in the educational report.",
+        "In the educational report, the Avg Scr Write for this cohort is listed as null, indicating no data is available for that metric.",
+        "For this cohort, the Avg Scr Write is recorded as null, meaning the metric has no data in the report.",
+        "The cohort’s Avg Scr Write is shown as null, reflecting the absence of data for that measure in the educational report.",
+        "Within the report, the Avg Scr Write for this cohort is marked null, signifying that the metric has no data.",
+        "Data for this cohort’s Avg Scr Write is presented as null, denoting a lack of information for that metric in the report.",
+        "The educational report states the Avg Scr Write for this cohort is null, which means there is no data for that metric.",
+        "Null is the value given for the Avg Scr Write of this cohort, indicating the metric is without data in the report.",
+        "The Avg Scr Write for this cohort registers as null, conveying that the metric contains no data in the educational report.",
+        "In this cohort’s educational report, the Avg Scr Write is reported as null, showing that the metric has no available data.",
+        "The report records the Avg Scr Write for this cohort as null, highlighting that the metric lacks data.",
+        "For this cohort, the Avg Scr Write reads null, pointing to a data gap for that metric in the educational report.",
+        "The Avg Scr Write metric for this cohort is indicated as null, reflecting that no data exists for it in the report.",
+        "Educational data shows the Avg Scr Write for this cohort as null, meaning the metric has no data recorded.",
+        "In the cohort’s report, the Avg Scr Write appears as null, signifying that the metric is without data."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "writing": [
+          "writing",
+          "authorship",
+          "composition"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "test": [
+          "test",
+          "quiz",
+          "exam",
+          "examination"
+        ],
+        "proficiency": [
+          "proficiency"
+        ],
+        "section": [
+          "section",
+          "segment",
+          "subdivision",
+          "part",
+          "division"
+        ],
+        "stands": [
+          "stands"
+        ]
+      },
+      "field_data_types": {
+        "AvgScrWrite": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In California public schools, 14 students achieved the NumGE1500 benchmark, highlighting a notable level of college readiness.",
+      "template_pattern": "In California public schools, [NUMGE1500] students achieved the NumGE1500 benchmark, highlighting a notable level of college readiness.",
+      "primary_data_fields": [
+        "NumGE1500"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In California public schools, [NUMGE1500] students met the NumGE1500 benchmark, underscoring a significant level of college readiness.",
+        "The NumGE1500 benchmark was achieved by [NUMGE1500] students in California public schools, indicating a notable degree of college readiness.",
+        "Within California public schools, [NUMGE1500] learners reached the NumGE1500 standard, highlighting strong college preparedness.",
+        "A notable sign of college readiness emerges as [NUMGE1500] students from California public schools satisfy the NumGE1500 benchmark.",
+        "College readiness is highlighted by [NUMGE1500] students in California public schools attaining the NumGE1500 benchmark.",
+        "In California public schools, the NumGE1500 benchmark was fulfilled by [NUMGE1500] students, reflecting a marked level of readiness for higher education.",
+        "[NUMGE1500] students in California public schools have succeeded in meeting the NumGE1500 benchmark, which highlights notable college readiness.",
+        "The achievement of the NumGE1500 benchmark by [NUMGE1500] pupils in California public schools emphasizes a considerable level of college readiness.",
+        "In California public schools, [NUMGE1500] learners reached the NumGE1500 target, showcasing a prominent degree of readiness for college.",
+        "A notable indicator of college readiness is that [NUMGE1500] students across California public schools achieved the NumGE1500 benchmark.",
+        "California public schools reported that [NUMGE1500] students met the NumGE1500 benchmark, signaling a substantial level of college readiness.",
+        "The fact that [NUMGE1500] students in California public schools have achieved the NumGE1500 benchmark highlights a pronounced college‑readiness level.",
+        "Achieving the NumGE1500 benchmark, [NUMGE1500] students from California public schools demonstrate a noteworthy level of preparedness for college.",
+        "In California public schools, the NumGE1500 benchmark was satisfied by [NUMGE1500] students, underscoring notable college readiness.",
+        "[NUMGE1500] students in California public schools satisfy the NumGE1500 benchmark, a clear sign of significant college readiness."
+      ],
+      "counter_variations": [
+        "The NumGE1500 field appears as null, signifying that the related data point was omitted from the educational report.",
+        "In the educational report, the NumGE1500 entry is listed as null, indicating that the corresponding information was not supplied.",
+        "Null is the value recorded for the NumGE1500 field, showing that the associated data point was not provided in the report.",
+        "The NumGE1500 field is marked as null, which tells us that the related data point was not included in the educational report.",
+        "When reviewing the education report, the NumGE1500 column shows null, meaning the corresponding data was not entered.",
+        "A null reading for NumGE1500 indicates that the specific data element was left out of the educational report.",
+        "The report flags the NumGE1500 value as null, denoting that the pertinent data point was not supplied.",
+        "Seeing null for the NumGE1500 field reveals that the associated information was not provided in the educational report.",
+        "The educational data set records null for NumGE1500, reflecting that the corresponding entry was not given.",
+        "Null appears next to the NumGE1500 field, signifying that the relevant data was not reported.",
+        "The presence of null in the NumGE1500 column tells us the related data point was omitted from the educational report.",
+        "For the NumGE1500 field the report lists null, which means the corresponding information was not furnished.",
+        "In the education report, the NumGE1500 value is null, indicating that the associated data point was not supplied.",
+        "A null designation for the NumGE1500 field shows that the specific data was not provided in the report.",
+        "The NumGE1500 entry is shown as null, implying that the relevant data point was not included in the educational report."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "highlighting": [
+          "highlighting"
+        ],
+        "california": [
+          "california",
+          "California"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "achieved": [
+          "achieved"
+        ],
+        "notable": [
+          "notable",
+          "noted",
+          "noteworthy",
+          "famed",
+          "renowned",
+          "illustrious"
+        ],
+        "college": [
+          "college"
+        ],
+        "readiness": [
+          "readiness",
+          "preparedness",
+          "preparation",
+          "set"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "degree",
+          "storey",
+          "stage",
+          "plane",
+          "layer"
+        ]
+      },
+      "field_data_types": {
+        "NumGE1500": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

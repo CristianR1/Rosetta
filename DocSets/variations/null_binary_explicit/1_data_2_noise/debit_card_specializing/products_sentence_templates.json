@@ -1,0 +1,340 @@
+{
+  "document_context": "manufacturing data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "df7b67776bbd41b5": "ProductID",
+    "f1824ee7b84b4ebb": "Description"
+  },
+  "templates": [
+    {
+      "original": "In the transaction log, the product with the unique identifier 1 was purchased using a debit card.",
+      "template_pattern": "In the transaction log, the product with the unique identifier [PRODUCTID] was purchased using a debit card.",
+      "primary_data_fields": [
+        "ProductID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction log shows that Product ID [PRODUCTID] was bought with a debit card.",
+        "According to the transaction log, a debit card was used to purchase Product ID [PRODUCTID].",
+        "Product ID [PRODUCTID] was acquired via debit card, as recorded in the transaction log.",
+        "In the transaction log, the purchase of Product ID [PRODUCTID] was made using a debit card.",
+        "A debit card payment for Product ID [PRODUCTID] appears in the transaction log.",
+        "The transaction log indicates a debit‑card purchase of Product ID [PRODUCTID].",
+        "Recorded in the transaction log, Product ID [PRODUCTID] was obtained through a debit card.",
+        "Using a debit card, Product ID [PRODUCTID] was bought, according to the transaction log.",
+        "The transaction log documents that Product ID [PRODUCTID] was secured with a debit card.",
+        "Product ID [PRODUCTID]’s acquisition, logged in the transaction log, involved a debit card.",
+        "In the transaction log, a debit card facilitated the purchase of Product ID [PRODUCTID].",
+        "The purchase of Product ID [PRODUCTID], noted in the transaction log, was executed with a debit card.",
+        "A debit card was the payment method for Product ID [PRODUCTID], as seen in the transaction log.",
+        "Transaction log entry: Product ID [PRODUCTID] purchased via debit card.",
+        "Product ID [PRODUCTID] was purchased using a debit card, per the transaction log."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "product": [
+          "product",
+          "merchandise"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "unequaled",
+          "singular"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "purchased": [
+          "purchased"
+        ],
+        "using": [
+          "using"
+        ],
+        "transaction": [
+          "transaction"
+        ]
+      },
+      "field_data_types": {
+        "ProductID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Within this context, understanding the features of each product becomes essential.",
+      "template_pattern": "Within this context, understanding the features of each product becomes essential.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In this context, grasping each product’s features is indispensable.",
+        "Understanding the features of every product becomes vital within this framework.",
+        "Within this setting, it is essential to comprehend the characteristics of each product.",
+        "The features of each product must be understood in this context, as they are crucial.",
+        "Given these circumstances, recognizing each product’s attributes is paramount.",
+        "It becomes necessary, within this scenario, to know the features of every product.",
+        "Each product’s features need to be understood here, making it essential.",
+        "In the current context, mastering the features of each product is a must.",
+        "The importance of understanding each product’s features emerges in this context.",
+        "Within this situation, the comprehension of all product features is essential.",
+        "Understanding each product’s attributes becomes indispensable given this context.",
+        "Here, the essential task is to grasp the features of every product.",
+        "Within the present framework, knowing the features of each product is crucial.",
+        "The necessity to understand each product’s features is highlighted in this context.",
+        "In this setting, it is imperative to be familiar with the features of each product."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "features": [
+          "features"
+        ],
+        "product": [
+          "product",
+          "ware",
+          "merchandise"
+        ],
+        "becomes": [
+          "becomes"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "essential": [
+          "essential",
+          "necessary",
+          "crucial",
+          "requisite",
+          "indispensable",
+          "substantive"
+        ],
+        "understanding": [
+          "understanding",
+          "intellect",
+          "savvy",
+          "discernment",
+          "apprehension",
+          "reason"
+        ],
+        "context": [
+          "context",
+          "circumstance",
+          "setting"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Description highlights Rucní zadání as a unique feature of our products, ensuring customers understand their manual input options.",
+      "template_pattern": "The Description highlights Rucní zadání as a unique feature of our products, ensuring customers understand their manual input options.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Description emphasizes that Rucní zadání is a distinctive attribute of our products, guaranteeing customers grasp their manual input choices.",
+        "In the Description, Rucní zadání is spotlighted as a singular feature of our offerings, helping customers comprehend the manual input possibilities.",
+        "Customers are made aware of the manual input options through the Description, which underscores Rucní zadání as a unique product characteristic.",
+        "By highlighting Rucní zadání as an exclusive feature, the Description ensures that users understand their manual input alternatives.",
+        "Rucní zadání is presented in the Description as a one‑of‑a‑kind element of our products, thereby assuring customers understand how to input data manually.",
+        "The unique feature of Rucní zadání is called out in the Description, so customers can clearly perceive their manual input options.",
+        "Through the Description, we stress that Rucní zadání distinguishes our products, thereby guaranteeing comprehension of manual input choices for customers.",
+        "The Description points out Rucní zadání as a special characteristic of our items, ensuring that customers recognize their manual input capabilities.",
+        "Highlighting Rucní zadání as a unique aspect of our products, the Description makes certain that customers grasp the manual input options available.",
+        "Our product description draws attention to Rucní zadání as an exclusive feature, confirming that customers understand the manual input alternatives.",
+        "By featuring Rucní zadání prominently, the Description assures customers that they are aware of the manual input options the products provide.",
+        "The manual input option, Rucní zadání, is showcased in the Description as a distinctive product trait, guaranteeing customer comprehension.",
+        "In the description, we underscore Rucní zadání as a singular product attribute, thereby ensuring customers know their manual input possibilities.",
+        "Rucní zadání receives emphasis in the Description as a unique product feature, which helps customers understand the manual input routes.",
+        "The Description makes clear that Rucní zadání is a unique feature of our offerings, thereby ensuring customers are informed about manual input options."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Such features can greatly enhance user experience and satisfaction.",
+      "template_pattern": "Such features can greatly enhance user experience and satisfaction.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "These functionalities have the potential to substantially improve both user experience and satisfaction.",
+        "By incorporating such features, user experience and satisfaction can be markedly heightened.",
+        "User experience and satisfaction may be significantly boosted thanks to these features.",
+        "The inclusion of these features can markedly elevate the overall user experience and satisfaction levels.",
+        "Such features are capable of dramatically enhancing how users experience the product and their satisfaction.",
+        "With these features in place, a considerable increase in user experience and satisfaction is possible.",
+        "A notable improvement in user experience and satisfaction can result from implementing such features.",
+        "User experience, along with satisfaction, can be greatly amplified when these features are employed.",
+        "These features, when utilized, can greatly augment both the experience and satisfaction of users.",
+        "Enhanced user experience and satisfaction are achievable through the adoption of such features.",
+        "Incorporating these features could substantially raise user experience and satisfaction.",
+        "The presence of such features can lead to a pronounced boost in user experience and satisfaction.",
+        "Users’ experience and satisfaction stand to be significantly improved by these features.",
+        "By leveraging these features, organizations can markedly improve user experience and satisfaction.",
+        "Such features may profoundly improve both the user experience and overall satisfaction."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "features": [
+          "features"
+        ],
+        "such": [
+          "such"
+        ],
+        "experience": [
+          "experience"
+        ],
+        "greatly": [
+          "greatly"
+        ],
+        "user": [
+          "user"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ],
+        "satisfaction": [
+          "satisfaction",
+          "gratification"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Ultimately, the way these products are presented plays a crucial role in customer decision-making.",
+      "template_pattern": "Ultimately, the way these products are presented plays a crucial role in customer decision-making.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the end, how these products are showcased significantly influences customers' purchasing choices.",
+        "The presentation of the products ultimately determines a vital part of the customer's decision process.",
+        "Customer decisions hinge largely on the manner in which the products are displayed.",
+        "A decisive factor in buyer choice is the way the products are presented, ultimately.",
+        "Ultimately, the manner of product presentation holds a key influence over customer decision‑making.",
+        "The way the products are presented ultimately plays a crucial role in how customers decide.",
+        "How the products are exhibited ultimately serves as a pivotal element in the customer's decision‑making.",
+        "Customers' purchasing decisions are heavily affected by the final presentation of these products.",
+        "In the final analysis, the presentation format of the products is a critical driver of customer choice.",
+        "The crucial role of product presentation in shaping customer decisions cannot be overstated, ultimately.",
+        "Ultimately, it is the way the products are presented that critically shapes how customers decide.",
+        "The influence on customer decision‑making is chiefly dictated by the eventual presentation of these products.",
+        "Product presentation, in the end, is a decisive factor in the customer's choice process.",
+        "A key determinant of consumer decisions is how the products are ultimately displayed.",
+        "When it comes to customer decision‑making, the ultimate presentation of the products plays an essential role."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "these": [
+          "these"
+        ],
+        "plays": [
+          "plays"
+        ],
+        "decision": [
+          "decision",
+          "determination",
+          "conclusion"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "role": [
+          "role",
+          "function",
+          "purpose",
+          "part"
+        ],
+        "products": [
+          "products"
+        ],
+        "ultimately": [
+          "ultimately",
+          "finally"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Description indicates that the process was initiated through Rucní zadání, reflecting a manually entered specification within the manufacturing workflow.",
+      "template_pattern": "The product's Description provides a concise overview, and for this item it reads: [DESCRIPTION], highlighting key manufacturing details.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The product's Description gives a brief summary, and for this item it reads: [DESCRIPTION], emphasizing key manufacturing details.",
+        "A concise overview is provided by the Description of the product; for this unit it states: [DESCRIPTION], which highlights key manufacturing details.",
+        "In the product's Description you will find a short synopsis: [DESCRIPTION], drawing attention to key manufacturing details.",
+        "Key manufacturing details are highlighted in the Description, which for this product reads: [DESCRIPTION], offering a concise overview.",
+        "For this item, the Description supplies a succinct overview and reads: [DESCRIPTION], underscoring key manufacturing details.",
+        "The Description field of the product delivers a compact overview, and its content for this article is: [DESCRIPTION], pointing out key manufacturing details.",
+        "Presented in the product's Description is a brief overview; specifically, it says: [DESCRIPTION], and it spotlights key manufacturing details.",
+        "This item's Description contains a concise summary—[DESCRIPTION]—which brings out key manufacturing details.",
+        "A short overview is contained in the Description, and for this product it reads: [DESCRIPTION], highlighting key manufacturing details.",
+        "The product’s Description, which offers a succinct overview, reads for this unit: [DESCRIPTION], emphasizing key manufacturing details.",
+        "Highlighting key manufacturing details, the Description of this product reads: [DESCRIPTION], delivering a concise overview.",
+        "For this product, the Description provides a brief overview and reads: [DESCRIPTION]; it underscores key manufacturing details.",
+        "The concise overview found in the Description reads: [DESCRIPTION] for this item, drawing focus to key manufacturing details.",
+        "In this item's Description, a brief overview is given: [DESCRIPTION], and it accentuates key manufacturing details.",
+        "A succinct overview appears in the Description, and for this product it states: [DESCRIPTION], highlighting key manufacturing details."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "concise": [
+          "concise"
+        ],
+        "details": [
+          "details"
+        ],
+        "provides": [
+          "provides"
+        ],
+        "description": [
+          "description"
+        ],
+        "overview": [
+          "overview"
+        ],
+        "item": [
+          "item",
+          "point",
+          "detail"
+        ],
+        "reads": [
+          "reads"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

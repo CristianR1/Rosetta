@@ -1,0 +1,528 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "bf10ea4f94ba446d": "client_id",
+    "ec5f4694068c43b5": "gender",
+    "f9b7d546d4004143": "birth_date",
+    "88a256b50dfa4c59": "district_id"
+  },
+  "templates": [
+    {
+      "original": "Customer number 1 has been successfully verified and their account information is up to date.",
+      "template_pattern": "Customer number [CLIENT_ID] has been successfully verified and their account information is up to date.",
+      "primary_data_fields": [
+        "client_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Client id [CLIENT_ID] was successfully verified, and its account details are current.",
+        "The verification of client id [CLIENT_ID] succeeded, with the account information now up to date.",
+        "Having confirmed client id [CLIENT_ID], we find the account data fully up to date.",
+        "Client id [CLIENT_ID]’s verification was completed successfully, and the account record remains current.",
+        "Successful verification of client id [CLIENT_ID] has resulted in an account that is up to date.",
+        "We have verified client id [CLIENT_ID] without issue, and the associated account information is up to date.",
+        "Client id [CLIENT_ID] is now verified successfully, and its account information stays current.",
+        "After a successful verification, client id [CLIENT_ID]’s account information is confirmed as up to date.",
+        "The account details for client id [CLIENT_ID] are up to date, following its successful verification.",
+        "Client id [CLIENT_ID], now verified, maintains account information that is up to date.",
+        "Verification of client id [CLIENT_ID] has been completed successfully, and the account data is current.",
+        "With client id [CLIENT_ID] verified successfully, the account information is kept up to date.",
+        "Client id [CLIENT_ID]’s account information remains current after a successful verification.",
+        "A successful verification of client id [CLIENT_ID] ensures that its account details are up to date.",
+        "Having been verified successfully, client id [CLIENT_ID]’s account information is now up to date."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "successfully": [
+          "successfully"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "account": [
+          "account",
+          "report",
+          "bill",
+          "history",
+          "chronicle",
+          "explanation"
+        ],
+        "their": [
+          "their"
+        ],
+        "information": [
+          "information",
+          "data"
+        ],
+        "verified": [
+          "verified"
+        ]
+      },
+      "field_data_types": {
+        "client_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With the verification complete, the focus now shifts to understanding the customer's unique financial needs.",
+      "template_pattern": "With the verification complete, the focus now shifts to understanding the customer's unique financial needs.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Having completed the verification, we now concentrate on grasping the customer's unique financial needs.",
+        "Now that verification is finished, attention turns toward understanding the customer's distinct financial requirements.",
+        "With verification concluded, the emphasis shifts to comprehending the customer's individual financial needs.",
+        "The verification being complete, the focus moves to the customer's singular financial needs for better understanding.",
+        "After the verification has been finalized, our priority is to discern the customer's unique financial needs.",
+        "Verification complete, we redirect our focus to the task of understanding the customer's specific financial needs.",
+        "As the verification wraps up, the spotlight shifts to interpreting the customer's unique financial requirements.",
+        "Once verification is done, the next step is to explore the customer's distinct financial needs.",
+        "With the verification process now behind us, the aim is to understand the customer's individual financial needs.",
+        "The completion of verification leads us to concentrate on the customer's unique financial needs.",
+        "Verification finished, the focus now pivots to grasping the customer's particular financial requirements.",
+        "Having verified everything, our attention is now directed toward the customer's unique financial needs.",
+        "With verification wrapped up, the priority becomes understanding the customer's distinct financial needs.",
+        "The verification phase is complete, and the focus consequently shifts to the customer's unique financial needs.",
+        "After confirming verification, the emphasis turns to comprehending the customer's individual financial requirements."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "focus": [
+          "focus",
+          "center",
+          "centre"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "singular",
+          "unequaled",
+          "unequalled"
+        ],
+        "shifts": [
+          "shifts"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "verification": [
+          "verification",
+          "check",
+          "confirmation",
+          "substantiation"
+        ],
+        "complete": [
+          "complete",
+          "accomplished",
+          "concluded",
+          "terminated",
+          "consummate",
+          "perfect"
+        ],
+        "understanding": [
+          "understanding",
+          "apprehension",
+          "savvy",
+          "discernment",
+          "reason",
+          "agreement"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The customer's gender identity is indicated as F, which helps in analyzing demographic trends for personalized financial services.",
+      "template_pattern": "The customer's gender identity is indicated as [GENDER], which helps in analyzing demographic trends for personalized financial services.",
+      "primary_data_fields": [
+        "gender"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The customer's gender is recorded as [GENDER], which aids in evaluating demographic patterns for tailored financial services.",
+        "Indicating the gender as [GENDER] for the customer assists analysts in tracking demographic trends to customize financial offerings.",
+        "[GENDER] is the gender noted for the client, supporting the analysis of demographic shifts that inform personalized finance solutions.",
+        "By marking the customer's gender as [GENDER], we can better examine demographic tendencies for individualized financial products.",
+        "The gender field shows [GENDER] for this customer, facilitating the study of demographic movements for bespoke financial services.",
+        "Gender identified as [GENDER] for the client helps us analyze demographic trends that drive customized financial planning.",
+        "With the customer's gender set to [GENDER], demographic trend analysis becomes possible for personalized financial services.",
+        "The client's gender, listed as [GENDER], contributes to demographic trend analysis aimed at personalized financial solutions.",
+        "Since the gender is indicated as [GENDER] for this customer, it supports demographic analyses for tailored financial offerings.",
+        "[GENDER] appears as the gender for the customer, enabling demographic trend assessments that guide individualized financial services.",
+        "When the customer's gender is noted as [GENDER], it assists in the examination of demographic patterns for customized finance.",
+        "The gender entry of [GENDER] for the customer provides insight into demographic trends for personalized financial products.",
+        "Recording gender as [GENDER] for this client facilitates demographic trend analysis for bespoke financial services.",
+        "Because the customer’s gender is marked as [GENDER], demographic trends can be analyzed to shape personalized financial solutions.",
+        "The gender marked [GENDER] for the client aids in the study of demographic tendencies for customized financial services."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "personalized": [
+          "personalized",
+          "personalised",
+          "individualized",
+          "individualised"
+        ],
+        "helps": [
+          "helps",
+          "serves"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "which": [
+          "which"
+        ],
+        "services": [
+          "services"
+        ],
+        "trends": [
+          "trends"
+        ],
+        "indicated": [
+          "indicated"
+        ]
+      },
+      "field_data_types": {
+        "gender": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As demographic insights enhance service offerings, attention to age-specific financial planning becomes paramount.",
+      "template_pattern": "As demographic insights enhance service offerings, attention to age-specific financial planning becomes paramount.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "With demographic insights boosting service offerings, focusing on age‑targeted financial planning is essential.",
+        "Because demographic data sharpen our services, prioritizing financial planning for each age group is now vital.",
+        "Demographic insights are improving service portfolios, making age‑specific financial planning a top priority.",
+        "As service offerings are refined by demographic knowledge, heightened attention to age‑based financial planning is required.",
+        "The enhancement of services through demographic analysis places age‑specific financial planning at the forefront.",
+        "When demographic insights upgrade our services, we must give utmost importance to age‑focused financial planning.",
+        "Age‑specific financial planning becomes a priority as demographic insights elevate service offerings.",
+        "By leveraging demographic insights to enrich services, firms must concentrate on financial planning tailored to age groups.",
+        "Service offerings are being enhanced by demographic understanding, therefore age‑centric financial planning must be emphasized.",
+        "The rise in service quality thanks to demographic insights makes attention to age‑based financial planning paramount.",
+        "As demographic intelligence refines our service suite, the need for age‑specific financial planning intensifies.",
+        "With services sharpened by demographic insight, the spotlight shifts to age‑targeted financial planning.",
+        "Demographic insights augment service provisions, consequently rendering age‑focused financial planning crucial.",
+        "The improvement of service offerings through demographic data underscores the importance of age‑specific financial planning.",
+        "As we enrich services with demographic knowledge, allocating focus to age‑specific financial planning becomes critical."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "enhance": [
+          "enhance",
+          "raise",
+          "heighten"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "planning": [
+          "planning",
+          "plan",
+          "provision",
+          "project",
+          "preparation",
+          "design"
+        ],
+        "becomes": [
+          "becomes"
+        ],
+        "paramount": [
+          "paramount",
+          "predominant",
+          "overriding",
+          "preponderant"
+        ],
+        "service": [
+          "service",
+          "help"
+        ],
+        "attention": [
+          "attention",
+          "care"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The customer, born on 1970-12-13, orients their financial choices based on tailored services that consider age-related needs and preferences.",
+      "template_pattern": "The customer, born on [BIRTH_DATE], orients their financial choices based on tailored services that consider age-related needs and preferences.",
+      "primary_data_fields": [
+        "birth_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the customer's birth date is [BIRTH_DATE], they steer their financial decisions according to customized services that address age‑specific requirements and preferences.",
+        "The client, with a birth date of [BIRTH_DATE], bases their investment choices on personalized solutions that take into account needs and preferences linked to their age.",
+        "Tailored services that reflect age‑related needs guide the financial choices of the customer whose birth date reads [BIRTH_DATE].",
+        "Financial options are shaped for the customer—birth date [BIRTH_DATE]—by bespoke services that consider the individual's age‑related preferences.",
+        "Given a birth date of [BIRTH_DATE], the customer aligns their monetary decisions with services specially designed for age‑related needs.",
+        "The customer's financial path, informed by a birth date of [BIRTH_DATE], follows tailored offerings that factor in age‑specific preferences.",
+        "Customized, age‑aware services influence the financial selections of the client whose birth date is [BIRTH_DATE].",
+        "With a birth date of [BIRTH_DATE], the customer’s financial choices are directed by services that are tailored to age‑related needs and preferences.",
+        "The financial choices of the customer (birth date: [BIRTH_DATE]) are guided by personalized services that consider their age‑related needs.",
+        "Age‑focused, tailored services determine how the customer, birth date [BIRTH_DATE], makes financial decisions.",
+        "Because the birth date of the client is [BIRTH_DATE], their monetary choices are driven by services that reflect age‑related preferences.",
+        "The client’s birth date—[BIRTH_DATE]—leads them to rely on bespoke financial services that address age‑specific needs.",
+        "Financial decisions for the customer, whose birth date is [BIRTH_DATE], are shaped by customized services attentive to age‑related preferences.",
+        "Tailored, age‑aware services inform the financial choices of a customer with a birth date of [BIRTH_DATE].",
+        "The customer, birth date [BIRTH_DATE], orients their financial behavior according to services that are tailored to age‑related needs and preferences."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "born": [
+          "born",
+          "innate",
+          "natural"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "preferences": [
+          "preferences",
+          "druthers"
+        ],
+        "orients": [
+          "orients"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "services": [
+          "services"
+        ],
+        "consider": [
+          "consider",
+          "think",
+          "regard",
+          "view",
+          "weigh",
+          "study"
+        ],
+        "based": [
+          "based"
+        ]
+      },
+      "field_data_types": {
+        "birth_date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Meanwhile, strategic planning for demographic segments continues to evolve, ensuring comprehensive coverage for all client needs.",
+      "template_pattern": "Meanwhile, strategic planning for demographic segments continues to evolve, ensuring comprehensive coverage for all client needs.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In parallel, the strategic roadmap for target demographics is constantly evolving, guaranteeing full coverage of every client requirement.",
+        "Meanwhile, strategic planning for population segments keeps developing, thereby ensuring thorough coverage for all client needs.",
+        "Strategic planning aimed at demographic groups continues to evolve, providing comprehensive coverage across every client demand.",
+        "At the same time, the evolution of strategic designs for customer demographics secures all‑encompassing coverage for each client need.",
+        "The ongoing evolution of strategic planning for demographic segments ensures that all client needs are comprehensively covered.",
+        "While strategic planning for target groups evolves, it secures comprehensive coverage of every client requirement.",
+        "Strategic planning for demographic segments is being refined continuously, which guarantees complete coverage for all client needs.",
+        "Concurrently, the strategic approach to demographic segmentation is advancing, delivering full coverage of each client’s needs.",
+        "Evolution of strategic planning for population segments persists, assuring thorough coverage for every client requirement.",
+        "As strategic planning for demographic categories progresses, it ensures that all client needs are fully addressed.",
+        "The strategic planning process for demographic segments keeps evolving, thereby providing exhaustive coverage for all client needs.",
+        "With strategic planning for target demographics in flux, comprehensive coverage for each client requirement is maintained.",
+        "Strategic planning for various demographic segments continues to develop, guaranteeing all‑encompassing coverage for client needs.",
+        "In tandem, the evolution of strategic planning for demographic groups secures comprehensive coverage for every client demand.",
+        "While the strategic roadmap for demographic segments evolves, it ensures that all client needs receive thorough coverage."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensuring": [
+          "ensuring"
+        ],
+        "planning": [
+          "planning"
+        ],
+        "coverage": [
+          "coverage",
+          "reporting"
+        ],
+        "continues": [
+          "continues"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "meanwhile": [
+          "meanwhile",
+          "meantime"
+        ],
+        "segments": [
+          "segments"
+        ],
+        "evolve": [
+          "evolve",
+          "develop"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The district_id 18 is crucial for managing the accounts of schools within its designated educational region.",
+      "template_pattern": "The district_id [DISTRICT_ID] is crucial for managing the accounts of schools within its designated educational region.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "District id [DISTRICT_ID] plays a vital role in overseeing school accounts across its assigned educational region.",
+        "Managing the schools' financial records in its designated education zone hinges on district id [DISTRICT_ID].",
+        "The accounts of schools within the assigned educational region are effectively handled thanks to district id [DISTRICT_ID].",
+        "For the proper administration of school accounts in its specified region, district id [DISTRICT_ID] is essential.",
+        "Within its designated educational region, the management of school accounts depends critically on district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] is indispensable when it comes to controlling school finances in the region it serves.",
+        "In the educational zone allotted to it, school account oversight relies heavily on district id [DISTRICT_ID].",
+        "The handling of school accounts in its defined education area is made possible by district id [DISTRICT_ID].",
+        "School financial management within its assigned region is anchored by district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] serves as the key element for administering school accounts throughout its designated educational region.",
+        "Effective management of school accounts in its specified educational region requires district id [DISTRICT_ID].",
+        "The designated educational region's school accounts are managed primarily through district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] is the cornerstone for supervising school finances within its allocated education region.",
+        "Within the region it is assigned, the oversight of school accounts is contingent upon district id [DISTRICT_ID].",
+        "School account administration in its designated educational region hinges on the presence of district id [DISTRICT_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "accounts": [
+          "accounts"
+        ],
+        "designated": [
+          "designated"
+        ],
+        "region": [
+          "region",
+          "realm",
+          "area",
+          "part",
+          "neighborhood"
+        ],
+        "managing": [
+          "managing"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This regional management approach ensures that educational institutions receive optimal financial oversight and support.",
+      "template_pattern": "This regional management approach ensures that educational institutions receive optimal financial oversight and support.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "By adopting a regional management approach, we guarantee that educational institutions obtain optimal financial oversight and support.",
+        "Optimal financial oversight and support are ensured for educational institutions through the regional management approach.",
+        "The regional management approach secures the provision of optimal financial oversight and support to educational institutions.",
+        "Through a regional management strategy, educational institutions are assured of optimal financial oversight and support.",
+        "Educational institutions receive optimal financial oversight and support, thanks to the regional management approach.",
+        "With the regional management approach in place, optimal financial oversight and support are delivered to educational institutions.",
+        "The implementation of a regional management approach ensures that educational institutions benefit from optimal financial oversight and support.",
+        "As a result of the regional management approach, educational institutions get optimal financial oversight and support.",
+        "Regional management’s approach guarantees optimal financial oversight and support for educational institutions.",
+        "By means of a regional management approach, optimal financial oversight and support are provided to educational institutions.",
+        "The approach to regional management ensures educational institutions receive optimal financial oversight and support.",
+        "Thanks to the regional management approach, optimal financial oversight and support are extended to educational institutions.",
+        "Educational institutions are furnished with optimal financial oversight and support via the regional management approach.",
+        "The regional management model assures that educational institutions obtain optimal financial oversight and support.",
+        "Through employing a regional management approach, we ensure that educational institutions are granted optimal financial oversight and support."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "support": [
+          "support",
+          "back",
+          "sustain",
+          "underpin",
+          "backing",
+          "funding"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "oversight": [
+          "oversight",
+          "supervision",
+          "superintendence"
+        ],
+        "approach": [
+          "approach",
+          "advance",
+          "access"
+        ],
+        "ensures": [
+          "ensures"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "optimal": [
+          "optimal",
+          "optimum"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

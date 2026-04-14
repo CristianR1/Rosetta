@@ -1,0 +1,379 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "aead13122edb4a39": "id",
+    "c166c79dd3f24e5d": "team_api_id",
+    "0319dd6eec7f4e76": "team_fifa_api_id",
+    "9d180aad135f492e": "team_long_name",
+    "7839d395e96d410c": "team_short_name"
+  },
+  "templates": [
+    {
+      "original": "In the European football scene, Club 1 stands out with its unique identity.",
+      "template_pattern": "In the European football scene, Club [ID] stands out with its unique identity.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the European football scene, Club [ID] distinguishes itself by its unique identity.",
+        "Club [ID]’s unique identity makes it stand out in the European football scene.",
+        "In the European football scene, the unique identity of Club [ID] sets it apart.",
+        "The European football scene highlights Club [ID], thanks to its unique identity.",
+        "Thanks to its unique identity, Club [ID] emerges as a standout in the European football scene.",
+        "Across the European football scene, Club [ID] is recognized for its unique identity.",
+        "The unique identity of Club [ID] causes it to be prominent within the European football scene.",
+        "Within the European football scene, Club [ID] shines because of its unique identity.",
+        "In the context of the European football scene, Club [ID] is noted for its unique identity.",
+        "Club [ID], with its unique identity, is a notable presence in the European football scene.",
+        "The European football scene features Club [ID], distinguished by its unique identity.",
+        "Owing to its unique identity, Club [ID] captures attention in the European football scene.",
+        "In the European football scene, Club [ID]’s unique identity is a defining characteristic.",
+        "The distinctiveness of Club [ID]’s unique identity is evident throughout the European football scene.",
+        "Across the European football scene, the unique identity of Club [ID] makes it stand out."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "scene": [
+          "scene",
+          "scenery",
+          "setting",
+          "view",
+          "vista",
+          "panorama"
+        ],
+        "football": [
+          "football"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "guild",
+          "order"
+        ],
+        "stands": [
+          "stands"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "european": [
+          "european",
+          "European"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The European football club with team_api_id 9987 has consistently impressed fans with its remarkable performance on the field.",
+      "template_pattern": "The European football club with team_api_id [TEAM_API_ID] has consistently impressed fans with its remarkable performance on the field.",
+      "primary_data_fields": [
+        "team_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Fans have repeatedly been wowed by the European football club bearing team api id [TEAM_API_ID], thanks to its outstanding on‑field performance.",
+        "The European football club identified by team api id [TEAM_API_ID] continually captivates its supporters with an impressive display on the pitch.",
+        "With team api id [TEAM_API_ID], the European football club has repeatedly dazzled fans through its remarkable field performance.",
+        "The remarkable on‑field performance of the European football club, team api id [TEAM_API_ID], has consistently won over its fans.",
+        "Supporters are consistently amazed by the European football club (team api id [TEAM_API_ID]) due to its exceptional play on the field.",
+        "A European football club, team api id [TEAM_API_ID], has persistently impressed its fanbase with stellar performances on the pitch.",
+        "Consistent excellence on the field has led the European football club with team api id [TEAM_API_ID] to continually impress its fans.",
+        "The team api id [TEAM_API_ID] European football club has earned ongoing fan admiration through its impressive field displays.",
+        "Fans continually applaud the European football club that carries team api id [TEAM_API_ID] for its remarkable on‑field achievements.",
+        "Through a series of remarkable field performances, the European football club bearing team api id [TEAM_API_ID] has consistently won fan praise.",
+        "The European football club, identified by team api id [TEAM_API_ID], has persistently amazed its supporters with outstanding play on the field.",
+        "Impressing fans on a regular basis, the European football club with team api id [TEAM_API_ID] showcases a remarkable performance on the pitch.",
+        "Because of its notable on‑field performance, the European football club holding team api id [TEAM_API_ID] has repeatedly impressed its fans.",
+        "The club from Europe, team api id [TEAM_API_ID], has continuously delighted its fanbase with an extraordinary performance on the field.",
+        "Repeatedly, fans have been impressed by the European football club's remarkable field performance, a club recognized by team api id [TEAM_API_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "remarkable": [
+          "remarkable",
+          "singular",
+          "noteworthy"
+        ],
+        "impressed": [
+          "impressed"
+        ],
+        "football": [
+          "football"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "order",
+          "guild"
+        ],
+        "performance": [
+          "performance",
+          "operation",
+          "functioning",
+          "execution"
+        ],
+        "field": [
+          "field",
+          "domain",
+          "area",
+          "discipline",
+          "sphere",
+          "subject"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ]
+      },
+      "field_data_types": {
+        "team_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team_fifa_api_id 673 serves as a critical reference for tracking a specific football club's performance across the European leagues.",
+      "template_pattern": "The team_fifa_api_id [TEAM_FIFA_API_ID] serves as a critical reference for tracking a specific football club's performance across the European leagues.",
+      "primary_data_fields": [
+        "team_fifa_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Team fifa api id [TEAM_FIFA_API_ID] acts as a vital reference for monitoring a specific football club's performance throughout the European leagues.",
+        "A critical reference, team fifa api id [TEAM_FIFA_API_ID], is used to track a specific football club's performance across the European leagues.",
+        "The performance of a specific football club across the European leagues is tracked using team fifa api id [TEAM_FIFA_API_ID] as a key reference.",
+        "Team fifa api id [TEAM_FIFA_API_ID] provides an essential benchmark for following a specific football club's results across the European leagues.",
+        "As a primary reference, team fifa api id [TEAM_FIFA_API_ID] enables the tracking of a specific football club's performance in the European leagues.",
+        "Tracking a specific football club's performance across the European leagues relies on team fifa api id [TEAM_FIFA_API_ID] as a crucial reference.",
+        "Team fifa api id [TEAM_FIFA_API_ID] is employed as a significant point of reference when observing a specific football club's performance across the European leagues.",
+        "The reference point team fifa api id [TEAM_FIFA_API_ID] is critical for the surveillance of a specific football club's performance throughout the European leagues.",
+        "For monitoring a specific football club's performance across the European leagues, team fifa api id [TEAM_FIFA_API_ID] serves as an indispensable reference.",
+        "A specific football club's performance across the European leagues can be traced via the critical reference of team fifa api id [TEAM_FIFA_API_ID].",
+        "Team fifa api id [TEAM_FIFA_API_ID] functions as a pivotal reference in the tracking of a specific football club's performance across the European leagues.",
+        "The critical reference provided by team fifa api id [TEAM_FIFA_API_ID] facilitates the tracking of a specific football club's performance throughout the European leagues.",
+        "Through team fifa api id [TEAM_FIFA_API_ID], analysts obtain a key reference for charting a specific football club's performance across the European leagues.",
+        "Team fifa api id [TEAM_FIFA_API_ID], acting as a core reference, supports the monitoring of a specific football club's performance across the European leagues.",
+        "In order to track a specific football club's performance across the European leagues, team fifa api id [TEAM_FIFA_API_ID] is used as a crucial reference."
+      ],
+      "counter_variations": [
+        "The team fifa api id value null signifies that an identifier has not been allocated, thereby obstructing direct linkage to official FIFA datasets.",
+        "Because the team fifa api id value null indicates an unassigned identifier, any straightforward correlation with official FIFA data sets is precluded.",
+        "A null entry for the team fifa api id reveals that no identifier exists, which impedes direct mapping to the authoritative FIFA records.",
+        "When the team fifa api id is null, it denotes the absence of an assigned identifier and consequently blocks any direct alignment with FIFA’s official datasets.",
+        "The presence of null in the team fifa api id field denotes that no identifier has been bestowed, preventing seamless association with official FIFA data.",
+        "Given that the team fifa api id value null reflects an unassigned identifier, the system cannot directly reconcile the record with FIFA’s official data collections.",
+        "The fact that the team fifa api id returns null conveys that no identifier has been designated, thus hindering direct cross‑reference with FIFA’s sanctioned datasets.",
+        "A null designation for the team fifa api id communicates that an identifier remains unassigned, which in turn prohibits direct correlation with the official FIFA data repository.",
+        "Since the team fifa api id registers as null, it signals a lack of assigned identifier and consequently obstructs direct matching to the official FIFA datasets.",
+        "The team fifa api id being null denotes an identifier that has not been allocated, thereby thwarting any direct integration with FIFA’s official data sets.",
+        "Because the team fifa api id value null reflects a missing identifier, the record cannot be directly paired with the official FIFA datasets.",
+        "A null status in the team fifa api id field indicates that no identifier has been granted, which prevents a straightforward association with official FIFA data.",
+        "The occurrence of null in the team fifa api id denotes that an identifier is absent, thus impeding direct correlation with the sanctioned FIFA datasets.",
+        "When the team fifa api id records null, it conveys that no identifier has been assigned, thereby barring direct linkage to official FIFA data collections.",
+        "The team fifa api id value null, indicating an unassigned identifier, obstructs any direct alignment with FIFA’s official datasets."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "reference": [
+          "reference",
+          "quotation",
+          "citation",
+          "source",
+          "mention"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "european": [
+          "european",
+          "European"
+        ],
+        "leagues": [
+          "leagues"
+        ],
+        "football": [
+          "football"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "guild",
+          "order",
+          "clubhouse"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "trailing",
+          "trail"
+        ]
+      },
+      "field_data_types": {
+        "team_fifa_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football club known as KRC Genk is widely recognized for its official team_long_name in the world of European football.",
+      "template_pattern": "The football club known as [TEAM_LONG_NAME] is widely recognized for its official team_long_name in the world of European football.",
+      "primary_data_fields": [
+        "team_long_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football club [TEAM_LONG_NAME] is broadly acknowledged for its official team long name within European football.",
+        "[TEAM_LONG_NAME], a renowned football club, enjoys widespread recognition for its official team long name across the European football scene.",
+        "In the realm of European football, the official team long name of [TEAM_LONG_NAME] is highly esteemed, making the club well‑known.",
+        "Across Europe’s football landscape, [TEAM_LONG_NAME]’s official team long name has earned the club considerable fame.",
+        "Widely praised in European soccer, the club known as [TEAM_LONG_NAME] is celebrated for its official team long name.",
+        "The official team long name of the football club [TEAM_LONG_NAME] is celebrated throughout the European football community.",
+        "European football circles frequently highlight [TEAM_LONG_NAME] for its official team long name.",
+        "Renowned throughout European football, [TEAM_LONG_NAME]’s official team long name draws considerable attention.",
+        "The club [TEAM_LONG_NAME], famous in European football, is distinguished by its official team long name.",
+        "Within the European football world, [TEAM_LONG_NAME] is noted for possessing an official team long name that commands respect.",
+        "Recognised across Europe’s football arena, [TEAM_LONG_NAME]’s official team long name stands out prominently.",
+        "The official team long name of [TEAM_LONG_NAME] garners extensive recognition in the European football sphere.",
+        "European football fans commonly associate [TEAM_LONG_NAME] with its official team long name.",
+        "[TEAM_LONG_NAME]’s official team long name is a key factor behind the club’s widespread acclaim in European football.",
+        "In European football, the official team long name of the club [TEAM_LONG_NAME] is widely regarded as a hallmark of its reputation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "football": [
+          "football"
+        ],
+        "club": [
+          "club",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild"
+        ],
+        "official": [
+          "official",
+          "functionary"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "earth",
+          "Earth"
+        ],
+        "known": [
+          "known"
+        ],
+        "widely": [
+          "widely"
+        ],
+        "european": [
+          "european"
+        ],
+        "recognized": [
+          "recognized",
+          "accepted",
+          "acknowledged",
+          "recognised"
+        ]
+      },
+      "field_data_types": {
+        "team_long_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the European football season, GEN has become one of the most recognized team_short_name identifiers among fans.",
+      "template_pattern": "During the European football season, [TEAM_SHORT_NAME] has become one of the most recognized team_short_name identifiers among fans.",
+      "primary_data_fields": [
+        "team_short_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the course of the European football season, [TEAM_SHORT_NAME] emerged as one of the most recognized team short name identifiers among fans.",
+        "Throughout the European football season, fans have come to know [TEAM_SHORT_NAME] as one of the most recognized team short name identifiers.",
+        "[TEAM_SHORT_NAME] is now regarded as one of the most recognized team short name identifiers among supporters during the European football season.",
+        "During the European football season, fans consider [TEAM_SHORT_NAME] to be among the most recognized team short name identifiers.",
+        "As the European football season progresses, [TEAM_SHORT_NAME] has risen to become one of the most recognized team short name identifiers for fans.",
+        "One of the most recognized team short name identifiers among fans during the European football season is [TEAM_SHORT_NAME].",
+        "The European football season has seen [TEAM_SHORT_NAME] become one of the most recognized team short name identifiers among its fan base.",
+        "Among fans, [TEAM_SHORT_NAME] has been identified as one of the most recognized team short name identifiers during the European football season.",
+        "In the European football season, [TEAM_SHORT_NAME] stands out as one of the most recognized team short name identifiers to fans.",
+        "Fans during the European football season now view [TEAM_SHORT_NAME] as one of the most recognized team short name identifiers.",
+        "Throughout the European football season, [TEAM_SHORT_NAME] has been acknowledged as one of the most recognized team short name identifiers by fans.",
+        "The most recognized team short name identifiers among fans during the European football season include [TEAM_SHORT_NAME].",
+        "During the European football season, it is [TEAM_SHORT_NAME] that has become one of the most recognized team short name identifiers among fans.",
+        "As the European football season unfolds, [TEAM_SHORT_NAME] has secured its place as one of the most recognized team short name identifiers for fans.",
+        "Fans have come to recognize [TEAM_SHORT_NAME] as one of the most prominent team short name identifiers during the European football season."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identifiers": [
+          "identifiers",
+          "IDs",
+          "reference numbers",
+          "codes",
+          "tags",
+          "labels"
+        ],
+        "football": [
+          "football"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "during": [
+          "during"
+        ],
+        "most": [
+          "most",
+          "almost",
+          "nearly",
+          "virtually"
+        ],
+        "among": [
+          "among"
+        ],
+        "become": [
+          "become",
+          "suit",
+          "turn"
+        ]
+      },
+      "field_data_types": {
+        "team_short_name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

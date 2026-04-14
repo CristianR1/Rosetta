@@ -1,0 +1,25 @@
+{
+  "database": "toxicology",
+  "table": "connected",
+  "entry_index": 0,
+  "original_data": {
+    "atom_id": "TR000_1",
+    "atom_id2": "TR000_2",
+    "bond_id": "TR000_1_2"
+  },
+  "generated_sentences": [
+    "In recent toxicology studies, the atom_id TR000_1 plays a crucial role in mapping molecular structures. (Hash: 2bcdcae4435e4ea1)",
+    "In the recent toxicology study, the atom identified by atom_id2, TR000_2, played a crucial role in understanding molecular connectivity. (Hash: 69ad87bb600c409e)",
+    "The bond_id TR000_1_2 is crucial for understanding the molecular connectivity in toxicology studies. (Hash: 02513f8f3fb7427a)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "2bcdcae4435e4ea1": "atom_id",
+    "69ad87bb600c409e": "atom_id2",
+    "02513f8f3fb7427a": "bond_id"
+  },
+  "timestamp": "2026-03-31 16:52:11"
+}

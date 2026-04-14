@@ -1,0 +1,488 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "342d848820e44764": "raceId",
+    "c5177a1d834c40cd": "driverId",
+    "385808ea45f44edf": "stop",
+    "220a3947d8574bf6": "lap",
+    "074112b787214c33": "time",
+    "83b2cbd7d0774afe": "duration",
+    "9338c9b595bf4879": "milliseconds"
+  },
+  "templates": [
+    {
+      "original": "The pit stop data for Formula 1 race number 842 was meticulously recorded to ensure accuracy and consistency.",
+      "template_pattern": "The pit stop data for Formula 1 race number [RACEID] was meticulously recorded to ensure accuracy and consistency.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The pit stop data for Formula 1 race number [RACEID] was scrupulously logged to guarantee accuracy and consistency.",
+        "For Formula 1 race number [RACEID], the pit stop data was carefully captured to maintain both accuracy and consistency.",
+        "Meticulously recorded, the pit stop data of Formula 1 race number [RACEID] ensures accuracy and consistency.",
+        "Accuracy and consistency were secured by precisely documenting the pit stop data for Formula 1 race number [RACEID].",
+        "To uphold accuracy and consistency, the pit stop information for Formula 1 race number [RACEID] was thoroughly recorded.",
+        "The pit stop statistics for Formula 1 race number [RACEID] have been diligently documented to assure accuracy and consistency.",
+        "Ensuring accuracy and consistency, the pit stop data of Formula 1 race number [RACEID] was painstakingly entered.",
+        "For the purpose of accuracy and consistency, the pit stop data concerning Formula 1 race number [RACEID] was meticulously noted.",
+        "The pit stop data pertaining to Formula 1 race number [RACEID] was recorded with great care to preserve accuracy and consistency.",
+        "By meticulously logging the pit stop data for Formula 1 race number [RACEID], we guarantee accuracy and consistency.",
+        "Accuracy and consistency are achieved through the careful recording of pit stop data for Formula 1 race number [RACEID].",
+        "The pit stop data associated with Formula 1 race number [RACEID] was systematically documented to ensure both accuracy and consistency.",
+        "To secure accuracy and consistency, the pit stop records for Formula 1 race number [RACEID] were captured with meticulous attention.",
+        "Meticulous recording of the pit stop data for Formula 1 race number [RACEID] was performed to maintain accuracy and consistency.",
+        "The pit stop data for Formula 1 race number [RACEID] has been precisely logged, guaranteeing accuracy and consistency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "accuracy": [
+          "accuracy"
+        ],
+        "consistency": [
+          "consistency"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "data": [
+          "data"
+        ],
+        "meticulously": [
+          "meticulously"
+        ],
+        "ensure": [
+          "ensure",
+          "secure",
+          "guarantee",
+          "assure"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each Formula 1 driver's unique identifier allows teams to efficiently analyze their pit stop data throughout the racing season.",
+      "template_pattern": "Each Formula [DRIVERID] driver's unique identifier allows teams to efficiently analyze their pit stop data throughout the racing season.",
+      "primary_data_fields": [
+        "driverId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The driver Id of every Formula [DRIVERID] competitor enables teams to swiftly evaluate pit‑stop statistics over the entire season.",
+        "Teams can efficiently scrutinize pit‑stop data for the whole racing calendar thanks to each Formula [DRIVERID] driver’s driver Id.",
+        "Through each driver Id, Formula [DRIVERID] squads are able to rapidly analyze pit‑stop information throughout the season.",
+        "Pit‑stop data across the season is efficiently examined by teams using the driver Id assigned to every Formula [DRIVERID] driver.",
+        "Because every Formula [DRIVERID] driver possesses a driver Id, teams can promptly assess their pit‑stop metrics during the racing season.",
+        "The presence of a driver Id for each Formula [DRIVERID] racer allows rapid seasonal analysis of pit‑stop figures by the teams.",
+        "Season‑long pit‑stop data can be quickly reviewed by teams, courtesy of each Formula [DRIVERID] driver’s driver Id.",
+        "With a driver Id attached to every Formula [DRIVERID] driver, teams efficiently parse pit‑stop records throughout the season.",
+        "Each Formula [DRIVERID] driver’s driver Id grants teams the capability to analyze pit‑stop data efficiently over the course of the season.",
+        "Teams efficiently interpret pit‑stop statistics for the whole season by leveraging the driver Id assigned to each Formula [DRIVERID] driver.",
+        "By means of the driver Id for each Formula [DRIVERID] driver, teams are able to conduct swift analysis of pit‑stop data across the racing season.",
+        "The driver Id, provided to every Formula [DRIVERID] driver, permits teams to efficiently examine pit‑stop data throughout the season.",
+        "Through the use of each driver Id, Formula [DRIVERID] teams can rapidly assess pit‑stop information for the entire racing season.",
+        "Pit‑stop data spanning the season is efficiently analyzed by teams with the help of each Formula [DRIVERID] driver’s driver Id.",
+        "Thanks to the driver Id for each Formula [DRIVERID] driver, teams can swiftly evaluate pit‑stop data over the course of the season."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "each": [
+          "each"
+        ],
+        "data": [
+          "data"
+        ],
+        "allows": [
+          "allows",
+          "grant",
+          "admit",
+          "tolerate"
+        ],
+        "teams": [
+          "teams"
+        ],
+        "efficiently": [
+          "efficiently",
+          "expeditiously",
+          "promptly",
+          "swiftly",
+          "quickly",
+          "speedily"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ]
+      },
+      "field_data_types": {
+        "driverId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The team's strategic decision was evident when they made their first pit stop at stop number 1.",
+      "template_pattern": "The team's strategic decision was evident when they made their first pit stop at stop number [STOP].",
+      "primary_data_fields": [
+        "stop"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team's strategic choice became clear as they executed their first pit stop at stop number [STOP].",
+        "It was apparent that the team had made a strategic decision when they completed their first pit stop at stop number [STOP].",
+        "When the team performed their first pit stop at stop number [STOP], their strategic intent was unmistakable.",
+        "Their strategic decision was highlighted by the first pit stop they took at stop number [STOP].",
+        "The evidence of the team's strategic planning surfaced during their first pit stop at stop number [STOP].",
+        "By making the first pit stop at stop number [STOP], the team demonstrated a clear strategic decision.",
+        "The team's strategic move was evident at the moment they conducted their first pit stop at stop number [STOP].",
+        "A strategic decision by the team was revealed when they carried out their first pit stop at stop number [STOP].",
+        "When the first pit stop at stop number [STOP] was made by the team, the strategic decision was evident.",
+        "The strategic nature of the team's actions was apparent upon completing their first pit stop at stop number [STOP].",
+        "Their first pit stop at stop number [STOP] made the team's strategic decision plainly visible.",
+        "Evidently, the team’s strategic decision manifested itself during the first pit stop at stop number [STOP].",
+        "The moment the team reached stop number [STOP] for their first pit stop, their strategic decision became obvious.",
+        "A clear sign of strategic thinking emerged as the team executed their first pit stop at stop number [STOP].",
+        "The team's strategic intent was unmistakable when they arrived at stop number [STOP] for their first pit stop."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strategic": [
+          "strategic"
+        ],
+        "evident": [
+          "evident",
+          "apparent",
+          "discernible",
+          "manifest",
+          "unmistakable",
+          "patent"
+        ],
+        "made": [
+          "made",
+          "make",
+          "prepare",
+          "establish",
+          "constitute",
+          "create"
+        ],
+        "first": [
+          "first",
+          "start",
+          "inaugural",
+          "commencement",
+          "beginning",
+          "outset"
+        ],
+        "their": [
+          "their"
+        ],
+        "when": [
+          "when"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "decision": [
+          "decision",
+          "determination"
+        ]
+      },
+      "field_data_types": {
+        "stop": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the intense Formula 1 race, the driver strategically completed lap 12, evaluating pit stop options for maximum advantage.",
+      "template_pattern": "During the intense Formula 1 race, the driver strategically completed lap [LAP], evaluating pit stop options for maximum advantage.",
+      "primary_data_fields": [
+        "lap"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Amid the fierce Formula 1 race, the driver deliberately finished lap [LAP] while weighing pit stop choices for optimal advantage.",
+        "In the high‑stakes Formula 1 competition, lap [LAP] was tactically completed by the driver as he assessed pit stop alternatives to secure maximum advantage.",
+        "The driver, during an intense Formula 1 event, purposefully crossed lap [LAP] and examined pit stop options to gain the greatest benefit.",
+        "While the Formula 1 race roared, the driver strategically concluded lap [LAP], evaluating pit stop possibilities for maximum advantage.",
+        "During the gripping Formula 1 contest, lap [LAP] was completed by the driver who then considered pit stop strategies for optimal advantage.",
+        "In the midst of the intense Formula 1 race, the driver finished lap [LAP] and appraised pit stop alternatives to achieve maximum advantage.",
+        "Lap [LAP] was tactically finished by the driver amid the high‑energy Formula 1 race, as he weighed pit stop options for the greatest advantage.",
+        "The driver, in a fierce Formula 1 showdown, purposefully completed lap [LAP] while reviewing pit stop choices to secure maximum advantage.",
+        "Throughout the intense Formula 1 race, the driver deliberately crossed lap [LAP], analyzing pit stop alternatives for optimal advantage.",
+        "Amid the high‑stakes Formula 1 race, lap [LAP] was concluded by the driver who evaluated pit stop possibilities for maximum advantage.",
+        "During the gripping Formula 1 event, the driver strategically ended lap [LAP] and assessed pit stop options to obtain the greatest advantage.",
+        "In the intense Formula 1 race, lap [LAP] was completed by the driver, who then considered pit stop strategies for maximum advantage.",
+        "The driver, amid a fierce Formula 1 competition, purposefully finished lap [LAP] while weighing pit stop alternatives for optimal advantage.",
+        "While the Formula 1 race intensified, the driver tactically crossed lap [LAP] and examined pit stop choices for the greatest benefit.",
+        "During the high‑energy Formula 1 race, lap [LAP] was deliberately completed by the driver as he evaluated pit stop options for maximum advantage."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "maximum": [
+          "maximum",
+          "maximal"
+        ],
+        "formula": [
+          "formula",
+          "expression"
+        ],
+        "completed": [
+          "completed",
+          "accomplished",
+          "realized",
+          "realised"
+        ],
+        "evaluating": [
+          "evaluating",
+          "assessing",
+          "appraising",
+          "judging",
+          "measuring",
+          "valuing"
+        ],
+        "during": [
+          "during"
+        ],
+        "options": [
+          "options",
+          "choices",
+          "alternatives",
+          "selections"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush"
+        ],
+        "intense": [
+          "intense",
+          "acute"
+        ]
+      },
+      "field_data_types": {
+        "lap": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "At 16:24:40, the pit crew executed a flawless stop, showcasing their precision in the intense world of Formula 1 racing.",
+      "template_pattern": "At [TIME], the pit crew executed a flawless stop, showcasing their precision in the intense world of Formula 1 racing.",
+      "primary_data_fields": [
+        "time"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Time [TIME] saw the pit crew perform a flawless stop, demonstrating their precision within the intense arena of Formula 1 racing.",
+        "At time [TIME], a flawless stop was executed by the pit crew, highlighting their precise work in the intense world of Formula 1 racing.",
+        "The pit crew, at time [TIME], delivered a flawless stop and underscored their precision amid the intense environment of Formula 1 racing.",
+        "A flawless stop occurred at time [TIME], with the pit crew showcasing precise skill in the intense realm of Formula 1 racing.",
+        "Time [TIME] marked the pit crew’s flawless stop, a clear display of their precision in the intense sphere of Formula 1 racing.",
+        "During the intense world of Formula 1 racing, the pit crew achieved a flawless stop at time [TIME], illustrating their precision.",
+        "At time [TIME] the pit crew carried out a flawless stop, a testament to their precision in the intense setting of Formula 1 racing.",
+        "The flawless stop performed by the pit crew at time [TIME] highlighted their precision within the intense context of Formula 1 racing.",
+        "In the intense arena of Formula 1 racing, a flawless stop was achieved by the pit crew at time [TIME], showcasing precise execution.",
+        "Time [TIME]: the pit crew executed a flawless stop, exemplifying their precision in the intense domain of Formula 1 racing.",
+        "At time [TIME], the pit crew’s flawless stop illustrated their precise capabilities in the intense world of Formula 1 racing.",
+        "A flawless stop by the pit crew at time [TIME] served as a showcase of precision in the intense sphere of Formula 1 racing.",
+        "Within the intense world of Formula 1 racing, the pit crew executed a flawless stop at time [TIME], evidencing their precision.",
+        "Time [TIME] witnessed the pit crew’s flawless stop, reflecting their precise performance in the intense environment of Formula 1 racing.",
+        "The pit crew’s flawless stop at time [TIME] highlighted their precision amid the intense world of Formula 1 racing."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "formula": [
+          "formula",
+          "expression",
+          "rule"
+        ],
+        "executed": [
+          "executed"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "intense": [
+          "intense",
+          "acute"
+        ],
+        "world": [
+          "world",
+          "globe",
+          "earth",
+          "Earth",
+          "universe"
+        ],
+        "precision": [
+          "precision"
+        ],
+        "their": [
+          "their"
+        ],
+        "racing": [
+          "racing"
+        ]
+      },
+      "field_data_types": {
+        "time": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The racing team's pit stop during the race was executed with a duration of 22.55 seconds, showcasing their efficiency.",
+      "template_pattern": "The racing team's pit stop during the race was executed with a duration of [DURATION] seconds, showcasing their efficiency.",
+      "primary_data_fields": [
+        "duration"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The pit stop of the racing team during the race lasted a duration of [DURATION] seconds, highlighting their efficiency.",
+        "With a duration of [DURATION] seconds, the team's race pit stop demonstrated remarkable efficiency.",
+        "During the competition, the racing squad completed its pit stop in a duration of [DURATION] seconds, underscoring how efficient they are.",
+        "A duration of [DURATION] seconds marked the racing team's pit stop in the race, reflecting their efficient performance.",
+        "The race saw the team's pit stop executed in a duration of [DURATION] seconds, a testament to their efficiency.",
+        "Efficiency was evident when the racing team's pit stop, occurring during the race, was performed with a duration of [DURATION] seconds.",
+        "In the middle of the race, the pit stop for the racing team was carried out with a duration of [DURATION] seconds, showcasing their efficiency.",
+        "The racing team's pit stop, timed at a duration of [DURATION] seconds during the race, exemplified their efficient operation.",
+        "Achieving a duration of [DURATION] seconds, the team's pit stop during the race illustrated their efficiency.",
+        "During the race, the pit stop of the racing team was accomplished with a duration of [DURATION] seconds, evidencing their efficiency.",
+        "The team's pit stop, performed amid the race, recorded a duration of [DURATION] seconds, highlighting efficient execution.",
+        "A pit stop executed by the racing team during the race took a duration of [DURATION] seconds, demonstrating efficiency.",
+        "With a measured duration of [DURATION] seconds, the racing team's pit stop in the race showcased their efficiency.",
+        "The race featured a pit stop by the team that was completed in a duration of [DURATION] seconds, signifying high efficiency.",
+        "Efficiency shone through as the racing team's pit stop during the race was completed within a duration of [DURATION] seconds."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "efficiency": [
+          "efficiency"
+        ],
+        "during": [
+          "during"
+        ],
+        "seconds": [
+          "seconds"
+        ],
+        "executed": [
+          "executed",
+          "accomplished",
+          "performed"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "racing": [
+          "racing"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "duration": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the Formula 1 race, the pit stop lasted an astonishing 22552 milliseconds, showcasing the team's incredible efficiency.",
+      "template_pattern": "During the Formula 1 race, the pit stop lasted an astonishing [MILLISECONDS] milliseconds, showcasing the team's incredible efficiency.",
+      "primary_data_fields": [
+        "milliseconds"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the middle of the Formula 1 race, the pit stop endured an astonishing [MILLISECONDS] milliseconds, highlighting the team's remarkable efficiency.",
+        "The pit stop during the Formula 1 race lasted [MILLISECONDS] milliseconds, a staggering duration that underscored how efficiently the team performed.",
+        "A pit stop of [MILLISECONDS] milliseconds was recorded in the Formula 1 race, demonstrating the team's extraordinary efficiency.",
+        "During the Formula 1 race, an impressive [MILLISECONDS] milliseconds were spent on the pit stop, reflecting the team's superb efficiency.",
+        "The team's incredible efficiency was evident as the pit stop in the Formula 1 race stretched to [MILLISECONDS] milliseconds.",
+        "While the Formula 1 race unfolded, the pit crew kept the stop to a mere [MILLISECONDS] milliseconds, showcasing unparalleled team efficiency.",
+        "[MILLISECONDS] milliseconds marked the length of the pit stop in the Formula 1 race, a clear testament to the team's exceptional efficiency.",
+        "In the Formula 1 race, the pit stop took [MILLISECONDS] milliseconds, which served as proof of the team's impressive efficiency.",
+        "The pit stop, lasting an astonishing [MILLISECONDS] milliseconds during the Formula 1 race, illustrated the team's high level of efficiency.",
+        "During a Formula 1 race, the pit stop was limited to [MILLISECONDS] milliseconds, emphasizing how efficiently the team operated.",
+        "An astonishing [MILLISECONDS] milliseconds were logged for the pit stop in the Formula 1 race, highlighting the team's efficient performance.",
+        "The duration of the pit stop in the Formula 1 race—[MILLISECONDS] milliseconds—clearly showcased the team's outstanding efficiency.",
+        "In the context of the Formula 1 race, the pit stop consumed [MILLISECONDS] milliseconds, underscoring the team's remarkable efficiency.",
+        "The team's remarkable efficiency shone through when the pit stop during the Formula 1 race lasted [MILLISECONDS] milliseconds.",
+        "During the Formula 1 race, the pit stop's [MILLISECONDS] milliseconds demonstrated the team's exceptional efficiency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "astonishing": [
+          "astonishing",
+          "amazing",
+          "astounding",
+          "staggering",
+          "stupefying"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "recipe"
+        ],
+        "efficiency": [
+          "efficiency"
+        ],
+        "during": [
+          "during"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush",
+          "speed",
+          "hasten"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "team": [
+          "team"
+        ],
+        "incredible": [
+          "incredible",
+          "unbelievable"
+        ]
+      },
+      "field_data_types": {
+        "milliseconds": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

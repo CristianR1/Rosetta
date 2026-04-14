@@ -1,0 +1,151 @@
+{
+  "document_context": "manufacturing data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "d344d67df3ea41ca": "ProductID",
+    "a8616e736b8f4730": "Description"
+  },
+  "templates": [
+    {
+      "original": "The Description of the product emphasizes its unique feature of Rucní zadání, offering customers a detailed understanding of their choices.",
+      "template_pattern": "The Description of the product emphasizes its unique feature of [DESCRIPTION], offering customers a detailed understanding of their choices.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Description of the product highlights its unique feature of [DESCRIPTION], giving customers a detailed understanding of their choices.",
+        "Emphasizing the unique feature of [DESCRIPTION], the Description for the product provides customers with a detailed understanding of their choices.",
+        "Customers receive a detailed understanding of their choices because the Description of the product underscores the unique feature of [DESCRIPTION].",
+        "In the Description, the product’s unique feature of [DESCRIPTION] is stressed, offering a detailed understanding of their choices to customers.",
+        "A detailed understanding of their choices is offered to customers as the Description of the product accentuates the unique feature of [DESCRIPTION].",
+        "The product’s Description points out the unique feature of [DESCRIPTION], thereby furnishing customers with a detailed understanding of their choices.",
+        "By featuring [DESCRIPTION] as its unique attribute, the Description of the product equips customers with a detailed understanding of their choices.",
+        "The Description, concerning the product, draws attention to the unique feature of [DESCRIPTION] and supplies customers a detailed understanding of their choices.",
+        "Highlighting [DESCRIPTION] as the product’s unique feature, the Description delivers a detailed understanding of their choices to customers.",
+        "A detailed understanding of their choices is provided to customers as the Description emphasizes the product’s unique feature of [DESCRIPTION].",
+        "The product’s unique feature of [DESCRIPTION] is emphasized in the Description, granting customers a detailed understanding of their choices.",
+        "Customers gain a detailed understanding of their choices because the Description stresses the product’s unique feature of [DESCRIPTION].",
+        "In the product’s Description, the unique feature of [DESCRIPTION] is foregrounded, offering customers a detailed understanding of their choices.",
+        "The Description stresses the unique feature of [DESCRIPTION] in the product, thereby giving customers a detailed understanding of their choices.",
+        "Offering customers a detailed understanding of their choices, the Description of the product highlights the unique feature of [DESCRIPTION]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "detailed": [
+          "detailed",
+          "elaborated",
+          "elaborate"
+        ],
+        "feature": [
+          "feature",
+          "characteristic",
+          "lineament"
+        ],
+        "emphasizes": [
+          "emphasizes"
+        ],
+        "product": [
+          "product",
+          "ware",
+          "merchandise"
+        ],
+        "understanding": [
+          "understanding",
+          "discernment",
+          "intellect",
+          "savvy",
+          "apprehension",
+          "reason"
+        ],
+        "offering": [
+          "offering",
+          "offer",
+          "tender",
+          "bid"
+        ],
+        "customers": [
+          "customers"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ]
+      },
+      "field_data_types": {
+        "Description": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Product ID, recorded as 1, unequivocally designates the primary item in the manufacturing series, thereby establishing its reference point for subsequent analysis.",
+      "template_pattern": "The manufacturing report confirms that ProductID [PRODUCTID] met all quality standards during the latest production cycle.",
+      "primary_data_fields": [
+        "ProductID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the manufacturing report, ProductID [PRODUCTID] satisfied all quality standards throughout the most recent production cycle.",
+        "The manufacturing report verifies that ProductID [PRODUCTID] complied with every quality standard during the latest production cycle.",
+        "It is confirmed by the manufacturing report that ProductID [PRODUCTID] achieved all quality standards in the current production cycle.",
+        "In the latest production cycle, the manufacturing report shows ProductID [PRODUCTID] met every quality standard.",
+        "The manufacturing report states ProductID [PRODUCTID] fulfilled all quality standards over the most recent production cycle.",
+        "All quality standards were met by ProductID [PRODUCTID] during the latest production cycle, as noted in the manufacturing report.",
+        "The manufacturing report indicates that ProductID [PRODUCTID] adhered to all quality standards in the current production cycle.",
+        "During the most recent production cycle, the manufacturing report confirms ProductID [PRODUCTID] satisfied all quality standards.",
+        "ProductID [PRODUCTID] is reported by the manufacturing team to have met all quality standards during the latest production cycle.",
+        "The manufacturing report documents that ProductID [PRODUCTID] complied with all quality standards throughout the current production cycle.",
+        "According to the manufacturing report, all quality standards were achieved by ProductID [PRODUCTID] in the latest production cycle.",
+        "The manufacturing report affirms that ProductID [PRODUCTID] met every quality standard during the most recent production cycle.",
+        "In the latest production cycle, ProductID [PRODUCTID] met all quality standards, as confirmed by the manufacturing report.",
+        "The manufacturing report confirms ProductID [PRODUCTID] fulfilled every quality standard throughout the current production cycle.",
+        "During the most recent production cycle, the manufacturing report records that ProductID [PRODUCTID] met all quality standards."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "report": [
+          "report",
+          "study",
+          "account",
+          "paper"
+        ],
+        "standards": [
+          "standards"
+        ],
+        "production": [
+          "production",
+          "output",
+          "yield"
+        ],
+        "quality": [
+          "quality",
+          "caliber",
+          "calibre"
+        ],
+        "during": [
+          "during"
+        ],
+        "latest": [
+          "latest",
+          "recent"
+        ],
+        "manufacturing": [
+          "manufacturing",
+          "fabrication",
+          "manufacture"
+        ],
+        "confirms": [
+          "confirms"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

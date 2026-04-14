@@ -1,0 +1,285 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "0d217a9ce2ab4677": "major_id",
+    "0ddbea730c0146a8": "major_name",
+    "04a6cbc232214113": "department",
+    "755df540953047d6": "college"
+  },
+  "templates": [
+    {
+      "original": "Each student club member linked to major_id rec06DF6vZ1CyPKpc shares a unique connection to their specific field of study.",
+      "template_pattern": "Each student club member linked to major_id [MAJOR_ID] shares a unique connection to their specific field of study.",
+      "primary_data_fields": [
+        "major_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every student club member associated with major id [MAJOR_ID] has a distinct tie to their particular area of study.",
+        "A unique link to each member's specific discipline is held by every student club participant linked to major id [MAJOR_ID].",
+        "Linked to major id [MAJOR_ID], each student club member enjoys an exclusive connection with their own field of study.",
+        "The specific field of study of each student club member is uniquely connected through major id [MAJOR_ID].",
+        "For each student club member tied to major id [MAJOR_ID], a singular relationship exists with their individual major.",
+        "Each student club participant, when associated with major id [MAJOR_ID], possesses a one‑of‑a‑kind link to their chosen field.",
+        "A distinct association with their respective area of study is shared by all student club members linked to major id [MAJOR_ID].",
+        "Connected via major id [MAJOR_ID], every student club member maintains an exclusive bond to their particular study field.",
+        "The major id [MAJOR_ID] connects each student club member to a unique aspect of their specific academic discipline.",
+        "Each student club member, through major id [MAJOR_ID], is linked to a singular, individualized field of study.",
+        "Through the linkage of major id [MAJOR_ID], student club members each have a unique connection to their own field.",
+        "Each member of the student club, associated with major id [MAJOR_ID], holds a unique tie to the field they study.",
+        "With major id [MAJOR_ID], every student club participant shares a one‑of‑a‑kind connection to their specific academic area.",
+        "The specific field of study for each student club member is uniquely tied via major id [MAJOR_ID].",
+        "Each student club member's exclusive link to their particular discipline is established through major id [MAJOR_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "field": [
+          "field",
+          "domain",
+          "discipline",
+          "sphere",
+          "area",
+          "subject"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequaled",
+          "unequalled",
+          "singular"
+        ],
+        "study": [
+          "study",
+          "field",
+          "discipline",
+          "subject",
+          "bailiwick",
+          "work"
+        ],
+        "their": [
+          "their"
+        ],
+        "member": [
+          "member"
+        ],
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ]
+      },
+      "field_data_types": {
+        "major_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Among the diverse academic pursuits of the club members, Outdoor Product Design and Development stands out as a unique major.",
+      "template_pattern": "Among the diverse academic pursuits of the club members, [MAJOR_NAME] stands out as a unique major.",
+      "primary_data_fields": [
+        "major_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the wide range of scholarly activities pursued by club members, [MAJOR_NAME] emerges as a distinctive major.",
+        "[MAJOR_NAME] is highlighted as a singular major among the varied academic interests of the club members.",
+        "The club members' numerous academic pursuits include [MAJOR_NAME], which stands out as an exceptional major.",
+        "Among the many fields of study explored by club members, [MAJOR_NAME] distinguishes itself as a unique major.",
+        "A unique major, [MAJOR_NAME], rises above the diverse academic endeavors of the club members.",
+        "Diverse academic pursuits characterize the club members, yet [MAJOR_NAME] remains a remarkable major.",
+        "In the spectrum of academic activities undertaken by club members, [MAJOR_NAME] is recognized as a one‑of‑a‑kind major.",
+        "[MAJOR_NAME], set apart as a unique major, features prominently among the club members' varied scholarly pursuits.",
+        "The club members engage in many academic areas, but [MAJOR_NAME] stands out as a unique major.",
+        "Among the club members' assorted academic pursuits, [MAJOR_NAME] is singled out as a distinctive major.",
+        "A distinctive major, [MAJOR_NAME], shines amid the club members' broad academic interests.",
+        "[MAJOR_NAME] is the only major that uniquely stands out within the club members' diverse academic pursuits.",
+        "Within the club members' assorted scholarly endeavors, [MAJOR_NAME] emerges as a uniquely notable major.",
+        "The diverse academic pursuits of the club members feature [MAJOR_NAME] as a uniquely prominent major.",
+        "[MAJOR_NAME], a unique major, is highlighted amidst the club members' varied academic pursuits."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "members": [
+          "members"
+        ],
+        "among": [
+          "among"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "pursuits": [
+          "pursuits"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "stands": [
+          "stands"
+        ],
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "major": [
+          "major",
+          "Major"
+        ]
+      },
+      "field_data_types": {
+        "major_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many members of the student organization major in fields offered by the School of Applied Sciences, Technology and Education.",
+      "template_pattern": "Many members of the student organization major in fields offered by the [DEPARTMENT].",
+      "primary_data_fields": [
+        "department"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Many members of the student organization choose majors in the fields provided by the [DEPARTMENT].",
+        "A large number of students in the organization pursue degrees in programs offered by the [DEPARTMENT].",
+        "The student organization includes numerous individuals who major in disciplines available through the [DEPARTMENT].",
+        "In the student organization, many participants are enrolled in majors from the [DEPARTMENT].",
+        "Majors from the [DEPARTMENT] are being pursued by many members of the student organization.",
+        "Numerous members of the student organization specialize in the fields that the [DEPARTMENT] offers.",
+        "Among the student organization’s members, many select their major from the [DEPARTMENT]’s offerings.",
+        "The fields offered by the [DEPARTMENT] are the chosen majors for many members of the student organization.",
+        "Many participants of the student organization are concentrating on subjects taught by the [DEPARTMENT].",
+        "A considerable portion of the student organization’s members are majoring in the programs supplied by the [DEPARTMENT].",
+        "Within the student organization, a great many members have declared majors in the curricula of the [DEPARTMENT].",
+        "The [DEPARTMENT] provides the fields in which many student organization members specialize.",
+        "Many of the student organization’s members opt to major in the disciplines that the [DEPARTMENT] offers.",
+        "Fields from the [DEPARTMENT] constitute the majors of many members of the student organization.",
+        "A sizable group of student organization members pursue their majors in the areas offered by the [DEPARTMENT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "members": [
+          "members"
+        ],
+        "many": [
+          "many"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "administration",
+          "establishment",
+          "system",
+          "arrangement"
+        ],
+        "fields": [
+          "fields",
+          "Fields"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "offered": [
+          "offered"
+        ],
+        "major": [
+          "major",
+          "Major"
+        ]
+      },
+      "field_data_types": {
+        "department": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization members majoring in agricultural sciences are supported by the College of Agriculture and Applied Sciences.",
+      "template_pattern": "The student organization members majoring in agricultural sciences are supported by the [COLLEGE].",
+      "primary_data_fields": [
+        "college"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [COLLEGE] supports the student organization members majoring in agricultural sciences.",
+        "Student organization members majoring in agricultural sciences receive support from the [COLLEGE].",
+        "Backed by the [COLLEGE], the student organization members majoring in agricultural sciences are provided assistance.",
+        "Support for the student organization members majoring in agricultural sciences comes from the [COLLEGE].",
+        "The student organization members majoring in agricultural sciences are backed by the [COLLEGE].",
+        "With assistance from the [COLLEGE], the student organization members majoring in agricultural sciences are supported.",
+        "The [COLLEGE] provides backing to the student organization members majoring in agricultural sciences.",
+        "For the student organization members majoring in agricultural sciences, support is furnished by the [COLLEGE].",
+        "The student organization members majoring in agricultural sciences enjoy support from the [COLLEGE].",
+        "By virtue of the [COLLEGE], the student organization members majoring in agricultural sciences receive support.",
+        "The [COLLEGE], in turn, supports the student organization members majoring in agricultural sciences.",
+        "Assistance to the student organization members majoring in agricultural sciences is given by the [COLLEGE].",
+        "The student organization members majoring in agricultural sciences are aided by the [COLLEGE].",
+        "Through the [COLLEGE], the student organization members majoring in agricultural sciences obtain support.",
+        "The student organization members majoring in agricultural sciences benefit from the support of the [COLLEGE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "members": [
+          "members"
+        ],
+        "agricultural": [
+          "agricultural",
+          "farming",
+          "agrarian"
+        ],
+        "organization": [
+          "organization",
+          "system",
+          "formation",
+          "arrangement",
+          "administration",
+          "establishment"
+        ],
+        "supported": [
+          "supported",
+          "backed",
+          "defended",
+          "sustained",
+          "confirmed"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "majoring": [
+          "majoring"
+        ]
+      },
+      "field_data_types": {
+        "college": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "94d7041a6b464875": "id",
+    "eda08a7fc9bf45cc": "gender"
+  },
+  "templates": [
+    {
+      "original": "The id is 1.",
+      "template_pattern": "The id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The id is [ID].",
+        "id equals [ID].",
+        "The id has a value of [ID].",
+        "A value of [ID] is assigned to the id.",
+        "Recorded in the report, the id is [ID].",
+        "According to the data, the id reads [ID].",
+        "The id was set to [ID].",
+        "For this entry, the id equals [ID].",
+        "The system shows id = [ID].",
+        "In the dataset, id is listed as [ID].",
+        "The id corresponds to the number [ID].",
+        "It is documented that the id is [ID].",
+        "The id, noted as [ID], appears in the summary.",
+        "As per the analysis, id equals [ID].",
+        "The id appears as [ID] in the professional report."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's character is defined by his Male gender, which often influences the narrative and dynamics within the comic book universe.",
+      "template_pattern": "The superhero's character is defined by his [GENDER] gender, which often influences the narrative and dynamics within the comic book universe.",
+      "primary_data_fields": [
+        "gender"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's character is defined by his [GENDER] gender, which often influences the narrative and dynamics within the comic book universe.",
+        "Because his [GENDER] gender shapes his persona, the narrative and dynamics within the comic book universe are frequently affected.",
+        "His [GENDER] gender serves as the defining trait of the superhero's character, regularly steering the narrative and dynamics within the comic book universe.",
+        "The narrative and dynamics within the comic book universe are often guided by the superhero's [GENDER] gender, which defines his character.",
+        "In the comic book universe, the superhero's character hinges on his [GENDER] gender, a factor that commonly sways the narrative and dynamics within the comic book universe.",
+        "Defined by his [GENDER] gender, the superhero's character consistently impacts the narrative and dynamics within the comic book universe.",
+        "The superhero's [GENDER] gender underpins his character, consequently shaping the narrative and dynamics within the comic book universe.",
+        "The narrative and dynamics within the comic book universe are frequently molded by the superhero's [GENDER] gender, which characterizes him.",
+        "A superhero's character is anchored in his [GENDER] gender, a detail that often directs the narrative and dynamics within the comic book universe.",
+        "The [GENDER] gender of the superhero defines his character and, in turn, often influences the narrative and dynamics within the comic book universe.",
+        "Often, the narrative and dynamics within the comic book universe are influenced by the superhero's character, which is defined by his [GENDER] gender.",
+        "Through his [GENDER] gender, the superhero's character is established, thereby affecting the narrative and dynamics within the comic book universe.",
+        "The superhero's character, defined by his [GENDER] gender, commonly shapes the narrative and dynamics within the comic book universe.",
+        "Because the superhero possesses a [GENDER] gender, his character tends to influence the narrative and dynamics within the comic book universe.",
+        "The narrative and dynamics within the comic book universe are regularly impacted by the superhero's character, a construct rooted in his [GENDER] gender."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "character": [
+          "character",
+          "type",
+          "quality",
+          "role",
+          "persona"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "influences": [
+          "influences"
+        ],
+        "which": [
+          "which"
+        ],
+        "book": [
+          "book",
+          "volume",
+          "record",
+          "ledger"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "comic": [
+          "comic",
+          "funny",
+          "amusing",
+          "comical",
+          "laughable",
+          "mirthful"
+        ]
+      },
+      "field_data_types": {
+        "gender": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

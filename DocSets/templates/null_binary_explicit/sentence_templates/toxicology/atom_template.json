@@ -1,0 +1,25 @@
+{
+  "database": "toxicology",
+  "table": "atom",
+  "entry_index": 0,
+  "original_data": {
+    "atom_id": "TR000_1",
+    "molecule_id": "TR000",
+    "element": "cl"
+  },
+  "generated_sentences": [
+    "During the toxicology study, the chemical element with atom_id TR000_1 was meticulously analyzed for its atomic structure characteristics. (Hash: 43c129262a43463e)",
+    "The molecule identified by molecule_id TR000 is crucial for understanding the chemical's atomic structure in the toxicology study. (Hash: 254c87d07dd944ec)",
+    "The toxicology study identified cl as a critical element in analyzing the properties of various compounds. (Hash: 50bf3e8a8d714f3e)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "43c129262a43463e": "atom_id",
+    "254c87d07dd944ec": "molecule_id",
+    "50bf3e8a8d714f3e": "element"
+  },
+  "timestamp": "2026-03-31 16:51:57"
+}

@@ -1,0 +1,22 @@
+{
+  "database": "superhero",
+  "table": "superpower",
+  "entry_index": 0,
+  "original_data": {
+    "id": "1",
+    "power_name": "Agility"
+  },
+  "generated_sentences": [
+    "The superpower with identifier 1 grants the ability to manipulate time effortlessly. (Hash: 46892bf2ed1a463f)",
+    "The superhero's power_name, Agility, allows them to navigate any environment with remarkable speed and precision. (Hash: 30f5c8334d9b4f92)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "46892bf2ed1a463f": "id",
+    "30f5c8334d9b4f92": "power_name"
+  },
+  "timestamp": "2026-03-31 16:48:46"
+}

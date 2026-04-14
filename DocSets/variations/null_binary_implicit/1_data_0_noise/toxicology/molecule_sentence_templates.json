@@ -1,0 +1,136 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "991e993cfd544b1a": "molecule_id",
+    "c4e15720caff44ef": "label"
+  },
+  "templates": [
+    {
+      "original": "In the recent toxicology study, the molecule_id TR000 was crucial for accurately tracking the compound's effects.",
+      "template_pattern": "In the recent toxicology study, the molecule_id [MOLECULE_ID] was crucial for accurately tracking the compound's effects.",
+      "primary_data_fields": [
+        "molecule_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the latest toxicology investigation, researchers found that the molecule id [MOLECULE_ID] was essential for precisely monitoring the compound's effects.",
+        "The molecule id [MOLECULE_ID] proved indispensable in the recent toxicology study for accurately tracing the effects of the compound.",
+        "In a recent toxicology analysis, the compound's effects were tracked accurately thanks to the crucial role of molecule id [MOLECULE_ID].",
+        "Accurate tracking of the compound's effects in the recent toxicology study relied on the vital contribution of molecule id [MOLECULE_ID].",
+        "The recent toxicology study highlighted molecule id [MOLECULE_ID] as a key element for exact monitoring of the compound's effects.",
+        "For precise observation of the compound's effects, the recent toxicology study depended heavily on molecule id [MOLECULE_ID].",
+        "Molecule id [MOLECULE_ID] was identified as a critical factor for correctly following the compound's effects in the recent toxicology study.",
+        "In the latest toxicology research, the accurate tracking of the compound's effects was made possible by molecule id [MOLECULE_ID].",
+        "The recent toxicology assessment attributed accurate effect tracking of the compound to the indispensable molecule id [MOLECULE_ID].",
+        "Essential for exact monitoring of the compound's effects, molecule id [MOLECULE_ID] featured prominently in the recent toxicology study.",
+        "The recent toxicology study utilized molecule id [MOLECULE_ID] to ensure precise tracking of the compound's effects.",
+        "Precise monitoring of the compound's effects in the recent toxicology study was achieved through the use of molecule id [MOLECULE_ID].",
+        "Researchers in the recent toxicology study relied on molecule id [MOLECULE_ID] to accurately track the effects of the compound.",
+        "The role of molecule id [MOLECULE_ID] was crucial for the accurate tracking of the compound's effects in the recent toxicology study.",
+        "In the recent toxicology study, accurate tracking of the compound's effects was secured by the pivotal molecule id [MOLECULE_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "study": [
+          "study",
+          "survey",
+          "field"
+        ],
+        "accurately": [
+          "accurately"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "recent": [
+          "recent",
+          "late"
+        ],
+        "compound": [
+          "compound",
+          "combine"
+        ],
+        "effects": [
+          "effects"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ]
+      },
+      "field_data_types": {
+        "molecule_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The label + indicates that the chemical compound is classified as carcinogenic, highlighting its potential health risks in toxicology studies.",
+      "template_pattern": "The label [LABEL] indicates that the chemical compound is classified as carcinogenic, highlighting its potential health risks in toxicology studies.",
+      "primary_data_fields": [
+        "label"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Label [LABEL] shows that the chemical compound is classified as carcinogenic, underscoring its potential health risks in toxicology studies.",
+        "The label [LABEL] indicates the chemical compound’s classification as carcinogenic and highlights possible health dangers in toxicology studies.",
+        "Because the label [LABEL] denotes a carcinogenic classification, the chemical compound’s health risks are highlighted in toxicology studies.",
+        "In toxicology studies, the chemical compound’s potential health hazards are highlighted by the fact that label [LABEL] classifies it as carcinogenic.",
+        "A carcinogenic classification is signaled by label [LABEL], drawing attention to the compound’s possible health risks in toxicology studies.",
+        "The chemical compound is marked as carcinogenic by label [LABEL], which brings its potential health risks to the fore in toxicology studies.",
+        "Label [LABEL] designates the chemical compound as carcinogenic, thereby emphasizing its health risk potential in toxicology studies.",
+        "The plus sign attached to the label [LABEL] indicates a carcinogenic classification for the chemical compound, highlighting health risks in toxicology studies.",
+        "Seeing label [LABEL] tells us the chemical compound is categorized as carcinogenic, pointing out its health danger potential in toxicology studies.",
+        "The chemical compound’s carcinogenic status is indicated by label [LABEL], making its health risks apparent in toxicology studies.",
+        "Through label [LABEL], the chemical compound is identified as carcinogenic, which highlights its potential health risks within toxicology studies.",
+        "Label [LABEL] conveys that the chemical compound falls under the carcinogenic category, spotlighting its health risk implications in toxicology studies.",
+        "The identification of the chemical compound as carcinogenic comes from label [LABEL], emphasizing possible health risks in toxicology studies.",
+        "By using label [LABEL], researchers note that the chemical compound is classified as carcinogenic, thereby highlighting health risks in toxicology studies.",
+        "The designation of carcinogenic on label [LABEL] draws attention to the chemical compound’s potential health hazards in toxicology studies."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "carcinogenic": [
+          "carcinogenic"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "classified": [
+          "classified",
+          "separate",
+          "sort"
+        ],
+        "studies": [
+          "studies"
+        ],
+        "compound": [
+          "compound"
+        ],
+        "health": [
+          "health",
+          "wellness"
+        ],
+        "potential": [
+          "potential",
+          "possible"
+        ],
+        "risks": [
+          "risks"
+        ]
+      },
+      "field_data_types": {
+        "label": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

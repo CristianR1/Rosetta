@@ -1,0 +1,529 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "be2dfa4defaf4900": "event_id",
+    "55b88c2df218406d": "event_name",
+    "a8d99961b15c4b12": "event_date",
+    "da0123e6991b47ee": "type",
+    "7a66bfe8164e4e83": "notes",
+    "241c7d0fb3e94af9": "location",
+    "224f5a5b4dd64752": "status"
+  },
+  "templates": [
+    {
+      "original": "The event_id rec0Si5cQ4rJRVzd6 ensures seamless coordination and management of our upcoming club activities.",
+      "template_pattern": "The event_id [EVENT_ID] ensures seamless coordination and management of our upcoming club activities.",
+      "primary_data_fields": [
+        "event_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The event id [EVENT_ID] guarantees smooth coordination and management of our upcoming club activities.",
+        "With the event id [EVENT_ID], seamless coordination and management of the club's forthcoming activities are assured.",
+        "Seamless coordination and management of our upcoming club activities are provided by the event id [EVENT_ID].",
+        "By using the event id [EVENT_ID], we can achieve flawless coordination and management of the club's next events.",
+        "The upcoming club activities will be coordinated and managed effortlessly thanks to the event id [EVENT_ID].",
+        "Because of the event id [EVENT_ID], our forthcoming club activities enjoy seamless coordination and effective management.",
+        "Through the event id [EVENT_ID], we ensure that the coordination and management of the club's upcoming activities are seamless.",
+        "Our club's upcoming activities are set for smooth coordination and management, courtesy of the event id [EVENT_ID].",
+        "The event id [EVENT_ID] makes certain that coordination and management of the upcoming club activities run without a hitch.",
+        "Ensuring seamless coordination and management of the club's upcoming activities is the role of the event id [EVENT_ID].",
+        "With the event id [EVENT_ID] in place, the coordination and management of our upcoming club activities proceed flawlessly.",
+        "The upcoming club activities benefit from the event id [EVENT_ID], which secures smooth coordination and effective management.",
+        "Thanks to the event id [EVENT_ID], coordination and management of the club's upcoming activities are seamlessly handled.",
+        "The event id [EVENT_ID] underpins flawless coordination and management of our upcoming club activities.",
+        "By leveraging the event id [EVENT_ID], we achieve seamless coordination and management for the club's forthcoming activities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activities": [
+          "activities"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "seamless": [
+          "seamless"
+        ],
+        "coordination": [
+          "coordination"
+        ],
+        "upcoming": [
+          "upcoming",
+          "coming",
+          "approaching",
+          "forthcoming"
+        ],
+        "ensures": [
+          "ensures"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ]
+      },
+      "field_data_types": {
+        "event_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club eagerly prepared for their upcoming March Meeting, an event that promised engaging discussions and new opportunities.",
+      "template_pattern": "The student club eagerly prepared for their upcoming [EVENT_NAME], an event that promised engaging discussions and new opportunities.",
+      "primary_data_fields": [
+        "event_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "With great enthusiasm, the student club readied itself for the upcoming [EVENT_NAME], an event that offered lively discussions and fresh opportunities.",
+        "The upcoming [EVENT_NAME], an occasion promising engaging discussions and new opportunities, was being eagerly prepared for by the student club.",
+        "Eagerly, the student club set about preparing for their [EVENT_NAME] in March, an event slated to deliver stimulating talks and novel prospects.",
+        "For the [EVENT_NAME] on the horizon, the student club diligently organized, anticipating an event filled with compelling dialogue and additional chances.",
+        "The student club, full of anticipation, arranged everything for the [EVENT_NAME], an event that would feature engaging conversations and new opportunities.",
+        "Preparation for the [EVENT_NAME], an event promising lively debates and fresh opportunities, was undertaken with zeal by the student club.",
+        "As the [EVENT_NAME] approached, the student club energetically prepared, knowing the event would bring engaging discussions and new opportunities.",
+        "The [EVENT_NAME]—promising engaging discussions and new opportunities—was the focus of the student club’s eager preparations.",
+        "With the [EVENT_NAME] set to occur, the student club worked enthusiastically, expecting an event that would provide stimulating talks and fresh opportunities.",
+        "The student club threw itself into preparations for the [EVENT_NAME], an event that guaranteed engaging discussions and new opportunities.",
+        "Anticipating the [EVENT_NAME], the student club prepared eagerly for an event that promised lively discussion and fresh opportunities.",
+        "For the forthcoming [EVENT_NAME], the student club engaged in thorough preparation, eyeing an event filled with engaging dialogue and new opportunities.",
+        "The [EVENT_NAME], slated to deliver engaging discussions and new opportunities, spurred the student club into eager preparation.",
+        "Eager preparation by the student club centered on the upcoming [EVENT_NAME], an event set to feature vibrant discussions and new opportunities.",
+        "Looking ahead to the [EVENT_NAME], the student club prepared with enthusiasm for an event promising engaging talks and fresh opportunities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "prepared": [
+          "prepared",
+          "ready",
+          "set"
+        ],
+        "discussions": [
+          "discussions",
+          "discourse"
+        ],
+        "their": [
+          "their"
+        ],
+        "upcoming": [
+          "upcoming",
+          "coming",
+          "approaching",
+          "forthcoming"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "eagerly": [
+          "eagerly"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {
+        "event_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The club's event is scheduled for 2020-03-10T12:00:00, marking an important date for organizing the student activities.",
+      "template_pattern": "The club's event is scheduled for [EVENT_DATE], marking an important date for organizing the student activities.",
+      "primary_data_fields": [
+        "event_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The club's event date is set for [EVENT_DATE], highlighting a key moment for planning student activities.",
+        "Scheduled on [EVENT_DATE], the club's event date underscores an essential milestone in organizing student activities.",
+        "For the club, the event date of [EVENT_DATE] marks a significant point in coordinating student activities.",
+        "An important date for arranging student activities, the club's event date falls on [EVENT_DATE].",
+        "The event date, [EVENT_DATE], has been assigned to the club, signifying a crucial stage in student activity planning.",
+        "On [EVENT_DATE] the club's event date occurs, denoting a pivotal moment for student activity organization.",
+        "Marking a vital step in student activity coordination, the club's event date is slated for [EVENT_DATE].",
+        "The club has earmarked its event date as [EVENT_DATE], a noteworthy date for managing student activities.",
+        "With the event date fixed at [EVENT_DATE], the club highlights an important occasion for student activity planning.",
+        "The club’s event date, slated for [EVENT_DATE], serves as an important reference for organizing student activities.",
+        "[EVENT_DATE] is the club's event date, representing a key date in the orchestration of student activities.",
+        "For organizing student activities, the club's event date—[EVENT_DATE]—stands out as a significant appointment.",
+        "The event date of the club, occurring on [EVENT_DATE], marks an essential date for student activity coordination.",
+        "In the context of student activities, the club's event date is [EVENT_DATE], an important scheduled moment.",
+        "The club's event date, set for [EVENT_DATE], denotes a crucial date for the planning of student activities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "grade",
+          "tag",
+          "grading",
+          "check",
+          "mark"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "organizing": [
+          "organizing"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "scheduled": [
+          "scheduled"
+        ],
+        "event": [
+          "event",
+          "result",
+          "outcome",
+          "consequence",
+          "effect",
+          "upshot"
+        ],
+        "important": [
+          "important",
+          "significant",
+          "crucial"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ]
+      },
+      "field_data_types": {
+        "event_date": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club organized a Meeting to discuss the upcoming events and how to enhance member participation.",
+      "template_pattern": "The student club organized a [TYPE] to discuss the upcoming events and how to enhance member participation.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club scheduled a [TYPE] to talk about the upcoming events and ways to boost member participation.",
+        "A [TYPE] was organized by the student club to discuss the upcoming events and how to improve member participation.",
+        "To address the upcoming events and increase member participation, the student club arranged a [TYPE].",
+        "In order to review the upcoming events and enhance member participation, the student club held a [TYPE].",
+        "The student club convened a [TYPE] with the aim of discussing the upcoming events and raising member participation.",
+        "Discussing the upcoming events and seeking to strengthen member participation, the student club set up a [TYPE].",
+        "A [TYPE], organized by the student club, focused on the upcoming events and on ways to lift member participation.",
+        "With the purpose of examining the upcoming events and upgrading member participation, the student club hosted a [TYPE].",
+        "The student club's [TYPE] was intended to cover the upcoming events and to find methods for better member participation.",
+        "To explore the upcoming events and to enhance member participation, a [TYPE] was arranged by the student club.",
+        "The student club arranged a [TYPE] so that the upcoming events could be discussed and member participation could be heightened.",
+        "By holding a [TYPE], the student club aimed to discuss the upcoming events and to boost member participation.",
+        "For the upcoming events and the improvement of member participation, the student club organized a [TYPE].",
+        "The student club's purpose in calling a [TYPE] was to deliberate on the upcoming events and on how to raise member participation.",
+        "A [TYPE] was set up by the student club to review the upcoming events and to amplify member participation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "discuss": [
+          "discuss",
+          "discourse"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ],
+        "upcoming": [
+          "upcoming",
+          "coming",
+          "approaching",
+          "forthcoming"
+        ],
+        "member": [
+          "member"
+        ],
+        "participation": [
+          "participation",
+          "involvement",
+          "engagement"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "organized": [
+          "organized",
+          "organised"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The additional notes for the club event were recorded as NULL.",
+      "template_pattern": "The additional notes for the club event were recorded as [NOTES].",
+      "primary_data_fields": [
+        "notes"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the notes field, the statement [NOTES] is recorded, reflecting the election schedule.",
+        "The notes field contains the statement [NOTES], which reflects the election schedule.",
+        "Reflecting the election schedule, the notes field includes the statement [NOTES]",
+        "Within the notes field, you will find the statement [NOTES], thereby reflecting the election schedule.",
+        "The statement [NOTES] appears in the notes field, echoing the election schedule.",
+        "In the notes field, the statement [NOTES] is present, reflecting the election schedule.",
+        "The notes field holds the statement [NOTES], which mirrors the election schedule.",
+        "By reflecting the election schedule, the notes field lists the statement [NOTES]",
+        "The notes field, reflecting the election schedule, lists the statement [NOTES]",
+        "The statement [NOTES] is captured in the notes field, in line with the election schedule.",
+        "Reflecting the election schedule, the notes field captures the statement [NOTES]",
+        "In the notes field, you’ll see the statement [NOTES], which reflects the election schedule.",
+        "The notes field records the statement [NOTES], serving as a reflection of the election schedule.",
+        "As a reflection of the election schedule, the notes field includes the statement [NOTES]",
+        "The notes field includes the statement [NOTES], thereby reflecting the election schedule."
+      ],
+      "counter_variations": [
+        "The additional notes for the club event have been entered as NULL.",
+        "NULL was recorded for the additional notes of the club event.",
+        "For the club event, the additional notes were logged as NULL.",
+        "The additional notes pertaining to the club event are stored as NULL.",
+        "In the dataset, the additional notes for the club event are marked NULL.",
+        "NULL denotes the additional notes for the club event.",
+        "The additional notes for the club event have been captured with the value NULL.",
+        "The record shows the additional notes for the club event as NULL.",
+        "NULL is the recorded value for the additional notes of the club event.",
+        "The additional notes associated with the club event were set to NULL.",
+        "As for the club event, the additional notes are recorded as NULL.",
+        "The additional notes for the club event remain NULL in the report.",
+        "Within the educational data report, the additional notes for the club event are indicated as NULL.",
+        "The system flags the additional notes for the club event with the null value NULL.",
+        "The additional notes for the club event have a NULL entry."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "recorded": [
+          "recorded"
+        ],
+        "additional": [
+          "additional",
+          "extra"
+        ],
+        "event": [
+          "event"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ]
+      },
+      "field_data_types": {
+        "notes": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club meeting is scheduled to take place in MU 215, ensuring everyone knows where to gather for the event.",
+      "template_pattern": "The student club meeting is scheduled to take place in [LOCATION], ensuring everyone knows where to gather for the event.",
+      "primary_data_fields": [
+        "location"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club meeting has been slated for [LOCATION], so all participants know the gathering spot for the event.",
+        "Scheduled to occur in [LOCATION], the student club meeting guarantees that everyone is aware of the event’s meeting point.",
+        "Everyone will know where to assemble for the event because the student club meeting is set for [LOCATION].",
+        "[LOCATION] will host the student club meeting, ensuring all attendees understand the location for the gathering.",
+        "The student club meeting is planned to happen in [LOCATION], which makes the gathering point clear to everyone.",
+        "With the student club meeting booked in [LOCATION], all members are informed of the event’s assembly location.",
+        "To make sure all know where to convene, the student club meeting is arranged for [LOCATION].",
+        "The event’s gathering place is confirmed as [LOCATION], where the student club meeting will take place.",
+        "By scheduling the student club meeting in [LOCATION], we ensure that every participant knows the meeting venue.",
+        "[LOCATION] is designated as the venue for the student club meeting, guaranteeing everyone knows where to meet.",
+        "The student club meeting will be held in [LOCATION], thereby informing all attendees of the event’s location.",
+        "Because the student club meeting is fixed for [LOCATION], everyone is aware of the place to gather.",
+        "The location for the student club meeting is set as [LOCATION], ensuring all know where to assemble for the event.",
+        "All participants are made aware of the gathering spot as the student club meeting is scheduled in [LOCATION].",
+        "The student club meeting’s scheduled venue, [LOCATION], lets everyone know exactly where to convene for the event."
+      ],
+      "counter_variations": [
+        "Since the location is NULL, it is understood that the precise venue for the educational activity has not been recorded.",
+        "The location is NULL; consequently, the precise venue for the educational activity has not been recorded.",
+        "Because the location is NULL, the precise venue for the educational activity has not been recorded.",
+        "The precise venue for the educational activity has not been recorded, as the location is NULL.",
+        "In the dataset, the location is NULL, which implies that the precise venue for the educational activity has not been recorded.",
+        "Owing to the location being NULL, the precise venue for the educational activity has not been recorded.",
+        "The location field contains NULL, thereby indicating that the precise venue for the educational activity has not been recorded.",
+        "As the location is NULL, the precise venue for the educational activity has not been recorded.",
+        "The precise venue for the educational activity has not been recorded, given that the location is NULL.",
+        "With the location set to NULL, the precise venue for the educational activity has not been recorded.",
+        "The location registers as NULL, signifying that the precise venue for the educational activity has not been recorded.",
+        "Since the location registers NULL, the precise venue for the educational activity has not been recorded.",
+        "The precise venue for the educational activity has not been recorded; this results from the location being NULL.",
+        "Because the location registers as NULL, the precise venue for the educational activity has not been recorded.",
+        "The location appears as NULL, leading to the conclusion that the precise venue for the educational activity has not been recorded."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "everyone": [
+          "everyone"
+        ],
+        "knows": [
+          "knows",
+          "know",
+          "recognize",
+          "recognise",
+          "cognize",
+          "cognise"
+        ],
+        "place": [
+          "place",
+          "site",
+          "billet",
+          "lieu",
+          "home",
+          "spot"
+        ],
+        "gather": [
+          "gather",
+          "assemble",
+          "amass",
+          "collect",
+          "accumulate",
+          "garner"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "take": [
+          "take",
+          "remove",
+          "assume",
+          "accept",
+          "get",
+          "have"
+        ],
+        "scheduled": [
+          "scheduled"
+        ]
+      },
+      "field_data_types": {
+        "location": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The status of the student club activity is currently Open, inviting everyone to join and participate actively.",
+      "template_pattern": "The status of the student club activity is currently [STATUS], inviting everyone to join and participate actively.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Currently, the status of the student club activity is [STATUS], welcoming all to join and take part actively.",
+        "The student club activity’s status is [STATUS] at this time, encouraging everyone to become members and engage actively.",
+        "[STATUS] is the present status of the student club activity, inviting every individual to join and participate actively.",
+        "With the status marked as [STATUS], the student club activity now calls on everyone to join and actively participate.",
+        "At present, the status of the student club activity reads [STATUS], and it beckons all to join and engage actively.",
+        "The status of the student club activity, currently [STATUS], summons everyone to become involved and participate actively.",
+        "Everyone is urged to join and take part actively, as the student club activity’s status remains [STATUS].",
+        "The student club activity is presently [STATUS] in status, inviting all to join and actively participate.",
+        "Being [STATUS], the status of the student club activity invites everyone to join and participate actively.",
+        "As the status of the student club activity stands [STATUS], all are welcome to join and engage actively.",
+        "The status of the student club activity has been set to [STATUS], opening the door for everyone to join and participate actively.",
+        "[STATUS] status characterizes the student club activity, calling on everyone to join and take part actively.",
+        "The student club activity, with its status listed as [STATUS], encourages all to join and actively engage.",
+        "Because the status of the student club activity is [STATUS], everyone may join and participate actively.",
+        "The current status—[STATUS]—of the student club activity invites each person to join and participate actively."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "everyone": [
+          "everyone"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order",
+          "clubhouse"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "join": [
+          "join",
+          "connect",
+          "conjoin",
+          "link",
+          "unite"
+        ],
+        "participate": [
+          "participate",
+          "enter"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "actively": [
+          "actively"
+        ],
+        "inviting": [
+          "inviting"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

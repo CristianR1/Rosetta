@@ -1,0 +1,158 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "962410daffc548ed": "hero_id",
+    "e2f4ee89d8e0469a": "attribute_id",
+    "76f5fffc23f245ee": "attribute_value"
+  },
+  "templates": [
+    {
+      "original": "The hero_id is 1.",
+      "template_pattern": "The hero_id is [HERO_ID].",
+      "primary_data_fields": [
+        "hero_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The hero id equals [HERO_ID].",
+        "Hero id: [HERO_ID].",
+        "In the report, the hero id is listed as [HERO_ID].",
+        "The assigned number for hero id is [HERO_ID].",
+        "[HERO_ID] is the value recorded for hero id.",
+        "According to the data, hero id is set to [HERO_ID].",
+        "The hero id has been designated as [HERO_ID].",
+        "Within the dataset, hero id appears as [HERO_ID].",
+        "The hero id, as indicated, stands at [HERO_ID].",
+        "It is confirmed that hero id equals [HERO_ID].",
+        "The figure for hero id reads [HERO_ID].",
+        "As per the analysis, hero id is [HERO_ID].",
+        "Hero id has a value of [HERO_ID].",
+        "The recorded hero id amounts to [HERO_ID].",
+        "In this summary, hero id is [HERO_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "hero_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The attribute_id for this superhero is 1.",
+      "template_pattern": "The attribute_id for this superhero is [ATTRIBUTE_ID].",
+      "primary_data_fields": [
+        "attribute_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The attribute id assigned to this superhero is [ATTRIBUTE_ID].",
+        "For this superhero, the attribute id equals [ATTRIBUTE_ID].",
+        "This superhero’s attribute id has a value of [ATTRIBUTE_ID].",
+        "A value of [ATTRIBUTE_ID] is recorded as the attribute id for this superhero.",
+        "The attribute id for this superhero stands at [ATTRIBUTE_ID].",
+        "[ATTRIBUTE_ID] is the attribute id designated to this superhero.",
+        "In the report, this superhero is listed with an attribute id of [ATTRIBUTE_ID].",
+        "The attribute id that pertains to this superhero is set to [ATTRIBUTE_ID].",
+        "This superhero carries an attribute id of [ATTRIBUTE_ID].",
+        "An attribute id of [ATTRIBUTE_ID] is attached to this superhero.",
+        "The attribute id for this superhero has been identified as [ATTRIBUTE_ID].",
+        "For the superhero in question, the attribute id is [ATTRIBUTE_ID].",
+        "This superhero’s attribute id is documented as [ATTRIBUTE_ID].",
+        "The attribute id, concerning this superhero, is [ATTRIBUTE_ID].",
+        "[ATTRIBUTE_ID] serves as the attribute id for this superhero."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "attribute_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Superhero Thunder Strike possesses an impressive attribute_value of 80, highlighting his exceptional strength and agility in battle.",
+      "template_pattern": "Superhero Thunder Strike possesses an impressive attribute_value of [ATTRIBUTE_VALUE], highlighting his exceptional strength and agility in battle.",
+      "primary_data_fields": [
+        "attribute_value"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Superhero Thunder Strike exhibits an attribute value of [ATTRIBUTE_VALUE], underscoring his remarkable strength and agility in combat.",
+        "With an attribute value of [ATTRIBUTE_VALUE], Superhero Thunder Strike demonstrates exceptional strength and agility on the battlefield.",
+        "The attribute value of [ATTRIBUTE_VALUE] held by Superhero Thunder Strike highlights his superior strength and agility during fights.",
+        "In battle, Superhero Thunder Strike’s attribute value of [ATTRIBUTE_VALUE] showcases his outstanding strength and agility.",
+        "An attribute value of [ATTRIBUTE_VALUE] is recorded for Superhero Thunder Strike, indicating his extraordinary strength and agility in combat.",
+        "Highlighting his impressive power, Superhero Thunder Strike possesses an attribute value of [ATTRIBUTE_VALUE], reflecting great strength and agility.",
+        "Superhero Thunder Strike is credited with an attribute value of [ATTRIBUTE_VALUE], which points to his high level of strength and agility in engagements.",
+        "The report notes that Superhero Thunder Strike’s attribute value stands at [ATTRIBUTE_VALUE], emphasizing his exceptional strength and agility in battle.",
+        "Possessing an attribute value of [ATTRIBUTE_VALUE], Superhero Thunder Strike exemplifies remarkable strength and agility on the battlefield.",
+        "Superhero Thunder Strike’s attribute value of [ATTRIBUTE_VALUE] serves as evidence of his superior strength and agility during combat.",
+        "In the context of battle, an attribute value of [ATTRIBUTE_VALUE] is attributed to Superhero Thunder Strike, highlighting his exceptional strength and agility.",
+        "Superhero Thunder Strike carries an attribute value of [ATTRIBUTE_VALUE], which underscores his noteworthy strength and agility in fights.",
+        "An attribute value of [ATTRIBUTE_VALUE], assigned to Superhero Thunder Strike, illustrates his exceptional strength and agility in combat situations.",
+        "With a recorded attribute value of [ATTRIBUTE_VALUE], Superhero Thunder Strike demonstrates notable strength and agility in battle.",
+        "Superhero Thunder Strike has an attribute value of [ATTRIBUTE_VALUE], showcasing his high strength and agility on the battlefield."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "battle": [
+          "battle",
+          "conflict",
+          "fight",
+          "engagement",
+          "struggle",
+          "combat"
+        ],
+        "possesses": [
+          "possesses"
+        ],
+        "strike": [
+          "strike",
+          "hit",
+          "affect",
+          "tap"
+        ],
+        "exceptional": [
+          "exceptional",
+          "special",
+          "surpassing",
+          "exceeding",
+          "prodigious"
+        ],
+        "strength": [
+          "strength",
+          "force",
+          "potency",
+          "effectiveness",
+          "forte",
+          "specialty"
+        ],
+        "thunder": [
+          "thunder",
+          "boom",
+          "roar"
+        ],
+        "highlighting": [
+          "highlighting",
+          "spotlight",
+          "foreground"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "attribute_value": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

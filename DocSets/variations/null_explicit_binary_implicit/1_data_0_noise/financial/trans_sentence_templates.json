@@ -1,0 +1,644 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4bff71d9249b4933": "trans_id",
+    "b42a1cca6fec460e": "account_id",
+    "1e1a08f3d4424504": "date",
+    "5b2f242e76d14338": "type",
+    "f32e5b491f0b46a2": "operation",
+    "503f4224a3234e89": "amount",
+    "03a6355d67814ed9": "balance",
+    "bc45104482744847": "k_symbol",
+    "307791b7e8bd4542": "bank",
+    "600dbcc7d5e24d64": "account"
+  },
+  "templates": [
+    {
+      "original": "The trans_id is 1.",
+      "template_pattern": "The trans_id is [TRANS_ID].",
+      "primary_data_fields": [
+        "trans_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trans id equals [TRANS_ID].",
+        "In this financial report, the trans id is recorded as [TRANS_ID].",
+        "Trans id: [TRANS_ID].",
+        "The value assigned to trans id is [TRANS_ID].",
+        "A trans id of [TRANS_ID] appears in the data.",
+        "[TRANS_ID] is the trans id indicated.",
+        "According to the ledger, the trans id stands at [TRANS_ID].",
+        "The trans id has been set to [TRANS_ID].",
+        "Within the dataset, trans id is noted as [TRANS_ID].",
+        "It is noted that the trans id equals [TRANS_ID].",
+        "The reported trans id amounts to [TRANS_ID].",
+        "Trans id, which is [TRANS_ID], is listed in the summary.",
+        "The current trans id reads [TRANS_ID].",
+        "As per the statement, trans id equals [TRANS_ID].",
+        "The trans id was identified as [TRANS_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "trans_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account_id is 1.",
+      "template_pattern": "The account_id is [ACCOUNT_ID].",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The account id is [ACCOUNT_ID].",
+        "Account id equals [ACCOUNT_ID].",
+        "The value of the account id is [ACCOUNT_ID].",
+        "In the financial report, the account id is [ACCOUNT_ID].",
+        "The account id has been set to [ACCOUNT_ID].",
+        "[ACCOUNT_ID] is recorded as the account id.",
+        "According to the data, the account id is [ACCOUNT_ID].",
+        "The account id, which is [ACCOUNT_ID], appears in the statement.",
+        "The account id was identified as [ACCOUNT_ID].",
+        "Account id: [ACCOUNT_ID].",
+        "The account id shows a value of [ACCOUNT_ID].",
+        "[ACCOUNT_ID] stands for the account id.",
+        "The account id is listed as [ACCOUNT_ID] in the report.",
+        "The account id was assigned the number [ACCOUNT_ID].",
+        "In this context, the account id is [ACCOUNT_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The transaction made on 1995-03-24 marked a pivotal moment in the analysis of payment history trends.",
+      "template_pattern": "The transaction made on [DATE] marked a pivotal moment in the analysis of payment history trends.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On date [DATE], the transaction signaled a pivotal moment in analyzing payment history trends.",
+        "The transaction on date [DATE] marked a turning point for payment history trend analysis.",
+        "A pivotal shift in payment history trend analysis occurred with the transaction on date [DATE].",
+        "Payment history trend analysis was profoundly impacted by the transaction recorded on date [DATE].",
+        "Marking a crucial juncture in payment history trends, the transaction took place on date [DATE].",
+        "The transaction, which happened on date [DATE], became a key milestone in the analysis of payment history trends.",
+        "In the study of payment history trends, the transaction on date [DATE] stands out as a pivotal event.",
+        "A pivotal event for payment history trend analysis was the transaction made on date [DATE].",
+        "The analysis of payment history trends reached a pivotal point when the transaction occurred on date [DATE].",
+        "When the transaction was executed on date [DATE], it marked a critical moment in payment history trend analysis.",
+        "The transaction on date [DATE] is regarded as a landmark moment within payment history trend analysis.",
+        "Payment history trend analysis experienced a turning point thanks to the transaction on date [DATE].",
+        "By occurring on date [DATE], the transaction introduced a pivotal moment into the analysis of payment history trends.",
+        "The occurrence of the transaction on date [DATE] signified a major milestone for payment history trend analysis.",
+        "A major turning point in payment history trends was signaled by the transaction on date [DATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "history": [
+          "history",
+          "account"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "moment": [
+          "moment",
+          "second",
+          "minute",
+          "instant"
+        ],
+        "trends": [
+          "trends"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "payment": [
+          "payment"
+        ],
+        "made": [
+          "made"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The transaction was categorized as PRIJEM, highlighting its role as a crucial type in the financial records.",
+      "template_pattern": "The transaction was categorized as [TYPE], highlighting its role as a crucial type in the financial records.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction is listed under [TYPE], underscoring its importance as a key type in the financial records.",
+        "Classified as [TYPE], the transaction emphasizes its status as an essential type within the financial records.",
+        "As a [TYPE] entry, the transaction highlights its significance as a vital type in the financial records.",
+        "By labeling the transaction [TYPE], we draw attention to its role as a fundamental type in the financial records.",
+        "The transaction, marked as [TYPE], serves to illustrate its function as a critical type in the financial records.",
+        "Recognized as [TYPE], this transaction points out its position as a pivotal type in the financial records.",
+        "In the financial records, the transaction appears as [TYPE], signaling its relevance as a major type.",
+        "The transaction has been assigned the [TYPE] category, indicating its importance as a primary type in the financial records.",
+        "With [TYPE] as its designation, the transaction underscores its place as an indispensable type in the financial records.",
+        "The transaction's classification of [TYPE] highlights its role as a central type within the financial records.",
+        "Recorded as [TYPE], the transaction draws focus to its function as a crucial type in the financial records.",
+        "By being categorized under [TYPE], this transaction emphasizes its standing as a key type in the financial records.",
+        "The transaction, identified as [TYPE], showcases its relevance as an essential type in the financial records.",
+        "As [TYPE], the transaction marks itself as a significant type in the financial records.",
+        "The label [TYPE] applied to the transaction points to its status as a vital type in the financial records."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "categorized": [
+          "categorized",
+          "categorised"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "records": [
+          "records"
+        ],
+        "role": [
+          "role",
+          "function",
+          "part",
+          "purpose",
+          "office"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The financial transaction record indicates a VKLAD operation, categorizing it as a deposit within the overall financial activity.",
+      "template_pattern": "The financial transaction record indicates a [OPERATION] operation, categorizing it as a deposit within the overall financial activity.",
+      "primary_data_fields": [
+        "operation"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The financial transaction record shows a [OPERATION] operation, labeling it a deposit in the overall financial activity.",
+        "A [OPERATION] operation is noted in the financial transaction record and is classified as a deposit within the overall financial activity.",
+        "Within the overall financial activity, the financial transaction record identifies a [OPERATION] operation and designates it as a deposit.",
+        "According to the financial transaction record, the [OPERATION] operation falls under the deposit category of the overall financial activity.",
+        "The financial transaction record flags a [OPERATION] operation, treating it as a deposit in the overall financial activity.",
+        "In the overall financial activity, a [OPERATION] operation appears in the financial transaction record as a deposit.",
+        "The financial transaction record points to a [OPERATION] operation, which is regarded as a deposit throughout the overall financial activity.",
+        "A deposit is the classification given to the [OPERATION] operation appearing in the financial transaction record of the overall financial activity.",
+        "The financial transaction record records a [OPERATION] operation, assigning it to the deposit segment of the overall financial activity.",
+        "As part of the overall financial activity, the financial transaction record marks a [OPERATION] operation as a deposit.",
+        "The [OPERATION] operation, listed in the financial transaction record, is categorized as a deposit within the overall financial activity.",
+        "Within the overall financial activity, the financial transaction record categorizes a [OPERATION] operation as a deposit.",
+        "The financial transaction record indicates that a [OPERATION] operation constitutes a deposit in the overall financial activity.",
+        "A [OPERATION] operation, according to the financial transaction record, is deemed a deposit in the overall financial activity.",
+        "The overall financial activity includes a deposit, identified as a [OPERATION] operation in the financial transaction record."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "overall": [
+          "overall"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "categorizing": [
+          "categorizing"
+        ],
+        "record": [
+          "record",
+          "register",
+          "book",
+          "disk",
+          "disc",
+          "tape"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "operation": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each transaction in the history reflects a consistent financial activity, with the amount reaching precisely 1000 for each transaction.",
+      "template_pattern": "Each transaction in the history reflects a consistent financial activity, with the amount reaching precisely [AMOUNT] for each transaction.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every entry in the history shows uniform financial activity, and the amount equals exactly [AMOUNT] for every transaction.",
+        "The history’s transactions each demonstrate consistent financial activity, with the amount precisely hitting [AMOUNT] per transaction.",
+        "Consistent financial activity is reflected in each transaction recorded in the history, where the amount is exactly [AMOUNT].",
+        "In the historical record, each transaction mirrors steady financial activity, and the amount reaches a precise [AMOUNT] each time.",
+        "Each transaction listed in the history evidences uniform financial activity, while the amount consistently totals [AMOUNT].",
+        "Uniform financial activity is evident in every transaction of the history, the amount consistently standing at [AMOUNT].",
+        "The amount for each transaction in the history is precisely [AMOUNT], reflecting a consistent financial activity across the board.",
+        "Financial activity remains consistent across all historical transactions, each with an amount that hits exactly [AMOUNT].",
+        "Every transaction recorded shows the same financial behavior, and the amount is set at exactly [AMOUNT] for each.",
+        "The amount reaches a precise [AMOUNT] in every transaction, which together illustrate consistent financial activity in the history.",
+        "Consistency in financial activity is shown by each transaction in the history, each bearing an amount of exactly [AMOUNT].",
+        "For each transaction in the history, the amount is exactly [AMOUNT], indicating uniform financial activity.",
+        "Each historical transaction reflects steady financial activity; the amount is uniformly [AMOUNT] per transaction.",
+        "The amount is uniformly [AMOUNT] across all transactions, which collectively demonstrate consistent financial activity in the history.",
+        "Across the transaction history, every entry shows consistent financial activity, with the amount always reaching [AMOUNT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "reflects": [
+          "reflects"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "consistent": [
+          "consistent",
+          "uniform",
+          "coherent",
+          "logical",
+          "ordered"
+        ],
+        "precisely": [
+          "precisely",
+          "exactly",
+          "just"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With a balance of 1000, she felt relief knowing her finances were stable for the upcoming month.",
+      "template_pattern": "With a balance of [BALANCE], she felt relief knowing her finances were stable for the upcoming month.",
+      "primary_data_fields": [
+        "balance"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "She felt relief, knowing that with a balance of [BALANCE] her finances would remain stable throughout the coming month.",
+        "Having a balance of [BALANCE] gave her peace of mind, as she recognized her finances were secure for the next month.",
+        "The knowledge that a balance of [BALANCE] secured her finances for the upcoming month brought her a sense of relief.",
+        "Relief washed over her when she realized her balance of [BALANCE] ensured financial stability for the month ahead.",
+        "Because her balance stood at [BALANCE], she was reassured that her finances would stay stable during the forthcoming month.",
+        "With a balance of [BALANCE], she could breathe easy, confident that her finances were stable for the approaching month.",
+        "Her finances were stable for the upcoming month, and the balance of [BALANCE] made her feel relieved.",
+        "A balance of [BALANCE] meant her finances would be steady for the next month, which gave her a feeling of relief.",
+        "She experienced relief, as her balance of [BALANCE] guaranteed financial stability for the month to come.",
+        "Knowing her balance of [BALANCE] kept her finances stable for the upcoming month, she felt a wave of relief.",
+        "The upcoming month promised financial stability thanks to her balance of [BALANCE], and she felt relieved.",
+        "She was relieved, aware that a balance of [BALANCE] would keep her finances stable for the forthcoming month.",
+        "Financial stability for the next month was assured by her balance of [BALANCE], leaving her feeling relieved.",
+        "Because her balance was [BALANCE], she felt relief, convinced her finances would remain stable in the coming month.",
+        "She felt a sense of relief, knowing that a balance of [BALANCE] would sustain stable finances throughout the upcoming month."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "felt": [
+          "felt"
+        ],
+        "month": [
+          "month"
+        ],
+        "relief": [
+          "relief",
+          "respite",
+          "easing",
+          "alleviation",
+          "assuagement",
+          "succor"
+        ],
+        "upcoming": [
+          "upcoming",
+          "coming",
+          "approaching",
+          "forthcoming"
+        ],
+        "knowing": [
+          "knowing",
+          "learned",
+          "wise",
+          "knowledgeable"
+        ],
+        "stable": [
+          "stable",
+          "static",
+          "unchanging"
+        ],
+        "finances": [
+          "finances",
+          "funds"
+        ]
+      },
+      "field_data_types": {
+        "balance": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The key symbol for this financial transaction is NULL, making it difficult to track and categorize the payment history.",
+      "template_pattern": "The key symbol for this financial transaction is [K_SYMBOL], making it difficult to track and categorize the payment history.",
+      "primary_data_fields": [
+        "k_symbol"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The k symbol assigned to this financial entry is [K_SYMBOL], bringing extra factors into the tracking and categorization of the transaction.",
+        "For this transaction, the designated k symbol is [K_SYMBOL], which adds further considerations when tracking and classifying it.",
+        "[K_SYMBOL] is the k symbol identified for this financial entry, introducing additional aspects to monitor and categorize the transaction.",
+        "This financial entry’s k symbol, [K_SYMBOL], entails extra attention for tracking and categorizing the transaction.",
+        "Because the k symbol for this entry is [K_SYMBOL], additional tracking and categorization considerations arise.",
+        "The transaction must be tracked and categorized with added considerations, as its k symbol is [K_SYMBOL].",
+        "With [K_SYMBOL] as the k symbol for this financial entry, extra factors must be considered in its tracking and categorization.",
+        "The identified k symbol for this entry, [K_SYMBOL], calls for heightened attention to tracking and categorizing the transaction.",
+        "As the k symbol for the entry is [K_SYMBOL], there are further implications for how the transaction is tracked and classified.",
+        "The financial entry is marked by the k symbol [K_SYMBOL], which brings supplementary considerations to its tracking and categorization.",
+        "Since the k symbol assigned here is [K_SYMBOL], the transaction’s tracking and categorization require additional consideration.",
+        "[K_SYMBOL] serves as the k symbol for this entry, prompting extra steps in tracking and classifying the transaction.",
+        "The entry’s k symbol—[K_SYMBOL]—introduces more complexity into tracking and categorising the transaction.",
+        "When the k symbol identified is [K_SYMBOL], the transaction demands additional attention for tracking and categorization.",
+        "The k symbol [K_SYMBOL], linked to this financial entry, necessitates further considerations for tracking and categorising the transaction."
+      ],
+      "counter_variations": [
+        "In this financial transaction, the k symbol is NULL, making it difficult to track and categorize the payment history.",
+        "The k symbol for this financial transaction is NULL, thereby complicating the ability to track and categorize the payment history.",
+        "Because the k symbol is NULL in this financial transaction, it becomes difficult to track and categorize the payment history.",
+        "Given that the k symbol equals NULL for this financial transaction, it makes it difficult to track and categorize the payment history.",
+        "When the k symbol registers as NULL in a financial transaction, it is difficult to track and categorize the payment history.",
+        "A financial transaction whose k symbol is NULL poses difficulty to track and categorize the payment history.",
+        "Since the k symbol appears as NULL within this financial transaction, it is difficult to track and categorize the payment history.",
+        "The presence of NULL as the k symbol in this financial transaction makes it difficult to track and categorize the payment history.",
+        "If the k symbol is NULL for a financial transaction, it becomes difficult to track and categorize the payment history.",
+        "With the k symbol set to NULL in this financial transaction, it is difficult to track and categorize the payment history.",
+        "The financial transaction's k symbol is NULL, which makes it difficult to track and categorize the payment history.",
+        "Owing to the k symbol being NULL in this financial transaction, it is difficult to track and categorize the payment history.",
+        "In cases where the k symbol is NULL for a financial transaction, it is difficult to track and categorize the payment history.",
+        "The assignment of NULL to the k symbol in this financial transaction makes it difficult to track and categorize the payment history.",
+        "When the financial transaction’s k symbol reads NULL, it is difficult to track and categorize the payment history."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "categorize": [
+          "categorize",
+          "categorise"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "symbol": [
+          "symbol"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing",
+          "dealings"
+        ],
+        "payment": [
+          "payment"
+        ],
+        "track": [
+          "track",
+          "trail",
+          "course",
+          "path"
+        ],
+        "making": [
+          "making",
+          "make",
+          "create",
+          "produce",
+          "build",
+          "form"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "k_symbol": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The financial transaction record lacks the name of the institution where it occurred, represented as NULL.",
+      "template_pattern": "The financial transaction record lacks the name of the institution where it occurred, represented as [BANK].",
+      "primary_data_fields": [
+        "bank"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "This entry’s bank is listed as [BANK], showing which financial institution handled the reported transactions.",
+        "Identified as [BANK], the bank linked to this record denotes the financial institution behind the reported transactions.",
+        "The bank tied to this entry, [BANK], points to the financial institution that processed the reported transactions.",
+        "[BANK] is the bank referenced in this entry, indicating the responsible financial institution for the reported transactions.",
+        "For this entry, the bank is [BANK], which signals the financial institution that carried out the reported transactions.",
+        "The financial institution responsible for the reported transactions is the bank named [BANK] associated with this entry.",
+        "Associated with this entry, the bank—[BANK]—identifies the financial institution that performed the reported transactions.",
+        "In this record, [BANK] serves as the bank, denoting the financial institution accountable for the reported transactions.",
+        "The bank noted as [BANK] in this entry reveals the financial institution that managed the reported transactions.",
+        "[BANK], the bank attached to this entry, indicates which financial institution is responsible for the reported transactions.",
+        "This entry’s designated bank, [BANK], signifies the financial institution overseeing the reported transactions.",
+        "The bank ([BANK]) linked to this entry highlights the financial institution that executed the reported transactions.",
+        "With [BANK] as the bank for this entry, the financial institution responsible for the reported transactions is identified.",
+        "The entry identifies the bank as [BANK], thereby indicating the financial institution handling the reported transactions.",
+        "[BANK] is the bank associated with this record, pointing to the financial institution that processed the reported transactions."
+      ],
+      "counter_variations": [
+        "In this financial transaction record, the bank entry is recorded as NULL.",
+        "The bank attribute associated with the transaction is presently set to NULL.",
+        "Within the transaction data, the bank designation is absent, denoted by NULL.",
+        "The record of the financial transaction indicates a NULL value for the bank field.",
+        "A NULL placeholder occupies the bank column in this transaction's dataset.",
+        "For the given transaction, the bank information is represented by the literal NULL.",
+        "The bank component of the transaction entry is flagged as NULL.",
+        "NULL is assigned to the bank parameter in this financial transaction record.",
+        "The transaction's bank identifier is missing, explicitly shown as NULL.",
+        "In the compiled transaction report, the bank field contains the value NULL.",
+        "The bank slot in this financial entry is populated with NULL.",
+        "A NULL entry denotes the bank in the transaction's data row.",
+        "The bank attribute for this transaction is conveyed as NULL.",
+        "The financial transaction's bank field bears the value NULL.",
+        "Within the dataset, the bank column for this transaction is marked NULL."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "institution": [
+          "institution",
+          "foundation",
+          "establishment"
+        ],
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "where": [
+          "where"
+        ],
+        "lacks": [
+          "lacks"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "occurred": [
+          "occurred"
+        ],
+        "represented": [
+          "represented",
+          "delineated"
+        ]
+      },
+      "field_data_types": {
+        "bank": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The unique identifier for the customer's financial account is NULL.",
+      "template_pattern": "The unique identifier for the customer's financial account is [ACCOUNT].",
+      "primary_data_fields": [
+        "account"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The account designated for this transaction is [ACCOUNT], which serves as the unique identifier for processing.",
+        "For this financial entry, the account assigned is [ACCOUNT], indicating the specific processing identifier.",
+        "This entry’s processing identifier is the account number [ACCOUNT], the designated account for the transaction.",
+        "The specific identifier used in processing, [ACCOUNT], corresponds to the designated account linked to this entry.",
+        "Linked to this financial record, the designated account bears the number [ACCOUNT], reflecting the processing ID.",
+        "In processing this entry, the account [ACCOUNT] is used as the designated identifier.",
+        "The account [ACCOUNT], assigned to this entry, functions as the precise identifier for processing.",
+        "An identifier of [ACCOUNT], this is the designated account tied to the current financial entry.",
+        "Processing this transaction relies on the designated account [ACCOUNT], which is the specific identifier.",
+        "The specific processing ID, [ACCOUNT], identifies the designated account associated with this entry.",
+        "Associated with this financial entry, the designated account is [ACCOUNT], serving as its processing identifier.",
+        "This financial entry utilizes the account [ACCOUNT] as its designated processing identifier.",
+        "The entry’s designated account, [ACCOUNT], reflects the exact identifier employed for processing.",
+        "With [ACCOUNT] as the designated account, this entry’s processing identifier is clearly defined.",
+        "The account tied to this entry, designated as [ACCOUNT], represents the specific identifier used in processing."
+      ],
+      "counter_variations": [
+        "The customer's financial account possesses a unique identifier that is NULL.",
+        "NULL represents the unique identifier assigned to the customer's financial account.",
+        "In the data set, the unique identifier for the customer's financial account is recorded as NULL.",
+        "The unique identifier associated with the customer's financial account currently holds the value NULL.",
+        "For the customer's financial account, the unique identifier is indicated as NULL.",
+        "The financial account of the customer has its unique identifier set to NULL.",
+        "NULL is the value recorded for the unique identifier of the customer's financial account.",
+        "According to the report, the unique identifier tied to the customer's financial account is NULL.",
+        "The customer's financial account, whose unique identifier is NULL, lacks a concrete ID.",
+        "Within the financial data, the customer's account unique identifier appears as NULL.",
+        "The unique identifier for the customer's financial account remains NULL in this extract.",
+        "As per the financial record, the customer's account unique identifier equals NULL.",
+        "The customer's financial account’s unique identifier is presently NULL.",
+        "In this ledger, the unique identifier belonging to the customer's financial account is NULL.",
+        "The value NULL designates the unique identifier for the customer's financial account."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ]
+      },
+      "field_data_types": {
+        "account": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

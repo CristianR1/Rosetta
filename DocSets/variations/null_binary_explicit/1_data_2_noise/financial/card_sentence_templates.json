@@ -1,0 +1,751 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6932cbf0ee7e4b03": "card_id",
+    "3eda267f41e84fe6": "disp_id",
+    "87d4a10d725a4725": "type",
+    "0ccaca4deb50434f": "issued"
+  },
+  "templates": [
+    {
+      "original": "The credit card ending in 1234 has been assigned the unique identifier 1 to streamline transaction tracking.",
+      "template_pattern": "The credit card ending in 1234 has been assigned the unique identifier [CARD_ID] to streamline transaction tracking.",
+      "primary_data_fields": [
+        "card_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card id 1234 has been given the unique identifier [CARD_ID] to improve transaction tracking.",
+        "To streamline transaction tracking, the unique identifier [CARD_ID] was assigned to the card id 1234.",
+        "Assigning the unique identifier [CARD_ID] to card id 1234 helps simplify the monitoring of transactions.",
+        "Card id 1234 received the unique identifier [CARD_ID], enhancing the efficiency of transaction tracking.",
+        "For better transaction tracking, the system allocated unique identifier [CARD_ID] to the card id ending in 1234.",
+        "The unique identifier [CARD_ID] is now linked to card id 1234, facilitating smoother transaction tracking.",
+        "By attaching unique identifier [CARD_ID] to the card id 1234, transaction tracking becomes more streamlined.",
+        "Transaction tracking is streamlined after the card id 1234 was assigned unique identifier [CARD_ID].",
+        "The card id ending in 1234 carries the unique identifier [CARD_ID], which aids in tracking transactions.",
+        "With the unique identifier [CARD_ID] assigned, card id 1234 can now be tracked more efficiently.",
+        "To aid transaction monitoring, unique identifier [CARD_ID] was attached to card id 1234.",
+        "Card id 1234 is now marked with unique identifier [CARD_ID] to facilitate transaction tracking.",
+        "The system has attached unique identifier [CARD_ID] to the card id ending in 1234, streamlining transaction tracking.",
+        "Unique identifier [CARD_ID] has been linked to card id 1234, improving the process of tracking transactions.",
+        "By assigning unique identifier [CARD_ID], the card id 1234 now benefits from streamlined transaction tracking."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "streamline": [
+          "streamline"
+        ],
+        "credit": [
+          "credit",
+          "recognition",
+          "acknowledgment",
+          "citation",
+          "reference"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing",
+          "tag",
+          "track",
+          "trail"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unequaled",
+          "unparalleled",
+          "singular"
+        ],
+        "ending": [
+          "ending",
+          "conclusion",
+          "termination",
+          "closing",
+          "finish",
+          "end"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "assigned": [
+          "assigned"
+        ]
+      },
+      "field_data_types": {
+        "card_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With this identifier, monitoring the card's activities becomes highly efficient.",
+      "template_pattern": "With this identifier, monitoring the card's activities becomes highly efficient.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Using this identifier makes tracking the card's activity highly efficient.",
+        "The card's activities can be monitored with great efficiency when this identifier is employed.",
+        "By applying this identifier, one can monitor the card's actions very efficiently.",
+        "Monitoring the card's transactions becomes markedly more efficient thanks to this identifier.",
+        "This identifier enables highly efficient monitoring of the card's activities.",
+        "When this identifier is used, the monitoring of card activity is highly efficient.",
+        "With the aid of this identifier, card activity monitoring achieves high efficiency.",
+        "The efficiency of monitoring the card's activities spikes when this identifier is applied.",
+        "Thanks to this identifier, monitoring the card's actions is performed with high efficiency.",
+        "This identifier allows for highly efficient observation of the card's activities.",
+        "If this identifier is utilized, the monitoring of the card's activities becomes very efficient.",
+        "Highly efficient monitoring of the card's activities is possible with this identifier.",
+        "By virtue of this identifier, one can efficiently monitor the card's activities.",
+        "The card's activity monitoring is rendered highly efficient through the use of this identifier.",
+        "Leveraging this identifier, monitoring the card's activities attains high efficiency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "becomes": [
+          "becomes"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "highly": [
+          "highly",
+          "extremely"
+        ],
+        "monitoring": [
+          "monitoring"
+        ],
+        "efficient": [
+          "efficient",
+          "effective"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The transaction was easily identified by its unique disp_id, which was listed as 9.",
+      "template_pattern": "The transaction was easily identified by its unique disp_id, which was listed as [DISP_ID].",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction was readily recognized thanks to its unique disp id of [DISP_ID].",
+        "By its distinct disp id listed as [DISP_ID], the transaction could be easily pinpointed.",
+        "Thanks to a unique disp id numbered [DISP_ID], the transaction was quickly identified.",
+        "The transaction, bearing the unique disp id [DISP_ID], was easily spotted.",
+        "With a disp id of [DISP_ID] that is unique, the transaction was identified without difficulty.",
+        "A unique disp id of [DISP_ID] allowed the transaction to be identified effortlessly.",
+        "Because the transaction carried the unique disp id [DISP_ID], it was identified with ease.",
+        "The unique disp id, recorded as [DISP_ID], made the transaction easy to identify.",
+        "Identification of the transaction was simple, owing to its unique disp id [DISP_ID].",
+        "The transaction’s unique disp id, shown as [DISP_ID], facilitated its easy identification.",
+        "Easy identification of the transaction stemmed from its unique disp id, which is [DISP_ID].",
+        "The unique disp id [DISP_ID] served to quickly identify the transaction.",
+        "Owing to its unique disp id ([DISP_ID]), the transaction was identified promptly.",
+        "The transaction could be swiftly identified by its unique disp id: [DISP_ID].",
+        "By using the unique disp id value [DISP_ID], the transaction was easily recognized."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unparalleled",
+          "unequaled",
+          "singular"
+        ],
+        "easily": [
+          "easily"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "listed": [
+          "listed"
+        ],
+        "which": [
+          "which"
+        ]
+      },
+      "field_data_types": {
+        "disp_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This level of detail ensures that any discrepancies can be quickly resolved.",
+      "template_pattern": "This level of detail ensures that any discrepancies can be quickly resolved.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This degree of detail guarantees that any discrepancies can be swiftly resolved.",
+        "By providing such granular detail, we ensure any discrepancies are resolved quickly.",
+        "Any discrepancies can be quickly resolved thanks to this level of detail.",
+        "The thoroughness of the report allows any discrepancies to be addressed promptly.",
+        "With this amount of detail, any discrepancies may be remedied rapidly.",
+        "Ensuring this level of detail means that any discrepancies can be fixed without delay.",
+        "Any discrepancies are able to be quickly resolved owing to the detailed nature of the data.",
+        "Because the detail is so comprehensive, any discrepancies can be corrected promptly.",
+        "This detailed approach secures rapid resolution of any discrepancies.",
+        "A high degree of detail makes it possible to resolve any discrepancies swiftly.",
+        "The granularity of the information ensures that any discrepancies are dealt with quickly.",
+        "Through this detailed presentation, any discrepancies can be promptly settled.",
+        "Any discrepancies can be swiftly dealt with, provided this level of detail is maintained.",
+        "This level of detail facilitates the rapid correction of any discrepancies.",
+        "If the detail is this thorough, any discrepancies can be resolved in a timely manner."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "level": [
+          "level",
+          "grade",
+          "stage",
+          "tier",
+          "layer",
+          "floor"
+        ],
+        "discrepancies": [
+          "discrepancies"
+        ],
+        "detail": [
+          "detail",
+          "particular",
+          "item",
+          "point"
+        ],
+        "quickly": [
+          "quickly",
+          "apace",
+          "rapidly",
+          "promptly",
+          "speedily"
+        ],
+        "ensures": [
+          "ensures",
+          "ensure",
+          "guarantee",
+          "assure",
+          "secure"
+        ],
+        "resolved": [
+          "resolved",
+          "solved",
+          "settled",
+          "concluded",
+          "decided"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The new credit card offers exclusive benefits as it falls under the gold type, attracting premium users.",
+      "template_pattern": "The new credit card offers exclusive benefits as it falls under the [TYPE] type, attracting premium users.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "As a [TYPE] type product, the new credit card provides exclusive benefits that draw premium users.",
+        "Premium users are attracted to the new credit card because it belongs to the [TYPE] type and delivers exclusive benefits.",
+        "Offering exclusive benefits, the new credit card falls under the [TYPE] type and consequently appeals to premium users.",
+        "The new credit card, classified as [TYPE] type, grants exclusive benefits and thus entices premium users.",
+        "Because it is a [TYPE] type, the new credit card supplies exclusive benefits, pulling in premium users.",
+        "Exclusive benefits are offered by the new credit card, which is categorized under the [TYPE] type, attracting premium users.",
+        "The [TYPE] type new credit card extends exclusive benefits, making it a magnet for premium users.",
+        "Premium users gravitate toward the new credit card, which provides exclusive benefits as part of the [TYPE] type.",
+        "With its [TYPE] type designation, the new credit card bestows exclusive benefits and lures premium users.",
+        "The new credit card, falling under [TYPE] type, offers exclusive benefits and consequently draws premium users.",
+        "Attracting premium users, the new credit card offers exclusive benefits and is listed as [TYPE] type.",
+        "Since it falls under the [TYPE] type, the new credit card offers exclusive benefits that appeal to premium users.",
+        "The new credit card’s [TYPE] type status enables it to offer exclusive benefits, thereby attracting premium users.",
+        "Exclusive benefits accompany the new credit card’s classification as [TYPE] type, which in turn pulls premium users.",
+        "Premium users are drawn to the new credit card, which, as a [TYPE] type, provides exclusive benefits."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "under": [
+          "under",
+          "below"
+        ],
+        "exclusive": [
+          "exclusive",
+          "sole",
+          "single"
+        ],
+        "credit": [
+          "credit",
+          "recognition",
+          "acknowledgment",
+          "reference"
+        ],
+        "attracting": [
+          "attracting"
+        ],
+        "users": [
+          "users"
+        ],
+        "premium": [
+          "premium",
+          "agio"
+        ],
+        "benefits": [
+          "benefits"
+        ],
+        "card": [
+          "card"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Such benefits are designed to meet the needs of discerning customers.",
+      "template_pattern": "Such benefits are designed to meet the needs of discerning customers.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "These advantages have been crafted to satisfy the requirements of selective clients.",
+        "Designed to address the preferences of discerning customers, such benefits aim to fulfill their needs.",
+        "The benefits in question are intended to cater to the demands of choosy clientele.",
+        "To meet the expectations of astute customers, these benefits were specifically formulated.",
+        "Discerning customers' needs are the target of these purpose‑built benefits.",
+        "Such benefits aim at fulfilling the needs of sophisticated clientele through intentional design.",
+        "By design, these perks serve the needs of discerning patrons.",
+        "The needs of selective customers are met by these carefully designed benefits.",
+        "Tailored to satisfy discerning buyers, these benefits have been created deliberately.",
+        "With the goal of meeting discerning customers' needs, these benefits were engineered.",
+        "These benefits, crafted for discerning clients, address their specific needs.",
+        "To accommodate the requirements of discerning consumers, such benefits are purposefully devised.",
+        "Meeting the needs of choosy customers is the core intention behind these benefits.",
+        "These carefully devised benefits are meant to satisfy the expectations of discerning shoppers.",
+        "For discerning customers, the benefits are designed specifically to meet their needs."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "designed": [
+          "designed"
+        ],
+        "customers": [
+          "customers"
+        ],
+        "benefits": [
+          "benefits"
+        ],
+        "needs": [
+          "needs"
+        ],
+        "discerning": [
+          "discerning"
+        ],
+        "such": [
+          "such"
+        ],
+        "meet": [
+          "meet",
+          "encounter",
+          "fulfill",
+          "fulfil",
+          "satisfy",
+          "match"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The cardholders enjoy a range of privileges, enhancing their overall experience.",
+      "template_pattern": "The cardholders enjoy a range of privileges, enhancing their overall experience.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Cardholders benefit from a variety of privileges that improve their overall experience.",
+        "A range of privileges is enjoyed by the cardholders, thereby enhancing their overall experience.",
+        "By offering numerous privileges, the program boosts the overall experience of its cardholders.",
+        "The overall experience of cardholders is enhanced through the many privileges they enjoy.",
+        "With numerous privileges at their disposal, cardholders see an improvement in their overall experience.",
+        "The cardholders' overall experience is enriched thanks to the broad spectrum of privileges they receive.",
+        "Thanks to a wide array of privileges, the overall experience of cardholders is heightened.",
+        "Cardholders receive a suite of privileges, which in turn elevates their overall experience.",
+        "Because they have access to many privileges, cardholders enjoy a better overall experience.",
+        "The overall experience of those holding the card is amplified by the range of privileges they enjoy.",
+        "A broad selection of privileges is available to cardholders, enhancing their overall experience.",
+        "Through the privileges offered, cardholders experience an overall improvement in satisfaction.",
+        "The extensive privileges granted to cardholders serve to boost their overall experience.",
+        "As cardholders take advantage of various privileges, their overall experience is enhanced.",
+        "Enhanced overall experience results from the multitude of privileges enjoyed by cardholders."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "privileges": [
+          "privileges"
+        ],
+        "cardholders": [
+          "cardholders"
+        ],
+        "enjoy": [
+          "enjoy",
+          "savor",
+          "relish",
+          "savour",
+          "bask",
+          "revel"
+        ],
+        "their": [
+          "their"
+        ],
+        "experience": [
+          "experience",
+          "feel",
+          "live"
+        ],
+        "overall": [
+          "overall"
+        ],
+        "range": [
+          "range",
+          "array",
+          "ambit",
+          "scope",
+          "reach",
+          "order"
+        ],
+        "enhancing": [
+          "enhancing"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The credit card was issued on 1998-10-16, marking the beginning of its validity period.",
+      "template_pattern": "The credit card was issued on [ISSUED], marking the beginning of its validity period.",
+      "primary_data_fields": [
+        "issued"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The credit card was issued on [ISSUED], marking the start of its validity period.",
+        "On [ISSUED], the credit card was issued, initiating its period of validity.",
+        "Issued on [ISSUED], the credit card began its validity period.",
+        "The credit card was issued on [ISSUED], commencing its valid term.",
+        "Having been issued on [ISSUED], the credit card entered the first day of its validity.",
+        "The credit card, issued on [ISSUED], kicked off its period of validity.",
+        "As of [ISSUED], the credit card was issued, thereby starting its validity period.",
+        "The date the credit card was issued—[ISSUED]—signifies the onset of its valid timeframe.",
+        "Having been issued on [ISSUED], the credit card's validity period began.",
+        "The credit card was issued on [ISSUED], marking the commencement of its validity.",
+        "On the day [ISSUED], the credit card was issued, launching its valid duration.",
+        "The credit card was issued on [ISSUED]; this date denotes the beginning of its validity.",
+        "Since it was issued on [ISSUED], the credit card has been in its validity period.",
+        "The credit card, issued on [ISSUED], started its period of validity from that day.",
+        "The credit card was issued on [ISSUED], signaling the start of its validity term."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "credit": [
+          "credit",
+          "recognition",
+          "acknowledgment",
+          "reference",
+          "citation",
+          "mention"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "period": [
+          "period"
+        ],
+        "validity": [
+          "validity",
+          "validness",
+          "cogency",
+          "robustness",
+          "rigor",
+          "rigour"
+        ],
+        "marking": [
+          "marking",
+          "grade",
+          "grading",
+          "marker",
+          "label",
+          "scoring"
+        ],
+        "beginning": [
+          "beginning",
+          "outset",
+          "start",
+          "commencement",
+          "origin"
+        ]
+      },
+      "field_data_types": {
+        "issued": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This issuance date laid the foundation for long-term customer relationships.",
+      "template_pattern": "This issuance date laid the foundation for long-term customer relationships.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The issuance date established the basis for enduring customer relationships.",
+        "By setting the issuance date, we created a platform for long‑lasting client ties.",
+        "Long‑term customer relationships were rooted in this issuance date.",
+        "This issuance date served as the cornerstone for sustained customer connections.",
+        "With this issuance date, the groundwork for prolonged client relationships was laid.",
+        "The date of issuance formed the underpinning of lasting customer bonds.",
+        "As a result of the issuance date, a foundation for long‑term customer relationships emerged.",
+        "This issuance date paved the way for enduring relationships with customers.",
+        "The foundation for long‑term client relationships was built upon the issuance date.",
+        "Thanks to the issuance date, the basis for lasting customer relationships was set.",
+        "By establishing the issuance date, we secured the base for long‑term customer ties.",
+        "The issuance date, acting as a keystone, enabled long‑term customer relationships.",
+        "Long‑lasting customer relationships stem from the issuance date’s foundation.",
+        "This issuance date helped lay the groundwork for enduring client relationships.",
+        "Owing to the issuance date, a solid foundation for long‑term customer relationships was created."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "laid": [
+          "laid",
+          "set",
+          "put"
+        ],
+        "term": [
+          "term",
+          "condition"
+        ],
+        "relationships": [
+          "relationships"
+        ],
+        "long": [
+          "long"
+        ],
+        "foundation": [
+          "foundation",
+          "cornerstone",
+          "groundwork",
+          "base",
+          "fundament",
+          "basis"
+        ],
+        "issuance": [
+          "issuance",
+          "issue"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Over the years, the card has consistently delivered value to its users.",
+      "template_pattern": "Over the years, the card has consistently delivered value to its users.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "For many years, the card has continually provided value to its users.",
+        "The users have repeatedly received value from the card over the years.",
+        "Value has been consistently delivered to users by the card throughout its history.",
+        "Throughout its lifespan, the card consistently offers value to its holders.",
+        "Over time, the card has reliably given value to those who use it.",
+        "Consistently, over the years, the card has supplied value to its users.",
+        "The card's users have enjoyed steady value from it across the years.",
+        "Across several years, the card has persistently delivered value to its customers.",
+        "Value has been regularly provided to users by the card over the years.",
+        "From its inception to the present, the card has constantly offered value to its users.",
+        "The card has, year after year, delivered value consistently to its users.",
+        "Users have continually benefited from the card's value throughout the years.",
+        "Over the span of years, the card has unfailingly supplied value to its users.",
+        "The value that the card provides to its users has remained consistent over the years.",
+        "Throughout the years, the card has reliably furnished value for its users."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "users": [
+          "users"
+        ],
+        "delivered": [
+          "delivered"
+        ],
+        "over": [
+          "over"
+        ],
+        "years": [
+          "years"
+        ],
+        "card": [
+          "card",
+          "scorecard",
+          "bill",
+          "notice"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "A strong focus on customer satisfaction drives continuous improvements.",
+      "template_pattern": "A strong focus on customer satisfaction drives continuous improvements.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Emphasizing customer satisfaction intensely propels ongoing enhancements.",
+        "Continuous improvements are fueled by a firm emphasis on client satisfaction.",
+        "With a robust focus on satisfying customers, we consistently refine our processes.",
+        "Ongoing enhancements stem from a dedicated commitment to customer contentment.",
+        "The relentless pursuit of customer satisfaction underpins perpetual improvement.",
+        "Because we prioritize client satisfaction, continuous upgrades are achieved.",
+        "Customer satisfaction, when given priority, drives steady improvement cycles.",
+        "A decisive concentration on meeting customers’ needs spurs continual progress.",
+        "Continuous improvement is driven by an unwavering focus on customer happiness.",
+        "By centering on customer satisfaction, we generate constant improvements.",
+        "The strong emphasis placed on client satisfaction fuels ongoing refinement.",
+        "Ongoing refinements result from a powerful focus on satisfying customers.",
+        "A firm dedication to customer satisfaction propels continuous advancement.",
+        "Continuous enhancements arise from placing great importance on client satisfaction.",
+        "When customer satisfaction is prioritized, it propels perpetual improvement."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "strong": [
+          "strong",
+          "firm",
+          "substantial",
+          "potent",
+          "solid"
+        ],
+        "continuous": [
+          "continuous",
+          "uninterrupted"
+        ],
+        "improvements": [
+          "improvements"
+        ],
+        "satisfaction": [
+          "satisfaction",
+          "gratification"
+        ],
+        "focus": [
+          "focus",
+          "direction",
+          "centre",
+          "center"
+        ],
+        "drives": [
+          "drives"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "This approach ensures that the card remains a preferred choice in a competitive market.",
+      "template_pattern": "This approach ensures that the card remains a preferred choice in a competitive market.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Employing this strategy guarantees the card stays a top pick amid a competitive market.",
+        "The card will remain a favored selection in a competitive market, thanks to this approach.",
+        "Through this approach, the card is kept as a preferred alternative in a market that is highly competitive.",
+        "This method secures the card's position as a preferred choice within a competitive marketplace.",
+        "Because of this approach, the card continues to be a popular option in a fiercely competitive market.",
+        "A competitive market still sees the card as a chosen favorite, ensured by this approach.",
+        "With this tactic, the card maintains its status as a preferred choice in a competitive market.",
+        "The card's preferred status in a competitive market is upheld by this approach.",
+        "By applying this approach, the card remains the choice many prefer in a competitive market.",
+        "This approach makes certain that the card stays a preferred option within a competitive marketplace.",
+        "In a competitive market, the card is kept as a favored choice, courtesy of this approach.",
+        "Thanks to this method, the card continues to be regarded as a preferred selection amid competition.",
+        "The approach guarantees that, even in a competitive market, the card stays a top choice.",
+        "Through this method, the card's standing as a preferred alternative is preserved in a competitive market.",
+        "This strategy ensures the card maintains its preferred‑choice status in a highly competitive market."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "market": [
+          "market",
+          "mart",
+          "marketplace"
+        ],
+        "choice": [
+          "choice",
+          "alternative",
+          "pick",
+          "selection",
+          "option"
+        ],
+        "approach": [
+          "approach"
+        ],
+        "card": [
+          "card"
+        ],
+        "preferred": [
+          "preferred",
+          "favourite",
+          "favorite",
+          "preferable",
+          "favored"
+        ],
+        "competitive": [
+          "competitive"
+        ],
+        "remains": [
+          "remains",
+          "rest"
+        ],
+        "ensures": [
+          "ensures"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

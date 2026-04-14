@@ -1,0 +1,146 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "8eca5d3349e141b8": "id",
+    "608aa555704b47cb": "attribute_name"
+  },
+  "templates": [
+    {
+      "original": "The superhero known for his unparalleled intelligence and strategic prowess is assigned the identifier 1 in the registry of heroes.",
+      "template_pattern": "The superhero known for his unparalleled intelligence and strategic prowess is assigned the identifier [ID] in the registry of heroes.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero famed for his unrivaled intelligence and tactical acumen is listed under identifier [ID] in the heroes registry.",
+        "In the registry of heroes, identifier [ID] is assigned to the superhero noted for exceptional intellect and strategic mastery.",
+        "Identifier [ID] designates the superhero whose intelligence is unparalleled and whose strategic prowess is exemplary, according to the hero registry.",
+        "The heroes registry records identifier [ID] for the superhero renowned for supreme intelligence and strategic expertise.",
+        "Assigned identifier [ID], the superhero distinguished by unmatched intellect and strategic skill appears in the registry of heroes.",
+        "Within the registry of heroes, the superhero possessing unparalleled intelligence and strategic prowess bears identifier [ID].",
+        "The superhero, recognized for his extraordinary intelligence and tactical brilliance, holds identifier [ID] in the hero registry.",
+        "Identifier [ID] is the code given to the superhero celebrated for supreme intellect and strategic competence in the heroes registry.",
+        "In the official hero registry, identifier [ID] corresponds to the superhero known for his peer‑less intelligence and strategic capability.",
+        "The registry of heroes attributes identifier [ID] to the superhero admired for exceptional intelligence and strategic excellence.",
+        "Identifier [ID] marks the superhero whose intelligence is unmatched and whose strategic prowess is notable, as recorded in the heroes registry.",
+        "The superhero with unrivaled intellect and strategic talent is catalogued under identifier [ID] within the heroes registry.",
+        "According to the heroes registry, identifier [ID] identifies the superhero famed for unparalleled intelligence and strategic skill.",
+        "The superhero, famed for top‑tier intelligence and strategic know‑how, is recorded with identifier [ID] in the registry of heroes.",
+        "In the heroes registry, the superhero possessing exceptional intelligence and strategic aptitude is assigned identifier [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "registry": [
+          "registry",
+          "register"
+        ],
+        "prowess": [
+          "prowess",
+          "skill",
+          "expertise",
+          "competence",
+          "ability",
+          "mastery"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "strategic": [
+          "strategic"
+        ],
+        "unparalleled": [
+          "unparalleled",
+          "unequalled",
+          "unique",
+          "unequaled"
+        ],
+        "known": [
+          "known"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "heroes": [
+          "heroes"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the realm of superhero attributes, Intelligence stands out as a defining characteristic that often dictates strategic prowess.",
+      "template_pattern": "In the realm of superhero attributes, [ATTRIBUTE_NAME] stands out as a defining characteristic that often dictates strategic prowess.",
+      "primary_data_fields": [
+        "attribute_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within superhero attributes, [ATTRIBUTE_NAME] emerges as a defining characteristic that frequently governs strategic prowess.",
+        "[ATTRIBUTE_NAME], among superhero attributes, is a defining characteristic often shaping strategic prowess.",
+        "The strategic prowess of superheroes is often dictated by [ATTRIBUTE_NAME], a defining characteristic within their attributes.",
+        "As a defining characteristic in the world of superhero attributes, [ATTRIBUTE_NAME] regularly determines strategic prowess.",
+        "In superhero attributes, [ATTRIBUTE_NAME] stands as a defining characteristic, frequently directing strategic prowess.",
+        "Often dictating strategic prowess, [ATTRIBUTE_NAME] is the defining characteristic within the realm of superhero attributes.",
+        "The realm of superhero attributes highlights [ATTRIBUTE_NAME] as a defining characteristic that commonly influences strategic prowess.",
+        "Among the many superhero attributes, [ATTRIBUTE_NAME] uniquely defines the characteristic that typically drives strategic prowess.",
+        "Strategic prowess is commonly governed by [ATTRIBUTE_NAME], a defining characteristic in the sphere of superhero attributes.",
+        "Within the sphere of superhero attributes, the defining characteristic known as [ATTRIBUTE_NAME] often controls strategic prowess.",
+        "[ATTRIBUTE_NAME], a defining characteristic of superhero attributes, regularly dictates strategic prowess.",
+        "In the context of superhero attributes, the characteristic called [ATTRIBUTE_NAME] frequently determines strategic prowess.",
+        "The defining characteristic called [ATTRIBUTE_NAME], found in superhero attributes, often sets the tone for strategic prowess.",
+        "Superhero attributes feature [ATTRIBUTE_NAME] as a defining characteristic that usually steers strategic prowess.",
+        "Frequently shaping strategic prowess, [ATTRIBUTE_NAME] stands out as a defining characteristic among superhero attributes."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "characteristic": [
+          "characteristic",
+          "feature",
+          "attribute",
+          "trait"
+        ],
+        "prowess": [
+          "prowess"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "defining": [
+          "defining",
+          "specify",
+          "delineate",
+          "define"
+        ],
+        "strategic": [
+          "strategic"
+        ],
+        "dictates": [
+          "dictates"
+        ],
+        "stands": [
+          "stands",
+          "bear",
+          "stand",
+          "endure",
+          "abide",
+          "support"
+        ],
+        "realm": [
+          "realm",
+          "region"
+        ]
+      },
+      "field_data_types": {
+        "attribute_name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

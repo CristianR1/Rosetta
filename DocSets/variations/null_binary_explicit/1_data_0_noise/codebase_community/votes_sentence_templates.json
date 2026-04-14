@@ -1,0 +1,382 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "11dad8c09d444b0d": "Id",
+    "d6ac65bd5a414820": "PostId",
+    "120e137f801a4b96": "VoteTypeId",
+    "20f01f81472e4388": "CreationDate",
+    "46433d91dc1d43db": "UserId",
+    "36e56e0ddafa4476": "BountyAmount"
+  },
+  "templates": [
+    {
+      "original": "The Id of the vote is 1.",
+      "template_pattern": "The Id of the vote is [ID].",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The vote’s Id equals [ID].",
+        "Id for the vote is set to [ID].",
+        "[ID] is the Id assigned to the vote.",
+        "The Id assigned to the vote reads [ID].",
+        "[ID] serves as the Id of the vote.",
+        "The vote carries an Id of [ID].",
+        "The Id of the vote has the value [ID].",
+        "An Id of [ID] is associated with the vote.",
+        "The vote is identified by Id [ID].",
+        "Id [ID] corresponds to the vote.",
+        "In this report, the vote’s Id is [ID].",
+        "The vote’s identifier, Id, is [ID].",
+        "The Id attached to the vote is [ID].",
+        "The vote holds Id [ID].",
+        "The Id of the vote was recorded as [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "vote": [
+          "vote",
+          "voting",
+          "ballot",
+          "balloting"
+        ]
+      },
+      "field_data_types": {
+        "Id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post with PostId 3 has sparked a lively discussion among the programming community, attracting numerous comments and upvotes.",
+      "template_pattern": "The post with PostId [POSTID] has sparked a lively discussion among the programming community, attracting numerous comments and upvotes.",
+      "primary_data_fields": [
+        "PostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "PostId [POSTID] has ignited a vibrant conversation within the programming community, drawing a flood of comments and upvotes.",
+        "A lively debate has erupted among programmers around the post identified by PostId [POSTID], gathering countless comments and upvotes.",
+        "The programming community has taken to the post with PostId [POSTID], generating extensive comments and upvotes in a spirited discussion.",
+        "With PostId [POSTID], the post sparked an animated dialogue across the programming community, pulling in numerous comments and upvotes.",
+        "An enthusiastic exchange has been triggered by the post bearing PostId [POSTID], prompting many comments and upvotes from the programming community.",
+        "Among developers, the post marked as PostId [POSTID] fueled a bustling discussion, resulting in a high volume of comments and upvotes.",
+        "The post, PostId [POSTID], was the catalyst for a dynamic conversation among the programming community, attracting abundant comments and upvotes.",
+        "In the tech sphere, the post carrying PostId [POSTID] has set off a lively discourse, amassing a great number of comments and upvotes.",
+        "A vigorous dialogue has blossomed around PostId [POSTID], with the programming community contributing numerous comments and upvotes.",
+        "The programming community has been drawn into an active debate by the post with PostId [POSTID], which has accumulated many comments and upvotes.",
+        "Thanks to PostId [POSTID], the post has provoked a spirited discussion among programmers, resulting in plentiful comments and upvotes.",
+        "The post labeled PostId [POSTID] sparked a bustling conversation among the programming community, garnering countless comments and upvotes.",
+        "Within the programming community, the post designated as PostId [POSTID] ignited a robust discussion, pulling in many comments and upvotes.",
+        "PostId [POSTID]’s post has stirred an energetic exchange among developers, leading to numerous comments and upvotes.",
+        "A flurry of comments and upvotes has followed the post with PostId [POSTID], as it sparked a lively discussion across the programming community."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "numerous": [
+          "numerous",
+          "legion"
+        ],
+        "community": [
+          "community"
+        ],
+        "lively": [
+          "lively",
+          "brisk",
+          "springy"
+        ],
+        "attracting": [
+          "attracting"
+        ],
+        "comments": [
+          "comments"
+        ],
+        "among": [
+          "among"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "upvotes": [
+          "upvotes"
+        ]
+      },
+      "field_data_types": {
+        "PostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The VoteTypeId of 2 indicates a downvote was cast by the user on the community content.",
+      "template_pattern": "The VoteTypeId of [VOTETYPEID] indicates a downvote was cast by the user on the community content.",
+      "primary_data_fields": [
+        "VoteTypeId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A downvote on the community content was recorded when the VoteTypeId of [VOTETYPEID] was assigned to the user.",
+        "The user cast a downvote on the community content, as indicated by a VoteTypeId value of [VOTETYPEID].",
+        "With a VoteTypeId of [VOTETYPEID], the user registered a downvote on the community content.",
+        "Because the VoteTypeId equals [VOTETYPEID], the community content received a downvote from the user.",
+        "The community content was downvoted by the user, signified by a VoteTypeId of [VOTETYPEID].",
+        "When the VoteTypeId is [VOTETYPEID], it means the user has downvoted the community content.",
+        "A VoteTypeId of [VOTETYPEID] denotes that the user has applied a downvote to the community content.",
+        "The presence of VoteTypeId [VOTETYPEID] confirms a user‑initiated downvote on the community content.",
+        "By setting VoteTypeId to [VOTETYPEID], the user indicates a downvote on the community content.",
+        "The user’s action of downvoting the community content is reflected by VoteTypeId [VOTETYPEID].",
+        "VoteTypeId [VOTETYPEID] signals that the user performed a downvote on the community content.",
+        "The community content received a downvote from the user, as shown by VoteTypeId [VOTETYPEID].",
+        "Indicating a downvote on the community content, the user’s VoteTypeId reads [VOTETYPEID].",
+        "A downvote was logged on the community content when the user's VoteTypeId was [VOTETYPEID].",
+        "The user's VoteTypeId of [VOTETYPEID] reveals that a downvote was cast on the community content."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicates": [
+          "indicates",
+          "suggest",
+          "signal",
+          "point",
+          "show"
+        ],
+        "community": [
+          "community"
+        ],
+        "content": [
+          "content",
+          "substance"
+        ],
+        "cast": [
+          "cast",
+          "casting",
+          "mould",
+          "mold",
+          "shape",
+          "stamp"
+        ],
+        "user": [
+          "user"
+        ],
+        "downvote": [
+          "downvote"
+        ]
+      },
+      "field_data_types": {
+        "VoteTypeId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On 2010-07-19, the CreationDate marked when a user contributed their vote to the community's content evaluation.",
+      "template_pattern": "On [CREATIONDATE], the CreationDate marked when a user contributed their vote to the community's content evaluation.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The CreationDate recorded that on [CREATIONDATE] a user cast their vote for the community's content assessment.",
+        "On [CREATIONDATE], a user's vote toward the community's content evaluation was logged by the CreationDate.",
+        "A vote from a user was entered on [CREATIONDATE], as indicated by the CreationDate, for evaluating community content.",
+        "The community's content evaluation received a user vote on [CREATIONDATE], a moment captured by CreationDate.",
+        "CreationDate notes the date [CREATIONDATE] when a user contributed a vote to assess the community's content.",
+        "When a user voted on the community's content evaluation on [CREATIONDATE], the CreationDate logged that event.",
+        "On [CREATIONDATE], the CreationDate shows that a user added their vote to the evaluation of community content.",
+        "The timestamp CreationDate indicates that on [CREATIONDATE] a user submitted a vote for the community's content review.",
+        "A user's contribution of a vote to the community's content evaluation was marked on [CREATIONDATE] by CreationDate.",
+        "According to CreationDate, the community's content evaluation received a user vote on [CREATIONDATE].",
+        "The act of a user voting on the community's content assessment was captured on [CREATIONDATE], as recorded by CreationDate.",
+        "On [CREATIONDATE], CreationDate logged a user's vote toward the evaluation of community content.",
+        "The CreationDate entry for [CREATIONDATE] reflects a user’s vote contributing to the community's content evaluation.",
+        "A user’s vote that fed into the community's content evaluation was timestamped on [CREATIONDATE] by CreationDate.",
+        "Recorded by CreationDate on [CREATIONDATE], a user contributed their vote to the evaluation of community content."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "contributed": [
+          "contributed"
+        ],
+        "community": [
+          "community"
+        ],
+        "content": [
+          "content",
+          "substance"
+        ],
+        "user": [
+          "user"
+        ],
+        "their": [
+          "their"
+        ],
+        "when": [
+          "when"
+        ],
+        "vote": [
+          "vote",
+          "ballot"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The unique identifier for this user in the programming community platform is NULL, making it impossible to track their voting and rating activities on community content.",
+      "template_pattern": "The unique identifier for this user in the programming community platform is NULL, making it impossible to track their voting and rating activities on community content.",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the technology data report framework, this participant’s User Id is [USERID], which uniquely identifies them.",
+        "The technology data report framework assigns the User Id [USERID] to this participant, uniquely distinguishing them.",
+        "With a User Id of [USERID], this participant is uniquely distinguished within the technology data report framework.",
+        "Within the technology data report framework, the User Id [USERID] has been allocated to this participant, setting them apart uniquely.",
+        "This participant receives the User Id [USERID], thereby being uniquely recognized in the technology data report framework.",
+        "Uniquely within the technology data report framework, the User Id assigned to this participant is [USERID].",
+        "The User Id [USERID], assigned to this participant, serves to uniquely differentiate them in the technology data report framework.",
+        "By assigning the User Id [USERID] to this participant, the technology data report framework uniquely identifies them.",
+        "In the context of the technology data report framework, the participant is uniquely marked by User Id [USERID].",
+        "A User Id of [USERID] has been given to this participant, which uniquely sets them apart within the technology data report framework.",
+        "The technology data report framework uniquely distinguishes this participant through the User Id [USERID].",
+        "Through the allocation of User Id [USERID], this participant is uniquely identified in the technology data report framework.",
+        "Within the technology data report framework, the participant’s User Id of [USERID] uniquely differentiates them.",
+        "Assigning User Id [USERID] to this participant results in their unique distinction inside the technology data report framework.",
+        "The participant’s unique identifier in the technology data report framework is the User Id [USERID]."
+      ],
+      "counter_variations": [
+        "Because the User Id for this participant on the programming community platform is null, any attempt to monitor their voting and rating actions on community content proves infeasible.",
+        "The programming community platform records a null value for the User Id of this individual, thereby rendering the tracking of their voting and rating behavior on community content impossible.",
+        "With a null entry assigned to the User Id on the programming community platform, the system cannot trace this user's voting and rating activity across community content.",
+        "A null User Id on the programming community platform eliminates the possibility of observing this member's voting and rating engagements with community content.",
+        "Since the User Id is null within the programming community platform, the analytics engine is unable to follow this user's voting and rating contributions to community content.",
+        "The platform's data shows a null User Id for this user, which consequently blocks any effort to audit their voting and rating interactions on community content.",
+        "Owing to a null designation for the User Id in the programming community platform, the tracking of this individual's voting and rating activity on community content cannot be performed.",
+        "The programming community platform assigns a null value to the User Id of this participant, making it unattainable to monitor their voting and rating actions on community content.",
+        "As the User Id is recorded as null on the programming community platform, the system is incapable of logging this user's voting and rating activity on community content.",
+        "The presence of a null User Id within the programming community platform precludes the ability to trace this user's voting and rating behavior on community content.",
+        "In the programming community platform, a null User Id for this user results in the impossibility of tracking their voting and rating activity on community content.",
+        "Because a null value populates the User Id field on the programming community platform, any attempt to follow this user's voting and rating contributions to community content fails.",
+        "The data entry for this user’s User Id on the programming community platform is null, thereby obstructing the monitoring of their voting and rating engagements with community content.",
+        "With the User Id set to null on the programming community platform, the system cannot capture this user's voting and rating interactions on community content.",
+        "A null assignment to the User Id in the programming community platform means that tracking of this individual's voting and rating activity on community content is unfeasible."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "making": [
+          "making",
+          "fashioning",
+          "devising"
+        ],
+        "impossible": [
+          "impossible",
+          "inconceivable",
+          "unimaginable"
+        ],
+        "track": [
+          "track",
+          "trail",
+          "course",
+          "path"
+        ],
+        "voting": [
+          "voting",
+          "balloting"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "community": [
+          "community"
+        ],
+        "content": [
+          "content",
+          "subject",
+          "substance"
+        ],
+        "platform": [
+          "platform"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The bounty amount for completing the specific task is NULL.",
+      "template_pattern": "The bounty amount for completing the specific task is NULL.",
+      "primary_data_fields": [
+        "BountyAmount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The designated initiative’s allocated Bounty Amount is listed as [BOUNTYAMOUNT], mirroring the preset incentive framework.",
+        "Reported as [BOUNTYAMOUNT], the Bounty Amount assigned to the chosen program reflects the pre‑defined incentive structure.",
+        "According to the data, the Bounty Amount earmarked for the specified initiative equals [BOUNTYAMOUNT], which aligns with the established incentive model.",
+        "[BOUNTYAMOUNT] is the recorded Bounty Amount for the targeted initiative, indicating adherence to the predetermined incentive scheme.",
+        "In the technology report, the Bounty Amount designated for this initiative is shown as [BOUNTYAMOUNT], consistent with the planned incentive architecture.",
+        "The Bounty Amount set aside for the selected project appears as [BOUNTYAMOUNT], echoing the predefined incentive design.",
+        "As per the report, the Bounty Amount for the initiative in question is [BOUNTYAMOUNT], embodying the predetermined incentive structure.",
+        "For the designated initiative, the allocated Bounty Amount—[BOUNTYAMOUNT]—demonstrates the intended incentive framework.",
+        "The technology data indicates that [BOUNTYAMOUNT] represents the Bounty Amount allocated to the specified initiative, reflecting the preset incentive layout.",
+        "Reflecting the pre‑established incentive structure, the Bounty Amount for the chosen initiative is recorded as [BOUNTYAMOUNT].",
+        "[BOUNTYAMOUNT], the Bounty Amount allotted to the targeted initiative, underscores the predetermined incentive system.",
+        "The report cites [BOUNTYAMOUNT] as the Bounty Amount for the designated initiative, aligning with the defined incentive architecture.",
+        "With the predetermined incentive structure in mind, the Bounty Amount assigned to the initiative is reported as [BOUNTYAMOUNT].",
+        "The Bounty Amount for this initiative, as documented, is [BOUNTYAMOUNT]—a figure that mirrors the set incentive framework.",
+        "According to the data sheet, the Bounty Amount earmarked for the designated initiative equals [BOUNTYAMOUNT], reflecting the established incentive structure."
+      ],
+      "counter_variations": [
+        "The Bounty Amount allocated for the designated task is null, indicating no monetary value has been assigned.",
+        "Because the specific task carries no financial reward, the Bounty Amount is null.",
+        "In this report, the Bounty Amount corresponding to the particular assignment is null.",
+        "Although the task is defined, the Bounty Amount remains null, reflecting the absence of a payout.",
+        "The system records a Bounty Amount of null for the completion of the specified activity.",
+        "For the outlined task, the Bounty Amount is null, which signifies that no compensation is stipulated.",
+        "As per the data set, the Bounty Amount tied to the targeted task is null.",
+        "The Bounty Amount, when referenced in relation to the specific job, is null.",
+        "Even though the task is enumerated, the Bounty Amount registers as null.",
+        "According to the latest technology data report, the Bounty Amount for this particular task is null.",
+        "The Bounty Amount assigned to the precise task is null, denoting a zero-value allocation.",
+        "When evaluating the task details, the Bounty Amount appears as null.",
+        "The Bounty Amount for the defined task is null, implying that no monetary figure has been entered.",
+        "Within the current dataset, the Bounty Amount listed for the specific task is null.",
+        "The Bounty Amount associated with completing the given task is null, reflecting an undefined reward."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "bounty": [
+          "bounty"
+        ],
+        "completing": [
+          "completing"
+        ],
+        "task": [
+          "task",
+          "undertaking",
+          "job"
+        ]
+      },
+      "field_data_types": {
+        "BountyAmount": "null"
+      },
+      "is_static": false
+    }
+  ]
+}

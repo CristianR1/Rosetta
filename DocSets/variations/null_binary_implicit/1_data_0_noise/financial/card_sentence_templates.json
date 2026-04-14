@@ -1,0 +1,304 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "ce6878f545064a28": "card_id",
+    "a01f566885574829": "disp_id",
+    "f74552dc8231460a": "type",
+    "66cb21bbaaf745c2": "issued"
+  },
+  "templates": [
+    {
+      "original": "The transaction was approved under the card id [CARD_ID], confirming the customer's account for this financial report.",
+      "template_pattern": "The transaction was approved under the card id [CARD_ID], confirming the customer's account for this financial report.",
+      "primary_data_fields": [
+        "card_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Approval of the transaction was granted under the card id [CARD_ID], thereby confirming the customer's account for this financial report.",
+        "Under the card id [CARD_ID], the transaction received approval, confirming the customer's account in this financial report.",
+        "The customer's account is confirmed for this financial report after the transaction was approved under the card id [CARD_ID].",
+        "Having been approved under the card id [CARD_ID], the transaction validates the customer's account for this financial report.",
+        "This financial report confirms the customer's account because the transaction was approved under the card id [CARD_ID].",
+        "The transaction, approved under the card id [CARD_ID], serves to confirm the customer's account for this financial report.",
+        "Because the transaction was approved under the card id [CARD_ID], the customer's account is confirmed for this financial report.",
+        "For this financial report, the customer's account is confirmed following approval of the transaction under the card id [CARD_ID].",
+        "Approval under the card id [CARD_ID] was given to the transaction, confirming the customer's account for this financial report.",
+        "The transaction earned approval under the card id [CARD_ID] and thus confirms the customer's account for this financial report.",
+        "Under the card id [CARD_ID], approval was granted to the transaction, which confirms the customer's account for this financial report.",
+        "This financial report shows that the customer's account is confirmed after the transaction received approval under the card id [CARD_ID].",
+        "The transaction's approval under the card id [CARD_ID] confirms the customer's account for this financial report.",
+        "Confirming the customer's account for this financial report, the transaction was approved under the card id [CARD_ID].",
+        "The customer's account is verified for this financial report as the transaction was approved under the card id [CARD_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "confirming": [
+          "confirming",
+          "validating",
+          "substantiating",
+          "verifying"
+        ],
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study"
+        ],
+        "card": [
+          "card",
+          "notice",
+          "scorecard",
+          "board",
+          "poster",
+          "menu"
+        ],
+        "under": [
+          "under",
+          "below"
+        ],
+        "approved": [
+          "approved",
+          "sanctioned"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "account": [
+          "account",
+          "invoice",
+          "bill",
+          "explanation",
+          "chronicle",
+          "report"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The disp_id for this particular transaction is 9, ensuring precise tracking and management within the financial services system.",
+      "template_pattern": "The disp_id for this particular transaction is [DISP_ID], ensuring precise tracking and management within the financial services system.",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For this specific transaction, the disp id is [DISP_ID], which guarantees accurate tracking and administration within the financial services system.",
+        "The financial services system achieves exact tracking and control by assigning the disp id [DISP_ID] to this particular transaction.",
+        "A disp id of [DISP_ID] has been allocated to this transaction, enabling precise monitoring and management throughout the financial services system.",
+        "Precise tracking and oversight in the financial services system are ensured because the disp id for this transaction equals [DISP_ID].",
+        "In this transaction, the disp id [DISP_ID] ensures meticulous record‑keeping and governance within the financial services system.",
+        "This transaction’s disp id, set at [DISP_ID], underpins exact tracking and handling across the financial services system.",
+        "By giving the transaction a disp id of [DISP_ID], the financial services system can maintain precise tracking and management.",
+        "The disp id [DISP_ID], assigned to this particular transaction, secures accurate monitoring and control in the financial services system.",
+        "Accurate tracking and management within the financial services system are provided by the disp id [DISP_ID] for this transaction.",
+        "Within the financial services system, the disp id designated as [DISP_ID] for this transaction guarantees precise oversight.",
+        "This particular transaction carries a disp id of [DISP_ID], which facilitates exact tracking and administration in the financial services system.",
+        "Ensuring meticulous tracking and management, the disp id [DISP_ID] is linked to this transaction in the financial services system.",
+        "The transaction’s disp id, [DISP_ID], enables the financial services system to perform precise tracking and management.",
+        "For this transaction, a disp id of [DISP_ID] is used, delivering accurate monitoring and control throughout the financial services system.",
+        "Through assigning disp id [DISP_ID] to this transaction, the financial services system achieves precise tracking and governance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "management": [
+          "management",
+          "direction"
+        ],
+        "precise": [
+          "precise",
+          "exact",
+          "accurate"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "services": [
+          "services"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "particular": [
+          "particular",
+          "specific",
+          "special"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ]
+      },
+      "field_data_types": {
+        "disp_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The credit card she chose was of the gold type, offering exclusive benefits and premium features.",
+      "template_pattern": "The credit card she chose was of the [TYPE] type, offering exclusive benefits and premium features.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "She selected a credit card that belongs to the [TYPE] type, which provides exclusive benefits and premium features.",
+        "The [TYPE] type credit card she opted for includes exclusive benefits and premium features.",
+        "A [TYPE] type credit card, chosen by her, offers exclusive benefits and premium features.",
+        "Exclusive benefits and premium features are provided by the [TYPE] type credit card she selected.",
+        "Her choice was a [TYPE] type credit card, and it delivers exclusive benefits and premium features.",
+        "The credit card, of the [TYPE] type, that she picked, supplies exclusive benefits and premium features.",
+        "By picking a [TYPE] type credit card, she gains exclusive benefits and premium features.",
+        "The [TYPE] type credit card she chose comes with exclusive benefits and premium features.",
+        "Offering exclusive benefits and premium features, the [TYPE] type credit card was her selection.",
+        "She went with a [TYPE] type credit card, which grants exclusive benefits and premium features.",
+        "The [TYPE] type credit card, selected by her, provides exclusive benefits and premium features.",
+        "Exclusive benefits and premium features accompany the [TYPE] type credit card she chose.",
+        "Her selected card is a [TYPE] type credit card that offers exclusive benefits and premium features.",
+        "The credit card she opted for is a [TYPE] type, offering exclusive benefits and premium features.",
+        "A [TYPE] type credit card, as her choice, supplies exclusive benefits and premium features."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "offering": [
+          "offering",
+          "offer",
+          "tender",
+          "bid"
+        ],
+        "premium": [
+          "premium",
+          "agio"
+        ],
+        "card": [
+          "card"
+        ],
+        "credit": [
+          "credit",
+          "recognition",
+          "acknowledgment",
+          "reference",
+          "citation",
+          "mention"
+        ],
+        "benefits": [
+          "benefits"
+        ],
+        "chose": [
+          "chose"
+        ],
+        "features": [
+          "features"
+        ],
+        "exclusive": [
+          "exclusive",
+          "sole",
+          "single",
+          "undivided"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The credit card was issued on 1998-10-16, marking the beginning of its validity and usage period.",
+      "template_pattern": "The credit card was issued on [ISSUED], marking the beginning of its validity and usage period.",
+      "primary_data_fields": [
+        "issued"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The credit card was issued on [ISSUED], marking the beginning of its validity and usage period.",
+        "Issued on [ISSUED], the credit card commenced its validity and usage period.",
+        "On [ISSUED], the credit card was issued, launching its validity and usage period.",
+        "The credit card was issued on [ISSUED], initiating its validity and usage period.",
+        "Having been issued on [ISSUED], the credit card entered its validity and usage period.",
+        "The credit card, issued on [ISSUED], began its validity and usage period at that moment.",
+        "When it was issued on [ISSUED], the credit card started its validity and usage period.",
+        "The date the credit card was issued—[ISSUED]—signifies the start of its validity and usage period.",
+        "Issued on [ISSUED], the credit card’s validity and usage period kicked off.",
+        "The credit card’s validity and usage period opened on the day it was issued, [ISSUED].",
+        "As of [ISSUED], when the credit card was issued, its validity and usage period began.",
+        "The credit card was issued on [ISSUED]; this date marks the onset of its validity and usage period.",
+        "Following its being issued on [ISSUED], the credit card entered the phase of validity and usage.",
+        "The credit card, having been issued on [ISSUED], entered its validity and usage period.",
+        "On the date it was issued, [ISSUED], the credit card started its validity and usage period."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "mark",
+          "grade",
+          "label",
+          "tag",
+          "note"
+        ],
+        "beginning": [
+          "beginning",
+          "outset",
+          "start",
+          "commencement",
+          "origin",
+          "source"
+        ],
+        "period": [
+          "period",
+          "point"
+        ],
+        "card": [
+          "card",
+          "bill",
+          "notice",
+          "placard",
+          "poster",
+          "scorecard"
+        ],
+        "credit": [
+          "credit",
+          "recognition",
+          "acknowledgment",
+          "mention",
+          "reference",
+          "citation"
+        ],
+        "validity": [
+          "validity",
+          "cogency",
+          "rigor",
+          "rigour"
+        ],
+        "usage": [
+          "usage",
+          "use",
+          "employment",
+          "utilisation",
+          "utilization",
+          "custom"
+        ]
+      },
+      "field_data_types": {
+        "issued": "date"
+      },
+      "is_static": false
+    }
+  ]
+}

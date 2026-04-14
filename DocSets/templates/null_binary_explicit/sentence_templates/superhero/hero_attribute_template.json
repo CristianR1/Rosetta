@@ -1,0 +1,26 @@
+{
+  "database": "superhero",
+  "table": "hero_attribute",
+  "entry_index": 0,
+  "original_data": {
+    "hero_id": "1",
+    "attribute_id": "1",
+    "attribute_value": "80"
+  },
+  "generated_sentences": [
+    "Superhero number 1 possesses extraordinary abilities that set them apart from the rest. (Hash: 2797c784edb14c41)",
+    "The attribute_id is 1. (Hash: b3de927558684047)",
+    "Superhero A possesses the unique power of invisibility, which is identified with the number 1 among their various abilities. (Hash: ad8b70312d1c437c)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "2797c784edb14c41": "hero_id",
+    "c60ae56ecdd847b7": "attribute_value",
+    "ad8b70312d1c437c": "attribute_id"
+  },
+  "timestamp": "2026-03-31 16:47:44",
+  "narrative": []
+}

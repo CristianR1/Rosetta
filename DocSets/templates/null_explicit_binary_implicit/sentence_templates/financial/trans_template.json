@@ -1,0 +1,49 @@
+{
+  "database": "financial",
+  "table": "trans",
+  "entry_index": 0,
+  "original_data": {
+    "trans_id": "1",
+    "account_id": "1",
+    "date": "1995-03-24",
+    "type": "PRIJEM",
+    "operation": "VKLAD",
+    "amount": "1000",
+    "balance": "1000",
+    "k_symbol": "NULL",
+    "bank": "NULL",
+    "account": "NULL"
+  },
+  "generated_sentences": [
+    "The trans_id is 1. (Hash: 4bff71d9249b4933)",
+    "The account_id is 1. (Hash: b42a1cca6fec460e)",
+    "The transaction made on 1995-03-24 marked a pivotal moment in the analysis of payment history trends. (Hash: 1e1a08f3d4424504)",
+    "The transaction was categorized as PRIJEM, highlighting its role as a crucial type in the financial records. (Hash: 5b2f242e76d14338)",
+    "The financial transaction record indicates a VKLAD operation, categorizing it as a deposit within the overall financial activity. (Hash: f32e5b491f0b46a2)",
+    "Each transaction in the history reflects a consistent financial activity, with the amount reaching precisely 1000 for each transaction. (Hash: 503f4224a3234e89)",
+    "With a balance of 1000, she felt relief knowing her finances were stable for the upcoming month. (Hash: 03a6355d67814ed9)",
+    "The key symbol for this financial transaction is NULL, making it difficult to track and categorize the payment history. (Hash: bc45104482744847)",
+    "The financial transaction record lacks the name of the institution where it occurred, represented as NULL. (Hash: 307791b7e8bd4542)",
+    "The unique identifier for the customer's financial account is NULL. (Hash: 600dbcc7d5e24d64)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "4bff71d9249b4933": "trans_id",
+    "b42a1cca6fec460e": "account_id",
+    "1e1a08f3d4424504": "date",
+    "5b2f242e76d14338": "type",
+    "f32e5b491f0b46a2": "operation",
+    "503f4224a3234e89": "amount",
+    "03a6355d67814ed9": "balance",
+    "bc45104482744847": "k_symbol",
+    "307791b7e8bd4542": "bank",
+    "600dbcc7d5e24d64": "account"
+  },
+  "timestamp": "2026-04-13 00:19:29",
+  "narrative": [
+    "It looks like the narrative document you’d like edited wasn’t included in your message. Could you please provide the full text of the narrative so I can replace the specified sentence as requested?"
+  ]
+}

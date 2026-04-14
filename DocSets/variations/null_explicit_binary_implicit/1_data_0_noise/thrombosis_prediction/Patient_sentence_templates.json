@@ -1,0 +1,567 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "06552b21a50241ea": "ID",
+    "d662e26e0aa449e4": "SEX",
+    "6eb97b2957c74113": "Birthday",
+    "cb8ab856d26a4642": "Description",
+    "633bd823cfb046b0": "First Date",
+    "e550c8bbd4804e06": "Admission",
+    "0e98a5c7fa6a4290": "Diagnosis"
+  },
+  "templates": [
+    {
+      "original": "Patient ID 2110 is crucial for tracking their demographic and medical history essential for thrombosis prediction.",
+      "template_pattern": "Patient ID [ID] is crucial for tracking their demographic and medical history essential for thrombosis prediction.",
+      "primary_data_fields": [
+        "ID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Tracking the demographic and medical history needed for thrombosis prediction hinges on Patient ID [ID].",
+        "Patient ID [ID] plays a vital role in monitoring the demographic and medical records that are key to predicting thrombosis.",
+        "For thrombosis prediction, the demographic and medical history of Patient ID [ID] must be meticulously tracked.",
+        "The demographic and medical history essential for thrombosis prediction are dependent on Patient ID [ID].",
+        "In order to predict thrombosis, it is essential to follow the demographic and medical history associated with Patient ID [ID].",
+        "Patient ID [ID] is indispensable when capturing the demographic and medical history required for thrombosis prediction.",
+        "The demographic and medical history needed for thrombosis prediction can only be tracked through Patient ID [ID].",
+        "To forecast thrombosis, the demographic and medical history of Patient ID [ID] must be recorded.",
+        "Patient ID [ID] serves as the cornerstone for documenting the demographic and medical history that underpins thrombosis prediction.",
+        "Monitoring the demographic and medical history crucial to thrombosis prediction is dependent upon Patient ID [ID].",
+        "For accurate thrombosis prediction, the demographic and medical history linked to Patient ID [ID] should be tracked.",
+        "Patient ID [ID] is essential for the collection of demographic and medical history data used in thrombosis prediction.",
+        "The collection of demographic and medical history essential for thrombosis prediction relies on Patient ID [ID].",
+        "When predicting thrombosis, the demographic and medical history must be traced back to Patient ID [ID].",
+        "Patient ID [ID] must be referenced to capture the demographic and medical history vital for thrombosis prediction."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "prediction": [
+          "prediction",
+          "forecasting",
+          "prognostication",
+          "anticipation"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "tracking": [
+          "tracking",
+          "track",
+          "tag",
+          "trail"
+        ],
+        "thrombosis": [
+          "thrombosis"
+        ],
+        "demographic": [
+          "demographic"
+        ],
+        "their": [
+          "their"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "essential": [
+          "essential",
+          "necessary",
+          "indispensable",
+          "requisite",
+          "crucial"
+        ]
+      },
+      "field_data_types": {
+        "ID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In assessing thrombosis risk, the patient was recorded with SEX as F, which is crucial for accurate demographic analysis.",
+      "template_pattern": "In assessing thrombosis risk, the patient was recorded with SEX as [SEX], which is crucial for accurate demographic analysis.",
+      "primary_data_fields": [
+        "SEX"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "When evaluating thrombosis risk, the patient’s SEX was documented as [SEX], a detail essential for precise demographic analysis.",
+        "In the thrombosis risk assessment, the recorded SEX for the patient is [SEX], which proves vital for accurate demographic evaluation.",
+        "The patient was noted with SEX equal to [SEX] during thrombosis risk appraisal, a factor critical to reliable demographic analysis.",
+        "Assessing thrombosis risk involved noting the patient’s SEX as [SEX], an element indispensable for exact demographic insights.",
+        "For the purpose of thrombosis risk evaluation, the patient’s SEX was entered as [SEX], a key component of thorough demographic analysis.",
+        "During the thrombosis risk review, the patient’s SEX was logged as [SEX], indispensable for correct demographic assessment.",
+        "The analysis of thrombosis risk captured the patient’s SEX as [SEX], a necessary detail for meticulous demographic reporting.",
+        "In the context of thrombosis risk, the patient’s SEX recorded as [SEX] serves as a crucial piece for accurate demographic analysis.",
+        "While assessing thrombosis risk, clinicians recorded the patient’s SEX as [SEX], which is fundamental for precise demographic interpretation.",
+        "The patient’s SEX, marked as [SEX], was captured in the thrombosis risk assessment, underpinning accurate demographic analysis.",
+        "Recording the patient’s SEX as [SEX] formed part of the thrombosis risk evaluation, essential for sound demographic analysis.",
+        "Thrombosis risk assessment noted the patient’s SEX as [SEX], a detail that underlies accurate demographic analysis.",
+        "In the process of evaluating thrombosis risk, the patient’s SEX was entered as [SEX], a factor vital for exact demographic analysis.",
+        "The patient’s SEX—[SEX]—was documented during thrombosis risk assessment, supporting precise demographic analysis.",
+        "During the evaluation of thrombosis risk, the patient’s SEX was captured as [SEX], which is pivotal for reliable demographic analysis."
+      ],
+      "counter_variations": [
+        "During the comprehensive health assessment, the patient’s demographic profile recorded SEX as NULL, a datum indispensable for subsequent epidemiological modeling.",
+        "In the course of the extensive health evaluation, the patient’s demographic record noted SEX as NULL, a detail vital for downstream epidemiological modeling.",
+        "While conducting the thorough health appraisal, the patient’s demographic sheet listed SEX as NULL, an element essential for future epidemiological modeling.",
+        "Amid the exhaustive health survey, the patient’s demographic information indicated SEX as NULL, a factor critical to later epidemiological modeling.",
+        "Within the full‑scale health assessment, the patient’s demographic profile captured SEX as NULL, a piece of data necessary for ensuing epidemiological modeling.",
+        "As part of the comprehensive health review, the patient’s demographic entry showed SEX as NULL, a component pivotal for subsequent epidemiological modeling.",
+        "During the all‑encompassing health examination, the patient’s demographic profile marked SEX as NULL, a specification required for later epidemiological modeling.",
+        "In the context of a detailed health assessment, the patient’s demographic profile reflected SEX as NULL, an attribute fundamental to ensuing epidemiological modeling.",
+        "When the comprehensive health assessment was performed, the patient’s demographic record documented SEX as NULL, a variable crucial for downstream epidemiological modeling.",
+        "Throughout the extensive health evaluation, the patient’s demographic profile displayed SEX as NULL, a fact essential for subsequent epidemiological modeling.",
+        "In executing the comprehensive health assessment, the patient’s demographic sheet captured SEX as NULL, a piece of information indispensable for later epidemiological modeling.",
+        "During the thorough health appraisal, the patient’s demographic data listed SEX as NULL, a detail that underpins subsequent epidemiological modeling.",
+        "While undertaking the comprehensive health assessment, the patient’s demographic profile registered SEX as NULL, a component necessary for downstream epidemiological modeling.",
+        "Amid the detailed health assessment, the patient’s demographic entry noted SEX as NULL, an element that is critical for subsequent epidemiological modeling.",
+        "In the setting of a comprehensive health assessment, the patient’s demographic profile identified SEX as NULL, a data point essential for later epidemiological modeling."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "analysis": [
+          "analysis"
+        ],
+        "thrombosis": [
+          "thrombosis"
+        ],
+        "accurate": [
+          "accurate",
+          "precise",
+          "exact"
+        ],
+        "demographic": [
+          "demographic"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "which": [
+          "which"
+        ],
+        "assessing": [
+          "assessing"
+        ],
+        "patient": [
+          "patient"
+        ]
+      },
+      "field_data_types": {
+        "SEX": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's Birthday, 1934-02-13, is integral in evaluating age-related health risks and customizing their medical care plan.",
+      "template_pattern": "The patient's Birthday, [BIRTHDAY], is integral in evaluating age-related health risks and customizing their medical care plan.",
+      "primary_data_fields": [
+        "Birthday"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the patient's Birthday, [BIRTHDAY], is crucial for assessing age-related health risks, it also guides the tailoring of their medical care plan.",
+        "The Birthday of the patient, recorded as [BIRTHDAY], plays a vital role in evaluating age-related health risks and in customizing their medical care plan.",
+        "Evaluating age-related health risks and personalizing the medical care plan hinge on the patient's Birthday, [BIRTHDAY].",
+        "In determining age-related health risks and shaping a customized medical care plan, the patient's Birthday, [BIRTHDAY], is indispensable.",
+        "The patient's Birthday, [BIRTHDAY], serves as a key factor for assessing age-related health risks and for tailoring their medical care plan.",
+        "Age-related health risk assessment and the customization of the medical care plan both depend on the patient's Birthday, [BIRTHDAY].",
+        "Given that the patient's Birthday, [BIRTHDAY], is essential, it informs both the evaluation of age-related health risks and the design of their medical care plan.",
+        "The integral nature of the patient's Birthday, [BIRTHDAY], lies in its use for age-related health risk evaluation and for customizing the medical care plan.",
+        "For the purposes of assessing age-related health risks and adapting the medical care plan, the patient's Birthday, [BIRTHDAY], is a pivotal datum.",
+        "Age-related health risks are evaluated and the medical care plan is customized based on the patient's Birthday, [BIRTHDAY].",
+        "The patient's Birthday, [BIRTHDAY], is a fundamental element in both age-related health risk analysis and the personalization of their medical care plan.",
+        "Since the patient's Birthday, [BIRTHDAY], directly influences age-related health risk assessment, it also shapes the customization of the medical care plan.",
+        "The evaluation of age-related health risks and the customization of the medical care plan are anchored by the patient's Birthday, [BIRTHDAY].",
+        "With the patient's Birthday, [BIRTHDAY], serving as a cornerstone, clinicians can assess age-related health risks and tailor the medical care plan accordingly.",
+        "Because the patient's Birthday, [BIRTHDAY], is integral, it underpins the assessment of age-related health risks and the crafting of a personalized medical care plan."
+      ],
+      "counter_variations": [
+        "Because the patient’s Birthday, NULL, obstructs an exact age determination, it consequently shapes risk stratification and the customization of preventative health measures.",
+        "The patient’s Birthday, NULL, hinders precise age computation, which in turn affects how risk stratification is performed and how preventative health interventions are tailored.",
+        "Given that the patient’s Birthday, NULL, precludes an accurate calculation of age, the downstream impact is seen in altered risk stratification and the individualized design of preventive health programs.",
+        "With the patient’s Birthday, NULL, rendering age estimation impossible, clinicians must adjust risk stratification and modify the planning of preventative health interventions accordingly.",
+        "Since the patient’s Birthday, NULL, eliminates the possibility of precise age calculation, it influences both the methodology of risk stratification and the personalisation of preventive health strategies.",
+        "The absence of a recorded Birthday, NULL, blocks exact age assessment, thereby modulating risk stratification processes and the bespoke formulation of preventative health interventions.",
+        "When the patient’s Birthday, NULL, prevents an accurate age calculation, it reverberates through risk stratification and the bespoke tailoring of preventative health measures.",
+        "Due to the patient’s Birthday, NULL, thwarting precise age computation, risk stratification is affected and the shaping of preventative health interventions must be adapted.",
+        "The patient’s Birthday, NULL, which stops an exact age determination, consequently guides risk stratification and the fine‑tuning of preventative health interventions.",
+        "Because the patient’s Birthday, NULL, denies a definitive age calculation, it exerts influence over risk stratification and the customized deployment of preventative health interventions.",
+        "The patient’s Birthday, NULL, undermines precise age calculation, thereby altering the approach to risk stratification and the crafting of preventative health interventions.",
+        "Owing to the patient’s Birthday, NULL, which precludes exact age computation, risk stratification and the tailoring of preventative health interventions are consequently impacted.",
+        "The fact that the patient’s Birthday, NULL, forestalls precise age calculation leads to modifications in risk stratification and in the design of preventative health interventions.",
+        "Since the patient’s Birthday, NULL, obstructs an accurate age estimate, it shapes both the risk stratification framework and the individualized planning of preventative health measures.",
+        "With the patient’s Birthday, NULL, eliminating the ability to calculate an exact age, clinicians must adjust risk stratification and personalize preventative health interventions."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "health": [
+          "health",
+          "wellness"
+        ],
+        "related": [
+          "related"
+        ],
+        "evaluating": [
+          "evaluating"
+        ],
+        "customizing": [
+          "customizing"
+        ],
+        "their": [
+          "their"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "risks": [
+          "risks"
+        ],
+        "integral": [
+          "integral",
+          "inherent",
+          "inbuilt"
+        ]
+      },
+      "field_data_types": {
+        "Birthday": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's demographic and medical history information was first documented on 1994-02-14, marking the initial Description entry.",
+      "template_pattern": "The patient's demographic and medical history information was first documented on [DESCRIPTION], marking the initial Description entry.",
+      "primary_data_fields": [
+        "Description"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DESCRIPTION], the patient's demographic and medical history information was initially recorded, constituting the first Description entry.",
+        "The initial Description entry occurred when the patient's demographic and medical history data were first logged on [DESCRIPTION].",
+        "First documented on [DESCRIPTION], the patient's demographic and medical history details created the opening Description record.",
+        "The patient's demographic and medical history information entered the system on [DESCRIPTION], marking the inaugural Description entry.",
+        "Recording the patient's demographic and medical history on [DESCRIPTION] signaled the debut of a Description entry.",
+        "It was on [DESCRIPTION] that the patient's demographic and medical history information was first entered, establishing the initial Description entry.",
+        "The debut Description entry was made on [DESCRIPTION], when the patient's demographic and medical history information was first captured.",
+        "When the patient's demographic and medical history information was first documented on [DESCRIPTION], it resulted in the initial Description entry.",
+        "The first Description entry corresponds to the initial recording of the patient's demographic and medical history on [DESCRIPTION].",
+        "On the date [DESCRIPTION], the patient's demographic and medical history information was entered for the first time, creating a Description entry.",
+        "The patient's demographic and medical history was initially logged on [DESCRIPTION], thereby generating the first Description entry.",
+        "By documenting the patient's demographic and medical history on [DESCRIPTION], the system produced its first Description entry.",
+        "The inaugural Description entry was triggered on [DESCRIPTION] when the patient's demographic and medical history information was first saved.",
+        "First entered on [DESCRIPTION], the patient's demographic and medical history information marks the opening Description entry.",
+        "The patient's demographic and medical history information was first captured on [DESCRIPTION], which constitutes the initial Description entry."
+      ],
+      "counter_variations": [
+        "The patient’s clinical Summary records the Description as NULL, thereby signifying that no narrative detail was supplied at the time of assessment.",
+        "In the clinical Summary for this patient, the Description field appears as NULL, which denotes that no narrative detail was offered during the assessment.",
+        "Within the patient’s clinical Summary, the Description is listed as NULL, reflecting the absence of any narrative detail at the moment of assessment.",
+        "The clinical Summary pertaining to the patient lists the Description as NULL, indicating that no narrative detail was provided when the assessment was conducted.",
+        "For this patient, the clinical Summary shows the Description set to NULL, implying that no narrative detail was furnished at the assessment time.",
+        "The patient’s clinical Summary displays the Description as NULL, meaning that no narrative detail was entered at the time of the assessment.",
+        "In the patient’s clinical Summary, the Description entry is NULL, which communicates that no narrative detail was recorded at assessment.",
+        "The clinical Summary of the patient marks the Description as NULL, suggesting that no narrative detail was captured during the assessment.",
+        "According to the patient’s clinical Summary, the Description holds a NULL value, indicating that no narrative detail was supplied at assessment.",
+        "The patient’s clinical Summary contains the Description marked as NULL, conveying that no narrative detail was entered at the time of assessment.",
+        "Within the clinical Summary for this patient, the Description is assigned the value NULL, signifying that no narrative detail was available during the assessment.",
+        "The clinical Summary for the patient registers the Description as NULL, denoting that no narrative detail was provided at the moment of assessment.",
+        "In the patient’s clinical Summary, the Description appears as NULL, which reflects that no narrative detail was documented at the time of assessment.",
+        "The patient’s clinical Summary notes the Description as NULL, thereby indicating that no narrative detail was offered at the point of assessment.",
+        "The clinical Summary associated with the patient lists the Description as NULL, communicating that no narrative detail was presented during the assessment."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "grade",
+          "tag",
+          "grading",
+          "check",
+          "mark"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle",
+          "story"
+        ],
+        "demographic": [
+          "demographic"
+        ],
+        "information": [
+          "information",
+          "data"
+        ],
+        "documented": [
+          "documented",
+          "authenticated",
+          "attested"
+        ],
+        "initial": [
+          "initial"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "entry": [
+          "entry",
+          "ingress",
+          "entering",
+          "entrance"
+        ]
+      },
+      "field_data_types": {
+        "Description": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The patient's medical journey at the hospital began on their First Date, 1993-02-10, marking a significant point in their treatment timeline.",
+      "template_pattern": "The patient's medical journey at the hospital began on their First Date, [FIRST DATE], marking a significant point in their treatment timeline.",
+      "primary_data_fields": [
+        "First Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's hospital stay commenced on their First Date, [FIRST DATE], which represents a pivotal moment in the treatment timeline.",
+        "On [FIRST DATE], the First Date for the patient, their medical journey at the hospital started, signifying an important milestone in the care timeline.",
+        "The medical course for the patient at the hospital was initiated on their First Date, [FIRST DATE], marking a notable point in the treatment chronology.",
+        "Beginning on their First Date, [FIRST DATE], the patient's hospital journey marked a significant point in the timeline of their treatment.",
+        "A significant point in the treatment timeline was set when the patient’s hospital experience began on the First Date, [FIRST DATE].",
+        "The hospital’s care for the patient kicked off on the First Date, [FIRST DATE], denoting a key stage in the overall treatment schedule.",
+        "When the First Date of [FIRST DATE] arrived, the patient’s medical path at the hospital was launched, highlighting a crucial point in their treatment timeline.",
+        "The patient’s treatment timeline recorded a major marker as their hospital journey started on the First Date, [FIRST DATE].",
+        "On the First Date, [FIRST DATE], the patient entered the hospital, initiating a significant phase in their treatment chronology.",
+        "The commencement of the patient’s hospital medical journey on their First Date, [FIRST DATE], flags an important juncture in the treatment timeline.",
+        "Marking an essential point in the treatment timeline, the patient’s hospital care began on the First Date, [FIRST DATE].",
+        "The First Date, [FIRST DATE], signaled the start of the patient’s hospital medical journey, a noteworthy moment in their treatment timeline.",
+        "As of [FIRST DATE], the patient’s First Date, their hospital treatment commenced, establishing a significant point in the overall timeline.",
+        "The patient’s entry into hospital care on the First Date, [FIRST DATE], introduced a pivotal point in the treatment timeline.",
+        "Initiated on the First Date, [FIRST DATE], the patient’s medical journey at the hospital marks a salient point in their treatment timeline."
+      ],
+      "counter_variations": [
+        "Recorded as NULL, the patient’s First Date signals that the timing of the initial appointment is still unascertained in the clinical timeline.",
+        "Within the clinical timeline, the initial appointment timing is unascertained, as evidenced by the patient’s First Date being set to NULL.",
+        "Because the patient’s First Date is NULL, the system flags the initial appointment timing as indeterminate within the clinical chronology.",
+        "The clinical record lists the patient’s First Date as NULL, thereby denoting that the exact moment of the first appointment remains unknown.",
+        "A NULL entry for the patient’s First Date conveys that the schedule of the initial visit cannot be determined within the clinical timeline.",
+        "Since the patient’s First Date appears as NULL, the initial appointment’s timing is considered unresolved in the context of the clinical schedule.",
+        "The patient’s First Date, shown as NULL, reflects an inability to ascertain the initial appointment timing within the overall clinical timeline.",
+        "In the dataset, the patient’s First Date is NULL, which implies that the precise timing of the first encounter remains unverified in the clinical chronology.",
+        "The presence of NULL for the patient’s First Date indicates that the timing of the first appointment is currently indeterminate within the clinical timeline.",
+        "With the patient’s First Date marked as NULL, the record acknowledges that the initial appointment’s timing is as yet unestablished in the clinical timeline.",
+        "The patient’s First Date being NULL signals that the exact start date of the initial visit cannot be ascertained within the clinical timeline.",
+        "Because the First Date for the patient is recorded as NULL, the initial appointment timing remains unresolved within the clinical timeline.",
+        "A NULL value assigned to the patient’s First Date denotes that the timing of the inaugural appointment is presently unknown in the clinical timeline.",
+        "The clinical data entry shows the patient’s First Date as NULL, thereby indicating that the first appointment’s timing is still indeterminate.",
+        "When the patient’s First Date is set to NULL, it reveals that the schedule of the initial appointment cannot be determined within the clinical timeline."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "marking": [
+          "marking",
+          "grade",
+          "tag",
+          "grading",
+          "mark",
+          "score"
+        ],
+        "timeline": [
+          "timeline"
+        ],
+        "treatment": [
+          "treatment",
+          "intervention",
+          "handling"
+        ],
+        "began": [
+          "began"
+        ],
+        "point": [
+          "point",
+          "place",
+          "item",
+          "tip",
+          "spot",
+          "period"
+        ],
+        "journey": [
+          "journey",
+          "travel"
+        ],
+        "their": [
+          "their"
+        ],
+        "medical": [
+          "medical"
+        ]
+      },
+      "field_data_types": {
+        "First Date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The doctor confirmed that the Admission status was +, indicating the patient had been admitted for inpatient care.",
+      "template_pattern": "The doctor confirmed that the Admission status was [ADMISSION], indicating the patient had been admitted for inpatient care.",
+      "primary_data_fields": [
+        "Admission"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The doctor confirmed that the Admission status was [ADMISSION], indicating the patient had been admitted for inpatient care.",
+        "According to the physician, the Admission status read [ADMISSION], which shows the patient was placed in inpatient care.",
+        "It was verified by the doctor that the Admission status is [ADMISSION], signifying that the patient received inpatient admission.",
+        "Doctor’s affirmation: Admission status [ADMISSION], denoting the patient’s admission for inpatient care.",
+        "The physician stated the Admission status was [ADMISSION], meaning the patient entered inpatient care.",
+        "With the doctor’s confirmation, the Admission status displayed [ADMISSION], indicating the patient was admitted for inpatient care.",
+        "A [ADMISSION] on the Admission status, as noted by the doctor, indicates the patient has been admitted for inpatient care.",
+        "The doctor asserted the Admission status equals [ADMISSION], which implies the patient is under inpatient care.",
+        "Admission status was recorded as [ADMISSION], the doctor confirmed, reflecting the patient’s inpatient admission.",
+        "The doctor’s note that the Admission status was [ADMISSION] signals that the patient has been admitted for inpatient care.",
+        "Having been verified by the physician, the Admission status of [ADMISSION] indicates the patient’s inpatient admission.",
+        "The doctor indicated the Admission status showed [ADMISSION], indicating an inpatient admission for the patient.",
+        "In the report, the physician marked the Admission status with a [ADMISSION], meaning the patient is receiving inpatient care.",
+        "The Admission status, confirmed as [ADMISSION] by the doctor, points to the patient being admitted for inpatient care.",
+        "Doctor confirmation: Admission status [ADMISSION]; this denotes that the patient has been admitted for inpatient care."
+      ],
+      "counter_variations": [
+        "The clinical summary indicates that Admission was NULL, implying that the patient’s entry status could not be ascertained at the time of reporting.",
+        "According to the clinical summary, Admission was NULL, which suggests the patient’s entry status remained indeterminate when the report was generated.",
+        "In the clinical summary, it is recorded that Admission was NULL, hinting that the patient’s entry status could not be established at reporting time.",
+        "The report’s clinical summary observes that Admission was NULL, thereby denoting that the patient’s entry status was not determinable at the moment of documentation.",
+        "Noted within the clinical summary, Admission was NULL, pointing to an inability to determine the patient’s entry status at the time of reporting.",
+        "The clinical summary documents that Admission was NULL, conveying that the patient’s entry status could not be resolved when the report was compiled.",
+        "As the clinical summary states, Admission was NULL, reflecting the fact that the patient’s entry status could not be identified at the reporting juncture.",
+        "Within the clinical summary, Admission was NULL, which signals that the patient’s entry status was unavailable for determination at the time of report issuance.",
+        "The clinical summary remarks that Admission was NULL, indicating that the patient’s entry status could not be clarified during the reporting period.",
+        "According to the clinical summary, Admission was NULL, alluding to the impossibility of ascertaining the patient’s entry status at the moment of reporting.",
+        "The clinical summary records that Admission was NULL, thereby suggesting that the patient’s entry status could not be determined at the time of reporting.",
+        "In the clinical summary, Admission was NULL, thereby implying that the patient’s entry status was indeterminate when the report was produced.",
+        "The clinical summary mentions that Admission was NULL, which infers that the patient’s entry status could not be resolved at the reporting instant.",
+        "As documented in the clinical summary, Admission was NULL, signifying that the patient’s entry status could not be ascertained at the time of reporting.",
+        "The clinical summary conveys that Admission was NULL, thereby indicating the patient’s entry status could not be determined when the report was finalized."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "inpatient": [
+          "inpatient"
+        ],
+        "care": [
+          "care",
+          "attention",
+          "maintenance",
+          "aid",
+          "upkeep",
+          "charge"
+        ],
+        "doctor": [
+          "doctor",
+          "physician",
+          "medico"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "admitted": [
+          "admitted"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "confirmed": [
+          "confirmed"
+        ]
+      },
+      "field_data_types": {
+        "Admission": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "During the thrombosis assessment, the patient's diagnosis revealed RA susp., indicating a possible concern for further investigation.",
+      "template_pattern": "During the thrombosis assessment, the patient's diagnosis revealed [DIAGNOSIS], indicating a possible concern for further investigation.",
+      "primary_data_fields": [
+        "Diagnosis"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the thrombosis assessment, the patient's Diagnosis showed [DIAGNOSIS], suggesting a need for further investigation.",
+        "The thrombosis assessment revealed that the patient's Diagnosis was [DIAGNOSIS], which may warrant additional inquiry.",
+        "During the thrombosis assessment, [DIAGNOSIS] appeared in the patient's Diagnosis, indicating potential further investigation.",
+        "While conducting the thrombosis assessment, clinicians noted the patient's Diagnosis as [DIAGNOSIS], pointing to possible further review.",
+        "[DIAGNOSIS] was identified in the patient's Diagnosis during the thrombosis assessment, implying a concern that may need extra probing.",
+        "The patient's Diagnosis, recorded as [DIAGNOSIS] in the thrombosis assessment, flags a possible issue for further investigation.",
+        "In the course of the thrombosis assessment, the patient's Diagnosis revealed [DIAGNOSIS], hinting at a need for additional evaluation.",
+        "The thrombosis assessment highlighted [DIAGNOSIS] within the patient's Diagnosis, raising the prospect of further investigation.",
+        "During a thrombosis assessment, the Diagnosis of the patient disclosed [DIAGNOSIS], suggesting that further inquiry could be required.",
+        "The thrombosis assessment documented [DIAGNOSIS] in the patient's Diagnosis, indicating that further investigation might be appropriate.",
+        "[DIAGNOSIS] emerged in the patient's Diagnosis during the thrombosis assessment, signaling a potential need for deeper investigation.",
+        "When the thrombosis assessment was performed, the patient's Diagnosis indicated [DIAGNOSIS], pointing toward possible further study.",
+        "In the thrombosis assessment, the Diagnosis for the patient was noted as [DIAGNOSIS], which could merit additional investigation.",
+        "The patient's Diagnosis, noted as [DIAGNOSIS] during the thrombosis assessment, suggests a possible concern that warrants further investigation.",
+        "During a thrombosis assessment, the Diagnosis of the patient revealed [DIAGNOSIS], implying that further investigation may be necessary."
+      ],
+      "counter_variations": [
+        "The present clinical assessment reveals that the Diagnosis is NULL, implying that a definitive condition remains unidentified at this juncture.",
+        "According to the current clinical evaluation, the Diagnosis is NULL, which suggests that no conclusive condition has been pinpointed at this point in time.",
+        "In this clinical review, the Diagnosis is NULL, indicating that a clear diagnosis has yet to be established at this stage.",
+        "Our latest clinical appraisal notes that the Diagnosis is NULL, thereby denoting that no definitive condition has been recognized so far.",
+        "The recent clinical analysis reports that the Diagnosis is NULL, conveying that a definitive condition has not been detected at this phase.",
+        "From the ongoing clinical assessment, it emerges that the Diagnosis is NULL, signifying that no definitive condition has been ascertained at this moment.",
+        "The current medical assessment records that the Diagnosis is NULL, hinting that a definitive condition remains unconfirmed at this stage of evaluation.",
+        "Clinical findings at present indicate the Diagnosis is NULL, reflecting that no definitive condition has been established up to now.",
+        "The contemporary clinical report states that the Diagnosis is NULL, alluding to the fact that a definitive condition has yet to be identified at this juncture.",
+        "In this assessment, the Diagnosis is NULL, which conveys that no definitive condition has been discovered at this point.",
+        "The present evaluation of clinical data shows that the Diagnosis is NULL, pointing to the absence of a definitive condition at this stage.",
+        "Our clinical assessment to date records the Diagnosis is NULL, suggesting that a definitive condition has not been identified at this moment.",
+        "The latest clinical overview marks that the Diagnosis is NULL, implying that no definitive condition has been diagnosed thus far.",
+        "According to the current clinical summary, the Diagnosis is NULL, indicating that a definitive condition remains unidentified at this stage.",
+        "The ongoing clinical assessment registers that the Diagnosis is NULL, signaling that no definitive condition has been determined at this point in time."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "investigation": [
+          "investigation",
+          "probe"
+        ],
+        "assessment": [
+          "assessment",
+          "judgment",
+          "judgement",
+          "appraisal"
+        ],
+        "concern": [
+          "concern",
+          "interest",
+          "care",
+          "worry"
+        ],
+        "revealed": [
+          "revealed"
+        ],
+        "thrombosis": [
+          "thrombosis"
+        ],
+        "possible": [
+          "possible",
+          "potential"
+        ],
+        "further": [
+          "further"
+        ],
+        "during": [
+          "during"
+        ]
+      },
+      "field_data_types": {
+        "Diagnosis": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

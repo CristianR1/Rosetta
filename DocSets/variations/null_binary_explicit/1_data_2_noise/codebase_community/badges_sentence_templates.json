@@ -1,0 +1,710 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "0b7f7f4e73fd4d38": "UserId",
+    "692d9d2971ea4ffd": "Name",
+    "7c1ab17890964dc4": "Date",
+    "b582c70622f74001": "Id"
+  },
+  "templates": [
+    {
+      "original": "The community thrived on the passionate contributions of its members.",
+      "template_pattern": "The community thrived on the passionate contributions of its members.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The community flourished thanks to the fervent contributions made by its members.",
+        "Fueled by members' passionate input, the community thrived.",
+        "Thanks to the enthusiastic involvement of its members, the community experienced growth.",
+        "The passionate contributions of its members propelled the community to thrive.",
+        "Because its members contributed with zeal, the community prospered.",
+        "The community's thriving was driven by the ardent efforts of its members.",
+        "With the fervor of its members' contributions, the community continued to thrive.",
+        "The community thrived, powered by the passionate input of its members.",
+        "Owing to the enthusiastic contributions from members, the community thrived.",
+        "The community's success derived from the ardent participation of its members.",
+        "The passionate involvement of members enabled the community to flourish.",
+        "By virtue of its members' zealous contributions, the community thrived.",
+        "The community, bolstered by the fervent efforts of its members, flourished.",
+        "As members poured in passionate contributions, the community thrived.",
+        "The thriving of the community was a direct result of its members' passionate contributions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "thrived": [
+          "thrived",
+          "prospered",
+          "flourished",
+          "boomed"
+        ],
+        "passionate": [
+          "passionate"
+        ],
+        "contributions": [
+          "contributions",
+          "donations",
+          "shares"
+        ],
+        "members": [
+          "members"
+        ],
+        "community": [
+          "community"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "UserId 5 recently earned a new badge for contributing insightful programming solutions to the community platform.",
+      "template_pattern": "UserId [USERID] recently earned a new badge for contributing insightful programming solutions to the community platform.",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "UserId [USERID] has just been awarded a new badge in recognition of insightful programming solutions contributed to the community platform.",
+        "A new badge was granted to UserId [USERID] for his recent delivery of insightful programming solutions on the community platform.",
+        "Recently, UserId [USERID] secured a new badge by providing insightful programming solutions to the community platform.",
+        "For contributing insightful programming solutions to the community platform, UserId [USERID] earned a new badge not long ago.",
+        "The community platform honored UserId [USERID] with a new badge after he offered insightful programming solutions to the community platform.",
+        "UserId [USERID], having supplied insightful programming solutions to the community platform, received a new badge recently.",
+        "A new badge was earned by UserId [USERID] as a result of his insightful programming solutions shared on the community platform.",
+        "Thanks to his insightful programming solutions on the community platform, UserId [USERID] was recently awarded a new badge.",
+        "UserId [USERID]’s recent insightful programming solutions to the community platform earned him a new badge.",
+        "In acknowledgment of insightful programming solutions given to the community platform, a new badge was bestowed upon UserId [USERID].",
+        "UserId [USERID] has been recognized with a new badge for his recent insightful programming solutions on the community platform.",
+        "The recent contribution of insightful programming solutions to the community platform by UserId [USERID] resulted in a new badge.",
+        "A new badge now belongs to UserId [USERID], who recently delivered insightful programming solutions to the community platform.",
+        "UserId [USERID] earned a new badge after his recent insightful programming solutions were posted to the community platform.",
+        "By offering insightful programming solutions to the community platform, UserId [USERID] secured a new badge lately."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "platform": [
+          "platform"
+        ],
+        "recently": [
+          "recently",
+          "lately"
+        ],
+        "contributing": [
+          "contributing",
+          "contribute",
+          "contributory",
+          "contributive"
+        ],
+        "solutions": [
+          "solutions"
+        ],
+        "community": [
+          "community"
+        ],
+        "insightful": [
+          "insightful"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "earned": [
+          "earned"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each badge told a story of perseverance and skill.",
+      "template_pattern": "Each badge told a story of perseverance and skill.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The badges each narrated tales of endurance and expertise.",
+        "A story of tenacity and ability was conveyed by every badge.",
+        "Every badge recounted a saga of persistence coupled with skill.",
+        "Stories of steadfastness and competence were embodied in each badge.",
+        "Each badge, in its own way, reflected perseverance and skill.",
+        "Perseverance and skill were illustrated through each badge’s narrative.",
+        "In each badge, a chronicle of determination and talent could be read.",
+        "Through every badge, one could discern a tale of grit and proficiency.",
+        "The narrative of resolve and capability was inscribed on each badge.",
+        "Each badge communicated a record of persistence and adeptness.",
+        "A testament to perseverance and skill lay within every badge.",
+        "With each badge came a story highlighting endurance and skillfulness.",
+        "The endurance and expertise of the team were chronicled by each badge.",
+        "Each badge served as a testament, narrating perseverance alongside skill.",
+        "Embedded in each badge was a story of relentless effort and mastery."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "badge": [
+          "badge"
+        ],
+        "told": [
+          "told",
+          "tell",
+          "recount",
+          "narrate",
+          "say",
+          "state"
+        ],
+        "skill": [
+          "skill"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "story": [
+          "story",
+          "narrative",
+          "chronicle",
+          "account",
+          "history",
+          "report"
+        ],
+        "perseverance": [
+          "perseverance",
+          "tenaciousness",
+          "persistency",
+          "persistence",
+          "tenacity",
+          "doggedness"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Earning the Teacher badge on the platform was a significant milestone, recognizing her dedication to sharing knowledge with others.",
+      "template_pattern": "Earning the [NAME] badge on the platform was a significant milestone, recognizing her dedication to sharing knowledge with others.",
+      "primary_data_fields": [
+        "Name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Achieving the [NAME] badge on the platform marked a major milestone, highlighting her dedication to sharing knowledge with others.",
+        "The [NAME] badge she earned on the platform stood as a significant milestone, underscoring her commitment to sharing knowledge with others.",
+        "By obtaining the [NAME] badge on the platform, she reached an important milestone that recognizes her devotion to sharing knowledge with others.",
+        "Her acquisition of the [NAME] badge on the platform represented a noteworthy milestone, reflecting her zeal for sharing knowledge with others.",
+        "Recognized for her devotion, she earned the [NAME] badge on the platform, a pivotal milestone that celebrates her passion for sharing knowledge with others.",
+        "The [NAME] badge secured on the platform served as a key milestone, honoring her dedication to sharing knowledge with others.",
+        "Earning the [NAME] badge on the platform became a landmark achievement, affirming her steadfast dedication to sharing knowledge with others.",
+        "With the [NAME] badge awarded on the platform, she marked a significant milestone that acknowledges her commitment to sharing knowledge with others.",
+        "The attainment of the [NAME] badge on the platform was a considerable milestone, commending her focus on sharing knowledge with others.",
+        "As she earned the [NAME] badge on the platform, it signified an important milestone, praising her dedication to sharing knowledge with others.",
+        "The platform recognized her dedication by granting the [NAME] badge, a milestone of great significance that highlights her role in sharing knowledge with others.",
+        "Obtaining the [NAME] badge on the platform signaled a major milestone, validating her persistent effort in sharing knowledge with others.",
+        "Her dedication to imparting knowledge was acknowledged when she earned the [NAME] badge on the platform, marking a key milestone in sharing knowledge with others.",
+        "The [NAME] badge, earned on the platform, stood as a momentous milestone that highlights her commitment to sharing knowledge with others.",
+        "By securing the [NAME] badge on the platform, she achieved a notable milestone that reflects her devotion to sharing knowledge with others."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "platform": [
+          "platform"
+        ],
+        "dedication": [
+          "dedication",
+          "allegiance",
+          "loyalty",
+          "commitment"
+        ],
+        "sharing": [
+          "sharing"
+        ],
+        "recognizing": [
+          "recognizing"
+        ],
+        "earning": [
+          "earning"
+        ],
+        "knowledge": [
+          "knowledge",
+          "cognition"
+        ],
+        "others": [
+          "others"
+        ],
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ]
+      },
+      "field_data_types": {
+        "Name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The spirit of collaboration was palpable among users.",
+      "template_pattern": "The spirit of collaboration was palpable among users.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A palpable sense of collaboration permeated the user community.",
+        "Users sensed an unmistakable collaborative spirit throughout the platform.",
+        "The collaborative vibe was evident among the users.",
+        "Among users, the spirit of teamwork could be felt strongly.",
+        "A clear, collaborative atmosphere existed among the users.",
+        "The feeling of cooperation was tangible across the user base.",
+        "Users experienced a noticeable spirit of collaboration.",
+        "Collaboration's spirit was distinctly observable among users.",
+        "Within the user community, the collaborative spirit was unmistakably present.",
+        "The sense of joint effort resonated strongly among the users.",
+        "Across users, a vivid collaborative spirit could be detected.",
+        "There was a palpable collaborative energy among the users.",
+        "The users collectively exhibited a tangible spirit of collaboration.",
+        "Evident in the user pool was a strong spirit of cooperation.",
+        "The atmosphere among users was charged with an unmistakable collaborative spirit."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "palpable": [
+          "palpable",
+          "tangible"
+        ],
+        "users": [
+          "users"
+        ],
+        "collaboration": [
+          "collaboration",
+          "coaction"
+        ],
+        "spirit": [
+          "spirit",
+          "feeling",
+          "tone",
+          "intent",
+          "purport",
+          "heart"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "On the evening of 2010-07-19 19:39:07.0, the Date marked a moment of achievement as the user earned their badge.",
+      "template_pattern": "On the evening of [DATE], the Date marked a moment of achievement as the user earned their badge.",
+      "primary_data_fields": [
+        "Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Date recorded a milestone at [DATE], when the user secured their badge in the evening.",
+        "At [DATE] in the evening, the Date highlighted an achievement as the user obtained their badge.",
+        "During the evening of [DATE], the Date signified a notable success when the user claimed their badge.",
+        "An achievement was noted by the Date at [DATE], evening time, as the user earned their badge.",
+        "The user earned their badge, marking a moment of triumph that the Date captured on the evening of [DATE].",
+        "On the night of [DATE], the Date logged a significant event: the user’s badge acquisition.",
+        "The Date logged, at [DATE], an evening milestone when the user received their badge.",
+        "At the evening timestamp [DATE], the Date noted the user’s badge attainment.",
+        "The badge earned by the user at [DATE] was recorded by the Date as an evening of accomplishment.",
+        "Evening of [DATE] saw the Date mark an achievement as the user obtained their badge.",
+        "When the user secured their badge, the Date marked the evening of [DATE] as a moment of success.",
+        "The Date, on [DATE] in the evening, recorded the user’s badge earning as a noteworthy event.",
+        "A moment of achievement was captured by the Date at [DATE], when the user earned their badge that evening.",
+        "At [DATE], during the evening, the Date logged the user’s badge acquisition as a milestone.",
+        "The evening timestamp [DATE] was logged by the Date to signify the user’s badge earning."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "their": [
+          "their"
+        ],
+        "moment": [
+          "moment",
+          "minute",
+          "second",
+          "instant"
+        ],
+        "evening": [
+          "evening"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "user": [
+          "user"
+        ],
+        "achievement": [
+          "achievement",
+          "accomplishment"
+        ],
+        "earned": [
+          "earned"
+        ],
+        "badge": [
+          "badge"
+        ]
+      },
+      "field_data_types": {
+        "Date": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Every achievement sparked new enthusiasm within the community.",
+      "template_pattern": "Every achievement sparked new enthusiasm within the community.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each accomplishment ignited fresh enthusiasm among the community.",
+        "New enthusiasm was sparked within the community by every achievement.",
+        "The community's enthusiasm was renewed each time an achievement occurred.",
+        "With every achievement, a surge of new enthusiasm spread through the community.",
+        "Every milestone triggered a wave of fresh enthusiasm across the community.",
+        "Fresh enthusiasm blossomed in the community whenever an achievement was recorded.",
+        "The community felt renewed excitement as each achievement took place.",
+        "As each success unfolded, it kindled new enthusiasm within the community.",
+        "New enthusiasm permeated the community as a result of every achievement.",
+        "Every accomplishment gave rise to renewed enthusiasm among community members.",
+        "The occurrence of each achievement sparked a fresh wave of enthusiasm in the community.",
+        "Whenever an achievement was logged, it stimulated new enthusiasm throughout the community.",
+        "Every success fueled heightened enthusiasm inside the community.",
+        "The community's enthusiasm was sparked anew by each achievement.",
+        "In the wake of every achievement, a fresh burst of enthusiasm swept the community."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "sparked": [
+          "sparked"
+        ],
+        "every": [
+          "every"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "enthusiasm": [
+          "enthusiasm",
+          "exuberance"
+        ],
+        "community": [
+          "community"
+        ],
+        "achievement": [
+          "achievement",
+          "accomplishment"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The platform continued to grow, welcoming new members daily.",
+      "template_pattern": "The platform continued to grow, welcoming new members daily.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The platform kept expanding, taking in new members each day.",
+        "New users were welcomed daily as the platform continued its growth.",
+        "Each day the platform grew further, greeting fresh members.",
+        "As the platform's user base swelled, it welcomed newcomers daily.",
+        "Daily, the platform saw its numbers rise with the addition of new members.",
+        "The growth of the platform persisted, with new members joining every day.",
+        "Fresh members were incorporated daily while the platform kept growing.",
+        "With each passing day, the platform expanded and embraced new users.",
+        "The platform's expansion continued, and it received new members on a daily basis.",
+        "New participants were added each day, fueling the platform's ongoing growth.",
+        "While the platform grew steadily, it welcomed new members on a daily schedule.",
+        "Daily influxes of new members marked the platform's continued expansion.",
+        "The platform's user count rose continuously, as new members were welcomed every day.",
+        "Each day brought additional members, sustaining the platform's growth.",
+        "The platform persisted in its growth trajectory, accepting fresh users daily."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "platform": [
+          "platform",
+          "program"
+        ],
+        "members": [
+          "members"
+        ],
+        "daily": [
+          "daily",
+          "everyday"
+        ],
+        "continued": [
+          "continued"
+        ],
+        "welcoming": [
+          "welcoming",
+          "welcome"
+        ],
+        "grow": [
+          "grow",
+          "develop",
+          "rise",
+          "mature"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Stories of success inspired others to contribute their best.",
+      "template_pattern": "Stories of success inspired others to contribute their best.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Success narratives spurred others to put forth their finest effort.",
+        "Others were motivated by tales of achievement to deliver their best work.",
+        "When success stories circulated, they encouraged people to contribute at their highest level.",
+        "Inspired by accounts of triumph, individuals contributed their utmost.",
+        "The stories of success prompted colleagues to give their best.",
+        "Because of the inspiring success stories, others chose to contribute their very best.",
+        "Tales of victory acted as a catalyst, driving people to offer their best performance.",
+        "Seeing success stories, many were compelled to bring their best contributions.",
+        "The narrative of success inspired a collective push toward giving one's best.",
+        "Success stories have motivated staff to put their best forward.",
+        "From hearing about successes, others felt driven to contribute their best.",
+        "The recounting of achievements inspired others to strive for their best input.",
+        "Through stories of success, teammates were urged to deliver their best effort.",
+        "Success anecdotes encouraged others to commit their highest quality work.",
+        "Inspired by successful case studies, the team contributed their best."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "contribute": [
+          "contribute",
+          "add",
+          "give",
+          "impart",
+          "bestow"
+        ],
+        "success": [
+          "success"
+        ],
+        "stories": [
+          "stories"
+        ],
+        "their": [
+          "their"
+        ],
+        "inspired": [
+          "inspired"
+        ],
+        "best": [
+          "best",
+          "adept",
+          "skillful",
+          "expert",
+          "effective",
+          "proficient"
+        ],
+        "others": [
+          "others"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The badges became symbols of trust and expertise among peers.",
+      "template_pattern": "The badges became symbols of trust and expertise among peers.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Among colleagues, the badges turned into emblems of confidence and skill.",
+        "The badges were adopted as signs of reliability and proficiency within the peer group.",
+        "In the community of peers, badges evolved to represent trustworthiness and expertise.",
+        "Peers now regard the badges as tokens of trust and professional know‑how.",
+        "Trust and expertise are now conveyed by the badges among fellow professionals.",
+        "The peer network has come to see the badges as symbols of credibility and mastery.",
+        "As symbols of confidence and competence, the badges spread throughout the peer cohort.",
+        "The badges have become recognized markers of trust and specialist ability among peers.",
+        "Within peer circles, the badges serve as icons of reliability and expertise.",
+        "The badges function as badges of trust and expertise for each peer.",
+        "Among the team, the badges are viewed as representations of trust and skill.",
+        "The peer group treats the badges as hallmarks of confidence and expert knowledge.",
+        "The badges now act as visual cues of trustworthiness and expertise among colleagues.",
+        "Trust and expertise are now embodied in the badges that peers wear.",
+        "In the peer environment, badges have taken on the role of signifying trust and proficiency."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "symbols": [
+          "symbols"
+        ],
+        "among": [
+          "among"
+        ],
+        "peers": [
+          "peers"
+        ],
+        "trust": [
+          "trust",
+          "confidence",
+          "faith",
+          "reliance"
+        ],
+        "expertise": [
+          "expertise"
+        ],
+        "badges": [
+          "badges"
+        ],
+        "became": [
+          "became"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Each member's journey was unique, yet they all shared a common goal.",
+      "template_pattern": "Each member's journey was unique, yet they all shared a common goal.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Although every participant's path was distinct, they all pursued the same objective.",
+        "Each individual's journey differed, but a shared goal united them.",
+        "The journeys of all members were unique, yet they converged on a common aim.",
+        "While each member followed a singular route, they collectively aimed at one goal.",
+        "A common purpose linked them, even though every member's experience was unique.",
+        "Unique as each member's journey was, the group nevertheless shared a single goal.",
+        "The distinct journeys of each member were all directed toward the same target.",
+        "All members, despite having different journeys, were guided by an identical goal.",
+        "A shared objective bound them, although every individual's path was unique.",
+        "Each member’s personal journey was one of a kind, yet they all chased the same aim.",
+        "Despite the uniqueness of each member’s trajectory, the collective goal remained the same.",
+        "The team’s members each walked a unique road, but they all aimed for a common goal.",
+        "Even though every member’s journey was different, they converged on an identical purpose.",
+        "One common goal was shared among them, notwithstanding the distinct paths each member took.",
+        "Their individual journeys varied, but a single shared objective united all members."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "journey": [
+          "journey"
+        ],
+        "unique": [
+          "unique",
+          "unparalleled",
+          "unequalled",
+          "unequaled",
+          "singular"
+        ],
+        "member": [
+          "member"
+        ],
+        "goal": [
+          "goal",
+          "destination",
+          "finish",
+          "end"
+        ],
+        "shared": [
+          "shared",
+          "divided"
+        ],
+        "common": [
+          "common",
+          "usual",
+          "mutual"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The system assigns the Id value 1 to each newly initialized component, ensuring unique identification across the technology data report.",
+      "template_pattern": "The record’s Id, shown as [ID], uniquely identifies each entry in the technology data report.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each entry in the technology data report is uniquely identified by the record’s Id, displayed as [ID].",
+        "The technology data report uses the record’s Id—shown as [ID]—to uniquely identify every entry.",
+        "In the technology data report, the record’s Id (shown as [ID]) serves as a unique identifier for each entry.",
+        "Every entry in the technology data report is uniquely keyed by the record’s Id, which appears as [ID].",
+        "The record’s Id, presented as [ID], uniquely tags each entry within the technology data report.",
+        "Unique identification of each entry in the technology data report is provided by the record’s Id, shown as [ID].",
+        "Within the technology data report, the record’s Id (shown as [ID]) uniquely marks each entry.",
+        "The record’s Id—displayed as [ID]—acts as the unique identifier for every entry in the technology data report.",
+        "Each entry is uniquely identified in the technology data report by the record’s Id, which is shown as [ID].",
+        "In the technology data report, the record’s Id, indicated as [ID], uniquely distinguishes each entry.",
+        "The technology data report’s entries are each uniquely identified via the record’s Id, shown as [ID].",
+        "The record’s Id, noted as [ID], provides a unique identifier for each entry in the technology data report.",
+        "For every entry in the technology data report, the record’s Id—shown as [ID]—uniquely identifies it.",
+        "The unique identifier for each entry in the technology data report is the record’s Id, displayed as [ID].",
+        "Each record in the technology data report carries an Id shown as [ID], which uniquely identifies the entry."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "record": [
+          "record",
+          "disc",
+          "tape",
+          "platter",
+          "register",
+          "book"
+        ],
+        "shown": [
+          "shown"
+        ],
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study",
+          "composition"
+        ],
+        "data": [
+          "data",
+          "information"
+        ],
+        "uniquely": [
+          "uniquely",
+          "unambiguously"
+        ],
+        "identifies": [
+          "identifies"
+        ],
+        "entry": [
+          "entry",
+          "entrance",
+          "entryway",
+          "ingress",
+          "submission",
+          "debut"
+        ],
+        "technology": [
+          "technology",
+          "engineering"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

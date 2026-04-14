@@ -1,0 +1,112 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "0e153a0e15fe4854": "id",
+    "bad65887e467467a": "colour"
+  },
+  "templates": [
+    {
+      "original": "The id is 1.",
+      "template_pattern": "The id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The id equals [ID].",
+        "The id is set to [ID].",
+        "In this report, the id is recorded as [ID].",
+        "The value assigned to the id is [ID].",
+        "A value of [ID] has been assigned to the id.",
+        "The id has been designated as [ID].",
+        "According to the data, the id equals [ID].",
+        "The id, as shown, is [ID].",
+        "[ID] is the current id.",
+        "The id was found to be [ID].",
+        "The id, which is [ID], appears in the dataset.",
+        "It has been determined that the id is [ID].",
+        "As indicated, the id stands at [ID].",
+        "The id’s value is [ID].",
+        "For this entry, the id reads [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's unique appeal comes from their distinctive No Colour features, which add an intriguing dimension to their character.",
+      "template_pattern": "The superhero's unique appeal comes from their distinctive [COLOUR] features, which add an intriguing dimension to their character.",
+      "primary_data_fields": [
+        "colour"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's distinctive [COLOUR] features are the source of their unique appeal, providing an intriguing dimension to the character.",
+        "Unique appeal for the superhero stems from the distinctive [COLOUR] features, which introduce an intriguing dimension to their character.",
+        "Because of the superhero's distinctive [COLOUR] features, their appeal becomes uniquely compelling and adds an intriguing dimension to the character.",
+        "An intriguing dimension is added to the superhero's character by their distinctive [COLOUR] features, which also generate the unique appeal.",
+        "The distinctive [COLOUR] features of the superhero contribute to a unique appeal and lend an intriguing dimension to the character.",
+        "With the superhero's distinctive [COLOUR] features, a unique appeal emerges, enriching the character with an intriguing dimension.",
+        "The superhero enjoys a unique appeal, a result of their distinctive [COLOUR] features that impart an intriguing dimension to the character.",
+        "Distinctive [COLOUR] features, belonging to the superhero, create a unique appeal and infuse the character with an intriguing dimension.",
+        "Thanks to the superhero's distinctive [COLOUR] features, an intriguing dimension is woven into the character, enhancing its unique appeal.",
+        "The character gains an intriguing dimension through the superhero's distinctive [COLOUR] features, which also drive the unique appeal.",
+        "Unique appeal is derived from the superhero's distinctive [COLOUR] features, adding an intriguing dimension to the character.",
+        "By virtue of the superhero's distinctive [COLOUR] features, the character acquires an intriguing dimension and a uniquely appealing quality.",
+        "The distinctive [COLOUR] features provide the superhero with a unique appeal, simultaneously adding an intriguing dimension to their character.",
+        "An intriguing dimension to the character is supplied by the superhero's distinctive [COLOUR] features, thereby fostering a unique appeal.",
+        "The superhero's character is enriched with an intriguing dimension thanks to distinctive [COLOUR] features, which underpin the unique appeal."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "comes": [
+          "comes",
+          "arrive",
+          "occur"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "features": [
+          "features"
+        ],
+        "their": [
+          "their"
+        ],
+        "dimension": [
+          "dimension",
+          "property",
+          "attribute",
+          "proportion"
+        ],
+        "character": [
+          "character",
+          "persona",
+          "type",
+          "quality"
+        ],
+        "which": [
+          "which"
+        ],
+        "distinctive": [
+          "distinctive"
+        ]
+      },
+      "field_data_types": {
+        "colour": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

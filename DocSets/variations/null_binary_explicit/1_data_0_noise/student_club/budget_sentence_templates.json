@@ -1,0 +1,483 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "345a75833a45437d": "budget_id",
+    "b2078dd855434796": "category",
+    "a93d549b11e743c5": "spent",
+    "9a1c9dc78459476d": "remaining",
+    "2df7d42436e147d5": "amount",
+    "551ab7fa8bac4306": "event_status",
+    "90ef3de2a26b48e5": "link_to_event"
+  },
+  "templates": [
+    {
+      "original": "The student club's budget entry, identified by budget_id rec0QmEc3cSQFQ6V2, ensures proper tracking of their financial resources.",
+      "template_pattern": "The student club's budget entry, identified by budget_id [BUDGET_ID], ensures proper tracking of their financial resources.",
+      "primary_data_fields": [
+        "budget_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Identified by budget id [BUDGET_ID], the student club's budget entry guarantees accurate tracking of its financial resources.",
+        "The budget entry for the student club, with budget id [BUDGET_ID], provides proper monitoring of their financial resources.",
+        "Proper tracking of the student club's financial resources is ensured by the budget entry labeled budget id [BUDGET_ID].",
+        "With budget id [BUDGET_ID], the student club’s budget entry secures reliable tracking of its financial resources.",
+        "A budget entry bearing budget id [BUDGET_ID] allows the student club to accurately track its financial resources.",
+        "The student club's financial resources are properly tracked thanks to its budget entry, identified by budget id [BUDGET_ID].",
+        "Because the budget entry carries budget id [BUDGET_ID], the student club can maintain proper tracking of its financial resources.",
+        "Ensuring proper monitoring of financial resources, the student club's budget entry is marked with budget id [BUDGET_ID].",
+        "The budget entry, marked by budget id [BUDGET_ID], enables the student club to keep its financial resources under proper control.",
+        "Through the budget entry identified with budget id [BUDGET_ID], the student club achieves accurate tracking of its financial resources.",
+        "The student club’s financial resources are kept under proper surveillance via the budget entry designated budget id [BUDGET_ID].",
+        "By referencing budget id [BUDGET_ID], the student club’s budget entry ensures that its financial resources are tracked correctly.",
+        "Proper tracking of financial resources is provided by the student club's budget entry, which carries budget id [BUDGET_ID].",
+        "Thanks to budget id [BUDGET_ID], the student club's budget entry assures accurate monitoring of its financial resources.",
+        "The budget entry, featuring budget id [BUDGET_ID], guarantees that the student club can properly track its financial resources."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "club": [
+          "club",
+          "nightclub",
+          "society",
+          "lodge",
+          "guild",
+          "order"
+        ],
+        "budget": [
+          "budget"
+        ],
+        "resources": [
+          "resources"
+        ],
+        "ensures": [
+          "ensures"
+        ],
+        "entry": [
+          "entry",
+          "entrance",
+          "ingress",
+          "entryway",
+          "entranceway"
+        ],
+        "their": [
+          "their"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "budget_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The category of Advertisement highlights a significant portion of the budget dedicated to promoting student organization events.",
+      "template_pattern": "The category of [CATEGORY] highlights a significant portion of the budget dedicated to promoting student organization events.",
+      "primary_data_fields": [
+        "category"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The category of [CATEGORY] highlights a significant portion of the budget dedicated to promoting student organization events.",
+        "A significant portion of the budget set aside for promoting student organization events is highlighted by the category of [CATEGORY].",
+        "Highlighting a substantial share of the budget for promoting student organization events, the category of [CATEGORY] draws attention to its importance.",
+        "In the category of [CATEGORY], a notable fraction of the budget allocated to promoting student organization events is emphasized.",
+        "The budget portion devoted to promoting student organization events receives notable emphasis from the category of [CATEGORY].",
+        "Notably, the category of [CATEGORY] underscores a large segment of the budget earmarked for promoting student organization events.",
+        "A large part of the budget earmarked for promoting student organization events is brought to the fore by the category of [CATEGORY].",
+        "Emphasized by the category of [CATEGORY] is a considerable slice of the budget devoted to promoting student organization events.",
+        "The category of [CATEGORY] brings attention to a major share of the budget that funds the promotion of student organization events.",
+        "By virtue of the category of [CATEGORY], a significant share of the budget for promoting student organization events is spotlighted.",
+        "The category of [CATEGORY] points out that a sizable portion of the budget is used for promoting student organization events.",
+        "A sizable chunk of the budget dedicated to promoting student organization events is highlighted within the category of [CATEGORY].",
+        "Within the category of [CATEGORY], a prominent portion of the budget aimed at promoting student organization events is highlighted.",
+        "The category of [CATEGORY] calls attention to a considerable portion of the budget that supports promoting student organization events.",
+        "A considerable part of the budget allocated for promoting student organization events is highlighted by the category of [CATEGORY]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "promoting": [
+          "promoting"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "system",
+          "establishment",
+          "administration"
+        ],
+        "events": [
+          "events"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "portion": [
+          "portion",
+          "share",
+          "part",
+          "component",
+          "percentage",
+          "constituent"
+        ],
+        "highlights": [
+          "highlights"
+        ],
+        "budget": [
+          "budget"
+        ],
+        "dedicated": [
+          "dedicated"
+        ]
+      },
+      "field_data_types": {
+        "category": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club reported that 67.81 dollars were spent on supplies for their recent event.",
+      "template_pattern": "The student club reported that [SPENT] dollars were spent on supplies for their recent event.",
+      "primary_data_fields": [
+        "spent"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club announced that [SPENT] dollars were spent on supplies for their recent event.",
+        "According to the student club, [SPENT] dollars were spent on supplies for the recent event.",
+        "The student club reported that supplies for their recent event required [SPENT] dollars, which were spent.",
+        "In its report, the student club noted that [SPENT] dollars were spent on supplies for the recent event.",
+        "The student club indicated that [SPENT] dollars were spent on supplies for their latest event.",
+        "For the recent event, the student club stated that [SPENT] dollars were spent on supplies.",
+        "It was reported by the student club that [SPENT] dollars were spent on supplies for their recent event.",
+        "The student club’s report reveals [SPENT] dollars were spent on supplies for the recent event.",
+        "A total of [SPENT] dollars were spent on supplies for the student club’s recent event, according to the club.",
+        "The recent event’s supply costs amounted to [SPENT] dollars spent, as reported by the student club.",
+        "As the student club reported, [SPENT] dollars were spent on supplies for their recent event.",
+        "The student club has documented that [SPENT] dollars were spent on supplies for the recent event.",
+        "According to the student club’s findings, [SPENT] dollars were spent on supplies for their recent event.",
+        "The supplies for the recent event cost the student club [SPENT] dollars, which were spent as reported.",
+        "Reporting on the recent event, the student club confirmed that [SPENT] dollars were spent on supplies."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "recent": [
+          "recent"
+        ],
+        "dollars": [
+          "dollars",
+          "dollar"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "reported": [
+          "reported"
+        ],
+        "supplies": [
+          "supplies"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "order",
+          "lodge"
+        ],
+        "their": [
+          "their"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {
+        "spent": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With only 7.19 remaining, the student club needs to carefully plan their next activities to stay within budget.",
+      "template_pattern": "With only [REMAINING] remaining, the student club needs to carefully plan their next activities to stay within budget.",
+      "primary_data_fields": [
+        "remaining"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Only [REMAINING] remaining, the student club must meticulously organize its upcoming events to remain within budget.",
+        "The student club, having just [REMAINING] remaining, needs to devise its next activities carefully so as not to exceed the budget.",
+        "To stay within budget, the student club should carefully plan its forthcoming activities, given that only [REMAINING] remaining.",
+        "With a balance of just [REMAINING] remaining, careful planning of the student club’s next activities is essential to keep within the budget.",
+        "The next activities of the student club must be plotted with care, as there are only [REMAINING] remaining to stay within budget.",
+        "Because only [REMAINING] remaining, the student club needs to strategically schedule its upcoming events to avoid surpassing the budget.",
+        "Remaining at [REMAINING], the student club is required to plan its next activities prudently to remain inside the budget limits.",
+        "The student club’s budgetary limit dictates that, with just [REMAINING] remaining, its upcoming activities must be planned meticulously.",
+        "Since only [REMAINING] remaining, the student club must devise a careful plan for its next events to keep within the budget.",
+        "To avoid exceeding the budget, the student club should map out its forthcoming activities, noting that only [REMAINING] remaining is available.",
+        "The student club, with merely [REMAINING] remaining, is obliged to chart its upcoming activities cautiously to stay on budget.",
+        "Given that the funds left amount to [REMAINING] remaining, the student club must thoughtfully arrange its next activities within budgetary constraints.",
+        "With just [REMAINING] remaining, it is imperative for the student club to carefully schedule its next activities so the budget is not breached.",
+        "The remaining amount of [REMAINING] forces the student club to plan its subsequent activities with great care to remain within budget.",
+        "Only [REMAINING] remaining; therefore, the student club needs to prudently plan its upcoming activities to stay within the budget."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "carefully": [
+          "carefully",
+          "cautiously"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "needs": [
+          "needs"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "club": [
+          "club",
+          "nightclub",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild"
+        ],
+        "budget": [
+          "budget"
+        ],
+        "plan": [
+          "plan",
+          "program",
+          "design",
+          "programme"
+        ]
+      },
+      "field_data_types": {
+        "remaining": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization allocated an amount of 75 dollars specifically for hosting their upcoming club event.",
+      "template_pattern": "The student organization allocated an amount of [AMOUNT] dollars specifically for hosting their upcoming club event.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization set aside an amount of [AMOUNT] dollars expressly for the upcoming club event.",
+        "An amount of [AMOUNT] dollars was allocated by the student organization for hosting its forthcoming club event.",
+        "For the planned club event, the student organization earmarked an amount of [AMOUNT] dollars.",
+        "Specifically for the upcoming club event, the student organization dedicated an amount of [AMOUNT] dollars.",
+        "An amount of [AMOUNT] dollars has been assigned by the student organization to support their upcoming club event.",
+        "The upcoming club event will be funded by the student organization, which has allocated an amount of [AMOUNT] dollars.",
+        "To host their next club event, the student organization allocated an amount of [AMOUNT] dollars.",
+        "An amount of [AMOUNT] dollars was set aside by the student organization for the purpose of their upcoming club event.",
+        "The student organization, aiming to host its upcoming club event, allocated an amount of [AMOUNT] dollars.",
+        "For the purpose of the upcoming club event, the student organization has earmarked an amount of [AMOUNT] dollars.",
+        "The upcoming club event will receive an amount of [AMOUNT] dollars from the student organization.",
+        "An amount of [AMOUNT] dollars was specifically designated by the student organization for the upcoming club event.",
+        "The student organization allocated an amount of [AMOUNT] dollars, specifically to host their upcoming club event.",
+        "In preparation for the upcoming club event, the student organization assigned an amount of [AMOUNT] dollars.",
+        "An amount of [AMOUNT] dollars was provisioned by the student organization for hosting the upcoming club event."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "establishment",
+          "organisation",
+          "administration"
+        ],
+        "dollars": [
+          "dollars",
+          "dollar"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "club": [
+          "club",
+          "nightclub",
+          "society",
+          "lodge",
+          "clubhouse",
+          "guild"
+        ],
+        "hosting": [
+          "hosting",
+          "providing",
+          "facilitating",
+          "organizing",
+          "presenting",
+          "holding"
+        ],
+        "their": [
+          "their"
+        ],
+        "specifically": [
+          "specifically"
+        ],
+        "upcoming": [
+          "upcoming",
+          "approaching",
+          "forthcoming"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The event_status for the upcoming student organization meeting is Closed, affecting our financial planning and resource allocation.",
+      "template_pattern": "The event_status for the upcoming student organization meeting is [EVENT_STATUS], affecting our financial planning and resource allocation.",
+      "primary_data_fields": [
+        "event_status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the event status of the upcoming student organization meeting is [EVENT_STATUS], our financial planning and resource allocation are impacted.",
+        "The upcoming student organization meeting has a [EVENT_STATUS] event status, which influences our financial planning and resource allocation.",
+        "Our financial planning and resource allocation are affected by the [EVENT_STATUS] event status assigned to the upcoming student organization meeting.",
+        "With the event status set to [EVENT_STATUS] for the upcoming student organization meeting, we face consequences for financial planning and resource allocation.",
+        "The event status for the upcoming student organization meeting is [EVENT_STATUS]; consequently, financial planning and resource allocation suffer.",
+        "Financial planning and resource allocation are being shaped by the [EVENT_STATUS] event status of the upcoming student organization meeting.",
+        "Due to the upcoming student organization meeting’s event status being [EVENT_STATUS], adjustments to financial planning and resource allocation are required.",
+        "The upcoming student organization meeting’s event status reads [EVENT_STATUS], thereby affecting financial planning and resource allocation.",
+        "A [EVENT_STATUS] event status for the upcoming student organization meeting impacts our financial planning and resource allocation.",
+        "Our financial planning and resource allocation are compromised as the event status for the upcoming student organization meeting is [EVENT_STATUS].",
+        "Since the event status of the upcoming student organization meeting is [EVENT_STATUS], we must reconsider financial planning and resource allocation.",
+        "The upcoming student organization meeting, with its event status marked [EVENT_STATUS], influences financial planning and resource allocation.",
+        "Financial planning and resource allocation are influenced by the event status being [EVENT_STATUS] for the upcoming student organization meeting.",
+        "Because the upcoming student organization meeting’s event status is [EVENT_STATUS], financial planning and resource allocation are affected.",
+        "The [EVENT_STATUS] event status attached to the upcoming student organization meeting affects our financial planning and resource allocation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "establishment",
+          "organisation",
+          "administration"
+        ],
+        "student": [
+          "student",
+          "scholar",
+          "pupil"
+        ],
+        "affecting": [
+          "affecting",
+          "touching"
+        ],
+        "resource": [
+          "resource"
+        ],
+        "meeting": [
+          "meeting"
+        ],
+        "allocation": [
+          "allocation",
+          "allotment",
+          "apportionment"
+        ],
+        "upcoming": [
+          "upcoming",
+          "forthcoming",
+          "approaching"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "event_status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "For more details on the event, please use this link_to_event: recI43CzsZ0Q625ma to access the information.",
+      "template_pattern": "For more details on the event, please use this link_to_event: [LINK_TO_EVENT] to access the information.",
+      "primary_data_fields": [
+        "link_to_event"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To obtain additional information about the event, click the following link to event: [LINK_TO_EVENT].",
+        "More details on the event can be found by using this link to event: [LINK_TO_EVENT].",
+        "If you need further event information, please follow the link to event provided: [LINK_TO_EVENT].",
+        "Access the event’s full details through this link to event: [LINK_TO_EVENT].",
+        "For comprehensive event data, refer to the link to event here: [LINK_TO_EVENT].",
+        "The event’s information is available via the link to event: [LINK_TO_EVENT]; please use it.",
+        "Should you require more on the event, consult the link to event: [LINK_TO_EVENT].",
+        "Detailed event information can be accessed by clicking the link to event: [LINK_TO_EVENT].",
+        "To view all event specifics, employ this link to event: [LINK_TO_EVENT].",
+        "Event details are reachable through the link to event: [LINK_TO_EVENT].",
+        "For further insight into the event, make use of the link to event: [LINK_TO_EVENT].",
+        "You may retrieve the event’s complete information by using the link to event: [LINK_TO_EVENT].",
+        "Additional event details are available via this link to event: [LINK_TO_EVENT].",
+        "By selecting the link to event ([LINK_TO_EVENT]), you can access all relevant information.",
+        "To explore more about the event, follow the link to event: [LINK_TO_EVENT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "please": [
+          "please"
+        ],
+        "details": [
+          "details"
+        ],
+        "access": [
+          "access",
+          "admittance",
+          "admission"
+        ],
+        "information": [
+          "information",
+          "data"
+        ],
+        "more": [
+          "more"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {
+        "link_to_event": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

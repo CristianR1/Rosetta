@@ -1,0 +1,786 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "638a0b23a9c844a1": "raceId",
+    "7d46f0d76a3e4efe": "driverId",
+    "fab3af0335014956": "lap",
+    "759f311c3636412d": "position",
+    "5660f023f0b84eeb": "time",
+    "cd61d7cc86ac4ec0": "milliseconds"
+  },
+  "templates": [
+    {
+      "original": "As the sun rose over the circuit, the anticipation in the air was palpable.",
+      "template_pattern": "As the sun rose over the circuit, the anticipation in the air was palpable.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "While the sun climbed above the circuit, a tangible sense of anticipation filled the atmosphere.",
+        "The circuit was bathed in sunrise light, and the air buzzed with unmistakable anticipation.",
+        "As sunrise illuminated the circuit, the anticipation hanging in the air became palpable.",
+        "A palpable anticipation lingered in the air as the sun rose over the circuit.",
+        "With the sun rising over the circuit, the surrounding air was thick with palpable anticipation.",
+        "The air was charged with palpable anticipation while the sun ascended over the circuit.",
+        "Over the circuit, the sun's rise brought a palpable anticipation that filled the air.",
+        "As the circuit greeted the rising sun, anticipation in the air was distinctly palpable.",
+        "The rising sun over the circuit coincided with a palpable anticipation that pervaded the air.",
+        "Palpable anticipation hung in the air as the sun lifted over the circuit.",
+        "When the sun rose above the circuit, the atmosphere was charged with palpable anticipation.",
+        "The circuit saw the sun rise, and the air became thick with palpable anticipation.",
+        "As the sun rose beyond the circuit, one could feel the anticipation in the air clearly.",
+        "The atmosphere was filled with a palpable sense of anticipation as the sun rose over the circuit.",
+        "Rising over the circuit, the sun highlighted an air of anticipation that was palpable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "rose": [
+          "rose"
+        ],
+        "over": [
+          "over",
+          "ended",
+          "concluded",
+          "terminated",
+          "complete"
+        ],
+        "circuit": [
+          "circuit",
+          "lap",
+          "tour",
+          "circle"
+        ],
+        "palpable": [
+          "palpable",
+          "tangible"
+        ],
+        "anticipation": [
+          "anticipation",
+          "expectation",
+          "prediction",
+          "expectancy"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The excitement of the Formula 1 season reached new heights with the unforgettable raceId 2, captivating fans worldwide.",
+      "template_pattern": "The excitement of the Formula 1 season reached new heights with the unforgettable raceId [RACEID], captivating fans worldwide.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The thrill of the Formula 1 season surged to unprecedented levels during the memorable raceId [RACEID], drawing fans across the globe.",
+        "Unforgettable raceId [RACEID] propelled the Formula 1 season's excitement to new peaks, captivating audiences worldwide.",
+        "Fans worldwide were enthralled as the Formula 1 season's excitement climbed to fresh heights with the iconic raceId [RACEID].",
+        "With raceId [RACEID], the Formula 1 season achieved an unparalleled level of excitement, mesmerizing supporters around the world.",
+        "The Formula 1 season's fervor hit a new zenith thanks to the unforgettable raceId [RACEID], engaging fans globally.",
+        "An unforgettable raceId [RACEID] elevated the Formula 1 season's excitement to fresh heights, enthralling a worldwide audience.",
+        "Worldwide fans were captivated as the excitement of the Formula 1 season reached new summits during the legendary raceId [RACEID].",
+        "The legendary raceId [RACEID] lifted the Formula 1 season's excitement to new heights, attracting fans from every corner of the planet.",
+        "New heights of excitement were attained in the Formula 1 season by the unforgettable raceId [RACEID], holding the attention of global fans.",
+        "During the unforgettable raceId [RACEID], the Formula 1 season's excitement surged, captivating fans worldwide.",
+        "The Formula 1 season's excitement, spurred by raceId [RACEID], ascended to unprecedented heights, captivating an international audience.",
+        "By the time raceId [RACEID] unfolded, the excitement surrounding the Formula 1 season had climbed to new peaks, mesmerizing fans worldwide.",
+        "The unforgettable raceId [RACEID] caused the Formula 1 season's excitement to reach new heights, drawing worldwide fan interest.",
+        "Global fans found themselves captivated as the Formula 1 season's excitement rose to new heights with raceId [RACEID].",
+        "raceId [RACEID] propelled the Formula 1 season into a new realm of excitement, enchanting supporters around the world."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "captivating": [
+          "captivating",
+          "enthralling",
+          "enchanting",
+          "bewitching",
+          "entrancing",
+          "fascinating"
+        ],
+        "worldwide": [
+          "worldwide",
+          "planetary",
+          "universal",
+          "global",
+          "cosmopolitan"
+        ],
+        "unforgettable": [
+          "unforgettable"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "excitement": [
+          "excitement",
+          "fervor",
+          "fervour",
+          "exhilaration"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour",
+          "temper",
+          "harden"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "pattern",
+          "recipe"
+        ],
+        "heights": [
+          "heights",
+          "altitude",
+          "summit",
+          "pinnacle",
+          "peak",
+          "elevation"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The engines roared to life, signaling the start of an adrenaline-fueled event.",
+      "template_pattern": "The engines roared to life, signaling the start of an adrenaline-fueled event.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The engines sprang to life, heralding the commencement of a high‑adrenaline event.",
+        "With a roar, the engines came alive, indicating the onset of an adrenaline‑charged occasion.",
+        "An adrenaline‑fueled event was signaled as the engines roared into operation.",
+        "As the engines roared to life, they marked the beginning of a pulse‑pounding event.",
+        "The start of a high‑adrenaline event was announced when the engines surged into action.",
+        "When the engines ignited with a roar, they denoted the launch of an adrenaline‑driven event.",
+        "A roar from the engines signaled that the adrenaline‑intensive event had begun.",
+        "The engines' roar initiated the start of an event fueled by adrenaline.",
+        "Signaling the kickoff of an adrenaline‑rich event, the engines roared to life.",
+        "The commencement of a high‑adrenaline event was flagged by the engines' sudden roar.",
+        "As the engines erupted with sound, they indicated the onset of an adrenaline‑fueled occasion.",
+        "The roaring of the engines marked the launch of an event powered by adrenaline.",
+        "When the engines came alive with a roar, they signaled the beginning of an adrenaline‑charged event.",
+        "An adrenaline‑driven event began as the engines roared into operation.",
+        "The engines' sudden roar served as the cue for the start of a high‑adrenaline event."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "start": [
+          "start",
+          "commencement",
+          "begin",
+          "commence",
+          "initiate",
+          "beginning"
+        ],
+        "engines": [
+          "engines"
+        ],
+        "adrenaline": [
+          "adrenaline",
+          "epinephrine",
+          "Adrenalin"
+        ],
+        "signaling": [
+          "signaling"
+        ],
+        "roared": [
+          "roared"
+        ],
+        "fueled": [
+          "fueled"
+        ],
+        "life": [
+          "life",
+          "lifespan",
+          "lifetime"
+        ],
+        "event": [
+          "event"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Driver 1 achieved impressive lap times during the race.",
+      "template_pattern": "Driver [DRIVERID] achieved impressive lap times during the race.",
+      "primary_data_fields": [
+        "driverId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Driver Id [DRIVERID] posted remarkable lap times throughout the race.",
+        "Throughout the race, driver Id [DRIVERID] recorded impressive lap times.",
+        "Impressive lap times were achieved by driver Id [DRIVERID] during the race.",
+        "During the race, driver Id [DRIVERID] managed to set notable lap times.",
+        "Driver Id [DRIVERID]’s lap times were notably impressive over the course of the race.",
+        "In the race, driver Id [DRIVERID] delivered exceptionally fast lap times.",
+        "The race saw driver Id [DRIVERID] achieve outstanding lap times.",
+        "Driver Id [DRIVERID] accomplished impressive lap times while competing in the race.",
+        "While racing, driver Id [DRIVERID] produced impressive lap times.",
+        "Impressive lap times were recorded by driver Id [DRIVERID] during the race.",
+        "Driver Id [DRIVERID], during the race, achieved lap times that were impressive.",
+        "Throughout the competition, driver Id [DRIVERID] attained impressive lap times.",
+        "The lap times logged by driver Id [DRIVERID] during the race were impressive.",
+        "Driver Id [DRIVERID]’s performance in the race included impressive lap times.",
+        "During the course of the race, impressive lap times were logged by driver Id [DRIVERID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "times": [
+          "times"
+        ],
+        "achieved": [
+          "achieved"
+        ],
+        "during": [
+          "during"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "race": [
+          "race",
+          "run"
+        ]
+      },
+      "field_data_types": {
+        "driverId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The crowd watched in awe as the race unfolded with incredible speed and precision.",
+      "template_pattern": "The crowd watched in awe as the race unfolded with incredible speed and precision.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "In amazement, the crowd observed the race as it unfolded with remarkable speed and exactness.",
+        "The race, progressing with extraordinary swiftness and accuracy, captivated the crowd, who watched in awe.",
+        "Astonished spectators watched the race develop at an incredible pace and flawless precision.",
+        "With awe, the onlookers followed the race as it unfolded at astonishing speed and meticulous precision.",
+        "The audience, filled with awe, witnessed the race's rapid and precise progression.",
+        "Unfolding at breathtaking velocity and perfect accuracy, the race held the crowd in awe.",
+        "The crowd's eyes were fixed on the race, which advanced with incredible speed and precise execution.",
+        "As the race unfolded with astonishing quickness and exactness, the spectators watched in awe.",
+        "In a display of remarkable speed and precision, the race unfolded before an awe‑struck crowd.",
+        "The onlookers, awed, observed the race's swift and exact unfolding.",
+        "Witnessing the race's rapid and precise development, the crowd was filled with awe.",
+        "The race's incredible speed and precise movement left the crowd watching in awe.",
+        "Awe‑filled, the crowd tracked the race as it progressed with stunning speed and flawless precision.",
+        "The spectators, amazed, followed the race's unfolding, marked by extraordinary speed and accuracy.",
+        "With great admiration, the crowd watched the race unfold at an impressive pace and exact precision."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "incredible": [
+          "incredible",
+          "unbelievable"
+        ],
+        "precision": [
+          "precision"
+        ],
+        "crowd": [
+          "crowd"
+        ],
+        "watched": [
+          "watched"
+        ],
+        "unfolded": [
+          "unfolded"
+        ],
+        "speed": [
+          "speed",
+          "velocity",
+          "swiftness"
+        ],
+        "race": [
+          "race",
+          "run"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "As the cars roared past the starting line, they completed lap number 1, marking the beginning of an intense Formula 1 race.",
+      "template_pattern": "As the cars roared past the starting line, they completed lap number [LAP], marking the beginning of an intense Formula [LAP] race.",
+      "primary_data_fields": [
+        "lap"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "When the cars thundered by the starting line, they finished lap number [LAP], ushering in an intense Formula [LAP] race.",
+        "Lap number [LAP] was completed by the cars as they roared past the starting line, signalling the start of an intense Formula [LAP] race.",
+        "The roar of the cars past the starting line marked the completion of lap number [LAP] and the onset of an intense Formula [LAP] race.",
+        "As the starting line was passed by roaring cars, lap number [LAP] was achieved, heralding an intense Formula [LAP] race.",
+        "With the cars screaming past the starting line, lap number [LAP] was logged, kicking off an intense Formula [LAP] race.",
+        "Passing the starting line at high speed, the cars wrapped up lap number [LAP], launching an intense Formula [LAP] race.",
+        "The intense Formula [LAP] race began when the cars, after roaring past the starting line, completed lap number [LAP].",
+        "After the cars surged past the starting line, lap number [LAP] was recorded, marking the commencement of an intense Formula [LAP] race.",
+        "Lap number [LAP] was logged as the cars roared past the starting line, heralding the start of an intense Formula [LAP] race.",
+        "The moment the cars thundered by the starting line, they entered lap number [LAP], initiating an intense Formula [LAP] race.",
+        "Having roared past the starting line, the cars completed lap number [LAP], thereby beginning an intense Formula [LAP] race.",
+        "An intense Formula [LAP] race was set in motion when the cars, after passing the starting line, finished lap number [LAP].",
+        "The cars, roaring past the starting line, concluded lap number [LAP] and thereby launched an intense Formula [LAP] race.",
+        "When lap number [LAP] was completed by the cars as they sped past the starting line, an intense Formula [LAP] race commenced.",
+        "The start of an intense Formula [LAP] race was marked by the cars' roar past the starting line and the completion of lap number [LAP]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "beginning": [
+          "beginning",
+          "outset",
+          "start",
+          "commencement",
+          "origin",
+          "source"
+        ],
+        "marking": [
+          "marking",
+          "mark",
+          "label",
+          "grade",
+          "tag",
+          "scar"
+        ],
+        "cars": [
+          "cars"
+        ],
+        "starting": [
+          "starting"
+        ],
+        "roared": [
+          "roared"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern",
+          "recipe"
+        ],
+        "line": [
+          "line",
+          "seam",
+          "furrow",
+          "demarcation",
+          "cable",
+          "pipeline"
+        ],
+        "intense": [
+          "intense",
+          "vivid",
+          "acute"
+        ]
+      },
+      "field_data_types": {
+        "lap": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Strategy played a crucial role, with each team vying for a competitive edge.",
+      "template_pattern": "Strategy played a crucial role, with each team vying for a competitive edge.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A sound strategy was pivotal, as every team competed for a competitive advantage.",
+        "Each team sought a competitive edge, making strategy a key factor.",
+        "Strategy proved essential, while each team pursued a competitive edge.",
+        "With each team striving for a competitive edge, strategy took on vital importance.",
+        "The role of strategy was critical, and every team vied for an advantage.",
+        "A crucial role was assigned to strategy, as teams battled for a competitive edge.",
+        "Strategy's significance was paramount, as each team contended for a competitive edge.",
+        "Every team chased a competitive edge, underscoring the crucial role of strategy.",
+        "The competitive edge each team chased highlighted the indispensable role of strategy.",
+        "Strategy, essential to the contest, saw each team vying for a competitive edge.",
+        "In this competition, strategy was a decisive factor, with teams fighting for an edge.",
+        "The importance of strategy was evident, with each team aiming for a competitive advantage.",
+        "A competitive edge was the goal of every team, placing strategy at the forefront.",
+        "Each team’s pursuit of a competitive edge made strategy a pivotal element.",
+        "Strategy assumed a vital role, as teams competed for a competitive edge."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "role": [
+          "role",
+          "function",
+          "office",
+          "part"
+        ],
+        "team": [
+          "team"
+        ],
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "played": [
+          "played"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "vying": [
+          "vying"
+        ],
+        "edge": [
+          "edge",
+          "boundary",
+          "border",
+          "sharpness"
+        ],
+        "competitive": [
+          "competitive"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "During the race, the driver managed to secure position 10 on lap 1, maintaining a steady pace.",
+      "template_pattern": "During the race, the driver managed to secure position [POSITION] on lap 1, maintaining a steady pace.",
+      "primary_data_fields": [
+        "position"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the course of the race, the driver succeeded in locking in position [POSITION] on lap 1 while keeping a consistent speed.",
+        "The driver, during the race, attained position [POSITION] on lap 1 and sustained a steady pace.",
+        "While racing, the driver managed to claim position [POSITION] on lap 1, maintaining a uniform rhythm.",
+        "During the competition, position [POSITION] was secured by the driver on lap 1, with a steady pace maintained.",
+        "On lap 1 of the race, the driver secured position [POSITION] and held a constant tempo.",
+        "Position [POSITION] was achieved by the driver on lap 1 during the race, and the pace remained steady.",
+        "Throughout the race, the driver captured position [POSITION] on lap 1, preserving an even pace.",
+        "The race saw the driver lock down position [POSITION] on lap 1, all while keeping a stable speed.",
+        "In lap 1, the driver attained position [POSITION] during the race, sustaining a steady rhythm.",
+        "During the event, the driver clinched position [POSITION] on lap 1 and continued at a steady pace.",
+        "The driver, in the midst of the race, secured position [POSITION] on lap 1, maintaining a constant pace.",
+        "Position [POSITION] was locked in by the driver on lap 1 during the race, with a steady pace upheld.",
+        "While the race unfolded, the driver obtained position [POSITION] on lap 1, keeping a uniform pace.",
+        "At lap 1 of the race, the driver achieved position [POSITION], preserving a steady speed.",
+        "During the race, position [POSITION] was captured by the driver on lap 1, and the pace stayed steady."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "managed": [
+          "managed"
+        ],
+        "during": [
+          "during"
+        ],
+        "secure": [
+          "secure",
+          "safe",
+          "dependable",
+          "ensure",
+          "guarantee",
+          "assure"
+        ],
+        "maintaining": [
+          "maintaining"
+        ],
+        "steady": [
+          "steady",
+          "firm",
+          "steadfast",
+          "unshakable",
+          "unfaltering",
+          "stiff"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "pace": [
+          "pace",
+          "rate",
+          "tempo",
+          "stride",
+          "step"
+        ],
+        "race": [
+          "race",
+          "run",
+          "rush",
+          "speed",
+          "hasten"
+        ]
+      },
+      "field_data_types": {
+        "position": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The tension was palpable as each second counted in the high-stakes competition.",
+      "template_pattern": "The tension was palpable as each second counted in the high-stakes competition.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every second mattered, and the palpable tension filled the high‑stakes competition.",
+        "The high‑stakes competition rendered each moment critical, with tension that could be felt.",
+        "Tension was tangible as each second proved decisive in the high‑pressure contest.",
+        "In the high‑stakes tournament, the pressure was evident because every second counted.",
+        "Each instant counted, causing a perceptible strain throughout the high‑stakes competition.",
+        "The competition's high stakes made every second count, and the tension was unmistakable.",
+        "A palpable sense of tension swept the high‑stakes event as each second became crucial.",
+        "Because each second was decisive, the high‑stakes competition was charged with evident tension.",
+        "The high‑pressure contest saw every moment count, creating a tension that could be felt.",
+        "With each second holding weight, the high‑stakes competition exuded a tangible tension.",
+        "The tension became evident as every second mattered in the high‑stakes competition.",
+        "In this high‑stakes competition, the pressure was palpable because each second was vital.",
+        "Each moment counted, making the tension perceptible throughout the high‑stakes contest.",
+        "The high‑stakes event was marked by a palpable tension, driven by the importance of every second.",
+        "Because every second counted, the competition's high stakes produced a tangible sense of tension."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "competition": [
+          "competition",
+          "contention",
+          "rivalry",
+          "contest"
+        ],
+        "second": [
+          "second",
+          "arcsecond",
+          "moment",
+          "minute",
+          "instant"
+        ],
+        "tension": [
+          "tension",
+          "stress",
+          "tautness",
+          "tenseness"
+        ],
+        "stakes": [
+          "stakes"
+        ],
+        "palpable": [
+          "palpable",
+          "tangible"
+        ],
+        "counted": [
+          "counted"
+        ],
+        "high": [
+          "high",
+          "eminent"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "During the race, one driver's impressive performance was highlighted by a lap time of 1:52.965, showcasing their skill.",
+      "template_pattern": "During the race, one driver's impressive performance was highlighted by a lap time of [TIME], showcasing their skill.",
+      "primary_data_fields": [
+        "time"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the race, a driver's standout effort was underscored by a lap time of [TIME], highlighting their skill.",
+        "The race featured one driver whose impressive performance shone through a lap time of [TIME], demonstrating skill.",
+        "A lap time of [TIME] marked the impressive showing of a driver during the race, illustrating their ability.",
+        "During the competition, the skill of a driver was evident from a lap time of [TIME], emphasizing their strong performance.",
+        "One driver's remarkable run in the race was evidenced by a lap time of [TIME], showcasing their expertise.",
+        "A lap time of [TIME] highlighted the impressive performance of a driver during the race, reflecting their talent.",
+        "The impressive performance of a driver was brought to light by a lap time of [TIME] in the race, underscoring skill.",
+        "In the midst of the race, a driver posted a lap time of [TIME], a clear sign of an impressive performance and skill.",
+        "A driver’s skill was showcased during the race when their lap time of [TIME] stood out as an impressive performance.",
+        "During the race, the lap time of [TIME] recorded by one driver served as a testament to their impressive skill.",
+        "One driver’s impressive display was captured by a lap time of [TIME] during the race, highlighting their ability.",
+        "The race saw a driver achieve a lap time of [TIME], which highlighted an impressive performance and evident skill.",
+        "A lap time of [TIME], achieved in the race, underscored a driver’s impressive performance and showcased their skill.",
+        "During the event, a driver’s skill shone through a lap time of [TIME], marking an impressive performance.",
+        "The driver’s impressive showing in the race was exemplified by a lap time of [TIME], demonstrating their skill."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "during": [
+          "during"
+        ],
+        "performance": [
+          "performance",
+          "operation",
+          "execution",
+          "functioning"
+        ],
+        "their": [
+          "their"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "skill": [
+          "skill"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "highlighted": [
+          "highlighted",
+          "spotlight",
+          "highlight"
+        ]
+      },
+      "field_data_types": {
+        "time": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Fans could hardly believe their eyes as records were challenged and broken.",
+      "template_pattern": "Fans could hardly believe their eyes as records were challenged and broken.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The spectators scarcely trusted what they saw when records were being contested and shattered.",
+        "Fans were barely able to comprehend the sight of records being challenged and subsequently broken.",
+        "As records faced challenges and fell, the onlookers could hardly believe their own eyes.",
+        "It was difficult for the audience to accept the scene, with records both tested and broken.",
+        "The crowd watched in disbelief as records were put to the test and ultimately broken.",
+        "Records were challenged and broken, leaving fans hardly able to believe what they were witnessing.",
+        "With records being contested and then broken, the fans found it almost impossible to believe their eyes.",
+        "In the midst of record challenges and breakages, the fans could scarcely accept the visual reality.",
+        "Although records were being challenged and broken, the fans could barely grasp the spectacle.",
+        "Fans, almost in disbelief, observed records being both challenged and broken.",
+        "The visual of records under assault and collapse left the fans scarcely convinced of what they saw.",
+        "As records were put under pressure and shattered, the audience could hardly believe their own vision.",
+        "The onlookers could barely process the scene where records were challenged and then broken.",
+        "Records faced challenges and fell, and the fans found it hard to believe what their eyes were seeing.",
+        "Witnessing records being tested and broken, the fans could barely trust their own sight."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "fans": [
+          "fans",
+          "fan"
+        ],
+        "records": [
+          "records"
+        ],
+        "broken": [
+          "broken",
+          "cracked",
+          "crushed"
+        ],
+        "their": [
+          "their"
+        ],
+        "hardly": [
+          "hardly",
+          "scarcely",
+          "barely"
+        ],
+        "challenged": [
+          "challenged"
+        ],
+        "believe": [
+          "believe",
+          "trust",
+          "consider",
+          "conceive",
+          "think"
+        ],
+        "eyes": [
+          "eyes"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "One driver's lap time was recorded at an impressive 112965 milliseconds during the Formula 1 race.",
+      "template_pattern": "One driver's lap time was recorded at an impressive [MILLISECONDS] milliseconds during the Formula 1 race.",
+      "primary_data_fields": [
+        "milliseconds"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During the Formula 1 race, the lap time of One driver was logged at an impressive [MILLISECONDS] milliseconds.",
+        "An impressive [MILLISECONDS] milliseconds was recorded as the lap time for One driver during the Formula 1 race.",
+        "One driver posted a lap time of [MILLISECONDS] milliseconds, a notable figure in the Formula 1 race.",
+        "In the Formula 1 race, the lap time for One driver was registered at [MILLISECONDS] milliseconds, impressively fast.",
+        "The lap time of One driver, measured at [MILLISECONDS] milliseconds, stood out during the Formula 1 race.",
+        "During the Formula 1 race, officials documented a lap time of [MILLISECONDS] milliseconds for One driver, highlighting its impressiveness.",
+        "A lap time of [MILLISECONDS] milliseconds was achieved by One driver in the Formula 1 race, marking an impressive performance.",
+        "One driver’s lap time, recorded at [MILLISECONDS] milliseconds, was deemed impressive in the Formula 1 race.",
+        "The Formula 1 race saw One driver complete a lap in an impressive [MILLISECONDS] milliseconds.",
+        "An impressive [MILLISECONDS] milliseconds was the lap time logged for One driver during the Formula 1 race.",
+        "In the Formula 1 race, One driver’s lap was timed at [MILLISECONDS] milliseconds, an impressive result.",
+        "One driver managed an impressive lap time of [MILLISECONDS] milliseconds during the Formula 1 race.",
+        "The lap time recorded for One driver in the Formula 1 race amounted to [MILLISECONDS] milliseconds, impressively fast.",
+        "During the Formula 1 race, the timing system captured One driver’s lap at [MILLISECONDS] milliseconds, an impressive metric.",
+        "An impressive [MILLISECONDS] milliseconds was the recorded lap time for One driver in the Formula 1 race."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "during": [
+          "during"
+        ],
+        "impressive": [
+          "impressive"
+        ],
+        "driver": [
+          "driver"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern",
+          "recipe"
+        ],
+        "recorded": [
+          "recorded",
+          "register",
+          "enter",
+          "record"
+        ],
+        "race": [
+          "race",
+          "run"
+        ]
+      },
+      "field_data_types": {
+        "milliseconds": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

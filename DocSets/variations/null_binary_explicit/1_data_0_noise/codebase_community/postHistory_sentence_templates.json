@@ -1,0 +1,634 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "a044d8637f764e96": "Id",
+    "cd305b1293764637": "PostHistoryTypeId",
+    "b69cabcbb8534d8a": "PostId",
+    "809893a4952547f4": "RevisionGUID",
+    "b25e80cf098d4ee5": "CreationDate",
+    "65d8e5e0684a47db": "UserId",
+    "b60a73adce074840": "Text",
+    "c3c067eddd89477b": "Comment",
+    "228a5a990ad4430d": "UserDisplayName"
+  },
+  "templates": [
+    {
+      "original": "The Id of the first edit history entry is 1.",
+      "template_pattern": "The Id of the first edit history entry is [ID].",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Id for the initial edit history entry equals [ID].",
+        "Id of the first edit history entry is set to [ID].",
+        "[ID] is the Id assigned to the first edit history entry.",
+        "The first edit history entry carries an Id of [ID].",
+        "An Id of [ID] belongs to the first edit history entry.",
+        "For the first edit history entry, the Id is [ID].",
+        "The first edit history entry’s Id has the value [ID].",
+        "[ID] serves as the Id of the first edit history entry.",
+        "The Id associated with the first edit history entry reads [ID].",
+        "The first edit history entry is identified by Id [ID].",
+        "Id [ID] is recorded for the first edit history entry.",
+        "The first edit history entry’s identifier, Id, equals [ID].",
+        "In the edit history, the first entry’s Id is [ID].",
+        "The Id that corresponds to the first edit history entry is [ID].",
+        "The first edit history entry is marked with Id [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "entry": [
+          "entry",
+          "entrance",
+          "introduction",
+          "ingress"
+        ],
+        "edit": [
+          "edit",
+          "redact",
+          "cut"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "first": [
+          "first",
+          "inaugural",
+          "start",
+          "firstly",
+          "foremost",
+          "beginning"
+        ]
+      },
+      "field_data_types": {
+        "Id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Within the programming community platform, a PostHistoryTypeId of 2 indicates a typical content revision made to a post.",
+      "template_pattern": "Within the programming community platform, a PostHistoryTypeId of [POSTHISTORYTYPEID] indicates a typical content revision made to a post.",
+      "primary_data_fields": [
+        "PostHistoryTypeId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the programming community platform, a Post History Type Id of [POSTHISTORYTYPEID] signals a standard content revision to a post.",
+        "A Post History Type Id of [POSTHISTORYTYPEID] on the programming community platform denotes a typical content edit made to a post.",
+        "In the programming community platform, a Post History Type Id of [POSTHISTORYTYPEID] represents a common content change applied to a post.",
+        "The programming community platform uses a Post History Type Id of [POSTHISTORYTYPEID] to indicate a routine content amendment on a post.",
+        "A typical content revision to a post is indicated by a Post History Type Id of [POSTHISTORYTYPEID] within the programming community platform.",
+        "Within the programming community platform, a Post History Type Id of [POSTHISTORYTYPEID] marks a usual content update performed on a post.",
+        "On the programming community platform, a Post History Type Id of [POSTHISTORYTYPEID] reflects a regular content modification to a post.",
+        "A Post History Type Id of [POSTHISTORYTYPEID], when found in the programming community platform, points to a typical content tweak on a post.",
+        "Within the programming community platform, the presence of a Post History Type Id of [POSTHISTORYTYPEID] conveys a standard content alteration to a post.",
+        "A typical content revision made to a post is signaled by a Post History Type Id of [POSTHISTORYTYPEID] inside the programming community platform.",
+        "In the programming community platform, a Post History Type Id of [POSTHISTORYTYPEID] identifies a conventional content edit on a post.",
+        "The programming community platform records a Post History Type Id of [POSTHISTORYTYPEID] as a typical content revision applied to a post.",
+        "A Post History Type Id of [POSTHISTORYTYPEID] indicates, within the programming community platform, a normal content change to a post.",
+        "Across the programming community platform, a Post History Type Id of [POSTHISTORYTYPEID] denotes a typical content revision to a post.",
+        "When a Post History Type Id of [POSTHISTORYTYPEID] appears on the programming community platform, it marks a standard content revision made to a post."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "revision": [
+          "revision",
+          "alteration"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "made": [
+          "made",
+          "prepare",
+          "realise",
+          "realize",
+          "create",
+          "construct"
+        ],
+        "community": [
+          "community"
+        ],
+        "content": [
+          "content",
+          "subject",
+          "substance"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "typical": [
+          "typical"
+        ]
+      },
+      "field_data_types": {
+        "PostHistoryTypeId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post with PostId 1 was revised for clarity and accuracy.",
+      "template_pattern": "The post with PostId [POSTID] was revised for clarity and accuracy.",
+      "primary_data_fields": [
+        "PostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The post bearing PostId [POSTID] was edited to improve clarity and accuracy.",
+        "For clarity and accuracy, the post identified by PostId [POSTID] underwent revision.",
+        "PostId [POSTID]'s post was updated for greater clarity and accuracy.",
+        "Clarity and accuracy were enhanced when the post with PostId [POSTID] was revised.",
+        "After revision, the post with PostId [POSTID] achieved improved clarity and accuracy.",
+        "A revision for clarity and accuracy was applied to the post having PostId [POSTID].",
+        "The post that carries PostId [POSTID] has been amended to boost clarity and accuracy.",
+        "In order to increase clarity and accuracy, the post associated with PostId [POSTID] was modified.",
+        "The post, marked with PostId [POSTID], received a clarity‑ and accuracy‑focused revision.",
+        "To ensure clarity and accuracy, we revised the post labeled PostId [POSTID].",
+        "PostId [POSTID]’s post was refined to enhance both clarity and accuracy.",
+        "The post, with PostId [POSTID], underwent a revision aimed at clarity and accuracy.",
+        "A clarity and accuracy improvement prompted the revision of the post with PostId [POSTID].",
+        "Revised for clarity and accuracy, the post bearing PostId [POSTID] now reflects the changes.",
+        "The post assigned PostId [POSTID] was corrected to better achieve clarity and accuracy."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "post": [
+          "post",
+          "mail",
+          "send",
+          "position"
+        ],
+        "revised": [
+          "revised"
+        ],
+        "accuracy": [
+          "accuracy"
+        ],
+        "clarity": [
+          "clarity",
+          "lucidity",
+          "clearness",
+          "lucidness"
+        ]
+      },
+      "field_data_types": {
+        "PostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The RevisionGUID e58bf7fd-e60f-4c58-a6e4-dfc91cf98a69 ensures each edit is uniquely identifiable in the post's history.",
+      "template_pattern": "The RevisionGUID [REVISIONGUID] ensures each edit is uniquely identifiable in the post's history.",
+      "primary_data_fields": [
+        "RevisionGUID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The RevisionGUID [REVISIONGUID] guarantees that every edit can be distinctly identified within the post’s history.",
+        "Each modification to the post is uniquely traceable thanks to the RevisionGUID [REVISIONGUID].",
+        "By using the RevisionGUID [REVISIONGUID], the system assigns a unique identifier to every edit in the post’s timeline.",
+        "Every edit in the post’s history receives a unique tag via the RevisionGUID [REVISIONGUID].",
+        "The post’s edit log is made uniquely identifiable through the RevisionGUID [REVISIONGUID].",
+        "Through the RevisionGUID [REVISIONGUID], each change is recorded with a distinct identifier in the history of the post.",
+        "A unique identifier for each edit is ensured by the RevisionGUID [REVISIONGUID] within the post’s archives.",
+        "The RevisionGUID [REVISIONGUID] makes certain that every alteration is uniquely marked in the post’s historical record.",
+        "In the post’s chronology, every edit is uniquely labeled thanks to the RevisionGUID [REVISIONGUID].",
+        "Each edit is given a distinct signature in the post’s history by the RevisionGUID [REVISIONGUID].",
+        "The system leverages the RevisionGUID [REVISIONGUID] to uniquely identify each edit throughout the post’s history.",
+        "Uniqueness of every edit in the post’s timeline is maintained via the RevisionGUID [REVISIONGUID].",
+        "Through the RevisionGUID [REVISIONGUID], the post’s edit history gains a unique identifier for each change.",
+        "Each alteration within the post’s history is uniquely recognized by the RevisionGUID [REVISIONGUID].",
+        "The RevisionGUID [REVISIONGUID] ensures that every modification is uniquely identifiable in the post’s historical record."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "edit": [
+          "edit"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "ensures": [
+          "ensures"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "post": [
+          "post",
+          "mail",
+          "send",
+          "position"
+        ],
+        "identifiable": [
+          "identifiable"
+        ]
+      },
+      "field_data_types": {
+        "RevisionGUID": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post was originally created on 2010-07-19 19:12:12.0, marking the beginning of its documented history.",
+      "template_pattern": "The post was originally created on [CREATIONDATE], marking the beginning of its documented history.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The post's CreationDate is [CREATIONDATE], marking the start of its recorded history.",
+        "Recorded on [CREATIONDATE] as its CreationDate, the post began its documented timeline.",
+        "With a CreationDate of [CREATIONDATE], the post entered the annals of its history.",
+        "At [CREATIONDATE], the post received its CreationDate, initiating its documented chronicle.",
+        "The post, whose CreationDate reads [CREATIONDATE], marks the outset of its recorded saga.",
+        "Since its CreationDate of [CREATIONDATE], the post has been part of the documented record.",
+        "Originating on [CREATIONDATE], the post’s CreationDate signals the commencement of its history.",
+        "The CreationDate for the post—[CREATIONDATE]—denotes the beginning of its documented existence.",
+        "Having a CreationDate stamped as [CREATIONDATE], the post launched its recorded narrative.",
+        "The post was first logged with a CreationDate of [CREATIONDATE], heralding the start of its history.",
+        "As of its CreationDate, [CREATIONDATE], the post commenced its documented timeline.",
+        "The timestamp [CREATIONDATE], listed as the CreationDate, marks when the post’s history began.",
+        "On the date recorded as CreationDate—[CREATIONDATE]—the post entered its documented past.",
+        "The post’s entry into the record began at its CreationDate, [CREATIONDATE].",
+        "With [CREATIONDATE] set as its CreationDate, the post’s documented history starts there."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "originally": [
+          "originally"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "mark",
+          "brand",
+          "grade"
+        ],
+        "created": [
+          "created"
+        ],
+        "post": [
+          "post",
+          "send",
+          "mail",
+          "position",
+          "office",
+          "station"
+        ],
+        "beginning": [
+          "beginning",
+          "start",
+          "origin",
+          "commencement",
+          "outset"
+        ],
+        "documented": [
+          "documented",
+          "attested"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "UserId 8 has significantly contributed to the programming community platform, showcasing expertise and engaging actively in discussions.",
+      "template_pattern": "UserId [USERID] has significantly contributed to the programming community platform, showcasing expertise and engaging actively in discussions.",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "UserId [USERID] has made a substantial contribution to the programming community platform, demonstrating expertise while actively participating in discussions.",
+        "Through the programming community platform, UserId [USERID] significantly contributes, shows expertise, and engages vigorously in discussions.",
+        "The programming community platform benefits greatly from UserId [USERID]'s contributions, expertise, and active discussion involvement.",
+        "UserId [USERID]'s expertise is showcased as they significantly contribute to the programming community platform and take part in discussions actively.",
+        "Significant contributions to the programming community platform, expertise display, and active discussion engagement are all hallmarks of UserId [USERID].",
+        "In the programming community platform, UserId [USERID] is recognized for a notable contribution, expert knowledge, and active discussion participation.",
+        "A notable contribution, expert insight, and lively discussion involvement are provided by UserId [USERID] on the programming community platform.",
+        "UserId [USERID] is credited with a major contribution to the programming community platform, exhibiting expertise and joining discussions with vigor.",
+        "The programming community platform has been significantly enriched by UserId [USERID], who showcases expertise and engages actively in discussions.",
+        "Active in discussions and displaying expertise, UserId [USERID] has significantly contributed to the programming community platform.",
+        "UserId [USERID]'s substantial input into the programming community platform, combined with expert demonstration and active discussion engagement, stands out.",
+        "By actively participating in discussions and showcasing expertise, UserId [USERID] has made a significant impact on the programming community platform.",
+        "The programming community platform sees a major contribution from UserId [USERID], whose expertise shines and who engages energetically in discussions.",
+        "UserId [USERID], through expert display and lively discussion involvement, has substantially contributed to the programming community platform.",
+        "A substantial contribution, expert showcase, and active discussion presence characterize UserId [USERID]'s role on the programming community platform."
+      ],
+      "counter_variations": [
+        "User Id null, despite being recorded as null, still surfaces in the technology data report, prompting further investigative analysis.",
+        "In the technology data report, User Id null appears even though its value is null, prompting further investigative analysis.",
+        "Although the identifier is null, User Id null is present in the technology data report, prompting further investigative analysis.",
+        "User Id null, with a null designation, remains listed in the technology data report, prompting further investigative analysis.",
+        "The technology data report includes User Id null, a field whose value is null, prompting further investigative analysis.",
+        "Despite the null status of its identifier, User Id null shows up in the technology data report, prompting further investigative analysis.",
+        "Within the technology data report, User Id null is documented even though it bears a null value, prompting further investigative analysis.",
+        "User Id null, noted as null, continues to be reflected in the technology data report, prompting further investigative analysis.",
+        "Even when its identifier reads null, User Id null is captured in the technology data report, prompting further investigative analysis.",
+        "The presence of User Id null—marked as null—in the technology data report, prompts further investigative analysis.",
+        "While the field’s value is null, User Id null nonetheless appears in the technology data report, prompting further investigative analysis.",
+        "User Id null, listed with a null identifier, is still enumerated in the technology data report, prompting further investigative analysis.",
+        "In spite of its null identifier, the entry User Id null is recorded in the technology data report, prompting further investigative analysis.",
+        "User Id null, carrying a null label, persists within the technology data report, prompting further investigative analysis.",
+        "Although flagged as null, User Id null remains a component of the technology data report, prompting further investigative analysis."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "engaging": [
+          "engaging"
+        ],
+        "contributed": [
+          "contributed"
+        ],
+        "community": [
+          "community"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "expertise": [
+          "expertise"
+        ],
+        "programming": [
+          "programming"
+        ],
+        "discussions": [
+          "discussions"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the Text, someone asked, \"How should I elicit prior distributions from experts when fitting a Bayesian model?\" reflecting a common query among programmers.",
+      "template_pattern": "In the Text, someone asked, [TEXT] reflecting a common query among programmers.",
+      "primary_data_fields": [
+        "Text"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the Text, an individual posed the question, [TEXT] which mirrors a frequent inquiry among programmers.",
+        "The Text contains a query where someone asks, [TEXT]—a typical programmer‑related question.",
+        "In the Text a person asked, [TEXT] illustrating a common programmer query.",
+        "A question appears in the Text: [TEXT]—a prevalent concern for programmers.",
+        "Someone's question in the Text, [TEXT] reflects a regular programmer query.",
+        "The quoted inquiry, [TEXT] is found in the Text and typifies a usual programmer question.",
+        "In the Text, a user wonders, [TEXT] a query commonly raised by programmers.",
+        "The Text records a request: [TEXT] which is a standard question among programmers.",
+        "Within the Text, a programmer asked, [TEXT] echoing a typical query.",
+        "The Text includes the line, [TEXT]—a frequently asked question by programmers.",
+        "A programmer's query appears in the Text: [TEXT] representing a common concern.",
+        "In the Text, the phrase [TEXT] is posed, highlighting a usual programmer question.",
+        "The Text features a question, [TEXT] which mirrors a common programmer inquiry.",
+        "Someone raised in the Text the question, [TEXT] a typical concern among programmers.",
+        "Appearing in the Text, the query [TEXT] exemplifies a frequent programmer question."
+      ],
+      "counter_variations": [
+        "In the Text field, the value is null, thereby indicating that no content exists to inform the technology report analysis.",
+        "The value is null within the Text field, signaling an absence of content that might otherwise aid the technology report analysis.",
+        "Since the value is null in the Text field, the technology report analysis lacks any material that could otherwise be informative.",
+        "When the value is null in the Text field, it reflects a void of content that would otherwise shape the technology report analysis.",
+        "Given that the value is null in the Text field, the technology report analysis is left without content that might otherwise be relevant.",
+        "If the value is null in the Text field, it denotes an empty source of content for the technology report analysis.",
+        "The Text field shows that the value is null, which implies an absence of content that could otherwise enrich the technology report analysis.",
+        "Because the value is null in the Text field, the technology report analysis receives no substantive content to draw upon.",
+        "Observing that the value is null in the Text field, one can infer a lack of content that might otherwise influence the technology report analysis.",
+        "In cases where the value is null in the Text field, the technology report analysis is deprived of any content that might otherwise be leveraged.",
+        "The presence of a value that is null in the Text field indicates that the technology report analysis has no content to reference.",
+        "When a value is null in the Text field, it signals a deficiency of content that could otherwise contribute to the technology report analysis.",
+        "Because the value is null within the Text field, the technology report analysis cannot be informed by any underlying content.",
+        "Should the value be null in the Text field, it suggests an absence of content that might otherwise support the technology report analysis.",
+        "The fact that the value is null in the Text field denotes a shortage of content that would otherwise augment the technology report analysis."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "query": [
+          "query",
+          "inquiry",
+          "question",
+          "enquiry"
+        ],
+        "asked": [
+          "asked",
+          "ask",
+          "inquire",
+          "enquire"
+        ],
+        "common": [
+          "common",
+          "usual"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "among": [
+          "among"
+        ],
+        "someone": [
+          "someone",
+          "somebody",
+          "individual",
+          "person"
+        ],
+        "programmers": [
+          "programmers"
+        ]
+      },
+      "field_data_types": {
+        "Text": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The post's comment section currently shows NULL, leaving the user feedback and discussions absent.",
+      "template_pattern": "The post's comment section currently shows NULL, leaving the user feedback and discussions absent.",
+      "primary_data_fields": [
+        "Comment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Comment area of the post presently displays [COMMENT], resulting in a lack of user feedback and discussion.",
+        "At this moment, the post’s Comment section reports [COMMENT], which means user feedback and conversations are missing.",
+        "[COMMENT] is currently shown in the post’s Comment field, leaving no user input or dialogue visible.",
+        "User feedback and discussions are absent because the post’s Comment section is currently set to [COMMENT].",
+        "Presently, the Comment segment of the post reads [COMMENT], causing the omission of any user comments or talks.",
+        "Because the post’s Comment area now returns [COMMENT], there are no user remarks or discussions present.",
+        "The post’s Comment portion currently returns [COMMENT], thereby eliminating any user feedback or discourse.",
+        "With the Comment section of the post showing [COMMENT] at this time, user feedback and discussions do not appear.",
+        "[COMMENT] appears in the post’s Comment field right now, leaving the platform without user comments or dialogue.",
+        "The post’s Comment component is presently displaying [COMMENT], which strips away all user feedback and discussion.",
+        "Since the post’s Comment section currently yields [COMMENT], user feedback and conversation are nonexistent.",
+        "At present, the Comment box on the post shows [COMMENT], resulting in missing user feedback and discussion threads.",
+        "The Comment field of the post is currently populated with [COMMENT], so user feedback and discussions are absent.",
+        "User comments and discussions are missing because the post’s Comment section is currently showing [COMMENT].",
+        "Currently, the post’s Comment area reflects [COMMENT], leaving the system without any user feedback or discussion."
+      ],
+      "counter_variations": [
+        "The report’s Comment field is currently set to null, which leads to a conspicuous lack of explanatory notes or contextual observations.",
+        "Because the Comment field in the report contains null, a clear deficiency of explanatory notes and contextual observations becomes evident.",
+        "At present, the report’s Comment field holds null, thereby producing a marked omission of explanatory notes or contextual observations.",
+        "The presence of null within the report’s Comment field results in an unmistakable void of explanatory notes and contextual observations.",
+        "Since the Comment field of the report is populated with null, the document suffers from a pronounced scarcity of explanatory notes or contextual observations.",
+        "Null residing in the report’s Comment field gives rise to a noticeable gap where explanatory notes or contextual observations would otherwise appear.",
+        "In the current state, the report’s Comment field contains null, engendering a striking absence of explanatory notes as well as contextual observations.",
+        "The report’s Comment field, presently reflecting null, precipitates an evident dearth of explanatory notes or contextual observations.",
+        "When null occupies the Comment field of the report, it culminates in a significant shortfall of explanatory notes and contextual observations.",
+        "Owing to the Comment field in the report being null, the output displays a palpable omission of explanatory notes or contextual observations.",
+        "The assignment of null to the report’s Comment field produces a discernible lack of explanatory notes and contextual observations.",
+        "Given that the Comment field in the report is null, the resulting document exhibits a clear vacancy of explanatory notes or contextual observations.",
+        "Null in the report’s Comment field triggers a noteworthy deficiency of explanatory notes and contextual observations.",
+        "The report’s Comment field, now containing null, yields an obvious absence of explanatory notes or contextual observations.",
+        "Because the Comment field of the report has been set to null, the final output conspicuously lacks explanatory notes and contextual observations."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "absent": [
+          "absent",
+          "missing",
+          "lacking",
+          "wanting"
+        ],
+        "user": [
+          "user"
+        ],
+        "discussions": [
+          "discussions"
+        ],
+        "section": [
+          "section",
+          "segment",
+          "part",
+          "subdivision",
+          "division"
+        ],
+        "shows": [
+          "shows",
+          "indicates"
+        ],
+        "post": [
+          "post",
+          "position",
+          "office",
+          "station"
+        ],
+        "leaving": [
+          "leaving",
+          "exit",
+          "departure",
+          "going"
+        ]
+      },
+      "field_data_types": {
+        "Comment": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "UserDisplayName is NULL, leaving contributions and revisions uncredited.",
+      "template_pattern": "UserDisplayName is NULL, leaving contributions and revisions uncredited.",
+      "primary_data_fields": [
+        "UserDisplayName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because UserDisplayName is [USERDISPLAYNAME], the system does not credit any contributions or revisions.",
+        "UserDisplayName being [USERDISPLAYNAME] results in contributions and revisions remaining uncredited.",
+        "With UserDisplayName set to [USERDISPLAYNAME], contributions and revisions go without attribution.",
+        "Since UserDisplayName equals [USERDISPLAYNAME], contributions and revisions are left uncredited.",
+        "The [USERDISPLAYNAME] value of UserDisplayName leaves both contributions and revisions without credit.",
+        "Contributions and revisions stay uncredited when UserDisplayName is [USERDISPLAYNAME].",
+        "When UserDisplayName is [USERDISPLAYNAME], the platform fails to assign credit for contributions and revisions.",
+        "As UserDisplayName is [USERDISPLAYNAME], no credit is given to contributions or revisions.",
+        "The absence of a UserDisplayName ([USERDISPLAYNAME]) causes contributions and revisions to be uncredited.",
+        "[USERDISPLAYNAME] UserDisplayName means contributions and revisions receive no credit.",
+        "Because the UserDisplayName field contains [USERDISPLAYNAME], contributions and revisions are not credited.",
+        "UserDisplayName = [USERDISPLAYNAME] leads to contributions and revisions being left without credit.",
+        "In the case of a [USERDISPLAYNAME] UserDisplayName, contributions and revisions remain unattributed.",
+        "The system leaves contributions and revisions uncredited due to UserDisplayName being [USERDISPLAYNAME].",
+        "If UserDisplayName is [USERDISPLAYNAME], contributions and revisions end up without credit."
+      ],
+      "counter_variations": [
+        "Because the User Display Name is null, the system masks the individual's identity and blocks any attribution of related activity.",
+        "The fact that the User Display Name is null leads to the obscuring of the person's identity within the platform and to the impossibility of linking any associated actions.",
+        "When the User Display Name is null, the individual's identity becomes concealed in the system, thereby precluding any assignment of the corresponding activity.",
+        "Given that the User Display Name is null, the architecture effectively hides the user's identity and forbids attribution of any linked activity.",
+        "Since the User Display Name is null, the platform obscures the subject’s identity and eliminates the capacity to attribute any associated actions.",
+        "Owing to the User Display Name being null, the system renders the individual's identity invisible and disallows any correlation with related activity.",
+        "If the User Display Name is null, the environment cloaks the user's identity and prevents the assignment of any associated activity.",
+        "As the User Display Name is null, the infrastructure shrouds the individual's identity and bars any attribution of the activity tied to them.",
+        "Because the User Display Name is null, the application conceals the person’s identity and precludes linking any related actions.",
+        "When the User Display Name is null, the backend obscures the identity of the individual and disallows any attribution of associated activity.",
+        "Due to the User Display Name being null, the system veils the individual's identity and makes it impossible to assign any correlated activity.",
+        "The condition that the User Display Name is null results in the individual's identity being hidden within the system and the inability to attribute any associated activity.",
+        "Having the User Display Name set to null causes the platform to obscure the user's identity and to forbid any attribution of linked activity.",
+        "In instances where the User Display Name is null, the system masks the individual's identity and precludes any assignment of associated actions.",
+        "With the User Display Name being null, the environment conceals the person's identity and eliminates any potential attribution of related activity."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "uncredited": [
+          "uncredited"
+        ],
+        "revisions": [
+          "revisions"
+        ],
+        "contributions": [
+          "contributions"
+        ],
+        "leaving": [
+          "leaving",
+          "exit",
+          "going",
+          "depart"
+        ],
+        "null": [
+          "null",
+          "zero",
+          "void",
+          "nil"
+        ]
+      },
+      "field_data_types": {
+        "UserDisplayName": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

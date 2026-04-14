@@ -1,0 +1,292 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4fca4cfbb61d4752": "GasStationID",
+    "ccdcf26502664f7c": "ChainID",
+    "8f7c36b8592449dd": "Country",
+    "0cb736c96c064d70": "Segment"
+  },
+  "templates": [
+    {
+      "original": "GasStationID 44 has seen a notable increase in debit card transactions over the past month.",
+      "template_pattern": "GasStationID [GASSTATIONID] has seen a notable increase in debit card transactions over the past month.",
+      "primary_data_fields": [
+        "GasStationID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "GasStationID [GASSTATIONID] has recorded a significant rise in debit card transactions over the past month.",
+        "Over the past month, debit card transactions at GasStationID [GASSTATIONID] have surged noticeably.",
+        "A notable boost in debit card transactions was observed at GasStationID [GASSTATIONID] during the past month.",
+        "During the past month, GasStationID [GASSTATIONID] experienced a marked increase in debit card transactions.",
+        "Debit card transactions at GasStationID [GASSTATIONID] climbed sharply over the past month.",
+        "The past month saw GasStationID [GASSTATIONID]’s debit card transactions grow substantially.",
+        "GasStationID [GASSTATIONID]’s debit card transactions have risen appreciably in the past month.",
+        "In the past month, there has been a pronounced uptick in debit card transactions at GasStationID [GASSTATIONID].",
+        "A considerable escalation in debit card transactions occurred at GasStationID [GASSTATIONID] over the past month.",
+        "Over the past month, GasStationID [GASSTATIONID] witnessed a clear increase in debit card transactions.",
+        "The past month brought a notable surge in debit card transactions for GasStationID [GASSTATIONID].",
+        "GasStationID [GASSTATIONID] saw its debit card transactions expand markedly during the past month.",
+        "During the past month, a strong upward trend in debit card transactions was evident at GasStationID [GASSTATIONID].",
+        "Debit card transactions have markedly increased at GasStationID [GASSTATIONID] over the past month.",
+        "In the past month, GasStationID [GASSTATIONID] experienced a noticeable climb in debit card transactions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "notable": [
+          "notable",
+          "noteworthy",
+          "famous",
+          "illustrious",
+          "renowned",
+          "famed"
+        ],
+        "past": [
+          "past",
+          "preceding"
+        ],
+        "over": [
+          "over",
+          "ended",
+          "concluded"
+        ],
+        "card": [
+          "card"
+        ],
+        "increase": [
+          "increase",
+          "gain",
+          "addition",
+          "growth",
+          "increment"
+        ],
+        "month": [
+          "month"
+        ],
+        "debit": [
+          "debit"
+        ],
+        "transactions": [
+          "transactions",
+          "dealings"
+        ]
+      },
+      "field_data_types": {
+        "GasStationID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The gas station chain with ChainID 13 has shown remarkable growth in its transaction data over the past year.",
+      "template_pattern": "The gas station chain with ChainID [CHAINID] has shown remarkable growth in its transaction data over the past year.",
+      "primary_data_fields": [
+        "ChainID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The gas station chain identified by ChainID [CHAINID] has experienced impressive growth in its transaction data throughout the past year.",
+        "Remarkable growth in transaction data over the past year has been recorded for the gas station chain with ChainID [CHAINID].",
+        "Over the past year, the gas station chain bearing ChainID [CHAINID] demonstrated notable expansion in its transaction data.",
+        "Transaction data for the gas station chain, ChainID [CHAINID], grew remarkably during the last twelve months.",
+        "The chain of gas stations carrying ChainID [CHAINID] showed extraordinary growth in its transaction data over the previous year.",
+        "During the past year, the gas station network labeled ChainID [CHAINID] registered significant increases in its transaction data.",
+        "Significant growth in transaction data has been observed for the gas station chain that holds ChainID [CHAINID] over the past year.",
+        "The gas station chain with ChainID [CHAINID] has, over the past year, displayed remarkable expansion in its transaction data.",
+        "In the last year, the gas station chain marked as ChainID [CHAINID] achieved notable growth in its transaction data.",
+        "Remarkable expansion of transaction data over the past year was seen in the gas station chain bearing ChainID [CHAINID].",
+        "The gas station chain (ChainID [CHAINID]) experienced a remarkable increase in its transaction data throughout the previous year.",
+        "Over the preceding twelve months, the gas station chain that has ChainID [CHAINID] recorded impressive growth in its transaction data.",
+        "A marked rise in transaction data over the past year characterizes the gas station chain with ChainID [CHAINID].",
+        "The gas station chain, identified by ChainID [CHAINID], has shown striking growth in its transaction data over the past year.",
+        "Growth in its transaction data over the past year has been remarkable for the gas station chain with ChainID [CHAINID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "chain": [
+          "chain"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "past": [
+          "past",
+          "preceding"
+        ],
+        "growth": [
+          "growth",
+          "increase",
+          "development",
+          "maturation",
+          "outgrowth",
+          "increment"
+        ],
+        "over": [
+          "over",
+          "terminated",
+          "complete",
+          "ended",
+          "concluded"
+        ],
+        "station": [
+          "station",
+          "post",
+          "place"
+        ],
+        "shown": [
+          "shown"
+        ],
+        "data": [
+          "data",
+          "information"
+        ]
+      },
+      "field_data_types": {
+        "ChainID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The gas stations located in CZE provide a crucial understanding of the country's energy distribution network.",
+      "template_pattern": "The gas stations located in [COUNTRY] provide a crucial understanding of the country's energy distribution network.",
+      "primary_data_fields": [
+        "Country"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Gas stations in [COUNTRY] offer a vital glimpse into the nation's energy distribution network.",
+        "A crucial understanding of the country's energy distribution network is supplied by the gas stations located in [COUNTRY].",
+        "In [COUNTRY], the network of gas stations furnishes essential insight into the nation's energy distribution system.",
+        "The country's energy distribution network can be comprehended through the gas stations situated in [COUNTRY].",
+        "Located in [COUNTRY], the gas stations provide indispensable knowledge of the nation's energy distribution network.",
+        "Essential insight into the country's energy distribution network is provided by the gas stations in [COUNTRY].",
+        "Through the gas stations found in [COUNTRY], one gains a critical perspective on the nation's energy distribution network.",
+        "The energy distribution network of the country is clarified by the gas stations operating in [COUNTRY].",
+        "The gas stations in [COUNTRY] deliver a fundamental understanding of the nation's energy distribution network.",
+        "A key comprehension of the country's energy distribution network stems from the gas stations positioned in [COUNTRY].",
+        "The gas stations, situated in [COUNTRY], grant a crucial view of the nation's energy distribution network.",
+        "Understanding the country's energy distribution network hinges on the gas stations located in [COUNTRY].",
+        "[COUNTRY] hosts gas stations that supply an essential grasp of the nation's energy distribution network.",
+        "The nation's energy distribution network is illuminated by the gas stations in [COUNTRY].",
+        "By examining the gas stations in [COUNTRY], one obtains a vital understanding of the country's energy distribution network."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "located": [
+          "located",
+          "situated",
+          "placed",
+          "set"
+        ],
+        "distribution": [
+          "distribution",
+          "dispersion"
+        ],
+        "understanding": [
+          "understanding",
+          "discernment"
+        ],
+        "energy": [
+          "energy",
+          "vitality",
+          "vigour",
+          "vigor"
+        ],
+        "stations": [
+          "stations"
+        ],
+        "crucial": [
+          "crucial",
+          "essential",
+          "important"
+        ],
+        "provide": [
+          "provide",
+          "furnish",
+          "supply",
+          "offer",
+          "render",
+          "cater"
+        ],
+        "network": [
+          "network",
+          "web",
+          "meshwork",
+          "net",
+          "mesh"
+        ]
+      },
+      "field_data_types": {
+        "Country": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Segment of this gas station is focused on offering Value for money, appealing to budget-conscious drivers.",
+      "template_pattern": "The Segment of this gas station is focused on offering [SEGMENT], appealing to budget-conscious drivers.",
+      "primary_data_fields": [
+        "Segment"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Segment of this gas station concentrates on delivering [SEGMENT], targeting budget-conscious drivers.",
+        "Focused on offering [SEGMENT], the Segment of this gas station seeks to attract budget-conscious drivers.",
+        "Budget-conscious drivers are appealed to by the Segment of this gas station, which is dedicated to providing [SEGMENT].",
+        "Providing [SEGMENT] is the aim of the Segment of this gas station, which caters to budget-conscious drivers.",
+        "The Segment of this gas station is dedicated to [SEGMENT] and aims at budget-conscious drivers.",
+        "[SEGMENT] is what the Segment of this gas station emphasizes, appealing to budget-conscious drivers.",
+        "Targeting budget-conscious drivers, the Segment of this gas station focuses on [SEGMENT].",
+        "In this gas station, the Segment prioritizes [SEGMENT], appealing to budget-conscious drivers.",
+        "The Segment of this gas station, aimed at budget-conscious drivers, centers on [SEGMENT].",
+        "[SEGMENT] drives the focus of the Segment of this gas station, which seeks budget-conscious drivers.",
+        "The Segment of this gas station offers [SEGMENT], specifically for budget-conscious drivers.",
+        "For budget-conscious drivers, the Segment of this gas station provides [SEGMENT].",
+        "[SEGMENT] is the core focus of the Segment of this gas station, attracting budget-conscious drivers.",
+        "The Segment of this gas station has a focus on [SEGMENT] and appeals to budget-conscious drivers.",
+        "Budget-conscious drivers are the target of the Segment of this gas station, which is focused on [SEGMENT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "focused": [
+          "focused",
+          "focussed"
+        ],
+        "offering": [
+          "offering",
+          "offer",
+          "tender",
+          "bid"
+        ],
+        "budget": [
+          "budget"
+        ],
+        "drivers": [
+          "drivers"
+        ],
+        "station": [
+          "station",
+          "post",
+          "place"
+        ],
+        "appealing": [
+          "appealing",
+          "likeable",
+          "likable"
+        ],
+        "conscious": [
+          "conscious"
+        ]
+      },
+      "field_data_types": {
+        "Segment": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

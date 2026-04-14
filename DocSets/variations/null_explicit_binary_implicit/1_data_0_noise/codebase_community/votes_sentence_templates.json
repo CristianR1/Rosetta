@@ -1,0 +1,428 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "faaefc63e09041e1": "Id",
+    "dc065187675c48bf": "PostId",
+    "9bcc08110c174fec": "VoteTypeId",
+    "7ad77ae1d07142b0": "CreationDate",
+    "33d807cb34934bb0": "UserId",
+    "b9a1e165544b48c9": "BountyAmount"
+  },
+  "templates": [
+    {
+      "original": "The discussion on programming techniques in PostId 3 sparked a lively debate among community members, drawing numerous comments and votes.",
+      "template_pattern": "The discussion on programming techniques in PostId [POSTID] sparked a lively debate among community members, drawing numerous comments and votes.",
+      "primary_data_fields": [
+        "PostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The conversation about programming techniques featured in PostId [POSTID] ignited a spirited debate among community members, drawing numerous comments and votes.",
+        "In PostId [POSTID], a discussion on programming techniques sparked a vibrant exchange within the community, drawing numerous comments and votes.",
+        "Community members rallied around the programming techniques debate in PostId [POSTID], which generated a lively discourse and drew numerous comments and votes.",
+        "A lively debate among community members was triggered by the programming techniques discussion in PostId [POSTID], drawing numerous comments and votes.",
+        "The programming techniques thread in PostId [POSTID] provoked a bustling debate among community members, pulling in numerous comments and votes.",
+        "Thanks to the programming techniques discussion in PostId [POSTID], community members engaged in a heated debate that amassed numerous comments and votes.",
+        "PostId [POSTID]’s focus on programming techniques set off a vigorous debate among community members, prompting an influx of numerous comments and votes.",
+        "Among community members, the programming techniques dialogue in PostId [POSTID] sparked a lively argument, leading to numerous comments and votes.",
+        "The lively debate that erupted among community members stemmed from the programming techniques discussion in PostId [POSTID], which attracted numerous comments and votes.",
+        "A spirited exchange among community members was sparked by the programming techniques discussion recorded in PostId [POSTID], resulting in numerous comments and votes.",
+        "The programming techniques conversation captured in PostId [POSTID] sparked a dynamic debate among community members, drawing numerous comments and votes.",
+        "In the realm of PostId [POSTID], the programming techniques discussion ignited a fervent debate among community members, garnering numerous comments and votes.",
+        "Community members’ debate over programming techniques in PostId [POSTID] was lively, pulling in numerous comments and votes.",
+        "The debate that flared among community members over programming techniques in PostId [POSTID] generated numerous comments and votes.",
+        "Programming techniques discussed in PostId [POSTID] led to a lively community debate, which in turn attracted numerous comments and votes."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "community": [
+          "community"
+        ],
+        "discussion": [
+          "discussion",
+          "discourse",
+          "treatment"
+        ],
+        "techniques": [
+          "techniques"
+        ],
+        "drawing": [
+          "drawing",
+          "draft",
+          "drafting"
+        ],
+        "members": [
+          "members"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "sparked": [
+          "sparked"
+        ],
+        "numerous": [
+          "numerous"
+        ]
+      },
+      "field_data_types": {
+        "PostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The VoteTypeId of 2 is used to categorize specific voting actions in the community content.",
+      "template_pattern": "The VoteTypeId of [VOTETYPEID] is used to categorize specific voting actions in the community content.",
+      "primary_data_fields": [
+        "VoteTypeId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A VoteTypeId of [VOTETYPEID] serves to classify particular voting actions within community content.",
+        "Specific voting actions in the community content are categorized by the VoteTypeId of [VOTETYPEID].",
+        "Community content uses the VoteTypeId of [VOTETYPEID] to label certain voting actions.",
+        "The voting actions that occur in community content are grouped under VoteTypeId [VOTETYPEID].",
+        "To sort distinct voting actions in community content, the system applies VoteTypeId [VOTETYPEID].",
+        "VoteTypeId [VOTETYPEID] is employed for categorizing particular voting actions found in community content.",
+        "In community content, the VoteTypeId set to [VOTETYPEID] identifies specific voting actions.",
+        "Categorization of specific voting actions in the community content relies on VoteTypeId [VOTETYPEID].",
+        "The identifier VoteTypeId with a value of [VOTETYPEID] classifies certain voting actions inside community content.",
+        "For the purpose of grouping specific voting actions, the community content utilizes VoteTypeId [VOTETYPEID].",
+        "Specific voting actions are assigned to VoteTypeId [VOTETYPEID] within the community content.",
+        "Within community content, VoteTypeId [VOTETYPEID] functions to categorize particular voting actions.",
+        "The community content applies VoteTypeId [VOTETYPEID] to tag specific voting actions.",
+        "VoteTypeId [VOTETYPEID] acts as the categorization code for certain voting actions in community content.",
+        "To designate particular voting actions in the community content, the platform uses VoteTypeId [VOTETYPEID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "specific": [
+          "specific",
+          "particular"
+        ],
+        "community": [
+          "community"
+        ],
+        "voting": [
+          "voting",
+          "balloting"
+        ],
+        "actions": [
+          "actions"
+        ],
+        "categorize": [
+          "categorize",
+          "categorise"
+        ],
+        "used": [
+          "used"
+        ],
+        "content": [
+          "content",
+          "subject",
+          "substance"
+        ]
+      },
+      "field_data_types": {
+        "VoteTypeId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On 2010-07-19, Jane made her mark by casting a vote, marking an important event in the platform's CreationDate records.",
+      "template_pattern": "On [CREATIONDATE], Jane made her mark by casting a vote, marking an important event in the platform's CreationDate records.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Jane recorded her influence on [CREATIONDATE] when she cast a vote, an event noted in the platform's CreationDate records.",
+        "The platform's CreationDate records note that on [CREATIONDATE] Jane cast a vote, marking a significant moment.",
+        "On [CREATIONDATE], a vote was cast by Jane, highlighting a key entry in the platform's CreationDate records.",
+        "A pivotal entry in the platform's CreationDate records dates back to [CREATIONDATE], when Jane exercised her voting right.",
+        "Jane's vote on [CREATIONDATE] is logged as an important milestone within the platform's CreationDate records.",
+        "The act of Jane voting on [CREATIONDATE] is captured as a notable event in the platform's CreationDate records.",
+        "In the platform's CreationDate records, the date [CREATIONDATE] marks when Jane cast her vote, signifying an important occurrence.",
+        "On [CREATIONDATE], a vote was recorded by Jane, constituting a significant entry in the platform's CreationDate records.",
+        "Jane's voting action on [CREATIONDATE] is documented as a crucial event in the platform's CreationDate records.",
+        "The platform's CreationDate records reflect that on [CREATIONDATE] Jane made a vote, an event of importance.",
+        "A vote by Jane on [CREATIONDATE] is listed in the platform's CreationDate records as an important incident.",
+        "On [CREATIONDATE], the platform's CreationDate records were updated with Jane's vote, marking a noteworthy moment.",
+        "Jane contributed her vote on [CREATIONDATE], an episode recorded in the platform's CreationDate records.",
+        "The date [CREATIONDATE] sees Jane casting a vote, an entry that stands out in the platform's CreationDate records.",
+        "Within the platform's CreationDate records, Jane's vote on [CREATIONDATE] is highlighted as a significant event."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "casting": [
+          "casting",
+          "molding",
+          "mold",
+          "mould",
+          "cast"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "important": [
+          "important",
+          "crucial",
+          "significant"
+        ],
+        "made": [
+          "made",
+          "built",
+          "constructed",
+          "established",
+          "created",
+          "prepared"
+        ],
+        "jane": [
+          "jane"
+        ],
+        "marking": [
+          "marking",
+          "label",
+          "tag",
+          "note",
+          "grading",
+          "scoring"
+        ],
+        "mark": [
+          "mark",
+          "marker",
+          "note",
+          "tag",
+          "print",
+          "scratch"
+        ],
+        "records": [
+          "records",
+          "record",
+          "tape",
+          "disc",
+          "disk",
+          "book"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The unique identifier for tracking this user's voting and rating activities is NULL.",
+      "template_pattern": "The unique identifier for tracking this user's voting and rating activities is [USERID].",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the technology data report, the User Id given to this person is the numeric value [USERID], indicating a unique entity.",
+        "The numeric value [USERID] serves as the User Id for this individual in the technology data report, signifying a distinct entity.",
+        "Within the technology data report, this individual's User Id is assigned the number [USERID], denoting a separate entity.",
+        "Assigned as [USERID], the User Id for this individual appears in the technology data report, marking a distinct entity.",
+        "This individual's User Id, as recorded in the technology data report, equals the numeric value [USERID] and represents a unique entity.",
+        "The technology data report lists the User Id of this person as the number [USERID], which denotes a distinct entity.",
+        "For this individual, the User Id is set to [USERID] in the technology data report, thereby indicating a separate entity.",
+        "In the context of the technology data report, the User Id assigned to this individual equals [USERID], denoting a distinct entity.",
+        "The User Id—[USERID]—assigned to this individual appears in the technology data report, signifying a unique entity.",
+        "According to the technology data report, this individual's User Id is the numeric value [USERID], denoting a distinct entity.",
+        "This individual's User Id, recorded as [USERID] within the technology data report, denotes a distinct entity.",
+        "The technology data report assigns the User Id [USERID] to this individual, indicating a separate entity.",
+        "Marked as [USERID], the User Id for this individual is documented in the technology data report, denoting a distinct entity.",
+        "Within the technology data report, the User Id for this individual is the numeric value [USERID], which signifies a distinct entity.",
+        "The User Id of this individual, as shown in the technology data report, is the number [USERID], representing a distinct entity."
+      ],
+      "counter_variations": [
+        "The unique identifier that records the voting and rating behavior for the User Id is NULL.",
+        "A NULL value serves as the sole reference key for tracking the User Id’s voting and rating actions.",
+        "In this data report, the User Id is linked to voting and rating metrics through the identifier NULL.",
+        "For the purpose of monitoring the User Id’s voting and rating activity, the system employs NULL as the unique key.",
+        "NULL functions as the exclusive identifier that ties the User Id to its voting and rating records.",
+        "Tracking the voting and rating history of the User Id relies on the identifier designated as NULL.",
+        "The identifier NULL is assigned to the User Id to capture all associated voting and rating events.",
+        "When cataloguing the User Id’s voting and rating interactions, the report designates NULL as the unique identifier.",
+        "The User Id’s voting and rating activities are indexed under the identifier NULL.",
+        "Utilizing NULL as the unique key, the system maps the User Id to its complete voting and rating dataset.",
+        "The data schema assigns NULL to the User Id, thereby linking it to every voting and rating transaction.",
+        "Through the identifier NULL, the User Id’s voting and rating activities are systematically recorded.",
+        "NULL is the singular reference used to bind the User Id with its voting and rating activity log.",
+        "In this technological audit, the User Id is associated with a NULL identifier for all voting and rating entries.",
+        "The voting and rating profile of the User Id is anchored by the unique identifier NULL."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "voting": [
+          "voting",
+          "balloting",
+          "vote"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequaled",
+          "unequalled",
+          "unparalleled"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "user": [
+          "user"
+        ],
+        "rating": [
+          "rating",
+          "evaluation",
+          "value",
+          "grade",
+          "rank",
+          "rate"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The bounty amount for this programming challenge is NULL.",
+      "template_pattern": "The bounty amount for this programming challenge is [BOUNTYAMOUNT].",
+      "primary_data_fields": [
+        "BountyAmount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For this technology data report, the Bounty Amount is set at [BOUNTYAMOUNT], indicating the incentive allotted to participants.",
+        "The technology data report assigns a Bounty Amount of [BOUNTYAMOUNT], which represents the reward designated for participants.",
+        "Participants in this technology data report will receive a Bounty Amount of [BOUNTYAMOUNT], reflecting the allocated incentive.",
+        "A Bounty Amount of [BOUNTYAMOUNT] has been specified for this technology data report, denoting the incentive provided to participants.",
+        "In this technology data report, the Bounty Amount has been defined as [BOUNTYAMOUNT], mirroring the reward earmarked for participants.",
+        "[BOUNTYAMOUNT] is the Bounty Amount indicated for this technology data report, embodying the incentive assigned to participants.",
+        "The technology data report outlines a Bounty Amount of [BOUNTYAMOUNT], which serves as the participants’ allocated reward.",
+        "This technology data report lists [BOUNTYAMOUNT] as the Bounty Amount, representing the incentive set aside for participants.",
+        "The Bounty Amount, noted as [BOUNTYAMOUNT], applies to this technology data report and reflects the participants’ allotted incentive.",
+        "Within the technology data report, the Bounty Amount is precisely [BOUNTYAMOUNT], signifying the reward granted to participants.",
+        "A precise Bounty Amount of [BOUNTYAMOUNT] is recorded for this technology data report, illustrating the incentive for participants.",
+        "For participants, the technology data report designates [BOUNTYAMOUNT] as the Bounty Amount, embodying the allocated incentive.",
+        "The designated Bounty Amount for this technology data report equals [BOUNTYAMOUNT], echoing the incentive intended for participants.",
+        "In the context of this technology data report, the Bounty Amount stands at [BOUNTYAMOUNT], reflecting the reward allocated to participants.",
+        "[BOUNTYAMOUNT] constitutes the Bounty Amount specified in this technology data report, indicating the incentive provided to participants."
+      ],
+      "counter_variations": [
+        "According to the latest technology data report, the Bounty Amount associated with this programming challenge is recorded as null.",
+        "In the context of this coding contest, the Bounty Amount has been designated null, reflecting the current data state.",
+        "The Bounty Amount for the present programming challenge, as documented in the system, is null.",
+        "While reviewing the challenge metrics, analysts note that the Bounty Amount remains null.",
+        "Despite extensive evaluation, the Bounty Amount for this software development task is still null.",
+        "The dataset indicates that the Bounty Amount pertaining to this programming challenge is null.",
+        "Our technical audit reveals that the Bounty Amount assigned to this coding problem is null.",
+        "Within the compiled report, the Bounty Amount for the current programming challenge appears as null.",
+        "The Bounty Amount, as it pertains to this programming challenge, has been set to null in the database.",
+        "For this particular programming challenge, the Bounty Amount is presently null, according to the data log.",
+        "Examination of the challenge’s metadata shows the Bounty Amount listed as null.",
+        "The recorded Bounty Amount for this coding competition is null, as per the latest data extraction.",
+        "In the system’s ledger, the Bounty Amount allocated to this programming challenge is null.",
+        "Analysis of the technical report confirms that the Bounty Amount for this programming challenge is null.",
+        "The Bounty Amount for this programming challenge, when queried, returns null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "bounty": [
+          "bounty",
+          "bountifulness"
+        ],
+        "challenge": [
+          "challenge"
+        ]
+      },
+      "field_data_types": {
+        "BountyAmount": "null"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Id assigned to this technology data entry is 1, signifying its unique identifier within the report framework.",
+      "template_pattern": "The system assigns each device a unique Id, displayed here as [ID], to ensure accurate tracking across the network.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The system assigns each device a unique Id, displayed here as [ID], to ensure accurate tracking across the network.",
+        "Each device receives a unique Id from the system, shown as [ID] here, to maintain precise tracking across the network.",
+        "A unique Id is allocated to every device by the system, with the identifier shown as [ID], to guarantee accurate tracking throughout the network.",
+        "To provide reliable tracking across the network, the system issues a unique Id to each device, which appears here as [ID].",
+        "The system issues a unique Id for each device, presented as [ID] in this view, ensuring accurate tracking across the network.",
+        "By assigning a unique Id—displayed as [ID]—to each device, the system facilitates accurate tracking across the network.",
+        "Each device is given a unique Id by the system, the value shown here as [ID], to support accurate tracking throughout the network.",
+        "For accurate tracking across the network, the system tags every device with a unique Id, displayed here as [ID].",
+        "The system tags each device with a unique Id, which you can see as [ID] here, to secure precise tracking across the network.",
+        "To achieve precise tracking across the network, each device receives a unique Id from the system, displayed here as [ID].",
+        "A unique Id, shown as [ID] in this report, is assigned by the system to each device to enable accurate tracking across the network.",
+        "The system's assignment of a unique Id—displayed here as [ID]—to each device ensures accurate tracking across the network.",
+        "Each device gets a unique Id from the system; the identifier appears here as [ID], guaranteeing accurate tracking across the network.",
+        "To maintain accurate tracking across the network, the system allocates a unique Id to each device, which is displayed here as [ID].",
+        "The system provides each device with a unique Id, presented as [ID] in this view, to assure accurate tracking across the network."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "assigns": [
+          "assigns"
+        ],
+        "here": [
+          "here"
+        ],
+        "ensure": [
+          "ensure",
+          "guarantee",
+          "secure",
+          "assure"
+        ],
+        "system": [
+          "system",
+          "organization",
+          "organisation",
+          "arrangement"
+        ],
+        "accurate": [
+          "accurate",
+          "precise",
+          "exact"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "displayed": [
+          "displayed"
+        ],
+        "unique": [
+          "unique",
+          "unequalled",
+          "unparalleled",
+          "unequaled",
+          "singular"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

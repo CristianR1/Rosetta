@@ -1,0 +1,236 @@
+{
+  "document_context": "business data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4a36cc06edc94ff3": "client_id",
+    "4443a88e8d764757": "gender",
+    "499c17df6d52442b": "birth_date",
+    "2775e4268f654977": "district_id"
+  },
+  "templates": [
+    {
+      "original": "The client_id is 1.",
+      "template_pattern": "The client_id is [CLIENT_ID].",
+      "primary_data_fields": [
+        "client_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The client id is [CLIENT_ID].",
+        "Client id equals [CLIENT_ID].",
+        "According to the report, the client id stands at [CLIENT_ID].",
+        "The value assigned to client id is [CLIENT_ID].",
+        "[CLIENT_ID] is the client id.",
+        "In this dataset, client id has the value [CLIENT_ID].",
+        "Client id was set to [CLIENT_ID].",
+        "The client id reads [CLIENT_ID].",
+        "For this entry, the client id amounts to [CLIENT_ID].",
+        "As noted, client id is [CLIENT_ID].",
+        "The client id registers as [CLIENT_ID].",
+        "Client id: [CLIENT_ID].",
+        "The recorded client id is [CLIENT_ID].",
+        "It turns out that client id equals [CLIENT_ID].",
+        "The client id has been identified as [CLIENT_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "client_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The customer, identified as F, participated in a study to help better tailor financial services to her demographic needs.",
+      "template_pattern": "The customer, identified as [GENDER], participated in a study to help better tailor financial services to her demographic needs.",
+      "primary_data_fields": [
+        "gender"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The customer labeled [GENDER] took part in a study aimed at more precisely customizing financial services for her demographic needs.",
+        "Identified as [GENDER], the customer participated in a research project designed to fine‑tune financial services to her demographic requirements.",
+        "In order to better adapt financial services to her demographic needs, the customer—known as [GENDER]—joined the study.",
+        "A study was joined by the customer, identified as [GENDER], to improve the tailoring of financial services to her demographic needs.",
+        "The customer, with the identifier [GENDER], engaged in a study intended to enhance how financial services meet her demographic needs.",
+        "[GENDER], the customer, contributed to a study that seeks to better align financial services with her demographic needs.",
+        "Participating in a study, the customer identified as [GENDER] helped refine financial services to suit her demographic needs.",
+        "The study, which aimed to better tailor financial services to her demographic needs, included the customer identified as [GENDER].",
+        "By joining the study, the customer—[GENDER]—assisted in customizing financial services more closely to her demographic needs.",
+        "The customer, [GENDER], was involved in a study to more effectively shape financial services around her demographic needs.",
+        "Through participation in a study, the customer known as [GENDER] worked toward improving the fit of financial services to her demographic needs.",
+        "[GENDER], acting as the customer, took part in a study to better match financial services with her demographic needs.",
+        "In a bid to better tailor financial services to her demographic needs, the customer identified as [GENDER] participated in the study.",
+        "The study enlisted the customer, identified as [GENDER], to help better adjust financial services for her demographic needs.",
+        "Having been identified as [GENDER], the customer joined a study that aims to more accurately tailor financial services to her demographic needs."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "participated": [
+          "participated"
+        ],
+        "study": [
+          "study",
+          "field",
+          "survey",
+          "discipline",
+          "subject"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "better": [
+          "better"
+        ],
+        "tailor": [
+          "tailor"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "help": [
+          "help",
+          "aid",
+          "assist",
+          "facilitate"
+        ],
+        "demographic": [
+          "demographic"
+        ]
+      },
+      "field_data_types": {
+        "gender": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Born on 1970-12-13, the customer provides insight into age-related preferences that help tailor financial services effectively.",
+      "template_pattern": "Born on [BIRTH_DATE], the customer provides insight into age-related preferences that help tailor financial services effectively.",
+      "primary_data_fields": [
+        "birth_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The customer's birth date [BIRTH_DATE] offers insight into age‑related preferences that enable effective tailoring of financial services.",
+        "With a birth date [BIRTH_DATE], this client supplies valuable data on generational tastes, guiding the customization of financial solutions.",
+        "Age‑related preferences are illuminated by the birth date [BIRTH_DATE] of the customer, facilitating the precise adjustment of financial offerings.",
+        "Insights into the client’s age‑based likes stem from the birth date [BIRTH_DATE], allowing financial services to be tailored efficiently.",
+        "Because the birth date [BIRTH_DATE] is recorded, the customer contributes knowledge of age‑specific preferences that shape financial service design.",
+        "The birth date [BIRTH_DATE] of the customer reveals patterns in age‑related choices, helping to fine‑tune financial products.",
+        "Financial services are effectively customized thanks to the customer’s birth date [BIRTH_DATE], which highlights age‑related preferences.",
+        "By noting the birth date [BIRTH_DATE], the client provides clues about generational preferences that inform tailored financial solutions.",
+        "The client’s birth date [BIRTH_DATE] informs analysts about age‑related inclinations, supporting the precise tailoring of financial services.",
+        "Given the birth date [BIRTH_DATE], the customer supplies essential insight into age‑related tastes, allowing financial offerings to be customized.",
+        "The recorded birth date [BIRTH_DATE] helps the customer shed light on age‑specific preferences, which in turn refine financial service delivery.",
+        "Through the birth date [BIRTH_DATE], the customer contributes understanding of age‑linked preferences, enabling effective financial service personalization.",
+        "Since the birth date [BIRTH_DATE] is known, the client’s age‑related preferences can be leveraged to tailor financial services appropriately.",
+        "The presence of birth date [BIRTH_DATE] in the data set lets the customer reveal age‑related preferences that drive customized financial solutions.",
+        "With birth date [BIRTH_DATE] as a reference, the customer provides insight into generational preferences, helping to shape financial services effectively."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "into": [
+          "into"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "related": [
+          "related"
+        ],
+        "preferences": [
+          "preferences"
+        ],
+        "tailor": [
+          "tailor"
+        ],
+        "provides": [
+          "provides"
+        ],
+        "help": [
+          "help",
+          "assist",
+          "aid",
+          "facilitate",
+          "serve"
+        ],
+        "effectively": [
+          "effectively",
+          "efficaciously"
+        ]
+      },
+      "field_data_types": {
+        "birth_date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The school district identified by district_id 18 has implemented new strategies to enhance its educational services.",
+      "template_pattern": "The school district identified by district_id [DISTRICT_ID] has implemented new strategies to enhance its educational services.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The school district designated by district id [DISTRICT_ID] has introduced new strategies to boost its educational services.",
+        "New strategies have been adopted by the school district bearing district id [DISTRICT_ID] to strengthen its educational services.",
+        "With district id [DISTRICT_ID], the school district has deployed new strategies aimed at enhancing its educational services.",
+        "To improve its educational services, the school district identified by district id [DISTRICT_ID] rolled out new strategies.",
+        "The school district (district id [DISTRICT_ID]) is now implementing new strategies to upgrade its educational services.",
+        "New strategies are being implemented by the school district that carries district id [DISTRICT_ID] to elevate its educational services.",
+        "By means of district id [DISTRICT_ID], the school district has launched new strategies to refine its educational services.",
+        "The school district, which holds district id [DISTRICT_ID], has put into action new strategies to better its educational services.",
+        "In an effort to enhance its educational services, the school district marked with district id [DISTRICT_ID] has adopted new strategies.",
+        "The district identified as district id [DISTRICT_ID] in the school system has begun using new strategies to improve its educational services.",
+        "New strategies have been put forward by the school district having district id [DISTRICT_ID] to augment its educational services.",
+        "The school district—district id [DISTRICT_ID]—has begun applying new strategies to raise the quality of its educational services.",
+        "To raise its educational services, the school district with district id [DISTRICT_ID] has embraced new strategies.",
+        "The school district that carries district id [DISTRICT_ID] is now employing new strategies to advance its educational services.",
+        "Implementing new strategies, the school district identified by district id [DISTRICT_ID] seeks to enhance its educational services."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "educational": [
+          "educational"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ],
+        "implemented": [
+          "implemented"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "district": [
+          "district",
+          "zone",
+          "territory"
+        ],
+        "school": [
+          "school",
+          "schoolhouse",
+          "schooling"
+        ],
+        "strategies": [
+          "strategies"
+        ],
+        "services": [
+          "services"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

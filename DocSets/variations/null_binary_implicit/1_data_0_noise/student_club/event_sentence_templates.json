@@ -1,0 +1,513 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "aab5215c34584b67": "event_id",
+    "d9f17d244b5147f0": "event_name",
+    "58621f3532174a87": "event_date",
+    "7cf4c7f169d1405b": "type",
+    "aaa61fe1bbfd4e40": "notes",
+    "1b97fb6de2a24aad": "location",
+    "d6326342b88e4d7f": "status"
+  },
+  "templates": [
+    {
+      "original": "The event_id rec0Si5cQ4rJRVzd6 ensures seamless management of activities during club events.",
+      "template_pattern": "The event_id [EVENT_ID] ensures seamless management of activities during club events.",
+      "primary_data_fields": [
+        "event_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The event id [EVENT_ID] guarantees smooth coordination of activities throughout club events.",
+        "Seamless handling of activities at club events is provided by the event id [EVENT_ID].",
+        "During club events, the event id [EVENT_ID] delivers flawless activity management.",
+        "Activity management becomes seamless during club events thanks to event id [EVENT_ID].",
+        "With event id [EVENT_ID], clubs can manage their event activities without interruption.",
+        "The club’s event activities are overseen seamlessly by event id [EVENT_ID].",
+        "Event id [EVENT_ID] ensures that activities at club events are managed without a hitch.",
+        "By using event id [EVENT_ID], clubs achieve flawless management of event activities.",
+        "Smooth administration of activities during club events is assured by the event id [EVENT_ID].",
+        "The presence of event id [EVENT_ID] guarantees that club event activities run seamlessly.",
+        "Club event activities are handled seamlessly when the event id [EVENT_ID] is applied.",
+        "Through event id [EVENT_ID], seamless management of club event activities is attained.",
+        "The event id [EVENT_ID] makes it possible to manage club event activities smoothly.",
+        "Seamless coordination of activities in club events is made possible by event id [EVENT_ID].",
+        "When the event id [EVENT_ID] is in place, clubs experience flawless activity management during events."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activities": [
+          "activities"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "events": [
+          "events"
+        ],
+        "during": [
+          "during"
+        ],
+        "seamless": [
+          "seamless"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "society",
+          "order",
+          "lodge"
+        ],
+        "ensures": [
+          "ensures"
+        ]
+      },
+      "field_data_types": {
+        "event_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club is eagerly preparing for the upcoming March Meeting, ensuring all members are informed and ready to participate.",
+      "template_pattern": "The student club is eagerly preparing for the upcoming [EVENT_NAME], ensuring all members are informed and ready to participate.",
+      "primary_data_fields": [
+        "event_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club is eagerly preparing for the upcoming [EVENT_NAME], ensuring all members are informed and ready to participate.",
+        "Eagerly, the student club is getting ready for the upcoming [EVENT_NAME], making sure every member knows the details and is set to join.",
+        "The upcoming [EVENT_NAME] is being vigorously prepared for by the student club, which guarantees that all members are briefed and prepared to engage.",
+        "All members are being kept in the loop and primed to take part as the student club eagerly readies itself for the upcoming [EVENT_NAME].",
+        "With enthusiasm, the student club readies for the upcoming [EVENT_NAME], confirming that each member is informed and ready to participate.",
+        "Preparation for the upcoming [EVENT_NAME] is underway, led by the student club, which ensures all members are aware and prepared to get involved.",
+        "The student club, eager to succeed, is organizing the upcoming [EVENT_NAME] while informing every member and confirming their readiness to participate.",
+        "For the upcoming [EVENT_NAME], the student club is actively preparing, guaranteeing that all participants are notified and set to take part.",
+        "All members have been briefed and are prepared to join as the student club works eagerly toward the upcoming [EVENT_NAME].",
+        "The upcoming [EVENT_NAME] sees the student club in eager preparation mode, with every member kept informed and ready for participation.",
+        "Eagerness drives the student club's preparation for the upcoming [EVENT_NAME], ensuring that each member receives the information needed and is ready to engage.",
+        "In anticipation of the upcoming [EVENT_NAME], the student club is diligently preparing, making certain that all members are both informed and prepared to take part.",
+        "The student club's enthusiastic preparation for the upcoming [EVENT_NAME] includes informing all members and confirming their readiness to participate.",
+        "As the upcoming [EVENT_NAME] approaches, the student club eagerly ensures all members are fully informed and prepared to participate.",
+        "The upcoming [EVENT_NAME] is being prepared for with great eagerness by the student club, which keeps every member informed and ready to join."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "preparing": [
+          "preparing"
+        ],
+        "members": [
+          "members"
+        ],
+        "eagerly": [
+          "eagerly"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "upcoming": [
+          "upcoming",
+          "forthcoming",
+          "approaching",
+          "coming"
+        ],
+        "informed": [
+          "informed"
+        ],
+        "ready": [
+          "ready",
+          "set"
+        ]
+      },
+      "field_data_types": {
+        "event_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The club event is scheduled to begin precisely at event_date 2020-03-10T12:00:00, marking an important day for our student organization.",
+      "template_pattern": "The club event is scheduled to begin precisely at event_date [EVENT_DATE], marking an important day for our student organization.",
+      "primary_data_fields": [
+        "event_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The club event will kick off exactly at event date [EVENT_DATE], signifying a significant day for our student organization.",
+        "Precisely at event date [EVENT_DATE], the club event is set to start, highlighting an important day for our student organization.",
+        "An important day for our student organization is marked by the club event beginning at event date [EVENT_DATE].",
+        "Scheduled to commence at event date [EVENT_DATE], the club event underscores a key day for our student organization.",
+        "Our student organization regards the club event, which starts at event date [EVENT_DATE], as an important day.",
+        "At event date [EVENT_DATE], the club event is slated to begin, marking a notable day for our student organization.",
+        "The club event, slated for an important day, will begin precisely at event date [EVENT_DATE] for our student organization.",
+        "Marked as a crucial day for our student organization, the club event is programmed to start at event date [EVENT_DATE].",
+        "For our student organization, the club event commences at event date [EVENT_DATE], indicating an important day.",
+        "The start time of the club event is set for event date [EVENT_DATE], highlighting an important day for our student organization.",
+        "Event date [EVENT_DATE] signals the precise beginning of the club event, a day of significance for our student organization.",
+        "Our student organization notes that the club event will begin at event date [EVENT_DATE], marking an important day.",
+        "The club event is planned to launch at event date [EVENT_DATE], underscoring an important day for our student organization.",
+        "At the exact moment of event date [EVENT_DATE], the club event will start, denoting a key day for our student organization.",
+        "The club event’s commencement is fixed for event date [EVENT_DATE], representing an important day for our student organization."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "precisely": [
+          "precisely",
+          "exactly",
+          "just"
+        ],
+        "marking": [
+          "marking",
+          "score",
+          "mark",
+          "grading",
+          "grade",
+          "note"
+        ],
+        "event": [
+          "event",
+          "case"
+        ],
+        "important": [
+          "important",
+          "significant",
+          "crucial"
+        ],
+        "organization": [
+          "organization",
+          "administration",
+          "establishment",
+          "governance",
+          "system",
+          "arrangement"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "begin": [
+          "begin",
+          "start",
+          "commence"
+        ],
+        "scheduled": [
+          "scheduled"
+        ]
+      },
+      "field_data_types": {
+        "event_date": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club organized a Meeting to discuss upcoming events and enhance the engagement of its members.",
+      "template_pattern": "The student club organized a [TYPE] to discuss upcoming events and enhance the engagement of its members.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A [TYPE] was organized by the student club to discuss upcoming events and enhance the engagement of its members.",
+        "To discuss upcoming events and enhance the engagement of its members, the student club arranged a [TYPE].",
+        "The student club set up a [TYPE] to discuss upcoming events and enhance the engagement of its members.",
+        "For discussing upcoming events and to enhance the engagement of its members, a [TYPE] was convened by the student club.",
+        "A [TYPE], organized by the student club, was held to discuss upcoming events and enhance the engagement of its members.",
+        "The student club's [TYPE] aimed to discuss upcoming events and to enhance the engagement of its members.",
+        "The student club's [TYPE] was held to discuss upcoming events and enhance the engagement of its members.",
+        "In order to discuss upcoming events and enhance the engagement of its members, the student club organized a [TYPE].",
+        "To enhance the engagement of its members and discuss upcoming events, the student club scheduled a [TYPE].",
+        "A [TYPE] was scheduled by the student club to discuss upcoming events and enhance the engagement of its members.",
+        "The purpose of the student club's [TYPE] was to discuss upcoming events and enhance the engagement of its members.",
+        "By organizing a [TYPE], the student club intended to discuss upcoming events and enhance the engagement of its members.",
+        "The student club organized a [TYPE], intending to discuss upcoming events and enhance the engagement of its members.",
+        "To discuss upcoming events and enhance the engagement of its members, a [TYPE] was organized by the student club.",
+        "The student club arranged a [TYPE] to discuss upcoming events and enhance the engagement of its members."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "events": [
+          "events"
+        ],
+        "organized": [
+          "organized",
+          "organised"
+        ],
+        "members": [
+          "members"
+        ],
+        "discuss": [
+          "discuss"
+        ],
+        "engagement": [
+          "engagement",
+          "employment",
+          "booking",
+          "appointment",
+          "participation",
+          "involvement"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "upcoming": [
+          "upcoming",
+          "coming",
+          "forthcoming",
+          "approaching"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Additional observations related to the club event were not provided.",
+      "template_pattern": "Additional observations related to the club event were [NOTES].",
+      "primary_data_fields": [
+        "notes"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Notes reveal that [NOTES] and this schedule controls the election process.",
+        "According to notes, [NOTES] and that timing directs how the election process is conducted.",
+        "The notes state that [NOTES] which in turn governs the election process.",
+        "In the notes it is recorded that [NOTES] and this timeframe dictates the election process.",
+        "Notes indicate the following: [NOTES] and such timing regulates the election process.",
+        "From the notes we learn that [NOTES] and this period governs how the election process works.",
+        "The notes mention that [NOTES] and that window governs the election process.",
+        "According to the notes, [NOTES] and this interval controls the election process.",
+        "Notes assert that [NOTES] and this timing oversees the election process.",
+        "The notes convey that [NOTES] and this time span governs the election process.",
+        "Notes document that [NOTES] and this specific timing directs the election process.",
+        "In the notes it is noted that [NOTES] and this schedule governs the election process.",
+        "The notes highlight that [NOTES] and this period controls the election process.",
+        "Notes specify that [NOTES] and this timing governs the election process.",
+        "According to notes, [NOTES] and this allotted time governs the election process."
+      ],
+      "counter_variations": [
+        "In the notes section, additional observations concerning the club event are not provided.",
+        "The notes field indicates that supplementary observations related to the club event were not provided.",
+        "According to notes, further observations about the club event remain not provided.",
+        "Notes: additional observations pertaining to the club event are not provided.",
+        "Within notes, extra remarks on the club event are listed as not provided.",
+        "The dataset’s notes record that further observations linked to the club event were not provided.",
+        "As recorded in notes, supplementary observations for the club event are not provided.",
+        "Notes reveal that any additional observations about the club event are not provided.",
+        "In notes, the entry for extra observations concerning the club event states they are not provided.",
+        "The notes column specifies that further observations relating to the club event were not provided.",
+        "Notes specify that additional observations tied to the club event are not provided.",
+        "According to the notes entry, extra observations regarding the club event are not provided.",
+        "The notes documentation shows that supplementary observations of the club event were not provided.",
+        "Notes indicate that any further observations connected with the club event are not provided.",
+        "Within the notes, additional observations about the club event are reported as not provided."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "observations": [
+          "observations"
+        ],
+        "provided": [
+          "provided"
+        ],
+        "event": [
+          "event"
+        ],
+        "additional": [
+          "additional",
+          "extra"
+        ],
+        "related": [
+          "related"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "lodge",
+          "society",
+          "order"
+        ]
+      },
+      "field_data_types": {
+        "notes": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student club has organized its next event to take place in MU 215, ensuring a convenient and accessible location for all attendees.",
+      "template_pattern": "The student club has organized its next event to take place in [LOCATION], ensuring a convenient and accessible location for all attendees.",
+      "primary_data_fields": [
+        "location"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student club has scheduled its next event for [LOCATION], providing a convenient and accessible location for all attendees.",
+        "To ensure a convenient and accessible location, the student club organized its upcoming event to be held in [LOCATION].",
+        "[LOCATION] will host the student club’s next event, a choice that guarantees a location both convenient and accessible for every participant.",
+        "By placing its next event in [LOCATION], the student club secures a location that is convenient and easily accessible to all attendees.",
+        "The next gathering arranged by the student club is set for [LOCATION], offering a location that is both convenient and accessible for the audience.",
+        "A convenient and accessible location has been secured by the student club for its upcoming event, which will take place in [LOCATION].",
+        "For the student club’s forthcoming event, [LOCATION] was selected as the venue, ensuring a location that is convenient and accessible for all.",
+        "The student club’s next event will occur in [LOCATION], a decision that makes the location convenient and accessible for every attendee.",
+        "In order to provide a convenient and accessible location, the student club has chosen [LOCATION] as the site for its upcoming event.",
+        "The venue for the student club’s next event has been set as [LOCATION], guaranteeing a location that is convenient and accessible for all participants.",
+        "[LOCATION] serves as the location for the student club’s next event, ensuring convenience and accessibility for every attendee.",
+        "With the next event slated for [LOCATION], the student club ensures a location that is both convenient and accessible to all.",
+        "The student club opted for [LOCATION] as the location of its upcoming event, thereby providing a convenient and accessible setting for all attendees.",
+        "By holding its next event in [LOCATION], the student club creates a location that is convenient and readily accessible for the entire audience.",
+        "The upcoming student club event is planned for [LOCATION], securing a location that remains convenient and accessible for every participant."
+      ],
+      "counter_variations": [
+        "According to the report, the location is not specified, which necessitates further clarification before any site‑based activities can be scheduled.",
+        "The report notes that the location remains unspecified, thereby demanding additional clarification prior to scheduling any site‑based activities.",
+        "Because the report flags the location as not available, further clarification is required before any site‑based activities are arranged.",
+        "The educational data report highlights that the location is unknown, and thus further clarification must be obtained before scheduling any site‑based activities.",
+        "In the report, the location is listed as not specified, prompting the need for clarification before any site‑based activities can be planned.",
+        "The report reveals that the location is not specified; consequently, clarification is required before any site‑based activities are scheduled.",
+        "As the report indicates an unspecified location, further clarification is essential prior to the scheduling of any site‑based activities.",
+        "The report states that the location is not available, which calls for additional clarification before any site‑based activities are organized.",
+        "Highlighted in the report is the fact that the location remains unknown, requiring further clarification before scheduling any site‑based activities.",
+        "The report documents that the location is not specified, thereby necessitating clarification before any site‑based activities can be arranged.",
+        "According to the report, the location remains unspecified, and further clarification is mandated prior to scheduling any site‑based activities.",
+        "The report points out that the location is unknown, making it necessary to obtain clarification before any site‑based activities are scheduled.",
+        "In the report, the location is flagged as not specified, which obliges us to seek clarification before any site‑based activities can be planned.",
+        "The report conveys that the location is not available, thereby requiring further clarification before any site‑based activities are scheduled.",
+        "As noted in the report, the location is unspecified, prompting the need for clarification before any site‑based activities can be scheduled."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "organized": [
+          "organized",
+          "organise",
+          "organised",
+          "coordinate",
+          "prepare",
+          "devise"
+        ],
+        "convenient": [
+          "convenient"
+        ],
+        "take": [
+          "take",
+          "select",
+          "choose",
+          "get",
+          "accept",
+          "adopt"
+        ],
+        "event": [
+          "event"
+        ],
+        "accessible": [
+          "accessible",
+          "approachable"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "ensuring": [
+          "ensuring",
+          "ensure",
+          "assure",
+          "guarantee",
+          "secure",
+          "ascertain"
+        ],
+        "attendees": [
+          "attendees"
+        ]
+      },
+      "field_data_types": {
+        "location": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The status of the upcoming student club fair is Open, inviting all students to participate in the exciting activities.",
+      "template_pattern": "The status of the upcoming student club fair is [STATUS], inviting all students to participate in the exciting activities.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The status of the upcoming student club fair is [STATUS], welcoming all students to take part in the exciting activities.",
+        "[STATUS] status has been set for the upcoming student club fair, encouraging all students to join the exciting activities.",
+        "For the upcoming student club fair, the status is [STATUS], allowing all students to engage in the exciting activities.",
+        "All students are urged to attend the exciting activities because the status of the upcoming student club fair is [STATUS].",
+        "Because the upcoming student club fair holds an [STATUS] status, all students may participate in the exciting activities.",
+        "The upcoming student club fair currently carries an [STATUS] status, which invites all students to enjoy the exciting activities.",
+        "All students can look forward to the exciting activities as the status of the upcoming student club fair remains [STATUS].",
+        "With the status of the upcoming student club fair marked [STATUS], all students are prompted to partake in the exciting activities.",
+        "The upcoming student club fair's status is [STATUS], thereby granting all students access to the exciting activities.",
+        "All students are welcome to the exciting activities, given that the status of the upcoming student club fair is [STATUS].",
+        "An [STATUS] status applies to the upcoming student club fair, extending an invitation to all students for the exciting activities.",
+        "Since the upcoming student club fair is [STATUS] in status, all students may join the exciting activities.",
+        "The upcoming student club fair shows an [STATUS] status, which opens the door for all students to experience the exciting activities.",
+        "All students are called upon to engage in the exciting activities as the status of the upcoming student club fair is [STATUS].",
+        "By assigning an [STATUS] status to the upcoming student club fair, organizers encourage all students to partake in the exciting activities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "activities": [
+          "activities"
+        ],
+        "exciting": [
+          "exciting"
+        ],
+        "inviting": [
+          "inviting"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "upcoming": [
+          "upcoming",
+          "coming",
+          "forthcoming",
+          "approaching"
+        ],
+        "students": [
+          "students"
+        ],
+        "participate": [
+          "participate"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "society",
+          "lodge",
+          "order"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

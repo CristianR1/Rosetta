@@ -1,0 +1,439 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "b7d961a1e1a64061": "Id",
+    "d754d6eab52149c1": "PostId",
+    "22c318733a5c41a5": "VoteTypeId",
+    "a25b5778c4334710": "CreationDate",
+    "4631627223604b90": "UserId",
+    "9ffd13d1a82b4424": "BountyAmount"
+  },
+  "templates": [
+    {
+      "original": "The system assigns each device a unique Id, recorded as [ID], to ensure accurate tracking across the network.",
+      "template_pattern": "The system assigns each device a unique Id, recorded as [ID], to ensure accurate tracking across the network.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The system assigns each device a unique Id, recorded as [ID], to ensure accurate tracking across the network.",
+        "To guarantee precise monitoring throughout the network, the system designates a distinct Id for every device, logged as [ID].",
+        "Each device receives its own unique Id, noted as [ID], by the system to maintain accurate network-wide tracking.",
+        "The network's tracking accuracy is upheld by the system assigning a unique Id—recorded as [ID]—to every device.",
+        "A unique Id, captured as [ID], is allocated to each device by the system to ensure reliable tracking across the network.",
+        "To facilitate exact tracking across the network, the system issues a unique Id, documented as [ID], for each device.",
+        "Every device is given a unique Id, recorded as [ID], by the system to support precise network tracking.",
+        "The system, in order to achieve accurate tracking throughout the network, assigns each device a unique Id, which is logged as [ID].",
+        "For consistent tracking across the network, the system assigns a unique Id—recorded as [ID]—to each device.",
+        "Each device is assigned a unique Id, recorded as [ID], by the system to guarantee accurate network tracking.",
+        "Ensuring precise network tracking, the system attributes a unique Id, logged as [ID], to every device.",
+        "The system attributes a unique Id—recorded as [ID]—to each device, thereby ensuring accurate tracking across the network.",
+        "By assigning a unique Id, recorded as [ID], to each device, the system secures accurate tracking throughout the network.",
+        "To maintain accurate tracking across the network, each device receives a unique Id, documented as [ID], from the system.",
+        "The system provides each device with a unique Id, noted as [ID], to uphold precise tracking across the network."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "assigns": [
+          "assigns",
+          "ascribes",
+          "designates",
+          "allots",
+          "attributes",
+          "deputes"
+        ],
+        "ensure": [
+          "ensure",
+          "secure",
+          "guarantee",
+          "assure"
+        ],
+        "system": [
+          "system",
+          "organization",
+          "organisation",
+          "arrangement",
+          "scheme"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "network": [
+          "network",
+          "mesh",
+          "meshwork",
+          "web",
+          "net"
+        ],
+        "device": [
+          "device"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The PostId 3 has sparked interesting discussions among developers, showcasing the vibrant exchange of ideas on the platform.",
+      "template_pattern": "The PostId [POSTID] has sparked interesting discussions among developers, showcasing the vibrant exchange of ideas on the platform.",
+      "primary_data_fields": [
+        "PostId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Developers have ignited lively debates around PostId [POSTID], highlighting the platform’s dynamic exchange of ideas.",
+        "PostId [POSTID] has triggered engaging conversations among developers, illustrating the vibrant idea sharing on the platform.",
+        "Among developers, PostId [POSTID] sparked compelling discussions, demonstrating the platform’s bustling exchange of thoughts.",
+        "The platform showcases a vibrant idea exchange as PostId [POSTID] sparked interesting discussions among developers.",
+        "Interesting discussions among developers were sparked by PostId [POSTID], showcasing the lively exchange of ideas on the platform.",
+        "A dynamic dialogue has emerged on the platform thanks to PostId [POSTID], which sparked interesting discussions among developers.",
+        "PostId [POSTID] sparked interesting discussions among developers, thereby showcasing a vivid exchange of ideas on the platform.",
+        "The vibrant exchange of ideas on the platform is evident, with PostId [POSTID] having sparked interesting discussions among developers.",
+        "Developers are engaging in interesting discussions sparked by PostId [POSTID], reflecting a lively idea exchange on the platform.",
+        "On the platform, PostId [POSTID] has sparked interesting discussions among developers, underscoring a vibrant flow of ideas.",
+        "The spark of interesting discussions among developers comes from PostId [POSTID], highlighting the platform’s energetic idea exchange.",
+        "Interesting discussions among developers were ignited by PostId [POSTID], showcasing the platform’s vibrant sharing of ideas.",
+        "PostId [POSTID] has been the catalyst for interesting discussions among developers, illustrating a vibrant exchange of ideas on the platform.",
+        "A vivid exchange of ideas on the platform is demonstrated by the interesting discussions that PostId [POSTID] sparked among developers.",
+        "Thanks to PostId [POSTID], developers have engaged in interesting discussions, showcasing the platform’s dynamic idea exchange."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "exchange": [
+          "exchange",
+          "interchange",
+          "substitute",
+          "replace",
+          "switch",
+          "substitution"
+        ],
+        "interesting": [
+          "interesting",
+          "interest"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "discussions": [
+          "discussions",
+          "discourse"
+        ],
+        "vibrant": [
+          "vibrant",
+          "vivacious"
+        ],
+        "sparked": [
+          "sparked"
+        ],
+        "ideas": [
+          "ideas"
+        ],
+        "among": [
+          "among"
+        ]
+      },
+      "field_data_types": {
+        "PostId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The VoteTypeId of 2 typically indicates a downvote in the user-driven content rating system.",
+      "template_pattern": "The VoteTypeId of [VOTETYPEID] typically indicates a downvote in the user-driven content rating system.",
+      "primary_data_fields": [
+        "VoteTypeId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the user‑driven content rating system, a Vote Type Id of [VOTETYPEID] usually signals a downvote.",
+        "A downvote is typically represented by the Vote Type Id value [VOTETYPEID] within the platform’s rating mechanism.",
+        "The system’s rating engine interprets Vote Type Id [VOTETYPEID] as a downvote in user‑generated content.",
+        "When users rate content, a Vote Type Id equal to [VOTETYPEID] generally means a downvote.",
+        "Within the content rating framework, the identifier Vote Type Id set to [VOTETYPEID] commonly denotes a downvote.",
+        "The user‑based rating system treats a Vote Type Id of [VOTETYPEID] as indicating a downvote.",
+        "For user‑submitted ratings, the code Vote Type Id [VOTETYPEID] is usually associated with a downvote.",
+        "A Vote Type Id value of [VOTETYPEID] typically corresponds to a downvote in the community rating system.",
+        "In practice, the rating platform flags Vote Type Id [VOTETYPEID] as a downvote.",
+        "The presence of Vote Type Id [VOTETYPEID] generally implies a downvote in the user‑driven rating schema.",
+        "Users casting a downvote will have their action recorded as Vote Type Id [VOTETYPEID] in the system.",
+        "The rating algorithm interprets a Vote Type Id of [VOTETYPEID] to represent a downvote.",
+        "Within the application, a Vote Type Id set to [VOTETYPEID] is commonly understood as a downvote.",
+        "The identifier Vote Type Id [VOTETYPEID] is typically used to denote a downvote in the content rating process.",
+        "In the technology data report, Vote Type Id [VOTETYPEID] is usually indicative of a downvote."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "user": [
+          "user"
+        ],
+        "driven": [
+          "driven",
+          "impelled",
+          "determined"
+        ],
+        "rating": [
+          "rating",
+          "evaluation",
+          "grade",
+          "rank",
+          "value",
+          "valuation"
+        ],
+        "downvote": [
+          "downvote"
+        ],
+        "content": [
+          "content",
+          "subject",
+          "message",
+          "substance"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "typically": [
+          "typically"
+        ],
+        "system": [
+          "system",
+          "organization",
+          "organisation",
+          "scheme",
+          "arrangement"
+        ]
+      },
+      "field_data_types": {
+        "VoteTypeId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "On 2010-07-19, a user cast their vote on the programming community platform, marking a new entry in the CreationDate timeline.",
+      "template_pattern": "On [CREATIONDATE], a user cast their vote on the programming community platform, marking a new entry in the CreationDate timeline.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [CREATIONDATE], a member submitted a vote on the programming community platform, creating a fresh record in the CreationDate timeline.",
+        "A vote was cast by a user on the programming community platform on [CREATIONDATE], adding a new point to the CreationDate timeline.",
+        "The programming community platform recorded a user’s vote on [CREATIONDATE], marking another entry in the CreationDate timeline.",
+        "On [CREATIONDATE], the programming community platform saw a user cast their vote, thereby updating the CreationDate timeline with a new entry.",
+        "A new vote appeared in the CreationDate timeline when a user voted on the programming community platform on [CREATIONDATE].",
+        "The act of voting by a user on the programming community platform occurred on [CREATIONDATE], resulting in a fresh CreationDate timeline entry.",
+        "On [CREATIONDATE], a user’s vote was recorded on the programming community platform, inserting a new item into the CreationDate timeline.",
+        "A vote entered the CreationDate timeline after a user cast it on the programming community platform on [CREATIONDATE].",
+        "The programming community platform captured a user’s vote on [CREATIONDATE], which logged a new entry in the CreationDate timeline.",
+        "On [CREATIONDATE], the system logged that a user voted on the programming community platform, thereby extending the CreationDate timeline.",
+        "A user voted on the programming community platform on [CREATIONDATE], and this action added a new record to the CreationDate timeline.",
+        "The CreationDate timeline received a new entry when, on [CREATIONDATE], a user cast a vote on the programming community platform.",
+        "When a user cast their vote on the programming community platform on [CREATIONDATE], it marked another point in the CreationDate timeline.",
+        "On [CREATIONDATE], the programming community platform noted a vote from a user, creating an additional entry in the CreationDate timeline.",
+        "A fresh entry was added to the CreationDate timeline as a user voted on the programming community platform on [CREATIONDATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "vote": [
+          "vote",
+          "ballot",
+          "voting"
+        ],
+        "user": [
+          "user"
+        ],
+        "marking": [
+          "marking",
+          "score",
+          "scoring",
+          "mark",
+          "tag",
+          "grading",
+          "grade"
+        ],
+        "cast": [
+          "cast",
+          "casting",
+          "drop",
+          "form",
+          "mould",
+          "mold",
+          "shape"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "timeline": [
+          "timeline"
+        ],
+        "their": [
+          "their"
+        ],
+        "entry": [
+          "entry",
+          "introduction",
+          "debut",
+          "submission",
+          "ingress",
+          "entrance"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The unique identifier for this user is currently not available.",
+      "template_pattern": "The unique identifier for this user is currently [USERID].",
+      "primary_data_fields": [
+        "UserId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the system, the User Id tied to this record equals exactly [USERID], verifying its present allocation on the platform.",
+        "The platform confirms that this entry’s User Id is exactly [USERID], as reported by the system.",
+        "A system check shows the User Id for this item is precisely [USERID], confirming its current placement within the platform.",
+        "It is reported by the system that the User Id linked to this entry reads [USERID], confirming its ongoing assignment in the platform.",
+        "The system indicates the User Id associated with this record is [USERID], thereby confirming its present assignment on the platform.",
+        "System logs reveal the User Id for this entry is exactly [USERID], confirming that it is currently assigned within the platform.",
+        "The platform’s data shows a User Id of [USERID] for this entry, confirming its current assignment as the system reports.",
+        "As the system logs indicate, this entry’s User Id is precisely [USERID], confirming its present allocation on the platform.",
+        "The entry is recorded with a User Id of [USERID], a fact the system reports to confirm its current assignment within the platform.",
+        "Reported by the system, the User Id attached to this entry is exactly [USERID], confirming its current placement in the platform.",
+        "The system’s report states that the User Id for this entry equals [USERID], confirming its current assignment on the platform.",
+        "With the system’s confirmation, the User Id linked to this entry reads precisely [USERID], verifying its present allocation within the platform.",
+        "The platform confirms, via system report, that this entry’s User Id is [USERID], confirming its current assignment.",
+        "A system-generated report specifies the User Id for this entry as exactly [USERID], confirming its present allocation on the platform.",
+        "According to system data, the User Id associated with this entry is precisely [USERID], confirming its current assignment within the platform."
+      ],
+      "counter_variations": [
+        "The User Id for this account is presently not available.",
+        "At this time, the User Id associated with the individual remains not available.",
+        "Currently, the User Id that identifies this user is not available.",
+        "The identifier known as User Id is, for the moment, not available for this user.",
+        "We have no record of the User Id for this user; it is not available.",
+        "For this particular user, the User Id is currently not available.",
+        "The User Id, which uniquely identifies this user, is not available at present.",
+        "Not available is the User Id for this user as of now.",
+        "As of the latest report, the User Id for this user cannot be provided because it is not available.",
+        "Due to data constraints, the User Id for this user is not available.",
+        "The system reports that the User Id for this user is not available.",
+        "In the current dataset, the User Id for this user appears as not available.",
+        "The User Id that should reference this user is, at this juncture, not available.",
+        "While processing, we found the User Id for this user to be not available.",
+        "The User Id for this user is presently missing, i.e., not available."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ],
+        "available": [
+          "available",
+          "usable",
+          "useable"
+        ],
+        "user": [
+          "user"
+        ],
+        "currently": [
+          "currently",
+          "presently"
+        ]
+      },
+      "field_data_types": {
+        "UserId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The bounty amount for this task has not been specified.",
+      "template_pattern": "The bounty amount for this task [BOUNTYAMOUNT].",
+      "primary_data_fields": [
+        "BountyAmount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Bounty Amount field shows the value [BOUNTYAMOUNT], denoting the exact monetary amount set aside for the related technology initiative.",
+        "Recorded as [BOUNTYAMOUNT], the Bounty Amount field reflects the precise money allocated to the corresponding technology initiative.",
+        "For the technology initiative in question, the Bounty Amount field is logged as [BOUNTYAMOUNT], representing the exact financial figure.",
+        "[BOUNTYAMOUNT] appears in the Bounty Amount field, indicating the exact sum earmarked for the associated technology effort.",
+        "In the report, the Bounty Amount field contains [BOUNTYAMOUNT], which specifies the exact monetary allocation for the linked technology project.",
+        "The Bounty Amount entry is captured as [BOUNTYAMOUNT], signifying the precise funds assigned to the related technology initiative.",
+        "Within the technology data report, [BOUNTYAMOUNT] is recorded under the Bounty Amount field, marking the exact amount designated for the initiative.",
+        "The Bounty Amount field, set to [BOUNTYAMOUNT], conveys the exact monetary figure allocated for the associated technology effort.",
+        "[BOUNTYAMOUNT] is the recorded value of the Bounty Amount field, denoting the exact cash amount for the relevant technology initiative.",
+        "In this context, the Bounty Amount field registers [BOUNTYAMOUNT], highlighting the precise financial sum for the technology initiative.",
+        "The Bounty Amount field lists [BOUNTYAMOUNT], which conveys the exact monetary allocation for the pertinent technology initiative.",
+        "Showing [BOUNTYAMOUNT], the Bounty Amount field indicates the exact amount of money dedicated to the associated technology project.",
+        "The Bounty Amount field is set to [BOUNTYAMOUNT], illustrating the precise monetary figure earmarked for the technology initiative.",
+        "Recorded under the Bounty Amount field, [BOUNTYAMOUNT] reflects the exact financial amount allocated to the related technology initiative.",
+        "[BOUNTYAMOUNT] appears as the Bounty Amount field value, signifying the exact sum allocated for the associated technology initiative."
+      ],
+      "counter_variations": [
+        "According to the latest technology data report, the Bounty Amount for this task has not been specified.",
+        "The Bounty Amount for this task remains unspecified within the current dataset, pending further input from the development team.",
+        "In the compiled metrics, the Bounty Amount assigned to this task is not available for review.",
+        "Despite extensive data collection, the Bounty Amount pertaining to this task has not been specified by the system.",
+        "The report indicates that the Bounty Amount for this particular task is currently unknown.",
+        "Because the source feed lacks this detail, the Bounty Amount for the task has not been specified.",
+        "While other fields are populated, the Bounty Amount for this task remains unspecified.",
+        "The Bounty Amount associated with the task is not available, reflecting a missing value in the record.",
+        "Our analysis shows that the Bounty Amount for this task has not been specified, and therefore cannot be used in calculations.",
+        "Given the absence of a defined figure, the Bounty Amount for this task is currently unknown.",
+        "The dataset reveals that the Bounty Amount for this task has not been specified, highlighting a data gap.",
+        "Although the task details are otherwise complete, the Bounty Amount remains unspecified.",
+        "The Bounty Amount for this task is not available, indicating that the value was omitted during entry.",
+        "In the current data export, the Bounty Amount for this task has not been specified, requiring manual clarification.",
+        "The lack of a defined Bounty Amount for this task results in the field being marked as not available."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "bounty": [
+          "bounty"
+        ],
+        "task": [
+          "task",
+          "job",
+          "undertaking",
+          "labor"
+        ],
+        "specified": [
+          "specified",
+          "set",
+          "stipulated",
+          "designated",
+          "defined",
+          "fixed"
+        ]
+      },
+      "field_data_types": {
+        "BountyAmount": "null"
+      },
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "52607231c64b40f1": "major_id",
+    "575f7638acc14705": "major_name",
+    "84581ba5a8c64c0f": "department",
+    "db159fd96a7f4be3": "college"
+  },
+  "templates": [
+    {
+      "original": "Each student club member's academic journey is uniquely identified by their major_id, like rec06DF6vZ1CyPKpc, connecting them to their study field.",
+      "template_pattern": "Each student club member's academic journey is uniquely identified by their major_id, like [MAJOR_ID], connecting them to their study field.",
+      "primary_data_fields": [
+        "major_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The academic path of every student club member is tagged with a unique major id such as [MAJOR_ID], linking them to their discipline.",
+        "A unique major id—[MAJOR_ID]—identifies each student club member’s academic journey and ties it to their field of study.",
+        "Each member of the student club has their academic trajectory marked by the major id [MAJOR_ID], which connects them to their study area.",
+        "By assigning the major id [MAJOR_ID], we uniquely label the academic progress of each student club participant, linking them to their subject.",
+        "The major id [MAJOR_ID] serves to uniquely pinpoint every student club member’s academic route and associate it with their field.",
+        "For every student club member, the academic journey is uniquely bound to the major id [MAJOR_ID], connecting them with their chosen discipline.",
+        "Each student club participant’s study path is uniquely identified through the major id [MAJOR_ID], tying it to their field of study.",
+        "The academic record of each student club member is uniquely linked via the major id [MAJOR_ID] to their specific study domain.",
+        "With the major id [MAJOR_ID], we uniquely associate each student club member’s academic course with their particular field.",
+        "Every student club member’s educational journey is uniquely marked by the major id [MAJOR_ID], which connects them to their academic area.",
+        "The major id [MAJOR_ID] uniquely earmarks the academic trajectory of each student club member, linking it to their discipline.",
+        "Each student club member’s academic progression is uniquely tied to the major id [MAJOR_ID], establishing a connection to their field of study.",
+        "By using the major id [MAJOR_ID], each student club member’s academic path is uniquely identified and linked to their study sector.",
+        "The academic journey of each student club member is uniquely captured by the major id [MAJOR_ID], which ties them to their field.",
+        "Each student club member is uniquely associated with a major id—[MAJOR_ID]—that identifies their academic route and connects them to their discipline."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "them": [
+          "them"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "connecting": [
+          "connecting"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "their": [
+          "their"
+        ],
+        "field": [
+          "field",
+          "area",
+          "sphere",
+          "study",
+          "subject",
+          "discipline"
+        ],
+        "study": [
+          "study",
+          "subject",
+          "work",
+          "survey",
+          "bailiwick",
+          "field"
+        ],
+        "journey": [
+          "journey",
+          "travel"
+        ]
+      },
+      "field_data_types": {
+        "major_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Students gather at the club meetings, eager to discuss their latest academic projects and interests.",
+      "template_pattern": "Students gather at the club meetings, eager to discuss their latest academic projects and interests.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "At club meetings, students assemble, keen to talk about their most recent academic projects and interests.",
+        "Students convene during club sessions, eager to exchange ideas on their latest academic endeavors and passions.",
+        "The club meetings draw students together, who are enthusiastic about discussing their newest scholarly projects and interests.",
+        "Gathered at the club gatherings, students are ready to debate their current academic projects and personal interests.",
+        "During club meetings, the students gather, looking forward to reviewing their latest academic work and interests.",
+        "Club meetings see students gathering, motivated to discuss their recent academic projects and areas of interest.",
+        "Students are brought together at club meetings, where they eagerly discuss their latest academic projects and interests.",
+        "In club meetings, students meet up, enthusiastic about sharing their newest academic projects and interests.",
+        "The latest academic projects and interests are the focus as students gather at club meetings, eager to converse.",
+        "Students gather at club meetings, poised to discuss their most recent academic projects and interests.",
+        "At each club meeting, students come together, eager to explore their latest academic projects and interests.",
+        "Club meetings attract students who gather, intent on discussing their newest academic projects and interests.",
+        "Eager to discuss their latest academic projects and interests, students assemble at club meetings.",
+        "Students, gathering at club meetings, are eager to talk over their newest academic projects and interests.",
+        "The club meetings host students gathering, all keen to discuss their latest academic projects and interests."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "latest": [
+          "latest",
+          "recent"
+        ],
+        "eager": [
+          "eager"
+        ],
+        "discuss": [
+          "discuss",
+          "discourse"
+        ],
+        "students": [
+          "students"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "interests": [
+          "interests"
+        ],
+        "meetings": [
+          "meetings"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Among the student club members, several are pursuing a major in Outdoor Product Design and Development, showcasing their diverse academic interests.",
+      "template_pattern": "Among the student club members, several are pursuing a major in [MAJOR_NAME], showcasing their diverse academic interests.",
+      "primary_data_fields": [
+        "major_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Several student club members are studying the major in [MAJOR_NAME], highlighting their varied academic interests.",
+        "Among the members of the student club, a number are enrolled in the major in [MAJOR_NAME], illustrating diverse scholarly pursuits.",
+        "The major in [MAJOR_NAME] is being pursued by several members of the student club, showcasing a range of academic focuses.",
+        "Diverse academic interests are evident as several student club members undertake the major in [MAJOR_NAME].",
+        "In the student club, several participants are working toward the major in [MAJOR_NAME], reflecting varied fields of study.",
+        "Several individuals within the student club have chosen the major in [MAJOR_NAME], demonstrating their assorted academic inclinations.",
+        "Within the student club, the major in [MAJOR_NAME] is being followed by several members, underscoring their diverse scholarly interests.",
+        "There are several student club members who are pursuing the major in [MAJOR_NAME], evidencing a breadth of academic interests.",
+        "The student club includes several members who have opted for the major in [MAJOR_NAME], indicating varied academic directions.",
+        "Pursuing the major in [MAJOR_NAME], several members of the student club reveal a spectrum of academic interests.",
+        "Several members of the student club are engaged in the major in [MAJOR_NAME], which illustrates their diverse academic pursuits.",
+        "Among the student club’s participants, several are undertaking the major in [MAJOR_NAME], reflecting a wide range of scholarly interests.",
+        "The major in [MAJOR_NAME] attracts several student club members, highlighting the diversity of their academic focus.",
+        "Several student club participants have embarked on the major in [MAJOR_NAME], showcasing varied academic passions.",
+        "In the context of the student club, several individuals are dedicated to the major in [MAJOR_NAME], signaling a mix of academic interests."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "among": [
+          "among"
+        ],
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "their": [
+          "their"
+        ],
+        "pursuing": [
+          "pursuing"
+        ],
+        "showcasing": [
+          "showcasing"
+        ],
+        "major": [
+          "major"
+        ],
+        "several": [
+          "several",
+          "various"
+        ]
+      },
+      "field_data_types": {
+        "major_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These students often collaborate on projects that combine their passions with practical applications.",
+      "template_pattern": "These students often collaborate on projects that combine their passions with practical applications.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Often, these learners join forces on projects that fuse their interests with real‑world uses.",
+        "These students frequently work together on initiatives that blend their passions with practical applications.",
+        "Projects that merge their personal interests with practical outcomes are commonly tackled collaboratively by these students.",
+        "The students regularly collaborate on projects, combining their passions with practical applications.",
+        "Frequently, these scholars cooperate on endeavors that integrate their enthusiasms with functional uses.",
+        "By often teaming up, these students address projects that unite their passions with applied practicality.",
+        "Their passions are merged with practical applications in projects that these students often undertake together.",
+        "These students, on a regular basis, partner on assignments that blend enthusiasm with real‑world implementation.",
+        "Collaborative projects that marry their interests and practical uses are a common undertaking for these students.",
+        "It is common for these students to co‑create projects that align their passions with practical applications.",
+        "These learners often pool their efforts on projects where personal passions meet practical execution.",
+        "Projects that combine enthusiasm with practical application are frequently pursued jointly by these students.",
+        "With frequent collaboration, these students develop projects that fuse their passions and practical uses.",
+        "The combination of their passions with practical applications is achieved in projects that these students often collaborate on.",
+        "Often, the students collaborate on projects that integrate their personal interests with practical outcomes."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "practical": [
+          "practical",
+          "pragmatic"
+        ],
+        "students": [
+          "students"
+        ],
+        "collaborate": [
+          "collaborate",
+          "cooperate"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "combine": [
+          "combine",
+          "mix",
+          "blend",
+          "merge",
+          "unite",
+          "fuse"
+        ],
+        "applications": [
+          "applications"
+        ],
+        "these": [
+          "these"
+        ],
+        "passions": [
+          "passions"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Many student organization members are pursuing majors through the School of Applied Sciences, Technology and Education, reflecting diverse academic interests.",
+      "template_pattern": "Many student organization members are pursuing majors through the [DEPARTMENT], reflecting diverse academic interests.",
+      "primary_data_fields": [
+        "department"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Many student organization members are pursuing majors through the [DEPARTMENT], reflecting diverse academic interests.",
+        "Majors are being pursued by Many student organization members through the [DEPARTMENT], reflecting diverse academic interests.",
+        "Through the [DEPARTMENT], Many student organization members pursue majors, reflecting diverse academic interests.",
+        "Reflecting diverse academic interests, Many student organization members are pursuing majors through the [DEPARTMENT].",
+        "Many student organization members demonstrate diverse academic interests as they pursue majors through the [DEPARTMENT].",
+        "The pursuit of majors through the [DEPARTMENT] by Many student organization members showcases diverse academic interests.",
+        "Diverse academic interests are illustrated by Many student organization members pursuing majors through the [DEPARTMENT].",
+        "Indicating diverse academic interests, Many student organization members pursue majors through the [DEPARTMENT].",
+        "Many student organization members, with diverse academic interests, are pursuing majors through the [DEPARTMENT].",
+        "As a result of diverse academic interests, Many student organization members are pursuing majors through the [DEPARTMENT].",
+        "While reflecting diverse academic interests, Many student organization members pursue majors through the [DEPARTMENT].",
+        "Many student organization members are pursuing majors through the [DEPARTMENT] and are reflecting diverse academic interests.",
+        "Both diverse academic interests and the pursuit of majors through the [DEPARTMENT] are evident among Many student organization members.",
+        "Many student organization members, driven by diverse academic interests, pursue majors through the [DEPARTMENT].",
+        "The diverse academic interests of Many student organization members are evident as they pursue majors through the [DEPARTMENT]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "diverse": [
+          "diverse",
+          "various"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "many": [
+          "many"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "members": [
+          "members"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "arrangement",
+          "establishment",
+          "administration",
+          "system"
+        ],
+        "academic": [
+          "academic",
+          "pedantic"
+        ],
+        "interests": [
+          "interests"
+        ]
+      },
+      "field_data_types": {
+        "department": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As they progress in their studies, their expertise in various fields becomes increasingly apparent.",
+      "template_pattern": "As they progress in their studies, their expertise in various fields becomes increasingly apparent.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "As they advance in their coursework, their proficiency across multiple domains becomes ever more evident.",
+        "When their studies progress, the breadth of their expertise in diverse fields grows increasingly apparent.",
+        "Their expertise in a range of subjects is becoming more noticeable as they move forward academically.",
+        "With each step forward in their education, their competence in various disciplines is more clearly revealed.",
+        "As their academic journey continues, the depth of their knowledge in several areas becomes progressively obvious.",
+        "The further they go in their studies, the more apparent their skill set across different fields appears.",
+        "In the course of their educational advancement, their multi‑disciplinary expertise emerges more prominently.",
+        "Their growing mastery of numerous subjects becomes increasingly visible as they pursue higher levels of study.",
+        "As they make headway in their learning, the extent of their expertise in assorted fields is increasingly manifest.",
+        "Progressing through their studies, they demonstrate an ever‑more evident command of various domains.",
+        "With each academic milestone reached, the clarity of their expertise in several areas intensifies.",
+        "The advancement of their studies highlights a rising prominence of their expertise across multiple fields.",
+        "As their education deepens, the scope of their knowledge in diverse subjects becomes progressively discernible.",
+        "Their expertise in various disciplines gains heightened visibility as they continue to progress academically.",
+        "When they move forward in their studies, the breadth of their competence in different fields becomes increasingly clear."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "fields": [
+          "fields"
+        ],
+        "studies": [
+          "studies"
+        ],
+        "progress": [
+          "progress",
+          "advance",
+          "progression",
+          "advancement"
+        ],
+        "increasingly": [
+          "increasingly",
+          "progressively"
+        ],
+        "expertise": [
+          "expertise",
+          "expertness"
+        ],
+        "apparent": [
+          "apparent",
+          "unmistakable",
+          "patent",
+          "plain",
+          "evident",
+          "seeming"
+        ],
+        "becomes": [
+          "becomes"
+        ],
+        "various": [
+          "various",
+          "diverse",
+          "several",
+          "assorted"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The student organization is closely tied to the College of Agriculture and Applied Sciences, which offers their academic major.",
+      "template_pattern": "The student organization is closely tied to the [COLLEGE], which offers their academic major.",
+      "primary_data_fields": [
+        "college"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The student organization maintains a close affiliation with the [COLLEGE], which offers their academic major.",
+        "Closely linked to the [COLLEGE], the student organization receives their academic major from that college.",
+        "The [COLLEGE], which offers their academic major, is tightly connected to the student organization.",
+        "A strong bond exists between the student organization and the [COLLEGE], which offers their academic major.",
+        "With the [COLLEGE] offering their academic major, the student organization is intimately associated.",
+        "The student organization is intimately associated with the [COLLEGE], which offers their academic major.",
+        "Because the [COLLEGE] offers their academic major, the student organization is closely linked to it.",
+        "The student organization, which is closely tied to the [COLLEGE], benefits from the college that offers their academic major.",
+        "The [COLLEGE]—offers their academic major—is closely tied to the student organization.",
+        "Tied closely to the [COLLEGE], the student organization obtains their academic major there.",
+        "Their academic major is offered by the [COLLEGE], to which the student organization is closely connected.",
+        "The student organization’s close connection to the [COLLEGE] is evident, as that college offers their academic major.",
+        "Linked tightly with the [COLLEGE], the student organization receives their academic major from that college.",
+        "Since the [COLLEGE] offers their academic major, the student organization remains closely affiliated.",
+        "The [COLLEGE], which offers their academic major, is closely tied to the student organization."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "which": [
+          "which"
+        ],
+        "tied": [
+          "tied",
+          "fastened",
+          "laced",
+          "even",
+          "level"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "organization": [
+          "organization",
+          "organisation",
+          "establishment",
+          "administration",
+          "system"
+        ],
+        "major": [
+          "major"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "closely": [
+          "closely",
+          "nearly",
+          "intimately"
+        ],
+        "offers": [
+          "offers"
+        ]
+      },
+      "field_data_types": {
+        "college": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This connection allows them to access resources that enhance their educational experiences.",
+      "template_pattern": "This connection allows them to access resources that enhance their educational experiences.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "By means of this link, they can reach resources that improve their learning experiences.",
+        "This link grants them access to resources that enrich their education.",
+        "Resources that boost their academic experience become reachable through this connection.",
+        "Through this connection, they are enabled to obtain resources that augment their educational journey.",
+        "The connection permits them to tap into resources that heighten their learning outcomes.",
+        "Access to resource materials that enhance their schooling is made possible by this connection.",
+        "Thanks to this connection, they may utilize resources that advance their educational experience.",
+        "This connection opens the door for them to use resources that elevate their studies.",
+        "They are given the ability, via this connection, to retrieve resources that improve their educational experiences.",
+        "With this connection, resources that amplify their learning experience are accessible to them.",
+        "The link provides them the means to obtain resources that refine their academic experience.",
+        "Via this connection, they gain entry to resources that foster better educational outcomes.",
+        "This connection facilitates their access to resources that boost the quality of their education.",
+        "By using this connection, they can draw on resources that enhance the richness of their learning.",
+        "The connection serves to let them reach resources that augment their educational experiences."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "allows": [
+          "allows"
+        ],
+        "them": [
+          "them"
+        ],
+        "educational": [
+          "educational"
+        ],
+        "connection": [
+          "connection",
+          "association",
+          "connector",
+          "link"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ],
+        "experiences": [
+          "experiences"
+        ],
+        "resources": [
+          "resources"
+        ],
+        "access": [
+          "access",
+          "approach",
+          "admission",
+          "admittance"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The club frequently hosts events that help members network with professionals in their fields.",
+      "template_pattern": "The club frequently hosts events that help members network with professionals in their fields.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The club often organizes gatherings designed to connect its members with industry experts in their specialties.",
+        "Frequently, the club hosts events that enable members to network with professionals from their respective fields.",
+        "Events that facilitate networking between members and field professionals are regularly held by the club.",
+        "By regularly hosting events, the club provides members opportunities to mingle with specialists in their areas.",
+        "Members are given chances to network with sector professionals through the club’s frequent events.",
+        "With its frequent events, the club helps members build connections with professionals in their disciplines.",
+        "The club’s regular events serve to link members with experts operating in their own fields.",
+        "Through often‑scheduled events, the club assists members in establishing networks with professionals relevant to their fields.",
+        "Networking with field professionals is made possible for members thanks to the club’s frequent event programming.",
+        "The club routinely arranges sessions that bring members together with professionals pertinent to their specialties.",
+        "As part of its agenda, the club frequently conducts events that allow members to network with professionals in their domains.",
+        "Professionals in members’ respective fields are regularly introduced to them via the club’s hosted events.",
+        "By hosting events on a regular basis, the club facilitates member connections with industry professionals.",
+        "The club’s frequent gatherings help members establish networks with professionals across their specific fields.",
+        "Members regularly gain networking opportunities with field experts through events hosted by the club."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "help": [
+          "help",
+          "assist",
+          "aid",
+          "assistance",
+          "helper",
+          "facilitate"
+        ],
+        "network": [
+          "network",
+          "web",
+          "mesh",
+          "net"
+        ],
+        "fields": [
+          "fields",
+          "Fields"
+        ],
+        "their": [
+          "their"
+        ],
+        "frequently": [
+          "frequently",
+          "oftentimes",
+          "often"
+        ],
+        "professionals": [
+          "professionals"
+        ],
+        "events": [
+          "events"
+        ],
+        "members": [
+          "members"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Through these interactions, students gain valuable insights and mentorship opportunities.",
+      "template_pattern": "Through these interactions, students gain valuable insights and mentorship opportunities.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "By means of these engagements, pupils acquire useful insights and chances for mentorship.",
+        "These interactions provide students with valuable insights and mentorship opportunities.",
+        "Valuable insights and mentorship opportunities are obtained by students through these interactions.",
+        "Through such interactions, learners obtain both insightful knowledge and mentorship prospects.",
+        "As a result of these exchanges, students gain insightful perspectives and opportunities for mentorship.",
+        "Students, through these interactions, receive valuable insights and access to mentorship.",
+        "The interactions afford students valuable insights as well as mentorship opportunities.",
+        "Through these encounters, learners secure valuable insights and mentorship chances.",
+        "Valuable insights and mentorship possibilities are granted to students via these interactions.",
+        "By engaging in these interactions, students are able to gain valuable insights and mentorship opportunities.",
+        "These interactions enable students to acquire valuable insights and mentorship prospects.",
+        "Through the course of these interactions, students come away with valuable insights and mentorship opportunities.",
+        "Students benefit from these interactions, gaining both valuable insights and mentorship opportunities.",
+        "The interaction process yields valuable insights and mentorship opportunities for students.",
+        "With these interactions, students obtain valuable insights and opportunities for mentorship."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "gain": [
+          "gain",
+          "increase",
+          "acquire",
+          "attain",
+          "earn",
+          "profit"
+        ],
+        "interactions": [
+          "interactions"
+        ],
+        "students": [
+          "students"
+        ],
+        "mentorship": [
+          "mentorship"
+        ],
+        "these": [
+          "these"
+        ],
+        "valuable": [
+          "valuable"
+        ],
+        "opportunities": [
+          "opportunities"
+        ],
+        "insights": [
+          "insights"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Members are encouraged to explore interdisciplinary studies to broaden their academic horizons.",
+      "template_pattern": "Members are encouraged to explore interdisciplinary studies to broaden their academic horizons.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Members are urged to pursue interdisciplinary studies so they can expand their academic horizons.",
+        "To broaden their scholarly outlook, participants are encouraged to explore cross‑disciplinary programs.",
+        "The institution invites affiliates to investigate multidisciplinary learning, thereby widening their educational perspective.",
+        "Scholars should be motivated to delve into interdisciplinary courses in order to enrich their academic scope.",
+        "By exploring interdisciplinary studies, members can enhance their intellectual horizons.",
+        "It is recommended that members engage with cross‑disciplinary curricula to broaden their academic horizons.",
+        "Encouraging members to examine interdisciplinary programs helps them expand their scholarly horizons.",
+        "Members, when they explore multidisciplinary studies, are likely to widen their academic outlook.",
+        "In order to enlarge their educational horizons, participants are prompted to investigate interdisciplinary fields.",
+        "The report advises affiliates to pursue interdisciplinary learning, which will broaden their academic horizons.",
+        "To enrich their academic perspective, members are invited to delve into cross‑disciplinary studies.",
+        "Exploring interdisciplinary courses allows scholars to broaden their intellectual horizons.",
+        "Members are motivated to examine multidisciplinary studies, thereby expanding their academic scope.",
+        "By engaging with interdisciplinary programs, participants can widen their scholarly horizons.",
+        "It is encouraged that affiliates explore interdisciplinary studies to enhance their academic horizons."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "explore": [
+          "explore",
+          "search",
+          "research"
+        ],
+        "studies": [
+          "studies"
+        ],
+        "their": [
+          "their"
+        ],
+        "horizons": [
+          "horizons"
+        ],
+        "encouraged": [
+          "encouraged"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "members": [
+          "members"
+        ],
+        "broaden": [
+          "broaden",
+          "widen",
+          "extend"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The club's vibrant community fosters a supportive environment for all its members.",
+      "template_pattern": "The club's vibrant community fosters a supportive environment for all its members.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A lively community within the club cultivates a supportive atmosphere for every member.",
+        "For all its members, the club’s energetic community creates a nurturing environment.",
+        "The supportive environment that all members enjoy is fostered by the club’s vibrant community.",
+        "All members benefit from a supportive setting, thanks to the club’s bustling community.",
+        "Within the club, a dynamic community encourages a caring environment for each member.",
+        "A supportive climate for all members is nurtured by the club’s lively community.",
+        "The club’s spirited community builds a supportive environment that embraces every member.",
+        "Thanks to the club’s vivid community, every member experiences a supportive atmosphere.",
+        "A supportive environment for all members is cultivated by the club’s vibrant community.",
+        "The club’s animated community promotes a nurturing setting for each of its members.",
+        "Because the club’s vibrant community thrives, a supportive environment exists for all members.",
+        "All members find a supportive environment thanks to the club’s energetic community.",
+        "The club’s flourishing community sustains a supportive atmosphere for its entire membership.",
+        "A nurturing environment for every member is fostered by the club’s lively community.",
+        "The vibrant community of the club underpins a supportive setting for all its members."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "supportive": [
+          "supportive"
+        ],
+        "members": [
+          "members"
+        ],
+        "community": [
+          "community"
+        ],
+        "fosters": [
+          "fosters"
+        ],
+        "vibrant": [
+          "vibrant",
+          "vivacious"
+        ],
+        "environment": [
+          "environment"
+        ],
+        "club": [
+          "club",
+          "lodge",
+          "clubhouse",
+          "society",
+          "guild",
+          "order"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

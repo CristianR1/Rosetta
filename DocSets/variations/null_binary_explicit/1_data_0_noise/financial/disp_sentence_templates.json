@@ -1,0 +1,282 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "ee0fa1e824d646af": "disp_id",
+    "7c7c37bf224a4cb3": "client_id",
+    "19e7c392abf0472b": "account_id",
+    "bbeef42a93634fed": "type"
+  },
+  "templates": [
+    {
+      "original": "The account disposition record with the identifier 1 was reviewed to ensure proper access rights management.",
+      "template_pattern": "The account disposition record with the identifier [DISP_ID] was reviewed to ensure proper access rights management.",
+      "primary_data_fields": [
+        "disp_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "We examined the account disposition record, disp id [DISP_ID], to verify proper management of access rights.",
+        "The account disposition record (disp id [DISP_ID]) underwent a review to confirm that access rights are managed correctly.",
+        "A review of the account disposition record with disp id [DISP_ID] was performed to ensure that access rights are properly handled.",
+        "To guarantee correct access rights management, the account disposition record bearing disp id [DISP_ID] was inspected.",
+        "Ensuring proper access rights, the account disposition record identified by disp id [DISP_ID] was scrutinized.",
+        "The team checked the account disposition record – disp id [DISP_ID] – for appropriate access rights administration.",
+        "Proper access rights management was confirmed after reviewing the account disposition record, disp id [DISP_ID].",
+        "After a thorough audit, the account disposition record (disp id [DISP_ID]) was found to have correct access rights controls.",
+        "The account disposition record, with disp id [DISP_ID], was evaluated to make sure access rights are administered properly.",
+        "In order to validate access rights handling, the account disposition record labeled disp id [DISP_ID] was examined.",
+        "Access rights management was verified by reviewing the account disposition record that carries disp id [DISP_ID].",
+        "The account disposition record (disp id [DISP_ID]) received a review to ascertain proper management of access rights.",
+        "A careful inspection of the account disposition record, disp id [DISP_ID], ensured that access rights were appropriately managed.",
+        "To ensure access rights are correctly overseen, the account disposition record bearing disp id [DISP_ID] was assessed.",
+        "Reviewing the account disposition record – disp id [DISP_ID] – confirmed proper handling of access rights."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "disposition": [
+          "disposition",
+          "tendency",
+          "inclination"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "reviewed": [
+          "reviewed"
+        ],
+        "access": [
+          "access",
+          "admission",
+          "admittance"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "account": [
+          "account",
+          "report",
+          "bill",
+          "invoice"
+        ],
+        "proper": [
+          "proper",
+          "right"
+        ]
+      },
+      "field_data_types": {
+        "disp_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The client with the unique identification number 1 has been granted special access rights to their financial services account.",
+      "template_pattern": "The client with the unique identification number [CLIENT_ID] has been granted special access rights to their financial services account.",
+      "primary_data_fields": [
+        "client_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Client id [CLIENT_ID] has been awarded special access rights to its financial services account.",
+        "The client id [CLIENT_ID] received special access rights for the financial services account.",
+        "Special access rights were granted to client id [CLIENT_ID] for the financial services account.",
+        "For the financial services account, client id [CLIENT_ID] now enjoys special access rights.",
+        "Client id [CLIENT_ID] is now permitted special access rights to the financial services account.",
+        "Having client id [CLIENT_ID], the system granted special access rights to the financial services account.",
+        "The financial services account grants client id [CLIENT_ID] special access rights.",
+        "Special access rights have been assigned to client id [CLIENT_ID] concerning the financial services account.",
+        "Client id [CLIENT_ID], with its unique identifier, obtains special access rights to the financial services account.",
+        "In the financial services account, client id [CLIENT_ID] is entitled to special access rights.",
+        "The issuance of special access rights to the financial services account applies to client id [CLIENT_ID].",
+        "Special access rights to the financial services account are now provided to client id [CLIENT_ID].",
+        "With client id [CLIENT_ID], special access rights have been enabled for the financial services account.",
+        "The financial services account now includes special access rights for client id [CLIENT_ID].",
+        "Client id [CLIENT_ID] receives special access rights for use with the financial services account."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "services": [
+          "services"
+        ],
+        "identification": [
+          "identification",
+          "designation"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "access": [
+          "access"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "granted": [
+          "granted",
+          "given"
+        ],
+        "their": [
+          "their"
+        ],
+        "special": [
+          "special",
+          "particular",
+          "exceptional"
+        ]
+      },
+      "field_data_types": {
+        "client_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The financial account with identification number 1 requires review to ensure proper access rights are maintained.",
+      "template_pattern": "The financial account with identification number [ACCOUNT_ID] requires review to ensure proper access rights are maintained.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A review is needed for the financial account id [ACCOUNT_ID] to confirm that proper access rights remain in place.",
+        "To guarantee proper access rights are upheld, the financial account id [ACCOUNT_ID] must be reviewed.",
+        "The financial account id [ACCOUNT_ID] should undergo a review to assure that access rights are correctly maintained.",
+        "Ensuring proper access rights are preserved requires reviewing the financial account id [ACCOUNT_ID].",
+        "Proper access rights can only be maintained by reviewing the financial account id [ACCOUNT_ID].",
+        "A review of the financial account id [ACCOUNT_ID] is necessary to verify that access rights are properly retained.",
+        "Maintaining correct access rights calls for a review of the financial account id [ACCOUNT_ID].",
+        "The financial account id [ACCOUNT_ID] needs to be examined so that proper access rights are kept intact.",
+        "To keep proper access rights intact, the financial account id [ACCOUNT_ID] requires a thorough review.",
+        "Reviewing the financial account id [ACCOUNT_ID] is essential for ensuring that access rights stay appropriate.",
+        "It is essential to review the financial account id [ACCOUNT_ID] to make sure proper access rights are upheld.",
+        "Proper access rights are dependent on a review of the financial account id [ACCOUNT_ID].",
+        "The financial account id [ACCOUNT_ID] must be audited to ensure that access rights are maintained properly.",
+        "Ensuring that access rights are correctly maintained mandates a review of the financial account id [ACCOUNT_ID].",
+        "A necessary step is to review the financial account id [ACCOUNT_ID] so that proper access rights are preserved."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identification": [
+          "identification",
+          "recognition"
+        ],
+        "access": [
+          "access"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "account": [
+          "account",
+          "report"
+        ],
+        "maintained": [
+          "maintained",
+          "retained"
+        ],
+        "review": [
+          "review",
+          "critique",
+          "reassessment",
+          "reexamine",
+          "survey",
+          "reappraisal",
+          "inspection"
+        ],
+        "ensure": [
+          "ensure",
+          "secure",
+          "guarantee",
+          "assure"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the financial services system, the account disposition is categorized as an OWNER, granting comprehensive management rights.",
+      "template_pattern": "In the financial services system, the account disposition is categorized as an [TYPE], granting comprehensive management rights.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the financial services system, the account disposition is classified as an [TYPE], thereby conferring comprehensive management rights.",
+        "The account disposition, in the financial services system, receives the designation [TYPE], which grants comprehensive management rights.",
+        "In the financial services system, the account disposition receives an [TYPE] classification, giving it comprehensive management rights.",
+        "Comprehensive management rights are granted because the account disposition is marked as an [TYPE] in the financial services system.",
+        "As an [TYPE] in the financial services system, the account disposition enjoys full management rights.",
+        "The financial services system categorizes the account disposition as an [TYPE], bestowing comprehensive management rights.",
+        "By assigning the account disposition as an [TYPE], the financial services system provides comprehensive management rights.",
+        "Because the account disposition is an [TYPE] within the financial services system, it acquires comprehensive management rights.",
+        "The account disposition is deemed an [TYPE] in the financial services system, thereby receiving comprehensive management rights.",
+        "In the financial services system, labeling the account disposition as an [TYPE] results in comprehensive management rights being granted.",
+        "Granting comprehensive management rights, the financial services system classifies the account disposition as an [TYPE].",
+        "With the account disposition set as an [TYPE] in the financial services system, comprehensive management rights are conferred.",
+        "The financial services system's account disposition is identified as an [TYPE], which confers comprehensive management rights.",
+        "When the account disposition is an [TYPE] in the financial services system, it is entitled to comprehensive management rights.",
+        "Comprehensive management rights are conferred when the financial services system tags the account disposition as an [TYPE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "system": [
+          "system"
+        ],
+        "services": [
+          "services"
+        ],
+        "granting": [
+          "granting"
+        ],
+        "comprehensive": [
+          "comprehensive",
+          "thorough",
+          "exhaustive",
+          "extensive",
+          "complete",
+          "all‑encompassing"
+        ],
+        "disposition": [
+          "disposition",
+          "temperament",
+          "tendency",
+          "inclination"
+        ],
+        "management": [
+          "management",
+          "direction"
+        ],
+        "rights": [
+          "rights"
+        ],
+        "account": [
+          "account",
+          "report",
+          "accounting"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

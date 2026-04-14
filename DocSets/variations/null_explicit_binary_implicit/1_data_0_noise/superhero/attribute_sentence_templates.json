@@ -1,0 +1,118 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "27f5004241fd4e35": "id",
+    "f7192919292d4796": "attribute_name"
+  },
+  "templates": [
+    {
+      "original": "The attribute's id is 1.",
+      "template_pattern": "The attribute's id is [ID].",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The attribute's id is [ID].",
+        "The id of the attribute equals [ID].",
+        "An id of [ID] is assigned to the attribute.",
+        "According to the data, the attribute's id reads [ID].",
+        "The attribute possesses an id value of [ID].",
+        "In the report, the attribute is identified by id [ID].",
+        "Consequently, the attribute's id stands at [ID].",
+        "With an id of [ID], the attribute meets the specification.",
+        "The attribute has its id set to [ID].",
+        "Id [ID] is the designated identifier for the attribute.",
+        "As per the record, the attribute's id registers as [ID].",
+        "The attribute's identifier, id, is listed as [ID].",
+        "For this attribute, the id is recorded as [ID].",
+        "The attribute’s id, namely [ID], appears in the summary.",
+        "In summary, the attribute carries an id of [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "attribute": [
+          "attribute",
+          "property",
+          "dimension"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's greatest asset in battle is their unparalleled Intelligence, which allows them to outsmart any adversary.",
+      "template_pattern": "The superhero's greatest asset in battle is their unparalleled [ATTRIBUTE_NAME], which allows them to outsmart any adversary.",
+      "primary_data_fields": [
+        "attribute_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In combat, the superhero's top advantage is their unparalleled [ATTRIBUTE_NAME], which enables them to outwit any opponent.",
+        "The superhero’s most valuable combat asset, their unparalleled [ATTRIBUTE_NAME], permits them to outsmart every adversary.",
+        "Unparalleled [ATTRIBUTE_NAME] serves as the superhero’s greatest battlefield asset, allowing them to outsmart any foe.",
+        "Thanks to their unparalleled [ATTRIBUTE_NAME], the superhero can outmaneuver any adversary, making it their premier battle asset.",
+        "The greatest asset the superhero brings to battle is their unparalleled [ATTRIBUTE_NAME], and it lets them outsmart any opponent.",
+        "With unparalleled [ATTRIBUTE_NAME] as their chief battle strength, the superhero is able to outwit any adversary.",
+        "Any adversary can be outsmarted because the superhero’s greatest battle asset is their unparalleled [ATTRIBUTE_NAME].",
+        "Because they possess unparalleled [ATTRIBUTE_NAME], the superhero’s foremost combat asset enables them to outsmart all opponents.",
+        "The superhero’s unparalleled [ATTRIBUTE_NAME], the foremost asset in battle, empowers them to outthink any adversary.",
+        "Outsmarting any foe is possible for the superhero, thanks to their greatest battle asset—unparalleled [ATTRIBUTE_NAME].",
+        "In the heat of battle, the superhero relies on unparalleled [ATTRIBUTE_NAME], their greatest asset, to outsmart every opponent.",
+        "Unparalleled [ATTRIBUTE_NAME], the superhero’s prime combat asset, grants them the ability to outwit any adversary.",
+        "The superhero’s principal asset in combat—unparalleled [ATTRIBUTE_NAME]—allows them to outsmart any opponent.",
+        "By virtue of their unparalleled [ATTRIBUTE_NAME], the superhero’s greatest battlefield asset lets them outsmart any adversary.",
+        "The greatest asset in battle for the superhero is their unparalleled [ATTRIBUTE_NAME], which makes it possible to outsmart any adversary."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "battle": [
+          "battle",
+          "conflict",
+          "fight",
+          "engagement",
+          "struggle",
+          "combat"
+        ],
+        "outsmart": [
+          "outsmart",
+          "outwit",
+          "outmaneuver",
+          "outmanoeuvre"
+        ],
+        "them": [
+          "them"
+        ],
+        "unparalleled": [
+          "unparalleled",
+          "unequaled",
+          "unequalled",
+          "unique"
+        ],
+        "asset": [
+          "asset",
+          "plus"
+        ],
+        "their": [
+          "their"
+        ],
+        "allows": [
+          "allows"
+        ],
+        "greatest": [
+          "greatest"
+        ]
+      },
+      "field_data_types": {
+        "attribute_name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

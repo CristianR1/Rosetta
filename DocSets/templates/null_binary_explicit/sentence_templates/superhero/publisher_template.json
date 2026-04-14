@@ -1,0 +1,25 @@
+{
+  "database": "superhero",
+  "table": "publisher",
+  "entry_index": 0,
+  "original_data": {
+    "id": "1",
+    "publisher_name": ""
+  },
+  "generated_sentences": [
+    "The publishing company with the unique identifier 1 is known for its iconic superhero stories. (Hash: d186d00b92ef4922)",
+    "publisher_name is NULL. (Hash: 4d8171abca3d4b92)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "4d8171abca3d4b92": "publisher_name",
+    "d186d00b92ef4922": "id"
+  },
+  "timestamp": "2026-03-31 16:48:01",
+  "narrative": [
+    "publisher_name is NULL. (Hash: 4d8171abca3d4b92)"
+  ]
+}

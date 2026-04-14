@@ -1,0 +1,11 @@
+# Rosetta — shared Python dependencies (DocGen, SemPipelineBuilder, SemPipelineExecutor core).
+#
+# Install only this file first in a dedicated virtual environment, then add evaluation
+# backends manually (LOTUS, DocETL, Palimpzest) per README to reduce dependency clashes.
+
+openai>=1.30.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+PyYAML>=6.0
+nltk>=3.8.1
+psycopg2-binary>=2.9.9

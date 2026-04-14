@@ -1,0 +1,1074 @@
+{
+  "document_context": "technology data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "26d35a70cc1445a6": "Id",
+    "b4b4a6bbb6984c38": "Reputation",
+    "5acc1a185ec84307": "CreationDate",
+    "d736ed1a12ff48a0": "DisplayName",
+    "d419134eb08042c9": "LastAccessDate",
+    "15f6a9850eac4e09": "WebsiteUrl",
+    "ac9e6988b86a4d37": "Location",
+    "12d9f80083d444cf": "AboutMe",
+    "d041d6b1495c4ecf": "<li><a href=\"http",
+    "c8cdaf2b4ff04a65": "Views",
+    "f6f916c625b34560": "UpVotes",
+    "8f113f54bb414326": "DownVotes",
+    "6faa2783db1e463f": "AccountId",
+    "9500fe1346e24f74": "Age",
+    "8d6e307e69b84940": "ProfileImageUrl"
+  },
+  "templates": [
+    {
+      "original": "The Id of -1 is assigned to a community member who prefers to remain anonymous within the programming group.",
+      "template_pattern": "The Id of [ID] is assigned to a community member who prefers to remain anonymous within the programming group.",
+      "primary_data_fields": [
+        "Id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A community member who wishes to stay anonymous in the programming group is given the Id of [ID].",
+        "The Id of [ID] is allocated to a programming‑group participant who elects to remain anonymous.",
+        "For a member of the community desiring anonymity within the programming group, the Id of [ID] has been assigned.",
+        "An anonymous‑preferring community member in the programming group receives the Id of [ID].",
+        "The Id of [ID] has been designated for a community member who opts to stay anonymous in the programming group.",
+        "Assigned the Id of [ID], the community member chooses to keep anonymity within the programming group.",
+        "Within the programming group, a community member who prefers anonymity is assigned Id [ID].",
+        "Id [ID] is granted to a community member who elects to remain anonymous within the programming group.",
+        "The programming group’s anonymous‑favoring community member is assigned the Id of [ID].",
+        "A community member, preferring anonymity in the programming group, receives Id [ID].",
+        "The Id of [ID] is conferred upon a community member who wishes to stay anonymous inside the programming group.",
+        "Id [ID] is given to a member of the community who wants to remain anonymous within the programming group.",
+        "In the programming group, the Id of [ID] is assigned to a community member who prefers to stay anonymous.",
+        "The community member who opts for anonymity in the programming group has been allocated Id [ID].",
+        "Assigning Id [ID] to a community member who prefers to stay anonymous within the programming group."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "programming": [
+          "programming",
+          "programme"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "assigned": [
+          "assigned"
+        ],
+        "prefers": [
+          "prefers"
+        ],
+        "member": [
+          "member"
+        ],
+        "remain": [
+          "remain",
+          "stay",
+          "continue",
+          "rest",
+          "persist"
+        ],
+        "anonymous": [
+          "anonymous"
+        ],
+        "group": [
+          "group"
+        ]
+      },
+      "field_data_types": {
+        "Id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The user account was created on 2010-07-19 06:55:26.0, making it one of the oldest on the community platform.",
+      "template_pattern": "The user account was created on [CREATIONDATE], making it one of the oldest on the community platform.",
+      "primary_data_fields": [
+        "CreationDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Creation Date [CREATIONDATE] marks this user account as one of the oldest on the community platform.",
+        "The user account, with a Creation Date of [CREATIONDATE], is counted among the platform’s earliest members.",
+        "Since its Creation Date of [CREATIONDATE], the account has remained one of the longest‑standing on the community platform.",
+        "Having a Creation Date recorded as [CREATIONDATE], this account ranks near the top of the age list on the community platform.",
+        "Because the Creation Date is [CREATIONDATE], the user’s account stands out as one of the platform’s most senior.",
+        "The account’s Creation Date—[CREATIONDATE]—places it among the oldest users of the community platform.",
+        "With [CREATIONDATE] as its Creation Date, the user account is considered one of the platform’s earliest.",
+        "Given a Creation Date of [CREATIONDATE], this account is among the longest‑existing on the community platform.",
+        "The user’s account, created on [CREATIONDATE] per its Creation Date, is one of the platform’s oldest entries.",
+        "Owing to its Creation Date of [CREATIONDATE], the account ranks as one of the senior members on the community platform.",
+        "The record shows a Creation Date of [CREATIONDATE], making the user account one of the earliest on the platform.",
+        "Since the Creation Date reads [CREATIONDATE], the account is counted among the community platform’s oldest.",
+        "A Creation Date of [CREATIONDATE] places this user account near the top of the age hierarchy on the community platform.",
+        "Because its Creation Date is [CREATIONDATE], the account remains one of the longest‑standing on the platform.",
+        "The user account’s Creation Date, [CREATIONDATE], designates it as one of the oldest on the community platform."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "created": [
+          "created"
+        ],
+        "making": [
+          "making",
+          "fashioning",
+          "devising"
+        ],
+        "oldest": [
+          "oldest"
+        ],
+        "user": [
+          "user"
+        ],
+        "platform": [
+          "platform"
+        ],
+        "account": [
+          "account",
+          "explanation",
+          "chronicle",
+          "report",
+          "accounting",
+          "story"
+        ]
+      },
+      "field_data_types": {
+        "CreationDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the programming community platform, you can often find valuable insights and discussions under the DisplayName Community.",
+      "template_pattern": "In the programming [DISPLAYNAME] platform, you can often find valuable insights and discussions under the DisplayName [DISPLAYNAME].",
+      "primary_data_fields": [
+        "DisplayName"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the programming [DISPLAYNAME] platform, valuable insights and discussions are frequently located beneath the DisplayName [DISPLAYNAME].",
+        "Often, you’ll discover useful insights and lively debates on the programming [DISPLAYNAME] platform under the DisplayName [DISPLAYNAME].",
+        "The programming [DISPLAYNAME] platform commonly hosts valuable insights and conversations in the DisplayName [DISPLAYNAME] section.",
+        "On the programming [DISPLAYNAME] platform, you can regularly encounter insightful discussions and valuable information under the DisplayName [DISPLAYNAME].",
+        "Valuable insights and discussions can be found quite often on the programming [DISPLAYNAME] platform, specifically under the DisplayName [DISPLAYNAME].",
+        "In the programming [DISPLAYNAME] platform, the DisplayName [DISPLAYNAME] houses many valuable insights and active discussions.",
+        "You are likely to come across valuable insights and discussions within the programming [DISPLAYNAME] platform, especially beneath the DisplayName [DISPLAYNAME].",
+        "The programming [DISPLAYNAME] platform frequently offers valuable insights and discussions beneath the DisplayName [DISPLAYNAME].",
+        "Under the DisplayName [DISPLAYNAME] on the programming [DISPLAYNAME] platform, one often finds valuable insights and lively discussions.",
+        "Within the programming [DISPLAYNAME] platform, the DisplayName [DISPLAYNAME] provides a wealth of valuable insights and discussions.",
+        "On the programming [DISPLAYNAME] platform, valuable insights and discussions are often present under the DisplayName [DISPLAYNAME].",
+        "Frequently, the programming [DISPLAYNAME] platform reveals valuable insights and discussions under the DisplayName [DISPLAYNAME].",
+        "The DisplayName [DISPLAYNAME], located on the programming [DISPLAYNAME] platform, is a common source of valuable insights and discussions.",
+        "You can regularly locate valuable insights and discussions in the programming [DISPLAYNAME] platform’s DisplayName [DISPLAYNAME] area.",
+        "Valuable insights and discussions are commonly discovered under the DisplayName [DISPLAYNAME] on the programming [DISPLAYNAME] platform."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "valuable": [
+          "valuable"
+        ],
+        "find": [
+          "find",
+          "detect",
+          "ascertain",
+          "notice",
+          "determine",
+          "discover"
+        ],
+        "insights": [
+          "insights"
+        ],
+        "programming": [
+          "programming",
+          "programme"
+        ],
+        "under": [
+          "under",
+          "below"
+        ],
+        "often": [
+          "often",
+          "frequently",
+          "oftentimes"
+        ],
+        "discussions": [
+          "discussions"
+        ],
+        "platform": [
+          "platform"
+        ]
+      },
+      "field_data_types": {
+        "DisplayName": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The last time the community member accessed their profile was on 2010-07-19 06:55:26.0, reflecting their engagement level.",
+      "template_pattern": "The last time the community member accessed their profile was on [LASTACCESSDATE], reflecting their engagement level.",
+      "primary_data_fields": [
+        "LastAccessDate"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Last Access Date recorded for the community member is [LASTACCESSDATE], indicating their engagement level.",
+        "According to the Last Access Date, the community member last opened their profile on [LASTACCESSDATE], which reflects their level of engagement.",
+        "On [LASTACCESSDATE], as shown by the Last Access Date, the community member accessed their profile, demonstrating their engagement.",
+        "Their profile was accessed on [LASTACCESSDATE] according to the Last Access Date, signifying the member’s engagement.",
+        "Reflecting the member’s engagement, the Last Access Date indicates a profile visit at [LASTACCESSDATE].",
+        "The profile of the community member was last opened at [LASTACCESSDATE], per the Last Access Date, revealing their engagement level.",
+        "As per the Last Access Date, the community member’s most recent profile access occurred on [LASTACCESSDATE], mirroring their engagement.",
+        "Last Access Date: [LASTACCESSDATE] – this timestamp marks the community member’s latest profile interaction and reflects their engagement.",
+        "The community member’s engagement is reflected by a Last Access Date of [LASTACCESSDATE], the moment they last viewed their profile.",
+        "A profile visit recorded at [LASTACCESSDATE], noted in the Last Access Date, indicates the member’s current engagement level.",
+        "From the Last Access Date, we see that the community member accessed their profile on [LASTACCESSDATE], which signals their engagement.",
+        "The timestamp [LASTACCESSDATE], captured as the Last Access Date, shows when the community member last engaged with their profile.",
+        "Seeing the Last Access Date of [LASTACCESSDATE] reveals the community member’s most recent profile access and their engagement status.",
+        "The community member’s most recent profile login, as indicated by the Last Access Date, happened on [LASTACCESSDATE], reflecting engagement.",
+        "With a Last Access Date of [LASTACCESSDATE], the community member’s profile was last accessed, underscoring their engagement level."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "engagement": [
+          "engagement",
+          "involvement",
+          "participation",
+          "appointment"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "layer",
+          "stratum",
+          "grade",
+          "stage"
+        ],
+        "last": [
+          "last",
+          "final",
+          "concluding",
+          "terminal",
+          "end",
+          "endure"
+        ],
+        "profile": [
+          "profile"
+        ],
+        "reflecting": [
+          "reflecting",
+          "reflect"
+        ],
+        "their": [
+          "their"
+        ],
+        "member": [
+          "member"
+        ],
+        "accessed": [
+          "accessed"
+        ]
+      },
+      "field_data_types": {
+        "LastAccessDate": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "You can visit John's professional profile at http://meta.stackexchange.com/ to learn more about his contributions and expertise.",
+      "template_pattern": "You can visit John's professional profile at [WEBSITEURL] to learn more about his contributions and expertise.",
+      "primary_data_fields": [
+        "WebsiteUrl"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "To discover more about his contributions and expertise, you may browse John's professional profile at [WEBSITEURL] .",
+        "John's professional profile can be accessed at [WEBSITEURL] for additional insight into his contributions and expertise.",
+        "By visiting [WEBSITEURL] you can explore John's professional profile and learn about his contributions and expertise.",
+        "For further information on his contributions and expertise, see John's professional profile located at [WEBSITEURL] .",
+        "If you wish to understand his contributions and expertise better, head to John's professional profile at [WEBSITEURL] .",
+        "John's professional profile, found at [WEBSITEURL] , offers details on his contributions and expertise.",
+        "To get a clearer picture of his contributions and expertise, consult John's professional profile via [WEBSITEURL] .",
+        "The professional profile of John is available at [WEBSITEURL] , where you can learn about his contributions and expertise.",
+        "Want to know more about his contributions and expertise? Visit John's professional profile at [WEBSITEURL] .",
+        "Accessing [WEBSITEURL] lets you view John's professional profile and understand his contributions and expertise.",
+        "John's contributions and expertise can be examined by visiting his professional profile at [WEBSITEURL] .",
+        "For an overview of his contributions and expertise, go to John's professional profile hosted at [WEBSITEURL] .",
+        "By checking out John's professional profile on [WEBSITEURL] you’ll gain insight into his contributions and expertise.",
+        "To learn about his contributions and expertise, navigate to John's professional profile at [WEBSITEURL] .",
+        "John's professional profile, located at [WEBSITEURL] , provides information on his contributions and expertise."
+      ],
+      "counter_variations": [
+        "The technology data report indicates that the Website Url is null, and thereafter the report proceeds with additional specifications.",
+        "According to the technology data report, the Website Url is null; subsequently, the document outlines further specifications.",
+        "In the technology data report, the Website Url is null, after which the report details additional specifications.",
+        "The technology data report states the Website Url is null, then continues by enumerating additional specifications.",
+        "Within the technology data report, the Website Url is null; the narrative then advances to include additional specifications.",
+        "As recorded in the technology data report, the Website Url is null, and the report thereafter presents additional specifications.",
+        "The technology data report notes that the Website Url is null; following this, it proceeds with additional specifications.",
+        "In the technology data report, the Website Url is null; the subsequent sections elaborate on additional specifications.",
+        "According to the technology data report, the Website Url is null; thereafter the report expands with additional specifications.",
+        "The technology data report reveals the Website Url is null, after which it continues with additional specifications.",
+        "Within the technology data report, the Website Url is null; the remainder of the report addresses additional specifications.",
+        "The technology data report documents that the Website Url is null, and then moves on to further specifications.",
+        "In the technology data report, the Website Url is null; subsequently, it continues with additional specifications.",
+        "According to the technology data report, the Website Url is null; the following content outlines additional specifications.",
+        "The technology data report cites the Website Url as null, after which the report proceeds with additional specifications."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "john": [
+          "john",
+          "lavatory",
+          "toilet",
+          "bathroom"
+        ],
+        "stackexchange": [
+          "stackexchange"
+        ],
+        "about": [
+          "about",
+          "approximately",
+          "around",
+          "roughly",
+          "nearly",
+          "almost"
+        ],
+        "contributions": [
+          "contributions"
+        ],
+        "meta": [
+          "meta"
+        ],
+        "profile": [
+          "profile"
+        ],
+        "more": [
+          "more"
+        ],
+        "learn": [
+          "learn",
+          "acquire",
+          "discover",
+          "study",
+          "memorize",
+          "memorise"
+        ]
+      },
+      "field_data_types": {
+        "WebsiteUrl": "url"
+      },
+      "is_static": false
+    },
+    {
+      "original": "For users located on the server farm, engaging with the programming community platform offers unique opportunities for collaboration and learning.",
+      "template_pattern": "For users located [LOCATION], engaging with the programming community platform offers unique opportunities for collaboration and learning.",
+      "primary_data_fields": [
+        "Location"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Users who are situated [LOCATION] find that participating in the programming community platform provides distinct chances for collaboration and learning.",
+        "[LOCATION], users who engage with the programming community platform receive unique opportunities for collaboration and learning.",
+        "The programming community platform grants users located [LOCATION] exclusive prospects for collaboration and learning.",
+        "For those users positioned [LOCATION], joining the programming community platform opens up singular opportunities for collaboration and learning.",
+        "Users located [LOCATION], when they engage with the programming community platform, receive unique opportunities for collaboration and learning.",
+        "When users are [LOCATION], their involvement with the programming community platform yields special chances for collaboration and learning.",
+        "Engagement with the programming community platform supplies users [LOCATION] with unparalleled opportunities for collaboration and learning.",
+        "Users situated [LOCATION], by using the programming community platform, gain unique opportunities for collaboration and learning.",
+        "The programming community platform presents users [LOCATION] with exclusive opportunities to collaborate and learn.",
+        "By participating in the programming community platform, users located [LOCATION] obtain distinctive opportunities for collaboration and learning.",
+        "Users [LOCATION] who engage with the programming community platform receive unique opportunities for collaboration and learning.",
+        "Users [LOCATION] who connect with the programming community platform are afforded unique opportunities for collaboration and learning.",
+        "The unique opportunities for collaboration and learning are available to users [LOCATION] through the programming community platform.",
+        "Through the programming community platform, users situated [LOCATION] receive special opportunities for collaboration and learning.",
+        "[LOCATION], engaging with the programming community platform gives users unique chances for collaboration and learning."
+      ],
+      "counter_variations": [
+        "If the Location registers as null, analysts are compelled to entertain the prospect of undefined deployment sites while forecasting technology adoption trends.",
+        "Analysts, encountering a null Location, must factor in the chance of undefined deployment sites as they proceed with forecasting technology adoption trends.",
+        "When faced with a null Location, analysts should contemplate the likelihood of undefined deployment sites during the forecasting of technology adoption trends.",
+        "Given that the Location is null, analysts need to account for undefined deployment sites while they are forecasting technology adoption trends.",
+        "In scenarios where the Location is null, it becomes incumbent upon analysts to consider undefined deployment sites while forecasting technology adoption trends.",
+        "A null Location prompts analysts to weigh the possibility of undefined deployment sites as part of their forecasting technology adoption trends efforts.",
+        "Should the Location be null, analysts must incorporate the risk of undefined deployment sites into their forecasting technology adoption trends analyses.",
+        "When the Location appears null, analysts are required to assess the potential of undefined deployment sites while they forecast technology adoption trends.",
+        "If a null Location is detected, analysts have to factor the prospect of undefined deployment sites into their forecasting technology adoption trends.",
+        "Analysts must, upon encountering a null Location, consider the eventuality of undefined deployment sites while forecasting technology adoption trends.",
+        "The occurrence of a null Location obliges analysts to reckon with undefined deployment sites while they are forecasting technology adoption trends.",
+        "Whenever the Location is null, analysts should incorporate the notion of undefined deployment sites into the process of forecasting technology adoption trends.",
+        "A null Location signals to analysts that they must appraise the possibility of undefined deployment sites while forecasting technology adoption trends.",
+        "In the event that the Location registers null, analysts are tasked with evaluating undefined deployment sites as they engage in forecasting technology adoption trends.",
+        "When analysts observe that the Location is null, they must factor in undefined deployment sites while forecasting technology adoption trends."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "located": [
+          "located",
+          "situated",
+          "placed"
+        ],
+        "users": [
+          "users"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "learning": [
+          "learning",
+          "acquisition",
+          "study",
+          "scholarship"
+        ],
+        "opportunities": [
+          "opportunities"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "collaboration": [
+          "collaboration",
+          "coaction"
+        ],
+        "engaging": [
+          "engaging",
+          "piquant"
+        ]
+      },
+      "field_data_types": {
+        "Location": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The AboutMe section intriguingly states, \"<p>Hi, I'm not really a person.</p>\", sparking curiosity about the community member's unique perspective.",
+      "template_pattern": "The AboutMe section intriguingly states, [ABOUTME], sparking curiosity about the community member's unique perspective.",
+      "primary_data_fields": [
+        "AboutMe"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the AboutMe section, the line [ABOUTME] is presented intriguingly, provoking curiosity about this community member's distinct viewpoint.",
+        "The AboutMe area intriguingly displays [ABOUTME], which arouses interest in the member's singular perspective.",
+        "Within AboutMe, the statement [ABOUTME] appears, sparking intrigue about the community participant's unique outlook.",
+        "An intriguing line in the AboutMe field—[ABOUTME]—elicits curiosity regarding the member's atypical viewpoint.",
+        "The phrase [ABOUTME] is intriguingly listed in AboutMe, prompting curiosity about the individual's distinctive perspective.",
+        "AboutMe contains the intriguing sentence [ABOUTME], which generates interest in the community member's unusual stance.",
+        "By featuring [ABOUTME] in the AboutMe section, curiosity is sparked about the member's one‑of‑a‑kind outlook.",
+        "The AboutMe segment intriguingly declares [ABOUTME], leading observers to wonder about the person's singular perspective.",
+        "Curiosity about the community member's unique perspective is ignited by the AboutMe entry that reads [ABOUTME].",
+        "The entry in AboutMe—[ABOUTME]—is presented with intrigue, causing speculation about the individual's distinctive view.",
+        "In AboutMe, the captivating line [ABOUTME] appears, arousing curiosity concerning the member's unusual angle.",
+        "The AboutMe field intriguingly quotes [ABOUTME], which provokes interest in the community member's particular perspective.",
+        "When the AboutMe section states [ABOUTME], it triggers curiosity about the contributor's unique outlook.",
+        "The statement [ABOUTME] found in AboutMe draws attention, sparking curiosity about the member's distinct viewpoint.",
+        "An intriguing declaration in AboutMe—[ABOUTME]—invites curiosity regarding the community member's singular perspective."
+      ],
+      "counter_variations": [
+        "The AboutMe field is recorded as null, which implies that the personal description has been deliberately left out of this technology data report.",
+        "In this technology data report, the AboutMe entry bears the value null, indicating a purposeful exclusion of any personal narrative.",
+        "By assigning null to the AboutMe attribute, the report subtly signals that the author's personal description has been intentionally omitted.",
+        "Within the technology data report, the AboutMe component is set to null, reflecting a conscious decision to forgo a personal summary.",
+        "The presence of null in the AboutMe section of the report suggests that a personal description was purposefully omitted.",
+        "Null appears as the value for AboutMe, denoting that the report intentionally excludes a personal description.",
+        "Assigning null to AboutMe in this technology data report conveys that the personal description was deliberately omitted.",
+        "The technology data report lists null for the AboutMe attribute, revealing an intentional lack of a personal description.",
+        "Because the AboutMe entry contains null, the report signals that the personal description has been purposefully left out.",
+        "In the context of this technology data report, AboutMe is populated with null, signifying a deliberate omission of a personal narrative.",
+        "The report’s AboutMe field is populated with null, suggesting that the author chose to omit any personal description intentionally.",
+        "Null is the recorded value for AboutMe, indicating that the report intentionally refrains from providing a personal description.",
+        "By marking AboutMe as null, the technology data report conveys an intentional exclusion of a personal summary.",
+        "The technology data report assigns null to the AboutMe entry, reflecting a purposeful decision to omit a personal description.",
+        "Having null as the value for AboutMe demonstrates that the report deliberately omits any personal description."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "states": [
+          "states"
+        ],
+        "about": [
+          "about",
+          "around",
+          "approximately",
+          "roughly",
+          "nearly",
+          "almost"
+        ],
+        "sparking": [
+          "sparking"
+        ],
+        "intriguingly": [
+          "intriguingly"
+        ],
+        "unique": [
+          "unique",
+          "unequaled",
+          "unequalled",
+          "unparalleled",
+          "singular"
+        ],
+        "perspective": [
+          "perspective",
+          "position",
+          "view"
+        ],
+        "section": [
+          "section",
+          "division",
+          "segment",
+          "subdivision",
+          "department",
+          "part"
+        ],
+        "curiosity": [
+          "curiosity",
+          "wonder",
+          "oddity",
+          "peculiarity"
+        ]
+      },
+      "field_data_types": {
+        "AboutMe": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The <li><a href=\"http is //meta.stackexchange.com/a/92006\">Remove abandoned questions</a></li>.",
+      "template_pattern": "The <li><a href=\"http is [<LI><A HREF=\"HTTP].",
+      "primary_data_fields": [
+        "<li><a href=\"http"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The <li><a href=\"http is [<LI><A HREF=\"HTTP] appears in the report.",
+        "In the technology data report, the entry <li><a href=\"http is [<LI><A HREF=\"HTTP] is listed.",
+        "According to the findings, <li><a href=\"http is [<LI><A HREF=\"HTTP] is noted.",
+        "The dataset highlights <li><a href=\"http is [<LI><A HREF=\"HTTP] as a key point.",
+        "Among the items, <li><a href=\"http is [<LI><A HREF=\"HTTP] is mentioned.",
+        "It is recorded that <li><a href=\"http is [<LI><A HREF=\"HTTP] features in the analysis.",
+        "The report includes the line <li><a href=\"http is [<LI><A HREF=\"HTTP].",
+        "Within the summary, <li><a href=\"http is [<LI><A HREF=\"HTTP] is referenced.",
+        "The following element is observed: <li><a href=\"http is [<LI><A HREF=\"HTTP].",
+        "Highlighted in the data is <li><a href=\"http is [<LI><A HREF=\"HTTP].",
+        "The analysis points to <li><a href=\"http is [<LI><A HREF=\"HTTP] as a notable item.",
+        "As shown in the documentation, <li><a href=\"http is [<LI><A HREF=\"HTTP] is present.",
+        "The compiled statistics feature <li><a href=\"http is [<LI><A HREF=\"HTTP].",
+        "Notably, <li><a href=\"http is [<LI><A HREF=\"HTTP] is included.",
+        "The section contains the tag <li><a href=\"http is [<LI><A HREF=\"HTTP]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "remove": [
+          "remove",
+          "withdraw",
+          "take",
+          "transfer"
+        ],
+        "meta": [
+          "meta"
+        ],
+        "questions": [
+          "questions"
+        ],
+        "stackexchange": [
+          "stackexchange"
+        ]
+      },
+      "field_data_types": {
+        "<li><a href=\"http": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The report indicates that total Views reached [VIEWS] during the quarter, reflecting a notable increase in user engagement.",
+      "template_pattern": "The report indicates that total Views reached [VIEWS] during the quarter, reflecting a notable increase in user engagement.",
+      "primary_data_fields": [
+        "Views"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the report, total Views amounted to [VIEWS] this quarter, signaling a significant rise in user engagement.",
+        "The quarter’s user engagement saw a marked boost as total Views climbed to [VIEWS], the report reveals.",
+        "In the latest report, total Views were recorded at [VIEWS] for the quarter, indicating heightened user engagement.",
+        "A notable increase in user engagement is evident, with total Views reaching [VIEWS] during the quarter, the report states.",
+        "Total Views hit [VIEWS] over the quarter, reflecting a substantial uptick in user engagement, as the report shows.",
+        "The report shows that, during the quarter, total Views rose to [VIEWS], underscoring a marked growth in user engagement.",
+        "User engagement rose noticeably, with total Views achieving [VIEWS] in the quarter, according to the report.",
+        "During this quarter, the report documents total Views of [VIEWS], which mirrors a pronounced increase in user engagement.",
+        "The data report indicates total Views reached [VIEWS] for the quarter, highlighting an appreciable surge in user engagement.",
+        "A substantial jump in user engagement is reflected by total Views of [VIEWS] recorded during the quarter, the report notes.",
+        "The quarter’s total Views amounted to [VIEWS], a figure that points to a notable rise in user engagement, the report confirms.",
+        "Report findings reveal that total Views climbed to [VIEWS] over the quarter, denoting a clear increase in user engagement.",
+        "Total Views of [VIEWS] were logged for the quarter, indicating a significant boost in user engagement, per the report.",
+        "The report highlights that, in the quarter, total Views reached [VIEWS], illustrating a marked improvement in user engagement.",
+        "During the quarter, total Views reached [VIEWS], which reflects a notable increase in user engagement, as indicated by the report."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "user": [
+          "user"
+        ],
+        "engagement": [
+          "engagement",
+          "involvement",
+          "participation"
+        ],
+        "reached": [
+          "reached",
+          "attained",
+          "gained",
+          "accomplished",
+          "hit",
+          "contacted"
+        ],
+        "indicates": [
+          "indicates",
+          "shows",
+          "signals",
+          "suggests",
+          "designates",
+          "points"
+        ],
+        "increase": [
+          "increase",
+          "gain",
+          "growth",
+          "increment",
+          "addition"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "account",
+          "study",
+          "composition",
+          "story"
+        ],
+        "views": [
+          "views"
+        ],
+        "quarter": [
+          "quarter",
+          "fourth",
+          "canton"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "In the programming community, her insightful post garnered an impressive 5007 UpVotes, highlighting its widespread popularity and engagement.",
+      "template_pattern": "In the programming community, her insightful post garnered an impressive [UPVOTES] UpVotes, highlighting its widespread popularity and engagement.",
+      "primary_data_fields": [
+        "UpVotes"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the programming community, her insightful post attracted a remarkable [UPVOTES] UpVotes, underscoring its broad appeal and interaction.",
+        "Her insightful post, noted by the programming community, amassed an impressive [UPVOTES] UpVotes, reflecting widespread popularity and engagement.",
+        "Within the programming community, the post she authored earned [UPVOTES] UpVotes, highlighting its extensive reach and reader involvement.",
+        "The programming community responded to her insightful post with [UPVOTES] UpVotes, signaling strong popularity and active engagement.",
+        "A total of [UPVOTES] UpVotes were granted to her insightful post by members of the programming community, indicating its high level of popularity and participation.",
+        "Among programmers, her insightful post secured [UPVOTES] UpVotes, demonstrating considerable popularity and user engagement.",
+        "Her insightful post drew [UPVOTES] UpVotes from the programming community, showcasing its far‑reaching popularity and engagement.",
+        "The programming community bestowed [UPVOTES] UpVotes upon her insightful post, emphasizing its wide‑scale popularity and interaction.",
+        "Thanks to its insightful nature, her post collected [UPVOTES] UpVotes from the programming community, marking significant popularity and engagement.",
+        "In the realm of programming, her insightful contribution garnered [UPVOTES] UpVotes, a testament to its extensive popularity and active involvement.",
+        "The post, praised for its insight, earned [UPVOTES] UpVotes within the programming community, highlighting broad appeal and engagement.",
+        "Programming enthusiasts awarded her insightful post [UPVOTES] UpVotes, illustrating its strong popularity and participatory buzz.",
+        "Her insightful post was credited with [UPVOTES] UpVotes by the programming community, reflecting its widespread popularity and active engagement.",
+        "Across the programming community, her insightful article accumulated [UPVOTES] UpVotes, underscoring its notable popularity and user interaction.",
+        "The insightful post she shared attracted [UPVOTES] UpVotes from programmers, signaling a high degree of popularity and engagement."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "garnered": [
+          "garnered"
+        ],
+        "insightful": [
+          "insightful"
+        ],
+        "popularity": [
+          "popularity"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "engagement": [
+          "engagement",
+          "involvement",
+          "participation",
+          "appointment",
+          "booking"
+        ],
+        "highlighting": [
+          "highlighting"
+        ],
+        "widespread": [
+          "widespread"
+        ],
+        "post": [
+          "post",
+          "mail",
+          "send",
+          "place"
+        ]
+      },
+      "field_data_types": {
+        "UpVotes": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The community member's contributions have accumulated 1920 DownVotes, reflecting a challenging reception among their peers in the programming community.",
+      "template_pattern": "The community member's contributions have accumulated [DOWNVOTES] DownVotes, reflecting a challenging reception among their peers in the programming community.",
+      "primary_data_fields": [
+        "DownVotes"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Across the programming community, the member's contributions have drawn [DOWNVOTES] DownVotes, indicating a difficult reception from peers.",
+        "A total of [DOWNVOTES] DownVotes have been recorded against the community member's contributions, signaling that peers found them challenging.",
+        "The programming peers have given the member’s work [DOWNVOTES] DownVotes, which points to a tough reception.",
+        "Reflecting a harsh response from fellow developers, the member’s submissions have amassed [DOWNVOTES] DownVotes.",
+        "In the tech community, [DOWNVOTES] DownVotes have accumulated on the member’s contributions, showing they were poorly received.",
+        "The contributions of the community member have been met with [DOWNVOTES] DownVotes, a sign of a challenging reception among programmers.",
+        "Among programming peers, the member’s work has attracted [DOWNVOTES] DownVotes, illustrating a difficult acceptance.",
+        "The member’s inputs have gathered [DOWNVOTES] DownVotes, underscoring a tough reaction from the programming community.",
+        "A challenging reception is evident as [DOWNVOTES] DownVotes have piled up on the community member’s contributions.",
+        "The programming community has responded with [DOWNVOTES] DownVotes to the member’s contributions, reflecting a strained reception.",
+        "With [DOWNVOTES] DownVotes, the member’s contributions demonstrate a less‑favorable reception among their programming peers.",
+        "The community member’s work has been slapped with [DOWNVOTES] DownVotes, indicating a hostile reception in the programming circle.",
+        "In the realm of developers, [DOWNVOTES] DownVotes have been logged against the member’s contributions, highlighting a difficult reception.",
+        "The member’s submissions have accumulated [DOWNVOTES] DownVotes, which reveals a challenging response from fellow programmers.",
+        "A total of [DOWNVOTES] DownVotes were cast on the community member’s contributions, reflecting a tough reception within the programming community."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "accumulated": [
+          "accumulated",
+          "accrued",
+          "amassed",
+          "compiled",
+          "collected",
+          "gathered"
+        ],
+        "programming": [
+          "programming",
+          "programme",
+          "program"
+        ],
+        "reception": [
+          "reception",
+          "response",
+          "receipt"
+        ],
+        "among": [
+          "among"
+        ],
+        "challenging": [
+          "challenging"
+        ],
+        "their": [
+          "their"
+        ],
+        "member": [
+          "member"
+        ],
+        "contributions": [
+          "contributions"
+        ]
+      },
+      "field_data_types": {
+        "DownVotes": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The system flagged the AccountId -1 as an error, prompting a review of that community member's activities.",
+      "template_pattern": "The system flagged the AccountId [ACCOUNTID] as an error, prompting a review of that community member's activities.",
+      "primary_data_fields": [
+        "AccountId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The system flagged AccountId [ACCOUNTID] as an error, triggering a review of that community member’s activities.",
+        "An error was raised for AccountId [ACCOUNTID] by the system, prompting an audit of the member’s actions.",
+        "Due to an error flag on AccountId [ACCOUNTID], the system initiated a review of the associated community member’s behavior.",
+        "The detection of an error in AccountId [ACCOUNTID] caused the system to examine that member’s activity record.",
+        "AccountId [ACCOUNTID] was marked as erroneous by the system, leading to a scrutiny of the user’s actions.",
+        "Because the system identified AccountId [ACCOUNTID] as erroneous, it called for a review of the member’s engagements.",
+        "The system’s error flag on AccountId [ACCOUNTID] resulted in a reassessment of that community participant’s activity.",
+        "Seeing AccountId [ACCOUNTID] flagged as an error, the system set off a review of the individual’s actions.",
+        "An error flag on AccountId [ACCOUNTID] prompted the system to audit that community member’s recent activities.",
+        "When the system flagged AccountId [ACCOUNTID] as an error, it spurred a review of the member’s conduct.",
+        "The system’s identification of AccountId [ACCOUNTID] as an error led to a detailed examination of that user’s activity.",
+        "Following the error flag for AccountId [ACCOUNTID], the system began reviewing the associated community member’s behavior.",
+        "AccountId [ACCOUNTID] triggered an error flag in the system, which then prompted an analysis of the member’s actions.",
+        "The system flagged an error on AccountId [ACCOUNTID], thereby initiating a review of the community member’s activity.",
+        "Due to the error flagged on AccountId [ACCOUNTID], the system commenced a review of that user’s engagement history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "review": [
+          "review",
+          "reassessment",
+          "recap",
+          "retrospect",
+          "critique",
+          "survey"
+        ],
+        "activities": [
+          "activities"
+        ],
+        "system": [
+          "system",
+          "arrangement",
+          "scheme",
+          "organisation",
+          "organization"
+        ],
+        "prompting": [
+          "prompting"
+        ],
+        "error": [
+          "error",
+          "mistake",
+          "fault"
+        ],
+        "member": [
+          "member"
+        ],
+        "flagged": [
+          "flagged"
+        ]
+      },
+      "field_data_types": {
+        "AccountId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The age of the community member is NULL, making it unclear whether they are a teenager, adult, or elder.",
+      "template_pattern": "The age of the community member is [AGE], making it unclear whether they are a teenager, adult, or elder.",
+      "primary_data_fields": [
+        "Age"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The individual's Age is recorded as [AGE], reflecting a mature adult phase common in professional demographics.",
+        "Recorded Age for this person stands at [AGE], signifying a seasoned adult level within standard professional demographics.",
+        "At [AGE] years, the Age logged for the individual denotes a mature adult stage typical of professional demographic groups.",
+        "This individual's Age, documented as [AGE], points to a mature adult period prevalent in ordinary professional demographics.",
+        "With an Age of [AGE], the person is identified as being in a mature adult bracket that aligns with usual professional demographics.",
+        "The Age noted for this subject equals [AGE], indicating a mature adult segment in typical professional demographics.",
+        "A [AGE]-year Age has been recorded for the individual, suggesting a mature adult status within conventional professional demographics.",
+        "For this individual, the Age recorded is [AGE], which implies a mature adult stage found in normal professional demographics.",
+        "The Age, as logged at [AGE] for this person, signals a mature adult phase characteristic of typical professional demographics.",
+        "Age of [AGE] is recorded for the individual, denoting a mature adult tier commonly observed in professional demographics.",
+        "Having an Age of [AGE], the individual falls into the mature adult category typical of professional demographic profiles.",
+        "The individual's Age, set at [AGE], represents a mature adult level seen across standard professional demographics.",
+        "At [AGE], the recorded Age of this individual highlights a mature adult stage within usual professional demographics.",
+        "The Age recorded for this person is [AGE], marking them as a mature adult within the range typical of professional demographics.",
+        "This person’s Age is documented as [AGE], indicating they belong to the mature adult segment common in professional demographics."
+      ],
+      "counter_variations": [
+        "Because the Age field is null, it remains indeterminate whether the community member falls into the teenager, adult, or elder bracket.",
+        "The community member's Age registers as null, leaving analysts unable to ascertain if they are a teenager, adult, or elder.",
+        "With Age set to null, the report cannot specify whether the individual is categorized as a teenager, adult, or elder.",
+        "Since the Age value is null, the classification of the community participant as teenager, adult, or elder is ambiguous.",
+        "Age appears as null in the dataset, rendering the determination of the member as teenager, adult, or elder unclear.",
+        "The dataset shows a null Age, which obscures whether the person belongs to the teenager, adult, or elder cohort.",
+        "Given that Age is null, the system cannot resolve if the community member is a teenager, adult, or elder.",
+        "A null entry for Age makes it impossible to decide whether the individual is a teenager, adult, or elder.",
+        "The Age column contains null, thereby preventing any clear identification of the member as teenager, adult, or elder.",
+        "Because the Age field returns null, the status of the community member—teenager, adult, or elder—cannot be determined.",
+        "The presence of null in the Age attribute leaves the age group—teenager, adult, or elder—unresolved.",
+        "Null is recorded for Age, which means the data cannot reveal whether the person is a teenager, adult, or elder.",
+        "When Age is null, the report lacks sufficient information to label the community member as teenager, adult, or elder.",
+        "The Age parameter being null creates uncertainty about the individual's classification as teenager, adult, or elder.",
+        "Since the record shows Age as null, any inference about the member being a teenager, adult, or elder remains speculative."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "whether": [
+          "whether"
+        ],
+        "making": [
+          "making",
+          "fashioning",
+          "devising"
+        ],
+        "unclear": [
+          "unclear",
+          "unreadable",
+          "indecipherable",
+          "undecipherable"
+        ],
+        "adult": [
+          "adult",
+          "grownup",
+          "grown"
+        ],
+        "member": [
+          "member"
+        ],
+        "elder": [
+          "elder",
+          "older",
+          "senior"
+        ],
+        "teenager": [
+          "teenager",
+          "adolescent",
+          "teen"
+        ]
+      },
+      "field_data_types": {
+        "Age": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The profile image URL for the community member is NULL.",
+      "template_pattern": "The profile image URL for the community member is [PROFILEIMAGEURL].",
+      "primary_data_fields": [
+        "ProfileImageUrl"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The listed entity’s Profile Image Url is configured to [PROFILEIMAGEURL], which serves as its current visual identifier.",
+        "Set to [PROFILEIMAGEURL], the Profile Image Url for the listed entity denotes the present visual identifier.",
+        "For the listed entity, the Profile Image Url has been assigned [PROFILEIMAGEURL], indicating its current visual identifier.",
+        "The current visual identifier of the listed entity is represented by its Profile Image Url, pointing to [PROFILEIMAGEURL].",
+        "With the Profile Image Url set at [PROFILEIMAGEURL], the listed entity now displays its current visual identifier.",
+        "The listed entity’s current visual identifier is reflected in the Profile Image Url, which is [PROFILEIMAGEURL].",
+        "Assigned to [PROFILEIMAGEURL], the Profile Image Url marks the listed entity’s present visual identifier.",
+        "The Profile Image Url, showing [PROFILEIMAGEURL], identifies the listed entity’s current visual representation.",
+        "As the listed entity’s Profile Image Url, [PROFILEIMAGEURL] functions as the current visual identifier.",
+        "The current visual identifier for the listed entity is indicated by its Profile Image Url set to [PROFILEIMAGEURL].",
+        "By setting the Profile Image Url to [PROFILEIMAGEURL], the listed entity’s present visual identifier is specified.",
+        "The listed entity displays its current visual identifier through the Profile Image Url, which points to [PROFILEIMAGEURL].",
+        "[PROFILEIMAGEURL] is the value of the listed entity’s Profile Image Url, denoting its current visual identifier.",
+        "Indicating the present visual identifier, the listed entity’s Profile Image Url is [PROFILEIMAGEURL].",
+        "The Profile Image Url of the listed entity, set as [PROFILEIMAGEURL], signals its current visual identifier."
+      ],
+      "counter_variations": [
+        "The community member’s Profile Image Url is recorded as null.",
+        "In the current data set, the Profile Image Url for this community member appears as null.",
+        "Although other attributes are populated, the Profile Image Url remains null for the member in question.",
+        "Null is the value assigned to the Profile Image Url of the community member according to the report.",
+        "For this particular community member, the Profile Image Url has been set to null.",
+        "The dataset indicates that the Profile Image Url pertaining to the community member is null.",
+        "Given the available information, the Profile Image Url of the community member is null.",
+        "The profile entry shows a null value for the Profile Image Url of the community member.",
+        "In the generated report, the Profile Image Url associated with the community member is null.",
+        "Despite the presence of other data points, the Profile Image Url for the community member is null.",
+        "The system logs denote null as the content of the Profile Image Url for the community member.",
+        "According to the latest extraction, the community member’s Profile Image Url is null.",
+        "The analysis reveals that the Profile Image Url for this community member currently holds a null value.",
+        "Within the record, the Profile Image Url assigned to the community member is null.",
+        "The data payload specifies null for the Profile Image Url of the community member."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "image": [
+          "image",
+          "picture",
+          "icon",
+          "figure",
+          "effigy"
+        ],
+        "member": [
+          "member"
+        ],
+        "profile": [
+          "profile"
+        ]
+      },
+      "field_data_types": {
+        "ProfileImageUrl": "url"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The organization’s Reputation is regarded as positive, indicating strong stakeholder confidence and bolstering its competitive positioning within the technology sector.",
+      "template_pattern": "The company's overall Reputation score, currently measured at [REPUTATION], reflects its standing among industry peers and customers.",
+      "primary_data_fields": [
+        "Reputation"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Measured at [REPUTATION], the company's overall Reputation score shows its reputation among industry peers and customers.",
+        "The overall Reputation score of the company, which stands at [REPUTATION], mirrors its position relative to industry peers and customers.",
+        "With a current value of [REPUTATION], the company's Reputation score overall reflects how it is perceived by both industry peers and customers.",
+        "Industry peers and customers perceive the company according to its overall Reputation score, presently recorded at [REPUTATION].",
+        "The company's standing among industry peers and customers is captured by its overall Reputation score, now measured at [REPUTATION].",
+        "At a level of [REPUTATION], the overall Reputation score of the company indicates its standing with industry peers and customers.",
+        "The overall Reputation score, currently [REPUTATION], serves as a gauge of the company's reputation among industry peers and customers.",
+        "Reflecting its stature with industry peers and customers, the company's overall Reputation score is currently [REPUTATION].",
+        "A Reputation score of [REPUTATION] across the company as a whole signals its standing among industry peers and customers.",
+        "The company's overall Reputation score, which currently reads [REPUTATION], reflects its position among industry peers and customers.",
+        "Seen through the lens of its overall Reputation score at [REPUTATION], the company’s standing with industry peers and customers becomes clear.",
+        "Industry peers and customers view the company through its overall Reputation score, currently set at [REPUTATION].",
+        "The overall Reputation score of the company, at [REPUTATION] today, mirrors its standing among both industry peers and customers.",
+        "Current measurement of [REPUTATION] for the company's overall Reputation score indicates its status among industry peers and customers.",
+        "The company's overall Reputation score, measured now at [REPUTATION], reflects how it stands with industry peers and customers."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reputation": [
+          "reputation",
+          "repute"
+        ],
+        "score": [
+          "score",
+          "tally",
+          "mark",
+          "grade"
+        ],
+        "company": [
+          "company",
+          "society",
+          "party"
+        ],
+        "standing": [
+          "standing"
+        ],
+        "among": [
+          "among"
+        ],
+        "overall": [
+          "overall"
+        ],
+        "measured": [
+          "measured",
+          "calculated"
+        ],
+        "reflects": [
+          "reflects"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

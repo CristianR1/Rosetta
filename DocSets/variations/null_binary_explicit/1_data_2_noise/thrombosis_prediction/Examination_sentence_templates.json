@@ -1,0 +1,2628 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "b66db154d5fc43c4": "ID",
+    "baee1ad53bce419f": "Examination Date",
+    "65d251709a7140b4": "aCL IgG",
+    "916f898c88804f7b": "aCL IgM",
+    "5e61a83e692c4e7c": "ANA",
+    "c49a8668c4134179": "ANA Pattern",
+    "5be7ab40e2dc4e94": "Diagnosis",
+    "0f7b4369127049a8": "KCT",
+    "b6f287da792d4f4e": "RVVT",
+    "6eff8549584e465b": "LAC",
+    "8242e07c798b4091": "Symptoms",
+    "59cdd173d4024853": "Thrombosis",
+    "97941a4e1d2b428a": "aCL IgA"
+  },
+  "templates": [
+    {
+      "original": "Patient ID 14872 was scheduled for a comprehensive evaluation to enhance the accuracy of thrombosis risk predictions.",
+      "template_pattern": "Patient ID [ID] was scheduled for a comprehensive evaluation to enhance the accuracy of thrombosis risk predictions.",
+      "primary_data_fields": [
+        "ID"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The comprehensive evaluation for Patient ID [ID] has been scheduled to improve the accuracy of thrombosis risk predictions.",
+        "To boost the precision of thrombosis risk predictions, a comprehensive evaluation was arranged for Patient ID [ID].",
+        "Patient ID [ID] will undergo a comprehensive evaluation, scheduled to sharpen the accuracy of thrombosis risk predictions.",
+        "A comprehensive evaluation has been set for Patient ID [ID] in order to enhance the accuracy of thrombosis risk predictions.",
+        "Scheduled for a comprehensive evaluation, Patient ID [ID] aims to increase the accuracy of thrombosis risk predictions.",
+        "In an effort to refine the accuracy of thrombosis risk predictions, Patient ID [ID] was booked for a comprehensive evaluation.",
+        "For Patient ID [ID], a comprehensive evaluation is planned to heighten the accuracy of thrombosis risk predictions.",
+        "The plan for Patient ID [ID] includes a comprehensive evaluation intended to raise the accuracy of thrombosis risk predictions.",
+        "To augment the accuracy of thrombosis risk predictions, a comprehensive evaluation has been slated for Patient ID [ID].",
+        "Patient ID [ID]'s schedule now features a comprehensive evaluation designed to improve the accuracy of thrombosis risk predictions.",
+        "A comprehensive evaluation, aimed at bettering the accuracy of thrombosis risk predictions, has been scheduled for Patient ID [ID].",
+        "With the goal of enhancing the accuracy of thrombosis risk predictions, Patient ID [ID] is set for a comprehensive evaluation.",
+        "The healthcare team scheduled a comprehensive evaluation for Patient ID [ID] to increase the accuracy of thrombosis risk predictions.",
+        "Patient ID [ID] is slated to receive a comprehensive evaluation, which seeks to improve the accuracy of thrombosis risk predictions.",
+        "To increase the precision of thrombosis risk predictions, a comprehensive evaluation was scheduled for Patient ID [ID]."
+      ],
+      "counter_variations": [
+        "Because the identifier was unavailable during the comprehensive clinical assessment, the patient’s ID is null.",
+        "The patient’s ID is null, a result of the identifier being unavailable at the time of the comprehensive clinical assessment.",
+        "During the comprehensive clinical assessment, the identifier was unavailable, rendering the patient’s ID null.",
+        "Given that the identifier was unavailable at the moment of the comprehensive clinical assessment, the patient’s ID is null.",
+        "At the point of the comprehensive clinical assessment, the identifier was unavailable, so the patient’s ID is null.",
+        "The comprehensive clinical assessment revealed that the identifier was unavailable, consequently the patient’s ID is null.",
+        "Since the identifier was unavailable during the comprehensive clinical assessment, the patient’s ID is null.",
+        "The patient’s ID is null; this reflects the identifier was unavailable at the time of the comprehensive clinical assessment.",
+        "In the comprehensive clinical assessment, the identifier was unavailable, which leads to the patient’s ID being null.",
+        "The patient’s ID is null, reflecting that the identifier was unavailable when the comprehensive clinical assessment was conducted.",
+        "When the comprehensive clinical assessment took place, the identifier was unavailable, resulting in the patient’s ID being null.",
+        "Because the identifier was unavailable at the time of the comprehensive clinical assessment, the patient’s ID appears as null.",
+        "The patient’s ID is null, denoting that the identifier was unavailable during the comprehensive clinical assessment.",
+        "At the time of the comprehensive clinical assessment, the identifier was unavailable, and thus the patient’s ID is null.",
+        "The patient’s ID is null, because the identifier was unavailable during the comprehensive clinical assessment."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "scheduled": [
+          "scheduled"
+        ],
+        "evaluation": [
+          "evaluation",
+          "rating"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "accuracy": [
+          "accuracy"
+        ],
+        "risk": [
+          "risk",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ],
+        "comprehensive": [
+          "comprehensive"
+        ],
+        "predictions": [
+          "predictions"
+        ]
+      },
+      "field_data_types": {
+        "ID": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Meanwhile, the team prepared for the detailed assessment with meticulous care.",
+      "template_pattern": "Meanwhile, the team prepared for the detailed assessment with meticulous care.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Meanwhile, the team readied themselves for the thorough evaluation with painstaking care.",
+        "At the same time, the staff organized the comprehensive review, exercising meticulous attention.",
+        "Simultaneously, the analysts set up the detailed assessment, applying exacting diligence.",
+        "During this period, the personnel prepared for the in‑depth analysis with scrupulous precision.",
+        "In the interim, the crew arranged the precise appraisal, handling it with careful care.",
+        "While the report was being compiled, the group got ready for the detailed assessment, showing meticulous care.",
+        "The detailed assessment was prepared for by the team, who proceeded with meticulous care, meanwhile.",
+        "Meanwhile, meticulous care guided the team as they prepared for the comprehensive evaluation.",
+        "The staff, meanwhile, readied the thorough assessment with exacting care.",
+        "At that moment, the analysts were preparing for the detailed review, employing painstaking diligence.",
+        "The team, during the same timeframe, organized the meticulous assessment with careful precision.",
+        "In parallel, the personnel prepared for the in‑depth evaluation, paying close attention to detail.",
+        "The comprehensive review was being set up by the crew with meticulous care, meanwhile.",
+        "While the data report progressed, the group prepared for the detailed assessment, exercising scrupulous care.",
+        "Simultaneously, the team arranged the thorough evaluation, handling it with exacting attention."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "prepared": [
+          "prepared",
+          "ready",
+          "set",
+          "trained",
+          "organized"
+        ],
+        "meanwhile": [
+          "meanwhile",
+          "meantime",
+          "interim"
+        ],
+        "detailed": [
+          "detailed",
+          "elaborate"
+        ],
+        "assessment": [
+          "assessment",
+          "appraisal",
+          "judgment",
+          "judgement"
+        ],
+        "meticulous": [
+          "meticulous",
+          "punctilious"
+        ],
+        "care": [
+          "care",
+          "caution",
+          "precaution",
+          "guardianship",
+          "upkeep",
+          "concern"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The medical examination, crucial for predicting thrombosis, took place on the Examination Date, 1997-05-27.",
+      "template_pattern": "The medical examination, crucial for predicting thrombosis, took place on the Examination Date, [EXAMINATION DATE].",
+      "primary_data_fields": [
+        "Examination Date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The medical examination, essential for forecasting thrombosis, was conducted on Examination Date, [EXAMINATION DATE].",
+        "On Examination Date, [EXAMINATION DATE], the medical exam—vital for predicting thrombosis—took place.",
+        "A medical examination, key to anticipating thrombosis, occurred on Examination Date, [EXAMINATION DATE].",
+        "Examination Date, [EXAMINATION DATE], saw the performance of a medical examination crucial for thrombosis prediction.",
+        "The crucial medical examination for predicting thrombosis was held on Examination Date, [EXAMINATION DATE].",
+        "Conducted on Examination Date, [EXAMINATION DATE], the medical exam was indispensable for thrombosis prediction.",
+        "For predicting thrombosis, the medical examination—considered critical—took place on Examination Date, [EXAMINATION DATE].",
+        "On the Examination Date of [EXAMINATION DATE], a medical examination pivotal to thrombosis forecasting was administered.",
+        "The medical exam, deemed essential for thrombosis prediction, happened on Examination Date, [EXAMINATION DATE].",
+        "Examination Date, [EXAMINATION DATE], marked the execution of a medical examination vital to predicting thrombosis.",
+        "A pivotal medical examination for thrombosis prediction occurred on Examination Date, [EXAMINATION DATE].",
+        "The date [EXAMINATION DATE], labeled Examination Date, was when the crucial medical examination for thrombosis prediction was performed.",
+        "On Examination Date, [EXAMINATION DATE], clinicians carried out a medical examination crucial for anticipating thrombosis.",
+        "The medical examination, necessary for thrombosis prediction, was completed on Examination Date, [EXAMINATION DATE].",
+        "As part of thrombosis risk assessment, the medical exam took place on Examination Date, [EXAMINATION DATE]."
+      ],
+      "counter_variations": [
+        "In this healthcare data report, the Examination Date is recorded as null, while no further temporal information accompanies the entry.",
+        "The healthcare data report lists the Examination Date as null, and it furnishes no additional chronological details for this record.",
+        "Within the healthcare data report, the Examination Date appears as null, and there is an absence of any supplementary time‑related data.",
+        "Although the healthcare data report designates the Examination Date as null, it provides no extra temporal specifics in this entry.",
+        "The entry in the healthcare data report specifies a null Examination Date and supplies no further temporal descriptors.",
+        "In the present healthcare data report, the Examination Date is set to null, and no ancillary time stamps are included in this line.",
+        "The healthcare data report records a null Examination Date, and it omits any additional temporal particulars for the given record.",
+        "While the healthcare data report notes the Examination Date as null, it offers no further chronological information in this instance.",
+        "The healthcare data report indicates a null Examination Date, and no extra temporal data points are provided alongside the entry.",
+        "In this healthcare data report, a null value is assigned to the Examination Date, and no further time‑based details are supplied.",
+        "The Examination Date is marked as null in the healthcare data report, and the entry lacks any supplementary temporal information.",
+        "Within the healthcare data report, a null Examination Date is documented, and no additional chronological specifics accompany the record.",
+        "The healthcare data report asserts that the Examination Date is null, and it contains no further temporal metadata for this entry.",
+        "Although the report on healthcare data assigns a null Examination Date, it does not furnish any extra time‑related details.",
+        "In the healthcare data report, the Examination Date is denoted as null, and no further temporal annotations are provided for this record."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "took": [
+          "took"
+        ],
+        "place": [
+          "place",
+          "station",
+          "position",
+          "lieu",
+          "office",
+          "home"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "predicting": [
+          "predicting"
+        ]
+      },
+      "field_data_types": {
+        "Examination Date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each step of the process was carefully documented for future reference.",
+      "template_pattern": "Each step of the process was carefully documented for future reference.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The process’s every step was meticulously recorded for later reference.",
+        "We documented each stage of the procedure with great care for future use.",
+        "For future reference, each phase of the workflow was carefully logged.",
+        "Every step in the process has been thoroughly documented for subsequent reference.",
+        "Careful documentation of each process step was performed to aid future reference.",
+        "All stages of the process were systematically captured for later consultation.",
+        "To ensure future reference, the team carefully recorded each step of the process.",
+        "Each phase of the workflow was diligently noted for future reference.",
+        "The entire process was documented step by step, with care, for future reference.",
+        "Future reference was ensured by meticulously documenting every step of the process.",
+        "Each step of the process was logged with precision for later reference.",
+        "For reference in the future, we carefully documented each step of the process.",
+        "The process’s steps were carefully chronicled to serve as a future reference.",
+        "Detailed records of every process step were kept for future reference.",
+        "To serve future reference, each step of the process was recorded with care."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "documented": [
+          "documented",
+          "attested",
+          "authenticated"
+        ],
+        "each": [
+          "each"
+        ],
+        "process": [
+          "process",
+          "procedure",
+          "operation",
+          "action"
+        ],
+        "future": [
+          "future",
+          "futurity",
+          "hereafter"
+        ],
+        "carefully": [
+          "carefully",
+          "cautiously"
+        ],
+        "reference": [
+          "reference",
+          "acknowledgment",
+          "citation",
+          "quotation",
+          "mention",
+          "source"
+        ],
+        "step": [
+          "step",
+          "stride",
+          "tread",
+          "stair",
+          "pace",
+          "gradation"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "During her medical examination, the aCL IgG level was measured at 1.30, indicating the need for further evaluation.",
+      "template_pattern": "During her medical examination, the aCL IgG level was measured at [ACL IGG], indicating the need for further evaluation.",
+      "primary_data_fields": [
+        "aCL IgG"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "During her medical examination, the aCL IgG level was recorded at [ACL IGG], prompting further assessment.",
+        "The aCL IgG measurement came back at [ACL IGG] during her health check, indicating that additional evaluation is warranted.",
+        "During the clinical exam, aCL IgG was found to be [ACL IGG], suggesting the need for more extensive investigation.",
+        "Her aCL IgG value, measured at [ACL IGG] in the recent exam, signals that further evaluation should be pursued.",
+        "A reading of [ACL IGG] for aCL IgG was obtained in her medical assessment, implying that further review is required.",
+        "The recent exam revealed an aCL IgG level of [ACL IGG], which calls for additional evaluation.",
+        "With an aCL IgG result of [ACL IGG] noted during her examination, further assessment becomes necessary.",
+        "The aCL IgG result, [ACL IGG], observed in her health examination, indicates a need for subsequent evaluation.",
+        "In the course of her check‑up, the aCL IgG was measured at [ACL IGG], suggesting that more detailed evaluation is needed.",
+        "An aCL IgG level of [ACL IGG] was documented during her examination, pointing to the requirement for further evaluation.",
+        "Her examination showed an aCL IgG of [ACL IGG], which warrants additional investigative follow‑up.",
+        "The aCL IgG reading of [ACL IGG], taken during her medical exam, triggers the recommendation for further evaluation.",
+        "During the assessment, the aCL IgG came out at [ACL IGG], indicating that more thorough evaluation should follow.",
+        "A value of [ACL IGG] for aCL IgG was observed in her examination, highlighting the necessity of further evaluation.",
+        "The medical exam recorded aCL IgG at [ACL IGG], thereby suggesting that further evaluation is needed."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "measured": [
+          "measured",
+          "calculated"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "further": [
+          "further",
+          "encourage",
+          "advance",
+          "promote",
+          "foster",
+          "boost"
+        ],
+        "during": [
+          "during"
+        ],
+        "need": [
+          "need",
+          "want",
+          "require",
+          "demand",
+          "necessitate"
+        ],
+        "evaluation": [
+          "evaluation",
+          "valuation",
+          "rating"
+        ],
+        "level": [
+          "level",
+          "layer",
+          "tier",
+          "grade",
+          "degree",
+          "plane"
+        ],
+        "medical": [
+          "medical"
+        ]
+      },
+      "field_data_types": {
+        "aCL IgG": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Additionally, the doctors considered multiple factors that could influence the results.",
+      "template_pattern": "Additionally, the doctors considered multiple factors that could influence the results.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Furthermore, the physicians took into account several variables that might affect the outcomes.",
+        "In addition, multiple factors potentially impacting the results were evaluated by the doctors.",
+        "The doctors also examined a range of elements that could sway the findings.",
+        "Besides, a number of influencing factors were considered by the medical team.",
+        "Additionally, the clinicians assessed various determinants that may shape the results.",
+        "Moreover, several possible influencers of the outcomes were reviewed by the physicians.",
+        "The medical staff, additionally, factored in numerous aspects that could alter the results.",
+        "Alongside this, the doctors weighed multiple criteria capable of influencing the findings.",
+        "Also, the physicians contemplated a host of factors that might influence the results.",
+        "In parallel, the doctors' analysis incorporated several variables that could affect the outcomes.",
+        "Furthermore, the health professionals considered a multitude of factors with the potential to impact the results.",
+        "Multiple influencing elements were taken into consideration by the doctors, in addition.",
+        "Additionally, the doctors' review included various factors that could modify the results.",
+        "The physicians, moreover, evaluated numerous factors that might influence the findings.",
+        "In addition to other steps, the doctors considered several variables that may affect the results."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "additionally": [
+          "additionally"
+        ],
+        "multiple": [
+          "multiple"
+        ],
+        "doctors": [
+          "doctors"
+        ],
+        "results": [
+          "results"
+        ],
+        "factors": [
+          "factors"
+        ],
+        "influence": [
+          "influence"
+        ],
+        "considered": [
+          "considered"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The patient's test revealed an aCL IgM level of 1.6, which may indicate a heightened risk for developing thrombosis.",
+      "template_pattern": "The patient's test revealed an aCL IgM level of [ACL IGM], which may indicate a heightened risk for developing thrombosis.",
+      "primary_data_fields": [
+        "aCL IgM"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The test results show an aCL IgM level of [ACL IGM], suggesting an increased likelihood of thrombosis.",
+        "An aCL IgM measurement of [ACL IGM] was found in the patient's lab work, which could signal a higher risk of clot formation.",
+        "A level of [ACL IGM] for aCL IgM was identified, potentially indicating a greater chance of developing thrombosis.",
+        "The patient's laboratory analysis revealed aCL IgM at [ACL IGM], a value that may point to an elevated thrombosis risk.",
+        "With an aCL IgM reading of [ACL IGM], the findings imply a possible heightened susceptibility to thrombosis.",
+        "A result of [ACL IGM] for aCL IgM was documented, which may reflect an amplified risk of thrombosis onset.",
+        "The aCL IgM concentration measured [ACL IGM], indicating that the patient might face an increased risk of thrombosis.",
+        "In the recent test, the aCL IgM level came back at [ACL IGM], a figure that could denote a higher propensity for thrombosis.",
+        "An aCL IgM value of [ACL IGM] was observed, potentially signaling an elevated danger of clot development.",
+        "The laboratory data reported an aCL IgM of [ACL IGM], which may be associated with a heightened likelihood of thrombosis.",
+        "A finding of [ACL IGM] in the aCL IgM assay suggests the patient could be at greater risk for thrombosis.",
+        "The patient’s aCL IgM result was [ACL IGM], a number that may indicate an increased chance of developing thrombosis.",
+        "A measured aCL IgM level of [ACL IGM] points toward a possible rise in thrombosis risk.",
+        "The aCL IgM test returned a level of [ACL IGM], implying a potentially higher risk for thrombosis.",
+        "Having an aCL IgM concentration of [ACL IGM] may denote an elevated probability of thrombosis formation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "which": [
+          "which"
+        ],
+        "indicate": [
+          "indicate",
+          "show",
+          "suggest",
+          "signal",
+          "point",
+          "designate"
+        ],
+        "level": [
+          "level",
+          "degree",
+          "tier",
+          "grade",
+          "stratum",
+          "plane"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "risk": [
+          "risk",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy"
+        ],
+        "developing": [
+          "developing",
+          "grow",
+          "evolve",
+          "develop",
+          "arise"
+        ],
+        "revealed": [
+          "revealed",
+          "disclose",
+          "divulge",
+          "unveil",
+          "uncover",
+          "expose"
+        ],
+        "test": [
+          "test",
+          "examination",
+          "trial",
+          "screen",
+          "examine",
+          "exam"
+        ]
+      },
+      "field_data_types": {
+        "aCL IgM": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Therefore, the medical team convened to discuss the implications of the findings.",
+      "template_pattern": "Therefore, the medical team convened to discuss the implications of the findings.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consequently, the medical team gathered to examine the findings' implications.",
+        "The implications of the findings were discussed when the medical team met.",
+        "As a result, clinicians assembled to review what the findings mean.",
+        "To assess the significance of the results, the health‑care team convened.",
+        "Hence, the doctors and nurses held a meeting to consider the findings' impact.",
+        "A meeting was called by the medical staff to deliberate on the implications of the data.",
+        "The research outcomes prompted the medical team to convene for a discussion.",
+        "Following the analysis, the clinical team came together to talk over the findings' consequences.",
+        "The implications of the findings were the subject of a convened session of the medical team.",
+        "Thus, the health professionals assembled to discuss the ramifications of the results.",
+        "With the findings in hand, the medical crew gathered to explore their implications.",
+        "The team of physicians and allied staff met to evaluate the significance of the findings.",
+        "To interpret the findings, the medical group convened and debated their implications.",
+        "Accordingly, a conference of the medical team was organized to address the findings' implications.",
+        "The findings' implications led the healthcare team to hold a convened discussion."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "implications": [
+          "implications"
+        ],
+        "discuss": [
+          "discuss"
+        ],
+        "therefore": [
+          "therefore",
+          "hence",
+          "consequently",
+          "thus"
+        ],
+        "findings": [
+          "findings"
+        ],
+        "convened": [
+          "convened"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "medical": [
+          "medical"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The ANA test result showed a level of 256, suggesting the need for further evaluation of potential autoimmune disorders.",
+      "template_pattern": "The ANA test result showed a level of [ANA], suggesting the need for further evaluation of potential autoimmune disorders.",
+      "primary_data_fields": [
+        "ANA"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The ANA test returned a level of [ANA], indicating that further assessment for possible autoimmune disorders is warranted.",
+        "A level of [ANA] was observed in the ANA test result, which suggests additional evaluation of potential autoimmune diseases.",
+        "Because the ANA test showed [ANA], clinicians should consider further investigation into autoimmune conditions.",
+        "With an ANA result of [ANA], further scrutiny of possible autoimmune disorders is recommended.",
+        "The ANA assay yielded a value of [ANA], pointing to the necessity of additional evaluation for autoimmune disease.",
+        "Seeing a [ANA] reading on the ANA test, one should pursue further assessment for potential autoimmune disorders.",
+        "The ANA laboratory finding of [ANA] implies that more detailed evaluation for autoimmune disorders is needed.",
+        "Given the ANA level of [ANA], it is advisable to conduct further examinations for possible autoimmune conditions.",
+        "An ANA measurement of [ANA] was recorded, prompting the recommendation for further evaluation of autoimmune disorders.",
+        "The result of the ANA test, which was [ANA], suggests that further work‑up for autoimmune disease should be performed.",
+        "Since the ANA test indicated a level of [ANA], additional investigation into potential autoimmune disorders is indicated.",
+        "A [ANA] ANA result signals the need for further evaluation of possible autoimmune disorders.",
+        "The ANA test outcome, showing [ANA], calls for more extensive assessment of autoimmune conditions.",
+        "With the ANA level documented at [ANA], clinicians are urged to explore further evaluation of autoimmune disorders.",
+        "The detection of a [ANA] level in the ANA test warrants subsequent investigation of potential autoimmune diseases."
+      ],
+      "counter_variations": [
+        "Recording the ANA measurement as null signals that the assay was either omitted or its outcome could not be retrieved for analysis.",
+        "Because the ANA measurement is noted as null, it can be inferred that the laboratory did not conduct the test or that the findings are not accessible for further evaluation.",
+        "The entry for the ANA measurement shows null, which denotes that either the test was never executed or that the resulting data are presently unattainable for analysis.",
+        "When the ANA measurement appears as null, this reflects a situation in which the examination was not carried out or the result is currently inaccessible for analytical review.",
+        "A null value recorded for the ANA measurement indicates that the test either was not performed or that the outcome remains unavailable for analytical purposes.",
+        "The ANA measurement being logged as null conveys that the procedure was omitted or that the corresponding result cannot be accessed for analysis.",
+        "In the dataset, the ANA measurement is assigned the value null, implying that the test was not administered or that the outcome is not presently available for analytical scrutiny.",
+        "The designation of null for the ANA measurement reveals that either the test was skipped or that the resultant data are presently missing from the analytical record.",
+        "Since the ANA measurement is documented as null, it suggests that the examination was not undertaken or that the resultant values are not presently available for analysis.",
+        "The presence of null in the ANA measurement field denotes a scenario where the test was not performed, or the derived result cannot be obtained for analytical processing.",
+        "A null entry for the ANA measurement communicates that the laboratory either did not execute the test or that the resultant data are currently unobtainable for analysis.",
+        "Null, as recorded for the ANA measurement, serves as an indicator that the analysis was either not carried out or that the outcome is not presently accessible for further examination.",
+        "The ANA measurement's null status reflects that the test was not performed, or that the resulting information is unavailable for subsequent analytical work.",
+        "When the ANA measurement is set to null, it conveys that the test was omitted or that the resultant data cannot be retrieved for analytical purposes.",
+        "The assignment of null to the ANA measurement signifies that the assay was either not executed or that its result remains inaccessible for analysis."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "disorders": [
+          "disorders"
+        ],
+        "autoimmune": [
+          "autoimmune"
+        ],
+        "further": [
+          "further",
+          "farther",
+          "far"
+        ],
+        "need": [
+          "need",
+          "want",
+          "demand"
+        ],
+        "showed": [
+          "showed"
+        ],
+        "evaluation": [
+          "evaluation",
+          "valuation",
+          "rating"
+        ],
+        "level": [
+          "level",
+          "layer",
+          "tier",
+          "stratum",
+          "floor",
+          "stage"
+        ],
+        "suggesting": [
+          "suggesting"
+        ]
+      },
+      "field_data_types": {
+        "ANA": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Consequently, specialists from various departments were consulted to interpret these results.",
+      "template_pattern": "Consequently, specialists from various departments were consulted to interpret these results.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Therefore, specialists from multiple departments were consulted to interpret these results.",
+        "As a result, we enlisted experts from various departments to analyze these results.",
+        "Following the initial review, the team sought input from specialists across several departments to interpret the results.",
+        "Consequently, input was obtained from experts in a range of departments for the purpose of interpreting these results.",
+        "In turn, consultants from different departments were approached to provide interpretation of the results.",
+        "Hence, a panel of specialists representing various departments was assembled to interpret these results.",
+        "To interpret these results, specialists from assorted departments were consulted, accordingly.",
+        "The organization consulted specialists from numerous departments, thereby enabling interpretation of the results.",
+        "Afterward, experts from a variety of departments were called in to interpret the results.",
+        "With the aim of interpreting these results, we turned to specialists from multiple departments.",
+        "Interpretation of the results required consultation with specialists spanning several departments, which was consequently arranged.",
+        "Thus, the hospital engaged specialists from different departments to decipher these results.",
+        "Specialists across diverse departments were consulted to interpret these results, as a consequence of the data review.",
+        "Because of the data, the committee consulted experts from various departments to interpret the results.",
+        "To make sense of these results, the team sought the expertise of specialists from a range of departments."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "departments": [
+          "departments"
+        ],
+        "interpret": [
+          "interpret",
+          "read",
+          "translate",
+          "construe",
+          "understand"
+        ],
+        "consulted": [
+          "consulted"
+        ],
+        "consequently": [
+          "consequently",
+          "therefore",
+          "accordingly"
+        ],
+        "results": [
+          "results"
+        ],
+        "these": [
+          "these"
+        ],
+        "various": [
+          "various",
+          "diverse",
+          "several",
+          "assorted"
+        ],
+        "specialists": [
+          "specialists"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The ANA Pattern of the patient's blood test showed a result of P, indicating potential autoimmune activity.",
+      "template_pattern": "The ANA Pattern of the patient's blood test showed a result of [ANA PATTERN], indicating potential autoimmune activity.",
+      "primary_data_fields": [
+        "ANA Pattern"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's blood test revealed an ANA Pattern result of [ANA PATTERN], which suggests possible autoimmune activity.",
+        "An ANA Pattern result of [ANA PATTERN] was observed in the patient's blood test, indicating potential autoimmune activity.",
+        "In the patient's blood work, the ANA Pattern came back as [ANA PATTERN], pointing toward potential autoimmune activity.",
+        "Potential autoimmune activity is indicated by the ANA Pattern result of [ANA PATTERN] found in the patient's blood test.",
+        "The blood test's ANA Pattern displayed a [ANA PATTERN] result, signifying possible autoimmune activity for the patient.",
+        "A [ANA PATTERN] result on the ANA Pattern of the patient's blood test signals potential autoimmune activity.",
+        "The patient's ANA Pattern in the blood test showed [ANA PATTERN], thereby hinting at possible autoimmune activity.",
+        "Resulting in [ANA PATTERN], the ANA Pattern of the patient's blood test denotes potential autoimmune activity.",
+        "Potential autoimmune activity can be inferred from the [ANA PATTERN] result recorded under ANA Pattern in the patient's blood test.",
+        "The ANA Pattern, as part of the patient's blood test, produced a [ANA PATTERN] result, indicating possible autoimmune activity.",
+        "[ANA PATTERN] was the outcome of the ANA Pattern in the patient's blood test, suggesting potential autoimmune activity.",
+        "In the patient's blood analysis, the ANA Pattern yielded a result of [ANA PATTERN], which may indicate autoimmune activity.",
+        "The finding of a [ANA PATTERN] result on the ANA Pattern from the patient's blood test points to potential autoimmune activity.",
+        "Potential autoimmune activity is suggested by a [ANA PATTERN] result on the ANA Pattern of the patient's blood work.",
+        "The patient's blood test identified a [ANA PATTERN] result for the ANA Pattern, implying possible autoimmune activity."
+      ],
+      "counter_variations": [
+        "The ANA Pattern was entered as null, and the laboratory record subsequently showed the designation null without any additional commentary.",
+        "Recorded as null, the ANA Pattern appears in the lab entry, which lists the term null and provides no further annotation.",
+        "In the laboratory documentation, the ANA Pattern is documented as null, and the accompanying entry repeats the word null without supplementary notes.",
+        "The laboratory entry lists the ANA Pattern with the value null, and it also presents the label null, lacking any extra annotation.",
+        "Within the report, the ANA Pattern is assigned the value null, and the corresponding laboratory field displays null with no further explanatory text.",
+        "The ANA Pattern has been noted as null, and the lab's data field mirrors this by showing null absent any additional remarks.",
+        "When the ANA Pattern was captured, it was marked null; the laboratory printout likewise exhibits the term null, devoid of further annotation.",
+        "The dataset records the ANA Pattern as null, and the associated laboratory entry echoes this by presenting null without supplementary commentary.",
+        "In this health record, the ANA Pattern is indicated as null, and the laboratory section repeats null, offering no extra annotation.",
+        "The ANA Pattern was logged as null, and the laboratory entry subsequently displayed the literal null, without any further explanatory note.",
+        "Documented as null, the ANA Pattern appears in the lab log, which also shows the token null and provides no additional annotation.",
+        "The lab report registers the ANA Pattern with a null value, and the entry also contains the term null, lacking any further commentary.",
+        "Within the clinical data, the ANA Pattern is recorded as null; the laboratory entry likewise contains null and omits any further annotation.",
+        "The ANA Pattern is entered as null in the system, and the laboratory record reflects this by displaying null, without additional remarks.",
+        "Recorded under the heading ANA Pattern, the value null appears, and the laboratory output likewise presents null, offering no further annotation."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "autoimmune": [
+          "autoimmune"
+        ],
+        "indicating": [
+          "indicating",
+          "showing",
+          "suggesting",
+          "signaling",
+          "designating"
+        ],
+        "showed": [
+          "showed",
+          "exhibited",
+          "demonstrated",
+          "indicated",
+          "recorded",
+          "presented"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "blood": [
+          "blood"
+        ],
+        "test": [
+          "test",
+          "examination",
+          "trial",
+          "exam",
+          "quiz"
+        ],
+        "result": [
+          "result",
+          "outcome",
+          "effect",
+          "consequence",
+          "resultant",
+          "upshot"
+        ]
+      },
+      "field_data_types": {
+        "ANA Pattern": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This pattern prompted further investigations into the patient's health.",
+      "template_pattern": "This pattern prompted further investigations into the patient's health.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The observed pattern spurred additional investigations into the patient’s health.",
+        "Further inquiries into the patient’s health were triggered by this pattern.",
+        "Because of this pattern, clinicians launched more investigations of the patient’s health.",
+        "This pattern led researchers to pursue further examination of the patient’s health.",
+        "Additional health investigations were prompted by the emergence of this pattern.",
+        "Seeing this pattern, the medical team initiated further probing of the patient’s health.",
+        "The pattern in question prompted further scrutiny of the patient’s health.",
+        "Further exploration of the patient’s health was incited by this pattern.",
+        "This pattern caused the team to conduct additional investigations into the patient’s health.",
+        "Prompted by the pattern, further health investigations were undertaken.",
+        "The discovery of this pattern motivated more detailed investigation into the patient’s health.",
+        "In response to the pattern, further assessments of the patient’s health were carried out.",
+        "This pattern acted as a catalyst for additional investigations concerning the patient’s health.",
+        "Further probing of the patient’s health followed the identification of this pattern.",
+        "Because the pattern emerged, the clinicians pursued further investigations into the patient’s health."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "investigations": [
+          "investigations"
+        ],
+        "into": [
+          "into"
+        ],
+        "further": [
+          "further"
+        ],
+        "prompted": [
+          "prompted"
+        ],
+        "pattern": [
+          "pattern",
+          "design",
+          "form",
+          "blueprint",
+          "model"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "health": [
+          "health",
+          "wellness"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The patient's test results showed an Immunoglobulin A antibody level of 0 against cardiolipin, indicating no immediate evidence of antiphospholipid syndrome.",
+      "template_pattern": "The patient's test results showed an Immunoglobulin A antibody level of [ACL IGA] against cardiolipin, indicating no immediate evidence of antiphospholipid syndrome.",
+      "primary_data_fields": [
+        "aCL IgA"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's test results indicated an aCL IgA (Immunoglobulin A) level of [ACL IGA] against cardiolipin, suggesting no immediate evidence of antiphospholipid syndrome.",
+        "An aCL IgA measurement of [ACL IGA] against cardiolipin was observed in the patient's results, which points to an absence of immediate antiphospholipid syndrome evidence.",
+        "Showing an aCL IgA (Immunoglobulin A) value of [ACL IGA] for cardiolipin, the patient's labs reveal no prompt signs of antiphospholipid syndrome.",
+        "No immediate evidence of antiphospholipid syndrome is indicated by the patient's aCL IgA level of [ACL IGA] against cardiolipin.",
+        "Because the patient's aCL IgA (Immunoglobulin A) came back at [ACL IGA] for cardiolipin, there is no immediate indication of antiphospholipid syndrome.",
+        "The lab report, which recorded an aCL IgA of [ACL IGA] against cardiolipin, demonstrates that the patient currently lacks evidence of antiphospholipid syndrome.",
+        "With an aCL IgA result of [ACL IGA] targeting cardiolipin, the patient's assessment shows no immediate sign of antiphospholipid syndrome.",
+        "A result of [ACL IGA] for aCL IgA against cardiolipin was found in the patient's tests, indicating that antiphospholipid syndrome is not immediately evident.",
+        "The patient's examination revealed aCL IgA (Immunoglobulin A) at [ACL IGA] versus cardiolipin, implying no immediate evidence for antiphospholipid syndrome.",
+        "Given that the aCL IgA level is [ACL IGA] against cardiolipin, the patient's data provide no immediate proof of antiphospholipid syndrome.",
+        "The findings, featuring an aCL IgA of [ACL IGA] against cardiolipin, suggest an absence of immediate antiphospholipid syndrome indicators in this patient.",
+        "In this patient, an aCL IgA measurement of [ACL IGA] for cardiolipin correlates with a lack of immediate evidence of antiphospholipid syndrome.",
+        "The test indicated aCL IgA (Immunoglobulin A) at [ACL IGA] against cardiolipin, which means there is no immediate sign of antiphospholipid syndrome.",
+        "Since the aCL IgA result is [ACL IGA] concerning cardiolipin, the report shows no immediate evidence of antiphospholipid syndrome.",
+        "An aCL IgA level of [ACL IGA] versus cardiolipin was recorded, leading to the conclusion that there is no immediate indication of antiphospholipid syndrome for the patient."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "immediate": [
+          "immediate",
+          "prompt",
+          "quick"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "syndrome": [
+          "syndrome"
+        ],
+        "results": [
+          "results"
+        ],
+        "showed": [
+          "showed"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "grade",
+          "degree",
+          "plane",
+          "stage"
+        ],
+        "against": [
+          "against"
+        ]
+      },
+      "field_data_types": {
+        "aCL IgA": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The absence of these antibodies provided some relief to the medical team.",
+      "template_pattern": "The absence of these antibodies provided some relief to the medical team.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The medical team felt a degree of relief because those antibodies were absent.",
+        "Because the antibodies were missing, the clinicians experienced some consolation.",
+        "Some relief was afforded to the healthcare staff by the lack of these antibodies.",
+        "The lack of these antibodies gave the medical personnel modest relief.",
+        "With the antibodies absent, the medical team found a measure of ease.",
+        "The clinicians received partial relief owing to the antibodies' absence.",
+        "Absence of the antibodies translated into a slight reprieve for the medical crew.",
+        "The medical staff enjoyed a bit of comfort as the antibodies were not present.",
+        "Since the antibodies were not detected, the healthcare team experienced some relief.",
+        "The missing antibodies resulted in a modest sense of relief for the medical team.",
+        "A modest relief came to the medical team from the antibodies' non‑presence.",
+        "The medical team was somewhat eased by the fact that these antibodies were lacking.",
+        "As these antibodies were absent, the clinicians felt a small amount of relief.",
+        "The non‑existence of the antibodies provided the medical team with limited reassurance.",
+        "With no antibodies present, the medical team found a touch of relief."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "team": [
+          "team",
+          "squad"
+        ],
+        "relief": [
+          "relief",
+          "alleviation",
+          "assuagement",
+          "easing",
+          "respite",
+          "succor"
+        ],
+        "some": [
+          "some"
+        ],
+        "these": [
+          "these"
+        ],
+        "absence": [
+          "absence"
+        ],
+        "antibodies": [
+          "antibodies"
+        ],
+        "provided": [
+          "provided"
+        ],
+        "medical": [
+          "medical"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "During the examination, the diagnosis of MCTD, AMI was considered crucial for assessing the patient's thrombosis risk.",
+      "template_pattern": "During the examination, the diagnosis of [DIAGNOSIS] was considered crucial for assessing the patient's thrombosis risk.",
+      "primary_data_fields": [
+        "Diagnosis"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "While conducting the exam, the diagnosis of [DIAGNOSIS] was deemed essential for evaluating the patient’s thrombosis risk.",
+        "The patient’s thrombosis risk assessment relied on the diagnosis of [DIAGNOSIS], as highlighted during the examination.",
+        "In the examination, the diagnosis of [DIAGNOSIS] was regarded as pivotal for assessing the patient’s thrombosis risk.",
+        "During the exam, clinicians considered the diagnosis of [DIAGNOSIS] crucial for the evaluation of thrombosis risk in the patient.",
+        "The examination underscored that the diagnosis of [DIAGNOSIS] is vital for determining the patient’s thrombosis risk.",
+        "Assessing the patient’s thrombosis risk required the diagnosis of [DIAGNOSIS], according to the examination findings.",
+        "It was concluded in the examination that the diagnosis of [DIAGNOSIS] is a critical component in assessing thrombosis risk for the patient.",
+        "The diagnosis of [DIAGNOSIS], identified during the exam, played a central role in evaluating the patient’s thrombosis risk.",
+        "During the assessment, the diagnosis of [DIAGNOSIS] was recognized as essential for the patient’s thrombosis risk appraisal.",
+        "The examination pointed out that the diagnosis of [DIAGNOSIS] is indispensable for assessing the patient’s thrombosis risk.",
+        "For the purpose of evaluating thrombosis risk, the examination highlighted the diagnosis of [DIAGNOSIS] as crucial.",
+        "In evaluating the patient’s thrombosis risk, the diagnosis of [DIAGNOSIS] was considered a key factor during the exam.",
+        "The exam revealed that the diagnosis of [DIAGNOSIS] must be taken into account when assessing the patient’s thrombosis risk.",
+        "When reviewing the patient, the diagnosis of [DIAGNOSIS] was seen as vital for the thrombosis risk assessment during the examination.",
+        "The examination emphasized that the diagnosis of [DIAGNOSIS] is fundamental to assessing the patient’s thrombosis risk."
+      ],
+      "counter_variations": [
+        "Despite the comprehensive clinical assessment being thorough, the Diagnosis is null, thereby constraining immediate therapeutic direction and risk stratification.",
+        "While the comprehensive clinical assessment was thorough, the Diagnosis registers as null, curtailing immediate therapeutic direction and risk stratification.",
+        "Even though the comprehensive clinical assessment proved thorough, the Diagnosis has been recorded as null, hindering immediate therapeutic direction and risk stratification.",
+        "The comprehensive clinical assessment, though thorough, yields a Diagnosis that is null, limiting immediate therapeutic direction and risk stratification.",
+        "Given that the comprehensive clinical assessment was thorough, the Diagnosis remains null, which impedes immediate therapeutic direction and risk stratification.",
+        "In spite of a thorough comprehensive clinical assessment, the Diagnosis turns out to be null, restricting immediate therapeutic direction and risk stratification.",
+        "Because the comprehensive clinical assessment was thorough, the Diagnosis appears null, obstructing immediate therapeutic direction and risk stratification.",
+        "Although a thorough comprehensive clinical assessment was performed, the Diagnosis is null, thereby limiting immediate therapeutic direction and risk stratification.",
+        "When the comprehensive clinical assessment is thorough, the resulting Diagnosis is still null, affecting immediate therapeutic direction and risk stratification.",
+        "The thorough comprehensive clinical assessment does not prevent the Diagnosis from being null, consequently limiting immediate therapeutic direction and risk stratification.",
+        "Despite a thorough comprehensive clinical assessment, the Diagnosis remains null, which narrows immediate therapeutic direction and risk stratification.",
+        "If the comprehensive clinical assessment is thorough, the Diagnosis may still be null, thereby restricting immediate therapeutic direction and risk stratification.",
+        "Though the comprehensive clinical assessment was thorough, the Diagnosis is recorded as null, limiting immediate therapeutic direction and risk stratification.",
+        "A thorough comprehensive clinical assessment was completed, yet the Diagnosis stays null, impeding immediate therapeutic direction and risk stratification.",
+        "While a comprehensive clinical assessment was thorough, the Diagnosis ends up null, curbing immediate therapeutic direction and risk stratification."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "during": [
+          "during"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "risk": [
+          "risk",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy",
+          "chance"
+        ],
+        "considered": [
+          "considered",
+          "regarded",
+          "deemed",
+          "thought",
+          "viewed"
+        ],
+        "assessing": [
+          "assessing"
+        ]
+      },
+      "field_data_types": {
+        "Diagnosis": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each new finding added a layer of complexity to the patient’s profile.",
+      "template_pattern": "Each new finding added a layer of complexity to the patient’s profile.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every additional discovery introduced another level of complexity into the patient’s profile.",
+        "A new finding each time layered further complexity onto the patient’s profile.",
+        "With each fresh insight, the patient’s profile became more complex.",
+        "The patient’s profile was made more intricate by each newly identified finding.",
+        "Each successive observation added a new stratum of complexity to the patient’s record.",
+        "As new findings emerged, they compounded the complexity of the patient’s profile.",
+        "The accumulation of each new finding increased the intricacy of the patient’s profile.",
+        "A layer of complexity was appended to the patient’s profile for every new finding.",
+        "Each novel result contributed an extra tier of complexity to the patient’s profile.",
+        "The patient’s profile grew increasingly complex as each new finding was added.",
+        "With every newly uncovered fact, another layer of complexity was imposed on the patient’s profile.",
+        "Each fresh piece of data added another level of intricacy to the patient’s profile.",
+        "The complexity of the patient’s profile was augmented by each new finding.",
+        "For every new finding, a further complexity layer was incorporated into the patient’s profile.",
+        "As each new observation surfaced, it layered additional complexity onto the patient’s profile."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "layer": [
+          "layer",
+          "stratum",
+          "level"
+        ],
+        "added": [
+          "added",
+          "append",
+          "tally"
+        ],
+        "profile": [
+          "profile"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "finding": [
+          "finding"
+        ],
+        "complexity": [
+          "complexity"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, the KCT result is NULL, leaving the patient's coagulation status currently undetermined.",
+      "template_pattern": "Furthermore, the KCT result is [KCT], leaving the patient's coagulation status currently undetermined.",
+      "primary_data_fields": [
+        "KCT"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Additionally, the KCT measurement appears as [KCT], showing that this coagulation parameter was not reported in the current evaluation.",
+        "The KCT value is listed as [KCT], which means the particular coagulation metric is absent from this assessment.",
+        "In this report, KCT is recorded as [KCT], indicating that the relevant coagulation parameter remains unreported.",
+        "Moreover, an entry of [KCT] is noted for KCT, signifying that the specific coagulation measurement was omitted.",
+        "The assessment marks KCT with [KCT], reflecting that the associated coagulation parameter was left unrecorded.",
+        "KCT is documented as [KCT], thereby denoting that this coagulation factor is not reported in the present analysis.",
+        "A dash ([KCT]) is shown for KCT, implying that the specific coagulation parameter has not been reported here.",
+        "The report registers KCT as [KCT], which conveys that the corresponding coagulation value is missing.",
+        "For KCT, the recorded figure is [KCT], indicating that this particular coagulation parameter was not captured in the evaluation.",
+        "In the data, KCT appears as [KCT], suggesting that the relevant coagulation measurement is unreported.",
+        "The KCT entry displays [KCT], meaning the specific coagulation parameter is absent from this assessment.",
+        "Recorded as [KCT], the KCT measurement signals that the coagulation parameter in question was not reported.",
+        "KCT shows a value of [KCT], denoting that this specific coagulation metric remains unreported in the current review.",
+        "The measurement for KCT is marked as [KCT], which points to the omission of that coagulation parameter in this report.",
+        "As per the assessment, KCT is entered as [KCT], indicating that the particular coagulation parameter is not reported."
+      ],
+      "counter_variations": [
+        "Moreover, because the KCT result is null, the patient's coagulation status presently remains indeterminate.",
+        "The patient's coagulation status cannot be ascertained at this time, given that the KCT result is null.",
+        "In light of the KCT result being null, clinicians are unable to determine the patient's coagulation status.",
+        "Since the KCT outcome registers as null, the coagulation status of the patient is currently unresolved.",
+        "Owing to a null KCT result, the patient's coagulation status stays undetermined for now.",
+        "A null finding in the KCT leaves the patient's coagulation status ambiguous at this juncture.",
+        "The KCT has returned null, thereby rendering the patient's coagulation status indeterminate.",
+        "With the KCT result marked as null, the patient's coagulation status cannot be definitively established.",
+        "Because the KCT reading is null, the evaluation of the patient's coagulation status remains pending.",
+        "The presence of a null value in the KCT precludes a definitive assessment of the patient's coagulation status.",
+        "As the KCT reports null, the medical team cannot currently resolve the patient's coagulation status.",
+        "Given that the KCT outcome is null, the patient's coagulation status is left undetermined.",
+        "The null status of the KCT result means the patient's coagulation status is still unknown.",
+        "Resulting in a null KCT, the patient's coagulation status is consequently undetermined.",
+        "The KCT returned null, which leaves the determination of the patient's coagulation status unresolved."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "currently": [
+          "currently",
+          "presently"
+        ],
+        "leaving": [
+          "leaving",
+          "going"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "coagulation": [
+          "coagulation",
+          "clotting"
+        ],
+        "result": [
+          "result",
+          "outcome",
+          "consequence",
+          "effect",
+          "issue",
+          "upshot"
+        ],
+        "undetermined": [
+          "undetermined",
+          "undecided",
+          "open",
+          "unresolved",
+          "indeterminate"
+        ]
+      },
+      "field_data_types": {
+        "KCT": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The uncertainty in the results necessitated additional testing.",
+      "template_pattern": "The uncertainty in the results necessitated additional testing.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the results were uncertain, further testing became necessary.",
+        "The ambiguous outcomes required us to conduct additional tests.",
+        "Additional testing was required due to the uncertainty of the results.",
+        "Uncertainty surrounding the findings prompted extra testing.",
+        "The lack of certainty in the results compelled the team to perform more tests.",
+        "Given the indeterminate results, supplementary testing was deemed essential.",
+        "The results' uncertainty called for further testing.",
+        "To address the uncertain findings, additional testing was undertaken.",
+        "Owing to the unclear results, we needed to run extra tests.",
+        "The ambiguous data necessitated the implementation of further testing.",
+        "As the results were not definitive, additional testing was mandated.",
+        "The uncertainty inherent in the outcomes mandated further testing.",
+        "Further testing was unavoidable because the results were uncertain.",
+        "In light of the uncertain results, we proceeded with extra testing.",
+        "The unclear outcomes forced the need for additional testing."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "uncertainty": [
+          "uncertainty",
+          "doubt",
+          "doubtfulness",
+          "dubiousness"
+        ],
+        "results": [
+          "results"
+        ],
+        "additional": [
+          "additional",
+          "extra"
+        ],
+        "testing": [
+          "testing",
+          "examination",
+          "test"
+        ],
+        "necessitated": [
+          "necessitated"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Similarly, the result for the Russell Viper Venom Time test is NULL, which makes it difficult to assess the patient's risk of thrombosis.",
+      "template_pattern": "Similarly, the result for the Russell Viper Venom Time test is [RVVT], which makes it difficult to assess the patient's risk of thrombosis.",
+      "primary_data_fields": [
+        "RVVT"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the RVVT result is [RVVT], the clinician cannot fully assess the patient's coagulation status nor conduct a thorough risk evaluation.",
+        "The patient's coagulation status cannot be properly evaluated and a complete risk assessment is hindered, as the RVVT result is [RVVT].",
+        "With the RVVT result reported as [RVVT], the ability to appraise the patient's coagulation and to perform a comprehensive risk assessment is restricted.",
+        "A dash on the RVVT result ([RVVT]) limits evaluation of the patient's coagulation and impedes a full risk assessment.",
+        "Since the RVVT outcome shows [RVVT], the capacity to judge coagulation status and to carry out an exhaustive risk assessment is compromised.",
+        "The RVVT reading of [RVVT] curtails the assessment of the patient's coagulation profile and obstructs a holistic risk analysis.",
+        "Given that the RVVT result is [RVVT], both the appraisal of coagulation status and the comprehensive risk assessment are hampered.",
+        "The inability to evaluate coagulation status and to conduct a thorough risk assessment stems from the RVVT result being [RVVT].",
+        "A result of [RVVT] on the RVVT test restricts the evaluation of the patient's coagulation and hampers a complete risk assessment.",
+        "The RVVT returning [RVVT] limits the clinician’s ability to assess coagulation and to perform a full risk assessment.",
+        "Because the RVVT shows [RVVT], the patient's coagulation status cannot be fully evaluated and comprehensive risk assessment is impeded.",
+        "The [RVVT] recorded for RVVT reduces the capacity to evaluate coagulation and to carry out an all‑encompassing risk assessment.",
+        "When the RVVT result is [RVVT], the evaluation of coagulation status and the execution of a comprehensive risk assessment are both hindered.",
+        "The RVVT outcome of [RVVT] prevents thorough assessment of the patient's coagulation and obstructs a complete risk evaluation.",
+        "Due to the RVVT result being [RVVT], assessment of coagulation status and comprehensive risk assessment are both limited."
+      ],
+      "counter_variations": [
+        "Similarly, the RVVT – Russell Viper Venom Time test yields null, complicating any evaluation of the patient’s thrombosis risk.",
+        "Because the Russell Viper Venom Time test (RVVT) returned null, clinicians find it challenging to gauge the patient’s susceptibility to thrombosis.",
+        "The RVVT result for the Russell Viper Venom Time assay is null, thereby obscuring an accurate assessment of the patient’s thrombotic risk.",
+        "Given that the Russell Viper Venom Time test, recorded under RVVT, is null, it becomes arduous to determine the patient’s likelihood of developing thrombosis.",
+        "In this report, the RVVT – Russell Viper Venom Time test shows null, which hinders a precise appraisal of the patient’s thrombosis risk profile.",
+        "When the Russell Viper Venom Time test (RVVT) registers null, the ability to assess the patient’s risk of thrombosis is markedly impaired.",
+        "The RVVT entry for the Russell Viper Venom Time test is null, rendering the estimation of the patient’s thrombosis risk problematic.",
+        "Due to a null outcome on the Russell Viper Venom Time test documented as RVVT, the practitioner faces difficulty in evaluating the patient’s thrombosis risk.",
+        "A null value for the RVVT (Russell Viper Venom Time test) leaves the patient’s thrombosis risk assessment substantially uncertain.",
+        "The Russell Viper Venom Time test, listed as RVVT, produced a null result, which substantially impedes the clinician’s capacity to appraise the patient’s thrombosis risk.",
+        "Since the RVVT – Russell Viper Venom Time test returned null, the determination of the patient’s propensity for thrombosis remains elusive.",
+        "The result of the Russell Viper Venom Time test (RVVT) is null, thereby complicating the clinician’s effort to quantify the patient’s thrombosis risk.",
+        "With a null finding on the RVVT, i.e., the Russell Viper Venom Time test, the evaluation of the patient’s thrombosis risk is rendered difficult.",
+        "The RVVT designation for the Russell Viper Venom Time test indicates null, making the assessment of the patient’s thrombosis risk fraught with uncertainty.",
+        "Because the Russell Viper Venom Time test recorded under RVVT is null, it is problematic to accurately assess the patient’s risk of thrombosis."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "similarly": [
+          "similarly",
+          "likewise"
+        ],
+        "which": [
+          "which"
+        ],
+        "venom": [
+          "venom",
+          "malice",
+          "maliciousness",
+          "spite"
+        ],
+        "russell": [
+          "russell",
+          "Russell"
+        ],
+        "makes": [
+          "makes"
+        ],
+        "assess": [
+          "assess",
+          "appraise",
+          "evaluate",
+          "measure",
+          "value",
+          "valuate"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "risk": [
+          "risk",
+          "chance",
+          "hazard",
+          "danger",
+          "peril",
+          "jeopardy"
+        ]
+      },
+      "field_data_types": {
+        "RVVT": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "As a result, the medical team considered alternative methods to evaluate the risk.",
+      "template_pattern": "As a result, the medical team considered alternative methods to evaluate the risk.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Consequently, the medical team explored other approaches to assess the risk.",
+        "The risk prompted the medical team to consider alternative methods for its evaluation.",
+        "As a result, alternative techniques were considered by the medical team to evaluate the risk.",
+        "Hence, the medical team weighed different strategies for risk assessment.",
+        "Because of this, the medical team turned to other methods to evaluate the risk.",
+        "The medical team, in response, examined alternative ways to assess the risk.",
+        "Accordingly, alternative methods were evaluated by the medical team for risk appraisal.",
+        "The outcome led the medical team to explore different techniques for evaluating the risk.",
+        "Thus, the medical team considered other options for risk evaluation.",
+        "In light of the findings, the medical team investigated alternative approaches to assess the risk.",
+        "The medical team, as a consequence, reviewed other methods to evaluate the risk.",
+        "As a consequence, alternative strategies were scrutinized by the medical team for risk evaluation.",
+        "Therefore, the medical team opted to examine different methods of assessing the risk.",
+        "Following the results, the medical team considered alternative procedures to evaluate the risk.",
+        "The risk assessment prompted the medical team to consider other techniques for evaluation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "evaluate": [
+          "evaluate",
+          "assess",
+          "appraise",
+          "measure",
+          "value"
+        ],
+        "considered": [
+          "considered"
+        ],
+        "risk": [
+          "risk",
+          "chance",
+          "hazard",
+          "peril",
+          "danger",
+          "jeopardy"
+        ],
+        "methods": [
+          "methods"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "result": [
+          "result",
+          "outcome",
+          "effect",
+          "consequence",
+          "upshot",
+          "resolution"
+        ],
+        "medical": [
+          "medical"
+        ],
+        "alternative": [
+          "alternative",
+          "substitute",
+          "choice",
+          "option",
+          "alternate"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Lactic Acid Concentration, or LAC, was recorded as -, indicating a need for further evaluation of the patient's metabolic state.",
+      "template_pattern": "The Lactic Acid Concentration, or LAC, was recorded as [LAC], indicating a need for further evaluation of the patient's metabolic state.",
+      "primary_data_fields": [
+        "LAC"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Lactic Acid Concentration, or LAC, was noted as [LAC], suggesting that the patient's metabolic state requires additional assessment.",
+        "Recorded as [LAC], the Lactic Acid Concentration (LAC) points to the necessity for further evaluation of the patient's metabolic state.",
+        "A measurement of [LAC] for the Lactic Acid Concentration, known as LAC, signals that the patient's metabolic state should be re‑examined.",
+        "With the Lactic Acid Concentration, or LAC, documented at [LAC], clinicians should pursue a more detailed review of the patient's metabolic state.",
+        "The patient's metabolic state warrants deeper investigation, as the Lactic Acid Concentration (LAC) was logged as [LAC].",
+        "Since the Lactic Acid Concentration, or LAC, came back as [LAC], a supplemental assessment of the patient's metabolic state is indicated.",
+        "The Lactic Acid Concentration (LAC) showing a value of [LAC] underscores the need to further appraise the patient's metabolic state.",
+        "Because the Lactic Acid Concentration, LAC, was recorded at [LAC], further scrutiny of the patient's metabolic state is advisable.",
+        "A [LAC] result for the Lactic Acid Concentration, referred to as LAC, calls for additional evaluation of the patient's metabolic state.",
+        "The Lactic Acid Concentration, or LAC, being [LAC] prompts a recommendation for more extensive review of the patient's metabolic state.",
+        "Given that the Lactic Acid Concentration (LAC) was [LAC], it is prudent to conduct further analysis of the patient's metabolic state.",
+        "The patient's metabolic state should be re‑evaluated, as the Lactic Acid Concentration, LAC, was documented as [LAC].",
+        "The Lactic Acid Concentration, LAC, noted as [LAC], indicates that the patient's metabolic state needs further examination.",
+        "Having logged the Lactic Acid Concentration (LAC) at [LAC], clinicians are advised to further assess the patient's metabolic state.",
+        "The value of [LAC] recorded for the Lactic Acid Concentration, or LAC, signals a requirement for additional evaluation of the patient's metabolic state."
+      ],
+      "counter_variations": [
+        "The LAC measurement was recorded as null, indicating that the laboratory result is not presently accessible for clinical interpretation.",
+        "Documented as null, the LAC measurement implies that the laboratory result cannot be interpreted clinically at this time.",
+        "Because the LAC measurement is listed as null, clinicians are unable to incorporate the laboratory result into their interpretation.",
+        "In the report, the LAC measurement appears as null, which suggests that the laboratory result is presently unavailable for clinical assessment.",
+        "A null entry for the LAC measurement signals that the corresponding laboratory result is currently inaccessible for clinical interpretation.",
+        "The laboratory data show the LAC measurement marked null, thereby indicating that the result is not currently usable for clinical interpretation.",
+        "When the LAC measurement is denoted as null, it conveys that the laboratory result remains unavailable for interpretation in a clinical context.",
+        "The presence of null in the LAC measurement field suggests that the laboratory result cannot be interpreted clinically at the moment.",
+        "Given that the LAC measurement is recorded as null, the laboratory result is effectively unavailable for clinical interpretation.",
+        "The report lists the LAC measurement as null, which points to the laboratory result being currently inaccessible for clinical interpretation.",
+        "A null designation for the LAC measurement denotes that the laboratory result is, at present, unavailable for clinical interpretation.",
+        "Since the LAC measurement is entered as null, the laboratory result cannot be employed for clinical interpretation at this time.",
+        "The LAC measurement’s null status indicates that the laboratory result is not presently available for clinical interpretation.",
+        "With the LAC measurement documented as null, clinicians must treat the laboratory result as currently unavailable for interpretation.",
+        "The entry of null for the LAC measurement conveys that the laboratory result is, for now, inaccessible for clinical interpretation."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "concentration": [
+          "concentration",
+          "immersion",
+          "compactness",
+          "denseness",
+          "density"
+        ],
+        "lactic": [
+          "lactic"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "further": [
+          "further",
+          "encourage",
+          "advance",
+          "promote",
+          "foster",
+          "boost"
+        ],
+        "need": [
+          "need",
+          "want",
+          "demand",
+          "require",
+          "necessitate"
+        ],
+        "metabolic": [
+          "metabolic"
+        ],
+        "evaluation": [
+          "evaluation",
+          "valuation",
+          "rating"
+        ],
+        "patient": [
+          "patient"
+        ]
+      },
+      "field_data_types": {
+        "LAC": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The missing data left the team with unanswered questions.",
+      "template_pattern": "The missing data left the team with unanswered questions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Because the data were missing, the team faced unanswered questions.",
+        "The absence of data left the team confronting unanswered questions.",
+        "Unanswered questions plagued the team due to the missing data.",
+        "With the data missing, the team was left with questions that remained unanswered.",
+        "The team's unanswered questions stemmed from the lack of data.",
+        "Missing data caused the team to have unresolved questions.",
+        "The team found itself with unanswered questions as a result of the absent data.",
+        "The lack of data left the team questioning several unresolved issues.",
+        "Unanswered queries persisted for the team because the data were unavailable.",
+        "Owing to the missing data, the team was burdened with unanswered questions.",
+        "The team was left with lingering questions after the data went missing.",
+        "Because the data were absent, the team was confronted with unanswered questions.",
+        "The team's unanswered questions arose from the missing data.",
+        "The void of data left the team confronting questions without answers.",
+        "Unanswered questions lingered for the team when the data failed to appear."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "missing": [
+          "missing",
+          "lacking",
+          "absent",
+          "wanting"
+        ],
+        "data": [
+          "data",
+          "information"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "unanswered": [
+          "unanswered"
+        ],
+        "left": [
+          "left",
+          "remaining",
+          "leftover",
+          "unexpended"
+        ],
+        "questions": [
+          "questions"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "During the examination, additional symptoms such as AMI were noted, providing crucial information for assessing the risk of thrombosis.",
+      "template_pattern": "During the examination, additional symptoms such as [SYMPTOMS] were noted, providing crucial information for assessing the risk of thrombosis.",
+      "primary_data_fields": [
+        "Symptoms"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "While examining the patient, additional symptoms such as [SYMPTOMS] were recorded, offering essential data for evaluating thrombosis risk.",
+        "The examination revealed extra symptoms—including [SYMPTOMS]—supplying vital information to assess the risk of thrombosis.",
+        "In the course of the assessment, clinicians noted further symptoms like [SYMPTOMS], thereby furnishing key insights for thrombosis risk appraisal.",
+        "Additional symptoms, for example [SYMPTOMS], were observed during the exam, delivering critical information for thrombosis risk assessment.",
+        "During the clinical review, [SYMPTOMS] and other symptoms were documented, which provides indispensable data for gauging thrombosis risk.",
+        "The risk of thrombosis can be appraised thanks to the crucial information supplied by noting additional symptoms such as [SYMPTOMS] during the examination.",
+        "Noting extra symptoms such as [SYMPTOMS] in the exam yielded important details for determining thrombosis risk.",
+        "As the examination proceeded, further symptoms—[SYMPTOMS] among them—were identified, contributing essential data for thrombosis risk evaluation.",
+        "The exam uncovered additional symptoms like [SYMPTOMS], thereby giving crucial information for assessing the likelihood of thrombosis.",
+        "By recording extra symptoms, including [SYMPTOMS], during the assessment, clinicians obtained vital information for thrombosis risk analysis.",
+        "Additional symptoms (e.g., [SYMPTOMS]) were captured during the examination, providing indispensable insight into thrombosis risk assessment.",
+        "During the patient’s evaluation, clinicians observed further symptoms such as [SYMPTOMS], which supply key data for judging thrombosis risk.",
+        "The detection of extra symptoms, namely [SYMPTOMS], in the exam furnished essential information for appraising thrombosis risk.",
+        "While conducting the examination, the team noted additional symptoms like [SYMPTOMS], thereby delivering critical information for thrombosis risk assessment.",
+        "Recording further symptoms—[SYMPTOMS] among them—during the exam offers vital data for evaluating the risk of thrombosis."
+      ],
+      "counter_variations": [
+        "Because the Symptoms field is null, the data imply that no overt clinical manifestations were documented during the examination, prompting the need for further inquiry.",
+        "The null entry in the Symptoms field suggests that the clinician recorded no observable signs at the time of assessment and therefore warrants additional questioning.",
+        "Given that the Symptoms field is null, one can infer that no explicit clinical findings were captured during the evaluation, which in turn calls for deeper investigation.",
+        "A null value recorded for Symptoms indicates that during the examination no overt manifestations were noted, leading to a recommendation for further probing.",
+        "Since the Symptoms field appears null, it conveys that the patient’s overt clinical signs were not logged in the exam, thereby necessitating supplementary inquiry.",
+        "The presence of null in the Symptoms field signals that no observable clinical symptoms were entered during the assessment, urging subsequent clarification.",
+        "When the Symptoms field registers as null, it reflects an absence of documented overt manifestations in the exam and consequently invites additional follow‑up.",
+        "Observing a null result in the Symptoms field suggests that the examination yielded no recorded overt clinical signs, which prompts further investigative steps.",
+        "The null status of the Symptoms field denotes that no overt clinical manifestations were entered during the evaluation, thereby motivating more detailed inquiry.",
+        "If the Symptoms field is null, this denotes that the examiner did not record any overt signs, and it consequently calls for further questioning.",
+        "A null reading in the Symptoms field conveys that no overt clinical manifestations were captured during the visit, leading to a recommendation for additional scrutiny.",
+        "With the Symptoms field set to null, the implication is that the examination produced no recorded overt signs, which in turn necessitates further exploration.",
+        "The fact that the Symptoms field is null indicates that no overt clinical findings were documented during the assessment, prompting a need for deeper inquiry.",
+        "Because the Symptoms field returns null, it suggests that the clinician observed no overt manifestations during the exam and therefore recommends further investigation.",
+        "When the Symptoms field shows null, it infers that no overt clinical symptoms were logged during the examination, thereby urging additional probing."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "during": [
+          "during"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "such": [
+          "such"
+        ],
+        "risk": [
+          "risk",
+          "peril",
+          "hazard",
+          "danger",
+          "jeopardy"
+        ],
+        "noted": [
+          "noted",
+          "famous",
+          "renowned",
+          "notable",
+          "celebrated",
+          "illustrious"
+        ],
+        "additional": [
+          "additional",
+          "extra"
+        ],
+        "information": [
+          "information",
+          "data"
+        ],
+        "providing": [
+          "providing",
+          "supplying",
+          "furnishing",
+          "offering",
+          "rendering"
+        ]
+      },
+      "field_data_types": {
+        "Symptoms": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These observations were crucial in forming a comprehensive view of the patient's condition.",
+      "template_pattern": "These observations were crucial in forming a comprehensive view of the patient's condition.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The observations proved essential for constructing a complete picture of the patient’s condition.",
+        "By analyzing these observations, clinicians were able to develop a thorough understanding of the patient’s state.",
+        "A comprehensive view of the patient’s condition was shaped by these pivotal observations.",
+        "These observations played a key role in assembling an all‑encompassing assessment of the patient’s health.",
+        "Thanks to these observations, a full portrait of the patient’s condition could be formed.",
+        "The gathered observations were instrumental in piecing together a holistic view of the patient’s condition.",
+        "With these observations, the medical team formed an exhaustive overview of the patient’s condition.",
+        "It was through these crucial observations that a detailed perspective on the patient’s condition emerged.",
+        "These observations, being vital, helped forge a complete picture of the patient’s health status.",
+        "Forming a comprehensive view of the patient’s condition relied heavily on these observations.",
+        "The patient’s condition was comprehensively understood thanks to these essential observations.",
+        "By virtue of these observations, a thorough appraisal of the patient’s condition was achieved.",
+        "These pivotal observations enabled the creation of an all‑round view of the patient’s condition.",
+        "The comprehensive assessment of the patient’s condition stemmed from these critical observations.",
+        "Through careful observation, a full‑scale view of the patient’s condition was assembled."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "condition": [
+          "condition",
+          "stipulation",
+          "precondition",
+          "consideration",
+          "term",
+          "status"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "view": [
+          "view",
+          "opinion",
+          "perspective",
+          "regard",
+          "sight",
+          "aspect"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "these": [
+          "these"
+        ],
+        "observations": [
+          "observations"
+        ],
+        "comprehensive": [
+          "comprehensive"
+        ],
+        "forming": [
+          "forming"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The patient's thrombosis degree is 1, indicating the most severe level of thrombosis.",
+      "template_pattern": "The patient's thrombosis degree is [THROMBOSIS], indicating the most severe level of thrombosis.",
+      "primary_data_fields": [
+        "Thrombosis"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The patient's Thrombosis degree registers as [THROMBOSIS], signifying the most extreme level of thrombosis.",
+        "A Thrombosis score of [THROMBOSIS] is recorded for the patient, indicating the highest severity.",
+        "With a Thrombosis value of [THROMBOSIS], the patient is classified at the most severe thrombosis stage.",
+        "The patient exhibits a Thrombosis degree of [THROMBOSIS], reflecting the utmost severity of the condition.",
+        "Recorded as [THROMBOSIS], the patient's Thrombosis degree denotes the maximum severity level.",
+        "The most severe thrombosis level is shown by the patient's Thrombosis degree of [THROMBOSIS].",
+        "For this patient, the Thrombosis measurement stands at [THROMBOSIS], which marks the highest possible severity.",
+        "A Thrombosis reading of [THROMBOSIS] places the patient at the topmost severity tier.",
+        "The patient's Thrombosis rating is [THROMBOSIS], indicating the condition is at its most severe.",
+        "At a Thrombosis level of [THROMBOSIS], the patient is identified as having the most severe thrombosis.",
+        "The data shows the patient's Thrombosis degree as [THROMBOSIS], the peak severity for this condition.",
+        "A Thrombosis index of [THROMBOSIS] has been assigned to the patient, signifying extreme severity.",
+        "The patient's Thrombosis assessment yields a value of [THROMBOSIS], representing the highest severity.",
+        "With the Thrombosis score set to [THROMBOSIS], the patient reaches the most severe classification.",
+        "The most severe thrombosis classification is indicated by a Thrombosis degree of [THROMBOSIS] for the patient."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "indicating": [
+          "indicating"
+        ],
+        "severe": [
+          "severe",
+          "serious",
+          "stern",
+          "grave",
+          "austere"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "level": [
+          "level",
+          "tier",
+          "grade",
+          "degree",
+          "stage",
+          "stratum"
+        ],
+        "degree": [
+          "degree",
+          "level",
+          "stage",
+          "grade",
+          "point"
+        ],
+        "most": [
+          "most"
+        ]
+      },
+      "field_data_types": {
+        "Thrombosis": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "With this information, immediate interventions were considered.",
+      "template_pattern": "With this information, immediate interventions were considered.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Given these data, prompt interventions were taken into account.",
+        "Armed with this information, clinicians contemplated swift interventions.",
+        "Immediate interventions were evaluated in light of the provided data.",
+        "The availability of this information led to the consideration of rapid interventions.",
+        "Upon receiving the data, immediate interventions were considered.",
+        "This information prompted the consideration of immediate interventions.",
+        "Rapid interventions were considered once the information was reviewed.",
+        "With the data at hand, we weighed immediate intervention options.",
+        "The presented information caused us to consider prompt interventions.",
+        "Considering the information, immediate interventions came under review.",
+        "Immediate interventions were deliberated after the information was obtained.",
+        "The new data spurred a review of immediate intervention possibilities.",
+        "In response to the information, immediate interventions were taken into consideration.",
+        "After the information was supplied, immediate interventions were assessed.",
+        "The receipt of this information triggered consideration of swift interventions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "information": [
+          "information",
+          "data"
+        ],
+        "immediate": [
+          "immediate",
+          "prompt"
+        ],
+        "considered": [
+          "considered",
+          "deemed",
+          "judged",
+          "thought"
+        ],
+        "interventions": [
+          "interventions",
+          "treatments"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The team reviewed the patient's entire medical history to ensure no detail was overlooked.",
+      "template_pattern": "The team reviewed the patient's entire medical history to ensure no detail was overlooked.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "To make certain every element was considered, the team scrutinized the patient’s complete medical history.",
+        "The patient’s entire medical record was reviewed by the team to confirm that no detail escaped notice.",
+        "Ensuring nothing was missed, the team went through the full scope of the patient’s medical background.",
+        "The team conducted a comprehensive review of the patient’s medical history, leaving no detail unchecked.",
+        "No aspect of the patient’s health history was ignored, as the team carefully examined it in its entirety.",
+        "In order to avoid overlooking any information, the team evaluated the patient’s complete medical dossier.",
+        "The entire medical history of the patient was meticulously inspected by the team to guarantee completeness.",
+        "By combing through the patient’s full medical record, the team ensured that every detail was accounted for.",
+        "The team’s analysis of the patient’s comprehensive medical background aimed to capture every single detail.",
+        "To prevent any omission, the patient’s whole medical history was systematically reviewed by the team.",
+        "Every detail was safeguarded against omission when the team assessed the patient’s complete medical history.",
+        "The team methodically went over the patient’s entire medical file, making sure nothing was missed.",
+        "With the goal of missing no information, the team surveyed the full medical history of the patient.",
+        "A thorough review of the patient’s complete medical history was performed by the team to ensure nothing slipped through.",
+        "The team left no stone unturned as they examined the patient’s whole medical record for any overlooked detail."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensure": [
+          "ensure",
+          "guarantee",
+          "assure"
+        ],
+        "reviewed": [
+          "reviewed"
+        ],
+        "entire": [
+          "entire",
+          "total",
+          "full",
+          "intact"
+        ],
+        "overlooked": [
+          "overlooked",
+          "unnoted"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "detail": [
+          "detail",
+          "item",
+          "point",
+          "particular"
+        ],
+        "history": [
+          "history",
+          "story",
+          "chronicle",
+          "account"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Each test result was scrutinized for potential errors or anomalies.",
+      "template_pattern": "Each test result was scrutinized for potential errors or anomalies.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team meticulously examined every test result for possible errors or anomalies.",
+        "Every test outcome underwent a thorough review to detect any errors or anomalies.",
+        "Potential errors or anomalies were carefully screened in each test result.",
+        "We scrutinized each test result for signs of errors and anomalies.",
+        "Each test result was inspected closely for any possible errors or irregularities.",
+        "In order to find errors or anomalies, each test result was rigorously analyzed.",
+        "All test results were evaluated for potential mistakes or unusual findings.",
+        "To identify errors or anomalies, we carefully reviewed each test result.",
+        "Each outcome of the tests was probed for possible errors or anomalies.",
+        "The data from each test was screened for any errors or anomalous values.",
+        "Potential mistakes or anomalies were sought in every test result.",
+        "We performed a detailed check of each test result for errors or irregularities.",
+        "Each test’s result was examined to uncover any possible errors or anomalies.",
+        "An exhaustive audit of each test result looked for errors and anomalous data.",
+        "For every test result, we looked for potential errors or anomalies."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "anomalies": [
+          "anomalies"
+        ],
+        "scrutinized": [
+          "scrutinized"
+        ],
+        "errors": [
+          "errors"
+        ],
+        "test": [
+          "test",
+          "examination",
+          "trial",
+          "exam",
+          "screen",
+          "quiz"
+        ],
+        "result": [
+          "result",
+          "effect",
+          "consequence",
+          "outcome",
+          "upshot",
+          "resolution"
+        ],
+        "potential": [
+          "potential",
+          "possible",
+          "likely"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Additionally, the complexity of the case required collaboration across multiple specialties.",
+      "template_pattern": "Additionally, the complexity of the case required collaboration across multiple specialties.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Moreover, the case's intricacy demanded teamwork among several specialties.",
+        "The case was so complex that it called for cross‑disciplinary collaboration.",
+        "Because the case was complicated, experts from multiple fields had to work together.",
+        "In addition, the elaborate nature of the case necessitated joint effort by various specialties.",
+        "Collaboration across a range of specialties was required due to the case's complexity.",
+        "The high complexity of the case compelled coordination among numerous specialties.",
+        "Given the case's complexity, collaboration between many specialties became essential.",
+        "The case's complexity forced interdisciplinary cooperation among several specialties.",
+        "As a result of its complexity, the case required input from multiple specialty areas.",
+        "The intricate case mandated cooperation across multiple specialist domains.",
+        "Complexities inherent in the case meant that several specialties needed to collaborate.",
+        "To address the case’s complexity, a collaborative approach spanning many specialties was employed.",
+        "The case's demanding complexity called for a multi‑specialty collaborative effort.",
+        "Owing to the case’s complexity, it was necessary to bring together various specialties.",
+        "With the case being highly complex, collaboration among a variety of specialties was indispensable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "additionally": [
+          "additionally"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "case": [
+          "case",
+          "subject",
+          "instance",
+          "example",
+          "event"
+        ],
+        "multiple": [
+          "multiple"
+        ],
+        "specialties": [
+          "specialties"
+        ],
+        "required": [
+          "required",
+          "mandatory",
+          "needed",
+          "compulsory",
+          "requisite",
+          "needful"
+        ],
+        "collaboration": [
+          "collaboration",
+          "coaction"
+        ],
+        "complexity": [
+          "complexity"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Every hypothesis regarding the patient's condition was thoroughly evaluated.",
+      "template_pattern": "Every hypothesis regarding the patient's condition was thoroughly evaluated.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each hypothesis concerning the patient’s condition was examined in depth.",
+        "The patient’s condition was subject to a thorough evaluation of every hypothesis.",
+        "All conjectures about the patient’s condition received a detailed assessment.",
+        "Every proposed explanation for the patient’s condition underwent exhaustive scrutiny.",
+        "A comprehensive review was applied to each hypothesis relating to the patient’s condition.",
+        "Researchers meticulously evaluated all hypotheses regarding the patient’s condition.",
+        "In the analysis, every hypothesis concerning the patient’s condition was fully vetted.",
+        "The team gave a thorough appraisal to each theory about the patient’s condition.",
+        "Each possible explanation for the patient’s condition was rigorously examined.",
+        "A systematic and thorough evaluation was performed on every hypothesis about the patient’s condition.",
+        "Every hypothesis about the patient’s condition was subject to intensive review.",
+        "All theories concerning the patient’s condition were carefully assessed.",
+        "The assessment process included a complete and meticulous evaluation of each hypothesis regarding the patient’s condition.",
+        "For the patient’s condition, every hypothesis was scrutinized thoroughly.",
+        "Each potential explanation of the patient’s condition received a comprehensive evaluation."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "every": [
+          "every"
+        ],
+        "thoroughly": [
+          "thoroughly",
+          "exhaustively",
+          "soundly"
+        ],
+        "evaluated": [
+          "evaluated"
+        ],
+        "regarding": [
+          "regarding"
+        ],
+        "condition": [
+          "condition",
+          "stipulation",
+          "precondition",
+          "consideration",
+          "term",
+          "status"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "hypothesis": [
+          "hypothesis",
+          "supposition",
+          "conjecture",
+          "speculation",
+          "theory",
+          "possibility"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Consequently, the team remained vigilant for any signs of deterioration.",
+      "template_pattern": "Consequently, the team remained vigilant for any signs of deterioration.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Therefore, the team stayed alert for any indication of deterioration.",
+        "As a result, vigilance was kept by the team for any signs of decline.",
+        "Hence, the group remained watchful for any evidence of worsening.",
+        "Accordingly, the staff maintained vigilance against any hint of deterioration.",
+        "For that reason, the team continued to monitor for any signs of regression.",
+        "Thus, the team kept a close eye on any potential deterioration.",
+        "Because of this, the team was on guard for any signs of decline.",
+        "The team, consequently, remained vigilant for any indication of deterioration.",
+        "Any signs of deterioration were closely watched by the team as a consequence.",
+        "With the outcome in mind, the team persisted in watching for any signs of worsening.",
+        "In response, the team upheld vigilance for any potential deterioration.",
+        "The team kept its vigilance focused on any signs of decline, accordingly.",
+        "As a consequence, vigilance was upheld by the team for any indication of deterioration.",
+        "The result prompted the team to stay alert for any evidence of worsening.",
+        "Following that, the team maintained a watchful stance toward any signs of deterioration."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "remained": [
+          "remained"
+        ],
+        "vigilant": [
+          "vigilant",
+          "wakeful"
+        ],
+        "consequently": [
+          "consequently",
+          "therefore",
+          "accordingly"
+        ],
+        "signs": [
+          "signs"
+        ],
+        "deterioration": [
+          "deterioration",
+          "impairment",
+          "worsening",
+          "declension"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Consultations with external experts were scheduled to gain additional insights.",
+      "template_pattern": "Consultations with external experts were scheduled to gain additional insights.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Additional insights were to be obtained by scheduling consultations with external experts.",
+        "We scheduled meetings with outside specialists to acquire further insights.",
+        "Consultations with outside experts have been arranged to secure added insight.",
+        "To gather extra insights, sessions with external consultants were planned.",
+        "Arrangements were made for external expert consultations to deepen understanding.",
+        "External specialists were engaged for scheduled consultations aimed at gaining more insight.",
+        "Scheduled talks with external experts were intended to provide additional perspectives.",
+        "In order to obtain further insights, we organized consultations with outside experts.",
+        "Additional insights were sought through the scheduling of consultations with external experts.",
+        "Arrangements were made for external experts to meet, hoping to capture extra insights.",
+        "The plan involved booking external expert consultations to harvest supplementary insights.",
+        "To capture more insight, consultations with external specialists were slated.",
+        "External expert consultations were programmed to yield additional understanding.",
+        "By setting up meetings with outside experts, we aimed to collect further insights.",
+        "Sessions with external specialists were scheduled to gain extra insight."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "scheduled": [
+          "scheduled"
+        ],
+        "gain": [
+          "gain",
+          "acquire",
+          "attain",
+          "earn",
+          "increase",
+          "profit"
+        ],
+        "experts": [
+          "experts"
+        ],
+        "external": [
+          "external",
+          "outside"
+        ],
+        "consultations": [
+          "consultations"
+        ],
+        "additional": [
+          "additional",
+          "extra"
+        ],
+        "insights": [
+          "insights"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Meanwhile, the patient's progress was monitored closely to detect any changes.",
+      "template_pattern": "Meanwhile, the patient's progress was monitored closely to detect any changes.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "At the same time, clinicians kept a close watch on the patient’s progress to spot any alterations.",
+        "The patient’s progress was observed attentively during this period, aiming to identify any changes.",
+        "Simultaneously, healthcare staff closely tracked the patient’s progress in order to detect any shifts.",
+        "While this occurred, the medical team monitored the patient’s progress carefully to catch any modifications.",
+        "During the interval, close monitoring of the patient’s progress was performed to uncover any changes.",
+        "In parallel, the patient’s advancement was scrutinized closely to notice any variations.",
+        "The patient’s progress was under vigilant surveillance as the team sought any sign of change.",
+        "As events unfolded, we closely followed the patient’s progress to spot any change.",
+        "Close observation of the patient’s progress was maintained meanwhile to detect any alterations.",
+        "During that time, the patient’s progress was tracked meticulously to reveal any changes.",
+        "Meanwhile, the care team kept a tight eye on the patient’s progress to identify any modifications.",
+        "The progress of the patient was continuously monitored with close attention to catch any changes.",
+        "While the study proceeded, the patient’s progress was closely watched to discover any variations.",
+        "In the interim, medical staff carefully monitored the patient’s progress to sense any shifts.",
+        "During the same period, close monitoring of the patient’s progress was carried out to detect any changes."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "meanwhile": [
+          "meanwhile",
+          "meantime"
+        ],
+        "progress": [
+          "progress",
+          "advance",
+          "progression",
+          "advancement"
+        ],
+        "changes": [
+          "changes"
+        ],
+        "patient": [
+          "patient"
+        ],
+        "monitored": [
+          "monitored"
+        ],
+        "detect": [
+          "detect",
+          "discover",
+          "notice",
+          "observe",
+          "find"
+        ],
+        "closely": [
+          "closely",
+          "intimately"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Furthermore, family members were briefed on the situation and potential outcomes.",
+      "template_pattern": "Furthermore, family members were briefed on the situation and potential outcomes.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Additionally, the family was informed about the situation and its possible outcomes.",
+        "Moreover, clinicians briefed family members on the circumstances and likely results.",
+        "In addition, family members received a briefing regarding the situation and potential outcomes.",
+        "The situation and possible outcomes were explained to the family members, as a further step.",
+        "Further to this, staff briefed the relatives on both the current situation and expected outcomes.",
+        "As a next measure, family members were updated on the situation and its prospective outcomes.",
+        "Family members were given a concise overview of the situation and the potential outcomes, too.",
+        "The healthcare team informed the family about the situation and the possible results, in addition.",
+        "Besides, relatives were briefed on the present situation and the outcomes that might follow.",
+        "Also, the family received a summary of the situation and the likely outcomes.",
+        "Family members were apprised of the situation and the potential outcomes, as an added step.",
+        "Moreover, the patient’s relatives were briefed on both the situation and the possible outcomes.",
+        "The situation and its potential outcomes were communicated to family members as part of the brief.",
+        "Additionally, staff ensured that family members understood the situation and the possible outcomes.",
+        "To further inform them, the family was briefed on the current situation and any potential outcomes."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "briefed": [
+          "briefed"
+        ],
+        "furthermore": [
+          "furthermore",
+          "moreover"
+        ],
+        "family": [
+          "family",
+          "household",
+          "kin"
+        ],
+        "situation": [
+          "situation",
+          "position"
+        ],
+        "members": [
+          "members"
+        ],
+        "outcomes": [
+          "outcomes"
+        ],
+        "potential": [
+          "potential",
+          "possible",
+          "likely",
+          "potentiality"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "A plan was put in place to address both short-term and long-term needs.",
+      "template_pattern": "A plan was put in place to address both short-term and long-term needs.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A strategy was established to meet both immediate and future requirements.",
+        "Both short‑term and long‑term needs are tackled by the newly instituted plan.",
+        "A plan was introduced to cover short‑term and long‑term demands.",
+        "To address short‑term as well as long‑term needs, a plan has been put into effect.",
+        "A comprehensive plan has been implemented to satisfy both near‑term and long‑term objectives.",
+        "Addressing immediate and extended needs, a plan was set up.",
+        "A plan was devised to handle the short‑term and long‑term necessities.",
+        "In order to serve both short‑term and long‑term requirements, a plan was rolled out.",
+        "A plan was adopted to meet both short‑term and long‑term needs.",
+        "Both short‑term and long‑term demands are being met through an instituted plan.",
+        "A new plan, targeting immediate and future needs, has been put in place.",
+        "To cover short‑term and long‑term priorities, a plan was launched.",
+        "The plan put in operation addresses both short‑term and long‑term needs.",
+        "By implementing a plan, the goal is to satisfy both short‑term and long‑term requirements.",
+        "A framework was put forward to address the short‑term as well as the long‑term needs."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "address": [
+          "address",
+          "deal",
+          "direct",
+          "treat",
+          "handle",
+          "reference"
+        ],
+        "place": [
+          "place",
+          "station",
+          "berth",
+          "billet",
+          "plaza",
+          "position"
+        ],
+        "both": [
+          "both"
+        ],
+        "plan": [
+          "plan",
+          "design",
+          "contrive",
+          "project",
+          "programme",
+          "program"
+        ],
+        "short": [
+          "short",
+          "scant",
+          "little",
+          "inadequate",
+          "curt"
+        ],
+        "needs": [
+          "needs"
+        ],
+        "term": [
+          "term",
+          "condition"
+        ],
+        "long": [
+          "long"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The medical team remained committed to finding the best possible solutions.",
+      "template_pattern": "The medical team remained committed to finding the best possible solutions.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "The medical team stayed devoted to identifying the most effective solutions.",
+        "Remaining steadfast, the medical team continued its search for optimal solutions.",
+        "The best possible solutions were pursued by the medical team, which remained committed.",
+        "With unwavering dedication, the medical team sought the ideal solutions.",
+        "Committed to excellence, the medical team persisted in finding optimal solutions.",
+        "The medical team kept its focus on discovering the best possible solutions.",
+        "Finding the most suitable solutions, the medical team remained fully committed.",
+        "The medical team, still dedicated, worked toward the best possible solutions.",
+        "Optimal solutions were continuously sought by a medical team that stayed committed.",
+        "By maintaining its commitment, the medical team endeavored to locate the best possible solutions.",
+        "The medical team’s commitment persisted as it aimed to uncover the most effective solutions.",
+        "Dedicated to the task, the medical team kept searching for the best possible solutions.",
+        "The search for optimal solutions remained a priority for the committed medical team.",
+        "A medical team, steadfast in its dedication, pursued the best possible solutions.",
+        "The medical team continued its commitment to uncovering the most suitable solutions."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "remained": [
+          "remained"
+        ],
+        "best": [
+          "best",
+          "expert",
+          "skillful",
+          "skilful"
+        ],
+        "possible": [
+          "possible",
+          "potential"
+        ],
+        "committed": [
+          "committed",
+          "attached"
+        ],
+        "finding": [
+          "finding",
+          "determination"
+        ],
+        "solutions": [
+          "solutions"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "medical": [
+          "medical"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Research into similar cases was conducted to inform decision-making.",
+      "template_pattern": "Research into similar cases was conducted to inform decision-making.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "A study of comparable cases was carried out to guide the decision‑making process.",
+        "Investigation of analogous cases was undertaken to support decision‑making.",
+        "Decision‑making was informed by research conducted on similar cases.",
+        "An analysis of like cases was performed in order to aid decision‑making.",
+        "Research into comparable cases helped shape subsequent decisions.",
+        "Research on analogous cases was executed to provide insight for decisions.",
+        "To underpin the choices being made, research into similar cases was performed.",
+        "Examination of similar cases informed the decision‑making.",
+        "Informing decisions required a review of comparable case studies.",
+        "A review of like cases was executed to furnish decision‑making guidance.",
+        "Decision‑making was assisted by a systematic study of similar cases.",
+        "By researching analogous cases, data were supplied to support decision‑making.",
+        "Similar‑case research was conducted as a basis for informed decisions.",
+        "To ensure well‑grounded decisions, research on comparable cases was carried out.",
+        "The analysis of similar cases was undertaken to inform the decision‑making process."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "cases": [
+          "cases"
+        ],
+        "decision": [
+          "decision",
+          "conclusion",
+          "determination"
+        ],
+        "into": [
+          "into"
+        ],
+        "making": [
+          "making",
+          "fashioning",
+          "devising"
+        ],
+        "similar": [
+          "similar",
+          "alike",
+          "like",
+          "interchangeable",
+          "exchangeable"
+        ],
+        "conducted": [
+          "conducted"
+        ],
+        "research": [
+          "research",
+          "enquiry",
+          "inquiry",
+          "search"
+        ],
+        "inform": [
+          "inform"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The entire team was focused on providing the highest standard of care.",
+      "template_pattern": "The entire team was focused on providing the highest standard of care.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every member of the team concentrated on delivering care of the utmost quality.",
+        "The whole staff devoted their attention to ensuring the highest level of care.",
+        "Providing the highest standard of care was the team's singular focus.",
+        "Care of the highest caliber was the focus for the entire team.",
+        "The team, as a whole, centered its efforts on offering top‑tier care.",
+        "All team members were committed to achieving the utmost standard of care.",
+        "The highest standard of care was what the entire team aimed to provide.",
+        "Focused on delivering premier care, the whole team worked together.",
+        "The collective team prioritized the provision of the highest quality care.",
+        "Delivering care at the highest possible standard occupied the team's full attention.",
+        "The team's focus lay in furnishing the utmost standard of care.",
+        "With an eye on the highest standard of care, the entire team stayed focused.",
+        "The entire team’s efforts were directed toward providing top‑level care.",
+        "Providing the best possible care was the central concern of every team member.",
+        "The team, united, concentrated on ensuring care met the highest standards."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "team": [
+          "team",
+          "squad"
+        ],
+        "care": [
+          "care",
+          "aid",
+          "attention",
+          "concern",
+          "maintenance"
+        ],
+        "highest": [
+          "highest"
+        ],
+        "focused": [
+          "focused",
+          "focussed"
+        ],
+        "entire": [
+          "entire",
+          "total",
+          "full",
+          "intact",
+          "integral"
+        ],
+        "standard": [
+          "standard",
+          "criterion",
+          "measure",
+          "touchstone"
+        ],
+        "providing": [
+          "providing"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "Finally, all findings were compiled into a comprehensive report for future reference.",
+      "template_pattern": "Finally, all findings were compiled into a comprehensive report for future reference.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Ultimately, the complete set of findings was gathered into a thorough report for future reference.",
+        "In the end, we assembled all the findings into a comprehensive document intended for later consultation.",
+        "All findings were finally consolidated into an extensive report to serve as a reference moving forward.",
+        "The findings were compiled at last into a detailed report for use in future reference.",
+        "Afterward, all findings were compiled into a full‑scale report designed for future reference.",
+        "For future reference, a comprehensive report was created by compiling all the findings.",
+        "We wrapped up by merging all findings into a complete report that will be consulted later.",
+        "Finally, every finding was incorporated into an all‑encompassing report for subsequent reference.",
+        "The final step involved collating all findings into a broad report for future reference.",
+        "All the data points were ultimately gathered into a comprehensive report to be referenced later.",
+        "As a concluding action, all findings were assembled into a detailed report for future use.",
+        "To aid future reference, we combined all findings into a thorough report.",
+        "A comprehensive report was produced by compiling every finding, intended for future reference.",
+        "At the conclusion, the complete findings were merged into an extensive report for later reference.",
+        "Finally, we synthesized all findings into a full report that will serve as a reference in the future."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "compiled": [
+          "compiled"
+        ],
+        "into": [
+          "into"
+        ],
+        "findings": [
+          "findings"
+        ],
+        "finally": [
+          "finally",
+          "lastly",
+          "eventually",
+          "ultimately"
+        ],
+        "future": [
+          "future"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "quotation",
+          "mention",
+          "source",
+          "acknowledgment"
+        ],
+        "comprehensive": [
+          "comprehensive"
+        ],
+        "report": [
+          "report",
+          "paper",
+          "study",
+          "account"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

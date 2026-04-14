@@ -1,0 +1,247 @@
+{
+  "document_context": "healthcare data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "dd04f0c5233148e3": "molecule_id",
+    "a32de6e78aaf445d": "label"
+  },
+  "templates": [
+    {
+      "original": "In recent toxicology studies, the molecule_id TR000 has been pivotal in identifying potential hazards in chemical compounds.",
+      "template_pattern": "In recent toxicology studies, the molecule_id [MOLECULE_ID] has been pivotal in identifying potential hazards in chemical compounds.",
+      "primary_data_fields": [
+        "molecule_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Recent toxicology investigations have found that molecule id [MOLECULE_ID] plays a crucial role in spotting potential hazards within chemical compounds.",
+        "The molecule id [MOLECULE_ID] has emerged as a key factor in recent toxicology studies for detecting possible dangers in chemical compounds.",
+        "In the latest toxicology research, scientists rely on molecule id [MOLECULE_ID] to pinpoint potential hazards present in chemical compounds.",
+        "Potential hazards in chemical compounds have been identified thanks to the pivotal contribution of molecule id [MOLECULE_ID] in recent toxicology analyses.",
+        "Recent toxicology work highlights molecule id [MOLECULE_ID] as instrumental in uncovering possible risks associated with chemical compounds.",
+        "Within contemporary toxicology examinations, molecule id [MOLECULE_ID] is regarded as essential for recognizing potential hazards in chemical compounds.",
+        "The identification of potential hazards in chemical compounds has been driven by molecule id [MOLECULE_ID] in recent toxicology assessments.",
+        "Recent toxicology studies underscore the importance of molecule id [MOLECULE_ID] for revealing possible dangers in chemical compounds.",
+        "Molecule id [MOLECULE_ID] has been a decisive element in recent toxicology research, aiding the discovery of potential hazards in chemical compounds.",
+        "In recent toxicology evaluations, the role of molecule id [MOLECULE_ID] has been vital for flagging potential hazards across chemical compounds.",
+        "Potential hazards in chemical compounds are being uncovered through the pivotal use of molecule id [MOLECULE_ID] in recent toxicology studies.",
+        "The recent toxicology literature points to molecule id [MOLECULE_ID] as a central tool for identifying possible risks in chemical compounds.",
+        "Through recent toxicology analyses, molecule id [MOLECULE_ID] has become pivotal in detecting potential hazards that may exist in chemical compounds.",
+        "Recent toxicology inquiries have highlighted molecule id [MOLECULE_ID] as a primary means of pinpointing potential hazards within chemical compounds.",
+        "In the context of recent toxicology work, molecule id [MOLECULE_ID] serves as a crucial element for identifying potential hazards in chemical compounds."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "toxicology": [
+          "toxicology"
+        ],
+        "hazards": [
+          "hazards"
+        ],
+        "potential": [
+          "potential",
+          "possible"
+        ],
+        "compounds": [
+          "compounds"
+        ],
+        "chemical": [
+          "chemical"
+        ],
+        "pivotal": [
+          "pivotal"
+        ],
+        "identifying": [
+          "identifying"
+        ],
+        "recent": [
+          "recent"
+        ]
+      },
+      "field_data_types": {
+        "molecule_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Researchers are continually seeking new insights to better understand the implications of chemical exposure.",
+      "template_pattern": "Researchers are continually seeking new insights to better understand the implications of chemical exposure.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Researchers constantly pursue fresh insights to more fully grasp the consequences of chemical exposure.",
+        "New insights are continually being sought by researchers aiming to better comprehend the implications of chemical exposure.",
+        "To deepen their understanding of chemical exposure's effects, researchers are persistently looking for novel insights.",
+        "The implications of chemical exposure are being better understood as researchers endlessly hunt for new insights.",
+        "Researchers are unceasingly searching for additional knowledge to clarify the impact of chemical exposure.",
+        "In an ongoing effort, researchers seek fresh perspectives that will illuminate the ramifications of chemical exposure.",
+        "Fresh insights are relentlessly pursued by researchers to enhance comprehension of chemical exposure’s implications.",
+        "As part of their continuous work, researchers strive to uncover new understandings of chemical exposure consequences.",
+        "Researchers, ever‑seeking new insights, aim to improve their grasp of the implications arising from chemical exposure.",
+        "By continuously seeking novel insights, researchers hope to better interpret the effects of chemical exposure.",
+        "The quest for new insights by researchers persists, intended to sharpen understanding of chemical exposure ramifications.",
+        "Researchers maintain a steady pursuit of fresh insights to more accurately assess chemical exposure implications.",
+        "Ongoing research efforts focus on acquiring new insights that will deepen knowledge of chemical exposure's impact.",
+        "New insights are being incessantly explored by researchers to refine their understanding of chemical exposure effects.",
+        "To better evaluate the implications of chemical exposure, researchers keep searching for fresh insights."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "continually": [
+          "continually"
+        ],
+        "seeking": [
+          "seeking"
+        ],
+        "understand": [
+          "understand",
+          "interpret",
+          "realise",
+          "realize",
+          "infer",
+          "read"
+        ],
+        "researchers": [
+          "researchers"
+        ],
+        "chemical": [
+          "chemical"
+        ],
+        "exposure": [
+          "exposure"
+        ],
+        "better": [
+          "better"
+        ],
+        "insights": [
+          "insights"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The chemical compound's label indicates it is classified as carcinogenic with a +, highlighting its potential health risks in toxicology studies.",
+      "template_pattern": "The chemical compound's label indicates it is classified as carcinogenic with a [LABEL], highlighting its potential health risks in toxicology studies.",
+      "primary_data_fields": [
+        "label"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The label on the chemical compound shows it is classified as carcinogenic with a [LABEL], underscoring its possible health hazards in toxicology research.",
+        "According to the chemical compound's label, it carries a carcinogenic classification marked by a [LABEL], which points to potential health risks in toxicology studies.",
+        "In toxicology studies, the chemical compound is flagged as carcinogenic with a [LABEL] on its label, highlighting possible health dangers.",
+        "The chemical compound bears a label indicating a carcinogenic status with a [LABEL], drawing attention to its health risk potential in toxicology examinations.",
+        "A [LABEL] on the label of the chemical compound designates it as carcinogenic, emphasizing its health risk implications within toxicology investigations.",
+        "Toxicology reports note that the chemical compound's label marks it as carcinogenic with a [LABEL], signaling possible health threats.",
+        "The label attached to the chemical compound declares it carcinogenic with a [LABEL], thereby spotlighting its health risk concerns in toxicology analyses.",
+        "Marked with a [LABEL], the chemical compound's label classifies it as carcinogenic, alerting researchers to health risks in toxicology studies.",
+        "Researchers observe that the chemical compound’s label lists it as carcinogenic with a [LABEL], highlighting potential health hazards in toxicology work.",
+        "The presence of a [LABEL] on the label of the chemical compound signifies a carcinogenic classification, emphasizing health risks in toxicology research.",
+        "Classified as carcinogenic with a [LABEL], the chemical compound's label draws focus to its potential health risks in toxicology evaluations.",
+        "The chemical compound’s label, featuring a [LABEL], indicates it is carcinogenic, underscoring health risk considerations in toxicology studies.",
+        "With a [LABEL] on its label, the chemical compound is identified as carcinogenic, pointing out possible health dangers in toxicology investigations.",
+        "In toxicology contexts, the label of the chemical compound signals a carcinogenic rating accompanied by a [LABEL], highlighting health risk concerns.",
+        "The chemical compound is labeled as carcinogenic with a [LABEL], a notation that emphasizes its health risk profile in toxicology assessments."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "toxicology": [
+          "toxicology"
+        ],
+        "compound": [
+          "compound",
+          "combine"
+        ],
+        "potential": [
+          "potential",
+          "potentiality",
+          "possible",
+          "likely"
+        ],
+        "carcinogenic": [
+          "carcinogenic"
+        ],
+        "indicates": [
+          "indicates"
+        ],
+        "health": [
+          "health",
+          "wellness"
+        ],
+        "risks": [
+          "risks"
+        ],
+        "chemical": [
+          "chemical"
+        ]
+      },
+      "field_data_types": {
+        "label": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This underscores the importance of ongoing monitoring and assessment in the field of toxicology.",
+      "template_pattern": "This underscores the importance of ongoing monitoring and assessment in the field of toxicology.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This highlights the critical role of continuous monitoring and assessment in toxicology.",
+        "The significance of ongoing surveillance and appraisal in the toxicology arena is underscored here.",
+        "Here, the need for perpetual monitoring and evaluation in the field of toxicology is emphasized.",
+        "Ongoing monitoring and assessment prove essential in toxicology, as this point demonstrates.",
+        "The importance of regular monitoring and assessment within the toxicology sector is brought to light.",
+        "In toxicology, the necessity of continual monitoring and assessment is clearly stressed.",
+        "This observation underscores why sustained monitoring and assessment are indispensable in the toxicology discipline.",
+        "A key takeaway is the vital nature of ongoing monitoring and assessment for toxicology.",
+        "The field of toxicology underscores the importance of ongoing monitoring and assessment.",
+        "Emphasis is placed on continuous monitoring and assessment as crucial in toxicology.",
+        "The report stresses that ongoing monitoring and assessment remain paramount in toxicology.",
+        "Continual monitoring and assessment are highlighted as essential components of toxicology.",
+        "Within the toxicology domain, the significance of ongoing monitoring and assessment is evident.",
+        "Ongoing monitoring and assessment are portrayed as indispensable in the toxicology field.",
+        "This finding points to the essential role of sustained monitoring and assessment in toxicology."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "toxicology": [
+          "toxicology"
+        ],
+        "field": [
+          "field",
+          "sphere",
+          "domain",
+          "discipline",
+          "subject",
+          "area"
+        ],
+        "assessment": [
+          "assessment",
+          "appraisal",
+          "judgment",
+          "judgement"
+        ],
+        "underscores": [
+          "underscores"
+        ],
+        "ongoing": [
+          "ongoing"
+        ],
+        "monitoring": [
+          "monitoring"
+        ],
+        "importance": [
+          "importance"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

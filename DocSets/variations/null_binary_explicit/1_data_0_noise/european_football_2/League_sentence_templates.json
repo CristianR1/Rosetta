@@ -1,0 +1,213 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "87081d695c1a4b3e": "id",
+    "18b3c9cf80544dff": "country_id",
+    "c96fb30b8ccc4c34": "name"
+  },
+  "templates": [
+    {
+      "original": "The football league with the identifier 1 is known for its distinct recognition within European football.",
+      "template_pattern": "The football league with the identifier [ID] is known for its distinct recognition within European football.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football league identified by id [ID] enjoys a unique reputation across European football.",
+        "Across European football, the football league with id [ID] is celebrated for its distinct standing.",
+        "Known for its singular acclaim in European football, the football league bearing id [ID] stands out.",
+        "Within European football, the football league that carries id [ID] is widely recognized for its distinctive status.",
+        "The football league, id [ID], is distinguished by a notable reputation throughout European football.",
+        "European football acknowledges the football league with id [ID] for its exceptional recognition.",
+        "For its remarkable prominence in European football, the football league marked as id [ID] is well‑known.",
+        "The football league holding id [ID] has earned distinct recognition within the realm of European football.",
+        "In the context of European football, the football league designated id [ID] is famed for its unique standing.",
+        "Distinctly recognized across European football, the football league labeled id [ID] commands attention.",
+        "The football league—id [ID]—is reputed for its particular distinction throughout European football.",
+        "Across the European football landscape, the football league bearing the id [ID] enjoys a special reputation.",
+        "Renowned in European football, the football league with the id [ID] is noted for its singular recognition.",
+        "The football league, assigned id [ID], is known for its exclusive acclaim within European football.",
+        "Within the sphere of European football, the football league carrying id [ID] is widely distinguished."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "distinct": [
+          "distinct",
+          "distinguishable",
+          "discrete"
+        ],
+        "football": [
+          "football"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "known": [
+          "known",
+          "acknowledge",
+          "recognize",
+          "recognise",
+          "know"
+        ],
+        "recognition": [
+          "recognition",
+          "credit",
+          "acknowledgment",
+          "acknowledgement"
+        ],
+        "european": [
+          "european",
+          "European"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the realm of European football, the country identifier 1 is key to distinguishing the nation where a particular league operates.",
+      "template_pattern": "In the realm of European football, the country identifier [COUNTRY_ID] is key to distinguishing the nation where a particular league operates.",
+      "primary_data_fields": [
+        "country_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within European football, the country id [COUNTRY_ID] serves as the crucial marker for identifying the nation in which a specific league functions.",
+        "The nation hosting a given league in European soccer can be pinpointed by the essential country id [COUNTRY_ID].",
+        "European football’s landscape relies on country id [COUNTRY_ID] to single out the country where a certain league operates.",
+        "To determine the country of operation for a particular league in Europe, one looks to the pivotal country id [COUNTRY_ID].",
+        "In the context of European football, country id [COUNTRY_ID] is the decisive element that distinguishes the league’s host nation.",
+        "A particular league’s country in European football is distinguished by the indispensable country id [COUNTRY_ID].",
+        "The key to recognizing the nation of a specific European football league lies in country id [COUNTRY_ID].",
+        "By using country id [COUNTRY_ID], analysts can differentiate the country where a certain European league is based.",
+        "Country id [COUNTRY_ID] functions as the primary identifier for the nation that a European football league serves.",
+        "For any given league in European football, the nation is identified through the vital country id [COUNTRY_ID].",
+        "The essential country id [COUNTRY_ID] enables the separation of the country in which a particular European league operates.",
+        "Distinguishing the host country of a European football league hinges on the use of country id [COUNTRY_ID].",
+        "Within the sphere of European soccer, the country id [COUNTRY_ID] is employed to single out the nation of a specific league.",
+        "The nation where a certain league runs in Europe is flagged by the critical country id [COUNTRY_ID].",
+        "To single out the country of a particular European football league, one relies on country id [COUNTRY_ID] as the key identifier."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "football": [
+          "football"
+        ],
+        "country": [
+          "country",
+          "state",
+          "nation"
+        ],
+        "operates": [
+          "operates",
+          "works",
+          "runs",
+          "controls",
+          "functions",
+          "engages"
+        ],
+        "nation": [
+          "nation",
+          "state",
+          "country"
+        ],
+        "particular": [
+          "particular",
+          "specific",
+          "special"
+        ],
+        "realm": [
+          "realm",
+          "region"
+        ],
+        "where": [
+          "where"
+        ],
+        "european": [
+          "european",
+          "European"
+        ]
+      },
+      "field_data_types": {
+        "country_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Belgium Jupiler League is renowned for its competitive spirit and talented football clubs within European football.",
+      "template_pattern": "The [NAME] is renowned for its competitive spirit and talented football clubs within European football.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The [NAME] is celebrated for its competitive spirit and its talented football clubs within European football.",
+        "Renowned for its competitive drive and skilled clubs, the [NAME] stands out in European football.",
+        "Within European football, the [NAME] enjoys a reputation for fierce competition and gifted football clubs.",
+        "A reputation for competitiveness and talented clubs defines the [NAME] in European football.",
+        "In the realm of European football, the [NAME] is noted for both its competitive zeal and its adept football clubs.",
+        "The competitive spirit and the pool of talented clubs that characterize the [NAME] are well‑known across European football.",
+        "Across European football, the [NAME] is famed for its hard‑fought contests and its roster of talented clubs.",
+        "Known throughout European football, the [NAME] boasts a competitive edge and a collection of skilled football clubs.",
+        "The [NAME], a pillar of European football, is distinguished by its competitive nature and its talented clubs.",
+        "With a reputation for fierce competition and gifted clubs, the [NAME] shines in European football.",
+        "European football recognizes the [NAME] for its robust competitive spirit and its array of talented football clubs.",
+        "The [NAME]'s competitive vigor and its talented clubs are widely acknowledged within European football.",
+        "In European football circles, the [NAME] is praised for its intense competition and its skilled football clubs.",
+        "Celebrated across European football, the [NAME] features both a strong competitive drive and numerous talented clubs.",
+        "The [NAME], noted for a competitive atmosphere and talented football clubs, holds a prominent place in European football."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "competitive": [
+          "competitive"
+        ],
+        "football": [
+          "football"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "spirit": [
+          "spirit",
+          "life",
+          "heart",
+          "liveliness",
+          "tone"
+        ],
+        "clubs": [
+          "clubs"
+        ],
+        "renowned": [
+          "renowned",
+          "famed",
+          "celebrated",
+          "notable",
+          "illustrious",
+          "noted"
+        ],
+        "talented": [
+          "talented",
+          "gifted"
+        ],
+        "european": [
+          "european",
+          "European"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

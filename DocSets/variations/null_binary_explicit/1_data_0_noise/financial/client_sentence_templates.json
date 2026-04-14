@@ -1,0 +1,262 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "bf10ea4f94ba446d": "client_id",
+    "ec5f4694068c43b5": "gender",
+    "f9b7d546d4004143": "birth_date",
+    "88a256b50dfa4c59": "district_id"
+  },
+  "templates": [
+    {
+      "original": "Customer number 1 has been successfully verified and their account information is up to date.",
+      "template_pattern": "Customer number [CLIENT_ID] has been successfully verified and their account information is up to date.",
+      "primary_data_fields": [
+        "client_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The client id [CLIENT_ID] was successfully verified, and its account information remains current.",
+        "Successful verification has been completed for client id [CLIENT_ID], whose account details are up to date.",
+        "Client id [CLIENT_ID] has passed verification successfully, with account information that is current.",
+        "Having been verified without issue, client id [CLIENT_ID] now has account information that is up to date.",
+        "Verification of client id [CLIENT_ID] succeeded, and the account data is presently up to date.",
+        "Client id [CLIENT_ID]’s verification was successful, and the associated account information is current.",
+        "After a successful verification, client id [CLIENT_ID]’s account information is confirmed to be up to date.",
+        "The verification process for client id [CLIENT_ID] completed successfully; consequently, the account information is current.",
+        "Client id [CLIENT_ID] is now verified successfully, and its account details are up to date.",
+        "With verification successful, client id [CLIENT_ID]’s account information stays up to date.",
+        "Client id [CLIENT_ID] has been verified with success, and the account information remains up to date.",
+        "A successful verification has been recorded for client id [CLIENT_ID], whose account information is current.",
+        "The account information for client id [CLIENT_ID] is up to date following its successful verification.",
+        "Following a successful verification, the account details of client id [CLIENT_ID] are up to date.",
+        "Client id [CLIENT_ID]’s account information is current after the verification was completed successfully."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "verified": [
+          "verified"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "successfully": [
+          "successfully"
+        ],
+        "account": [
+          "account",
+          "report",
+          "explanation"
+        ],
+        "their": [
+          "their"
+        ],
+        "information": [
+          "information"
+        ]
+      },
+      "field_data_types": {
+        "client_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The customer's gender identity is indicated as F, which helps in analyzing demographic trends for personalized financial services.",
+      "template_pattern": "The customer's gender identity is indicated as [GENDER], which helps in analyzing demographic trends for personalized financial services.",
+      "primary_data_fields": [
+        "gender"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The customer's gender is recorded as [GENDER], which aids the analysis of demographic patterns for tailored financial services.",
+        "Recording the gender as [GENDER] for the customer supports demographic trend analysis used in personalized financial offerings.",
+        "Because the customer's gender is marked [GENDER], analysts can better assess demographic trends for customized financial services.",
+        "Demographic trends for individualized financial services are easier to evaluate when the customer's gender appears as [GENDER].",
+        "The data shows the customer's gender listed as [GENDER], facilitating the study of demographic tendencies for bespoke financial solutions.",
+        "By indicating the customer's gender as [GENDER], the report enhances demographic trend analysis for personalized banking products.",
+        "The customer's gender, noted as [GENDER], contributes to demographic insight that drives customized financial service design.",
+        "When the customer's gender is set to [GENDER], it improves the ability to analyze demographic trends for tailored financial services.",
+        "Gender [GENDER] is assigned to the customer, enabling more precise demographic trend analysis for personalized finance.",
+        "The customer's gender designation of [GENDER] assists in examining demographic patterns that inform individualized financial services.",
+        "Analyzing demographic trends for custom financial services becomes feasible once the customer's gender is identified as [GENDER].",
+        "A gender value of [GENDER] for the customer is used to interpret demographic trends that shape personalized financial offerings.",
+        "The report flags the customer's gender as [GENDER], supporting demographic analysis that underpins bespoke financial services.",
+        "Having the customer's gender marked [GENDER] aids analysts in tracking demographic trends for customized financial solutions.",
+        "Since the customer's gender is indicated as [GENDER], demographic trend analysis can be applied to personalize financial services."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trends": [
+          "trends"
+        ],
+        "analyzing": [
+          "analyzing"
+        ],
+        "services": [
+          "services"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "which": [
+          "which"
+        ],
+        "personalized": [
+          "personalized",
+          "individualized",
+          "individualised",
+          "personalised"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "demographic": [
+          "demographic"
+        ]
+      },
+      "field_data_types": {
+        "gender": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The customer, born on 1970-12-13, benefits from tailored financial services that consider age-related needs and preferences.",
+      "template_pattern": "The customer, born on [BIRTH_DATE], benefits from tailored financial services that consider age-related needs and preferences.",
+      "primary_data_fields": [
+        "birth_date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The customer, whose birth date is [BIRTH_DATE], enjoys customized financial services that address age‑related needs and preferences.",
+        "Tailored financial solutions that reflect age‑related needs and preferences are provided to the client with a birth date of [BIRTH_DATE].",
+        "Because the birth date [BIRTH_DATE] belongs to the customer, they receive financial services specially designed for age‑specific requirements.",
+        "Financial services, adapted to age‑related needs and preferences, are offered to the customer whose birth date reads [BIRTH_DATE].",
+        "Given the birth date [BIRTH_DATE], the client benefits from personalized financial offerings that consider their age‑related needs.",
+        "The client, with a birth date [BIRTH_DATE], receives financial products that consider age‑related needs and preferences.",
+        "Age‑specific financial services are extended to the customer, whose birth date is [BIRTH_DATE], to meet their needs and preferences.",
+        "Having a birth date of [BIRTH_DATE], the customer is provided with bespoke financial services that address age‑related requirements.",
+        "Personalized financial solutions, mindful of age‑related needs and preferences, are available to the customer marked by birth date [BIRTH_DATE].",
+        "Since the customer's birth date equals [BIRTH_DATE], they are eligible for tailored financial services that align with age‑related preferences.",
+        "The individual's birth date [BIRTH_DATE] qualifies them for financial services specifically crafted for age‑related needs.",
+        "Financial offerings that factor in age‑related preferences are tailored for the customer, whose birth date reads [BIRTH_DATE].",
+        "With the birth date [BIRTH_DATE], the client enjoys financial services designed around age‑related needs and preferences.",
+        "The customer, identified by birth date [BIRTH_DATE], benefits from financial services customized for age‑related considerations.",
+        "Tailored financial services that take age‑related needs and preferences into account are provided to the customer with birth date [BIRTH_DATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "born": [
+          "born",
+          "innate",
+          "natural"
+        ],
+        "needs": [
+          "needs"
+        ],
+        "services": [
+          "services"
+        ],
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "tailored": [
+          "tailored",
+          "bespoke"
+        ],
+        "preferences": [
+          "preferences"
+        ],
+        "consider": [
+          "consider",
+          "reckon",
+          "deliberate",
+          "view",
+          "weigh",
+          "regard"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ]
+      },
+      "field_data_types": {
+        "birth_date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The district_id 18 is crucial for managing the accounts of schools within its designated educational region.",
+      "template_pattern": "The district_id [DISTRICT_ID] is crucial for managing the accounts of schools within its designated educational region.",
+      "primary_data_fields": [
+        "district_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "District id [DISTRICT_ID] plays a vital role in overseeing school accounts throughout its assigned educational region.",
+        "The accounts of schools in its designated educational region are effectively managed thanks to district id [DISTRICT_ID].",
+        "Within its allocated educational region, district id [DISTRICT_ID] is essential for handling school financial records.",
+        "Managing the schools' accounts in the prescribed educational region hinges on district id [DISTRICT_ID].",
+        "For the schools located in its assigned educational region, district id [DISTRICT_ID] proves indispensable in account administration.",
+        "School account oversight in the specified educational region depends heavily on district id [DISTRICT_ID].",
+        "It is district id [DISTRICT_ID] that ensures proper management of school accounts within its defined educational region.",
+        "In its designated educational region, the handling of school accounts is anchored by district id [DISTRICT_ID].",
+        "The effective control of school finances in the region assigned to it rests on district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] is the key driver behind the management of school accounts in its particular educational region.",
+        "Across its educational region, the administration of school accounts is centered on district id [DISTRICT_ID].",
+        "The stewardship of school accounts within the designated educational region is facilitated by district id [DISTRICT_ID].",
+        "School financial management in its chosen educational region relies on district id [DISTRICT_ID].",
+        "District id [DISTRICT_ID] serves as the cornerstone for managing the accounts of schools in its allocated educational region.",
+        "Within the bounds of its educational region, district id [DISTRICT_ID] is indispensable for the administration of school accounts."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "designated": [
+          "designated"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "accounts": [
+          "accounts"
+        ],
+        "schools": [
+          "schools"
+        ],
+        "region": [
+          "region",
+          "area"
+        ],
+        "managing": [
+          "managing",
+          "oversee",
+          "supervise",
+          "superintend",
+          "handle",
+          "manage"
+        ],
+        "educational": [
+          "educational"
+        ]
+      },
+      "field_data_types": {
+        "district_id": "int"
+      },
+      "is_static": false
+    }
+  ]
+}

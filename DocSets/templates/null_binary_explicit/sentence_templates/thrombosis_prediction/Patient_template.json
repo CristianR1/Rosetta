@@ -1,0 +1,37 @@
+{
+  "database": "thrombosis_prediction",
+  "table": "Patient",
+  "entry_index": 0,
+  "original_data": {
+    "ID": "2110",
+    "SEX": "F",
+    "Birthday": "1934-02-13",
+    "Description": "1994-02-14",
+    "First Date": "1993-02-10",
+    "Admission": "+",
+    "Diagnosis": "RA susp."
+  },
+  "generated_sentences": [
+    "Patient ID 2110 has been assigned to help efficiently track and manage their thrombosis-related medical history. (Hash: 4a12b722800242b4)",
+    "The patient's biological sex is recorded as F, which is crucial for assessing her risk of developing thrombosis. (Hash: 1bf668f62f544fd8)",
+    "Born on 1934-02-13, the patient's age is crucial for evaluating potential thrombosis risks accurately. (Hash: 465dffe9bac14203)",
+    "The patient's Description was initially documented on 1994-02-14, marking the start of their recorded medical history. (Hash: 10b4f4f7b0694eef)",
+    "The patient first visited the hospital on 1993-02-10, marking an important date in their thrombosis treatment history. (Hash: 356297da7ca94e2c)",
+    "The patient's Admission status was marked as +, indicating they were admitted for inpatient care. (Hash: 36f1492cc9bf4413)",
+    "The diagnosis of RA susp. was crucial in assessing the patient's risk for developing thrombosis. (Hash: 01eefee922764519)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "4a12b722800242b4": "ID",
+    "1bf668f62f544fd8": "SEX",
+    "465dffe9bac14203": "Birthday",
+    "10b4f4f7b0694eef": "Description",
+    "356297da7ca94e2c": "First Date",
+    "36f1492cc9bf4413": "Admission",
+    "01eefee922764519": "Diagnosis"
+  },
+  "timestamp": "2026-03-31 16:51:48"
+}

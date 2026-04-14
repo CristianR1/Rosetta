@@ -1,0 +1,275 @@
+{
+  "document_context": "educational data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "f19347ed9ec94d4f": "major_id",
+    "8cf700b7f78c475f": "major_name",
+    "8e4d6a963d0546b0": "department",
+    "b587d3ba2b4b4c15": "college"
+  },
+  "templates": [
+    {
+      "original": "The student club member's academic major was uniquely identified by the major_id rec06DF6vZ1CyPKpc.",
+      "template_pattern": "The student club member's academic major was uniquely identified by the major_id [MAJOR_ID].",
+      "primary_data_fields": [
+        "major_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The academic major of the student club member was uniquely marked by the major id [MAJOR_ID].",
+        "Uniquely identified by the major id [MAJOR_ID], the student club member's academic major stood out.",
+        "For the student club member, the academic major is uniquely tied to the major id [MAJOR_ID].",
+        "The major id [MAJOR_ID] uniquely designates the academic major of the student club member.",
+        "A student club member's academic major received a unique identifier: major id [MAJOR_ID].",
+        "Identified uniquely through the major id [MAJOR_ID], the academic major belongs to the student club member.",
+        "The student club member's academic major carries the unique major id [MAJOR_ID].",
+        "Through the major id [MAJOR_ID], the academic major of the student club member is uniquely recognized.",
+        "The academic major, linked uniquely to major id [MAJOR_ID], pertains to the student club member.",
+        "A unique major id [MAJOR_ID] identifies the student club member's academic major.",
+        "The student club member's field of study was uniquely labeled with major id [MAJOR_ID].",
+        "Major id [MAJOR_ID] serves as the unique identifier for the academic major of the student club member.",
+        "The academic major of the student club member is uniquely associated with major id [MAJOR_ID].",
+        "Uniquely, the student club member's academic major is recorded under major id [MAJOR_ID].",
+        "The student club member’s academic major bears the unique major id [MAJOR_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "identified": [
+          "identified"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "major": [
+          "major"
+        ],
+        "member": [
+          "member"
+        ],
+        "club": [
+          "club",
+          "order",
+          "guild",
+          "lodge",
+          "society"
+        ]
+      },
+      "field_data_types": {
+        "major_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Among the student club members, Sarah is pursuing a major in Outdoor Product Design and Development.",
+      "template_pattern": "Among the student club members, Sarah is pursuing a major in [MAJOR_NAME].",
+      "primary_data_fields": [
+        "major_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Sarah, among the student club members, is pursuing a major in [MAJOR_NAME].",
+        "Among the student club members, a major in [MAJOR_NAME] is being pursued by Sarah.",
+        "Within the student club members, Sarah pursues a major in [MAJOR_NAME].",
+        "A major in [MAJOR_NAME] is being followed by Sarah, who is one of the student club members.",
+        "Sarah is among the student club members and is working toward a major in [MAJOR_NAME].",
+        "The student club members include Sarah, who is undertaking a major in [MAJOR_NAME].",
+        "Pursuing a major in [MAJOR_NAME], Sarah stands out among the student club members.",
+        "Among the student club members, it is Sarah who is engaged in a major in [MAJOR_NAME].",
+        "Sarah, a member of the student club, is currently pursuing a major in [MAJOR_NAME].",
+        "A major in [MAJOR_NAME] is being chased by Sarah, a participant in the student club members.",
+        "Within the student club members, the major in [MAJOR_NAME] is being pursued by Sarah.",
+        "Sarah, as part of the student club members, is actively working on a major in [MAJOR_NAME].",
+        "The pursuit of a major in [MAJOR_NAME] belongs to Sarah, who is among the student club members.",
+        "Among the student club members, Sarah has elected to pursue a major in [MAJOR_NAME].",
+        "Sarah’s academic path within the student club members includes a major in [MAJOR_NAME]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "members": [
+          "members"
+        ],
+        "pursuing": [
+          "pursuing"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "major": [
+          "major"
+        ],
+        "among": [
+          "among"
+        ],
+        "club": [
+          "club",
+          "society",
+          "guild",
+          "lodge",
+          "order"
+        ],
+        "sarah": [
+          "sarah",
+          "Sarah"
+        ]
+      },
+      "field_data_types": {
+        "major_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Many students in the club come from the School of Applied Sciences, Technology and Education, reflecting a strong technical focus.",
+      "template_pattern": "Many students in the club come from the [DEPARTMENT], reflecting a strong technical focus.",
+      "primary_data_fields": [
+        "department"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Many club members originate from the [DEPARTMENT], indicating a robust technical emphasis.",
+        "A large portion of the students in the club are drawn from the [DEPARTMENT], showing a pronounced technical orientation.",
+        "Students belonging to the club largely come from the [DEPARTMENT], reflecting a solid technical focus.",
+        "The club includes many students who hail from the [DEPARTMENT], underscoring its strong technical focus.",
+        "Numerous participants in the club are from the [DEPARTMENT], which highlights a vigorous technical focus.",
+        "From the [DEPARTMENT], many club students arrive, demonstrating a strong technical focus.",
+        "The [DEPARTMENT] supplies many of the club’s students, revealing a clear technical focus.",
+        "Many of the club’s members are alumni of the [DEPARTMENT], reflecting an intense technical focus.",
+        "A significant number of club students come from the [DEPARTMENT], pointing to a strong technical emphasis.",
+        "The club’s student body is heavily represented by those from the [DEPARTMENT], indicating a strong technical focus.",
+        "Students in the club, many of whom are from the [DEPARTMENT], exhibit a pronounced technical focus.",
+        "The presence of many students from the [DEPARTMENT] in the club mirrors a strong technical focus.",
+        "Drawn from the [DEPARTMENT], numerous club students contribute to a strong technical focus.",
+        "The club’s enrollment includes many individuals from the [DEPARTMENT], reflecting a robust technical focus.",
+        "With many participants originating from the [DEPARTMENT], the club showcases a strong technical focus."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "technical": [
+          "technical",
+          "technological"
+        ],
+        "strong": [
+          "strong",
+          "solid",
+          "firm",
+          "substantial",
+          "secure",
+          "hard"
+        ],
+        "come": [
+          "come",
+          "arrive",
+          "occur",
+          "hail"
+        ],
+        "reflecting": [
+          "reflecting"
+        ],
+        "focus": [
+          "focus",
+          "center",
+          "centre",
+          "direction",
+          "stress"
+        ],
+        "students": [
+          "students"
+        ],
+        "club": [
+          "club",
+          "guild",
+          "clubhouse",
+          "lodge",
+          "society",
+          "order"
+        ],
+        "many": [
+          "many"
+        ]
+      },
+      "field_data_types": {
+        "department": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The student organization proudly collaborates with the College of Agriculture and Applied Sciences to enhance their academic major offerings.",
+      "template_pattern": "The student organization proudly collaborates with the [COLLEGE] to enhance their academic major offerings.",
+      "primary_data_fields": [
+        "college"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Proudly, the student organization works together with the [COLLEGE] to improve their academic major offerings.",
+        "The [COLLEGE] partners proudly with the student organization to broaden academic major offerings.",
+        "Academic major offerings are being enhanced by the student organization in collaboration with the [COLLEGE].",
+        "In a proud partnership, the student organization and the [COLLEGE] aim to upgrade academic major offerings.",
+        "Through a collaborative effort, the [COLLEGE] and the student organization seek to enrich academic major offerings.",
+        "The student organization, in a proud alliance with the [COLLEGE], strives to expand academic major offerings.",
+        "Enhancement of academic major offerings is achieved as the student organization joins forces with the [COLLEGE].",
+        "With pride, the [COLLEGE] teams up with the student organization to advance academic major offerings.",
+        "Academic major offerings receive a boost thanks to the student organization’s proud collaboration with the [COLLEGE].",
+        "The [COLLEGE], together with the student organization, proudly works to strengthen academic major offerings.",
+        "By partnering proudly, the student organization and the [COLLEGE] aim to refine academic major offerings.",
+        "Academic major offerings are being refined through the proud joint effort of the student organization and the [COLLEGE].",
+        "The student organization proudly joins the [COLLEGE] in a mission to upgrade academic major offerings.",
+        "Through a proud joint venture, the [COLLEGE] and the student organization enhance academic major offerings.",
+        "Pride drives the student organization’s collaboration with the [COLLEGE] to elevate academic major offerings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "organization": [
+          "organization",
+          "administration",
+          "establishment",
+          "formation",
+          "organisation",
+          "arrangement"
+        ],
+        "collaborates": [
+          "collaborates"
+        ],
+        "academic": [
+          "academic"
+        ],
+        "student": [
+          "student",
+          "pupil",
+          "scholar"
+        ],
+        "offerings": [
+          "offerings"
+        ],
+        "major": [
+          "major"
+        ],
+        "proudly": [
+          "proudly"
+        ],
+        "enhance": [
+          "enhance",
+          "heighten",
+          "raise"
+        ]
+      },
+      "field_data_types": {
+        "college": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "43c129262a43463e": "atom_id",
+    "254c87d07dd944ec": "molecule_id",
+    "50bf3e8a8d714f3e": "element"
+  },
+  "templates": [
+    {
+      "original": "During the toxicology study, the chemical element with atom_id TR000_1 was meticulously analyzed for its atomic structure characteristics.",
+      "template_pattern": "During the toxicology study, the chemical element with atom_id [ATOM_ID] was meticulously analyzed for its atomic structure characteristics.",
+      "primary_data_fields": [
+        "atom_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the toxicology study, researchers meticulously examined the chemical element bearing atom id [ATOM_ID] to assess its atomic structure characteristics.",
+        "The chemical element with atom id [ATOM_ID] underwent a thorough analysis of its atomic structure characteristics during the toxicology study.",
+        "While conducting the toxicology study, the team carefully analyzed the atomic structure characteristics of the chemical element identified by atom id [ATOM_ID].",
+        "During the toxicology study, a detailed investigation was performed on the chemical element possessing atom id [ATOM_ID], focusing on its atomic structure characteristics.",
+        "The toxicology study included a precise analysis of the atomic structure characteristics of the chemical element that carries atom id [ATOM_ID].",
+        "In the course of the toxicology study, the atomic structure characteristics of the chemical element with atom id [ATOM_ID] were examined in great detail.",
+        "Researchers, as part of the toxicology study, rigorously evaluated the chemical element with atom id [ATOM_ID] for its atomic structure characteristics.",
+        "The atomic structure characteristics of the chemical element bearing atom id [ATOM_ID] were meticulously scrutinized during the toxicology study.",
+        "As part of a toxicology study, the chemical element labeled with atom id [ATOM_ID] was carefully inspected for its atomic structure characteristics.",
+        "During a toxicology study, scientists performed an exacting analysis of the chemical element having atom id [ATOM_ID], emphasizing its atomic structure characteristics.",
+        "The toxicology study saw the chemical element with atom id [ATOM_ID] being thoroughly examined for its atomic structure characteristics.",
+        "In the toxicology study, a comprehensive assessment of the atomic structure characteristics was carried out on the chemical element with atom id [ATOM_ID].",
+        "The chemical element that holds atom id [ATOM_ID] was subject to meticulous analysis of its atomic structure characteristics during the toxicology study.",
+        "While the toxicology study was underway, the atomic structure characteristics of the chemical element with atom id [ATOM_ID] received a detailed analysis.",
+        "During the toxicology study, the team conducted a precise evaluation of the chemical element’s atomic structure characteristics, specifically for atom id [ATOM_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "analyzed": [
+          "analyzed"
+        ],
+        "atomic": [
+          "atomic",
+          "nuclear"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "characteristics": [
+          "characteristics"
+        ],
+        "during": [
+          "during"
+        ],
+        "chemical": [
+          "chemical"
+        ],
+        "study": [
+          "study",
+          "analyse",
+          "analyze",
+          "consider",
+          "survey",
+          "examine"
+        ],
+        "structure": [
+          "structure",
+          "construction"
+        ]
+      },
+      "field_data_types": {
+        "atom_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The molecule identified by molecule_id TR000 is crucial for understanding the chemical's atomic structure in the toxicology study.",
+      "template_pattern": "The molecule identified by molecule_id [MOLECULE_ID] is crucial for understanding the chemical's atomic structure in the toxicology study.",
+      "primary_data_fields": [
+        "molecule_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The molecule with molecule id [MOLECULE_ID] is essential for deciphering the chemical’s atomic structure within the toxicology study.",
+        "Understanding the chemical’s atomic structure in the toxicology study hinges on the molecule identified by molecule id [MOLECULE_ID].",
+        "In the toxicology study, the atomic structure of the chemical can be comprehended only through the crucial molecule bearing molecule id [MOLECULE_ID].",
+        "A key to grasping the chemical’s atomic structure in the toxicology study is the molecule whose molecule id is [MOLECULE_ID].",
+        "The toxicology study reveals that molecule id [MOLECULE_ID] plays a vital role in elucidating the chemical’s atomic structure.",
+        "Crucial for interpreting the chemical’s atomic structure in the toxicology study, molecule id [MOLECULE_ID] stands out.",
+        "To understand the atomic structure of the chemical in the toxicology study, researchers rely on the molecule designated molecule id [MOLECULE_ID].",
+        "The atomic structure of the chemical, as examined in the toxicology study, is clarified by the indispensable molecule with molecule id [MOLECULE_ID].",
+        "In the context of the toxicology study, the molecule bearing molecule id [MOLECULE_ID] is pivotal for the comprehension of the chemical’s atomic structure.",
+        "The molecule carrying molecule id [MOLECULE_ID] proves indispensable for the analysis of the chemical’s atomic structure in the toxicology study.",
+        "For the toxicology study’s insight into the chemical’s atomic structure, the molecule identified as molecule id [MOLECULE_ID] is crucial.",
+        "Researchers consider the molecule labeled molecule id [MOLECULE_ID] a cornerstone for understanding the chemical’s atomic structure within the toxicology study.",
+        "The toxicology study’s assessment of the chemical’s atomic structure depends heavily on the molecule with molecule id [MOLECULE_ID].",
+        "By focusing on molecule id [MOLECULE_ID], the toxicology study gains a crucial perspective on the chemical’s atomic structure.",
+        "The molecule with molecule id [MOLECULE_ID] serves as a critical element in unraveling the chemical’s atomic structure during the toxicology study."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "understanding": [
+          "understanding",
+          "discernment",
+          "reason",
+          "savvy"
+        ],
+        "crucial": [
+          "crucial",
+          "important",
+          "essential"
+        ],
+        "atomic": [
+          "atomic",
+          "nuclear"
+        ],
+        "molecule": [
+          "molecule"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "chemical": [
+          "chemical"
+        ],
+        "structure": [
+          "structure",
+          "construction"
+        ],
+        "study": [
+          "study",
+          "analyse",
+          "analyze",
+          "consider",
+          "survey",
+          "examine"
+        ]
+      },
+      "field_data_types": {
+        "molecule_id": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The toxicology study identified cl as a critical element in analyzing the properties of various compounds.",
+      "template_pattern": "The toxicology study identified [ELEMENT] as a critical element in analyzing the properties of various compounds.",
+      "primary_data_fields": [
+        "element"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the toxicology study, [ELEMENT] was identified as a critical element for analyzing the properties of various compounds.",
+        "Researchers conducting the toxicology study pinpointed [ELEMENT] as a critical element when examining the properties of various compounds.",
+        "The properties of various compounds were analyzed with [ELEMENT] recognized as a critical element in the toxicology study.",
+        "Within the toxicology study, [ELEMENT] emerged as a critical element essential to the analysis of the properties of various compounds.",
+        "A critical element, [ELEMENT], was highlighted by the toxicology study for its role in analyzing the properties of various compounds.",
+        "The toxicology study’s findings show that [ELEMENT] serves as a critical element in the analysis of the properties of various compounds.",
+        "By means of the toxicology study, [ELEMENT] was determined to be a critical element in the assessment of the properties of various compounds.",
+        "In analyzing the properties of various compounds, the toxicology study identified [ELEMENT] as a critical element.",
+        "The toxicology study revealed [ELEMENT] to be a critical element used in the analysis of the properties of various compounds.",
+        "For the analysis of the properties of various compounds, the toxicology study marked [ELEMENT] as a critical element.",
+        "[ELEMENT] was singled out as a critical element in the toxicology study’s evaluation of the properties of various compounds.",
+        "According to the toxicology study, [ELEMENT] functions as a critical element in analyzing the properties of various compounds.",
+        "The toxicology study, while examining the properties of various compounds, identified [ELEMENT] as a critical element.",
+        "In the course of the toxicology study, [ELEMENT] was found to be a critical element for analyzing the properties of various compounds.",
+        "The analysis of the properties of various compounds in the toxicology study identified [ELEMENT] as a critical element."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "compounds": [
+          "compounds"
+        ],
+        "analyzing": [
+          "analyzing"
+        ],
+        "properties": [
+          "properties",
+          "attributes"
+        ],
+        "toxicology": [
+          "toxicology"
+        ],
+        "study": [
+          "study",
+          "contemplate",
+          "analyse",
+          "consider",
+          "survey",
+          "examine",
+          "analyze"
+        ],
+        "various": [
+          "various",
+          "assorted",
+          "diverse",
+          "several"
+        ],
+        "critical": [
+          "critical",
+          "decisive",
+          "vital"
+        ],
+        "identified": [
+          "identified"
+        ]
+      },
+      "field_data_types": {
+        "element": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

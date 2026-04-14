@@ -1,0 +1,442 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "4cacbe61f94e4be4": "loan_id",
+    "b43ccfb3fd024c14": "account_id",
+    "ee499a6a600e4751": "date",
+    "0e5c3ca36c334c59": "amount",
+    "e7a473c5cd19467d": "duration",
+    "dde359d6c8774a91": "payments",
+    "cfeded30d5fc487f": "status"
+  },
+  "templates": [
+    {
+      "original": "The loan agreement, identified by loan_id 4959, was approved last week, marking a significant step in the client's financial journey.",
+      "template_pattern": "The loan agreement, identified by loan_id [LOAN_ID], was approved last week, marking a significant step in the client's financial journey.",
+      "primary_data_fields": [
+        "loan_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Last week, the loan agreement bearing loan id [LOAN_ID] received approval, representing a major milestone in the client's financial journey.",
+        "The loan agreement, with loan id [LOAN_ID], was given the green light last week, signifying an important advance in the client's financial journey.",
+        "Approval came last week for the loan agreement identified by loan id [LOAN_ID], marking a noteworthy progression in the client's financial journey.",
+        "A significant step in the client's financial journey was taken when the loan agreement, loan id [LOAN_ID], was approved last week.",
+        "Having been approved last week, the loan agreement carrying loan id [LOAN_ID] now marks a crucial phase in the client's financial journey.",
+        "The client's financial journey advanced significantly last week as the loan agreement, loan id [LOAN_ID], earned approval.",
+        "Last week’s approval of the loan agreement, loan id [LOAN_ID], highlights a key development in the client’s financial journey.",
+        "The loan agreement—identified by loan id [LOAN_ID]—secured approval last week, denoting a pivotal moment in the client’s financial journey.",
+        "When the loan agreement with loan id [LOAN_ID] was approved last week, it signaled a major leap forward in the client’s financial journey.",
+        "An important milestone in the client’s financial journey occurred last week when the loan agreement, loan id [LOAN_ID], received approval.",
+        "The loan agreement, loan id [LOAN_ID], achieved approval last week, underscoring a significant stride in the client’s financial journey.",
+        "Last week, approval was granted to the loan agreement identified by loan id [LOAN_ID], marking a substantial step in the client’s financial journey.",
+        "Securing approval last week, the loan agreement bearing loan id [LOAN_ID] represents a notable advancement in the client’s financial journey.",
+        "The client’s financial journey took a decisive turn last week as the loan agreement, loan id [LOAN_ID], was approved.",
+        "With loan id [LOAN_ID], the loan agreement was approved last week, marking a consequential step in the client’s financial journey."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "last": [
+          "last",
+          "final",
+          "terminal"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "marking": [
+          "marking",
+          "score",
+          "scoring",
+          "brand",
+          "mark",
+          "tag"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "step": [
+          "step",
+          "tread",
+          "stair",
+          "pace",
+          "stride",
+          "footstep"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ]
+      },
+      "field_data_types": {
+        "loan_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The loan officer reviewed the documents associated with account_id 2 to ensure compliance with all financial regulations.",
+      "template_pattern": "The loan officer reviewed the documents associated with account_id [ACCOUNT_ID] to ensure compliance with all financial regulations.",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The loan officer examined the documents linked to account id [ACCOUNT_ID] to verify compliance with all financial regulations.",
+        "To ensure adherence to all financial regulations, the loan officer reviewed the documents for account id [ACCOUNT_ID].",
+        "All financial regulations were checked for compliance after the loan officer reviewed the documents associated with account id [ACCOUNT_ID].",
+        "Account id [ACCOUNT_ID]'s documents were scrutinized by the loan officer to confirm they met every financial regulation.",
+        "The loan officer, aiming to satisfy all financial regulations, inspected the paperwork tied to account id [ACCOUNT_ID].",
+        "In order to guarantee compliance with all financial regulations, the loan officer assessed the documents pertaining to account id [ACCOUNT_ID].",
+        "Compliance with all financial regulations was verified when the loan officer reviewed the files for account id [ACCOUNT_ID].",
+        "The loan officer conducted a review of the documents for account id [ACCOUNT_ID] to ensure they complied with all financial regulations.",
+        "Ensuring all financial regulations were followed, the loan officer evaluated the records associated with account id [ACCOUNT_ID].",
+        "The documents related to account id [ACCOUNT_ID] were reviewed by the loan officer to assure compliance with all financial regulations.",
+        "To confirm that all financial regulations were observed, the loan officer inspected the documents of account id [ACCOUNT_ID].",
+        "The loan officer's review of the account id [ACCOUNT_ID] documents aimed at guaranteeing adherence to all financial regulations.",
+        "By reviewing the documents of account id [ACCOUNT_ID], the loan officer sought to ensure compliance with all financial regulations.",
+        "All financial regulations were taken into account when the loan officer examined the paperwork for account id [ACCOUNT_ID].",
+        "The loan officer verified that the documents for account id [ACCOUNT_ID] met every requirement of the financial regulations."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "ensure": [
+          "ensure",
+          "guarantee",
+          "secure",
+          "assure"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "officer": [
+          "officer",
+          "officeholder"
+        ],
+        "regulations": [
+          "regulations"
+        ],
+        "documents": [
+          "documents",
+          "papers"
+        ],
+        "associated": [
+          "associated"
+        ],
+        "compliance": [
+          "compliance",
+          "conformity",
+          "compliancy",
+          "abidance"
+        ]
+      },
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The loan agreement was officially approved on 1994-01-05, marking a significant date in its timeline.",
+      "template_pattern": "The loan agreement was officially approved on [DATE], marking a significant date in its timeline.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE], the loan agreement received official approval, marking a significant date in its timeline.",
+        "The loan agreement was officially approved on [DATE], signifying an important date for its history.",
+        "Official approval of the loan agreement came on [DATE], establishing a noteworthy date in its chronology.",
+        "A pivotal date in the loan agreement’s timeline was set when it was approved on [DATE].",
+        "When the loan agreement was approved on [DATE], it created a landmark date in its record.",
+        "The date [DATE] marks the moment the loan agreement received official sanction.",
+        "Approval of the loan agreement on [DATE] denotes a key date within its timeline.",
+        "On the date [DATE], the loan agreement attained formal approval, highlighting a major milestone.",
+        "The loan agreement’s official approval on [DATE] represents a consequential date in its sequence.",
+        "A significant date—[DATE]—signaled the official approval of the loan agreement.",
+        "The loan agreement achieved official approval on [DATE], a date of great relevance to its timeline.",
+        "Marking a crucial date, the loan agreement was officially approved on [DATE].",
+        "The official sanction of the loan agreement occurred on [DATE], establishing a notable date.",
+        "[DATE] stands as the date when the loan agreement was formally approved, underscoring its importance.",
+        "When the loan agreement was formally approved on [DATE], it created a defining date in its history."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "officially": [
+          "officially",
+          "formally"
+        ],
+        "marking": [
+          "marking",
+          "scoring",
+          "grading"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "approved": [
+          "approved",
+          "sanctioned"
+        ],
+        "agreement": [
+          "agreement",
+          "understanding",
+          "concord",
+          "accord",
+          "arrangement"
+        ],
+        "timeline": [
+          "timeline"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The approved loan amount for the borrower, as outlined in the agreement, is 80952 dollars.",
+      "template_pattern": "The approved loan amount for the borrower, as outlined in the agreement, is [AMOUNT] dollars.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "According to the agreement, the borrower’s approved loan amount is [AMOUNT] dollars.",
+        "The agreement specifies that the approved loan amount for the borrower equals [AMOUNT] dollars.",
+        "In the contract, the loan amount approved for the borrower is set at [AMOUNT] dollars.",
+        "[AMOUNT] dollars constitute the approved loan amount granted to the borrower as per the agreement.",
+        "As outlined in the agreement, the borrower receives an approved loan amount of [AMOUNT] dollars.",
+        "The borrower’s loan amount, approved in the agreement, totals [AMOUNT] dollars.",
+        "Per the agreement, the approved loan amount allotted to the borrower amounts to [AMOUNT] dollars.",
+        "The loan amount approved for the borrower, detailed in the agreement, stands at [AMOUNT] dollars.",
+        "Within the agreement, the borrower’s approved loan amount is recorded as [AMOUNT] dollars.",
+        "The approved loan amount—[AMOUNT] dollars—is stipulated for the borrower in the agreement.",
+        "For the borrower, the agreement approves a loan amount of [AMOUNT] dollars.",
+        "The agreement confirms that the borrower’s approved loan amount is [AMOUNT] dollars.",
+        "An approved loan amount of [AMOUNT] dollars has been assigned to the borrower according to the agreement.",
+        "The borrower is entitled to an approved loan amount of [AMOUNT] dollars as described in the agreement.",
+        "As per the agreement, the loan amount approved for the borrower amounts to [AMOUNT] dollars."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "borrower": [
+          "borrower"
+        ],
+        "outlined": [
+          "outlined",
+          "defined"
+        ],
+        "dollars": [
+          "dollars"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "approved": [
+          "approved",
+          "sanctioned"
+        ],
+        "agreement": [
+          "agreement",
+          "accord",
+          "arrangement",
+          "understanding"
+        ]
+      },
+      "field_data_types": {
+        "amount": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The loan duration is set for 24 months, providing a manageable timeline for repayment.",
+      "template_pattern": "The loan duration is set for [DURATION] months, providing a manageable timeline for repayment.",
+      "primary_data_fields": [
+        "duration"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The loan duration is set for [DURATION] months, providing a manageable timeline for repayment.",
+        "A manageable repayment timeline is offered by setting the loan duration to [DURATION] months.",
+        "For repayment ease, the loan duration has been established at [DURATION] months.",
+        "The repayment schedule remains manageable because the loan duration spans [DURATION] months.",
+        "By assigning the loan duration a period of [DURATION] months, borrowers gain a feasible repayment window.",
+        "A [DURATION] months loan duration ensures a repayment period that is easy to handle.",
+        "The loan's duration, fixed at [DURATION] months, creates a reasonable timeframe for paying it back.",
+        "Setting the loan duration for [DURATION] months delivers a repayment horizon that is comfortably manageable.",
+        "With the loan duration locked in at [DURATION] months, the repayment timeline becomes practical.",
+        "The repayment plan is made manageable by fixing the loan duration to [DURATION] months.",
+        "Because the loan duration runs for [DURATION] months, the repayment period is considered manageable.",
+        "A [DURATION] months duration on the loan provides borrowers with a manageable schedule for repayment.",
+        "The loan duration, established at [DURATION] months, offers a repayment timeline that is easy to manage.",
+        "Managing repayments is simpler when the loan duration is set for [DURATION] months.",
+        "The loan duration of [DURATION] months is configured to give a repayment timeline that remains manageable."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "loan": [
+          "loan"
+        ],
+        "manageable": [
+          "manageable",
+          "doable",
+          "realizable",
+          "achievable"
+        ],
+        "months": [
+          "months"
+        ],
+        "timeline": [
+          "timeline"
+        ],
+        "providing": [
+          "providing"
+        ],
+        "repayment": [
+          "repayment"
+        ]
+      },
+      "field_data_types": {
+        "duration": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The borrowers have collectively made payments totaling 3373 towards fulfilling their loan agreements.",
+      "template_pattern": "The borrowers have collectively made payments totaling [PAYMENTS] towards fulfilling their loan agreements.",
+      "primary_data_fields": [
+        "payments"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The borrowers together have paid a total of [PAYMENTS] in payments to meet their loan agreements.",
+        "Collectively, the borrowers' payments amount to [PAYMENTS] toward satisfying their loan agreements.",
+        "A sum of [PAYMENTS] in payments has been made by the borrowers to fulfill their loan agreements.",
+        "The loan agreements have been serviced with [PAYMENTS] of payments made collectively by the borrowers.",
+        "Borrowers, as a group, contributed payments totaling [PAYMENTS] to honor their loan agreements.",
+        "In total, the borrowers' payments reach [PAYMENTS] as they comply with the loan agreements.",
+        "The combined payments of the borrowers equal [PAYMENTS], intended for the fulfillment of their loan agreements.",
+        "To satisfy their loan agreements, the borrowers have together rendered payments of [PAYMENTS].",
+        "Payments amounting to [PAYMENTS] have been collectively provided by the borrowers for their loan agreements.",
+        "The borrowers have jointly supplied payments that sum to [PAYMENTS] in order to fulfill the loan agreements.",
+        "With a collective total of [PAYMENTS], the borrowers' payments address the requirements of their loan agreements.",
+        "Their loan agreements are being met through [PAYMENTS] in payments made by the borrowers as a whole.",
+        "As a unified group, the borrowers have contributed payments totalling [PAYMENTS] toward their loan agreements.",
+        "The aggregate of payments from the borrowers stands at [PAYMENTS], directed at completing the loan agreements.",
+        "Payments of [PAYMENTS] have been accumulated by the borrowers collectively to satisfy the loan agreements."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "towards": [
+          "towards"
+        ],
+        "borrowers": [
+          "borrowers"
+        ],
+        "fulfilling": [
+          "fulfilling"
+        ],
+        "totaling": [
+          "totaling"
+        ],
+        "agreements": [
+          "agreements"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "made": [
+          "made"
+        ],
+        "their": [
+          "their"
+        ]
+      },
+      "field_data_types": {
+        "payments": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The repayment status of the loan agreement for client A is ongoing with satisfactory payments.",
+      "template_pattern": "The repayment status of the loan agreement for client [STATUS] is ongoing with satisfactory payments.",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The repayment status of the loan agreement for client [STATUS] remains ongoing with satisfactory payments.",
+        "Ongoing with satisfactory payments, the repayment status of the loan agreement for client [STATUS] is recorded.",
+        "For client [STATUS], the loan agreement's repayment status is ongoing with satisfactory payments.",
+        "The loan agreement for client [STATUS] shows [STATUS] repayment status that is ongoing with satisfactory payments.",
+        "Ongoing with satisfactory payments, the repayment status pertains to the loan agreement for client [STATUS].",
+        "The loan agreement for client [STATUS] includes [STATUS] repayment status that is ongoing with satisfactory payments.",
+        "The repayment status concerning the loan agreement for client [STATUS] is ongoing with satisfactory payments.",
+        "In the loan agreement for client [STATUS], the repayment status is ongoing with satisfactory payments.",
+        "Ongoing with satisfactory payments, the repayment status of the loan agreement applies to client [STATUS].",
+        "The repayment status, regarding the loan agreement for client [STATUS], is ongoing with satisfactory payments.",
+        "For the loan agreement of client [STATUS], the repayment status is ongoing with satisfactory payments.",
+        "The loan agreement for client [STATUS] reflects [STATUS] repayment status that is ongoing with satisfactory payments.",
+        "[STATUS] repayment status of ongoing with satisfactory payments is noted for the loan agreement of client [STATUS].",
+        "The repayment status for the loan agreement of client [STATUS] is ongoing with satisfactory payments.",
+        "Regarding the loan agreement of client [STATUS], the repayment status is ongoing with satisfactory payments."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "satisfactory": [
+          "satisfactory",
+          "acceptable"
+        ],
+        "loan": [
+          "loan"
+        ],
+        "client": [
+          "client",
+          "customer"
+        ],
+        "agreement": [
+          "agreement",
+          "accord",
+          "arrangement",
+          "understanding"
+        ],
+        "ongoing": [
+          "ongoing"
+        ],
+        "repayment": [
+          "repayment"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

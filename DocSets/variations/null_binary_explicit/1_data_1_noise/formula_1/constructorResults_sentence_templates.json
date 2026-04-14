@@ -1,0 +1,665 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "e1ac369b04e9435a": "constructorResultsId",
+    "0cc919689bac4ffb": "raceId",
+    "3748453b493a46ca": "constructorId",
+    "d85ec18a2f5a475e": "points",
+    "63a119677d9d47fe": "status"
+  },
+  "templates": [
+    {
+      "original": "In the world of Formula 1 racing, each constructor's performance is meticulously tracked and referenced to ensure accurate records of their achievements across various races.",
+      "template_pattern": "In the world of Formula [CONSTRUCTORRESULTSID] racing, each constructor's performance is meticulously tracked and referenced to ensure accurate records of their achievements across various races.",
+      "primary_data_fields": [
+        "constructorResultsId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the realm of Formula [CONSTRUCTORRESULTSID] racing, officials carefully monitor every constructor’s output and log it to guarantee precise documentation of their results across all Grand Prix events.",
+        "The Formula [CONSTRUCTORRESULTSID] circuit meticulously records each team's performance, referencing the data to maintain accurate accounts of their achievements throughout the season’s races.",
+        "Across the diverse range of Formula [CONSTRUCTORRESULTSID] contests, every constructor’s results are closely tracked and cited, ensuring the integrity of the recorded accomplishments.",
+        "Accurate logs of each chassis builder’s performance are kept in Formula [CONSTRUCTORRESULTSID], with systematic tracking and referencing used to preserve flawless records of their race‑by‑race achievements.",
+        "In Formula [CONSTRUCTORRESULTSID]’s competitive arena, the performance of each constructor is scrupulously observed and referenced, safeguarding exact records of their successes across multiple events.",
+        "Every Formula [CONSTRUCTORRESULTSID] constructor’s output is diligently captured and cross‑referenced, providing reliable documentation of their accomplishments over the various races.",
+        "The achievements of each Formula [CONSTRUCTORRESULTSID] team are systematically tracked and referenced, allowing for precise record‑keeping of their performance throughout the season’s races.",
+        "By meticulously tracking and referencing each constructor’s performance, Formula [CONSTRUCTORRESULTSID] ensures that accurate records of their achievements are maintained across all races.",
+        "In the world of Formula [CONSTRUCTORRESULTSID], the results of every constructor are painstakingly monitored and logged, guaranteeing exact documentation of their successes across numerous Grand Prix.",
+        "Each Formula [CONSTRUCTORRESULTSID] chassis builder’s performance is thoroughly recorded and cited, which secures precise archives of their accomplishments throughout the series of races.",
+        "Through careful monitoring and referencing of every constructor’s output, Formula [CONSTRUCTORRESULTSID] upholds flawless records of their achievements across the spectrum of races.",
+        "Formula [CONSTRUCTORRESULTSID]’s data teams rigorously track each constructor’s performance and reference it, thereby preserving accurate records of their race‑by‑race achievements.",
+        "The performance of each Formula [CONSTRUCTORRESULTSID] constructor is systematically observed and referenced, ensuring that their achievements are accurately documented across all events.",
+        "Accurate records of every constructor’s achievements in Formula [CONSTRUCTORRESULTSID] are maintained by meticulously tracking and referencing their performance throughout the varied races.",
+        "In Formula [CONSTRUCTORRESULTSID], each team's results are closely monitored and cited, guaranteeing precise documentation of their accomplishments across the season’s many races."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "performance": [
+          "performance",
+          "operation",
+          "execution",
+          "functioning"
+        ],
+        "records": [
+          "records"
+        ],
+        "races": [
+          "races"
+        ],
+        "referenced": [
+          "referenced"
+        ],
+        "their": [
+          "their"
+        ],
+        "accurate": [
+          "accurate",
+          "exact",
+          "precise"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "achievements": [
+          "achievements"
+        ]
+      },
+      "field_data_types": {
+        "constructorResultsId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "These records serve as a testament to the dedication and skill of each team involved in the sport.",
+      "template_pattern": "These records serve as a testament to the dedication and skill of each team involved in the sport.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "These documents stand as proof of every team's dedication and skill within the sport.",
+        "A testament to the commitment and expertise of each sport‑team is found in these records.",
+        "The dedication and skill of all teams participating in the sport are documented by these records.",
+        "In these records, one sees evidence of the devotion and proficiency of each team engaged in the sport.",
+        "Each team's dedication and skill in the sport are highlighted by these records, serving as a testament.",
+        "These records, acting as a testament, showcase the dedication and skill of every team involved in the sport.",
+        "Evidence of the commitment and talent of each sport team resides within these records.",
+        "Serving as a testament, these records reflect the dedication and skill of all teams in the sport.",
+        "The sport’s teams’ dedication and skill are captured in these records, which act as a testament.",
+        "These records provide a testament to the dedication and skill demonstrated by each team in the sport.",
+        "A testament to each team's dedication and skill in the sport is embodied in these records.",
+        "Within these records lies proof of the dedication and skill of every team that takes part in the sport.",
+        "These records, as a testament, attest to the commitment and expertise of each team involved in the sport.",
+        "The dedication and skill of each sport team are affirmed by these records, which serve as a testament.",
+        "By means of these records, we witness a testament to the dedication and skill of each team in the sport."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "team": [
+          "team",
+          "squad"
+        ],
+        "testament": [
+          "testament",
+          "will"
+        ],
+        "involved": [
+          "involved",
+          "require",
+          "need",
+          "necessitate",
+          "demand",
+          "tortuous"
+        ],
+        "records": [
+          "records"
+        ],
+        "these": [
+          "these"
+        ],
+        "sport": [
+          "sport",
+          "athletics"
+        ],
+        "serve": [
+          "serve",
+          "help",
+          "assist",
+          "function",
+          "attend"
+        ],
+        "skill": [
+          "skill"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The excitement of the Formula 1 season reached new heights at raceId 18, where constructors fiercely competed for victory.",
+      "template_pattern": "The excitement of the Formula 1 season reached new heights at raceId [RACEID], where constructors fiercely competed for victory.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The thrill of the Formula 1 season peaked at raceId [RACEID], as constructors battled fiercely for the win.",
+        "At raceId [RACEID], the Formula One campaign saw its excitement soar, with teams competing aggressively for victory.",
+        "New heights of excitement were reached during the F1 season at raceId [RACEID], where constructors vied intensely for first place.",
+        "The hype surrounding the Formula 1 season climbed dramatically at raceId [RACEID], when the constructors fought zealously for triumph.",
+        "RaceId [RACEID] marked a surge in the Formula One season’s enthusiasm, with teams locked in a fierce contest for the victory.",
+        "During raceId [RACEID], the excitement of the Formula 1 season hit a record level as constructors clashed aggressively for the win.",
+        "The Formula 1 season’s fervor escalated at raceId [RACEID], where the constructors were seen battling passionately for victory.",
+        "At raceId [RACEID], the Formula One season experienced a notable spike in excitement, with teams vying fiercely for the top spot.",
+        "The excitement of the F1 season was amplified at raceId [RACEID], as the constructors engaged in a fierce race for victory.",
+        "RaceId [RACEID] witnessed the Formula 1 season’s excitement reach new peaks, with constructors competing tenaciously for the win.",
+        "The Formula One season’s buzz surged at raceId [RACEID], where teams fought vigorously for the victory.",
+        "At raceId [RACEID], the Formula 1 campaign’s excitement ascended, with constructors locked in a fierce fight for first place.",
+        "New levels of enthusiasm were recorded in the F1 season at raceId [RACEID], as the constructors contended fiercely for victory.",
+        "The excitement of the Formula 1 season climbed to unprecedented heights at raceId [RACEID], where teams battled intensely for the win.",
+        "At raceId [RACEID], a heightened thrill marked the Formula One season, with the constructors fiercely competing for the victory."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "where": [
+          "where"
+        ],
+        "constructors": [
+          "constructors"
+        ],
+        "victory": [
+          "victory",
+          "triumph"
+        ],
+        "competed": [
+          "competed"
+        ],
+        "fiercely": [
+          "fiercely",
+          "ferociously"
+        ],
+        "excitement": [
+          "excitement",
+          "fervor",
+          "fervour",
+          "exhilaration"
+        ],
+        "season": [
+          "season",
+          "temper"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "convention",
+          "pattern",
+          "recipe"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Spectators from around the globe watched eagerly, anticipating every twist and turn on the track.",
+      "template_pattern": "Spectators from around the globe watched eagerly, anticipating every twist and turn on the track.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Viewers worldwide leaned in, keenly awaiting each bend and curve of the course.",
+        "The track’s twists and turns were watched with anticipation by spectators from every continent.",
+        "Around the world, onlookers observed the race anxiously, expecting every sudden shift on the circuit.",
+        "Eager global audiences followed the event, anticipating every twist and turn along the track.",
+        "Every curve of the track was met with hopeful eyes from international spectators.",
+        "Spectators spanning the globe watched intently, looking forward to each turn and twist on the course.",
+        "The race’s every bend was closely followed by worldwide viewers, who awaited each development with excitement.",
+        "With breath held, worldwide onlookers anticipated each twist and turn on the track.",
+        "International audiences observed the competition, eager for every change in the track’s path.",
+        "The track’s every twist and turn was eagerly watched by spectators from all over the world.",
+        "From every corner of the planet, watchers stared at the track, anticipating each upcoming turn.",
+        "The global crowd watched the race with anticipation, keen on every twist and turn.",
+        "Anticipating every bend on the circuit, spectators from across the globe observed the race eagerly.",
+        "Every twist and turn on the track captured the eager attention of viewers worldwide.",
+        "The event was followed with excitement by worldwide spectators, who waited for each twist and turn."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "every": [
+          "every"
+        ],
+        "around": [
+          "around",
+          "approximately",
+          "about",
+          "roughly"
+        ],
+        "eagerly": [
+          "eagerly"
+        ],
+        "globe": [
+          "globe",
+          "Earth",
+          "world"
+        ],
+        "anticipating": [
+          "anticipating",
+          "expect",
+          "anticipate",
+          "foresee",
+          "predict"
+        ],
+        "spectators": [
+          "spectators",
+          "viewers",
+          "watchers"
+        ],
+        "twist": [
+          "twist",
+          "turn",
+          "bend",
+          "twirl",
+          "spin",
+          "curve"
+        ],
+        "watched": [
+          "watched"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The Formula 1 team with the unique identifier 1 demonstrated remarkable consistency in their race performance this season.",
+      "template_pattern": "The Formula [CONSTRUCTORID] team with the unique identifier [CONSTRUCTORID] demonstrated remarkable consistency in their race performance this season.",
+      "primary_data_fields": [
+        "constructorId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In this season, the Formula [CONSTRUCTORID] squad bearing constructor Id [CONSTRUCTORID] showed remarkable consistency in its race performance.",
+        "Remarkable consistency characterized the race performance of the Formula [CONSTRUCTORID] outfit with constructor Id [CONSTRUCTORID] this season.",
+        "The Formula [CONSTRUCTORID] team, identified by constructor Id [CONSTRUCTORID], demonstrated remarkable consistency in its race performance this season.",
+        "Throughout this season, the Formula [CONSTRUCTORID] crew holding constructor Id [CONSTRUCTORID] demonstrated remarkable consistency in its race performance.",
+        "Remarkable consistency and steady race performance were exhibited by the Formula [CONSTRUCTORID] side with constructor Id [CONSTRUCTORID] this season.",
+        "This season, the Formula [CONSTRUCTORID] ensemble carrying constructor Id [CONSTRUCTORID] maintained remarkable consistency in its race performance.",
+        "The race performance this season of the Formula [CONSTRUCTORID] unit marked by constructor Id [CONSTRUCTORID] displayed remarkable consistency.",
+        "Marked by constructor Id [CONSTRUCTORID], the Formula [CONSTRUCTORID] team achieved remarkable consistency in its race performance this season.",
+        "A striking level of remarkable consistency in race performance was observed from the Formula [CONSTRUCTORID] team possessing constructor Id [CONSTRUCTORID] this season.",
+        "During this season, the Formula [CONSTRUCTORID] contingent with constructor Id [CONSTRUCTORID] consistently delivered remarkable consistency in race performance.",
+        "The Formula [CONSTRUCTORID] organization, bearing constructor Id [CONSTRUCTORID], has shown remarkable consistency in its race performance this season.",
+        "With constructor Id [CONSTRUCTORID], the Formula [CONSTRUCTORID] team delivered a race performance this season that was remarkably consistent.",
+        "This season’s race performance of the Formula [CONSTRUCTORID] side carrying constructor Id [CONSTRUCTORID] was marked by remarkable consistency.",
+        "The Formula [CONSTRUCTORID] outfit, linked to constructor Id [CONSTRUCTORID], demonstrated remarkable consistency in race performance this season.",
+        "Across this season, the Formula [CONSTRUCTORID] squad identified by constructor Id [CONSTRUCTORID] exhibited remarkable consistency in its race performance."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "team": [
+          "team",
+          "squad"
+        ],
+        "performance": [
+          "performance",
+          "operation",
+          "execution",
+          "functioning"
+        ],
+        "consistency": [
+          "consistency"
+        ],
+        "their": [
+          "their"
+        ],
+        "demonstrated": [
+          "demonstrated"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "recipe"
+        ],
+        "remarkable": [
+          "remarkable",
+          "noteworthy",
+          "singular"
+        ],
+        "season": [
+          "season",
+          "flavour",
+          "flavor",
+          "temper"
+        ]
+      },
+      "field_data_types": {
+        "constructorId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Their strategy and teamwork were evident, setting them apart from much of the competition.",
+      "template_pattern": "Their strategy and teamwork were evident, setting them apart from much of the competition.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Their evident strategy and teamwork set them apart from much of the competition.",
+        "Because their strategy and teamwork were clear, they distinguished themselves from the majority of rivals.",
+        "With strategy and teamwork plainly visible, they stood out against most of the competition.",
+        "The competition was left behind as their strategy and teamwork became evident.",
+        "Evident strategy and teamwork separated them from much of the competing field.",
+        "Their clear strategy and collaborative effort made them stand apart from many opponents.",
+        "By showcasing evident strategy and teamwork, they differentiated themselves from the bulk of the competition.",
+        "The presence of obvious strategy and teamwork placed them ahead of most competitors.",
+        "Their strategy and teamwork, unmistakably apparent, set them apart from the larger competition.",
+        "Because strategy and teamwork were evident, they were set apart from much of the competition.",
+        "Visible strategy and teamwork helped them outshine the majority of the competition.",
+        "Their evident strategic planning and teamwork distinguished them from many rivals.",
+        "The competition fell behind as their strategy and teamwork were clearly evident.",
+        "Through evident strategy and teamwork, they rose above most of the competition.",
+        "Their strategy and teamwork, readily observable, made them stand apart from much of the competition."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "evident": [
+          "evident",
+          "manifest",
+          "plain",
+          "apparent",
+          "discernible",
+          "observable"
+        ],
+        "competition": [
+          "competition",
+          "contest",
+          "rivalry"
+        ],
+        "setting": [
+          "setting",
+          "position",
+          "circumstance",
+          "scene",
+          "background",
+          "context"
+        ],
+        "strategy": [
+          "strategy",
+          "scheme"
+        ],
+        "teamwork": [
+          "teamwork"
+        ],
+        "their": [
+          "their"
+        ],
+        "much": [
+          "much"
+        ],
+        "them": [
+          "them"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The team celebrated modestly after securing 14.0 points in the race, contributing to their championship standings.",
+      "template_pattern": "The team celebrated modestly after securing [POINTS] points in the race, contributing to their championship standings.",
+      "primary_data_fields": [
+        "points"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The team marked a modest celebration after securing [POINTS] points in the race, which boosted their championship standings.",
+        "After earning [POINTS] points in the race, the team celebrated modestly, adding to their championship standings.",
+        "Modest celebrations followed the team's acquisition of [POINTS] points in the race, contributing to their championship standings.",
+        "With [POINTS] points secured in the race, the team held a modest celebration that advanced their championship standings.",
+        "The championship standings were enhanced as the team modestly celebrated after gathering [POINTS] points in the race.",
+        "Following the race, the team modestly celebrated their [POINTS] points, a result that fed into the championship standings.",
+        "A modest celebration was observed by the team after they secured [POINTS] points in the race, influencing their championship standings.",
+        "After the race yielded [POINTS] points for the team, they celebrated modestly, thereby impacting their championship standings.",
+        "The team’s modest celebration came after they clinched [POINTS] points in the race, contributing to the championship standings.",
+        "Securing [POINTS] points in the race, the team modestly celebrated, which helped their position in the championship standings.",
+        "In the race they gathered [POINTS] points, and the team celebrated modestly, a factor that added to their championship standings.",
+        "The race delivered [POINTS] points to the team, prompting a modest celebration that fed into their championship standings.",
+        "A modest celebration followed the team's [POINTS] points haul in the race, boosting their championship standings.",
+        "After the team secured [POINTS] points in the race, a modest celebration ensued, contributing to the championship standings.",
+        "The team’s acquisition of [POINTS] points in the race was met with a modest celebration, influencing their championship standings."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "contributing": [
+          "contributing"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "securing": [
+          "securing"
+        ],
+        "their": [
+          "their"
+        ],
+        "modestly": [
+          "modestly"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "after": [
+          "after",
+          "later",
+          "afterward",
+          "afterwards",
+          "subsequently"
+        ],
+        "standings": [
+          "standings"
+        ]
+      },
+      "field_data_types": {
+        "points": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Despite the challenges faced, there was an air of optimism within the team as they looked towards future races.",
+      "template_pattern": "Despite the challenges faced, there was an air of optimism within the team as they looked towards future races.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "Although the team encountered difficulties, a sense of optimism persisted as they set their sights on upcoming races.",
+        "In spite of the challenges encountered, optimism permeated the squad while they turned their focus toward future competitions.",
+        "Despite facing obstacles, the group maintained an upbeat outlook, looking ahead to the next races.",
+        "The challenges were present, yet the team exuded optimism as they contemplated forthcoming races.",
+        "Even with the difficulties faced, an optimistic spirit lingered among the team members as they anticipated future races.",
+        "While the team grappled with challenges, a hopeful atmosphere remained as they prepared for upcoming races.",
+        "Challenges notwithstanding, the team displayed optimism, eyes fixed on the races ahead.",
+        "The team's optimism endured despite the hurdles, as they gazed toward future competitions.",
+        "Though obstacles were encountered, the collective mood was hopeful, with the team focusing on forthcoming races.",
+        "An air of optimism survived the challenges, with the team looking forward to upcoming races.",
+        "The presence of challenges did not diminish the team's optimism, which was evident as they looked toward future races.",
+        "Despite the obstacles, a confident optimism was evident within the team while they planned for the next races.",
+        "While confronting difficulties, the team upheld an optimistic tone, turning its attention to future races.",
+        "In the face of challenges, the team retained a hopeful outlook as they envisioned upcoming competitions.",
+        "The team, though challenged, remained optimistic, their gaze fixed on the races ahead."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "team": [
+          "team"
+        ],
+        "towards": [
+          "towards"
+        ],
+        "looked": [
+          "looked"
+        ],
+        "optimism": [
+          "optimism"
+        ],
+        "challenges": [
+          "challenges"
+        ],
+        "faced": [
+          "faced"
+        ],
+        "there": [
+          "there"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    },
+    {
+      "original": "The status of the Formula 1 team's performance in the race is NULL.",
+      "template_pattern": "The status of the Formula 1 team's performance in the race is [STATUS].",
+      "primary_data_fields": [
+        "status"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The current analytical overview records that the status field is [STATUS], according to the latest research data report.",
+        "According to the latest research data report, the status field is [STATUS]; this is noted in the current analytical overview.",
+        "In the current analytical overview, it is documented that the status field is [STATUS], as stated by the latest research data report.",
+        "The latest research data report confirms the status field is [STATUS], a finding reflected in the current analytical overview.",
+        "As documented in the current analytical overview, the status field is [STATUS], per the latest research data report.",
+        "Per the latest research data report, the status field is [STATUS], which the current analytical overview records.",
+        "The status field is [STATUS], a detail captured in the current analytical overview and sourced from the latest research data report.",
+        "Based on the latest research data report, the current analytical overview shows the status field as [STATUS].",
+        "The current analytical overview, citing the latest research data report, indicates that the status field is [STATUS].",
+        "From the latest research data report we learn that the status field is [STATUS], as the current analytical overview documents.",
+        "Documented in the current analytical overview, the status field is [STATUS] according to the latest research data report.",
+        "The status field is [STATUS], according to the latest research data report, and this is reflected in the current analytical overview.",
+        "According to the latest research data report, the current analytical overview confirms the status field is [STATUS].",
+        "The latest research data report notes that the status field is [STATUS], a point the current analytical overview also records.",
+        "In the latest research data report the status field is [STATUS], a fact presented in the current analytical overview."
+      ],
+      "counter_variations": [
+        "According to the latest report, the status of the Formula 1 team's performance in the race is null.",
+        "The race data indicate that the status of the Formula 1 team's performance is null.",
+        "In the current analysis, the status concerning the Formula 1 team's performance in the race is null.",
+        "Our findings reveal a null status for the Formula 1 team's performance during the race.",
+        "The status assigned to the Formula 1 team's performance in the race has been recorded as null.",
+        "Within the dataset, the status of the Formula 1 team's performance in the race appears as null.",
+        "It is noted that the status of the Formula 1 team's performance in the race stands at null.",
+        "The documented status of the Formula 1 team's performance for this race is null.",
+        "Evaluation of the race shows the status of the Formula 1 team's performance to be null.",
+        "The status, with respect to the Formula 1 team's performance in the race, is null.",
+        "Data tables list the status of the Formula 1 team's performance in the race as null.",
+        "The status for the Formula 1 team's performance in the race, as per the report, is null.",
+        "A null status is assigned to the Formula 1 team's performance in the race.",
+        "Reviewing the competition, the status of the Formula 1 team's performance in the race emerges as null.",
+        "The status of the Formula 1 team's performance in the race currently reads null."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "performance": [
+          "performance",
+          "operation",
+          "execution",
+          "functioning"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "recipe"
+        ],
+        "team": [
+          "team",
+          "squad"
+        ],
+        "race": [
+          "race",
+          "run"
+        ]
+      },
+      "field_data_types": {
+        "status": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "This anomaly left fans and analysts speculating about the circumstances surrounding the race.",
+      "template_pattern": "This anomaly left fans and analysts speculating about the circumstances surrounding the race.",
+      "primary_data_fields": [],
+      "foreign_data_fields": [],
+      "variations": [
+        "This anomaly caused fans and analysts to speculate about the circumstances surrounding the race.",
+        "Fans and analysts were left speculating about the race’s surrounding circumstances by this anomaly.",
+        "By this irregularity, fans and analysts began to wonder about the circumstances that surrounded the race.",
+        "The oddity left both fans and analysts pondering the conditions surrounding the race.",
+        "As a result of this deviation, speculation arose among fans and analysts concerning the race’s circumstances.",
+        "This peculiarity prompted fans and analysts to question the circumstances surrounding the race.",
+        "Fans and analysts, confronted with this anomaly, started speculating on the race’s surrounding circumstances.",
+        "The race’s surrounding circumstances were the subject of speculation by fans and analysts after this anomaly.",
+        "Owing to this anomaly, fans and analysts found themselves speculating about the circumstances that enveloped the race.",
+        "This anomaly left the race’s circumstances open to speculation by fans and analysts.",
+        "With this irregularity, speculation about the race’s surrounding circumstances spread among fans and analysts.",
+        "The circumstances surrounding the race were left for fans and analysts to speculate on after this anomaly.",
+        "Because of this oddity, fans and analysts were compelled to speculate regarding the race’s circumstances.",
+        "This deviation caused speculation among fans and analysts concerning the circumstances that surrounded the race.",
+        "Fans and analysts, after encountering this anomaly, speculated about the circumstances surrounding the race."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "speculating": [
+          "speculating",
+          "speculate",
+          "theorize",
+          "suppose",
+          "hypothesize",
+          "conjecture"
+        ],
+        "anomaly": [
+          "anomaly"
+        ],
+        "analysts": [
+          "analysts"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "left": [
+          "left",
+          "remaining",
+          "leftover"
+        ],
+        "circumstances": [
+          "circumstances"
+        ],
+        "surrounding": [
+          "surrounding",
+          "encompassing"
+        ],
+        "about": [
+          "about",
+          "approximately",
+          "around",
+          "nearly",
+          "roughly",
+          "virtually"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": true
+    }
+  ]
+}

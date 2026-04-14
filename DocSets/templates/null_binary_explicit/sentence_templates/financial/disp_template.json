@@ -1,0 +1,28 @@
+{
+  "database": "financial",
+  "table": "disp",
+  "entry_index": 0,
+  "original_data": {
+    "disp_id": "1",
+    "client_id": "1",
+    "account_id": "1",
+    "type": "OWNER"
+  },
+  "generated_sentences": [
+    "The account disposition record with the identifier 1 was reviewed to ensure proper access rights management. (Hash: ee0fa1e824d646af)",
+    "The client with the unique identification number 1 has been granted special access rights to their financial services account. (Hash: 7c7c37bf224a4cb3)",
+    "The financial account with identification number 1 requires review to ensure proper access rights are maintained. (Hash: 19e7c392abf0472b)",
+    "In the financial services system, the account disposition is categorized as an OWNER, granting comprehensive management rights. (Hash: bbeef42a93634fed)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "explicit",
+  "data_noise_ratio": "1:1",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "ee0fa1e824d646af": "disp_id",
+    "7c7c37bf224a4cb3": "client_id",
+    "19e7c392abf0472b": "account_id",
+    "bbeef42a93634fed": "type"
+  },
+  "timestamp": "2026-03-31 16:39:06"
+}

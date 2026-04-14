@@ -1,0 +1,25 @@
+{
+  "database": "debit_card_specializing",
+  "table": "customers",
+  "entry_index": 0,
+  "original_data": {
+    "CustomerID": "3",
+    "Segment": "SME",
+    "Currency": "EUR"
+  },
+  "generated_sentences": [
+    "CustomerID 3 recently made a significant purchase with their debit card at a local electronics store. (Hash: 2912d6ace26e4a3d)",
+    "In the Segment of SMEs, understanding customer behavior is crucial for developing effective marketing strategies. (Hash: e9a3934aa09b4b62)",
+    "Most of the debit card transactions for this quarter were conducted using EUR as the primary Currency. (Hash: 360aacad49d54362)"
+  ],
+  "null_mode": "explicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "2912d6ace26e4a3d": "CustomerID",
+    "e9a3934aa09b4b62": "Segment",
+    "360aacad49d54362": "Currency"
+  },
+  "timestamp": "2026-04-13 00:13:59"
+}

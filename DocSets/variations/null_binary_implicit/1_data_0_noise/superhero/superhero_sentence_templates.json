@@ -1,0 +1,957 @@
+{
+  "document_context": "research data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "d35886ce1aba4a4a": "id",
+    "44f3f862edd24a51": "superhero_name",
+    "48f9c03c4b7a4bc2": "full_name",
+    "2730a7e340f445c0": "gender_id",
+    "8b045a526f3c4df9": "eye_colour_id",
+    "b0c1c5eb659c4435": "hair_colour_id",
+    "184d65c9e3924330": "skin_colour_id",
+    "96ce23fcd43d45b3": "race_id",
+    "097cb9a775944a79": "publisher_id",
+    "ac1b5652888c4fb6": "alignment_id",
+    "432afb4e5421457d": "height_cm",
+    "41b09dc87bc048e8": "weight_kg"
+  },
+  "templates": [
+    {
+      "original": "In the latest issue, 3-D Man showcases his incredible powers, captivating fans with his daring feats and heroic exploits.",
+      "template_pattern": "In the latest issue, [SUPERHERO_NAME] showcases his incredible powers, captivating fans with his daring feats and heroic exploits.",
+      "primary_data_fields": [
+        "superhero_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The newest edition highlights [SUPERHERO_NAME] as he unveils his astonishing powers, enthralling audiences with bold stunts and noble deeds.",
+        "In this recent publication, [SUPERHERO_NAME] demonstrates his remarkable abilities, mesmerizing supporters through daring exploits and heroic actions.",
+        "The latest issue features [SUPERHERO_NAME], whose spectacular powers are on full display, captivating fans with fearless feats and valiant adventures.",
+        "Readers of the current issue are treated to [SUPERHERO_NAME]’s incredible powers, which awe the crowd with his audacious maneuvers and heroic exploits.",
+        "Within the most recent issue, [SUPERHERO_NAME]’s amazing abilities are showcased, drawing in admirers with his bold feats and courageous exploits.",
+        "[SUPERHERO_NAME] takes center stage in the latest issue, revealing his extraordinary powers and winning over spectators with daring deeds and heroic feats.",
+        "In the freshest issue released, [SUPERHERO_NAME] exhibits his phenomenal powers, enthralling the public with his intrepid stunts and noble exploits.",
+        "The latest issue puts [SUPERHERO_NAME]’s incredible powers on display, captivating readers through his daring feats and heroic undertakings.",
+        "Fans are captivated in the newest issue as [SUPERHERO_NAME] showcases his phenomenal powers, performing bold feats and heroic exploits.",
+        "The current issue showcases [SUPERHERO_NAME]’s spectacular abilities, mesmerizing followers with his daring actions and heroic ventures.",
+        "Within the latest issue, [SUPERHERO_NAME]’s remarkable powers are highlighted, drawing fans in with his audacious feats and valiant exploits.",
+        "The recent issue presents [SUPERHERO_NAME], whose extraordinary powers enthrall the audience through daring exploits and heroic deeds.",
+        "In the latest issue, [SUPERHERO_NAME]’s impressive powers are on show, captivating the crowd with bold feats and heroic adventures.",
+        "The newest issue spotlights [SUPERHERO_NAME] as he reveals his incredible powers, captivating fans with daring feats and heroic exploits.",
+        "Readers encounter [SUPERHERO_NAME]’s astonishing powers in the latest issue, where his daring feats and heroic exploits captivate the audience."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "powers": [
+          "powers"
+        ],
+        "heroic": [
+          "heroic"
+        ],
+        "incredible": [
+          "incredible",
+          "unbelievable"
+        ],
+        "feats": [
+          "feats"
+        ],
+        "captivating": [
+          "captivating",
+          "entrancing",
+          "enchanting",
+          "enthralling",
+          "fascinating",
+          "bewitching"
+        ],
+        "fans": [
+          "fans"
+        ],
+        "daring": [
+          "daring",
+          "venturesome",
+          "audacious",
+          "venturous"
+        ],
+        "issue": [
+          "issue",
+          "subject",
+          "matter",
+          "topic",
+          "issuance",
+          "release"
+        ]
+      },
+      "field_data_types": {
+        "superhero_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Among the ranks of superheroes, Charles Chandler stands out with his full_name being a key part of his identity.",
+      "template_pattern": "Among the ranks of superheroes, [FULL_NAME] stands out with his full_name being a key part of his identity.",
+      "primary_data_fields": [
+        "full_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the superhero ranks, [FULL_NAME] is distinguished by a full name that serves as a key element of his identity.",
+        "[FULL_NAME] stands out among superheroes, his full name being a central feature of who he is.",
+        "Among superheroes, the full name of [FULL_NAME] functions as a pivotal part of his identity, setting him apart.",
+        "The full name of [FULL_NAME] is a defining component of his identity, making him prominent in the superhero community.",
+        "In the league of heroes, [FULL_NAME]'s full name acts as a vital piece of his personal identity.",
+        "[FULL_NAME]'s identity is heavily tied to his full name, which highlights him among the superhero ranks.",
+        "Among all superheroes, it is [FULL_NAME]'s full name that marks a key facet of his identity.",
+        "The full name belonging to [FULL_NAME] is a crucial aspect of his identity, causing him to shine in the superhero cohort.",
+        "Superhero circles notice [FULL_NAME] because his full name forms an essential part of his identity.",
+        "[FULL_NAME]’s full name constitutes a core element of his identity, distinguishing him within the superhero roster.",
+        "Within the pantheon of superheroes, the full name of [FULL_NAME] is a significant part of his identity.",
+        "A key part of his identity is [FULL_NAME]’s full name, which sets him apart among superheroes.",
+        "[FULL_NAME]’s identity is marked by his full name, a vital attribute in the ranks of superheroes.",
+        "His full name, [FULL_NAME], serves as a fundamental piece of his identity among superhero ranks.",
+        "Among the heroes, the full name [FULL_NAME] is integral to his identity, making him stand out."
+      ],
+      "counter_variations": [
+        "The comprehensive research data report indicates that the participant’s full name is not specified, leaving that identifier out of the analysis.",
+        "Because the participant’s full name is not specified in the research data report, the identifier is omitted from the analytical results.",
+        "Within the research data report, the participant’s full name remains unspecified, thereby excluding that identifier from the analysis.",
+        "The participant’s full name, not specified in the comprehensive research data report, results in the omission of that identifier from the analysis.",
+        "As the research data report lists the participant’s full name as not available, the identifier is absent from the ensuing analysis.",
+        "In the detailed research data report, the participant’s full name is unknown, which causes that identifier to be missing from the analysis.",
+        "The comprehensive research data report indicates that the participant’s full name is unspecified, consequently the identifier does not appear in the analysis.",
+        "Since the participant’s full name is not available in the research data report, that identifier is excluded from the analytical findings.",
+        "The research data report, being comprehensive, lists the participant’s full name as unspecified, thus the identifier is absent from the analysis.",
+        "Owing to the participant’s full name being unspecified in the comprehensive research data report, the identifier does not feature in the analysis.",
+        "The comprehensive research data report shows the participant’s full name as not specified, resulting in the identifier’s exclusion from the analysis.",
+        "In the research data report, the participant’s full name is not specified; consequently, that identifier is missing from the analysis.",
+        "The participant’s full name is not specified within the comprehensive research data report, thereby rendering that identifier absent from the analysis.",
+        "Given that the participant’s full name is not specified in the research data report, the identifier is omitted from the analysis.",
+        "The comprehensive research data report indicates that the participant’s full name is unspecified, which leads to the identifier being absent from the analysis."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "ranks": [
+          "ranks"
+        ],
+        "being": [
+          "being",
+          "existence",
+          "organism"
+        ],
+        "part": [
+          "part",
+          "portion",
+          "section",
+          "component",
+          "piece",
+          "share"
+        ],
+        "identity": [
+          "identity",
+          "individuality"
+        ],
+        "stands": [
+          "stands",
+          "tolerate",
+          "abide",
+          "bear",
+          "support",
+          "endure"
+        ],
+        "among": [
+          "among"
+        ],
+        "superheroes": [
+          "superheroes"
+        ]
+      },
+      "field_data_types": {
+        "full_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the world of superheroes, the striking eye_colour_id 9 adds a unique element to the character's visual identity.",
+      "template_pattern": "In the world of superheroes, the striking eye_colour_id [EYE_COLOUR_ID] adds a unique element to the character's visual identity.",
+      "primary_data_fields": [
+        "eye_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within superhero lore, eye colour id [EYE_COLOUR_ID] contributes a distinctive aspect to the hero's visual identity.",
+        "The superhero domain features eye colour id [EYE_COLOUR_ID], which introduces a singular element to the character's appearance.",
+        "Eye colour id [EYE_COLOUR_ID], a striking feature, enhances the visual identity of the superhero in research.",
+        "In superhero studies, the presence of eye colour id [EYE_COLOUR_ID] provides a unique component to the visual profile of the character.",
+        "Researchers note that eye colour id [EYE_COLOUR_ID] adds an exclusive facet to the visual identity of a superhero.",
+        "The inclusion of eye colour id [EYE_COLOUR_ID] imparts a one‑of‑a‑kind element to a superhero's visual signature.",
+        "A superhero's visual identity is enriched by eye colour id [EYE_COLOUR_ID], offering a unique characteristic.",
+        "Eye colour id [EYE_COLOUR_ID] serves as a notable addition to the visual identity of characters in the superhero realm.",
+        "In the context of superheroes, eye colour id [EYE_COLOUR_ID] introduces a distinctive visual element for the character.",
+        "The visual identity of a superhero gains a unique trait through eye colour id [EYE_COLOUR_ID].",
+        "Eye colour id [EYE_COLOUR_ID] is highlighted as a striking component that shapes the visual identity of the superhero.",
+        "By incorporating eye colour id [EYE_COLOUR_ID], the character's visual identity acquires a singular quality.",
+        "The data shows that eye colour id [EYE_COLOUR_ID] contributes a unique visual element to superhero characters.",
+        "Eye colour id [EYE_COLOUR_ID], when examined, adds an exceptional detail to the visual identity of the hero.",
+        "Within the superhero field, eye colour id [EYE_COLOUR_ID] provides a distinctive visual attribute to the character."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "world": [
+          "world",
+          "globe",
+          "earth",
+          "Earth"
+        ],
+        "element": [
+          "element",
+          "component",
+          "constituent",
+          "ingredient",
+          "factor"
+        ],
+        "identity": [
+          "identity",
+          "individuality"
+        ],
+        "adds": [
+          "adds"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "character": [
+          "character",
+          "quality",
+          "type",
+          "persona",
+          "role"
+        ],
+        "striking": [
+          "striking",
+          "spectacular",
+          "prominent",
+          "outstanding",
+          "salient",
+          "dramatic"
+        ],
+        "visual": [
+          "visual",
+          "ocular",
+          "optical",
+          "optic"
+        ]
+      },
+      "field_data_types": {
+        "eye_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "In the vibrant world of superheroes, the hair_colour_id of 13 adds a unique flair to the character's striking appearance.",
+      "template_pattern": "In the vibrant world of superheroes, the hair_colour_id of [HAIR_COLOUR_ID] adds a unique flair to the character's striking appearance.",
+      "primary_data_fields": [
+        "hair_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Within the vivid universe of superheroes, hair colour id [HAIR_COLOUR_ID] lends a distinctive flair to the character’s striking appearance.",
+        "In the dynamic realm of caped heroes, the hair colour id of [HAIR_COLOUR_ID] injects a unique style into the figure’s bold look.",
+        "Among superhero narratives, hair colour id [HAIR_COLOUR_ID] provides an unmistakable edge to the protagonist’s eye‑catching visage.",
+        "The superhero world’s bright tapestry is enhanced by hair colour id [HAIR_COLOUR_ID], which adds a singular panache to the hero’s dramatic façade.",
+        "A striking superhero’s look is accented by hair colour id [HAIR_COLOUR_ID], giving the character an unmistakable charm.",
+        "In the electric setting of superhero tales, hair colour id [HAIR_COLOUR_ID] contributes a special sparkle to the figure’s impressive appearance.",
+        "The presence of hair colour id [HAIR_COLOUR_ID] in the superhero arena bestows a one‑of‑a‑kind flair upon the character’s powerful look.",
+        "Superhero lore shines brighter thanks to hair colour id [HAIR_COLOUR_ID], which imparts a distinctive flourish to the hero’s notable visage.",
+        "Within the lively sphere of superheroes, hair colour id [HAIR_COLOUR_ID] injects a singular elegance into the character’s striking visual.",
+        "The character’s bold appearance is heightened by hair colour id [HAIR_COLOUR_ID], adding a unique touch to the superhero’s vibrant world.",
+        "In the colorful domain of superheroes, hair colour id [HAIR_COLOUR_ID] supplies a distinctive accent to the figure’s commanding look.",
+        "Hair colour id [HAIR_COLOUR_ID], set against the vivid backdrop of superhero stories, introduces an exclusive flair to the character’s striking demeanor.",
+        "The superhero landscape is enlivened by hair colour id [HAIR_COLOUR_ID], which imparts a unique sparkle to the hero’s impressive silhouette.",
+        "Within the bustling world of caped crusaders, hair colour id [HAIR_COLOUR_ID] brings an unmistakable style to the character’s eye‑catching appearance.",
+        "Superhero settings glow with the addition of hair colour id [HAIR_COLOUR_ID], granting the character a singularly striking visual flair."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "world": [
+          "world",
+          "globe",
+          "earth",
+          "Earth"
+        ],
+        "flair": [
+          "flair",
+          "elan",
+          "panache",
+          "dash",
+          "style",
+          "genius"
+        ],
+        "vibrant": [
+          "vibrant",
+          "vivacious"
+        ],
+        "adds": [
+          "adds"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequalled",
+          "unequaled"
+        ],
+        "character": [
+          "character",
+          "quality",
+          "type",
+          "persona",
+          "role",
+          "lineament"
+        ],
+        "striking": [
+          "striking",
+          "spectacular",
+          "prominent",
+          "outstanding",
+          "salient",
+          "dramatic"
+        ],
+        "appearance": [
+          "appearance",
+          "show"
+        ]
+      },
+      "field_data_types": {
+        "hair_colour_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero character is uniquely linked to their comic book publisher through the publisher_id 13.",
+      "template_pattern": "The superhero character is uniquely linked to their comic book publisher through the publisher_id [PUBLISHER_ID].",
+      "primary_data_fields": [
+        "publisher_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "A superhero figure uniquely connects to its comic book publisher via the publisher id [PUBLISHER_ID].",
+        "Through publisher id [PUBLISHER_ID], the superhero character is uniquely associated with its comic book publisher.",
+        "The comic book publisher is uniquely tied to the superhero character by means of publisher id [PUBLISHER_ID].",
+        "Publisher id [PUBLISHER_ID] serves as the exclusive link between the superhero character and its comic book publisher.",
+        "Linked uniquely through publisher id [PUBLISHER_ID], the superhero character relates to its comic book publisher.",
+        "The superhero character’s exclusive connection to the comic book publisher runs via publisher id [PUBLISHER_ID].",
+        "Via publisher id [PUBLISHER_ID], a unique bond exists between the superhero character and its comic book publisher.",
+        "The comic book publisher is bound uniquely to the superhero character through publisher id [PUBLISHER_ID].",
+        "Publisher id [PUBLISHER_ID] creates a singular relationship between the superhero character and its comic book publisher.",
+        "A singular tie via publisher id [PUBLISHER_ID] joins the superhero character with its comic book publisher.",
+        "The superhero character, through publisher id [PUBLISHER_ID], maintains a unique link to its comic book publisher.",
+        "Unique to the superhero character, the connection to its comic book publisher is established by publisher id [PUBLISHER_ID].",
+        "Through the publisher id [PUBLISHER_ID], a unique association links the superhero character to its comic book publisher.",
+        "The superhero character’s unique link to the comic book publisher is mediated by publisher id [PUBLISHER_ID].",
+        "By means of publisher id [PUBLISHER_ID], the superhero character is uniquely connected to its comic book publisher."
+      ],
+      "counter_variations": [
+        "In this research data report, the publisher id is noted as not specified, reflecting an absence of identifiable publishing attribution.",
+        "The research data report records the publisher id as not specified, indicating that no identifiable publishing attribution is available.",
+        "Within the compiled research data report, the publisher id appears as not specified, signifying a lack of identifiable publishing attribution.",
+        "This research data report lists the publisher id as not specified, thereby denoting an omission of any identifiable publishing attribution.",
+        "In the context of the research data report, the publisher id is marked not specified, which points to an absence of identifiable publishing attribution.",
+        "The publisher id, as presented in this research data report, is not specified, underscoring the unavailability of identifiable publishing attribution.",
+        "According to the research data report, the publisher id remains not specified, reflecting a void of identifiable publishing attribution.",
+        "The research data report indicates that the publisher id is not specified, thereby highlighting the missing identifiable publishing attribution.",
+        "In this research data report, the publisher id is recorded as unspecified, revealing that no identifiable publishing attribution could be determined.",
+        "The publisher id is listed as unspecified in the research data report, illustrating an absence of any identifiable publishing attribution.",
+        "Within the research data report, the publisher id is shown as unspecified, which conveys a lack of identifiable publishing attribution.",
+        "The research data report designates the publisher id as unspecified, marking the omission of identifiable publishing attribution.",
+        "In the compiled research data report, the publisher id is noted as not available, denoting that no identifiable publishing attribution is present.",
+        "The publisher id is described as not available in this research data report, signaling an absence of identifiable publishing attribution.",
+        "According to the research data report, the publisher id is recorded as unknown, indicating that no identifiable publishing attribution is known."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "through": [
+          "through"
+        ],
+        "publisher": [
+          "publisher"
+        ],
+        "book": [
+          "book",
+          "record",
+          "volume",
+          "ledger"
+        ],
+        "uniquely": [
+          "uniquely",
+          "unambiguously"
+        ],
+        "linked": [
+          "linked",
+          "joined",
+          "coupled"
+        ],
+        "character": [
+          "character",
+          "quality",
+          "type",
+          "persona",
+          "role"
+        ],
+        "their": [
+          "their"
+        ],
+        "superhero": [
+          "superhero"
+        ]
+      },
+      "field_data_types": {
+        "publisher_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The analysis confirms that the sample’s alignment id is recorded as [ALIGNMENT_ID], indicating its classification within the study cohort.",
+      "template_pattern": "The analysis confirms that the sample’s alignment id is recorded as [ALIGNMENT_ID], indicating its classification within the study cohort.",
+      "primary_data_fields": [
+        "alignment_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Our analysis verifies that the sample’s alignment id appears as [ALIGNMENT_ID], which signals its placement in the study cohort.",
+        "It is confirmed by the analysis that the sample’s alignment id is [ALIGNMENT_ID], denoting its classification within the cohort of the study.",
+        "The study cohort classification is indicated by the sample’s alignment id, recorded as [ALIGNMENT_ID], according to the analysis.",
+        "According to the analysis, the sample’s alignment id is logged as [ALIGNMENT_ID], reflecting its grouping in the study cohort.",
+        "The analysis shows that the sample’s alignment id has been entered as [ALIGNMENT_ID], marking its status within the study cohort.",
+        "Recorded as [ALIGNMENT_ID], the sample’s alignment id confirms, per the analysis, its inclusion in the study cohort.",
+        "The sample’s alignment id, noted as [ALIGNMENT_ID], is confirmed by the analysis to belong to the study cohort.",
+        "Based on the analysis, the sample’s alignment id is documented as [ALIGNMENT_ID], indicating its role in the study cohort.",
+        "The analysis validates that the sample’s alignment id equals [ALIGNMENT_ID], which identifies its classification in the study cohort.",
+        "In the analysis, the sample’s alignment id is listed as [ALIGNMENT_ID], showing its placement within the study cohort.",
+        "The study cohort assignment is evident from the sample’s alignment id, which the analysis records as [ALIGNMENT_ID].",
+        "Analysis results confirm the sample’s alignment id being [ALIGNMENT_ID], signifying its classification in the study cohort.",
+        "The sample’s alignment id is captured as [ALIGNMENT_ID] in the analysis, denoting its inclusion in the study cohort.",
+        "From the analysis we learn that the sample’s alignment id is [ALIGNMENT_ID], marking its classification within the study cohort.",
+        "The analysis indicates that the sample’s alignment id is set to [ALIGNMENT_ID], reflecting its cohort classification in the study."
+      ],
+      "counter_variations": [
+        "According to the report, the sample’s alignment id is not specified, thereby indicating an unresolved classification within the present research cohort.",
+        "The report reveals that the alignment id for the sample remains not specified, which reflects a classification that has yet to be resolved in the current cohort of the study.",
+        "In the current research cohort, the sample’s alignment id is noted as not specified in the report, suggesting an ongoing ambiguity in its classification.",
+        "The data report states that the alignment id associated with the sample is not specified, highlighting an unresolved classification issue within this cohort.",
+        "Within the present study’s cohort, the report flags the sample’s alignment id as not specified, underscoring a classification that remains unresolved.",
+        "The report documents that the sample’s alignment id is not specified, a circumstance that mirrors an unresolved classification in the ongoing research cohort.",
+        "Not specified in the report, the alignment id of the sample points to an unresolved classification within the current research cohort.",
+        "The alignment id for the sample, as indicated by the report, is not specified, reflecting the persistence of an unresolved classification in the cohort under investigation.",
+        "In this cohort’s research report, the sample’s alignment id is recorded as not specified, thereby signifying an unresolved classification.",
+        "The report’s findings denote that the sample’s alignment id is not specified, which aligns with an unresolved classification across the current research cohort.",
+        "Given that the report marks the sample’s alignment id as not specified, the classification remains unresolved within the present research cohort.",
+        "The sample’s alignment id is not specified according to the report, a fact that underscores an unresolved classification within the current cohort.",
+        "As the report indicates, the alignment id of the sample is not specified, revealing an unresolved classification among participants in the current research cohort.",
+        "The research cohort’s report notes the sample’s alignment id as not specified, thereby exposing an unresolved classification issue.",
+        "Because the report lists the sample’s alignment id as not specified, the classification remains unresolved within the current research cohort."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "classification": [
+          "classification",
+          "sorting",
+          "categorization",
+          "categorisation"
+        ],
+        "study": [
+          "study",
+          "survey",
+          "subject",
+          "field"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "alignment": [
+          "alignment"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "cohort": [
+          "cohort"
+        ],
+        "indicating": [
+          "indicating"
+        ],
+        "analysis": [
+          "analysis"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The superhero's height_cm of 188 contributes significantly to their commanding presence and formidable abilities in the comic book world.",
+      "template_pattern": "The superhero's height_cm of [HEIGHT_CM] contributes significantly to their commanding presence and formidable abilities in the comic book world.",
+      "primary_data_fields": [
+        "height_cm"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's height cm of [HEIGHT_CM] markedly enhances their imposing presence and strong capabilities in the world of comics.",
+        "With a height cm of [HEIGHT_CM], the superhero projects a commanding aura and exhibits formidable powers throughout comic book narratives.",
+        "A height cm of [HEIGHT_CM] contributes greatly to the superhero's dominant demeanor and impressive skill set in comic literature.",
+        "In comic books, the superhero's height cm of [HEIGHT_CM] underpins a powerful presence and mighty abilities.",
+        "The impressive height cm of [HEIGHT_CM] endows the superhero with a commanding stance and robust powers in the comic universe.",
+        "Because the superhero possesses a height cm of [HEIGHT_CM], their presence becomes commanding and their abilities formidable in the comic sphere.",
+        "A height cm of [HEIGHT_CM] is a key factor that makes the superhero's presence commanding and their abilities formidable in comic storylines.",
+        "The superhero, standing at a height cm of [HEIGHT_CM], commands attention and wields formidable abilities within the comic book world.",
+        "A towering height cm of [HEIGHT_CM] gives the superhero a dominant presence and exceptional abilities across comic book settings.",
+        "Within the realm of comics, the superhero's height cm of [HEIGHT_CM] significantly boosts both their commanding presence and their formidable skill set.",
+        "The superhero's height cm of [HEIGHT_CM] plays a vital role in shaping a commanding presence and powerful abilities in the comic book arena.",
+        "Owing to a height cm of [HEIGHT_CM], the superhero enjoys a commanding presence and formidable capabilities throughout the comic book domain.",
+        "The presence and abilities of the superhero are markedly enhanced by a height cm of [HEIGHT_CM] in the comic book world.",
+        "In the comic book world, a height cm of [HEIGHT_CM] makes the superhero's presence commanding and their abilities formidable.",
+        "The superhero's height cm of [HEIGHT_CM] is directly responsible for a commanding presence and formidable abilities in comic narratives."
+      ],
+      "counter_variations": [
+        "Because the participant's height cm is not specified, the precision of biometric analysis is constrained, highlighting the necessity for exhaustive measurement protocols within this study.",
+        "Although the height cm of the participant remains unspecified, this omission hampers exact biometric assessment and simultaneously underscores the imperative for comprehensive measurement procedures in the research.",
+        "The study notes that the participant's height cm, not available, restricts accurate biometric evaluation while emphasizing the importance of robust measurement guidelines.",
+        "Given that the participant's height cm is unknown, precise biometric analysis is impeded, thereby drawing attention to the need for thorough measurement standards in this investigation.",
+        "While the height cm for this participant is not specified, the resulting limitation on precise biometric analysis serves to stress the demand for complete measurement protocols throughout the study.",
+        "The lack of a height cm value, unspecified, curtails exact biometric analysis and, in turn, points to the critical requirement for comprehensive measurement frameworks in this research.",
+        "Since the participant's height cm remains unspecified, the capacity for precise biometric analysis is diminished, reinforcing the call for detailed measurement protocols in the study.",
+        "The omission of a height cm value—marked as not specified—limits the fidelity of biometric analysis and highlights the essential role of exhaustive measurement procedures in the project.",
+        "In this study, the participant's height cm, not available, curtails precise biometric computation, thereby underscoring the necessity for all‑encompassing measurement protocols.",
+        "Because the height cm of the participant is unknown, the ability to conduct precise biometric analysis is compromised, which in turn emphasizes the need for comprehensive measurement protocols.",
+        "The participant’s height cm, unspecified, hampers exact biometric analysis and simultaneously draws attention to the requirement for thorough measurement protocols in the current study.",
+        "With the participant's height cm not specified, the precision of biometric analysis suffers, prompting a stronger emphasis on implementing comprehensive measurement protocols.",
+        "Since the height cm data for the participant is not available, this gap limits the accuracy of biometric analysis and underlines the necessity for rigorous measurement protocols throughout the study.",
+        "Although the participant's height cm remains unknown, this missing datum constrains precise biometric analysis and highlights the imperative for comprehensive measurement procedures in the research.",
+        "Because the participant's height cm is not specified, the precision of biometric analysis is constrained, highlighting the necessity for comprehensive measurement protocols in this study."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "world": [
+          "world",
+          "globe",
+          "earth",
+          "Earth"
+        ],
+        "contributes": [
+          "contributes"
+        ],
+        "book": [
+          "book",
+          "volume",
+          "record",
+          "ledger",
+          "script"
+        ],
+        "significantly": [
+          "significantly",
+          "importantly"
+        ],
+        "commanding": [
+          "commanding",
+          "dominating"
+        ],
+        "their": [
+          "their"
+        ],
+        "presence": [
+          "presence",
+          "bearing",
+          "front",
+          "comportment",
+          "mien"
+        ],
+        "abilities": [
+          "abilities"
+        ]
+      },
+      "field_data_types": {
+        "height_cm": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The superhero's impressive weight of 90 weight_kg contributes significantly to their formidable strength and agility.",
+      "template_pattern": "The superhero's impressive weight of [WEIGHT_KG] weight_kg contributes significantly to their formidable strength and agility.",
+      "primary_data_fields": [
+        "weight_kg"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The superhero's [WEIGHT_KG] weight kg dramatically raises their strength and agility.",
+        "A [WEIGHT_KG] weight kg load gives the superhero a substantial edge in strength and agility.",
+        "Because the superhero possesses a [WEIGHT_KG] weight kg, their strength and agility are markedly enhanced.",
+        "With a [WEIGHT_KG] weight kg measurement, the superhero exhibits significantly greater strength and agility.",
+        "The superhero’s formidable strength and agility stem from a [WEIGHT_KG] weight kg body mass.",
+        "A [WEIGHT_KG] weight kg physique contributes heavily to the superhero’s impressive strength and agility.",
+        "Strength and agility are greatly boosted by the superhero’s [WEIGHT_KG] weight kg.",
+        "The superhero, weighing [WEIGHT_KG] weight kg, shows a pronounced increase in strength and agility.",
+        "Due to a [WEIGHT_KG] weight kg, the superhero enjoys heightened strength and agility.",
+        "The superhero's [WEIGHT_KG] weight kg is directly responsible for their powerful strength and agility.",
+        "Having a [WEIGHT_KG] weight kg endows the superhero with exceptional strength and agility.",
+        "The presence of a [WEIGHT_KG] weight kg makes the superhero’s strength and agility notably formidable.",
+        "A [WEIGHT_KG] weight kg contributes significantly to the superhero’s remarkable strength and agility.",
+        "The superhero’s considerable strength and agility are largely the result of a [WEIGHT_KG] weight kg.",
+        "Through a [WEIGHT_KG] weight kg, the superhero achieves a high level of strength and agility."
+      ],
+      "counter_variations": [
+        "Because the participant’s weight kg is not specified, the interpretation of the study’s physiological findings must be approached with particular caution.",
+        "Although the weight kg for the participant remains unspecified, this gap nevertheless obliges analysts to treat the physiological results with careful scrutiny.",
+        "The fact that the participant’s weight kg is not available compels researchers to exercise heightened diligence when drawing conclusions from the physiological data.",
+        "Given that the weight kg of the participant is unknown, one must nevertheless apply rigorous consideration to the study’s physiological outcomes.",
+        "Since the participant’s weight kg is not specified, careful deliberation is required in the appraisal of the physiological findings presented in the study.",
+        "While the participant’s weight kg is not provided, the necessity for cautious evaluation of the physiological findings remains undiminished.",
+        "Even though the weight kg for the participant is unspecified, scholars must still engage in careful analysis of the physiological data reported.",
+        "Because the participant’s weight kg is not available, the physiological conclusions of the study must be interpreted with deliberate caution.",
+        "If the weight kg of the participant is unknown, the study’s physiological outcomes nevertheless require careful and thoughtful consideration.",
+        "Although the participant’s weight kg is not specified, the research team must nonetheless apply stringent scrutiny to the physiological findings.",
+        "Since the weight kg of the participant remains unspecified, the study’s physiological observations must be examined with heightened caution.",
+        "When the participant’s weight kg is not provided, it remains essential to interpret the physiological findings with careful and systematic consideration.",
+        "Given that the weight kg for the participant is unknown, the analysis of the study’s physiological data must proceed with meticulous attention.",
+        "Although the participant's weight kg is not specified, researchers must nonetheless exercise caution when interpreting the study's physiological findings.",
+        "The weight kg of the participant remains unspecified, yet careful consideration is required in the interpretation of the physiological results of the study."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "impressive": [
+          "impressive"
+        ],
+        "weight": [
+          "weight",
+          "weightiness",
+          "weighting"
+        ],
+        "contributes": [
+          "contributes"
+        ],
+        "significantly": [
+          "significantly",
+          "importantly"
+        ],
+        "agility": [
+          "agility",
+          "nimbleness"
+        ],
+        "their": [
+          "their"
+        ],
+        "superhero": [
+          "superhero"
+        ],
+        "strength": [
+          "strength",
+          "durability",
+          "potency",
+          "force",
+          "forte",
+          "metier"
+        ]
+      },
+      "field_data_types": {
+        "weight_kg": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Within the research data report, the gender id is indicated as affirmative, confirming that the participant identifies with the designated gender category.",
+      "template_pattern": "The participant's gender id, recorded as [GENDER_ID], was used to analyze demographic trends across the study population.",
+      "primary_data_fields": [
+        "gender_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Researchers utilized the participant's gender id, noted as [GENDER_ID], to examine demographic trends within the study population.",
+        "The gender id of the participant, shown as [GENDER_ID], served as a basis for analyzing demographic patterns across the entire study cohort.",
+        "By referencing the participant's gender id ([GENDER_ID]), analysts assessed demographic trends throughout the study population.",
+        "Demographic trends across the study population were analyzed using the participant's gender id, recorded as [GENDER_ID].",
+        "Using the gender id recorded as [GENDER_ID] for each participant, the team investigated demographic trends in the study group.",
+        "The study population's demographic trends were examined with the participant's gender id, which is [GENDER_ID].",
+        "To explore demographic patterns in the study cohort, the researchers relied on the participant's gender id, captured as [GENDER_ID].",
+        "The participant's gender id—[GENDER_ID]—was employed to study demographic trends across the research population.",
+        "Analyses of demographic trends across the study participants were conducted using the gender id noted as [GENDER_ID].",
+        "In this research, the gender id of each participant, indicated by [GENDER_ID], informed the analysis of demographic trends.",
+        "The gender id, listed as [GENDER_ID] for the participant, provided the data needed to assess demographic trends across the study sample.",
+        "Using [GENDER_ID] as the participant's gender id, the investigators evaluated demographic trends throughout the study population.",
+        "The demographic trends of the study population were assessed by employing the participant's gender id, recorded as [GENDER_ID].",
+        "With the participant's gender id recorded as [GENDER_ID], demographic trends across the entire study group were analyzed.",
+        "Researchers analyzed demographic trends across the study population based on the participant's gender id, which appears as [GENDER_ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trends": [
+          "trends"
+        ],
+        "gender": [
+          "gender",
+          "sex"
+        ],
+        "across": [
+          "across",
+          "crosswise"
+        ],
+        "used": [
+          "used",
+          "secondhand",
+          "utilized",
+          "exploited"
+        ],
+        "study": [
+          "study",
+          "field",
+          "discipline",
+          "subject",
+          "survey",
+          "work"
+        ],
+        "demographic": [
+          "demographic"
+        ],
+        "population": [
+          "population",
+          "universe"
+        ],
+        "recorded": [
+          "recorded",
+          "registered",
+          "entered"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The identifier id is assigned the value 1, indicating that this entry uniquely corresponds to the primary subject within the research data report.",
+      "template_pattern": "The participant's id, recorded as [ID], uniquely identifies each subject within the research data report.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The participant's id, recorded as [ID], uniquely identifies each subject within the research data report.",
+        "Recorded as [ID], the participant's id serves as a unique identifier for every subject in the research data report.",
+        "Within the research data report, each subject is uniquely identified by the participant's id noted as [ID].",
+        "The id of the participant, noted as [ID], uniquely distinguishes each subject throughout the research data report.",
+        "Each subject in the research data report is uniquely marked by the participant's id, which is recorded as [ID].",
+        "A participant's id—recorded as [ID]—acts as a unique identifier for every subject in the research data report.",
+        "The research data report uses the participant's id, recorded as [ID], to uniquely identify each subject.",
+        "By recording the participant's id as [ID], the report uniquely tags each subject within the research data set.",
+        "The id, recorded as [ID] for each participant, uniquely points to individual subjects in the research data report.",
+        "In the research data report, the participant's id (recorded as [ID]) uniquely identifies every subject.",
+        "Each subject is uniquely identified in the research data report by the participant's id, which appears as [ID].",
+        "The participant’s id—captured as [ID]—provides a unique identifier for each subject within the research data report.",
+        "Within the research data report, the id of a participant, recorded as [ID], serves to uniquely identify each subject.",
+        "The research data report assigns a unique identifier to each subject via the participant's id recorded as [ID].",
+        "Each subject’s unique identification in the research data report comes from the participant's id recorded as [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "research": [
+          "research",
+          "inquiry",
+          "enquiry"
+        ],
+        "report": [
+          "report",
+          "account",
+          "paper",
+          "study",
+          "composition"
+        ],
+        "uniquely": [
+          "uniquely"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "identifies": [
+          "identifies"
+        ],
+        "within": [
+          "within",
+          "inside"
+        ],
+        "subject": [
+          "subject",
+          "field",
+          "case",
+          "theme",
+          "content",
+          "study"
+        ],
+        "data": [
+          "data",
+          "information"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The study’s race id, which uniquely identifies the participant group, is designated as 1, indicating its inclusion in the primary cohort.",
+      "template_pattern": "Each participant’s record includes a race ID, which is displayed as [RACE_ID] for reference in the analysis.",
+      "primary_data_fields": [
+        "race_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "In the analysis, the race ID appears as [RACE_ID] within each participant’s record.",
+        "Every participant’s record contains a race ID that is shown as [RACE_ID] for reference in the analysis.",
+        "The race ID, displayed as [RACE_ID], is included in each participant’s record for analytical reference.",
+        "For analytical purposes, each participant’s record lists a race ID, which shows up as [RACE_ID].",
+        "A race ID—shown as [RACE_ID]—is part of every participant’s record used in the analysis.",
+        "Each participant’s record lists a race ID; it is presented as [RACE_ID] for reference in the analysis.",
+        "In the analysis, the race ID is presented as [RACE_ID] in each participant’s record.",
+        "The record of each participant includes a race ID, and it is displayed as [RACE_ID] for reference in the analysis.",
+        "For reference in the analysis, the race ID appears as [RACE_ID] within each participant’s record.",
+        "Each participant’s record incorporates a race ID, which appears as [RACE_ID] for analysis reference.",
+        "A race ID is contained in each participant’s record and is shown as [RACE_ID] for analytical reference.",
+        "Within each participant’s record, the race ID is displayed as [RACE_ID] for use in the analysis.",
+        "The analysis references the race ID, displayed as [RACE_ID], that each participant’s record contains.",
+        "Each participant’s record has a race ID, presented as [RACE_ID] for reference in the analysis.",
+        "For the purpose of analysis, the race ID in each participant’s record is shown as [RACE_ID]."
+      ],
+      "counter_variations": [
+        "The participant’s race id is recorded as not specified, indicating that this demographic detail was unavailable for inclusion in the analysis.",
+        "Recorded as not specified, the participant’s race id signals that this particular demographic variable could not be incorporated into the analysis.",
+        "Because the participant’s race id appears as not specified, the dataset lacks this demographic information for analytical purposes.",
+        "In the data file, the participant’s race id is listed as not specified, which denotes the absence of this demographic characteristic from the analysis.",
+        "The research report notes the participant’s race id as not specified, thereby reflecting the unavailability of that demographic element for statistical evaluation.",
+        "Since the participant’s race id is marked not specified, the corresponding demographic field was excluded from the analytical cohort.",
+        "The participant’s race id, shown as not specified, reveals that this demographic attribute was missing and thus omitted from the analysis.",
+        "With the participant’s race id entered as not specified, analysts were unable to factor this demographic variable into the study’s results.",
+        "The dataset indicates the participant’s race id as not specified, a designation that underscores the lack of this demographic data in the analysis.",
+        "Given that the participant’s race id is not specified, the associated demographic information could not be utilized in the analytical framework.",
+        "The participant’s race id is flagged as not specified, which conveys that this demographic piece of information was not available for inclusion in the analysis.",
+        "As the participant’s race id is recorded as not specified, the demographic component it represents was omitted from the analytical process.",
+        "The entry for the participant’s race id reads not specified, implying that this demographic detail was absent from the analysis dataset.",
+        "Because the participant’s race id is labeled not specified, the researchers were compelled to treat this demographic variable as missing in the analysis.",
+        "The participant’s race id appears as not specified, indicating that the corresponding demographic data could not be incorporated into the analysis."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "record": [
+          "record",
+          "register",
+          "enter",
+          "book"
+        ],
+        "reference": [
+          "reference",
+          "citation",
+          "source",
+          "mention",
+          "quotation"
+        ],
+        "displayed": [
+          "displayed"
+        ],
+        "analysis": [
+          "analysis"
+        ],
+        "includes": [
+          "includes"
+        ],
+        "which": [
+          "which"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "participant": [
+          "participant"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    },
+    {
+      "original": "The participant’s skin colour id is recorded as 1, indicating the presence of the specified characteristic within the research dataset.",
+      "template_pattern": "The participant’s skin colour id, recorded as [SKIN_COLOUR_ID], indicates the categorical classification used for demographic analysis.",
+      "primary_data_fields": [
+        "skin_colour_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Recorded as [SKIN_COLOUR_ID], the participant’s skin colour id reveals the categorical classification applied in demographic analysis.",
+        "The participant’s skin colour id, with the code [SKIN_COLOUR_ID], serves as the categorical classification for demographic analysis.",
+        "For demographic analysis, the categorical classification is indicated by the participant’s skin colour id, noted as [SKIN_COLOUR_ID].",
+        "In the dataset, the participant’s skin colour id appears as [SKIN_COLOUR_ID] and denotes the categorical classification used for demographic analysis.",
+        "The categorical classification used in demographic analysis is signaled by the participant’s skin colour id, which is recorded as [SKIN_COLOUR_ID].",
+        "A participant’s skin colour id, shown as [SKIN_COLOUR_ID], identifies the categorical classification employed for demographic analysis.",
+        "Demographic analysis relies on the categorical classification indicated by the participant’s skin colour id, listed as [SKIN_COLOUR_ID].",
+        "The skin colour id of the participant, captured as [SKIN_COLOUR_ID], marks the categorical classification for demographic analysis.",
+        "With [SKIN_COLOUR_ID] as its value, the participant’s skin colour id conveys the categorical classification used in demographic analysis.",
+        "The participant’s skin colour id—recorded as [SKIN_COLOUR_ID]—functions as the categorical classification in demographic analysis.",
+        "In demographic analysis, the categorical classification is derived from the participant’s skin colour id, which bears the identifier [SKIN_COLOUR_ID].",
+        "The identifier [SKIN_COLOUR_ID] attached to a participant’s skin colour id indicates the categorical classification for demographic analysis.",
+        "For each participant, the skin colour id recorded as [SKIN_COLOUR_ID] signals the categorical classification applied in demographic analysis.",
+        "The participant’s skin colour id, assigned the value [SKIN_COLOUR_ID], reflects the categorical classification used for demographic analysis.",
+        "By noting the participant’s skin colour id as [SKIN_COLOUR_ID], researchers identify the categorical classification employed in demographic analysis."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "classification": [
+          "classification",
+          "assortment",
+          "sorting",
+          "categorization",
+          "compartmentalization",
+          "compartmentalisation"
+        ],
+        "indicates": [
+          "indicates",
+          "show",
+          "suggest",
+          "signal",
+          "point",
+          "designate"
+        ],
+        "colour": [
+          "colour",
+          "color",
+          "coloration",
+          "colouration",
+          "colouring",
+          "coloring"
+        ],
+        "used": [
+          "used",
+          "utilized",
+          "utilise",
+          "employed",
+          "applied",
+          "secondhand"
+        ],
+        "demographic": [
+          "demographic"
+        ],
+        "categorical": [
+          "categorical",
+          "unconditional"
+        ],
+        "recorded": [
+          "recorded"
+        ],
+        "analysis": [
+          "analysis"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

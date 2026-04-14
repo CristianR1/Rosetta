@@ -1,0 +1,46 @@
+{
+  "database": "financial",
+  "table": "trans",
+  "entry_index": 0,
+  "original_data": {
+    "trans_id": "1",
+    "account_id": "1",
+    "date": "1995-03-24",
+    "type": "PRIJEM",
+    "operation": "VKLAD",
+    "amount": "1000",
+    "balance": "1000",
+    "k_symbol": "NULL",
+    "bank": "NULL",
+    "account": "NULL"
+  },
+  "generated_sentences": [
+    "Each financial transaction is uniquely identified for effective tracking and management within the payment history system. (Hash: a53351f0473d4284)",
+    "Each financial account is assigned a unique identifier, allowing for efficient tracking and management of its associated transactions and customer information. (Hash: 74fcca007755448d)",
+    "On 1995-03-24, a significant financial transaction occurred, marking an important point in the chronological analysis of payment history. (Hash: 44d16ad5d170426a)",
+    "The latest financial report shows that the transaction type is PRIJEM, indicating a specific category of financial activity. (Hash: 066e1fc346254b88)",
+    "The recent transaction was categorized as an operation VKLAD, indicating a deposit activity within the financial records. (Hash: 0498f2af003f47d4)",
+    "Each transaction in the customer's account history reflects a financial activity with an amount of 1000. (Hash: c0d7a03e7bb04d1f)",
+    "Jane's account has a balance of 1000, reflecting her careful management of her financial transactions. (Hash: 3c82ee9c08b944df)",
+    "The key symbol for this financial transaction is not specified, making it difficult to track and categorize the payment history. (Hash: bb845a7f79be4c1c)",
+    "The name of the financial institution involved in the transaction is not available. (Hash: e739af93710e472b)",
+    "The unique identifier for the customer's financial account is currently not available. (Hash: 9abefdb0f3c44171)"
+  ],
+  "null_mode": "implicit",
+  "binary_mode": "implicit",
+  "data_noise_ratio": "1:0",
+  "tbd_columns": [],
+  "hash_to_column": {
+    "a53351f0473d4284": "trans_id",
+    "74fcca007755448d": "account_id",
+    "44d16ad5d170426a": "date",
+    "066e1fc346254b88": "type",
+    "0498f2af003f47d4": "operation",
+    "c0d7a03e7bb04d1f": "amount",
+    "3c82ee9c08b944df": "balance",
+    "bb845a7f79be4c1c": "k_symbol",
+    "e739af93710e472b": "bank",
+    "9abefdb0f3c44171": "account"
+  },
+  "timestamp": "2026-03-31 19:59:08"
+}

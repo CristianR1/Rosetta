@@ -1,0 +1,557 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "b19831611d164142": "raceId",
+    "9512aa218860449c": "year",
+    "4b9ca4db4e014dc3": "round",
+    "5b4d6b20b775459e": "circuitId",
+    "13bf82a1cab345e9": "name",
+    "5e96b323c2f14f8c": "date",
+    "150a37167e61432d": "time",
+    "ae386a05c08a4e8f": "url"
+  },
+  "templates": [
+    {
+      "original": "The raceId 2 marks a significant event in the history of Formula 1 racing.",
+      "template_pattern": "The raceId [RACEID] marks a significant event in the history of Formula 1 racing.",
+      "primary_data_fields": [
+        "raceId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The raceId [RACEID] represents a landmark moment in Formula 1 history.",
+        "In the annals of Formula 1 racing, raceId [RACEID] stands out as a pivotal event.",
+        "A significant milestone in Formula 1 racing is marked by raceId [RACEID].",
+        "RaceId [RACEID] is recognized as a major event within the history of Formula 1.",
+        "Within Formula 1's historical timeline, raceId [RACEID] denotes an important occurrence.",
+        "The event denoted by raceId [RACEID] holds great significance for Formula 1 racing.",
+        "Formula 1 racing’s heritage includes the noteworthy raceId [RACEID].",
+        "Considered a turning point, raceId [RACEID] highlights an essential chapter of Formula 1.",
+        "An important episode in Formula 1’s past is identified by raceId [RACEID].",
+        "RaceId [RACEID] has been cited as a crucial incident in the saga of Formula 1 racing.",
+        "The history of Formula 1 racing is punctuated by the notable raceId [RACEID].",
+        "Marked by raceId [RACEID], a key event shapes the narrative of Formula 1.",
+        "Formula 1 racing records a major moment with raceId [RACEID].",
+        "The notable raceId [RACEID] underscores a significant phase in Formula 1 history.",
+        "In Formula 1 racing chronicles, raceId [RACEID] is highlighted as a momentous event."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "racing": [
+          "racing"
+        ],
+        "event": [
+          "event"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "recipe",
+          "pattern"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "marks": [
+          "marks"
+        ]
+      },
+      "field_data_types": {
+        "raceId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The thrilling Formula 1 race in 2009 marked a significant year in the history of the sport.",
+      "template_pattern": "The thrilling Formula 1 race in [YEAR] marked a significant year in the history of the sport.",
+      "primary_data_fields": [
+        "year"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The exhilarating Formula 1 race of [YEAR] signaled a pivotal year in the sport’s history.",
+        "In [YEAR], the thrilling Formula 1 competition marked a landmark year for the sport’s historical record.",
+        "A momentous year for the sport’s history was set by the [YEAR] Formula 1 race, which was truly thrilling.",
+        "The sport’s history recorded [YEAR] as a significant year, highlighted by an electrifying Formula 1 race.",
+        "Marking a notable year in the sport’s chronicles, the [YEAR] Formula 1 race was absolutely thrilling.",
+        "[YEAR] stands out as a key year in the sport’s past, thanks to the exciting Formula 1 race that year.",
+        "The [YEAR] Formula 1 event, a thrilling showcase, defined a crucial year in the sport’s history.",
+        "A thrilling Formula 1 race in [YEAR] has been identified as a significant year within the sport’s legacy.",
+        "The sport’s historical timeline notes [YEAR] as a remarkable year, underscored by a thrilling Formula 1 race.",
+        "Highlighting a pivotal year, the [YEAR] Formula 1 race delivered a thrilling experience for the sport’s history.",
+        "The [YEAR] Formula 1 contest, charged with excitement, marked a significant year in the sport’s annals.",
+        "Recognized as a standout year in the sport’s history, the [YEAR] Formula 1 race was truly thrilling.",
+        "A thrilling showdown on the Formula 1 circuit in [YEAR] cemented a notable year in the sport’s heritage.",
+        "In the annals of the sport, [YEAR] is recorded as a significant year, thanks to the exhilarating Formula 1 race.",
+        "The [YEAR] Formula 1 race, brimming with thrill, signified an important year in the sport’s historical record."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "significant": [
+          "significant",
+          "important",
+          "substantial"
+        ],
+        "marked": [
+          "marked",
+          "pronounced"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "sport": [
+          "sport",
+          "athletics",
+          "fun",
+          "play"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "convention",
+          "pattern"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle"
+        ],
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ]
+      },
+      "field_data_types": {
+        "year": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 championship intensified as the racers geared up for the excitement of round 2.",
+      "template_pattern": "The Formula 1 championship intensified as the racers geared up for the excitement of round [ROUND].",
+      "primary_data_fields": [
+        "round"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Formula 1 championship grew more intense while the drivers prepared for the thrill of round [ROUND].",
+        "As the racers readied themselves for the excitement of round [ROUND], the Formula 1 championship became increasingly fierce.",
+        "Intensification marked the Formula 1 championship as competitors geared up for round [ROUND]’s excitement.",
+        "The excitement of round [ROUND] spurred the racers, causing the Formula 1 championship to heighten its intensity.",
+        "With round [ROUND] looming, the Formula 1 championship escalated as racers braced for the upcoming excitement.",
+        "The Formula 1 championship saw its intensity rise as participants geared up for the excitement associated with round [ROUND].",
+        "Round [ROUND]’s anticipated excitement prompted racers to gear up, thereby intensifying the Formula 1 championship.",
+        "As round [ROUND] approached, the Formula 1 championship intensified while the racers readied for the excitement.",
+        "The racers’ preparation for the excitement of round [ROUND] amplified the intensity of the Formula 1 championship.",
+        "In anticipation of round [ROUND]’s excitement, the Formula 1 championship became more intense as the racers geared up.",
+        "The Formula 1 championship was heightened as racers prepared for the excitement surrounding round [ROUND].",
+        "While the racers geared up for the excitement of round [ROUND], the Formula 1 championship intensified markedly.",
+        "The upcoming excitement of round [ROUND] saw racers gearing up, which in turn intensified the Formula 1 championship.",
+        "Intensified the Formula 1 championship as the racers got ready for the excitement of round [ROUND].",
+        "The Formula 1 championship’s intensity grew as the racers geared up for the excitement of round [ROUND]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "intensified": [
+          "intensified"
+        ],
+        "geared": [
+          "geared"
+        ],
+        "championship": [
+          "championship",
+          "title"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "pattern"
+        ],
+        "racers": [
+          "racers"
+        ],
+        "excitement": [
+          "excitement",
+          "exhilaration",
+          "fervor",
+          "fervour",
+          "excitation"
+        ]
+      },
+      "field_data_types": {
+        "round": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 racing circuit with circuitId 2 is renowned for its challenging turns and rich history in the sport.",
+      "template_pattern": "The Formula 1 racing circuit with circuitId [CIRCUITID] is renowned for its challenging turns and rich history in the sport.",
+      "primary_data_fields": [
+        "circuitId"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Formula 1 racing circuit identified by circuitId [CIRCUITID] is famed for its demanding turns and its deep‑rooted history in the sport.",
+        "Renowned for its tough bends and long‑standing heritage, the Formula 1 track bearing circuitId [CIRCUITID] stands out in the sport.",
+        "With circuitId [CIRCUITID], the Formula 1 racing venue is celebrated for the difficulty of its corners and its extensive sporting legacy.",
+        "The sport’s history‑rich Formula 1 circuit, circuitId [CIRCUITID], is noted for its challenging twists.",
+        "Known for arduous turns and a storied past, the Formula 1 circuit marked as circuitId [CIRCUITID] holds a special place in racing.",
+        "CircuitId [CIRCUITID] designates a Formula 1 racing track that is acclaimed for its tricky turns and its rich history within the sport.",
+        "The Formula 1 track, circuitId [CIRCUITID], enjoys a reputation built on demanding corners and a venerable history in the sport.",
+        "Challenging bends and a deep heritage define the Formula 1 circuit listed as circuitId [CIRCUITID].",
+        "In the world of racing, the Formula 1 circuit with circuitId [CIRCUITID] is distinguished by its tough turns and historic significance.",
+        "The Formula 1 racing circuit, circuitId [CIRCUITID], is celebrated for both its formidable curves and its long‑standing history in the sport.",
+        "Featuring circuitId [CIRCUITID], the Formula 1 circuit is praised for its rigorous turns and its rich sporting legacy.",
+        "The Formula 1 circuit bearing circuitId [CIRCUITID] gains renown from its demanding corners and its historic contribution to the sport.",
+        "With a reputation for tough turns and a historic background, the Formula 1 track identified by circuitId [CIRCUITID] stands out.",
+        "The circuit identified as circuitId [CIRCUITID], a Formula 1 venue, is famous for its challenging turns and its deep history in the sport.",
+        "Formula 1’s circuit with circuitId [CIRCUITID] is well‑known for its difficult bends and its extensive history within the sport."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "turns": [
+          "turns"
+        ],
+        "rich": [
+          "rich",
+          "robust",
+          "copious",
+          "fertile",
+          "plentiful",
+          "ample"
+        ],
+        "racing": [
+          "racing",
+          "speed"
+        ],
+        "circuit": [
+          "circuit",
+          "lap",
+          "circle"
+        ],
+        "sport": [
+          "sport",
+          "athletics",
+          "fun",
+          "play"
+        ],
+        "challenging": [
+          "challenging",
+          "ambitious"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "pattern",
+          "convention"
+        ],
+        "history": [
+          "history",
+          "account",
+          "chronicle",
+          "story"
+        ]
+      },
+      "field_data_types": {
+        "circuitId": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The excitement of the Formula 1 season reaches new heights every year with the thrilling Malaysian Grand Prix.",
+      "template_pattern": "The excitement of the Formula 1 season reaches new heights every year with the thrilling [NAME].",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every year, the thrill of the Formula 1 season climbs to new heights thanks to the exhilarating [NAME].",
+        "New heights are reached each year by the excitement of the Formula 1 season, driven by the thrilling [NAME].",
+        "The Formula 1 season’s excitement soars to unprecedented levels annually, propelled by the [NAME]’s thrill.",
+        "With the [NAME] adding its excitement, the Formula 1 season achieves greater heights each year.",
+        "Each year, the excitement surrounding the Formula 1 season is amplified to new heights by the [NAME].",
+        "The thrilling [NAME] pushes the Formula 1 season’s excitement to fresh heights every year.",
+        "New heights in excitement are attained annually for the Formula 1 season, courtesy of the [NAME].",
+        "Annually, the excitement of the Formula 1 season climbs to new peaks, fueled by the [NAME].",
+        "The excitement of the Formula 1 season is elevated each year by the lively [NAME].",
+        "Thanks to the [NAME], the Formula 1 season’s excitement reaches higher levels every year.",
+        "The [NAME]’s thrill lifts the excitement of the Formula 1 season to new heights each year.",
+        "Each year, the Formula 1 season experiences heightened excitement, driven by the captivating [NAME].",
+        "The excitement associated with the Formula 1 season ascends to new heights annually, thanks to the [NAME].",
+        "With each passing year, the Formula 1 season’s excitement escalates, propelled by the [NAME].",
+        "The [NAME] invigorates the Formula 1 season, sending its excitement to fresh heights every year."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "heights": [
+          "heights"
+        ],
+        "every": [
+          "every"
+        ],
+        "reaches": [
+          "reaches"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "convention",
+          "pattern"
+        ],
+        "season": [
+          "season"
+        ],
+        "excitement": [
+          "excitement",
+          "exhilaration",
+          "fervor",
+          "fervour",
+          "agitation",
+          "excitation"
+        ],
+        "thrilling": [
+          "thrilling",
+          "electrifying"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 race on 2009-04-05 was a pivotal event in that year's racing season.",
+      "template_pattern": "The Formula 1 race on [DATE] was a pivotal event in that year's racing season.",
+      "primary_data_fields": [
+        "date"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "On [DATE], the Formula 1 race proved to be a pivotal event in that year's racing season.",
+        "The racing season’s pivotal moment in that year's schedule came with the Formula 1 race on [DATE].",
+        "That year's racing calendar was marked by a pivotal event: the Formula 1 race held on [DATE].",
+        "A pivotal event in that year's season occurred when the Formula 1 race took place on [DATE].",
+        "The Formula 1 race on [DATE] stands out as a pivotal event within that year's season.",
+        "In that year's season, the Formula 1 race on [DATE] was a decisive, pivotal event.",
+        "The pivotal event of that year's racing schedule was the Formula 1 race dated [DATE].",
+        "[DATE] saw the Formula 1 race, which became a pivotal event for that year's racing season.",
+        "For that year's racing season, the Formula 1 race on [DATE] was identified as a pivotal event.",
+        "The Formula 1 race, held on [DATE], was regarded as a pivotal event of that year's racing season.",
+        "That year's racing season featured a pivotal event: the Formula 1 race on [DATE].",
+        "A pivotal occurrence in that year's season was the Formula 1 race that took place on [DATE].",
+        "The season's key moment in that year's calendar was the Formula 1 race on [DATE], a pivotal event.",
+        "On [DATE], the Formula 1 race emerged as a pivotal event in that year's racing season.",
+        "That year's racing season highlighted a pivotal event when the Formula 1 race occurred on [DATE]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "racing": [
+          "racing",
+          "race",
+          "rush",
+          "speed",
+          "run",
+          "hasten"
+        ],
+        "race": [
+          "race"
+        ],
+        "event": [
+          "event"
+        ],
+        "formula": [
+          "formula",
+          "expression",
+          "rule",
+          "recipe",
+          "pattern"
+        ],
+        "season": [
+          "season",
+          "flavor",
+          "flavour",
+          "temper"
+        ],
+        "pivotal": [
+          "pivotal"
+        ]
+      },
+      "field_data_types": {
+        "date": "date"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Formula 1 race event is scheduled to begin precisely at 09:00:00, setting the pace for an exciting day ahead.",
+      "template_pattern": "The Formula 1 race event is scheduled to begin precisely at [TIME], setting the pace for an exciting day ahead.",
+      "primary_data_fields": [
+        "time"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The Formula 1 race event will kick off exactly at [TIME], heralding an exhilarating day ahead.",
+        "Scheduled to start at [TIME], the Formula 1 race event promises a thrilling day to follow.",
+        "At precisely [TIME], the Formula 1 race event is set to commence, paving the way for an exciting day.",
+        "The start time for the Formula 1 race event is locked in at [TIME], ushering in a dynamic day.",
+        "With a start time of [TIME], the Formula 1 race event is poised to launch an action‑filled day.",
+        "The Formula 1 race event’s kickoff is slated for [TIME], setting the tone for a lively day.",
+        "Beginning at [TIME], the Formula 1 race event is arranged to spark an energetic day ahead.",
+        "The Formula 1 race will open precisely at [TIME], establishing momentum for an exciting day.",
+        "At the exact moment of [TIME], the Formula 1 race event is programmed to begin, driving a vibrant day.",
+        "The Formula 1 race event is scheduled to launch at [TIME], creating the rhythm for a thrilling day.",
+        "Commencing at [TIME], the Formula 1 race event is organized to set the pace for an exciting day.",
+        "The Formula 1 race event’s commencement time is [TIME], marking the start of an electrifying day.",
+        "Scheduled for a [TIME] start, the Formula 1 race event will set the tempo for an exciting day ahead.",
+        "The Formula 1 race event is planned to begin at exactly [TIME], establishing the beat for a dynamic day.",
+        "At [TIME] sharp, the Formula 1 race event is arranged to initiate an exhilarating day."
+      ],
+      "counter_variations": [
+        "Because the time is not specified, the precise coordination of subsequent activities in this professional data report is consequently hindered.",
+        "The professional data report suffers from hindered precise coordination of subsequent activities, a consequence of the time being not specified.",
+        "When the time remains not specified, the ability to coordinate subsequent activities precisely within this professional data report is adversely affected.",
+        "Given that the time is not specified, the report’s capacity for precise coordination of subsequent activities is consequently compromised.",
+        "A not specified time leads to a consequential hindrance in the precise coordination of later activities throughout this professional data report.",
+        "Since the time is not specified, the report encounters a consequential difficulty in precisely coordinating its subsequent activities.",
+        "The professional data report’s subsequent activities cannot be precisely coordinated because the time is not specified, which consequently creates a hindrance.",
+        "Owing to the time being not specified, the precise coordination of subsequent activities within this professional data report is inevitably hampered.",
+        "The fact that the time is not specified consequently hinders the precise coordination of subsequent activities within this professional data report.",
+        "Because the time is not specified, the precise coordination of subsequent activities in this professional data report is consequently hindered.",
+        "The professional data report encounters impaired scheduling of later tasks, as the time remains unspecified, thereby obstructing exact coordination.",
+        "With the time not available, the ability to synchronise forthcoming activities within this professional data report is consequently compromised.",
+        "Since the time is unknown, achieving accurate coordination of subsequent actions in this professional data report becomes problematic.",
+        "The unspecified time obstructs the exact alignment of later activities in this professional data report, resulting in coordination difficulties.",
+        "In this professional data report, the omission of a time, which is unspecified, leads to a consequential hindrance in precisely coordinating subsequent procedures."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "exciting": [
+          "exciting"
+        ],
+        "precisely": [
+          "precisely",
+          "exactly",
+          "just"
+        ],
+        "race": [
+          "race",
+          "run"
+        ],
+        "event": [
+          "event",
+          "case"
+        ],
+        "setting": [
+          "setting",
+          "context",
+          "background",
+          "circumstance",
+          "scene",
+          "place"
+        ],
+        "formula": [
+          "formula",
+          "rule",
+          "expression",
+          "recipe",
+          "pattern"
+        ],
+        "ahead": [
+          "ahead",
+          "forward",
+          "onward",
+          "leading",
+          "forwards"
+        ],
+        "begin": [
+          "begin",
+          "start",
+          "commence"
+        ]
+      },
+      "field_data_types": {
+        "time": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The details of the 2009 Malaysian Grand Prix can be explored further at http://en.wikipedia.org/wiki/2009_Malaysian_Grand_Prix.",
+      "template_pattern": "The details of the 2009 Malaysian Grand Prix can be explored further at [URL].",
+      "primary_data_fields": [
+        "url"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The url [URL] provides further details on the 2009 Malaysian Grand Prix.",
+        "Further information about the 2009 Malaysian Grand Prix can be found at the url [URL].",
+        "To explore the 2009 Malaysian Grand Prix in depth, visit the url [URL].",
+        "Detailed coverage of the 2009 Malaysian Grand Prix is available via the url [URL].",
+        "You may consult the url [URL] for more on the 2009 Malaysian Grand Prix.",
+        "The 2009 Malaysian Grand Prix details are accessible through the url [URL].",
+        "For additional insight into the 2009 Malaysian Grand Prix, refer to the url [URL].",
+        "A deeper look at the 2009 Malaysian Grand Prix can be obtained by opening the url [URL].",
+        "Access the url [URL] to learn more about the 2009 Malaysian Grand Prix.",
+        "More comprehensive information on the 2009 Malaysian Grand Prix is located at the url [URL].",
+        "The url [URL] leads to extensive data regarding the 2009 Malaysian Grand Prix.",
+        "If you seek further details on the 2009 Malaysian Grand Prix, the url [URL] will help.",
+        "Detailed statistics for the 2009 Malaysian Grand Prix are hosted at the url [URL].",
+        "To obtain more information about the 2009 Malaysian Grand Prix, navigate to the url [URL].",
+        "The url [URL] contains additional coverage of the 2009 Malaysian Grand Prix."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "explored": [
+          "explored"
+        ],
+        "wiki": [
+          "wiki"
+        ],
+        "http": [
+          "http",
+          "HTTP"
+        ],
+        "details": [
+          "details"
+        ],
+        "wikipedia": [
+          "wikipedia"
+        ],
+        "further": [
+          "further",
+          "advance",
+          "boost",
+          "promote",
+          "foster",
+          "encourage"
+        ]
+      },
+      "field_data_types": {
+        "url": "url"
+      },
+      "is_static": false
+    }
+  ]
+}

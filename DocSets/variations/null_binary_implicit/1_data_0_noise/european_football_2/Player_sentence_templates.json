@@ -1,0 +1,505 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "ce3ba96462ec4922": "id",
+    "ee3de074145e4d12": "player_api_id",
+    "abe8ffbc204143ec": "player_name",
+    "a3947553f6f347dd": "player_fifa_api_id",
+    "7c613b991f8e4f3a": "birthday",
+    "484c54f75959476f": "height",
+    "2532a2f7e20d4178": "weight"
+  },
+  "templates": [
+    {
+      "original": "The football player with player_api_id 505942 has consistently demonstrated exceptional skill on the European stage.",
+      "template_pattern": "The football player with player_api_id [PLAYER_API_ID] has consistently demonstrated exceptional skill on the European stage.",
+      "primary_data_fields": [
+        "player_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The footballer identified by player api id [PLAYER_API_ID] has repeatedly shown outstanding talent across Europe.",
+        "Outstanding skill on the European stage has been consistently displayed by the football player with player api id [PLAYER_API_ID].",
+        "With player api id [PLAYER_API_ID], the football athlete has continually exhibited remarkable ability throughout the European competitions.",
+        "Across the European arena, the football player bearing player api id [PLAYER_API_ID] consistently demonstrates exceptional prowess.",
+        "The player known as footballer, player api id [PLAYER_API_ID], repeatedly proves his superb skill on Europe's stage.",
+        "Consistent excellence on the European stage is a hallmark of the football player whose player api id [PLAYER_API_ID].",
+        "European football showcases the repeated exceptional skill of the player carrying player api id [PLAYER_API_ID].",
+        "The football player, player api id [PLAYER_API_ID], has habitually manifested top‑level talent on European grounds.",
+        "Demonstrating remarkable competence on European pitches, the footballer with player api id [PLAYER_API_ID] does so consistently.",
+        "On Europe's football stage, player api id [PLAYER_API_ID] has continuously delivered exceptional performance.",
+        "The football star, identified by player api id [PLAYER_API_ID], regularly impresses with superior skill across Europe.",
+        "Exceptional ability on the European stage is consistently exhibited by the football player labeled player api id [PLAYER_API_ID].",
+        "Repeatedly, the football player carrying player api id [PLAYER_API_ID] has shown extraordinary skill throughout Europe.",
+        "Across European matches, the football athlete with player api id [PLAYER_API_ID] consistently showcases outstanding talent.",
+        "The football player marked by player api id [PLAYER_API_ID] has constantly demonstrated high‑level skill on the European scene."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "stage": [
+          "stage",
+          "phase",
+          "level",
+          "degree"
+        ],
+        "consistently": [
+          "consistently",
+          "systematically"
+        ],
+        "player": [
+          "player",
+          "participant"
+        ],
+        "demonstrated": [
+          "demonstrated",
+          "establish",
+          "prove",
+          "attest",
+          "evidence",
+          "exhibit"
+        ],
+        "skill": [
+          "skill"
+        ],
+        "exceptional": [
+          "exceptional",
+          "special",
+          "exceeding",
+          "prodigious",
+          "surpassing"
+        ],
+        "football": [
+          "football"
+        ],
+        "european": [
+          "european",
+          "European"
+        ]
+      },
+      "field_data_types": {
+        "player_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Aaron Appindangoye has consistently demonstrated his skills and determination on the football field, making him a standout player.",
+      "template_pattern": "[PLAYER_NAME] has consistently demonstrated his skills and determination on the football field, making him a standout player.",
+      "primary_data_fields": [
+        "player_name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "player name [PLAYER_NAME] consistently showcases his skill and determination on the football field, earning him a reputation as a standout player.",
+        "On the football pitch, player name [PLAYER_NAME] repeatedly demonstrates both talent and resolve, marking him as a leading player.",
+        "The football field has repeatedly seen player name [PLAYER_NAME] display his abilities and perseverance, making him stand out among his peers.",
+        "Player name [PLAYER_NAME]’s continual demonstration of skill and grit on the football field has positioned him as a distinguished player.",
+        "Through persistent displays of competence and determination on the football field, player name [PLAYER_NAME] emerges as a standout player.",
+        "A standout player status is achieved by player name [PLAYER_NAME] thanks to his ongoing exhibition of skill and resolve on the football field.",
+        "On the football arena, player name [PLAYER_NAME]’s regular exhibition of talent and determination makes him a prominent player.",
+        "The consistent display of ability and perseverance by player name [PLAYER_NAME] on the football field cements his status as a standout player.",
+        "Player name [PLAYER_NAME] has repeatedly proven his skill and determination on the football field, securing his place as a top player.",
+        "By continually exhibiting his abilities and resolve on the football field, player name [PLAYER_NAME] is recognized as a standout player.",
+        "The football field repeatedly witnesses player name [PLAYER_NAME]’s skill and determination, which sets him apart as a leading player.",
+        "Player name [PLAYER_NAME]’s ongoing demonstration of talent and tenacity on the football field makes him a distinguished player.",
+        "Through constant demonstration of skill and determination on the football field, player name [PLAYER_NAME] stands out as a premier player.",
+        "On the football field, player name [PLAYER_NAME] consistently proves his abilities and resolve, earning him the label of standout player.",
+        "The regular showcase of skill and determination by player name [PLAYER_NAME] on the football field crowns him as a top‑tier player."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "consistently": [
+          "consistently",
+          "systematically"
+        ],
+        "standout": [
+          "standout"
+        ],
+        "demonstrated": [
+          "demonstrated",
+          "establish",
+          "prove",
+          "present",
+          "attest",
+          "evidence"
+        ],
+        "field": [
+          "field",
+          "area",
+          "discipline",
+          "subject",
+          "sphere",
+          "domain"
+        ],
+        "player": [
+          "player",
+          "participant",
+          "actor"
+        ],
+        "making": [
+          "making",
+          "build",
+          "realise",
+          "realize",
+          "fashioning",
+          "form"
+        ],
+        "skills": [
+          "skills"
+        ],
+        "football": [
+          "football"
+        ]
+      },
+      "field_data_types": {
+        "player_name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The player with the player_fifa_api_id 218353 has been recognized for his exceptional skills on the field.",
+      "template_pattern": "The player with the player_fifa_api_id [PLAYER_FIFA_API_ID] has been recognized for his exceptional skills on the field.",
+      "primary_data_fields": [
+        "player_fifa_api_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The player bearing the player fifa api id [PLAYER_FIFA_API_ID] was honored for his outstanding abilities on the pitch.",
+        "Recognized for his superb field performance, the player with player fifa api id [PLAYER_FIFA_API_ID] earned commendation.",
+        "A commendation was bestowed upon the player who holds player fifa api id [PLAYER_FIFA_API_ID] for his exceptional on‑field skill.",
+        "For his remarkable talents on the field, the athlete identified by player fifa api id [PLAYER_FIFA_API_ID] received recognition.",
+        "Player fifa api id [PLAYER_FIFA_API_ID] has been lauded for his extraordinary skills during matches.",
+        "The individual possessing player fifa api id [PLAYER_FIFA_API_ID] was acknowledged for his superior play on the field.",
+        "Exceptional on‑field abilities earned the player with player fifa api id [PLAYER_FIFA_API_ID] a formal acknowledgment.",
+        "In the report, the player carrying player fifa api id [PLAYER_FIFA_API_ID] is noted for his exceptional field skills.",
+        "His impressive performance on the pitch led to the player with player fifa api id [PLAYER_FIFA_API_ID] being recognized.",
+        "The player designated by player fifa api id [PLAYER_FIFA_API_ID] received recognition for his elite field capabilities.",
+        "Acknowledgment was given to the player who has player fifa api id [PLAYER_FIFA_API_ID] for his outstanding field talent.",
+        "For his top‑tier skills on the field, the player marked with player fifa api id [PLAYER_FIFA_API_ID] was singled out.",
+        "The player with player fifa api id [PLAYER_FIFA_API_ID] has been singled out for his exceptional abilities on the field.",
+        "Recognition was awarded to the player holding player fifa api id [PLAYER_FIFA_API_ID] because of his superb field performance.",
+        "Because of his extraordinary on‑field skill, the player possessing player fifa api id [PLAYER_FIFA_API_ID] was recognized."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "player": [
+          "player",
+          "participant",
+          "actor"
+        ],
+        "field": [
+          "field",
+          "study",
+          "area",
+          "discipline",
+          "subject",
+          "sphere"
+        ],
+        "recognized": [
+          "recognized",
+          "recognised",
+          "acknowledged",
+          "accepted"
+        ],
+        "exceptional": [
+          "exceptional",
+          "special",
+          "prodigious",
+          "surpassing",
+          "exceeding"
+        ],
+        "skills": [
+          "skills"
+        ]
+      },
+      "field_data_types": {
+        "player_fifa_api_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football player's birthday, noted as 1992-02-29 00:00:00, marks a unique leap year entry in his biographical timeline.",
+      "template_pattern": "The football player's birthday, noted as [BIRTHDAY], marks a unique leap year entry in his biographical timeline.",
+      "primary_data_fields": [
+        "birthday"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football player's birthday, recorded as [BIRTHDAY], represents a rare leap‑year occurrence in his life story.",
+        "Noted as [BIRTHDAY], the birthday of the football player highlights a singular leap‑year entry on his biographical timeline.",
+        "A unique leap‑year point in his biography is marked by the football player's birthday, listed as [BIRTHDAY].",
+        "The date [BIRTHDAY] appears as the football player's birthday, denoting an uncommon leap‑year milestone in his personal record.",
+        "In his biographical timeline, the football player's birthday—shown as [BIRTHDAY]—signifies a distinctive leap‑year entry.",
+        "The football player's birthday, with the timestamp [BIRTHDAY], serves as an exceptional leap‑year marker in his career profile.",
+        "Marking a rare leap‑year spot in his life narrative, the birthday of the football player is recorded as [BIRTHDAY].",
+        "As indicated by [BIRTHDAY], the football player's birthday constitutes a special leap‑year entry on his biographical timeline.",
+        "The football player's birthday—dated [BIRTHDAY]—adds a unique leap‑year element to his personal chronology.",
+        "A singular leap‑year instance in his biography is captured by the football player's birthday, which is noted as [BIRTHDAY].",
+        "The football player's birthday, cited as [BIRTHDAY], marks an uncommon leap‑year point within his biographical record.",
+        "Recorded as [BIRTHDAY], the birthday of the football player underscores a distinctive leap‑year entry in his timeline.",
+        "In his life timeline, the football player's birthday—listed as [BIRTHDAY]—represents a unique leap‑year occurrence.",
+        "The football player's birthday, shown as [BIRTHDAY], highlights a rare leap‑year slot in his biographical chronology.",
+        "With the date [BIRTHDAY], the football player's birthday denotes a special leap‑year entry on his personal timeline."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "biographical": [
+          "biographical",
+          "biographic"
+        ],
+        "player": [
+          "player",
+          "participant",
+          "actor"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "marks": [
+          "marks"
+        ],
+        "timeline": [
+          "timeline"
+        ],
+        "entry": [
+          "entry",
+          "introduction",
+          "submission",
+          "ingress",
+          "entrance",
+          "debut"
+        ],
+        "football": [
+          "football"
+        ],
+        "leap": [
+          "leap",
+          "jump",
+          "bound",
+          "spring"
+        ]
+      },
+      "field_data_types": {
+        "birthday": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Standing at a height of 182 centimeters, the player's physical presence is an asset on the football field.",
+      "template_pattern": "Standing at a height of [HEIGHT] centimeters, the player's physical presence is an asset on the football field.",
+      "primary_data_fields": [
+        "height"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "At a height of [HEIGHT] centimeters, the player’s physical presence gives the football team a distinct advantage on the football field.",
+        "The player's physical presence, coupled with a height of [HEIGHT] centimeters, serves as an asset on the football field.",
+        "With a height of [HEIGHT] centimeters, the player's physical presence proves valuable on the football field.",
+        "On the football field, the player's physical presence is bolstered by a height of [HEIGHT] centimeters.",
+        "A height of [HEIGHT] centimeters endows the player’s physical presence with an asset-like quality on the football field.",
+        "The football field benefits from the player's physical presence, which is reinforced by a height of [HEIGHT] centimeters.",
+        "Because the player stands at a height of [HEIGHT] centimeters, his physical presence becomes an asset on the football field.",
+        "Physical presence on the football field is an asset for the player, thanks to his height of [HEIGHT] centimeters.",
+        "The player's height of [HEIGHT] centimeters contributes to a physical presence that is an asset on the football field.",
+        "An asset on the football field is the player's physical presence, supported by a height of [HEIGHT] centimeters.",
+        "Thanks to a height of [HEIGHT] centimeters, the player's physical presence offers an advantage on the football field.",
+        "The player's physical presence, aided by a height of [HEIGHT] centimeters, is an asset on the football field.",
+        "On the football field, the player's height of [HEIGHT] centimeters translates into a valuable physical presence.",
+        "A height of [HEIGHT] centimeters makes the player's physical presence a valuable asset on the football field.",
+        "The player's physical presence is enhanced by a height of [HEIGHT] centimeters, making it an asset on the football field."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "physical": [
+          "physical"
+        ],
+        "player": [
+          "player",
+          "participant",
+          "actor"
+        ],
+        "standing": [
+          "standing"
+        ],
+        "field": [
+          "field",
+          "area",
+          "discipline",
+          "subject",
+          "domain",
+          "sphere"
+        ],
+        "asset": [
+          "asset",
+          "plus"
+        ],
+        "football": [
+          "football"
+        ],
+        "presence": [
+          "presence"
+        ],
+        "centimeters": [
+          "centimeters"
+        ]
+      },
+      "field_data_types": {
+        "height": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The football player weighs 187 kilograms, highlighting his substantial physical presence on the field.",
+      "template_pattern": "The football player weighs [WEIGHT] kilograms, highlighting his substantial physical presence on the field.",
+      "primary_data_fields": [
+        "weight"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The football player's weight is [WEIGHT] kilograms, underscoring his impressive physical presence on the field.",
+        "Weighing [WEIGHT] kilograms, the football player demonstrates a notable physical stature during play.",
+        "On the field, the football player carries a weight of [WEIGHT] kilograms, emphasizing his strong physical presence.",
+        "A weight of [WEIGHT] kilograms is recorded for the football player, highlighting his considerable presence on the field.",
+        "The football player, with a weight of [WEIGHT] kilograms, exhibits a substantial physical presence on the field.",
+        "His weight of [WEIGHT] kilograms makes the football player a dominant physical figure on the field.",
+        "The football player's weight of [WEIGHT] kilograms accentuates his significant presence in the field.",
+        "In the field, the football player’s weight—[WEIGHT] kilograms—points to his sizable physical presence.",
+        "A football player weighing [WEIGHT] kilograms is noted for his strong physical presence on the field.",
+        "The field sees a football player whose weight is [WEIGHT] kilograms, reflecting a hefty physical presence.",
+        "We observe a football player with a weight of [WEIGHT] kilograms, which highlights his robust presence on the field.",
+        "The weight of the football player, [WEIGHT] kilograms, signals a powerful physical presence on the field.",
+        "At [WEIGHT] kilograms, the football player's weight underscores his dominant physical presence in the field.",
+        "The football player, weighing [WEIGHT] kilograms, projects a substantial physical presence across the field.",
+        "With a weight of [WEIGHT] kilograms, the football player’s physical presence on the field is markedly significant."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "physical": [
+          "physical"
+        ],
+        "player": [
+          "player",
+          "participant"
+        ],
+        "field": [
+          "field",
+          "study",
+          "area",
+          "discipline",
+          "subject",
+          "sphere"
+        ],
+        "football": [
+          "football"
+        ],
+        "kilograms": [
+          "kilograms"
+        ],
+        "weighs": [
+          "weighs"
+        ],
+        "substantial": [
+          "substantial",
+          "significant",
+          "substantive",
+          "solid",
+          "material"
+        ],
+        "presence": [
+          "presence"
+        ]
+      },
+      "field_data_types": {
+        "weight": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The Id assigned to this entry is 1, establishing a unique reference that enables precise tracking throughout the professional data report.",
+      "template_pattern": "The identifier [ID] uniquely distinguishes each entry in the report and is essential for tracking purposes.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Each entry in the report is uniquely identified by the identifier [ID], which is vital for tracking purposes.",
+        "Uniquely distinguishing every report entry, the identifier [ID] is crucial for tracking purposes.",
+        "For tracking purposes, the identifier [ID] is essential and it uniquely separates each entry in the report.",
+        "The report’s entries are each uniquely marked by identifier [ID], making it indispensable for tracking.",
+        "Identifier [ID] serves to uniquely differentiate every entry in the report and remains key for tracking.",
+        "In the report, each entry is uniquely distinguished by identifier [ID]; this is essential for tracking.",
+        "Tracking relies on the essential identifier [ID], which uniquely distinguishes each report entry.",
+        "Each report entry is uniquely set apart by the identifier [ID], a component essential for tracking.",
+        "The identifier [ID] is essential for tracking purposes and uniquely separates each entry within the report.",
+        "Crucial for tracking, identifier [ID] uniquely distinguishes every entry in the report.",
+        "Every entry in the report is uniquely distinguished by identifier [ID], which is indispensable for tracking.",
+        "For the purpose of tracking, the identifier [ID] uniquely marks each entry in the report.",
+        "The report’s identifier [ID] uniquely differentiates each entry and is vital for tracking.",
+        "Uniquely separating each report entry, identifier [ID] is essential for tracking purposes.",
+        "Essential for tracking, the identifier [ID] uniquely identifies each entry in the report."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "report": [
+          "report",
+          "study",
+          "account",
+          "paper",
+          "composition"
+        ],
+        "essential": [
+          "essential",
+          "crucial",
+          "necessary",
+          "indispensable",
+          "requisite"
+        ],
+        "uniquely": [
+          "uniquely",
+          "unambiguously"
+        ],
+        "tracking": [
+          "tracking",
+          "trailing",
+          "tag"
+        ],
+        "entry": [
+          "entry",
+          "entrance",
+          "entryway",
+          "entranceway",
+          "ingress"
+        ],
+        "purposes": [
+          "purposes"
+        ],
+        "distinguishes": [
+          "distinguishes",
+          "differentiates",
+          "separates",
+          "identifies",
+          "recognizes",
+          "discerns"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ]
+      },
+      "field_data_types": {},
+      "is_static": false
+    }
+  ]
+}

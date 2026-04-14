@@ -1,0 +1,82 @@
+{
+  "models": {
+    "gpt-4o": {
+      "call_count": 11,
+      "input_tokens": 10390,
+      "output_tokens": 526,
+      "cost": 0.05984
+    }
+  },
+  "actual_cost": 0.05984,
+  "total_calls": 11,
+  "total_input_tokens": 10390,
+  "total_output_tokens": 526,
+  "duration_seconds": 274.416631,
+  "skipped_items": {
+    "descriptors": 798,
+    "reused_descriptors": 0,
+    "db_contexts": 0,
+    "table_contexts": 0,
+    "templates": 75,
+    "sentence_variations": 75,
+    "enhancements": 0
+  },
+  "local_llm_operations": {
+    "field_detection": 0,
+    "field_verification": 0,
+    "value_replacement": 0,
+    "counter_refinement": 0,
+    "date_extraction": 0,
+    "null_extraction": 0,
+    "binary_extraction": 0,
+    "misc_extraction": 0,
+    "complex_list_extraction": 0,
+    "structural_variations": 0,
+    "lexical_filter": 0,
+    "sentence_generation": 0,
+    "common_language_field": 0
+  },
+  "theoretical_savings": {
+    "gpt-4o": 1.875,
+    "gpt-4o-mini": 0.16758,
+    "local-llm": 0.0,
+    "total": 2.04258,
+    "breakdown": {
+      "skipped_descriptors": {
+        "count": 798,
+        "cost": 0.16758
+      },
+      "skipped_db_contexts": {
+        "count": 0,
+        "cost": 0.0
+      },
+      "skipped_table_contexts": {
+        "count": 0,
+        "cost": 0.0
+      },
+      "skipped_templates": {
+        "count": 75,
+        "cost": 1.875
+      },
+      "skipped_sentence_variations": {
+        "count": 75,
+        "cost": 0.0,
+        "note": "Local LLM (free)"
+      },
+      "skipped_enhancements": {
+        "count": 0,
+        "cost": 0.0
+      }
+    }
+  },
+  "total_theoretical_cost": 2.10242,
+  "timestamp": "2026-04-14T15:15:08.294239",
+  "config": {
+    "gpt4o_input_per_1m": 5.0,
+    "gpt4o_output_per_1m": 15.0,
+    "gpt4o_mini_input_per_1m": 0.15,
+    "gpt4o_mini_output_per_1m": 0.6,
+    "local_llm_input_per_1m": 0.0,
+    "local_llm_output_per_1m": 0.0
+  }
+}

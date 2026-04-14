@@ -1,0 +1,379 @@
+{
+  "document_context": "financial data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "6716c84032364aff": "order_id",
+    "e51a24fc699b4ed0": "account_id",
+    "3f2e7a553ad64154": "bank_to",
+    "2cd11af903ee4311": "account_to",
+    "4e7d892c5400456f": "amount",
+    "fb3a9a22c51f44bf": "k_symbol"
+  },
+  "templates": [
+    {
+      "original": "The banking service order identified by order_id 29401 was processed efficiently, ensuring seamless management of the financial transaction request.",
+      "template_pattern": "The banking service order identified by order_id [ORDER_ID] was processed efficiently, ensuring seamless management of the financial transaction request.",
+      "primary_data_fields": [
+        "order_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The banking service order with order id [ORDER_ID] was handled swiftly, guaranteeing smooth management of the financial transaction request.",
+        "Processing of the banking service order identified by order id [ORDER_ID] occurred efficiently, thereby facilitating seamless management of the financial transaction request.",
+        "Efficient processing of order id [ORDER_ID]'s banking service order ensured the financial transaction request was managed without disruption.",
+        "By processing the banking service order bearing order id [ORDER_ID] efficiently, we secured seamless handling of the financial transaction request.",
+        "The financial transaction request was managed seamlessly after the banking service order, order id [ORDER_ID], was processed promptly.",
+        "Having processed the banking service order—order id [ORDER_ID]—efficiently, the team ensured the financial transaction request flowed smoothly.",
+        "A swift and efficient processing of order id [ORDER_ID]’s banking service order guaranteed seamless management of the financial transaction request.",
+        "The banking service order, order id [ORDER_ID], underwent efficient processing, which assured smooth oversight of the financial transaction request.",
+        "Through efficient handling of the banking service order marked by order id [ORDER_ID], seamless management of the financial transaction request was achieved.",
+        "Order id [ORDER_ID]’s banking service order was processed with efficiency, ensuring the financial transaction request was managed seamlessly.",
+        "The banking service order, identified by order id [ORDER_ID], received efficient processing, thereby providing seamless management of the financial transaction request.",
+        "Efficient execution of the banking service order (order id [ORDER_ID]) led to the seamless administration of the financial transaction request.",
+        "With order id [ORDER_ID], the banking service order was processed efficiently, guaranteeing seamless management of the financial transaction request.",
+        "The financial transaction request benefited from seamless management after the banking service order, order id [ORDER_ID], was processed efficiently.",
+        "Processing the banking service order bearing order id [ORDER_ID] in an efficient manner ensured the financial transaction request was managed seamlessly."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "management": [
+          "management",
+          "direction"
+        ],
+        "seamless": [
+          "seamless"
+        ],
+        "efficiently": [
+          "efficiently",
+          "expeditiously"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "processed": [
+          "processed",
+          "refined"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "banking": [
+          "banking"
+        ]
+      },
+      "field_data_types": {
+        "order_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The account_id is 1.",
+      "template_pattern": "The account_id is [ACCOUNT_ID].",
+      "primary_data_fields": [
+        "account_id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The account id equals [ACCOUNT_ID].",
+        "Account id: [ACCOUNT_ID].",
+        "The value of the account id is [ACCOUNT_ID].",
+        "[ACCOUNT_ID] is the account id.",
+        "According to the report, the account id is [ACCOUNT_ID].",
+        "In the financial data, the account id is set to [ACCOUNT_ID].",
+        "The account id has been recorded as [ACCOUNT_ID].",
+        "It is noted that the account id is [ACCOUNT_ID].",
+        "The account id, at [ACCOUNT_ID], appears in the statement.",
+        "As indicated, the account id is [ACCOUNT_ID].",
+        "The account id was identified as [ACCOUNT_ID].",
+        "For this entry, the account id is [ACCOUNT_ID].",
+        "The account id reads [ACCOUNT_ID].",
+        "The account id, which is [ACCOUNT_ID], is listed in the document.",
+        "[ACCOUNT_ID] stands as the account id."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {},
+      "field_data_types": {
+        "account_id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The transaction was successfully directed to YZ, ensuring a smooth process at bank_to for all involved parties.",
+      "template_pattern": "The transaction was successfully directed to [BANK_TO], ensuring a smooth process at bank_to for all involved parties.",
+      "primary_data_fields": [
+        "bank_to"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction successfully reached [BANK_TO], guaranteeing a smooth process at bank to for every participant.",
+        "By directing the transaction to [BANK_TO], we ensured an uninterrupted workflow at bank to for all involved parties.",
+        "A smooth process at bank to for all parties was achieved when the transaction was efficiently routed to [BANK_TO].",
+        "The transaction was routed to [BANK_TO] with success, facilitating a seamless operation at bank to for each stakeholder.",
+        "Successfully sending the transaction to [BANK_TO] helped maintain an efficient process at bank to for everyone concerned.",
+        "When the transaction was directed to [BANK_TO], it secured a hassle‑free procedure at bank to for all involved.",
+        "The transaction’s successful direction to [BANK_TO] ensured that the process at bank to ran smoothly for all parties.",
+        "Ensuring a smooth workflow at bank to, the transaction was effectively channeled to [BANK_TO] for every participant.",
+        "With the transaction properly sent to [BANK_TO], the process at bank to proceeded without issues for all involved.",
+        "The smooth handling of the transaction at bank to was achieved by successfully directing it to [BANK_TO] for all parties.",
+        "By successfully steering the transaction toward [BANK_TO], a smooth process at bank to was guaranteed for all stakeholders.",
+        "The transaction’s successful delivery to [BANK_TO] contributed to an uninterrupted process at bank to for each involved party.",
+        "A smooth operation at bank to for all parties resulted from the transaction being efficiently directed to [BANK_TO].",
+        "Directing the transaction to [BANK_TO] proved successful, thereby ensuring a smooth process at bank to for every involved party.",
+        "The efficient routing of the transaction to [BANK_TO] ensured that bank to operated smoothly for all participants."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "smooth": [
+          "smooth",
+          "fluid",
+          "fluent"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "process": [
+          "process",
+          "operation",
+          "procedure",
+          "action"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "directed": [
+          "directed"
+        ],
+        "successfully": [
+          "successfully"
+        ],
+        "parties": [
+          "parties"
+        ],
+        "involved": [
+          "involved"
+        ]
+      },
+      "field_data_types": {
+        "bank_to": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The funds were successfully transferred to account number 87144583, ensuring the transaction was completed without any issues.",
+      "template_pattern": "The funds were successfully transferred to account number [ACCOUNT_TO], ensuring the transaction was completed without any issues.",
+      "primary_data_fields": [
+        "account_to"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The funds were successfully transferred to account to [ACCOUNT_TO], ensuring the transaction was completed without any issues.",
+        "Funds moved smoothly into account to [ACCOUNT_TO], and the transaction closed without any problems.",
+        "A successful transfer placed the money into account to [ACCOUNT_TO], resulting in a flawless transaction.",
+        "The amount was deposited into account to [ACCOUNT_TO], guaranteeing the transaction finished without glitches.",
+        "Without any hitches, the transfer routed the funds to account to [ACCOUNT_TO], completing the transaction.",
+        "Transfer of the funds to account to [ACCOUNT_TO] was accomplished flawlessly, and the transaction concluded without issues.",
+        "The money was sent to account to [ACCOUNT_TO], and the transaction wrapped up cleanly with no complications.",
+        "By moving the funds into account to [ACCOUNT_TO], the transaction was finalized without any trouble.",
+        "The transaction concluded without incident after the funds were transferred to account to [ACCOUNT_TO].",
+        "Successfully, the funds reached account to [ACCOUNT_TO], leaving the transaction error‑free.",
+        "The payment was directed to account to [ACCOUNT_TO], ensuring the transaction ended smoothly.",
+        "With the transfer to account to [ACCOUNT_TO] completed, the transaction proceeded without any setbacks.",
+        "The amount arrived in account to [ACCOUNT_TO], and the transaction was completed without a hitch.",
+        "Funds arrived at account to [ACCOUNT_TO], guaranteeing a seamless, issue‑free transaction.",
+        "The transfer to account to [ACCOUNT_TO] was executed successfully, resulting in a trouble‑free transaction."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "issues": [
+          "issues",
+          "takings"
+        ],
+        "funds": [
+          "funds",
+          "finances"
+        ],
+        "account": [
+          "account",
+          "report",
+          "invoice",
+          "bill"
+        ],
+        "completed": [
+          "completed",
+          "realized",
+          "realised",
+          "accomplished"
+        ],
+        "ensuring": [
+          "ensuring"
+        ],
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "transferred": [
+          "transferred"
+        ],
+        "successfully": [
+          "successfully"
+        ]
+      },
+      "field_data_types": {
+        "account_to": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "Each banking service order or transaction request involved a total amount of 2452 in the financial activity.",
+      "template_pattern": "Each banking service order or transaction request involved a total amount of [AMOUNT] in the financial activity.",
+      "primary_data_fields": [
+        "amount"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Every banking service order or transaction request accounted for a total amount of [AMOUNT] within the financial activity.",
+        "A total amount of [AMOUNT] was associated with each banking service order or transaction request in the financial activity.",
+        "In the financial activity, each banking service order or transaction request comprised a total amount of [AMOUNT].",
+        "Each banking service order or transaction request carried a total amount of [AMOUNT] in the financial activity.",
+        "The financial activity recorded a total amount of [AMOUNT] for every banking service order or transaction request.",
+        "For each banking service order or transaction request, the financial activity involved a total amount of [AMOUNT].",
+        "A total amount of [AMOUNT] featured in every banking service order or transaction request within the financial activity.",
+        "Each banking service order or transaction request was linked to a total amount of [AMOUNT] in the financial activity.",
+        "Within the financial activity, a total amount of [AMOUNT] pertained to each banking service order or transaction request.",
+        "The total amount of [AMOUNT] accompanied each banking service order or transaction request in the financial activity.",
+        "Each banking service order or transaction request saw a total amount of [AMOUNT] in the financial activity.",
+        "In the financial activity, a total amount of [AMOUNT] was present for each banking service order or transaction request.",
+        "Each banking service order or transaction request had a total amount of [AMOUNT] recorded in the financial activity.",
+        "The financial activity showed a total amount of [AMOUNT] for each banking service order or transaction request.",
+        "A total amount of [AMOUNT] was recorded against every banking service order or transaction request in the financial activity."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "transaction": [
+          "transaction",
+          "dealing"
+        ],
+        "each": [
+          "each",
+          "apiece"
+        ],
+        "activity": [
+          "activity",
+          "action"
+        ],
+        "banking": [
+          "banking"
+        ],
+        "financial": [
+          "financial",
+          "fiscal"
+        ],
+        "order": [
+          "order",
+          "grade",
+          "place",
+          "fiat",
+          "edict",
+          "decree"
+        ],
+        "service": [
+          "service",
+          "help"
+        ],
+        "request": [
+          "request",
+          "petition"
+        ]
+      },
+      "field_data_types": {
+        "amount": "float"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The transaction identified by the k_symbol SIPO was processed swiftly, ensuring a seamless banking experience for the customer.",
+      "template_pattern": "The transaction identified by the k_symbol [K_SYMBOL] was processed swiftly, ensuring a seamless banking experience for the customer.",
+      "primary_data_fields": [
+        "k_symbol"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The transaction bearing the k symbol [K_SYMBOL] was handled quickly, delivering a smooth banking experience to the customer.",
+        "Processing the k symbol [K_SYMBOL] transaction happened rapidly, guaranteeing the customer a seamless banking experience.",
+        "A fast processing of the transaction tagged with k symbol [K_SYMBOL] ensured the customer enjoyed an uninterrupted banking experience.",
+        "Swiftly processed, the transaction marked by k symbol [K_SYMBOL] provided the customer with a flawless banking experience.",
+        "Because the k symbol [K_SYMBOL] transaction was processed in a timely manner, the customer experienced seamless banking.",
+        "The customer received a seamless banking experience after the k symbol [K_SYMBOL] transaction was executed promptly.",
+        "By promptly handling the transaction identified as k symbol [K_SYMBOL], the bank ensured a smooth experience for the customer.",
+        "The bank’s rapid processing of the k symbol [K_SYMBOL] transaction secured a hassle‑free banking experience for the customer.",
+        "When the transaction with k symbol [K_SYMBOL] was processed swiftly, the customer's banking experience remained seamless.",
+        "A quick handling of the k symbol [K_SYMBOL] transaction resulted in an uninterrupted banking experience for the customer.",
+        "The k symbol [K_SYMBOL] transaction was dealt with speedily, guaranteeing the customer a seamless banking journey.",
+        "Ensuring a smooth banking experience for the customer, the k symbol [K_SYMBOL] transaction was processed without delay.",
+        "The rapid execution of the transaction bearing k symbol [K_SYMBOL] provided the customer with a seamless banking service.",
+        "Following the swift processing of the k symbol [K_SYMBOL] transaction, the customer enjoyed a flawless banking experience.",
+        "The transaction labeled k symbol [K_SYMBOL] was efficiently processed, which ensured the customer’s banking experience was seamless."
+      ],
+      "counter_variations": [
+        "According to the financial report, the k symbol is NULL, indicating the absence of a designated identifier while preserving data integrity.",
+        "The financial report records that the k symbol is NULL, thereby signifying that no designated identifier is present yet data integrity remains intact.",
+        "In the financial report, it is noted that the k symbol is NULL, a condition that denotes the lack of a designated identifier while maintaining data integrity.",
+        "The financial report observes the k symbol to be NULL, which conveys that a designated identifier is missing but data integrity is upheld.",
+        "Within the financial report, the k symbol is listed as NULL, reflecting an absence of a designated identifier while safeguarding data integrity.",
+        "The financial report indicates that the k symbol is NULL, an indication that a designated identifier does not exist, although data integrity is preserved.",
+        "As documented in the financial report, the k symbol is NULL, signaling an empty designated identifier field while the integrity of the data is retained.",
+        "The financial report states that the k symbol is NULL, implying that there is no designated identifier, yet data integrity is still maintained.",
+        "In the financial report, the k symbol appears as NULL, denoting the non‑existence of a designated identifier while the overall data integrity remains uncompromised.",
+        "The financial report highlights that the k symbol is NULL, which points to the lack of a designated identifier while preserving the integrity of the data set.",
+        "According to the financial report, the k symbol registers as NULL, meaning that a designated identifier is absent, though data integrity continues to be upheld.",
+        "The financial report reveals that the k symbol is NULL, a status that marks the omission of a designated identifier while ensuring data integrity.",
+        "Within the financial report, the k symbol is recorded as NULL, indicating that a designated identifier is not present, yet data integrity stays intact.",
+        "The financial report notes the k symbol as NULL, thereby indicating that a designated identifier is missing while data integrity is retained.",
+        "In the financial report, the k symbol is designated NULL, signifying the void of a designated identifier and simultaneously preserving data integrity."
+      ],
+      "null_variations": [],
+      "lexical_sets": {
+        "customer": [
+          "customer",
+          "client"
+        ],
+        "seamless": [
+          "seamless"
+        ],
+        "identified": [
+          "identified"
+        ],
+        "processed": [
+          "processed"
+        ],
+        "transaction": [
+          "transaction"
+        ],
+        "banking": [
+          "banking"
+        ],
+        "swiftly": [
+          "swiftly"
+        ],
+        "ensuring": [
+          "ensuring"
+        ]
+      },
+      "field_data_types": {
+        "k_symbol": "string"
+      },
+      "is_static": false
+    }
+  ]
+}

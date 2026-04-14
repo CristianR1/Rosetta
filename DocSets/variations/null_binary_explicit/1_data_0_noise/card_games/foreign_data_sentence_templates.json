@@ -1,0 +1,546 @@
+{
+  "document_context": "professional data report",
+  "tbd_columns": [],
+  "hash_to_replacement": {},
+  "hash_to_column": {
+    "65f69cdf58e2443c": "id",
+    "421bd31732a3425c": "flavorText",
+    "d5af34723dbd42ba": "language",
+    "67c9e8536537400b": "multiverseid",
+    "c86fa4e61e2946e1": "name",
+    "167921f7a06947fc": "text",
+    "66222505bd9e40d8": "type",
+    "3752216f8f04491a": "uuid"
+  },
+  "templates": [
+    {
+      "original": "The trading card's international version with identification number 1 is now available in multiple languages.",
+      "template_pattern": "The trading card's international version with identification number [ID] is now available in multiple languages.",
+      "primary_data_fields": [
+        "id"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The international edition of the trading card, bearing identification number [ID], is now offered in multiple languages.",
+        "Now available in multiple languages, the trading card’s international version carries identification number [ID].",
+        "Identification number [ID] identifies the trading card’s international version, which has become accessible in multiple languages.",
+        "Multiple languages are now supported for the trading card’s international version with identification number [ID].",
+        "The trading card, international version, identification number [ID], is presently released in multiple languages.",
+        "With identification number [ID], the international version of the trading card has been made available across multiple languages.",
+        "The international version of the trading card, identification number [ID], can now be obtained in multiple languages.",
+        "As of now, the trading card’s international version—identification number [ID]—is released in multiple languages.",
+        "The trading card’s international edition, identified by number [ID], is now provided in multiple languages.",
+        "Multiple languages now feature the trading card’s international version, which holds identification number [ID].",
+        "The trading card (international version, identification number [ID]) is currently available in multiple languages.",
+        "For the trading card’s international version with identification number [ID], multiple languages are now offered.",
+        "The international version of the trading card, featuring identification number [ID], has been launched in multiple languages.",
+        "Now the trading card’s international version, identification number [ID], can be accessed in multiple languages.",
+        "Multiple language support has been added to the trading card’s international version bearing identification number [ID]."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "languages": [
+          "languages"
+        ],
+        "available": [
+          "available",
+          "usable"
+        ],
+        "identification": [
+          "identification",
+          "designation"
+        ],
+        "multiple": [
+          "multiple"
+        ],
+        "international": [
+          "international"
+        ],
+        "version": [
+          "version",
+          "edition",
+          "variant"
+        ]
+      },
+      "field_data_types": {
+        "id": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card's flavorText reads, \"Es ist der Wille aller, und meine Hand, die ihn ausführt,\" adding depth to its mysterious allure.",
+      "template_pattern": "The card's flavorText reads, \"Es ist der Wille aller, und meine Hand, die ihn ausführt,\" adding depth to its mysterious allure.",
+      "primary_data_fields": [
+        "flavorText"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The card's flavorText states, [FLAVORTEXT],\" thereby enhancing its enigmatic charm.",
+        "Adding to its mysterious allure, the flavorText of the card reads, [FLAVORTEXT].",
+        "In the card's flavorText one finds the line, [FLAVORTEXT] which contributes depth to its cryptic appeal.",
+        "[FLAVORTEXT] appears in the flavorText of the card, lending further intrigue to its mystique.",
+        "The enigmatic allure of the card is deepened by its flavorText, which reads, [FLAVORTEXT],\".",
+        "By reading the card's flavorText—[FLAVORTEXT]—the audience perceives added depth to its mysterious charm.",
+        "The flavorText on the card, quoting [FLAVORTEXT], adds a layer of depth to its enigmatic allure.",
+        "With the flavorText stating [FLAVORTEXT], the card gains additional mysterious appeal.",
+        "The card’s flavorText, which says [FLAVORTEXT], augments its haunting allure.",
+        "A deeper sense of mystery is provided by the card’s flavorText reading [FLAVORTEXT].",
+        "The phrase [FLAVORTEXT] is found in the flavorText of the card, enriching its enigmatic allure.",
+        "Enriching its mystic pull, the card’s flavorText reads [FLAVORTEXT],\".",
+        "The card’s mysterious allure is amplified because its flavorText contains [FLAVORTEXT].",
+        "Because the flavorText of the card reads [FLAVORTEXT],\", its allure becomes more enigmatic.",
+        "[FLAVORTEXT]—the card’s flavorText— adds depth to its mysterious allure."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "adding": [
+          "adding",
+          "summate",
+          "tally",
+          "sum",
+          "append",
+          "total"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "allure": [
+          "allure"
+        ],
+        "depth": [
+          "depth",
+          "deepness",
+          "profundity"
+        ],
+        "reads": [
+          "reads"
+        ],
+        "mysterious": [
+          "mysterious",
+          "cryptic",
+          "inscrutable",
+          "secret",
+          "mystifying"
+        ]
+      },
+      "field_data_types": {
+        "flavorText": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card is printed in German, making it a unique addition for collectors who appreciate foreign languages.",
+      "template_pattern": "The trading card is printed in [LANGUAGE], making it a unique addition for collectors who appreciate foreign languages.",
+      "primary_data_fields": [
+        "language"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card is produced in [LANGUAGE], offering collectors a distinctive piece for those who value foreign languages.",
+        "Printed in [LANGUAGE], the trading card serves as a rare addition for collectors who cherish multilingual items.",
+        "Collectors who appreciate foreign languages will find the [LANGUAGE]‑printed trading card a unique collectible.",
+        "A unique collectible for language‑loving collectors, the trading card comes out in [LANGUAGE].",
+        "Because it is printed in [LANGUAGE], the trading card becomes a special find for enthusiasts of foreign tongues.",
+        "The [LANGUAGE] version of the trading card provides a singular option for collectors who enjoy non‑native languages.",
+        "For collectors who favor foreign languages, the trading card’s [LANGUAGE] printing makes it an exclusive addition.",
+        "The trading card, issued in [LANGUAGE], stands out as a special item for those who admire languages beyond their own.",
+        "Having been printed in [LANGUAGE], the trading card presents a unique opportunity for collectors who appreciate linguistic diversity.",
+        "If you collect items in foreign languages, the [LANGUAGE]‑printed trading card adds an uncommon element to your set.",
+        "The [LANGUAGE] language printing of the trading card renders it a distinctive addition for collectors who prize multilingualism.",
+        "Collectors who value foreign languages will consider the [LANGUAGE]‑printed trading card a noteworthy addition.",
+        "Since the trading card is available in [LANGUAGE], it offers a unique appeal to collectors with an interest in other languages.",
+        "The trading card’s [LANGUAGE] print makes it an exceptional piece for collectors who enjoy foreign language collectibles.",
+        "A trading card printed in [LANGUAGE] provides a one‑of‑a‑kind addition for collectors who are fond of languages beyond their own."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade"
+        ],
+        "making": [
+          "making",
+          "fashioning",
+          "devising"
+        ],
+        "addition": [
+          "addition",
+          "summation",
+          "increase",
+          "plus"
+        ],
+        "appreciate": [
+          "appreciate",
+          "value",
+          "prize"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "languages": [
+          "languages"
+        ],
+        "printed": [
+          "printed"
+        ],
+        "collectors": [
+          "collectors",
+          "aggregators",
+          "gatherers",
+          "accumulators"
+        ]
+      },
+      "field_data_types": {
+        "language": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card in question is identified by the multiverseid 148411, allowing collectors to easily reference it.",
+      "template_pattern": "The card in question is identified by the multiverseid [MULTIVERSEID], allowing collectors to easily reference it.",
+      "primary_data_fields": [
+        "multiverseid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors can readily reference the card, which bears the multiverseid [MULTIVERSEID].",
+        "Identified by multiverseid [MULTIVERSEID], the card in question is easily referenced by collectors.",
+        "The card, marked with multiverseid [MULTIVERSEID], enables collectors to reference it with ease.",
+        "With multiverseid [MULTIVERSEID] assigned, the card becomes simple for collectors to cite.",
+        "Because it carries multiverseid [MULTIVERSEID], the card can be quickly looked up by collectors.",
+        "The multiverseid [MULTIVERSEID] designates the card, facilitating straightforward reference for collectors.",
+        "Collectors find it simple to reference the card, thanks to its multiverseid [MULTIVERSEID].",
+        "By virtue of multiverseid [MULTIVERSEID], the card is readily identifiable for collector reference.",
+        "The card’s identification via multiverseid [MULTIVERSEID] allows collectors to reference it effortlessly.",
+        "Through multiverseid [MULTIVERSEID], the card is pinpointed, making collector reference easy.",
+        "The presence of multiverseid [MULTIVERSEID] on the card ensures collectors can easily cite it.",
+        "Having multiverseid [MULTIVERSEID], the card is instantly recognizable for collector reference.",
+        "For collectors, the card’s multiverseid [MULTIVERSEID] serves as a quick reference point.",
+        "The card’s multiverseid [MULTIVERSEID] labeling permits collectors to reference it without difficulty.",
+        "Because the card is tagged with multiverseid [MULTIVERSEID], collectors can reference it with minimal effort."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "reference": [
+          "reference",
+          "citation",
+          "source",
+          "mention"
+        ],
+        "easily": [
+          "easily"
+        ],
+        "allowing": [
+          "allowing"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "question": [
+          "question",
+          "query",
+          "inquiry",
+          "enquiry"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "identified": [
+          "identified"
+        ]
+      },
+      "field_data_types": {
+        "multiverseid": "int"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card known internationally as Ausgewählter der Ahnfrau is sought after by collectors for its unique abilities.",
+      "template_pattern": "The card known internationally as [NAME] is sought after by collectors for its unique abilities.",
+      "primary_data_fields": [
+        "name"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "Collectors covet the internationally recognized card [NAME] because of its distinctive abilities.",
+        "The card [NAME], known worldwide, attracts collectors seeking its singular powers.",
+        "Due to its unique abilities, the globally famed card [NAME] is highly desired by collectors.",
+        "Among collectors, the card [NAME] is prized for its one‑of‑a‑kind capabilities and its international reputation.",
+        "Collectors pursue the card [NAME], celebrated across borders for its exclusive powers.",
+        "Renowned internationally, the card [NAME] is actively hunted by collectors for its exceptional abilities.",
+        "Because of its unparalleled abilities, the card [NAME] enjoys strong demand among collectors worldwide.",
+        "The internationally known card [NAME] is sought out by collectors for its remarkable abilities.",
+        "Collectors seek the card [NAME], famed globally for its unique capabilities.",
+        "With its distinctive abilities, the card [NAME] is a coveted item for collectors around the world.",
+        "The card [NAME], celebrated internationally, draws collector interest due to its singular abilities.",
+        "Owing to its exceptional powers, the internationally recognized card [NAME] is pursued by collectors.",
+        "Collectors worldwide chase the card [NAME], prized for its exclusive abilities.",
+        "The unique abilities of the card [NAME] make it a sought‑after piece for collectors on an international scale.",
+        "Globally acknowledged as [NAME], the card is in high demand among collectors for its unique abilities."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "internationally": [
+          "internationally"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "collectors": [
+          "collectors"
+        ],
+        "sought": [
+          "sought"
+        ],
+        "abilities": [
+          "abilities"
+        ],
+        "known": [
+          "known"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "after": [
+          "after",
+          "subsequently",
+          "afterward",
+          "afterwards",
+          "later"
+        ]
+      },
+      "field_data_types": {
+        "name": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The card's foreign text ruling clearly states: Erstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.), defining its unique gameplay ability.",
+      "template_pattern": "The card's foreign text ruling clearly states: [TEXT], defining its unique gameplay ability.",
+      "primary_data_fields": [
+        "text"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The foreign text ruling of the card explicitly reads: [TEXT], thereby describing its distinctive gameplay ability.",
+        "According to the card's foreign text ruling, it states: [TEXT], which defines its unique gameplay ability.",
+        "In the foreign text ruling, the card declares: [TEXT], indicating its singular gameplay ability.",
+        "The card’s foreign text ruling specifies: [TEXT], outlining its special gameplay ability.",
+        "As noted in the foreign text ruling, the card reads: [TEXT], establishing its exclusive gameplay ability.",
+        "The foreign text ruling for this card says: [TEXT], which conveys its one‑of‑a‑kind gameplay ability.",
+        "Stated in the foreign text ruling, the card’s ability is: [TEXT], defining its unique gameplay function.",
+        "Within the foreign text ruling, the card pronounces: [TEXT], describing its distinctive gameplay capability.",
+        "The card’s foreign text ruling indicates: [TEXT], thereby highlighting its unique gameplay trait.",
+        "In the foreign text ruling, it is written: [TEXT], which specifies its special gameplay ability.",
+        "The foreign text ruling of the card mentions: [TEXT], clarifying its exclusive gameplay ability.",
+        "According to the foreign text ruling, the card notes: [TEXT], outlining its unique gameplay feature.",
+        "The card’s foreign text ruling reads: [TEXT], defining a distinct gameplay ability.",
+        "As per the foreign text ruling, the card states: [TEXT], signifying its unique gameplay ability.",
+        "The foreign text ruling declares: [TEXT], thereby describing the card’s singular gameplay ability."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "card": [
+          "card",
+          "scorecard",
+          "menu"
+        ],
+        "defining": [
+          "defining",
+          "shaping"
+        ],
+        "ability": [
+          "ability",
+          "power"
+        ],
+        "states": [
+          "states",
+          "countries",
+          "nations",
+          "provinces",
+          "commonwealths"
+        ],
+        "ruling": [
+          "ruling",
+          "decree",
+          "reign",
+          "rule"
+        ],
+        "clearly": [
+          "clearly",
+          "distinctly"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "gameplay": [
+          "gameplay"
+        ]
+      },
+      "field_data_types": {
+        "text": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The foreign type for this trading card is Kreatur — Mensch, Kleriker, highlighting its unique gameplay characteristics.",
+      "template_pattern": "The foreign type for this trading card is [TYPE], highlighting its unique gameplay characteristics.",
+      "primary_data_fields": [
+        "type"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "For this trading card, the foreign type is [TYPE], which emphasizes its unique gameplay characteristics.",
+        "This trading card’s foreign type, [TYPE], showcases its distinctive gameplay traits.",
+        "Highlighting its unique gameplay characteristics, the foreign type assigned to this trading card is [TYPE].",
+        "The card’s foreign type, [TYPE], underscores its singular gameplay features.",
+        "[TYPE] serves as the foreign type for this trading card, drawing attention to its unique gameplay characteristics.",
+        "In this trading card, the foreign type identified as [TYPE] highlights its distinct gameplay characteristics.",
+        "Unique gameplay characteristics are emphasized by the foreign type [TYPE] of this trading card.",
+        "This trading card’s foreign type, [TYPE], is noted for its unique gameplay characteristics.",
+        "The foreign type designated for this trading card, [TYPE], brings out its unique gameplay characteristics.",
+        "By featuring the foreign type [TYPE], this trading card displays unique gameplay characteristics.",
+        "[TYPE] is listed as the foreign type for this trading card, highlighting its unique gameplay characteristics.",
+        "The trading card’s foreign type, [TYPE], underscores its unique gameplay characteristics.",
+        "With the foreign type set to [TYPE], this trading card exhibits unique gameplay characteristics.",
+        "The foreign type for this trading card, [TYPE], serves to highlight its unique gameplay characteristics.",
+        "This card’s foreign type, identified as [TYPE], emphasizes its unique gameplay characteristics."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade",
+          "deal"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "characteristics": [
+          "characteristics"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unparalleled",
+          "unequaled",
+          "unequalled"
+        ],
+        "gameplay": [
+          "gameplay"
+        ],
+        "foreign": [
+          "foreign",
+          "alien"
+        ],
+        "highlighting": [
+          "highlighting"
+        ]
+      },
+      "field_data_types": {
+        "type": "string"
+      },
+      "is_static": false
+    },
+    {
+      "original": "The trading card with the uuid 5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c is highly sought after for its unique international version.",
+      "template_pattern": "The trading card with the uuid [UUID] is highly sought after for its unique international version.",
+      "primary_data_fields": [
+        "uuid"
+      ],
+      "foreign_data_fields": [],
+      "variations": [
+        "The trading card bearing uuid [UUID] is in great demand because of its distinctive international edition.",
+        "Because of its rare international release, the trading card with uuid [UUID] commands high interest.",
+        "Highly coveted for its exclusive international version, the trading card identified by uuid [UUID] draws collectors’ attention.",
+        "Collectors prize the trading card that carries uuid [UUID] due to its unique international variant.",
+        "Due to its singular international version, the trading card with uuid [UUID] is highly sought after.",
+        "The trading card, marked with uuid [UUID], enjoys high demand thanks to its one‑of‑a‑kind international edition.",
+        "Owing to its exclusive international version, the trading card associated with uuid [UUID] is greatly desired.",
+        "A trading card that possesses uuid [UUID] is notably sought after for its special international release.",
+        "The unique international version of the trading card (uuid [UUID]) makes it highly prized among collectors.",
+        "Highly prized for its distinct international version, the trading card bearing uuid [UUID] attracts strong interest.",
+        "Because it features a rare international edition, the trading card identified by uuid [UUID] is in high demand.",
+        "The trading card with uuid [UUID] is exceptionally sought after, owing to its unique international version.",
+        "Collectors highly desire the trading card carrying uuid [UUID] for its exclusive international variant.",
+        "Given its singular international version, the trading card that has uuid [UUID] sees strong collector interest.",
+        "The trading card (uuid [UUID]) is in great demand because of its unique international edition."
+      ],
+      "counter_variations": [],
+      "null_variations": [],
+      "lexical_sets": {
+        "trading": [
+          "trading",
+          "trade"
+        ],
+        "card": [
+          "card",
+          "scorecard"
+        ],
+        "highly": [
+          "highly",
+          "extremely"
+        ],
+        "sought": [
+          "sought"
+        ],
+        "international": [
+          "international"
+        ],
+        "unique": [
+          "unique",
+          "singular",
+          "unequalled",
+          "unparalleled",
+          "unequaled"
+        ],
+        "after": [
+          "after",
+          "subsequently",
+          "afterward",
+          "afterwards",
+          "later"
+        ],
+        "version": [
+          "version",
+          "edition",
+          "variant",
+          "adaptation",
+          "translation",
+          "rendering"
+        ]
+      },
+      "field_data_types": {
+        "uuid": "string"
+      },
+      "is_static": false
+    }
+  ]
+}
